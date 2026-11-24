@@ -14,7 +14,7 @@
    if(q.module!==m)fail('Wrong module');
    const buttons=[...document.querySelectorAll('[data-answer]')];
    if(buttons.length!==4)fail('Expected four choices');
-   const b=buttons.find(b=>(b.textContent.slice(1)===correct)===(j!==0));
+   const b=buttons.find(b=>(b.dataset.choiceValue===correct)===(j!==0));
    if(!b)fail('Missing answer');b.click();
    if(!document.querySelector('.answer-explanation')||document.querySelectorAll('[data-answer]:disabled').length!==4)fail('Missing answer feedback');
    document.querySelector('[data-next]').click();

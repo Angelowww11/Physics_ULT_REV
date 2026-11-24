@@ -2,10 +2,10 @@
 
 The PDFs use different air temperatures and slightly different material values. Read the conditions before choosing a density.
 
-| Material or condition | Density in the source, kg/m³ | Where it appears |
+| Material or condition | Density in the source, $\frac{\mathrm{kg}}{m^{3}}$ | Where it appears |
 | --- | --- | --- |
-| Air at 20°C, 1 atm | 1.20 | Primary pp. 8–10 |
-| Air at 0°C, 1 atm | 1.29 | Companion p. 2 |
+| Air at 20°C, $1\,\mathrm{atm}$ | 1.20 | Primary pp. 8–10 |
+| Air at 0°C, $1\,\mathrm{atm}$ | 1.29 | Companion p. 2 |
 | Freshwater | 1000 | Both decks |
 | Seawater | 1030 | Both decks |
 | Ice | 920; companion iceberg uses 917 | Primary p. 8; companion p. 11 |
@@ -13,36 +13,36 @@ The PDFs use different air temperatures and slightly different material values. 
 | Steel | 7800 | Primary pp. 8–9 |
 | Wood | 500 in the relative-density example; 700 in the tied-block problem | Primary p. 9; companion p. 10 |
 
-These are the source's classroom values. Temperature and composition affect real densities. The brass example below uses the explicit 8700 kg/m³ value from p. 9.
+These are the source's classroom values. Temperature and composition affect real densities. The brass example below uses the explicit $8700\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$ value from p. 9.
 
 **Why a fluid has pressure — companion pp. 3–4.** Molecular motion and interactions transfer momentum to container walls. Gravity creates a vertical pressure gradient, but it is not the only cause of pressure. Gas molecules still collide with walls in weightlessness. Over a small laboratory height, a gas's gravitational pressure change can be small; atmospheric pressure changes substantially over larger heights. Internal and external pressure partly balance around the body, so atmospheric pressure does not act as an unopposed inward force everywhere.
 
 {{figure:m1-main:8|The complete primary density table. Values refer to the listed material conditions.}}
 
-**Relative-density check.** Steel: SG = 7800/1000 = 7.80. Brass: SG = 8700/1000 = 8.70. Wood: SG = 500/1000 = 0.500. Relative density has no kg/m³ unit because the density units cancel.
+**Relative-density check.** Steel: $SG = \frac{7800}{1000} = 7.80$. Brass: $SG = \frac{8700}{1000} = 8.70$. Wood: $SG = \frac{500}{1000} = 0.500$. Relative density has no $\frac{\mathrm{kg}}{m^{3}}$ unit because the density units cancel.
 
 | Pressure unit | Relation |
 | --- | --- |
-| Pascal | 1 Pa = 1 N/m² |
-| Kilopascal | 1 kPa = 1000 Pa |
-| Bar | 1 bar = 100,000 Pa |
-| Meter of water column | 1 mH₂O = 9806.65 Pa under the conventional reference values |
-| Meter of mercury column | The source uses 1 mHg ≈ (1/0.76) atm |
-| Standard atmosphere | 1 atm = 101,325 Pa exactly; the slides round to 101,300 Pa |
-| Torr | 760 torr = 1 atm |
-| Millimeter of mercury | 1 mmHg is about 133.322 Pa; the slides use 760 mmHg ≈ 1 atm |
-| Pound-force per square inch | 1 psi ≈ 6894.76 Pa |
+| Pascal | $1\,\mathrm{Pa} = 1\,\frac{\mathrm{N}}{\mathrm{m}^{2}}$ |
+| Kilopascal | $1\,\mathrm{kPa} = 1000\,\mathrm{Pa}$ |
+| Bar | $1\,\mathrm{bar} = 100{,}000\,\mathrm{Pa}$ |
+| Meter of water column | $1\,\mathrm{mH}_{2} O = 9806.65\,\mathrm{Pa}$ under the conventional reference values |
+| Meter of mercury column | The source uses $1\,\mathrm{mHg} \approx \left( \frac{1}{0.76} \right) \mathrm{atm}$ |
+| Standard atmosphere | $1\,\mathrm{atm} = 101{,}325\,\mathrm{Pa}$ exactly; the slides round to $101{,}300\,\mathrm{Pa}$ |
+| Torr | $760\,\mathrm{torr} = 1\,\mathrm{atm}$ |
+| Millimeter of mercury | $1\,\mathrm{mmHg}$ is about $133.322\,\mathrm{Pa}$; the slides use $760\,\mathrm{mmHg} \approx 1\,\mathrm{atm}$ |
+| Pound-force per square inch | 1 psi ≈ $6894.76\,\mathrm{Pa}$ |
 
 Use one atmospheric-pressure convention throughout a calculation. Do not combine 101,300 and 101,325 as though they were different physical pressures in the same problem.
 
 :::example Air in a room: distinguish the primary and companion problems
 **Sources:** Primary p. 10; companion p. 2. **Find:** The air mass, then its weight.
 
-1. Use the primary dimensions 4.0 × 5.0 × 3.0 m. Their product is 60 m³.
-2. Use its 20°C air density: m = ρV = 1.20(60) = 72 kg.
-3. Calculate weight separately: W = mg = 72(9.81) = 706.32 N.
-4. Use the companion dimensions 4.0 × 6.0 × 2.5 m. Their product also equals 60 m³.
-5. Use the companion's 0°C table: m = 1.29(60) = 77.4 kg, which rounds to 77 kg.
+1. Use the primary dimensions $4.0 \times 5.0 \times 3.0\,\mathrm{m}$. Their product is $60\,\mathrm{m}^{3}$.
+2. Use its 20°C air density: $m = \rho V = 1.20 \left( 60 \right) = 72\,\mathrm{kg}$.
+3. Calculate weight separately: $W = mg = 72 \left( 9.81 \right) = 706.32\,\mathrm{N}$.
+4. Use the companion dimensions $4.0 \times 6.0 \times 2.5\,\mathrm{m}$. Their product also equals $60\,\mathrm{m}^{3}$.
+5. Use the companion's 0°C table: $m = 1.29 \left( 60 \right) = 77.4\,\mathrm{kg}$, which rounds to $77\,\mathrm{kg}$.
 
 **Check.** The volumes agree, but the selected air densities differ. The two mass answers therefore do not contradict each other.
 :::
@@ -50,93 +50,93 @@ Use one atmospheric-pressure convention throughout a calculation. Do not combine
 ### Missing companion pressure and buoyancy problems
 
 :::example Pressure on the submarine
-**Source:** Companion p. 5. **Given:** Seawater density 1030 kg/m³, depth 300 m, surface pressure 101,300 Pa. Use g = 9.8 m/s² to match the slide.
+**Source:** Companion p. 5. **Given:** Seawater density $1030\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$, depth $300\,\mathrm{m}$, surface pressure $101{,}300\,\mathrm{Pa}$. Use $g = 9.8\,\frac{\mathrm{m}}{\mathrm{s}^{2}}$ to match the slide.
 
-1. Calculate the water contribution: ΔP = 1030(9.8)(300) = 3,028,200 Pa.
-2. Add the surface pressure: Pabs = 101,300 + 3,028,200 = 3,129,500 Pa.
-3. Convert to atmospheres: Pabs/101,300 = 30.893 atm.
-4. Report about 3.13 × 10⁶ Pa absolute, or 30.9 atm.
+1. Calculate the water contribution: $\Delta P = 1030 \left( 9.8 \right) \left( 300 \right) = 3{,}028{,}200\,\mathrm{Pa}$.
+2. Add the surface pressure: $P_{\mathrm{abs}} = 101{,}300 + 3{,}028{,}200 = 3{,}129{,}500\,\mathrm{Pa}$.
+3. Convert to atmospheres: $\frac{P_{\mathrm{abs}}}{101{,}300} = 30.893\,\mathrm{atm}$.
+4. Report about $3.13 \times 10^{6}\,\mathrm{Pa}$ absolute, or $30.9\,\mathrm{atm}$.
 
-**Check.** The gauge pressure is 3.0282 × 10⁶ Pa. It is one atmosphere smaller than the absolute pressure.
+**Check.** The gauge pressure is $3.0282 \times 10^{6}\,\mathrm{Pa}$. It is one atmosphere smaller than the absolute pressure.
 :::
 
 {{figure:m1-dyn:6|The closed-tube drawing. Read the 100 cm and 40 cm heights from the same reference level.}}
 
 :::example Pressure at the closed end of the water tube
-**Source:** Companion p. 6. **Given:** Open surface height 1.00 m; closed-end height 0.40 m above the same reference. Surface pressure is 1 atm.
+**Source:** Companion p. 6. **Given:** Open surface height $1.00\,\mathrm{m}$; closed-end height $0.40\,\mathrm{m}$ above the same reference. Surface pressure is $1\,\mathrm{atm}$.
 
-1. Find the depth below the open surface: h = 1.00 − 0.40 = 0.60 m.
+1. Find the depth below the open surface: $h = 1.00 - 0.40 = 0.60\,\mathrm{m}$.
 2. Move down through water, so add the hydrostatic term.
-3. Calculate Pclosed = 101,300 + 1000(9.81)(0.60) = 107,186 Pa.
-4. Divide by 101,300 to obtain 1.0581 atm, about 1.06 atm.
-5. Change the surface pressure to 1.50 atm for the follow-up question. The water contribution stays 0.0581 atm.
-6. Obtain a new closed-end pressure of 1.5581 atm, about 1.56 atm.
+3. Calculate $P_{\mathrm{closed}} = 101{,}300 + 1000 \left( 9.81 \right) \left( 0.60 \right) = 107{,}186\,\mathrm{Pa}$.
+4. Divide by 101,300 to obtain $1.0581\,\mathrm{atm}$, about $1.06\,\mathrm{atm}$.
+5. Change the surface pressure to $1.50\,\mathrm{atm}$ for the follow-up question. The water contribution stays $0.0581\,\mathrm{atm}$.
+6. Obtain a new closed-end pressure of $1.5581\,\mathrm{atm}$, about $1.56\,\mathrm{atm}$.
 
-**Check.** Pascal's principle transfers the added 0.50 atm without changing the depth difference. The word “closed” does not make the pressure zero.
+**Check.** Pascal's principle transfers the added $0.50\,\mathrm{atm}$ without changing the depth difference. The word “closed” does not make the pressure zero.
 :::
 
 :::derivation Find the force and displacement in a hydraulic lift
 **Sources:** Primary pp. 21–23; companion p. 7. Assume an incompressible fluid, equal piston elevations, and negligible friction.
 
-1. Write the common gauge pressure: ΔP = F₁/A₁ = F₂/A₂.
-2. Isolate the output force: F₂ = F₁A₂/A₁.
-3. Replace circular areas by πD²/4. The π/4 factors cancel.
-4. Conserve displaced volume: A₁d₁ = A₂d₂.
-5. Isolate d₂ = d₁A₁/A₂. The larger piston moves a smaller distance.
+1. Write the common gauge pressure: $\Delta P = \frac{F_{1}}{A_{1}} = \frac{F_{2}}{A_{2}}$.
+2. Isolate the output force: $F_{2} = \frac{F_{1} A_{2}}{A_{1}}$.
+3. Replace circular areas by $\frac{\pi D^{2}}{4}$. The $\frac{\pi}{4}$ factors cancel.
+4. Conserve displaced volume: $A_{1} d_{1} = A_{2} d_{2}$.
+5. Isolate $d_{2} = \frac{d_{1} A_{1}}{A_{2}}$. The larger piston moves a smaller distance.
 
 $$\frac{F_2}{F_1}=\left(\frac{D_2}{D_1}\right)^2,
 \qquad \frac{d_2}{d_1}=\left(\frac{D_1}{D_2}\right)^2,
 \qquad F_1d_1=F_2d_2.$$
 
-For 5 cm and 25 cm diameters, F₂ = 100(25/5)² = 2500 N. If the small piston moves 10 cm, the large piston moves 10/25 = 0.40 cm. Multiplying the forces by their respective distances gives 10 J on either side.
+For $5\,\mathrm{cm}$ and $25\,\mathrm{cm}$ diameters, $F_{2} = 100 \left( \frac{25}{5} \right)^{2} = 2500\,\mathrm{N}$. If the small piston moves $10\,\mathrm{cm}$, the large piston moves $\frac{10}{25} = 0.40\,\mathrm{cm}$. Multiplying the forces by their respective distances gives $10\,\mathrm{J}$ on either side.
 :::
 
 :::example A fully submerged block: buoyancy, apparent weight, and sinking
-**Source:** Companion p. 9. **Given:** Displaced volume 0.020 m³; water density 1000 kg/m³; block weight 250 N. Use g = 9.8 m/s².
+**Source:** Companion p. 9. **Given:** Displaced volume $0.020\,\mathrm{m}^{3}$; water density $1000\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$; block weight $250\,\mathrm{N}$. Use $g = 9.8\,\frac{\mathrm{m}}{\mathrm{s}^{2}}$.
 
-1. Calculate FB = ρfgV = 1000(9.8)(0.020) = 196 N upward.
-2. Compare forces: the weight exceeds buoyancy by 250 − 196 = 54 N.
+1. Calculate $F_{B} = \rho_{f} gV = 1000 \left( 9.8 \right) \left( 0.020 \right) = 196\,\mathrm{N}$ upward.
+2. Compare forces: the weight exceeds buoyancy by $250 - 196 = 54\,\mathrm{N}$.
 3. If released without support, the block accelerates downward initially. It sinks.
-4. If an upper string holds the block at rest, the string tension is 54 N.
+4. If an upper string holds the block at rest, the string tension is $54\,\mathrm{N}$.
 
-**Check.** The block still has buoyancy while sinking. “It sinks” does not mean FB = 0.
+**Check.** The block still has buoyancy while sinking. “It sinks” does not mean $F_{B} = 0$.
 :::
 
-:::example Complete the 2 kg brass-block solution
-**Source:** Primary p. 32, using the 8700 kg/m³ brass value on p. 9. Use g = 9.81 m/s².
+:::example Complete the $2\,\mathrm{kg}$ brass-block solution
+**Source:** Primary p. 32, using the $8700\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$ brass value on p. 9. Use $g = 9.81\,\frac{\mathrm{m}}{\mathrm{s}^{2}}$.
 
-1. Find the external volume: V = m/ρbrass = 2/8700 = 2.29885 × 10⁻⁴ m³.
+1. Find the external volume: $V = \frac{m}{\rho _{\mathrm{brass}}} = \frac{2}{8700} = 2.29885 \times 10^{-4}\,\mathrm{m}^{3}$.
 2. Use that volume as the displaced-water volume because the block is fully submerged.
-3. Calculate FB = 1000(9.81)V = 2.25517 N upward.
-4. Calculate the true weight: mg = 2(9.81) = 19.62 N downward.
-5. Write vertical equilibrium: T + FB − mg = 0.
-6. Solve T = 19.62 − 2.25517 = 17.3648 N upward.
+3. Calculate $F_{B} = 1000 \left( 9.81 \right) V = 2.25517\,\mathrm{N}$ upward.
+4. Calculate the true weight: $mg = 2 \left( 9.81 \right) = 19.62\,\mathrm{N}$ downward.
+5. Write vertical equilibrium: $T + F_{B} - mg = 0$.
+6. Solve $T = 19.62 - 2.25517 = 17.3648\,\mathrm{N}$ upward.
 
-**Value check.** If a question instead supplies 8600 kg/m³ from p. 8, FB ≈ 2.2814 N and T ≈ 17.3386 N. State which density you use.
+**Value check.** If a question instead supplies $8600\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$ from p. 8, $F_{B} \approx 2.2814\,\mathrm{N}$ and $T \approx 17.3386\,\mathrm{N}$. State which density you use.
 :::
 
 :::example Why an iceberg is mostly underwater
-**Source:** Companion p. 11. **Given:** Ice density 917 kg/m³; seawater density 1030 kg/m³. Assume free floating equilibrium.
+**Source:** Companion p. 11. **Given:** Ice density $917\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$; seawater density $1030\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$. Assume free floating equilibrium.
 
-1. Set FB = mg: ρsea gVsub = ρice gVtotal.
-2. Cancel g and divide by ρseaVtotal.
-3. Calculate Vsub/Vtotal = 917/1030 = 0.890291.
+1. Set $F_{B} = mg$: $\rho _{\mathrm{sea}} gV_{\mathrm{sub}} = \rho _{\mathrm{ice}} gV_{\mathrm{total}}$.
+2. Cancel g and divide by $\rho _{\mathrm{sea}}V_{\mathrm{total}}$.
+3. Calculate $\frac{V_{\mathrm{sub}}}{V_{\mathrm{total}}} = \frac{917}{1030} = 0.890291$.
 4. Express the submerged fraction as 89.0% and the exposed fraction as 11.0%.
 
 **Check.** The fraction is below one because ice is less dense than seawater. Do not apply this equilibrium fraction to the tied-down wood block.
 :::
 
-> **Choose the correct force balance.** Free floating: FB = mg. Upper support: T + FB = mg. Bottom tether: FB = mg + T. Start with the diagram before selecting an equation.
+> **Choose the correct force balance.** Free floating: $F_{B} = mg$. Upper support: $T + F_{B} = mg$. Bottom tether: $F_{B} = mg + T$. Start with the diagram before selecting an equation.
 
 :::example The bottom-tethered wood block, step by step
-**Source:** Companion p. 10. **Given:** A 10 cm cube, wood density 700 kg/m³, and water density 1000 kg/m³. Use g = 9.81 m/s².
+**Source:** Companion p. 10. **Given:** A $10\,\mathrm{cm}$ cube, wood density $700\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$, and water density $1000\,\frac{\mathrm{kg}}{\mathrm{m}^{3}}$. Use $g = 9.81\,\frac{\mathrm{m}}{\mathrm{s}^{2}}$.
 
-1. Convert the side to 0.10 m and calculate V = (0.10)³ = 0.001 m³.
-2. Find the block's mass: m = 700(0.001) = 0.700 kg.
-3. Find its weight: W = 0.700(9.81) = 6.867 N downward.
-4. Find buoyancy when fully submerged: FB = 1000(9.81)(0.001) = 9.810 N upward.
+1. Convert the side to $0.10\,\mathrm{m}$ and calculate $V = \left( 0.10 \right)^{3} = 0.001\,\mathrm{m}^{3}$.
+2. Find the block's mass: $m = 700 \left( 0.001 \right) = 0.700\,\mathrm{kg}$.
+3. Find its weight: $W = 0.700 \left( 9.81 \right) = 6.867\,\mathrm{N}$ downward.
+4. Find buoyancy when fully submerged: $F_{B} = 1000 \left( 9.81 \right) \left( 0.001 \right) = 9.810\,\mathrm{N}$ upward.
 5. Draw the string pulling downward toward its bottom attachment.
-6. Set FB−W−T = 0, giving T = 9.810−6.867 = 2.943 N.
+6. Set $F_{B} - W - T = 0$, giving $T = 9.810 - 6.867 = 2.943\,\mathrm{N}$.
 
 **Check.** Releasing the string leaves a net upward force initially. The block rises until a smaller displaced volume permits floating equilibrium.
 :::

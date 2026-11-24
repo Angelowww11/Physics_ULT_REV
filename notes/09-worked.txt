@@ -5,50 +5,50 @@
 **Flux sign convention.** Choose a surface normal first. A field component along that normal gives positive flux; the opposite component gives negative flux. Couple the positive loop direction to the normal by the right-hand grip rule. The Faraday minus sign then has a precise directional meaning.
 
 :::example Partial magnetic-field overlap
-**Source:** Primary p. 10. The loop encloses area A₁, but a perpendicular field exists only over a smaller enclosed area A₂.
+**Source:** Primary p. 10. The loop encloses area $A_{1}$, but a perpendicular field exists only over a smaller enclosed area $A_{2}$.
 
 1. Split the flux integral into the field region and the zero-field region.
-2. Calculate Φ = BA₂+0(A₁−A₂) = BA₂ for the aligned positive normal.
+2. Calculate $\Phi = BA_{2} + 0 \left( A_{1} - A_{2} \right) = BA_{2}$ for the aligned positive normal.
 3. Reverse the surface normal to reverse the signed flux.
 
-**Check.** BA₁ would incorrectly assign a nonzero field to the whole loop interior. The relevant area is the area where field actually passes through the chosen surface.
+**Check.** $BA_{1}$ would incorrectly assign a nonzero field to the whole loop interior. The relevant area is the area where field actually passes through the chosen surface.
 :::
 
 :::example Maximum and minimum flux through the square loop
-**Source:** Primary p. 11. **Given:** Side 10.0 cm = 0.100 m and B = 1.25 T.
+**Source:** Primary p. 11. **Given:** Side $10.0\,\mathrm{cm} = 0.100\,\mathrm{m}$ and $B = 1.25\,\mathrm{T}$.
 
-1. Find A = (0.100)² = 0.0100 m².
-2. Use Φ = BAcosθ, where θ is measured from the area normal.
-3. Find the maximum magnitude at θ = 0° or 180°: |Φ|max = 0.0125 Wb.
-4. Find zero flux at θ = 90°.
+1. Find $A = \left( 0.100 \right)^{2} = 0.0100\,\mathrm{m}^{2}$.
+2. Use $\Phi = BA\cos \theta$, where $\theta$ is measured from the area normal.
+3. Find the maximum magnitude at $\theta = 0^{\circ}$ or 180°: $|\Phi|_{\max}=0.0125\,\mathrm{Wb}$.
+4. Find zero flux at $\theta = 90^{\circ}$.
 
-**Wording check.** The minimum magnitude is zero. The minimum signed flux over all orientations is −0.0125 Wb. State which meaning of “minimum” you use.
+**Wording check.** The minimum magnitude is zero. The minimum signed flux over all orientations is $- 0.0125\,\mathrm{Wb}$. State which meaning of “minimum” you use.
 :::
 
 ### Full Faraday and transformer solutions
 
 :::derivation The AC generator waveform and rotation units
-**Source starting point:** Primary p. 14. Let a rigid N-turn coil of area A rotate at constant angular speed ω in a uniform field. Let θ be the angle between the area normal and B.
+**Source starting point:** Primary p. 14. Let a rigid N-turn coil of area A rotate at constant angular speed $\omega$ in a uniform field. Let $\theta$ be the angle between the area normal and B.
 
-1. Write θ(t) = ωt+φ, with angles in radians.
-2. Write the flux per turn as Φ = BAcos(ωt+φ).
-3. Differentiate the cosine: dΦ/dt = −BAωsin(ωt+φ).
+1. Write $\theta \left( t \right) = \omega t + \phi$, with angles in radians.
+2. Write the flux per turn as $\Phi = BA\cos \left( \omega t + \phi \right)$.
+3. Differentiate the cosine: $\frac{d\Phi}{dt} = - BA\omega \sin \left( \omega t + \phi \right)$.
 4. Apply Faraday's minus sign and multiply by N.
 
 $$\mathcal E(t)=NBA\omega\sin(\omega t+\phi),
 \qquad \mathcal E_{peak}=NBA\omega,
 \qquad \omega=2\pi f.$$
 
-At maximum flux, the instantaneous flux slope and emf are zero. When the flux passes through zero during this rotation, the emf magnitude reaches its peak. Mechanical rotation supplies the electrical output energy. Do not substitute rotation frequency f in hertz directly for ω in radians per second.
+At maximum flux, the instantaneous flux slope and emf are zero. When the flux passes through zero during this rotation, the emf magnitude reaches its peak. Mechanical rotation supplies the electrical output energy. Do not substitute rotation frequency f in hertz directly for $\omega$ in radians per second.
 :::
 
 :::example The 200-turn square coil: emf and current
-**Source:** Primary p. 18. **Given:** N = 200, side = 0.180 m, Rtotal = 2.0 Ω, and perpendicular B rising from 0 to 0.500 T in 0.80 s.
+**Source:** Primary p. 18. **Given:** $N = 200$, side: $0.180\,\mathrm{m}$, $R_{\mathrm{total}} = 2.0 \Omega$, and perpendicular B rising from 0 to $0.500\,\mathrm{T}$ in $0.80\,\mathrm{s}$.
 
-1. Find A = 0.180² = 0.0324 m² for one turn.
-2. Find the rate ΔB/Δt = 0.500/0.80 = 0.625 T/s.
-3. Use |ℰ| = NA|ΔB/Δt| = 200(0.0324)(0.625) = 4.05 V.
-4. Find the induced-current magnitude I = |ℰ|/Rtotal = 4.05/2.0 = 2.025 A.
+1. Find $A = 0.180^{2} = 0.0324\,\mathrm{m}^{2}$ for one turn.
+2. Find the rate $\frac{\Delta B}{\Delta t} = \frac{0.500}{0.80} = 0.625\,\frac{\mathrm{T}}{\mathrm{s}}$.
+3. Use $\left| \mathcal{E} \right| = NA \left| \frac{\Delta B}{\Delta t} \right| = 200 \left( 0.0324 \right) \left( 0.625 \right) = 4.05\,\mathrm{V}$.
+4. Find the induced-current magnitude $I = \frac{\left| \mathcal{E} \right|}{R_{\mathrm{total}}} = \frac{4.05}{2.0} = 2.025\,\mathrm{A}$.
 5. Find the direction separately with Lenz's law, using the actual external field direction.
 
 **Check.** The coil's 2.0 Ω is already its total resistance. Do not multiply that resistance by the number of turns again.
@@ -57,7 +57,7 @@ At maximum flux, the instantaneous flux slope and emf are zero. When the flux pa
 :::derivation Transformer turns and current ratios
 **Sources:** Primary pp. 16–19. Assume ideal coupling, a common changing core flux per turn, and negligible losses.
 
-1. Write the induced-voltage magnitudes Vp = Np|dΦ/dt| and Vs = Ns|dΦ/dt|.
+1. Write the induced-voltage magnitudes $V_{p} = N_{p} \left| \frac{d\Phi}{dt} \right|$ and $V_{s} = N_{s} \left| \frac{d\Phi}{dt} \right|$.
 2. Divide to cancel the common flux-change rate.
 3. Use ideal average-power conservation for matching AC quantities.
 
@@ -69,14 +69,14 @@ A step-up transformer increases voltage and decreases current for the same ideal
 :::
 
 :::example Radio power supply: identify the ideal AC stage
-**Source:** Primary p. 19. Use Vp = 120 V AC, Vs = 9.0 V AC for the transformer calculation, Ns = 30, and Is = 0.400 A.
+**Source:** Primary p. 19. Use $V_{p} = 120\,\mathrm{V}$ AC, $V_{s} = 9.0\,\mathrm{V}$ AC for the transformer calculation, $N_{s} = 30$, and $I_{s} = 0.400\,\mathrm{A}$.
 
-1. Rearrange the turns ratio: Np = NsVp/Vs = 30(120)/9.0 = 400 turns.
-2. Find secondary power: Ps = VsIs = 9.0(0.400) = 3.6 W.
-3. Use ideal input power Pp = 3.6 W.
-4. Find Ip = Pp/Vp = 3.6/120 = 0.030 A.
+1. Rearrange the turns ratio: $N_{p} = \frac{N_{s} V_{p}}{V_{s}} = \frac{30 \left( 120 \right)}{9.0} = 400$ turns.
+2. Find secondary power: $P_{s} = V_{s} I_{s} = 9.0 \left( 0.400 \right) = 3.6\,\mathrm{W}$.
+3. Use ideal input power $P_{p} = 3.6\,\mathrm{W}$.
+4. Find $I_{p} = \frac{P_{p}}{V_{p}} = \frac{3.6}{120} = 0.030\,\mathrm{A}$.
 
-**Source correction.** The question describes a 9 V DC radio supply. A transformer alone supplies AC. Rectification and filtering are additional stages; the ideal turns-ratio calculation describes the AC transformer stage.
+**Source correction.** The question describes a $9\,\mathrm{V}$ DC radio supply. A transformer alone supplies AC. Rectification and filtering are additional stages; the ideal turns-ratio calculation describes the AC transformer stage.
 :::
 
 ### Solve Lenz's law and motional-emf cases step by step
@@ -93,25 +93,25 @@ For each drawing, first derive the external field from the straight wire's curre
 {{figure:m9-main:28|The source's decreasing-flux example. The text's outward induced field needs the correction in the table above.}}
 
 :::example The moving bar: polarity, current, drag, and power
-**Source geometry:** Primary pp. 31–33. The following numerical values form a labeled extension: B = 0.50 T out of the page, vertical bar length ℓ = 0.20 m, rightward speed v = 3.0 m/s, and loop resistance R = 2.0 Ω.
+**Source geometry:** Primary pp. 31–33. The following numerical values form a labeled extension: $B = 0.50\,\mathrm{T}$ out of the page, vertical bar length $\ell = 0.20\,\mathrm{m}$, rightward speed $v = 3.0\,\frac{\mathrm{m}}{\mathrm{s}}$, and loop resistance $R = 2.0 \Omega$.
 
-1. Find v × B: right × out points down. Positive charges collect toward the bar's lower end.
-2. Calculate the emf magnitude: |ℰ| = Bℓv = 0.50(0.20)(3.0) = 0.300 V.
-3. Calculate I = |ℰ|/R = 0.150 A. The bar carries current downward, so the loop current is clockwise.
-4. Calculate the magnetic force on the bar: Fmag = IℓB = 0.0150 N left.
-5. Apply 0.0150 N right to maintain the constant speed.
-6. Calculate mechanical input power: Fv = 0.0450 W.
-7. Check resistive heating: I²R = 0.150²(2.0) = 0.0450 W.
+1. Find $v \times B$: right × out points down. Positive charges collect toward the bar's lower end.
+2. Calculate the emf magnitude: $\left| \mathcal{E} \right| = B \ell v = 0.50 \left( 0.20 \right) \left( 3.0 \right) = 0.300\,\mathrm{V}$.
+3. Calculate $I = \frac{\left| \mathcal{E} \right|}{R} = 0.150\,\mathrm{A}$. The bar carries current downward, so the loop current is clockwise.
+4. Calculate the magnetic force on the bar: $F_{\mathrm{mag}} = I \ell B = 0.0150\,\mathrm{N}$ left.
+5. Apply $0.0150\,\mathrm{N}$ right to maintain the constant speed.
+6. Calculate mechanical input power: $Fv = 0.0450\,\mathrm{W}$.
+7. Check resistive heating: $I^{2} R = 0.150^{2} \left( 2.0 \right) = 0.0450\,\mathrm{W}$.
 
 **Check.** Increasing outward flux induces an inward field, consistent with clockwise current. The force opposes the motion, not the existence of the bar itself.
 :::
 
 :::example Airplane wing-tip potential difference
-**Source:** Primary p. 35. **Given:** Speed 1000 km/h, vertical B = 5.0 × 10⁻⁵ T, and wingspan 70 m. Use the stated perpendicular geometry.
+**Source:** Primary p. 35. **Given:** Speed $\frac{1000\,\mathrm{km}}{h}$, vertical $B = 5.0 \times 10^{-5}\,\mathrm{T}$, and wingspan $70\,\mathrm{m}$. Use the stated perpendicular geometry.
 
-1. Convert speed: v = 1000(1000)/3600 = 277.778 m/s.
-2. Calculate |ΔV| = Bℓv = (5.0 × 10⁻⁵)(70)(277.778) = 0.972222 V.
-3. Determine which wing tip is positive with v × B for positive charge carriers.
+1. Convert speed: $v = \frac{1000 \left( 1000 \right)}{3600} = 277.778\,\frac{\mathrm{m}}{\mathrm{s}}$.
+2. Calculate $\left| \Delta V \right| = B \ell v = \left( 5.0 \times 10^{-5} \right) \left( 70 \right) \left( 277.778 \right) = 0.972222\,\mathrm{V}$.
+3. Determine which wing tip is positive with $v \times B$ for positive charge carriers.
 
 **Geometry check.** The numerical statement gives a magnitude but does not fully identify a compass heading and field sign. Do not invent a left-wing or right-wing polarity without those directions.
 :::
@@ -120,19 +120,19 @@ For each drawing, first derive the external field from the straight wire's curre
 
 **Sources:** Primary objectives on p. 23 and discussion on p. 34. A changing magnetic flux creates a circulating electric field. It can act on a charge initially at rest. A conducting wire is not required for the electric field to exist.
 
-For electrostatics, a single-valued scalar potential gives E = −∇V and ∮E·dl = 0. In induction, the closed-loop integral can be nonzero:
+For electrostatics, a single-valued scalar potential gives $E = - \nabla V$ and $\oint E \cdot dl = 0$. In induction, the closed-loop integral can be nonzero:
 
 $$\oint\mathbf E\cdot d\mathbf l=-\frac{d\Phi_B}{dt}.$$
 
-The E = vB inside a moving open rod instead describes charge separation that balances qv × B in that rod. It is not a universal formula for the circulating field around every changing magnetic field.
+The $E = vB$ inside a moving open rod instead describes charge separation that balances $qv \times B$ in that rod. It is not a universal formula for the circulating field around every changing magnetic field.
 
 :::derivation Induced field inside and outside a circular changing-field region
 This labeled extension develops the source objective. Let uniform B(t) point along +z inside radius a and be zero outside. Choose counterclockwise circulation as positive.
 
 1. By cylindrical symmetry, E is tangent to a centered circle and has constant magnitude along it.
-2. The circulation is Eφ(2πr).
-3. For r ≤ a, the enclosed magnetic flux is πr²B.
-4. For r ≥ a, the enclosed magnetic flux is πa²B.
+2. The circulation is $E\phi \left( 2 \pi r \right)$.
+3. For $r \le a$, the enclosed magnetic flux is $\pi r^{2} B$.
+4. For $r \ge a$, the enclosed magnetic flux is $\pi a^{2} B$.
 5. Apply Faraday's law and solve each region separately.
 
 $$E_\phi(r)=\begin{cases}
@@ -140,63 +140,63 @@ $$E_\phi(r)=\begin{cases}
 -\dfrac{a^2}{2r}\dfrac{dB}{dt},&r\ge a.
 \end{cases}$$
 
-**Checks.** Both expressions agree at r = a. E tends to zero at the center. Outside, E can remain nonzero even where the local magnetic field is zero, because the loop encloses changing flux. For increasing +z flux, Eφ is negative, so the circulation is clockwise.
+**Checks.** Both expressions agree at $r = a$. E tends to zero at the center. Outside, E can remain nonzero even where the local magnetic field is zero, because the loop encloses changing flux. For increasing +z flux, $E\phi$ is negative, so the circulation is clockwise.
 :::
 
 ### Mutual inductance, self-inductance, and complete RL decay
 
 :::derivation Derive self-inductance from flux linkage
-**Sources:** Primary pp. 37–41. For a linear coil, the total linkage is Λ = NΦ = LI. If L is constant, differentiation gives dΛ/dt = L(dI/dt). Faraday's law therefore gives ℰself = −L(dI/dt).
+**Sources:** Primary pp. 37–41. For a linear coil, the total linkage is $\Lambda = N\Phi = LI$. If L is constant, differentiation gives $\frac{d \Lambda}{dt} = L \left( \frac{dI}{dt} \right)$. Faraday's law therefore gives $\mathcal{E} _{\mathrm{self}} = - L \left( \frac{dI}{dt} \right)$.
 
-For a long solenoid, substitute B = μNI/ℓ into Φ = BA:
+For a long solenoid, substitute $B = \frac{\mu NI}{\ell}$ into $\Phi = BA$:
 
 $$L=\frac{N\Phi}{I}
 =\frac{N(\mu NI/\ell)A}{I}
 =\frac{\mu N^2A}{\ell}.$$
 
-For mutual inductance, use Λ₂ = N₂Φ₂₁ = MI₁, so ℰ₂ = −M(dI₁/dt) for constant geometry and a linear material. A steady current gives no induced emf from these constant-linkage terms.
+For mutual inductance, use $\Lambda_{2} = N_{2} \Phi_{21} = MI_{1}$, so $\mathcal{E}_{2} = - M \left( \frac{dI_{1}}{dt} \right)$ for constant geometry and a linear material. A steady current gives no induced emf from these constant-linkage terms.
 :::
 
 :::example Interpret a mutual- or self-induced emf measurement
-**Labeled extension of primary pp. 38–39.** Let M = 0.040 H and let primary current rise by 2.0 A in 0.010 s.
+**Labeled extension of primary pp. 38–39.** Let $M = 0.040\,\mathrm{H}$ and let primary current rise by $2.0\,\mathrm{A}$ in $0.010\,\mathrm{s}$.
 
-1. Find the average current-change rate: ΔI/Δt = 200 A/s.
-2. Calculate the secondary emf magnitude: |ℰ₂| = M|ΔI/Δt| = 8.0 V.
+1. Find the average current-change rate: $\frac{\Delta I}{\Delta t} = 200\,\frac{\mathrm{A}}{\mathrm{s}}$.
+2. Calculate the secondary emf magnitude: $\left| \mathcal{E}_{2} \right| = M \left| \frac{\Delta I}{\Delta t} \right| = 8.0\,\mathrm{V}$.
 3. Set its polarity with the chosen winding directions and Lenz's law.
 
-For a self-inductor L = 0.20 H whose current rises by 3.0 A in 0.050 s, the average opposing-emf magnitude is 12 V. The negative sign describes opposition to the current change. It does not mean the inductance is negative.
+For a self-inductor $L = 0.20\,\mathrm{H}$ whose current rises by $3.0\,\mathrm{A}$ in $0.050\,\mathrm{s}$, the average opposing-emf magnitude is $12\,\mathrm{V}$. The negative sign describes opposition to the current change. It does not mean the inductance is negative.
 :::
 
 :::derivation RL decay and the fraction-of-current time
 **Sources:** Primary pp. 42–44. Remove the source while retaining a closed series R–L path. Choose the continuing current as positive.
 
-1. Write the loop equation L(dI/dt)+RI = 0.
-2. Separate dI/I = −(R/L)dt.
-3. Integrate from I₀ at time zero to I(t).
+1. Write the loop equation $L \left( \frac{dI}{dt} \right) + RI = 0$.
+2. Separate $\frac{dI}{I} = - \left( \frac{R}{L} \right) dt$.
+3. Integrate from $I_{0}$ at time zero to I(t).
 4. Exponentiate, then isolate time for a specified remaining fraction.
 
 $$\ln\frac{I}{I_0}=-\frac{R}{L}t
 \Rightarrow I=I_0e^{-tR/L},
 \qquad t=\frac LR\ln\frac{I_0}{I}.$$
 
-The initial magnetic energy, ½LI₀², becomes resistor heating during an ideal source-free decay. The current remains continuous through switching when the circuit supplies a finite-voltage discharge path.
+The initial magnetic energy, $\tfrac{1}{2} LI_{0}^{2}$, becomes resistor heating during an ideal source-free decay. The current remains continuous through switching when the circuit supplies a finite-voltage discharge path.
 :::
 
-:::example The source's 87.5 mH coil
-**Source:** Primary p. 44. **Given:** L = 87.5 mH = 0.0875 H and total series R = 0.250 Ω.
+:::example The source's $87.5\,\mathrm{mH}$ coil
+**Source:** Primary p. 44. **Given:** $L = 87.5\,\mathrm{mH} = 0.0875\,\mathrm{H}$ and total series $R = 0.250 \Omega$.
 
-1. Calculate τ = L/R = 0.0875/0.250 = 0.350 s.
-2. For growth from zero, use I/Ifinal = 1−e⁻ᵗᐟτ.
-3. Set the exact requested fraction 0.63: 0.37 = e⁻ᵗᐟτ.
-4. Calculate t = −0.350ln(0.37) = 0.347989 s, about 0.348 s.
-5. If “63%” means the usual rounded one-time-constant result, t ≈ 0.350 s. At that time the exact fraction is 63.2121%.
+1. Calculate $\tau = \frac{L}{R} = \frac{0.0875}{0.250} = 0.350\,\mathrm{s}$.
+2. For growth from zero, use $\frac{I}{I_{\mathrm{final}}} = 1 - \exp \left( - \frac{t}{\tau} \right)$.
+3. Set the exact requested fraction 0.63: $0.37 = \exp \left( - \frac{t}{\tau} \right)$.
+4. Calculate $t = - 0.350 \ln \left( 0.37 \right) = 0.347989\,\mathrm{s}$, about $0.348\,\mathrm{s}$.
+5. If “63%” means the usual rounded one-time-constant result, $t \approx 0.350\,\mathrm{s}$. At that time the exact fraction is 63.2121%.
 
 **Check.** The battery voltage cancels because the problem asks for a fraction of the final current. Include winding resistance in the total R.
 :::
 
 | Circuit at a constant DC source | At the start, from an unenergized state | At long times | Time constant |
 | --- | --- | --- | --- |
-| Series RC | VC = 0; current starts at ℰ/R | VC → ℰ; current → 0 | RC |
-| Series RL | I = 0; inductor initially has the source voltage | I → ℰ/R; ideal inductor voltage → 0 | L/R |
+| Series RC | $V_{C} = 0$; current starts at $\frac{\mathcal{E}}{R}$ | $V_{C} \to \mathcal{E}$; current → 0 | RC |
+| Series RL | $I = 0$; inductor initially has the source voltage | $I \to \frac{\mathcal{E}}{R}$; ideal inductor voltage → 0 | $\frac{L}{R}$ |
 
 Increasing R makes RC charging slower for fixed C. Increasing R makes the RL normalized transient faster for fixed L, while also lowering its final current. Compare fractions and final values separately.

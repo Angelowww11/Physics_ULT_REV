@@ -6,13 +6,13 @@ from markdown_it import MarkdownIt
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='20261124-review2'
+VERSION='20261124-math6'
 SOURCES=json.loads((ROOT/'sources.js').read_text(encoding='utf-8').split('=',1)[1].rstrip(';'))
 BY_ID={s['id']:s for s in SOURCES}
 AUDIT=json.loads((ROOT/'audit/source-map.json').read_text(encoding='utf-8'))
 MD=MarkdownIt('commonmark',{'html':True}).enable('table')
 ALL_TEX=[]
-STATS={'chapters':10,'sections':0,'words':0,'derivation_blocks':0,'worked_examples':0,'expanded_derivations':0,'figures':0}
+STATS={'chapters':10,'sections':0,'words':0,'derivation_blocks':0,'inline_equations':0,'worked_examples':0,'expanded_derivations':0,'figures':0}
 
 def figure(source_id,page,caption):
     s=BY_ID[source_id]; assert 1<=page<=len(s['pages'])
@@ -40,8 +40,20 @@ def figure(source_id,page,caption):
 
 def render_note(text,n):
     def math(m):
-        ALL_TEX.append(m[1]);return f'\n\nMATHPLACEHOLDER{len(ALL_TEX)-1}\n\n'
-    text=re.sub(r'\$\$(.*?)\$\$',math,text,flags=re.S)
+        display=m[1].startswith('$$');plain=m[1][2:-2] if display else m[1][1:-1]
+        working=not display and len(plain)>100 and plain.count('=')>=2
+        tex=plain
+        if working:
+            parts=plain.split('=')
+            tex=r'\begin{aligned}'+parts[0]+'&='+r'\\&='.join(parts[1:])+r'\end{aligned}'
+        elif display and len(plain)>120 and r'\begin' not in plain:
+            # Break independent displayed relations into readable rows.
+            parts=re.split(r'\\q(?:quad|uad)\s*',plain)
+            if len(parts)>1:tex=r'\begin{gathered}'+r'\\'.join(parts)+r'\end{gathered}'
+        ALL_TEX.append({'tex':tex,'display':display,'working':working,'label':plain})
+        marker=f'MATHPLACEHOLDER{len(ALL_TEX)-1}END'
+        return f'\n\n{marker}\n\n' if display else marker
+    text=re.sub(r'(\$\$[\s\S]*?\$\$|\$[^\n$]+\$)',math,text)
     blocks=[]
     def block(m):
         kind,title,body=m.groups();idx=len(blocks)
@@ -55,7 +67,11 @@ def render_note(text,n):
     rendered=re.sub(r'<p>\{\{figure:([\w-]+):(\d+)\|([^}]+)\}\}</p>',lambda m:figure(m[1],int(m[2]),m[3]),rendered)
     counter=[0];headings=[]
     def heading(m):
-        counter[0]+=1;id=f'm{n}-s{counter[0]}';headings.append((id,re.sub('<[^>]+>','',m[1])))
+        counter[0]+=1;id=f'm{n}-s{counter[0]}'
+        label=re.sub(r'MATHPLACEHOLDER(\d+)END',lambda x:ALL_TEX[int(x[1])]['label'],m[1])
+        label=re.sub(r'\\(?:mathrm|text)\{([^}]+)\}',r'\1',label)
+        label=re.sub(r'\\[a-zA-Z]+|[{}_$]','',label)
+        headings.append((id,re.sub('<[^>]+>','',label)))
         return f'<h3 id="{id}">{m[1]}</h3>'
     rendered=re.sub(r'<h3>(.*?)</h3>',heading,rendered)
     rendered=re.sub(r'<table>(.*?)</table>',f'<div class="table-scroll" tabindex="0" role="region" aria-label="Module {n} comparison table"><table>\\1</table></div>',rendered,flags=re.S)
@@ -90,12 +106,27 @@ def build():
     formulas=json.loads(response.stdout)
     assert len(formulas)==len(ALL_TEX)
     for i,html in enumerate(formulas):
-        body=body.replace(f'<p>MATHPLACEHOLDER{i}</p>',f'<div class="math">{html}</div>')
+        item=ALL_TEX[i];marker=f'MATHPLACEHOLDER{i}END'
+        if item['display']:
+            body=body.replace(f'<p>{marker}</p>',f'<div class="math">{html}</div>')
+        else:
+            kind='inline-math math-working' if item['working'] else 'inline-math'
+            if item['working']:
+                body=body.replace(marker+'.',marker)
+            body=body.replace(marker,f'<span class="{kind}">{html}</span>')
     unresolved=re.findall(r'.{0,80}(?:MATHPLACEHOLDER|BLOCKPLACEHOLDER|\{\{figure).{0,140}',body)
     if unresolved:raise ValueError(unresolved[:8])
-    STATS['derivation_blocks']=len(ALL_TEX)
+    STATS['derivation_blocks']=sum(t['display'] for t in ALL_TEX)
+    STATS['inline_equations']=sum(not t['display'] for t in ALL_TEX)
     nav=''.join(toc)
     appendix='''<section class="chapter" id="source-notes"><span class="eyebrow">Reference desk</span><h2>Sources, constants, and corrections</h2><p>The 18 supplied PDFs are the course sources. The source-page maps include covers, references, and blank pages. The original files remain unchanged. Cropped reading-view figures link to complete source pages.</p><p>Use the constants stated in a question. Classroom defaults include g = 9.81 m/s², k = 8.99 × 10⁹ N·m²/C², ε₀ = 8.85 × 10⁻¹² F/m, and μ₀ ≈ 4π × 10⁻⁷ T·m/A. A source example can use 9.8, a rounded material value, or a different temperature condition.</p><p>Distinguish the mass-density, resistivity, and charge-density meanings of ρ. Distinguish capacitance from heat capacity when reading C. A matching letter alone does not identify the right physical law.</p><h3>What changes after this source check</h3><p>The expanded solutions restore omitted source problems and their intermediate steps. Corrections appear beside the relevant calculations, including the rectangle-force exponent, proton field value, six-band resistor, series voltage drop, 354 pF result, loop-traversal instruction, Lenz direction, copper table entry, and final refraction angle. Conflicting question labels remain visible in the originals and receive explicit interpretations.</p><h3>Supplementary checks and further reading</h3><p>These references check standard laws and labeled extensions. They do not replace the supplied course scope.</p><ul><li><a href="https://openstax.org/books/university-physics-volume-2/pages/10-5-rc-circuits">OpenStax · RC circuits</a></li><li><a href="https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits">OpenStax · RL circuits</a></li><li><a href="https://openstax.org/books/university-physics-volume-2/pages/13-4-induced-electric-fields">OpenStax · induced electric fields</a></li><li><a href="https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect">OpenStax · photoelectric effect</a></li><li><a href="https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/pages/lecture-notes/">MIT OpenCourseWare · electricity and magnetism notes</a></li></ul><p>Added extensions identify their assumptions. A finite reviewer does not contain every possible exam scenario. Use the problem's actual geometry, signs, and initial conditions.</p><p>Use your browser's Find to locate a term. Use Print to save the notes as a PDF. Every solution stays open for reading and printing.</p></section>'''
+    reference_tex=[r'g=9.81\,\mathrm{m\,s^{-2}}',r'k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}',r'\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}',r'\mu_0\approx4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}']
+    reference_result=subprocess.run(['node',str(ROOT/'tools/render_math.cjs')],input=json.dumps([{'tex':t,'display':False} for t in reference_tex]),capture_output=True,text=True,encoding='utf-8',cwd=ROOT,check=True)
+    reference_html=[f'<span class="inline-math">{t}</span>' for t in json.loads(reference_result.stdout)]
+    constants='g = 9.81 m/s², k = 8.99 × 10⁹ N·m²/C², ε₀ = 8.85 × 10⁻¹² F/m, and μ₀ ≈ 4π × 10⁻⁷ T·m/A'
+    assert constants in appendix
+    appendix=appendix.replace(constants,', '.join(reference_html[:3])+', and '+reference_html[3])
+    STATS['reference_equations']=len(reference_tex)
     html=f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#f0f5fe"><meta name="description" content="Detailed Physics 2 notes with source-linked derivations, complete worked solutions, and original slides."><title>Physics Reviewer Notes · Field Notes</title><script src="appearance.js?v={VERSION}"></script><link rel="stylesheet" href="palette.css?v={VERSION}"><link rel="stylesheet" href="style.css?v={VERSION}"><link rel="stylesheet" href="notebook.css?v={VERSION}"><link rel="stylesheet" href="assets/katex/katex.min.css"><script src="notes-math.js?v={VERSION}" defer></script><script src="themes.js?v={VERSION}" defer></script></head>
 <body class="notebook-page"><a class="skip-link" href="#main">Skip to notes</a><header class="site-header"><a class="wordmark" href="index.html"><span>∇</span> field notes<small>PHYSICS 2</small></a><nav aria-label="Website sections"><a href="index.html">Home</a><a class="active" aria-current="page" href="reviewer.html">Reviewer Notes</a><a href="index.html#practice">Practice</a><a href="index.html#slides">Originals</a></nav><button id="appearance-open" aria-label="Choose a theme">◐</button></header><div class="reading-progress" aria-hidden="true"><i id="reading-progress-fill"></i></div>

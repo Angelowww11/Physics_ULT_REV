@@ -5,7 +5,10 @@ document.addEventListener('DOMContentLoaded',()=>{
  const jump=document.querySelector('#module-jump');
  const bar=document.querySelector('#reading-progress-fill');
  let queued=false;
- function equationFocus(){document.querySelectorAll('.katex-display').forEach(el=>{if(el.scrollWidth>el.clientWidth+1)el.tabIndex=0;else el.removeAttribute('tabindex');});}
+ function equationFocus(){
+  const measured=[...document.querySelectorAll('.inline-math,.math>.katex-display')].map(el=>[el,el.scrollWidth>el.clientWidth+1]);
+  measured.forEach(([el,overflow])=>{if(overflow){if(el.tabIndex!==0)el.tabIndex=0;}else if(el.hasAttribute('tabindex'))el.removeAttribute('tabindex');});
+ }
  function update(){
   queued=false;
   const current=chapters.findLast(c=>c.getBoundingClientRect().top<innerHeight*.35);

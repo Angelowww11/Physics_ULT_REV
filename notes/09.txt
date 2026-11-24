@@ -6,21 +6,21 @@ An induced emf can exist without a closed conducting circuit. A closed path is r
 
 $$\Phi_B=\int\mathbf B\cdot d\mathbf A,\quad \Phi_B=BA\cos\theta\ \text{for uniform }B.$$
 
-The angle is between B and the AREA NORMAL. If a problem gives the angle to the plane, use the complementary angle. One weber is one T·m². A field perpendicular to the plane produces maximum flux magnitude; a field parallel to the plane produces zero flux.
+The angle is between B and the AREA NORMAL. If a problem gives the angle to the plane, use the complementary angle. One weber is one $T \cdot m^{2}$. A field perpendicular to the plane produces maximum flux magnitude; a field parallel to the plane produces zero flux.
 
-If B occupies only an overlap area, integrate over that region. Primary p. 10 has flux BA₂, not BA₁, when the field is confined to the smaller perpendicular overlap area A₂. Treat “zero outside the field region” explicitly.
+If B occupies only an overlap area, integrate over that region. Primary p. 10 has flux $BA_{2}$, not $BA_{1}$, when the field is confined to the smaller perpendicular overlap area $A_{2}$. Treat “zero outside the field region” explicitly.
 
-**Worked example — primary p. 11.** A 0.100 m square loop in 1.25 T has A = 0.0100 m². Maximum magnitude = 0.0125 Wb; minimum magnitude = 0. Signed flux can range from −0.0125 to +0.0125 Wb depending on the chosen normal.
+**Worked example — primary p. 11.** A $0.100\,\mathrm{m}$ square loop in $1.25\,\mathrm{T}$ has $A = 0.0100\,\mathrm{m}^{2}$. Maximum magnitude: $0.0125\,\mathrm{Wb}$; minimum magnitude: $0$. Signed flux can range from −0.0125 to $+ 0.0125\,\mathrm{Wb}$ depending on the chosen normal.
 
 ### Faraday's law and the full product derivative
 
-Faraday's law is a fundamental induction law in this course. For N turns linking the same flux, ℰ = −N dΦB/dt. For nonidentical linked fluxes, sum the flux linkages instead of assuming NΦ. The finite average magnitude is N|ΔΦ|/Δt; it equals the instantaneous value only for a constant rate during the interval.
+Faraday's law is a fundamental induction law in this course. For N turns linking the same flux, $\mathcal{E} = - \frac{N d\Phi B}{dt}$. For nonidentical linked fluxes, sum the flux linkages instead of assuming $N\Phi$. The finite average magnitude is $\frac{N \left| \Delta \Phi \right|}{\Delta t}$; it equals the instantaneous value only for a constant rate during the interval.
 
 $$\mathcal E=-N\left(A\cos\theta\frac{dB}{dt}+B\cos\theta\frac{dA}{dt}-BA\sin\theta\frac{d\theta}{dt}\right).$$
 
 This product-rule expression covers changing field strength, changing area, changing orientation, and simultaneous changes. Set only the quantities explicitly held constant to zero.
 
-**Worked example — primary p. 18.** N = 200; square side = 0.180 m; R = 2.0 Ω; ΔB = 0.500 T in 0.80 s, with perpendicular field. A = 0.0324 m². |ℰ| = 200(0.0324)(0.500)/0.80 = 4.05 V. Current magnitude = 4.05/2.0 = 2.025 A. The source's 4.1 V is rounded.
+**Worked example — primary p. 18.** $N = 200$; square side: $0.180\,\mathrm{m}$; $R = 2.0 \Omega$; $\Delta B = 0.500\,\mathrm{T}$ in $0.80\,\mathrm{s}$, with perpendicular field. $A = 0.0324\,\mathrm{m}^{2}$. $\left| \mathcal{E} \right| = \frac{200 \left( 0.0324 \right) \left( 0.500 \right)}{0.80} = 4.05\,\mathrm{V}$. Current magnitude: $\frac{4.05}{2.0} = 2.025\,\mathrm{A}$. The source's $4.1\,\mathrm{V}$ is rounded.
 
 ### Lenz's law with four direction cases
 
@@ -37,48 +37,48 @@ Primary p. 28 prints a decreasing inward-field example with the wrong outward in
 
 ### Motional emf from two derivations
 
-**Flux derivation.** A rod of length ℓ slides distance dx in a perpendicular uniform B. The loop's area change is dA = ℓdx, so |ℰ| = Bℓ(dx/dt) = Bℓv.
+**Flux derivation.** A rod of length ℓ slides distance dx in a perpendicular uniform B. The loop's area change is $dA = \ell dx$, so $\left| \mathcal{E} \right| = B \ell \left( \frac{dx}{dt} \right) = B \ell v$.
 
-**Charge-force derivation.** Charges in an open moving rod redistribute until qE balances the magnetic qvB. Thus E = vB, and voltage magnitude Eℓ = Bℓv. The general expression is ∫(v×B)·dl; the product Bℓv needs the stated perpendicular geometry.
+**Charge-force derivation.** Charges in an open moving rod redistribute until qE balances the magnetic qvB. Thus $E = vB$, and voltage magnitude $E \ell = B \ell v$. The general expression is $\int \left( v \times B \right) \cdot dl$; the product Bℓv needs the stated perpendicular geometry.
 
-For a sliding rod in a closed resistance R: I = Bℓv/R. Magnetic drag magnitude is F = IℓB = B²ℓ²v/R. Required mechanical power at constant speed is Fv = I²R, which verifies energy conservation.
+For a sliding rod in a closed resistance R: $I = \frac{B \ell v}{R}$. Magnetic drag magnitude is $F = I \ell B = \frac{B^{2} \ell^{2} v}{R}$. Required mechanical power at constant speed is $Fv = I^{2} R$, which verifies energy conservation.
 
-**Worked example — primary p. 35.** Speed 1000 km/h = 277.778 m/s. A 70 m wingspan moving perpendicular to a nearly vertical 5.0 × 10⁻⁵ T field develops about 0.9722 V between tips. Which tip is positive depends on the velocity and field vector directions.
+**Worked example — primary p. 35.** Speed $\frac{1000\,\mathrm{km}}{h} = 277.778\,\frac{\mathrm{m}}{\mathrm{s}}$. A $70\,\mathrm{m}$ wingspan moving perpendicular to a nearly vertical $5.0 \times 10^{-5}\,\mathrm{T}$ field develops about $0.9722\,\mathrm{V}$ between tips. Which tip is positive depends on the velocity and field vector directions.
 
 ### Generators, microphones, transformers, and eddy currents
 
-For a rigid rotating N-turn coil, Φ = BAcos(ωt + φ). Differentiate to derive ℰ(t) = NBAωsin(ωt + φ), with peak NBAω. A GENERATOR converts mechanical input into electrical output. Primary p. 14 reverses that conversion in its wording; it describes motor action instead. A moving-coil microphone converts mechanical vibration into an electrical signal.
+For a rigid rotating N-turn coil, $\Phi = BA\cos \left( \omega t + \phi \right)$. Differentiate to derive $\mathcal{E} \left( t \right) = NBA\omega \sin \left( \omega t + \phi \right)$, with peak $NBA\omega$. A GENERATOR converts mechanical input into electrical output. Primary p. 14 reverses that conversion in its wording; it describes motor action instead. A moving-coil microphone converts mechanical vibration into an electrical signal.
 
-An ideal transformer links both windings to the same changing core flux. Dividing their Faraday equations gives Vs/Vp = Ns/Np. With ideal power conservation, VpIp = VsIs and Is/Ip = Np/Ns. These are compatible AC magnitudes, usually rms values. A transformer does not directly convert AC into DC; a rectifier and other power-supply stages are required.
+An ideal transformer links both windings to the same changing core flux. Dividing their Faraday equations gives $\frac{V_{s}}{V_{p}} = \frac{N_{s}}{N_{p}}$. With ideal power conservation, $V_{p} I_{p} = V_{s} I_{s}$ and $\frac{I_{s}}{I_{p}} = \frac{N_{p}}{N_{s}}$. These are compatible AC magnitudes, usually rms values. A transformer does not directly convert AC into DC; a rectifier and other power-supply stages are required.
 
-**Worked example — primary p. 19.** Ideal 120 V to 9 V AC, Ns = 30, Is = 0.400 A gives Np = 400 turns, output power = 3.6 W, and input current = 0.030 A. The slide's description of 9 V DC includes an implicit rectifier; the transformer equations alone address the AC stage.
+**Worked example — primary p. 19.** Ideal $120\,\mathrm{V}$ to $9\,\mathrm{V}$ AC, $N_{s} = 30$, $I_{s} = 0.400\,\mathrm{A}$ gives $N_{p} = 400$ turns, output power: $3.6\,\mathrm{W}$, and input current: $0.030\,\mathrm{A}$. The slide's description of $9\,\mathrm{V}$ DC includes an implicit rectifier; the transformer equations alone address the AC stage.
 
 Eddy currents circulate in bulk conductors. Their opposing magnetic effects can slow moving metal. Energy becomes heat. A changing current in one coil can induce emf in a nearby coil even without a conducting connection between them.
 
 ### Mutual/self-inductance and stored magnetic energy
 
-Define mutual inductance through ℰ₂ = −M dI₁/dt. For a linear coil, flux linkage NΦ = LI, giving ℰself = −L dI/dt. L and M have units henry = V·s/A = Ω·s. Constant permeability and fixed geometry are part of the simple constant-L model.
+Define mutual inductance through $\mathcal{E}_{2} = - \frac{M dI_{1}}{dt}$. For a linear coil, flux linkage $N\Phi = LI$, giving $\mathcal{E} _{\mathrm{self}} = - \frac{L dI}{dt}$. L and M have units henry: $\frac{V \cdot s}{A} = \Omega \cdot s$. Constant permeability and fixed geometry are part of the simple constant-L model.
 
-For an ideal long solenoid, B = μNI/ℓ. Flux per turn is BA. Therefore L = NΦ/I = μN²A/ℓ. Derive stored energy by P = LI(dI/dt) and integrate: U = ∫₀ᴵLi di = LI²/2. Inductors resist a CHANGE in current; they do not simply “oppose current” in every situation.
+For an ideal long solenoid, $B = \frac{\mu NI}{\ell}$. Flux per turn is BA. Therefore $L = \frac{N\Phi}{I} = \frac{\mathrm{\mu N}^{2} A}{\ell}$. Derive stored energy by $P = LI \left( \frac{dI}{dt} \right)$ and integrate: $U = \int_{0} ᴵ Li di = \frac{LI^{2}}{2}$. Inductors resist a CHANGE in current; they do not simply “oppose current” in every situation.
 
-Substitute L = μN²A/ℓ into U = LI²/2 and replace NI/ℓ with B/μ. This gives U = B²Aℓ/(2μ). Divide by the solenoid's internal field volume Aℓ to get magnetic energy density uB = B²/(2μ). Compare the electric result uE = εE²/2. Both formulas assume the specified linear material model.
+Substitute $L = \frac{\mathrm{\mu N}^{2} A}{\ell}$ into $U = \frac{LI^{2}}{2}$ and replace $\frac{NI}{\ell}$ with $\frac{B}{\mu}$. This gives $U = \frac{B^{2} A \ell}{\left( 2 \mu \right)}$. Divide by the solenoid's internal field volume Aℓ to get magnetic energy density $u_{B} = \frac{B^{2}}{\left( 2 \mu \right)}$. Compare the electric result $u_{E} = \frac{\varepsilon E^{2}}{2}$. Both formulas assume the specified linear material model.
 
 ### RL growth, decay, and arbitrary initial current
 
-KVL for an ideal L in series with total R gives ℰ = L(dI/dt)+RI. Separate and integrate with I(0)=0:
+KVL for an ideal L in series with total R gives $\mathcal{E} = L \left( \frac{dI}{dt} \right) + RI$. Separate and integrate with $I \left( 0 \right) = 0$:
 
 $$I(t)=\frac{\mathcal E}{R}(1-e^{-tR/L}),\quad \tau_{RL}=L/R.$$
 
-After removing the source while retaining a closed R–L path, I = I₀e⁻ᵗᴿᐟᴸ. More generally I(t)=If+(I₀−If)e⁻ᵗᐟτ. Inductor current is continuous in this ideal finite-voltage model. At DC steady state, an ideal inductor has zero voltage; real winding resistance remains.
+After removing the source while retaining a closed R–L path, $I = I_{0} \exp \left( - \frac{t R}{L} \right)$. More generally $I(t)=I_f+(I_0-I_f)e^{-t/\tau}$. Inductor current is continuous in this ideal finite-voltage model. At DC steady state, an ideal inductor has zero voltage; real winding resistance remains.
 
-For fraction f of final growth, t = −(L/R)ln(1−f). For remaining decay fraction f, t = −(L/R)ln f. RC increases its time constant with R; RL decreases its time constant with R. Do not interchange them.
+For fraction f of final growth, $t = - \left( \frac{L}{R} \right) \ln \left( 1 - f \right)$. For remaining decay fraction f, $t = - \left( \frac{L}{R} \right) \ln f$. RC increases its time constant with R; RL decreases its time constant with R. Do not interchange them.
 
-**Worked example — primary p. 44.** L = 87.5 mH = 0.0875 H and R = 0.250 Ω. τ = 0.350 s. Growth reaches 1−e⁻¹ = 63.212% at 0.350 s. Exactly 63% requires −0.350ln(0.37) ≈ 0.348 s. The printed “63%” convention is a rounding approximation.
+**Worked example — primary p. 44.** $L = 87.5\,\mathrm{mH} = 0.0875\,\mathrm{H}$ and $R = 0.250 \Omega$. $\tau = 0.350\,\mathrm{s}$. Growth reaches $1 - e^{-1} = 63.212$% at $0.350\,\mathrm{s}$. Exactly 63% requires $- 0.350 \ln \left( 0.37 \right) \approx 0.348\,\mathrm{s}$. The printed “63%” convention is a rounding approximation.
 
-**Show the RL integration.** Rearrange the loop equation to dI/(ℰ−RI) = dt/L. Integrate using I(0) = 0. The left side contributes −ln[(ℰ−RI)/ℰ]/R. Therefore:
+**Show the RL integration.** Rearrange the loop equation to $\frac{dI}{\left( \mathcal{E} - RI \right)} = \frac{dt}{L}$. Integrate using $I \left( 0 \right) = 0$. The left side contributes $- \frac{\ln \left[ \frac{\left( \mathcal{E} - RI \right)}{\mathcal{E}} \right]}{R}$. Therefore:
 
 $$-\ln\left(1-\frac{RI}{\mathcal E}\right)=\frac{Rt}{L}\Rightarrow I=\frac{\mathcal E}{R}(1-e^{-Rt/L}).$$
 
-For ℰ = 12 V, R = 6 Ω, and L = 3 H, τ = 0.5 s and Ifinal = 2 A. At one time constant, I ≈ 1.26424 A. The resistor drop is 7.58545 V; the inductor drop is ℰe⁻¹ ≈ 4.41455 V. Their sum remains 12 V. Initial current is zero, while the initial inductor drop is the full 12 V. At long times, the ideal inductor drop tends to zero and stored energy tends to ½(3)(2²) = 6 J.
+For $\mathcal{E} = 12\,\mathrm{V}$, $R = 6 \Omega$, and $L = 3\,\mathrm{H}$, $\tau = 0.5\,\mathrm{s}$ and $I_{\mathrm{final}} = 2\,\mathrm{A}$. At one time constant, $I \approx 1.26424\,\mathrm{A}$. The resistor drop is $7.58545\,\mathrm{V}$; the inductor drop is $\mathcal{E} e^{-1} \approx 4.41455\,\mathrm{V}$. Their sum remains $12\,\mathrm{V}$. Initial current is zero, while the initial inductor drop is the full $12\,\mathrm{V}$. At long times, the ideal inductor drop tends to zero and stored energy tends to $\tfrac{1}{2} \left( 3 \right) \left( 2^{2} \right) = 6\,\mathrm{J}$.
 
 **Switching check.** A source-free decay needs a closed path. Opening the only path does not make a real inductor's current disappear without consequence. Its induced voltage can become large and cause a spark or flow through a protection component. The simple exponential requires a valid R–L discharge path.

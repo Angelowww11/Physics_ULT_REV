@@ -9,36 +9,36 @@
 :::derivation Drift, collision time, and microscopic Ohm's law
 **Source starting point:** Primary p. 7. The additional algebra uses a simple relaxation-time model.
 
-1. Between collisions, the carrier acceleration is a = qE/m.
-2. The model's mean drift velocity is vd = qEτcollision/m.
-3. Insert vd into J = nqvd.
-4. Compare the result with J = σE.
+1. Between collisions, the carrier acceleration is $a = \frac{qE}{m}$.
+2. The model's mean drift velocity is $v_{d} = \frac{qE\tau _{\mathrm{collision}}}{m}$.
+3. Insert vd into $J = nqv_{d}$.
+4. Compare the result with $J = \sigma E$.
 
 $$\mathbf J=\frac{nq^2\tau_{collision}}m\mathbf E,
 \qquad \sigma=\frac{nq^2\tau_{collision}}m,
 \qquad \rho=\frac{m}{nq^2\tau_{collision}}.$$
 
-The squared charge makes σ positive for either carrier sign. For electrons, vd opposes E while J points along E. This is a microscopic model for suitable materials; it is not an exact conductivity theory for every substance.
+The squared charge makes $\sigma$ positive for either carrier sign. For electrons, vd opposes E while J points along E. This is a microscopic model for suitable materials; it is not an exact conductivity theory for every substance.
 :::
 
 :::example All three primary current calculations
 **Source:** Primary p. 17.
 
-1. For 29.3 C passing in 7.84 s, Iavg = Q/Δt = 29.3/7.84 = 3.73724 A, about 3.74 A.
-2. For a constant calculator current of 0.010 A for 60 s, Q = IΔt = 0.600 C.
-3. For 15 C passing in 3 s, Iavg = 15/3 = 5 A.
+1. For $29.3\,\mathrm{C}$ passing in $7.84\,\mathrm{s}$, $I_{\mathrm{avg}} = \frac{Q}{\Delta t} = \frac{29.3}{7.84} = 3.73724\,\mathrm{A}$, about $3.74\,\mathrm{A}$.
+2. For a constant calculator current of $0.010\,\mathrm{A}$ for $60\,\mathrm{s}$, $Q = I\Delta t = 0.600\,\mathrm{C}$.
+3. For $15\,\mathrm{C}$ passing in $3\,\mathrm{s}$, $I_{\mathrm{avg}} = \frac{15}{3} = 5\,\mathrm{A}$.
 
-**Check.** Coulombs divided by seconds give amperes. These are average values unless the flow is constant. For a varying current, use Q = ∫I(t)dt.
+**Check.** Coulombs divided by seconds give amperes. These are average values unless the flow is constant. For a varying current, use $Q = \int I \left( t \right) dt$.
 :::
 
 :::example Carrier concentration with signed vectors
-**Source:** Primary p. 16. **Given:** Jx = +50.0 A/m², q = −0.10 C, and vdx = −2.0 × 10⁻⁴ m/s.
+**Source:** Primary p. 16. **Given:** $J_{x} = + 50.0\,\frac{\mathrm{A}}{\mathrm{m}^{2}}$, $q = - 0.10\,\mathrm{C}$, and $v_{dx} = - 2.0 \times 10^{-4}\,\frac{\mathrm{m}}{\mathrm{s}}$.
 
-1. Use Jx = nqvdx, keeping both negative signs.
-2. Calculate qvdx = (−0.10)(−2.0 × 10⁻⁴) = +2.0 × 10⁻⁵ C·m/s.
-3. Divide n = 50.0/(2.0 × 10⁻⁵) = 2.5 × 10⁶ m⁻³.
+1. Use $J_{x} = nqv_{dx}$, keeping both negative signs.
+2. Calculate $qv_{dx} = \left( - 0.10 \right) \left( - 2.0 \times 10^{-4} \right) = + \frac{2.0 \times 10^{-5}\,\mathrm{C} \cdot m}{s}$.
+3. Divide $n = \frac{50.0}{\left( 2.0 \times 10^{-5} \right)} = 2.5 \times 10^{6}\,\mathrm{m}^{-3}$.
 
-**Check.** A carrier count per volume must be positive. The supplied −0.10 C is a hypothetical carrier charge, not an electron's charge.
+**Check.** A carrier count per volume must be positive. The supplied $- 0.10\,\mathrm{C}$ is a hypothetical carrier charge, not an electron's charge.
 :::
 
 {{figure:m7-main:21|The primary resistivity and temperature-coefficient table. Values depend on material composition and the reference temperature.}}
@@ -46,14 +46,14 @@ The squared charge makes σ positive for either carrier sign. For electrons, vd 
 The companion also lists conductors, semiconductors, and insulators. Metals generally have low resistivity. Insulators have much higher resistivity. Semiconductor resistivity strongly depends on temperature and impurities. Its graph shows that superconducting resistivity becomes zero below a material-dependent critical temperature under suitable conditions. Do not extrapolate the room-temperature linear resistance model through that transition.
 
 :::example Copper resistivity at 70°C
-**Source:** Companion pp. 3–4. **Given:** ρ₀ = 1.68 × 10⁻⁸ Ω·m at 20°C; α = 0.0039°C⁻¹.
+**Source:** Companion pp. 3–4. **Given:** $\rho_{0} = 1.68 \times 10^{-8} \Omega \cdot m$ at 20°C; $\alpha = 0.0039^{\circ} C^{-1}$.
 
-1. Find ΔT = 70−20 = 50°C.
-2. Calculate the dimensionless correction: 1+αΔT = 1+0.0039(50) = 1.195.
-3. Calculate ρ = ρ₀(1+αΔT) = 2.0076 × 10⁻⁸ Ω·m.
-4. Round to the source's 2.01 × 10⁻⁸ Ω·m.
+1. Find $\Delta T = 70 - 20 = 50^{\circ} C$.
+2. Calculate the dimensionless correction: $1 + \alpha \Delta T = 1 + 0.0039 \left( 50 \right) = 1.195$.
+3. Calculate $\rho = \rho_{0} \left( 1 + \alpha \Delta T \right) = 2.0076 \times 10^{-8} \Omega \cdot m$.
+4. Round to the source's $2.01 \times 10^{-8} \Omega \cdot m$.
 
-**Check.** Copper's positive α predicts increased resistivity when heated. Use the supplied 1.68 × 10⁻⁸ value rather than substituting a different table value halfway through.
+**Check.** Copper's positive $\alpha$ predicts increased resistivity when heated. Use the supplied $1.68 \times 10^{-8}$ value rather than substituting a different table value halfway through.
 :::
 
 {{figure:m7-main:23|The source shows a six-band resistor. Its band roles differ from a four-band resistor.}}
@@ -64,11 +64,11 @@ The companion also lists conductors, semiconductors, and insulators. Metals gene
 **Source:** Primary p. 23.
 
 1. Read the first three digits: green 5, blue 6, black 0. The significant number is 560.
-2. Apply the red multiplier, 10²: Rnominal = 560(100) = 56,000 Ω = 56 kΩ.
-3. Apply the gold tolerance, ±5%: ΔR = 0.05(56,000) = 2800 Ω.
+2. Apply the red multiplier, $10^{2}$: $R_{\mathrm{nominal}} = 560 \left( 100 \right) = 56{,}000 \Omega = 56 k\Omega$.
+3. Apply the gold tolerance, ±5%: $\Delta R = 0.05 \left( 56{,}000 \right) = 2800 \Omega$.
 4. Find the tolerance interval: 53.2 kΩ to 58.8 kΩ.
-5. Read the yellow temperature coefficient as 25 ppm/K in the displayed code convention.
-6. For a 20 K change, the fractional temperature shift is 25 × 10⁻⁶(20) = 0.0005, or 0.05%.
+5. Read the yellow temperature coefficient as $\frac{25\,\mathrm{ppm}}{K}$ in the displayed code convention.
+6. For a $20\,\mathrm{K}$ change, the fractional temperature shift is $25 \times 10^{-6} \left( 20 \right) = 0.0005$, or 0.05%.
 
 **Check.** Manufacturing tolerance and temperature drift describe different effects. Do not treat the sixth band as another multiplier or another significant digit.
 :::
@@ -80,9 +80,9 @@ The companion also lists conductors, semiconductors, and insulators. Metals gene
 
 | Problem | Equation choice and conversion | Solution |
 | --- | --- | --- |
-| 250 Ω bulb at 110 V | I = V/R | I = 110/250 = 0.440 A |
-| Toaster at 220 V carrying 0.50 A | R = V/I | R = 220/0.50 = 440 Ω |
-| 1200 Ω resistor carrying 30 mA | I = 0.030 A; V = IR | V = 0.030(1200) = 36 V |
+| 250 Ω bulb at $110\,\mathrm{V}$ | $I = \frac{V}{R}$ | $I = \frac{110}{250} = 0.440\,\mathrm{A}$ |
+| Toaster at $220\,\mathrm{V}$ carrying $0.50\,\mathrm{A}$ | $R = \frac{V}{I}$ | $R = \frac{220}{0.50} = 440 \Omega$ |
+| 1200 Ω resistor carrying $30\,\mathrm{mA}$ | $I = 0.030\,\mathrm{A}$; $V = IR$ | $V = 0.030 \left( 1200 \right) = 36\,\mathrm{V}$ |
 
 **Check.** Convert milliamperes before using ohms. A physical incandescent bulb changes resistance as it heats; the source exercises use an assigned steady resistance.
 :::
@@ -90,51 +90,51 @@ The companion also lists conductors, semiconductors, and insulators. Metals gene
 :::example Power and energy: choose the form that uses the given values
 **Sources:** Primary pp. 39–40; companion pp. 6–7.
 
-1. For R = 120 Ω and I = 0.9 A, use P = I²R = 0.9²(120) = 97.2 W.
-2. For P = 30 W and V = 110 V, use I = P/V = 30/110 = 0.272727 A.
-3. For the companion heater, use R = 20 Ω and V = 120 V: I = 6 A and P = VI = 720 W.
-4. Convert 15 minutes to 900 s, then calculate Eenergy = Pt = 720(900) = 648,000 J.
-5. Convert independently: 0.720 kW × 0.25 h = 0.18 kWh.
-6. Raise the heater resistance to 30 Ω at fixed 120 V. The new power is V²/R = 480 W.
+1. For $R = 120 \Omega$ and $I = 0.9\,\mathrm{A}$, use $P = I^{2} R = 0.9^{2} \left( 120 \right) = 97.2\,\mathrm{W}$.
+2. For $P = 30\,\mathrm{W}$ and $V = 110\,\mathrm{V}$, use $I = \frac{P}{V} = \frac{30}{110} = 0.272727\,\mathrm{A}$.
+3. For the companion heater, use $R = 20 \Omega$ and $V = 120\,\mathrm{V}$: $I = 6\,\mathrm{A}$ and $P = VI = 720\,\mathrm{W}$.
+4. Convert 15 minutes to $900\,\mathrm{s}$, then calculate $E_{\mathrm{energy}} = Pt = 720 \left( 900 \right) = 648{,}000\,\mathrm{J}$.
+5. Convert independently: $0.720\,\mathrm{kW} \times 0.25 h = 0.18\,\mathrm{kWh}$.
+6. Raise the heater resistance to 30 Ω at fixed $120\,\mathrm{V}$. The new power is $\frac{V^{2}}{R} = 480\,\mathrm{W}$.
 
-**Source correction.** Primary p. 40 labels its 30 W given value as R. Watts measure power, so the symbol must be P. The resistor formulas P = I²R and V²/R require the resistor's voltage and current.
+**Source correction.** Primary p. 40 labels its $30\,\mathrm{W}$ given value as R. Watts measure power, so the symbol must be P. The resistor formulas $P = I^{2} R$ and $\frac{V^{2}}{R}$ require the resistor's voltage and current.
 :::
 
 :::example Real battery: current, terminal voltage, and the complete power budget
-**Sources:** Primary pp. 43–44; companion p. 6. **Given:** ℰ = 12 V, internal resistance r = 2 Ω, and external load R = 4 Ω.
+**Sources:** Primary pp. 43–44; companion p. 6. **Given:** $\mathcal{E} = 12\,\mathrm{V}$, internal resistance $r = 2 \Omega$, and external load $R = 4 \Omega$.
 
-1. Add the series resistances: Rtotal = R+r = 6 Ω.
-2. Calculate I = ℰ/(R+r) = 12/6 = 2 A.
-3. Calculate terminal voltage: Vterminal = ℰ−Ir = 12−2(2) = 8 V.
-4. Check the load voltage: IR = 2(4) = 8 V.
-5. Calculate chemical-to-electrical conversion rate: Psource = ℰI = 24 W.
-6. Calculate internal heating: Pinternal = I²r = 8 W.
-7. Calculate useful load power: Pload = I²R = 16 W.
+1. Add the series resistances: $R_{\mathrm{total}} = R + r = 6 \Omega$.
+2. Calculate $I = \frac{\mathcal{E}}{\left( R + r \right)} = \frac{12}{6} = 2\,\mathrm{A}$.
+3. Calculate terminal voltage: $V_{\mathrm{terminal}} = \mathcal{E} - Ir = 12 - 2 \left( 2 \right) = 8\,\mathrm{V}$.
+4. Check the load voltage: $IR = 2 \left( 4 \right) = 8\,\mathrm{V}$.
+5. Calculate chemical-to-electrical conversion rate: $P_{\mathrm{source}} = \mathcal{E} I = 24\,\mathrm{W}$.
+6. Calculate internal heating: $P_{\mathrm{internal}} = I^{2} r = 8\,\mathrm{W}$.
+7. Calculate useful load power: $P_{\mathrm{load}} = I^{2} R = 16\,\mathrm{W}$.
 
-**Check.** 24 W = 8 W + 16 W. The ideal voltmeter reads 8 V; the ideal series ammeter reads 2 A.
+**Check.** $24\,\mathrm{W} = 8\,\mathrm{W} + 16\,\mathrm{W}$. The ideal voltmeter reads $8\,\mathrm{V}$; the ideal series ammeter reads $2\,\mathrm{A}$.
 
-For charging at a specified current entering the positive terminal, the required terminal voltage is ℰ+Ir. The incoming power splits into chemical storage ℰI and internal heating I²r.
+For charging at a specified current entering the positive terminal, the required terminal voltage is $\mathcal{E} + Ir$. The incoming power splits into chemical storage $\mathcal{E} I$ and internal heating $I^{2} r$.
 :::
 
 ### Recover every series, parallel, and mixed-network result
 
 :::example The primary 18 kΩ circuit, including its unprinted branch results
-**Source:** Primary p. 53. **Given:** 3 kΩ, 10 kΩ, and 5 kΩ in series across 9 V.
+**Source:** Primary p. 53. **Given:** 3 kΩ, 10 kΩ, and 5 kΩ in series across $9\,\mathrm{V}$.
 
-1. Add the resistances: Req = 18 kΩ.
-2. Calculate I = 9/18,000 = 0.000500 A = 0.500 mA.
-3. Calculate voltage drops: 1.50 V across 3 kΩ, 5.00 V across 10 kΩ, and 2.50 V across 5 kΩ.
-4. Check their sum: 1.50+5.00+2.50 = 9.00 V.
+1. Add the resistances: $R_{\mathrm{eq}} = 18 k\Omega$.
+2. Calculate $I = \frac{9}{18{,}000} = 0.000500\,\mathrm{A} = 0.500\,\mathrm{mA}$.
+3. Calculate voltage drops: $1.50\,\mathrm{V}$ across 3 kΩ, $5.00\,\mathrm{V}$ across 10 kΩ, and $2.50\,\mathrm{V}$ across 5 kΩ.
+4. Check their sum: $1.50 + 5.00 + 2.50 = 9.00\,\mathrm{V}$.
 
-**Check.** Every series resistor carries 0.500 mA. The largest resistance receives the largest voltage drop.
+**Check.** Every series resistor carries $0.500\,\mathrm{mA}$. The largest resistance receives the largest voltage drop.
 :::
 
-:::example Primary 2 Ω, 3 Ω, and 5 Ω network at 50 V
+:::example Primary 2 Ω, 3 Ω, and 5 Ω network at $50\,\mathrm{V}$
 **Sources:** Primary pp. 54–56.
 
-**Series.** Req = 2+3+5 = 10 Ω. The common current is 50/10 = 5 A. The voltage drops are 10 V, 15 V, and 25 V. Their sum is 50 V. Total power is 250 W.
+**Series.** $R_{\mathrm{eq}} = 2 + 3 + 5 = 10 \Omega$. The common current is $\frac{50}{10} = 5\,\mathrm{A}$. The voltage drops are $10\,\mathrm{V}$, $15\,\mathrm{V}$, and $25\,\mathrm{V}$. Their sum is $50\,\mathrm{V}$. Total power is $250\,\mathrm{W}$.
 
-**Parallel.** Every branch has 50 V. Calculate each current separately: I₂Ω = 25 A, I₃Ω = 50/3 A, and I₅Ω = 10 A. Their sum is 155/3 A, about 51.6667 A.
+**Parallel.** Every branch has $50\,\mathrm{V}$. Calculate each current separately: $I_{2} \Omega = 25\,\mathrm{A}$, $I_{3} \Omega = \frac{50}{3} A$, and $I_{5} \Omega = 10\,\mathrm{A}$. Their sum is $\frac{155}{3} A$, about $51.6667\,\mathrm{A}$.
 
 $$\frac1{R_{eq}}=\frac12+\frac13+\frac15=\frac{31}{30},
 \qquad R_{eq}=\frac{30}{31}\ \Omega\approx0.967742\ \Omega.$$
@@ -144,22 +144,22 @@ $$\frac1{R_{eq}}=\frac12+\frac13+\frac15=\frac{31}{30},
 
 {{figure:m7-dyn:9|The companion series solution includes an incorrect 8 Ω voltage result. The corrected calculation appears below.}}
 
-:::example Companion 15 Ω, 4 Ω, and 8 Ω circuits at 9 V
+:::example Companion 15 Ω, 4 Ω, and 8 Ω circuits at $9\,\mathrm{V}$
 **Sources:** Companion pp. 8–10.
 
-**Series.** Req = 15+4+8 = 27 Ω. Use the exact current I = 9/27 = 1/3 A. The drops are 15/3 = 5 V, 4/3 = 1.3333 V, and 8/3 = 2.6667 V. Their sum is 9 V.
+**Series.** $R_{\mathrm{eq}} = 15 + 4 + 8 = 27 \Omega$. Use the exact current $I = \frac{9}{27} = \frac{1}{3} A$. The drops are $\frac{15}{3} = 5\,\mathrm{V}$, $\frac{4}{3} = 1.3333\,\mathrm{V}$, and $\frac{8}{3} = 2.6667\,\mathrm{V}$. Their sum is $9\,\mathrm{V}$.
 
-**Source correction.** The series slide prints 1.66 V for the 8 Ω resistor. That value is incorrect. It also repeats a 4 Ω factor in the wrong row. The physical voltage drop across 8 Ω is 2.6667 V under the stated circuit.
+**Source correction.** The series slide prints $1.66\,\mathrm{V}$ for the 8 Ω resistor. That value is incorrect. It also repeats a 4 Ω factor in the wrong row. The physical voltage drop across 8 Ω is $2.6667\,\mathrm{V}$ under the stated circuit.
 
-**Parallel.** Each branch has 9 V. The currents are 9/15 = 0.600 A, 9/4 = 2.250 A, and 9/8 = 1.125 A. Their sum is 3.975 A. The reciprocal sum gives Req = 120/53 Ω ≈ 2.26415 Ω. Use unrounded values to check I = V/Req.
+**Parallel.** Each branch has $9\,\mathrm{V}$. The currents are $\frac{9}{15} = 0.600\,\mathrm{A}$, $\frac{9}{4} = 2.250\,\mathrm{A}$, and $\frac{9}{8} = 1.125\,\mathrm{A}$. Their sum is $3.975\,\mathrm{A}$. The reciprocal sum gives $R_{\mathrm{eq}} = \frac{120}{53} \Omega \approx 2.26415 \Omega$. Use unrounded values to check $I = \frac{V}{R_{\mathrm{eq}}}$.
 :::
 
 :::example Companion mixed resistor network
 **Sources:** Companion pp. 10–11. **Given topology:** 90 Ω in parallel with 45 Ω; that group in series with 10 Ω; that branch in parallel with 25 Ω.
 
-1. Reduce the inner parallel group: R₂₃ = (90×45)/(90+45) = 30 Ω.
-2. Add its series resistor: R₁₂₃ = 10+30 = 40 Ω.
-3. Combine the two outer branches: Req = (40×25)/(40+25) = 200/13 Ω ≈ 15.3846 Ω.
+1. Reduce the inner parallel group: $R_{23} = \frac{\left( 90 \times 45 \right)}{\left( 90 + 45 \right)} = 30 \Omega$.
+2. Add its series resistor: $R_{123} = 10 + 30 = 40 \Omega$.
+3. Combine the two outer branches: $R_{\mathrm{eq}} = \frac{\left( 40 \times 25 \right)}{\left( 40 + 25 \right)} = \frac{200}{13} \Omega \approx 15.3846 \Omega$.
 4. Check that the final equivalent is smaller than either outer parallel branch, 25 Ω and 40 Ω.
 
 **Reason for the order.** The 10 Ω resistor shares the inner group's branch current. It does not share both terminal nodes with either 90 Ω or 45 Ω.
@@ -173,28 +173,28 @@ $$\frac1{R_{eq}}=\frac12+\frac13+\frac15=\frac{31}{30},
 
 {{figure:m7-main:69|The primary single-loop circuit. A negative current reverses the displayed clockwise arrow.}}
 
-:::example Primary single loop with opposing 6 V and 12 V batteries
+:::example Primary single loop with opposing $6\,\mathrm{V}$ and $12\,\mathrm{V}$ batteries
 **Source:** Primary p. 69. Assume clockwise current, as drawn. The resistors are 8 Ω and 10 Ω.
 
-1. Traverse the top source from negative to positive: +6 V.
+1. Traverse the top source from negative to positive: $+ 6\,\mathrm{V}$.
 2. Traverse the 8 Ω resistor with the assumed current: −8I.
-3. Traverse the bottom source from positive to negative: −12 V.
+3. Traverse the bottom source from positive to negative: $- 12\,\mathrm{V}$.
 4. Traverse the 10 Ω resistor with the assumed current: −10I.
-5. Set the sum to zero: 6−8I−12−10I = 0.
-6. Solve −6−18I = 0, giving I = −1/3 A.
+5. Set the sum to zero: $6 - 8 I - 12 - 10 I = 0$.
+6. Solve $- 6 - 18 I = 0$, giving $I = - \frac{1}{3} A$.
 
-**Interpretation.** The actual current is 0.3333 A counterclockwise. The negative answer corrects the initial arrow; it does not invalidate Kirchhoff's rules.
+**Interpretation.** The actual current is $0.3333\,\mathrm{A}$ counterclockwise. The negative answer corrects the initial arrow; it does not invalidate Kirchhoff's rules.
 :::
 
 {{figure:m7-dyn:15|The separate companion two-loop network. Its component values differ from the primary network.}}
 
 :::example Companion two-loop circuit: full elimination and voltage recovery
-**Sources:** Companion pp. 14–16. **Given arrows:** I₁ rises through 2 Ω, I₂ rises through the 1 Ω and 3 Ω branch, and I₃ falls through 5 Ω. Sources are 16 V and 6 V.
+**Sources:** Companion pp. 14–16. **Given arrows:** $I_{1}$ rises through 2 Ω, $I_{2}$ rises through the 1 Ω and 3 Ω branch, and $I_{3}$ falls through 5 Ω. Sources are $16\,\mathrm{V}$ and $6\,\mathrm{V}$.
 
-1. Write KCL at the upper node: I₃ = I₁+I₂.
-2. Write the left loop: 16−2I₁−5I₃ = 0.
-3. Write the right loop: 5I₃+I₂+3I₂−6 = 0.
-4. Substitute I₃ = I₁+I₂ and collect terms.
+1. Write KCL at the upper node: $I_{3} = I_{1} + I_{2}$.
+2. Write the left loop: $16 - 2 I_{1} - 5 I_{3} = 0$.
+3. Write the right loop: $5 I_{3} + I_{2} + 3 I_{2} - 6 = 0$.
+4. Substitute $I_{3} = I_{1} + I_{2}$ and collect terms.
 
 $$\begin{aligned}
 7I_1+5I_2&=16,\\
@@ -209,21 +209,21 @@ $$\begin{aligned}
 -38I_2&=38\Rightarrow I_2=-1\ \mathrm A.
 \end{aligned}$$
 
-6. Back-substitute: 7I₁+5(−1) = 16, so I₁ = 3 A.
-7. Recover I₃ = 3+(−1) = 2 A and I₄ = I₂ = −1 A.
-8. Calculate voltage-drop magnitudes: 6 V across 2 Ω; 1 V across 1 Ω; 10 V across 5 Ω; 3 V across 3 Ω.
+6. Back-substitute: $7 I_{1} + 5 \left( - 1 \right) = 16$, so $I_{1} = 3\,\mathrm{A}$.
+7. Recover $I_{3} = 3 + \left( - 1 \right) = 2\,\mathrm{A}$ and $I_{4} = I_{2} = - 1\,\mathrm{A}$.
+8. Calculate voltage-drop magnitudes: $6\,\mathrm{V}$ across 2 Ω; $1\,\mathrm{V}$ across 1 Ω; $10\,\mathrm{V}$ across 5 Ω; $3\,\mathrm{V}$ across 3 Ω.
 
-**Checks.** Left loop: 16−6−10 = 0. Right equation: 10−1−3−6 = 0. I₂ and I₄ actually flow downward. Source power also balances: the 16 V source supplies 48 W, the 6 V source absorbs 6 W, and resistors dissipate 42 W.
+**Checks.** Left loop: $16 - 6 - 10 = 0$. Right equation: $10 - 1 - 3 - 6 = 0$. $I_{2}$ and $I_{4}$ actually flow downward. Source power also balances: the $16\,\mathrm{V}$ source supplies $48\,\mathrm{W}$, the $6\,\mathrm{V}$ source absorbs $6\,\mathrm{W}$, and resistors dissipate $42\,\mathrm{W}$.
 :::
 
 ### RC circuits: complete logarithms, limits, and switching checks
 
 :::derivation Discharge from the differential equation to the time formula
-**Sources:** Primary pp. 77–79. Let q be the charge remaining on the initially positive plate. The discharge-current magnitude is −dq/dt.
+**Sources:** Primary pp. 77–79. Let q be the charge remaining on the initially positive plate. The discharge-current magnitude is $- \frac{dq}{dt}$.
 
-1. Use the loop equation R(dq/dt)+q/C = 0 under this charge convention.
-2. Separate variables: dq/q = −dt/(RC).
-3. Integrate from Q₀ to q(t) and from 0 to t.
+1. Use the loop equation $R \left( \frac{dq}{dt} \right) + \frac{q}{C} = 0$ under this charge convention.
+2. Separate variables: $\frac{dq}{q} = - \frac{dt}{\left( RC \right)}$.
+3. Integrate from $Q_{0}$ to q(t) and from 0 to t.
 4. Exponentiate, divide by C for voltage, then isolate time when needed.
 
 $$\ln\frac{q}{Q_0}=-\frac{t}{RC}
@@ -231,21 +231,21 @@ $$\ln\frac{q}{Q_0}=-\frac{t}{RC}
 \qquad V_C=V_0e^{-t/RC},
 \qquad t=RC\ln\frac{V_0}{V_C}.$$
 
-The logarithm uses a dimensionless ratio. For a decay fraction f = VC/V₀, use 0 < f ≤ 1. Reaching exactly zero takes infinite time in the ideal exponential model.
+The logarithm uses a dimensionless ratio. For a decay fraction $f = \frac{V_{C}}{V_{0}}$, use $0 < f \le 1$. Reaching exactly zero takes infinite time in the ideal exponential model.
 :::
 
-:::example The source's 35 μF, 120 Ω discharge problem
+:::example The source's $35\,\mathrm{\mu F}$, 120 Ω discharge problem
 **Source:** Primary p. 79. **Find:** Time to fall to 10% of the initial voltage.
 
-1. Convert C = 35 × 10⁻⁶ F.
-2. Calculate τ = RC = 120(35 × 10⁻⁶) = 0.00420 s.
-3. Set VC/V₀ = 0.10, not 10.
-4. Take logarithms: ln(0.10) = −t/0.00420.
-5. Solve t = −0.00420 ln(0.10) = 0.00967086 s = 9.67 ms.
+1. Convert $C = 35 \times 10^{-6}\,\mathrm{F}$.
+2. Calculate $\tau = RC = 120 \left( 35 \times 10^{-6} \right) = 0.00420\,\mathrm{s}$.
+3. Set $\frac{V_{C}}{V_{0}} = 0.10$, not 10.
+4. Take logarithms: $\ln \left( 0.10 \right) = - \frac{t}{0.00420}$.
+5. Solve $t = - 0.00420 \ln \left( 0.10 \right) = 0.00967086\,\mathrm{s} = 9.67\,\mathrm{ms}$.
 
 **Check.** Ten percent remaining requires about 2.303 time constants. The initial voltage cancels because the question specifies a fraction.
 :::
 
-**Initial and final conditions.** An initially uncharged capacitor has VC(0) = 0 and initially behaves as a zero-voltage element in the charging circuit. At DC steady state, its current tends to zero. A precharged capacitor is not initially a zero-voltage element. Use VC(t) = Vf+(Vinitial−Vf)e⁻ᵗᐟτ when the initial voltage is nonzero.
+**Initial and final conditions.** An initially uncharged capacitor has $V_{C} \left( 0 \right) = 0$ and initially behaves as a zero-voltage element in the charging circuit. At DC steady state, its current tends to zero. A precharged capacitor is not initially a zero-voltage element. Use $V_{C} \left( t \right) = V_{f} + \left( V_{\mathrm{initial}} - V_{f} \right) \exp \left( - \frac{t}{\tau} \right)$ when the initial voltage is nonzero.
 
 **Timing applications.** Wipers, traffic-light timers, camera flashes, and pacemaker timing circuits use charging or discharging intervals. The elementary RC model explains a time scale; it does not represent every control function inside those devices.

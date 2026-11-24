@@ -5,13 +5,13 @@
 **Ray approximation.** Rays describe propagation directions in geometric optics. In a uniform medium they travel along straight lines. In a medium with a varying refractive index, they can curve. The approximation works when the wavelength is small relative to the relevant geometric features. A ray is not a literal thin material strand.
 
 :::example Visible-light frequency range to wavelength range
-**Source:** Primary p. 8. **Given:** f ranges from 4.0 × 10¹⁴ to 7.9 × 10¹⁴ Hz. Use c = 3.00 × 10⁸ m/s.
+**Source:** Primary p. 8. **Given:** f ranges from $4.0 \times 10^{14}$ to $7.9 \times 10^{14}\,\mathrm{Hz}$. Use $c = 3.00 \times 10^{8}\,\frac{\mathrm{m}}{\mathrm{s}}$.
 
-1. Start with c = fλ and isolate λ = c/f.
-2. Use the lowest frequency for the longest wavelength: λmax = 3.00 × 10⁸/(4.0 × 10¹⁴) = 7.50 × 10⁻⁷ m.
-3. Convert meters to nanometers: 7.50 × 10⁻⁷ × 10⁹ = 750 nm.
-4. Use the highest frequency for the shortest wavelength: λmin = 3.00 × 10⁸/(7.9 × 10¹⁴) ≈ 3.79747 × 10⁻⁷ m = 379.747 nm.
-5. Report about 380–750 nm in increasing wavelength order.
+1. Start with $c = f\lambda$ and isolate $\lambda = \frac{c}{f}$.
+2. Use the lowest frequency for the longest wavelength: $\lambda _{\mathrm{max}} = \frac{3.00 \times 10^{8}}{\left( 4.0 \times 10^{14} \right)} = 7.50 \times 10^{-7}\,\mathrm{m}$.
+3. Convert meters to nanometers: $7.50 \times 10^{-7} \times 10^{9} = 750\,\mathrm{nm}$.
+4. Use the highest frequency for the shortest wavelength: $\lambda _{\mathrm{min}} = \frac{3.00 \times 10^{8}}{\left( 7.9 \times 10^{14} \right)} \approx 3.79747 \times 10^{-7}\,\mathrm{m} = 379.747\,\mathrm{nm}$.
+5. Report about 380–$750\,\mathrm{nm}$ in increasing wavelength order.
 
 **Check.** Increasing frequency decreases wavelength. Reversing the endpoint order without stating the inverse relation makes the interval misleading.
 :::
@@ -21,40 +21,40 @@
 The table gives air 1.0003, ice 1.31, water 1.33, alcohol 1.36, fused quartz 1.46, crown glass 1.52, and diamond 2.42. Refractive index depends on material conditions and wavelength. The later water–glass–air exercise explicitly uses 1.3, 1.5, and 1.0 instead. Use those stated exercise values.
 
 :::derivation Frequency stays fixed while speed and wavelength change
-At a stationary interface, the oscillation rate must match on both sides. Otherwise, the boundary phase cannot remain matched over time. Thus f₁ = f₂. Use v = fλ and n = c/v:
+At a stationary interface, the oscillation rate must match on both sides. Otherwise, the boundary phase cannot remain matched over time. Thus $f_{1} = f_{2}$. Use $v = f\lambda$ and $n = \frac{c}{v}$:
 
 $$\frac{\lambda_2}{\lambda_1}=\frac{v_2}{v_1}=\frac{n_1}{n_2},
 \qquad \lambda_{medium}=\frac{\lambda_0}{n}.$$
 
-For a labeled example, 600 nm vacuum light entering n = 1.50 glass has v = 2.00 × 10⁸ m/s and λglass = 400 nm. Its frequency remains 5.00 × 10¹⁴ Hz. The shorter in-glass wavelength does not mean the photon acquires a higher frequency at this stationary boundary.
+For a labeled example, $600\,\mathrm{nm}$ vacuum light entering $n = 1.50$ glass has $v = 2.00 \times 10^{8}\,\frac{\mathrm{m}}{\mathrm{s}}$ and $\lambda _{\mathrm{glass}} = 400\,\mathrm{nm}$. Its frequency remains $5.00 \times 10^{14}\,\mathrm{Hz}$. The shorter in-glass wavelength does not mean the photon acquires a higher frequency at this stationary boundary.
 :::
 
 ### Photoelectric equations with the unit conversions shown
 
 :::example Photon energy, kinetic energy, and stopping voltage
-**Source starting point:** Primary p. 10 introduces Eγ = hf. The work-function and stopping-voltage calculations are labeled extensions.
+**Source starting point:** Primary p. 10 introduces $E_{\gamma} = hf$. The work-function and stopping-voltage calculations are labeled extensions.
 
-**Given:** λ₀ = 500 nm, φ = 2.00 eV, h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s, and 1 eV = 1.602 × 10⁻¹⁹ J.
+**Given:** $\lambda_{0} = 500\,\mathrm{nm}$, $\phi = 2.00\,\mathrm{eV}$, $h = 6.626 \times 10^{-34}\,\mathrm{J} \cdot s$, $c = 3.00 \times 10^{8}\,\frac{\mathrm{m}}{\mathrm{s}}$, and $1\,\mathrm{eV} = 1.602 \times 10^{-19}\,\mathrm{J}$.
 
-1. Convert λ₀ = 500 × 10⁻⁹ m.
-2. Calculate Eγ = hc/λ₀ = 3.9756 × 10⁻¹⁹ J.
-3. Convert to electronvolts: Eγ = 3.9756/1.602 = 2.48165 eV.
-4. Subtract the work function in the same unit: Kmax = 2.48165−2.00 = 0.481648 eV.
-5. Divide Kmax in joules by e to obtain a stopping-potential magnitude of 0.481648 V.
-6. Use λthreshold = hc/φ ≈ 620.4 nm with these rounded constants.
+1. Convert $\lambda_{0} = 500 \times 10^{-9}\,\mathrm{m}$.
+2. Calculate $E_{\gamma} = \frac{hc}{\lambda_{0}} = 3.9756 \times 10^{-19}\,\mathrm{J}$.
+3. Convert to electronvolts: $E_{\gamma} = \frac{3.9756}{1.602} = 2.48165\,\mathrm{eV}$.
+4. Subtract the work function in the same unit: $K_{\mathrm{max}} = 2.48165 - 2.00 = 0.481648\,\mathrm{eV}$.
+5. Divide Kmax in joules by e to obtain a stopping-potential magnitude of $0.481648\,\mathrm{V}$.
+6. Use $\lambda thresh_{\mathrm{old}} = \frac{hc}{\phi} \approx 620.4\,\mathrm{nm}$ with these rounded constants.
 
-**Check.** An energy of one electronvolt equals e times a potential difference of one volt. It is an energy unit, not a voltage unit. Here λ₀ is shorter than the threshold wavelength, so single-photon emission is energetically possible.
+**Check.** An energy of one electronvolt equals e times a potential difference of one volt. It is an energy unit, not a voltage unit. Here $\lambda_{0}$ is shorter than the threshold wavelength, so single-photon emission is energetically possible.
 :::
 
 :::derivation Threshold and stopping-potential rearrangements
-Use conservation of energy for one emitted electron: hf = φ+Kmax. At threshold, Kmax = 0, so f₀ = φ/h. With vacuum wavelength λ₀ = c/f, the longest threshold wavelength is λthreshold = hc/φ.
+Use conservation of energy for one emitted electron: $hf = \phi + K_{\mathrm{max}}$. At threshold, $K_{\mathrm{max}} = 0$, so $f_{0} = \frac{\phi}{h}$. With vacuum wavelength $\lambda_{0} = \frac{c}{f}$, the longest threshold wavelength is $\lambda thresh_{\mathrm{old}} = \frac{hc}{\phi}$.
 
-For the stopping-potential magnitude, eVstop = Kmax. Therefore:
+For the stopping-potential magnitude, $eV_{\mathrm{stop}} = K_{\mathrm{max}}$. Therefore:
 
 $$V_{stop}=\frac he f-\frac\phi e,
 \qquad \phi=hf-eV_{stop}.$$
 
-A Vstop-versus-frequency graph has slope h/e and a zero-voltage intercept at f₀. At fixed frequency above threshold, ordinary intensity changes affect photon arrival rate rather than each photon's energy. Primary p. 10's frequency-independent kinetic-energy statement is incorrect.
+A Vstop-versus-frequency graph has slope $\frac{h}{e}$ and a zero-voltage intercept at $f_{0}$. At fixed frequency above threshold, ordinary intensity changes affect photon arrival rate rather than each photon's energy. Primary p. 10's frequency-independent kinetic-energy statement is incorrect.
 :::
 
 ### Reflection and refraction: complete the source angle calculations
@@ -62,14 +62,14 @@ A Vstop-versus-frequency graph has slope h/e and a zero-voltage intercept at f�
 **Reflection geometry.** Measure the incident and reflected angles from the same surface normal. If the incident ray is 30° above a flat surface, its incidence angle is 60°. Its reflected ray is also 60° from the normal, or 30° from the surface. Diffuse reflection comes from different microscopic normal directions on a rough surface; it does not replace the local reflection law.
 
 :::derivation Reflection from a stationary-path calculation
-Let the endpoints lie at heights h₁ and h₂ above a horizontal mirror, separated horizontally by d. Let the reflection point have horizontal coordinate x. In the same uniform medium, minimizing travel time also makes the optical path stationary.
+Let the endpoints lie at heights $h_{1}$ and $h_{2}$ above a horizontal mirror, separated horizontally by d. Let the reflection point have horizontal coordinate x. In the same uniform medium, minimizing travel time also makes the optical path stationary.
 
 $$L(x)=\sqrt{x^2+h_1^2}+\sqrt{(d-x)^2+h_2^2}.$$
 
-1. Differentiate: dL/dx = x/√(x²+h₁²) − (d−x)/√((d−x)²+h₂²).
-2. Set dL/dx = 0.
-3. Recognize the two ratios as sinθi and sinθr, with angles from the normal.
-4. Obtain sinθi = sinθr. For ordinary reflection angles between 0° and 90°, θi = θr.
+1. Differentiate: $\frac{dL}{dx} = \frac{x}{\sqrt{\left( x^{2} + h_{1}^{2} \right)}} - \frac{\left( d - x \right)}{\sqrt{\left( \left( d - x \right)^{2} + h_{2}^{2} \right)}}$.
+2. Set $\frac{dL}{dx} = 0$.
+3. Recognize the two ratios as $\sin θ_{i}$ and $\sin θ_{r}$, with angles from the normal.
+4. Obtain $\sin θ_{i} = \sin θ_{r}$. For ordinary reflection angles between 0° and 90°, $θ_{i} = θ_{r}$.
 
 This is a labeled derivation of the source's reflection law, not a new mirror-image equation.
 :::
@@ -81,7 +81,7 @@ $$t(x)=\frac{n_1}{c}\sqrt{x^2+h_1^2}
 +\frac{n_2}{c}\sqrt{(d-x)^2+h_2^2}.$$
 
 1. Differentiate with respect to the crossing position x.
-2. Set dt/dx = 0 and multiply by c.
+2. Set $\frac{dt}{dx} = 0$ and multiply by c.
 3. Replace the geometric ratios by the sines of the normal-based angles.
 
 $$n_1\frac{x}{\sqrt{x^2+h_1^2}}
@@ -92,11 +92,11 @@ The same law follows from matching tangential wavevector components. Both deriva
 :::
 
 :::example Air into water at 45°
-**Source:** Primary p. 25. Use n₁ = 1.00 for air and n₂ = 1.33 for water.
+**Source:** Primary p. 25. Use $n_{1} = 1.00$ for air and $n_{2} = 1.33$ for water.
 
-1. Write 1.00sin45° = 1.33sinθ₂.
-2. Divide by 1.33: sinθ₂ = 0.531659.
-3. Use inverse sine in degree mode: θ₂ ≈ 32.1176°.
+1. Write $1.00 \sin 45^{\circ} = 1.33 \sin \theta_{2}$.
+2. Divide by 1.33: $\sin \theta_{2} = 0.531659$.
+3. Use inverse sine in degree mode: $\theta_{2} \approx 32.1176^{\circ}$.
 4. Report about 32.1° from the normal.
 
 **Check.** The ray enters the higher-index medium and bends toward the normal, so its normal-based angle decreases. Do not multiply the angle 45° directly by an index ratio.
@@ -105,15 +105,15 @@ The same law follows from matching tangential wavevector components. Both deriva
 {{figure:m10-main:26|The water–glass–air geometry. The two glass faces are parallel, but the first and final media have different indices.}}
 
 :::example Water, glass, and air: calculate all four requested angles
-**Sources:** Primary pp. 26–27. **Given:** Water n = 1.3, glass n = 1.5, air n = 1.0, and initial incidence 20° from the normal.
+**Sources:** Primary pp. 26–27. **Given:** Water $n = 1.3$, glass $n = 1.5$, air $n = 1.0$, and initial incidence 20° from the normal.
 
-1. Reflection in water gives θA = 20°.
-2. Apply Snell at the first boundary: 1.3sin20° = 1.5sinθB.
-3. Calculate θB = asin[(1.3/1.5)sin20°] ≈ 17.2426°.
-4. Use the parallel glass faces: θC = θB ≈ 17.2426°.
-5. Apply Snell at the second boundary: 1.5sinθC = 1.0sinθD.
-6. Substitute the first-boundary relation to avoid early rounding: sinθD = 1.3sin20°.
-7. Calculate θD ≈ 26.3994°.
+1. Reflection in water gives $\theta_{A} = 20^{\circ}$.
+2. Apply Snell at the first boundary: $1.3 \sin 20^{\circ} = 1.5 \sin \theta_{B}$.
+3. Calculate $\theta_{B} = \sin^{-1} \left[ \left( \frac{1.3}{1.5} \right) \sin 20^{\circ} \right] \approx 17.2426^{\circ}$.
+4. Use the parallel glass faces: $\theta_{C} = \theta_{B} \approx 17.2426^{\circ}$.
+5. Apply Snell at the second boundary: $1.5 \sin \theta_{C} = 1.0 \sin \theta_{D}$.
+6. Substitute the first-boundary relation to avoid early rounding: $\sin \theta_{D} = 1.3 \sin 20^{\circ}$.
+7. Calculate $\theta_{D} \approx 26.3994^{\circ}$.
 
 **Source correction.** The printed exit angle 20° is incorrect for the stated first and final indices. Parallel faces restore the original angle only when the first and final media have the same refractive index. Check each interface for total internal reflection before applying a transmitted-ray formula.
 :::
@@ -126,21 +126,21 @@ The same law follows from matching tangential wavevector components. Both deriva
 $$n_1\sin\theta_c=n_2\sin90^\circ=n_2
 \Rightarrow\theta_c=\sin^{-1}\left(\frac{n_2}{n_1}\right).$$
 
-1. Check n₁ > n₂. Without a higher-to-lower index transition, there is no ordinary critical angle.
-2. Calculate θc from the normal.
-3. Compare the actual incidence angle with θc.
-4. Use refraction for θi < θc, a grazing transmitted ray at θi = θc, and total internal reflection for θi > θc.
+1. Check $n_{1} > n_{2}$. Without a higher-to-lower index transition, there is no ordinary critical angle.
+2. Calculate $θ_{c}$ from the normal.
+3. Compare the actual incidence angle with $θ_{c}$.
+4. Use refraction for $θ_{i} < θ_{c}$, a grazing transmitted ray at $θ_{i} = θ_{c}$, and total internal reflection for $θ_{i} > θ_{c}$.
 
-If sinθ₂ = (n₁/n₂)sinθ₁ exceeds one, no real propagating refracted ray satisfies this elementary model. Do not force the calculator to return a transmitted angle.
+If $\sin \theta_{2} = \left( \frac{n_{1}}{n_{2}} \right) \sin \theta_{1}$ exceeds one, no real propagating refracted ray satisfies this elementary model. Do not force the calculator to return a transmitted angle.
 :::
 
 :::example Glass–air and water–air thresholds
 **Labeled numerical extensions of the source law.**
 
-1. For n₁ = 1.50 glass and n₂ = 1.00 air, θc = asin(1/1.50) = 41.8103°.
-2. At θi = 30°, sinθ₂ = 1.50sin30° = 0.75, so θ₂ ≈ 48.5904°.
-3. At θi = 50°, the proposed transmitted sine is 1.14907 > 1. Total internal reflection occurs.
-4. For water n = 1.33 to air, θc = asin(1/1.33) ≈ 48.7535°.
+1. For $n_{1} = 1.50$ glass and $n_{2} = 1.00$ air, $θ_{c} = \sin^{-1} \left( \frac{1}{1.50} \right) = 41.8103^{\circ}$.
+2. At $θ_{i} = 30^{\circ}$, $\sin \theta_{2} = 1.50 \sin 30^{\circ} = 0.75$, so $\theta_{2} \approx 48.5904^{\circ}$.
+3. At $θ_{i} = 50^{\circ}$, the proposed transmitted sine is $1.14907 > 1$. Total internal reflection occurs.
+4. For water $n = 1.33$ to air, $θ_{c} = \sin^{-1} \left( \frac{1}{1.33} \right) \approx 48.7535^{\circ}$.
 
 **Check.** Reversing the direction to air → glass removes the total-internal-reflection condition. An “optically denser” medium means a larger refractive index here, not necessarily a larger mass density.
 :::
@@ -148,12 +148,12 @@ If sinθ₂ = (n₁/n₂)sinθ₁ exceeds one, no real propagating refracted ray
 **Fiber applications — primary pp. 30–31.** A higher-index core and lower-index cladding support total internal reflection for suitable rays. Fiber links carry information encoded in light. The source lists telephone and internet links, cable systems, medical imaging, and engineering inspection. Real fibers have losses from absorption, scattering, and bending. The cladding's role is optical confinement; it does not make every fiber perfectly lossless.
 
 :::derivation Apparent depth at a flat surface: a labeled small-angle extension
-Let an object lie a true depth h inside index n₁. An observer in index n₂ extends a refracted ray backward and sees apparent depth happ.
+Let an object lie a true depth h inside index $n_{1}$. An observer in index $n_{2}$ extends a refracted ray backward and sees apparent depth happ.
 
-1. Draw a ray reaching the interface at horizontal offset x. Then tanθ₁ = x/h and tanθ₂ = x/happ.
-2. For small normal-based angles, use sinθ ≈ tanθ ≈ θ in radians.
-3. Insert the geometric ratios into Snell's law: n₁x/h ≈ n₂x/happ.
-4. Cancel x and solve happ ≈ h(n₂/n₁).
+1. Draw a ray reaching the interface at horizontal offset x. Then $\tan \theta_{1} = \frac{x}{h}$ and $\tan \theta_{2} = x$/happ.
+2. For small normal-based angles, use $\sin \theta \approx \tan \theta \approx \theta$ in radians.
+3. Insert the geometric ratios into Snell's law: $\frac{n_{1} x}{h} \approx n_{2} x$/happ.
+4. Cancel x and solve happ ≈ $h \left( \frac{n_{2}}{n_{1}} \right)$.
 
-For a 1.00 m deep object in water n₁ = 1.33 viewed from air n₂ = 1.00, happ ≈ 0.752 m. The small-angle restriction matters. This extension does not replace exact ray tracing at a large viewing angle.
+For a $1.00\,\mathrm{m}$ deep object in water $n_{1} = 1.33$ viewed from air $n_{2} = 1.00$, happ ≈ $0.752\,\mathrm{m}$. The small-angle restriction matters. This extension does not replace exact ray tracing at a large viewing angle.
 :::

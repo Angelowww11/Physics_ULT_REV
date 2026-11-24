@@ -4,66 +4,66 @@ Electric potential V is energy per charge. Potential energy U belongs to a charg
 
 ### Work, energy, and consistent endpoint labels
 
-For a constant force, W = Fd cos θ. More generally W = ∫F·dl. The net-work theorem is Wnet = ΔK. For the electrostatic force, Wfield = −ΔU. A slow external mover with no kinetic-energy change does Wexternal = +ΔU. The external-work equality requires those conditions; it is not true for arbitrary accelerated motion.
+For a constant force, $W = Fd \cos \theta$. More generally $W = \int F \cdot dl$. The net-work theorem is $W_{\mathrm{net}} = \Delta K$. For the electrostatic force, $W_{\mathrm{field}} = - \Delta U$. A slow external mover with no kinetic-energy change does $W_{\mathrm{external}} = + \Delta U$. The external-work equality requires those conditions; it is not true for arbitrary accelerated motion.
 
 $$\Delta U=q(V_b-V_a),\quad W_{field}=q(V_a-V_b),\quad \Delta K=-q\Delta V.$$
 
-The ΔK expression assumes that the electrostatic force supplies all the net work. Include other forces separately when they do work. Some slides define Vab = Va − Vb. These notes define ΔV = Vb − Va when discussing a move a → b. Write the endpoint order before substituting. The primary's statement that work equals voltage omits division by charge: work PER charge equals an appropriate potential difference.
+The $\Delta K$ expression assumes that the electrostatic force supplies all the net work. Include other forces separately when they do work. Some slides define $V_{ab} = V_{a} - V_{b}$. These notes define $\Delta V = V_{b} - V_{a}$ when discussing a move a → b. Write the endpoint order before substituting. The primary's statement that work equals voltage omits division by charge: work PER charge equals an appropriate potential difference.
 
-**Worked example.** A +2 μC charge moves from 100 V to 40 V. ΔV = −60 V, ΔU = −120 μJ, and Wfield = +120 μJ. For −2 μC over the same endpoints, the energy and work signs reverse. The field direction still points toward decreasing potential.
+**Worked example.** A $+ 2\,\mathrm{\mu C}$ charge moves from $100\,\mathrm{V}$ to $40\,\mathrm{V}$. $\Delta V = - 60\,\mathrm{V}$, $\Delta U = - 120\,\mathrm{\mu J}$, and $W_{\mathrm{field}} = + 120\,\mathrm{\mu J}$. For $- 2\,\mathrm{\mu C}$ over the same endpoints, the energy and work signs reverse. The field direction still points toward decreasing potential.
 
 ### Derive point-charge potential from field
 
-Choose V(∞) = 0 for an isolated source. Integrate the radial electric field:
+Choose $V \left( \infty \right) = 0$ for an isolated source. Integrate the radial electric field:
 
 $$V(r)-V(\infty)=-\int_\infty^r\frac{kQ}{s^2}\,ds=\frac{kQ}{r}.$$
 
-Keep the sign of Q. Rearrange to Q = Vr/k or r = kQ/V when the signs produce a positive r. A zero-V denominator cannot locate a finite nonzero-charge equipotential. For multiple fixed sources, V = kΣQᵢ/rᵢ. Add scalar signed contributions, not vector components.
+Keep the sign of Q. Rearrange to $Q = \frac{Vr}{k}$ or $r = \frac{kQ}{V}$ when the signs produce a positive r. A zero-V denominator cannot locate a finite nonzero-charge equipotential. For multiple fixed sources, $V=k\sum_i\frac{Q_i}{r_i}$. Add scalar signed contributions, not vector components.
 
-**Worked example — primary p. 34.** At 0.50 m from ±20 μC, V = ±3.6 × 10⁵ V with k = 9 × 10⁹. The distance is positive in both cases. The source charge determines the sign.
+**Worked example — primary p. 34.** At $0.50\,\mathrm{m}$ from ±$20\,\mathrm{\mu C}$, $V = \pm 3.6 \times 10^{5}\,\mathrm{V}$ with $k = 9 \times 10^{9}$. The distance is positive in both cases. The source charge determines the sign.
 
-**Worked example — primary p. 35.** q₁ = 2 nC at (0,0); q₂ = 6 nC at (0.06,0) m. At A = (0,0.07) m, r₁ = 0.07 m and r₂ = √(0.06²+0.07²) = 0.092195 m. VA = 9 × 10⁹[2 × 10⁻⁹/0.07 + 6 × 10⁻⁹/0.092195] ≈ 842.86 V. Early rounding r₂ to 0.092 m gives about 844.10 V, explaining the source's nearby rounded answer.
+**Worked example — primary p. 35.** $q_{1} = 2\,\mathrm{nC}$ at $(0,0)$; $q_{2} = 6\,\mathrm{nC}$ at $(0.06,0)\,\mathrm{m}$. At $A=(0,0.07)\,\mathrm{m}$, $r_{1} = 0.07\,\mathrm{m}$ and $r_{2} = \sqrt{\left( 0.06^{2} + 0.07^{2} \right)} = 0.092195\,\mathrm{m}$. $V_{A} = 9 \times 10^{9} \left[ \frac{2 \times 10^{-9}}{0.07} + \frac{6 \times 10^{-9}}{0.092195} \right] \approx 842.86\,\mathrm{V}$. Early rounding $r_{2}$ to $0.092\,\mathrm{m}$ gives about $844.10\,\mathrm{V}$, explaining the source's nearby rounded answer.
 
 ### Pair energy and assembling several charges
 
-Multiply source potential by the added test charge: U = qV = kQq/r. Positive pair energy occurs for like charges with the infinity reference. Negative pair energy occurs for opposite charges. Negative energy is not a negative distance or an impossible state.
+Multiply source potential by the added test charge: $U = qV = \frac{kQq}{r}$. Positive pair energy occurs for like charges with the infinity reference. Negative pair energy occurs for opposite charges. Negative energy is not a negative distance or an impossible state.
 
-**Derivation — assembly.** Bring q₁ from infinity first: no interaction work. Bring q₂: add kq₁q₂/r₁₂. Bring q₃: add kq₃q₁/r₁₃ + kq₃q₂/r₂₃. Therefore:
+**Derivation — assembly.** Bring $q_{1}$ from infinity first: no interaction work. Bring $q_{2}$: add $\frac{kq_{1} q_{2}}{r_{12}}$. Bring $q_{3}$: add $\frac{kq_{3} q_{1}}{r_{13}} + \frac{kq_{3} q_{2}}{r_{23}}$. Therefore:
 
 $$U_{system}=k\sum_{i<j}\frac{q_iq_j}{r_{ij}}=\frac12\sum_i q_i V_{others}(\mathbf r_i).$$
 
-The pair restriction prevents counting twice and excludes self-interaction. The factor 1/2 is necessary only in the second expression, not in a direct list of unique pairs.
+The pair restriction prevents counting twice and excludes self-interaction. The factor $\frac{1}{2}$ is necessary only in the second expression, not in a direct list of unique pairs.
 
-**Worked example — primary p. 26.** q₁ = +4 nC at 0, q₂ = −3 nC at 0.20 m, q₃ = +2 nC at 0.10 m. Distances are 0.20, 0.10, 0.10 m. U = 9 × 10⁹[(−12 × 10⁻¹⁸)/0.20 +(8 × 10⁻¹⁸)/0.10 +(−6 × 10⁻¹⁸)/0.10] = −3.60 × 10⁻⁷ J. Charge order on the line does not replace the need to calculate all pair distances.
+**Worked example — primary p. 26.** $q_{1} = + 4\,\mathrm{nC}$ at 0, $q_{2} = - 3\,\mathrm{nC}$ at $0.20\,\mathrm{m}$, $q_{3} = + 2\,\mathrm{nC}$ at $0.10\,\mathrm{m}$. Distances are 0.20, 0.10, $0.10\,\mathrm{m}$. $U = 9 \times 10^{9} \left[ \frac{\left( - 12 \times 10^{-18} \right)}{0.20} + \frac{\left( 8 \times 10^{-18} \right)}{0.10} + \frac{\left( - 6 \times 10^{-18} \right)}{0.10} \right] = - 3.60 \times 10^{-7}\,\mathrm{J}$. Charge order on the line does not replace the need to calculate all pair distances.
 
-For bringing a new charge q into an existing fixed-source arrangement, Wexternal = qVexisting(final) − qVexisting(initial), provided the move is quasistatic. Do not re-add energy already stored among the fixed source charges.
+For bringing a new charge q into an existing fixed-source arrangement, $W_{\mathrm{external}}=q\left[V_{\mathrm{existing}}(\mathrm{final})-V_{\mathrm{existing}}(\mathrm{initial})\right]$, provided the move is quasistatic. Do not re-add energy already stored among the fixed source charges.
 
 ### Field–potential relation and equipotentials
 
 $$\Delta V=-\int_a^b\mathbf E\cdot d\mathbf l,\quad \mathbf E=-\nabla V.$$
 
-For uniform E, ΔV = −Ed cos θ where θ is the angle between E and displacement. If motion is parallel to an equipotential, ΔV = 0, so electrostatic work is zero. Field lines are perpendicular to equipotential surfaces where E is nonzero. At a field-zero point, there is no unique local field direction to draw.
+For uniform E, $\Delta V = - Ed \cos \theta$ where $\theta$ is the angle between E and displacement. If motion is parallel to an equipotential, $\Delta V = 0$, so electrostatic work is zero. Field lines are perpendicular to equipotential surfaces where E is nonzero. At a field-zero point, there is no unique local field direction to draw.
 
-**Worked example — primary pp. 39–40.** For q = 4 nC and k = 9 × 10⁹, kq = 36 V·m. The 10, 20, and 30 V surfaces have radii 3.6, 1.8, and 1.2 m. They are spheres; a plane through the charge shows circles. Equal voltage intervals do not give equal radial intervals.
+**Worked example — primary pp. 39–40.** For $q = 4\,\mathrm{nC}$ and $k = 9 \times 10^{9}$, $kq = 36\,\mathrm{V} \cdot m$. The 10, 20, and $30\,\mathrm{V}$ surfaces have radii 3.6, 1.8, and $1.2\,\mathrm{m}$. They are spheres; a plane through the charge shows circles. Equal voltage intervals do not give equal radial intervals.
 
 ### Speed from a potential change
 
-Combine conservation of energy with K = mv²/2:
+Combine conservation of energy with $K = \frac{mv^{2}}{2}$:
 
 $$v_f=\sqrt{v_i^2-\frac{2q\Delta V}{m}}.$$
 
 The expression inside the root must be nonnegative. A negative value means the particle cannot reach that endpoint with the stated initial energy. From rest, an electron accelerates through a positive potential increase; a positive particle accelerates toward lower potential.
 
-**Companion example, p. 3.** A proton moves from rest 0.20 m along E = 1.0 × 10³ N/C. Use the slide's qp = 1.60 × 10⁻¹⁹ C and mp = 1.67 × 10⁻²⁷ kg. Wfield = qpEd = 3.20 × 10⁻¹⁷ J. Therefore v = √(2W/mp) ≈ 1.96 × 10⁵ m/s. The potential change is −200 V. The previous notes used a different field value; this solution now matches the supplied slide.
+**Companion example, p. 3.** A proton moves from rest $0.20\,\mathrm{m}$ along $E = 1.0 \times 10^{3}\,\frac{\mathrm{N}}{\mathrm{C}}$. Use the slide'$s q_{p} = 1.60 \times 10^{-19}\,\mathrm{C}$ and $m_{p} = 1.67 \times 10^{-27}\,\mathrm{kg}$. $W_{\mathrm{field}} = q_{p} Ed = 3.20 \times 10^{-17}\,\mathrm{J}$. Therefore $v = \sqrt{\left( \frac{2 W}{m_{p}} \right)} \approx 1.96 \times 10^{5}\,\frac{\mathrm{m}}{\mathrm{s}}$. The potential change is $- 200\,\mathrm{V}$. The previous notes used a different field value; this solution now matches the supplied slide.
 
 ### Extensions: uniform rings and finite rods
 
-Potential often simplifies a symmetric field calculation. On a ring's axis, every element has the same distance, giving V = kQ/√(x²+R²). Differentiating −dV/dx gives the ring field in M4. At the ring center, V = kQ/R while E = 0.
+Potential often simplifies a symmetric field calculation. On a ring's axis, every element has the same distance, giving $V = \frac{kQ}{\sqrt{\left( x^{2} + R^{2} \right)}}$. Differentiating $- \frac{dV}{dx}$ gives the ring field in M4. At the ring center, $V = \frac{kQ}{R}$ while $E = 0$.
 
-For a uniform rod from x = a to b and a field point on the same axis outside the rod, integrate dV = kλ dx/distance. The integral contains a logarithm, not the inverse-square antiderivative used for a point field. Set positive distances and the reference explicitly. These integrations are extensions of superposition, not replacements for the source's point-charge examples.
+For a uniform rod from $x = a$ to b and a field point on the same axis outside the rod, integrate $dV = k\lambda dx$/distance. The integral contains a logarithm, not the inverse-square antiderivative used for a point field. Set positive distances and the reference explicitly. These integrations are extensions of superposition, not replacements for the source's point-charge examples.
 
-**Complete the rod integration.** Put the field point at x = s > b, with λ constant and V(∞) = 0. Each element's distance is s−x. The integration gives:
+**Complete the rod integration.** Put the field point at $x = s > b$, with $\lambda$ constant and $V \left( \infty \right) = 0$. Each element's distance is s−x. The integration gives:
 
 $$V(s)=k\lambda\int_a^b\frac{dx}{s-x}=k\lambda\ln\frac{s-a}{s-b},\qquad E_x=-\frac{dV}{ds}=k\lambda\left(\frac1{s-b}-\frac1{s-a}\right).$$
 
-For a = 0, b = 0.20 m, s = 0.50 m, and λ = 2.0 nC/m, V ≈ 9.18465 V and Ex ≈ 23.9733 N/C. The logarithm uses a dimensionless ratio. The positive field points away from the positive rod.
+For $a = 0$, $b = 0.20\,\mathrm{m}$, $s = 0.50\,\mathrm{m}$, and $\lambda = \frac{2.0\,\mathrm{nC}}{m}$, $V \approx 9.18465\,\mathrm{V}$ and $E_{x} \approx 23.9733\,\frac{\mathrm{N}}{\mathrm{C}}$. The logarithm uses a dimensionless ratio. The positive field points away from the positive rod.

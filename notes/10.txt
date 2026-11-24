@@ -1,12 +1,12 @@
 ## Light and optics: measure angles from the normal
 
-Electromagnetic waves in vacuum satisfy c = fλ, with c = 299,792,458 m/s exactly. Use 3.00 × 10⁸ m/s when the problem's precision supports that rounding. In a medium, v = c/n and v = fλmedium. The frequency stays the same across a stationary interface; speed and wavelength can change.
+Electromagnetic waves in vacuum satisfy $c = f\lambda$, with $c = 299{,}792{,}458\,\frac{\mathrm{m}}{\mathrm{s}}$ exactly. Use $3.00 \times 10^{8}\,\frac{\mathrm{m}}{\mathrm{s}}$ when the problem's precision supports that rounding. In a medium, $v = \frac{c}{n}$ and $v = f\lambda _{\mathrm{medium}}$. The frequency stays the same across a stationary interface; speed and wavelength can change.
 
 ### Wave quantities and wavelength conversion
 
 $$\lambda_0=c/f,\quad f=c/\lambda_0,\quad n=c/v,\quad \lambda_{medium}=\lambda_0/n.$$
 
-**Worked example — primary p. 8.** With c = 3.00 × 10⁸ m/s, 4.0 × 10¹⁴ Hz corresponds to 750 nm. A frequency of 7.9 × 10¹⁴ Hz corresponds to about 380 nm. Higher frequency means shorter wavelength in the same medium. Convert 1 nm = 10⁻⁹ m before calculating energy or speed.
+**Worked example — primary p. 8.** With $c = 3.00 \times 10^{8}\,\frac{\mathrm{m}}{\mathrm{s}}$, $4.0 \times 10^{14}\,\mathrm{Hz}$ corresponds to $750\,\mathrm{nm}$. A frequency of $7.9 \times 10^{14}\,\mathrm{Hz}$ corresponds to about $380\,\mathrm{nm}$. Higher frequency means shorter wavelength in the same medium. Convert $1\,\mathrm{nm} = 10^{-9}\,\mathrm{m}$ before calculating energy or speed.
 
 The source introduces Newton's particle account, Huygens' wave account, and Young's interference evidence. Modern light has wave and particle behavior; neither everyday particles nor classical waves alone explain all observations. Ray optics approximates propagation by rays when wavelength is small compared with the relevant geometry.
 
@@ -14,39 +14,39 @@ The source introduces Newton's particle account, Huygens' wave account, and Youn
 
 $$E_\gamma=hf=hc/\lambda_0,\quad K_{max}=hf-\phi,\quad f_0=\phi/h,\quad eV_{stop}=K_{max}.$$
 
-The source introduces E = hf. The photoelectric relations above extend that idea to explain its experiment correctly. Photon energy must first supply work function φ; excess energy becomes maximum electron kinetic energy. If hf < φ, the model predicts no single-photon photoemission regardless of ordinary intensity increases.
+The source introduces $E = hf$. The photoelectric relations above extend that idea to explain its experiment correctly. Photon energy must first supply work function $\phi$; excess energy becomes maximum electron kinetic energy. If $hf < \phi$, the model predicts no single-photon photoemission regardless of ordinary intensity increases.
 
 Primary p. 10 incorrectly says electron kinetic energy is independent of frequency. Maximum kinetic energy INCREASES with frequency above threshold. At fixed frequency, higher intensity increases available photon rate, not each photon's energy. See the supplementary photoelectric reference in the source notes.
 
-**Worked extension.** At λ = 500 nm, Eγ = (6.626 × 10⁻³⁴)(3.00 × 10⁸)/(500 × 10⁻⁹) = 3.976 × 10⁻¹⁹ J ≈ 2.482 eV. For φ = 2.00 eV, Kmax ≈ 0.482 eV and stopping-potential magnitude ≈ 0.482 V. The boundary wavelength hc/φ is about 620 nm. A longer wavelength cannot supply the required photon energy in this model.
+**Worked extension.** At $\lambda = 500\,\mathrm{nm}$, $E_{\gamma} = \frac{\left( 6.626 \times 10^{-34} \right) \left( 3.00 \times 10^{8} \right)}{\left( 500 \times 10^{-9} \right)} = 3.976 \times 10^{-19}\,\mathrm{J} \approx 2.482\,\mathrm{eV}$. For $\phi = 2.00\,\mathrm{eV}$, $K_{\mathrm{max}} \approx 0.482\,\mathrm{eV}$ and stopping-potential magnitude ≈ $0.482\,\mathrm{V}$. The boundary wavelength $\frac{hc}{\phi}$ is about $620\,\mathrm{nm}$. A longer wavelength cannot supply the required photon energy in this model.
 
 ### Reflection and surfaces
 
-The law of reflection is θr = θi, with both angles measured from the surface NORMAL. A 30° angle to the surface is a 60° incidence angle. Incident ray, reflected ray, and normal lie in one plane. A smooth surface gives specular reflection; a rough surface gives diffuse reflection through differing local normals. Diffuse reflection does not mean each microscopic reflection violates the law.
+The law of reflection is $θ_{r} = θ_{i}$, with both angles measured from the surface NORMAL. A 30° angle to the surface is a 60° incidence angle. Incident ray, reflected ray, and normal lie in one plane. A smooth surface gives specular reflection; a rough surface gives diffuse reflection through differing local normals. Diffuse reflection does not mean each microscopic reflection violates the law.
 
-**Derivation extension — stationary travel time.** For a reflection point sliding along a flat mirror in one uniform medium, total travel time is proportional to the sum of incoming and outgoing path lengths. Differentiate that sum with respect to the reflection point. Setting its derivative to zero gives equal sine ratios and hence θi = θr in the ordinary reflection range.
+**Derivation extension — stationary travel time.** For a reflection point sliding along a flat mirror in one uniform medium, total travel time is proportional to the sum of incoming and outgoing path lengths. Differentiate that sum with respect to the reflection point. Setting its derivative to zero gives equal sine ratios and hence $θ_{i} = θ_{r}$ in the ordinary reflection range.
 
-Let the endpoints have horizontal separation d and heights h₁,h₂ above the mirror. Put the reflection point at horizontal coordinate x. The path length is √(x²+h₁²)+√((d−x)²+h₂²). Its derivative vanishes when x/√(x²+h₁²) = (d−x)/√((d−x)²+h₂²). These ratios are sinθi and sinθr, measured from the vertical normal. Their equality gives the reflection law.
+Let the endpoints have horizontal separation d and heights $h_{1}$,$h_{2}$ above the mirror. Put the reflection point at horizontal coordinate x. The path length is $\sqrt{\left( x^{2} + h_{1}^{2} \right)} + \sqrt{\left( \left( d - x \right)^{2} + h_{2}^{2} \right)}$. Its derivative vanishes when $\frac{x}{\sqrt{\left( x^{2} + h_{1}^{2} \right)}} = \frac{\left( d - x \right)}{\sqrt{\left( \left( d - x \right)^{2} + h_{2}^{2} \right)}}$. These ratios are $\sin θ_{i}$ and $\sin θ_{r}$, measured from the vertical normal. Their equality gives the reflection law.
 
 ### Snell's law: derive it from phase matching
 
-At a stationary planar boundary, the wave phase must agree along the interface. Tangential wavevector components match: k₁sinθ₁ = k₂sinθ₂. Since k = 2πn/λ₀ at a common frequency:
+At a stationary planar boundary, the wave phase must agree along the interface. Tangential wavevector components match: $k_{1} \sin \theta_{1} = k_{2} \sin \theta_{2}$. Since $k = \frac{2 \pi n}{\lambda_{0}}$ at a common frequency:
 
 $$n_1\sin\theta_1=n_2\sin\theta_2,\quad \theta_2=\sin^{-1}\left(\frac{n_1}{n_2}\sin\theta_1\right).$$
 
-Rearrange to n₂ = n₁sinθ₁/sinθ₂ or θ₁ = asin(n₂sinθ₂/n₁) when the physical domain permits. The sine argument must lie between −1 and +1. In the ordinary incidence range, n₂ > n₁ bends toward the normal; n₂ < n₁ bends away. At normal incidence, direction stays normal although speed and wavelength can change.
+Rearrange to $n_{2} = \frac{n_{1} \sin \theta_{1}}{\sin \theta_{2}}$ or $\theta_{1} = \sin^{-1} \left( \frac{n_{2} \sin \theta_{2}}{n_{1}} \right)$ when the physical domain permits. The sine argument must lie between −1 and +1. In the ordinary incidence range, $n_{2} > n_{1}$ bends toward the normal; $n_{2} < n_{1}$ bends away. At normal incidence, direction stays normal although speed and wavelength can change.
 
-**Independent derivation extension — stationary time.** With one endpoint above and the other below the interface, travel time is t(x) = (n₁/c)√(x²+h₁²)+(n₂/c)√((d−x)²+h₂²). Differentiate with respect to x. Setting dt/dx = 0 gives n₁sinθ₁−n₂sinθ₂ = 0. This reproduces Snell's law without assuming equal speeds in the two media. It applies to the stated uniform, stationary media and planar boundary.
+**Independent derivation extension — stationary time.** With one endpoint above and the other below the interface, travel time is $t \left( x \right) = \left( \frac{n_{1}}{c} \right) \sqrt{\left( x^{2} + h_{1}^{2} \right)} + \left( \frac{n_{2}}{c} \right) \sqrt{\left( \left( d - x \right)^{2} + h_{2}^{2} \right)}$. Differentiate with respect to x. Setting $\frac{dt}{dx} = 0$ gives $n_{1} \sin \theta_{1} - n_{2} \sin \theta_{2} = 0$. This reproduces Snell's law without assuming equal speeds in the two media. It applies to the stated uniform, stationary media and planar boundary.
 
-**Worked example — primary p. 25.** Air n₁ = 1.00 to water n₂ = 1.33, θ₁ = 45°. θ₂ = asin(sin45°/1.33) ≈ 32.12°. A value measured from the surface would be its complement.
+**Worked example — primary p. 25.** Air $n_{1} = 1.00$ to water $n_{2} = 1.33$, $\theta_{1} = 45^{\circ}$. $\theta_{2} = \sin^{-1} \left( \frac{\sin 45^{\circ}}{1.33} \right) \approx 32.12^{\circ}$. A value measured from the surface would be its complement.
 
 ### Several interfaces and the water–glass–air answer
 
-For parallel boundaries, the refracted angle inside the middle layer equals its incidence angle at the next boundary. Applying Snell twice gives n₁sinθ₁ = n₂sinθ₂ = n₃sinθ₃. The middle index cancels from the final angle relation, but not from the internal angle or lateral displacement.
+For parallel boundaries, the refracted angle inside the middle layer equals its incidence angle at the next boundary. Applying Snell twice gives $n_{1} \sin \theta_{1} = n_{2} \sin \theta_{2} = n_{3} \sin \theta_{3}$. The middle index cancels from the final angle relation, but not from the internal angle or lateral displacement.
 
-**Worked correction — primary pp. 26–27.** Water n = 1.3, glass n = 1.5, air n = 1.0; start at 20° from the normal in water. Reflection in water gives θA = 20°. Glass refraction gives θB = asin[(1.3/1.5)sin20°] ≈ 17.24°. For parallel faces θC = 17.24°. Exit into air gives θD = asin[1.3sin20°] ≈ 26.40°, not the printed 20°. Returning to the original angle would require equal first and final indices, which this drawing does not have.
+**Worked correction — primary pp. 26–27.** Water $n = 1.3$, glass $n = 1.5$, air $n = 1.0$; start at 20° from the normal in water. Reflection in water gives $\theta_{A} = 20^{\circ}$. Glass refraction gives $\theta_{B} = \sin^{-1} \left[ \left( \frac{1.3}{1.5} \right) \sin 20^{\circ} \right] \approx 17.24^{\circ}$. For parallel faces $\theta_{C} = 17.24^{\circ}$. Exit into air gives $\theta_{D} = \sin^{-1} \left[ 1.3 \sin 20^{\circ} \right] \approx 26.40^{\circ}$, not the printed 20°. Returning to the original angle would require equal first and final indices, which this drawing does not have.
 
-**Parallel-slab extension.** For slab thickness t, internal angle r, and external incidence i, perpendicular lateral displacement is s = t sin(i−r)/cos r. Derive it by drawing the internal path of length t/cos r and projecting its deviation from the original ray. This formula assumes parallel faces and an exit into the original medium without total internal reflection.
+**Parallel-slab extension.** For slab thickness t, internal angle r, and external incidence i, perpendicular lateral displacement is $s = \frac{t \sin \left( i - r \right)}{\cos} r$. Derive it by drawing the internal path of length $\frac{t}{\cos} r$ and projecting its deviation from the original ray. This formula assumes parallel faces and an exit into the original medium without total internal reflection.
 
 ### Critical angle and total internal reflection
 
@@ -54,17 +54,17 @@ Set the transmitted angle to 90° in Snell's law:
 
 $$\sin\theta_c=n_2/n_1,\quad \theta_c=\sin^{-1}(n_2/n_1),\quad n_1>n_2.$$
 
-Total internal reflection requires travel from larger n to smaller n AND θi > θc. At θi = θc, the ideal refracted ray grazes the boundary; it is the threshold, not a greater-angle case. If n₁ ≤ n₂, there is no real critical angle for this direction of travel.
+Total internal reflection requires travel from larger n to smaller n AND $θ_{i} > θ_{c}$. At $θ_{i} = θ_{c}$, the ideal refracted ray grazes the boundary; it is the threshold, not a greater-angle case. If $n_{1} \le n_{2}$, there is no real critical angle for this direction of travel.
 
-**Worked example.** Glass n = 1.50 to air n = 1.00 gives θc ≈ 41.81°. At 30°, refraction remains possible. At 50°, Snell's proposed transmitted sine exceeds one, so no propagating refracted ray exists in the elementary model. Use reflection rather than reporting a complex physical ray angle.
+**Worked example.** Glass $n = 1.50$ to air $n = 1.00$ gives $θ_{c} \approx 41.81^{\circ}$. At 30°, refraction remains possible. At 50°, Snell's proposed transmitted sine exceeds one, so no propagating refracted ray exists in the elementary model. Use reflection rather than reporting a complex physical ray angle.
 
 An optical fiber uses a higher-index core and lower-index cladding. Suitable core rays meet the boundary above its critical angle. The ideal ray picture guides them by total internal reflection. Real fibers still have attenuation, absorption, scattering, and bend losses; primary p. 31's “no absorption” wording is an idealization.
 
-**Fiber acceptance extension.** In the meridional-ray model, let n₀ be the entrance-medium index, ncore the core index, and nclad the cladding index. For a ray inside the core at angle θ to its axis, wall incidence is 90°−θ. At the limiting ray, cosθ = nclad/ncore. Use sin²θ+cos²θ = 1, then apply Snell at the flat entrance:
+**Fiber acceptance extension.** In the meridional-ray model, let $n_{0}$ be the entrance-medium index, ncore the core index, and nclad the cladding index. For a ray inside the core at angle $\theta$ to its axis, wall incidence is $90^{\circ} - \theta$. At the limiting ray, $\cos \theta = \frac{n_{\mathrm{clad}}}{n_{\mathrm{core}}}$. Use $\sin^{2} \theta + \cos^{2} \theta = 1$, then apply Snell at the flat entrance:
 
 $$n_0\sin\theta_{accept}=\sqrt{n_{core}^2-n_{clad}^2}=NA.$$
 
-For a core index 1.48 and cladding index 1.46, NA ≈ 0.24249. From air, the limiting entrance half-angle is about 14.03°. This is an angle to the fiber AXIS at the entrance, not the wall incidence angle. This ideal extension does not describe every skew ray, bend, or waveguide mode.
+For a core index 1.48 and cladding index 1.46, $NA \approx 0.24249$. From air, the limiting entrance half-angle is about 14.03°. This is an angle to the fiber AXIS at the entrance, not the wall incidence angle. This ideal extension does not describe every skew ray, bend, or waveguide mode.
 
 ### Exam-scope note
 

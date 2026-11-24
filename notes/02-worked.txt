@@ -1,6 +1,6 @@
 ### Material tables, thermometer operation, and phase diagrams
 
-The primary and companion decks use different rounded material coefficients. For example, the primary gives steel α = 1.2 × 10⁻⁵ K⁻¹. The companion uses 1.1 × 10⁻⁵ K⁻¹. Use the coefficient stated in each problem.
+The primary and companion decks use different rounded material coefficients. For example, the primary gives steel $\alpha = 1.2 \times 10^{-5}\,\mathrm{K}^{-1}$. The companion uses $1.1 \times 10^{-5}\,\mathrm{K}^{-1}$. Use the coefficient stated in each problem.
 
 {{figure:m2-main:15|Primary linear-expansion coefficients. The units describe a fractional length change per kelvin.}}
 
@@ -13,68 +13,68 @@ The primary and companion decks use different rounded material coefficients. For
 **Microscopic model.** Solid particles vibrate around equilibrium positions. Liquid particles remain close but can rearrange. Gas particles are widely separated. “Temperature measures average kinetic energy” is a useful introductory model, especially for an ideal gas. It is not a universal formula for the total internal energy of every material.
 
 :::derivation Derive the temperature-scale conversions from a straight line
-Use TF = aTC + b for the two fixed points at standard pressure.
+Use $T_{F} = aT_{C} + b$ for the two fixed points at standard pressure.
 
-1. Insert the freezing point: 32 = a(0) + b, so b = 32.
-2. Insert the boiling point: 212 = 100a + 32.
-3. Subtract 32 and divide by 100: a = 180/100 = 9/5.
+1. Insert the freezing point: $32 = a \left( 0 \right) + b$, so $b = 32$.
+2. Insert the boiling point: $212 = 100 a + 32$.
+3. Subtract 32 and divide by 100: $a = \frac{180}{100} = \frac{9}{5}$.
 4. Subtract the relation at two temperatures. The constant offset cancels.
 
 $$T_F=\frac95T_C+32,
 \qquad T_C=\frac59(T_F-32),
 \qquad \Delta T_F=\frac95\Delta T_C.$$
 
-For 37°C, TF = 98.6°F and TK = 310.15 K. For a 2°C increase, ΔTF = 3.6°F and ΔTK = 2 K. Do not add 32 or 273.15 to a temperature difference.
+For 37°C, $T_{F} = 98.6^{\circ} F$ and $T_{K} = 310.15\,\mathrm{K}$. For a 2°C increase, $\Delta T_{F} = 3.6^{\circ} F$ and $\Delta T_{K} = 2\,\mathrm{K}$. Do not add 32 or 273.15 to a temperature difference.
 :::
 
-**Water phase diagram.** The companion marks the triple point near 0.01°C and 0.006 atm. Its critical point lies near 374°C and 218 atm. The solid–liquid boundary has a negative slope in this region. Increasing pressure can favor the denser liquid over ordinary ice.
+**Water phase diagram.** The companion marks the triple point near 0.01°C and $0.006\,\mathrm{atm}$. Its critical point lies near 374°C and $218\,\mathrm{atm}$. The solid–liquid boundary has a negative slope in this region. Increasing pressure can favor the denser liquid over ordinary ice.
 
-**Carbon-dioxide phase diagram.** The companion marks a triple point near −56°C and 5 atm, and a critical point near 31°C and 73 atm. At 1 atm, solid CO₂ sublimes instead of passing through a stable liquid phase. The values on the diagram are rounded. A heating curve has different axes: temperature versus added energy or heating time.
+**Carbon-dioxide phase diagram.** The companion marks a triple point near −56°C and $5\,\mathrm{atm}$, and a critical point near 31°C and $73\,\mathrm{atm}$. At $1\,\mathrm{atm}$, solid CO₂ sublimes instead of passing through a stable liquid phase. The values on the diagram are rounded. A heating curve has different axes: temperature versus added energy or heating time.
 
 **Phase names.** Melting: solid → liquid. Freezing: liquid → solid. Vaporization: liquid → gas. Condensation: gas → liquid. Sublimation: solid → gas. Deposition: gas → solid.
 
 {{figure:m2-dyn-alt:4|Companion phase diagrams and heating curves. Read their axes before interpreting a line or plateau.}}
 
 :::example The missing expanding-pipe problem
-**Sources:** Companion p. 3; alternate companion p. 3. **Given:** L₀ = 55 m, Ti = 5°C, Tf = 155°C, αsteel = 1.1 × 10⁻⁵ K⁻¹.
+**Sources:** Companion p. 3; alternate companion p. 3. **Given:** $L_{0} = 55\,\mathrm{m}$, $T_{i} = 5^{\circ} C$, $T_{f} = 155^{\circ} C$, $\alpha _{\mathrm{steel}} = 1.1 \times 10^{-5}\,\mathrm{K}^{-1}$.
 
-1. Find ΔT = 155 − 5 = 150 K.
+1. Find $\Delta T = 155 - 5 = 150\,\mathrm{K}$.
 2. Select linear expansion because the question asks for a length change.
-3. Calculate ΔL = αL₀ΔT = (1.1 × 10⁻⁵)(55)(150) = 0.09075 m.
-4. Convert to centimeters: 0.09075 m × 100 = 9.075 cm, about 9.1 cm.
-5. Add the initial length only if asked for final length: L = 55.09075 m.
+3. Calculate $\Delta L = \alpha L_{0} \Delta T = \left( 1.1 \times 10^{-5} \right) \left( 55 \right) \left( 150 \right) = 0.09075\,\mathrm{m}$.
+4. Convert to centimeters: $0.09075\,\mathrm{m} \times 100 = 9.075\,\mathrm{cm}$, about $9.1\,\mathrm{cm}$.
+5. Add the initial length only if asked for final length: $L = 55.09075\,\mathrm{m}$.
 
-**Check.** The pipe expands because both α and ΔT are positive. Do not report 55.09075 m as the amount of expansion.
+**Check.** The pipe expands because both $\alpha$ and $\Delta T$ are positive. Do not report $55.09075\,\mathrm{m}$ as the amount of expansion.
 :::
 
 :::derivation Derive the changing density of an expanding body
-Assume the mass stays constant and use V = V₀(1 + βΔT).
+Assume the mass stays constant and use $V = V_{0} \left( 1 + \beta \Delta T \right)$.
 
 $$\rho=\frac{m}{V}=\frac{m}{V_0(1+\beta\Delta T)}
 =\frac{\rho_0}{1+\beta\Delta T}.$$
 
-For small |βΔT|, expand the reciprocal to first order: ρ ≈ ρ₀(1−βΔT). A positive volume expansion lowers density when mass stays fixed. This is an algebraic consequence of the source laws, not an additional universal constant-β assumption for water near 4°C.
+For small $\left| \beta \Delta T \right|$, expand the reciprocal to first order: $\rho \approx \rho_{0} \left( 1 - \beta \Delta T \right)$. A positive volume expansion lowers density when mass stays fixed. This is an algebraic consequence of the source laws, not an additional universal constant$- \beta$ assumption for water near 4°C.
 :::
 
 ### Complete the heat and mixing problems from both decks
 
 :::example The two fever examples use different physical models
-**Primary p. 31:** The mass is 80 kg and the body is approximated as water, c = 4186 J/(kg·K).
+**Primary p. 31:** The mass is $80\,\mathrm{kg}$ and the body is approximated as water, $c = 4186\,\frac{\mathrm{J}}{\mathrm{kg}   \mathrm{K}}$.
 
-1. Calculate ΔT = 39 − 37 = 2 K.
-2. Calculate Q = mcΔT = 80(4186)(2) = 669,760 J.
-3. Divide by 1000 to obtain 669.76 kJ.
+1. Calculate $\Delta T = 39 - 37 = 2\,\mathrm{K}$.
+2. Calculate $Q = mc\Delta T = 80 \left( 4186 \right) \left( 2 \right) = 669{,}760\,\mathrm{J}$.
+3. Divide by 1000 to obtain $669.76\,\mathrm{kJ}$.
 
-**Companion p. 9; alternate companion p. 7:** The mass is 70 kg and cbody = 3400 J/(kg·K).
+**Companion p. 9; alternate companion p. 7:** The mass is $70\,\mathrm{kg}$ and $c_{\mathrm{body}} = 3400\,\frac{\mathrm{J}}{\mathrm{kg}   \mathrm{K}}$.
 
-1. Use the same 2 K temperature increase.
-2. Calculate Q = 70(3400)(2) = 476,000 J, about 4.8 × 10⁵ J.
+1. Use the same $2\,\mathrm{K}$ temperature increase.
+2. Calculate $Q = 70 \left( 3400 \right) \left( 2 \right) = 476{,}000\,\mathrm{J}$, about $4.8 \times 10^{5}\,\mathrm{J}$.
 
 **Check.** The second problem gives a body-specific heat. Replacing it with water's specific heat changes the stated model. These are classroom energy estimates, not medical instructions.
 :::
 
 :::example Iron and water: show the algebra before the temperature answer
-**Source:** Primary p. 33. **Given:** miron = 0.065 kg, ciron = 444 J/(kg·K), Tiron = 525°C; mwater = 0.635 kg, cwater = 4186, Twater = 15°C.
+**Source:** Primary p. 33. **Given:** $m_{\mathrm{iron}} = 0.065\,\mathrm{kg}$, $c_{\mathrm{iron}} = 444\,\frac{\mathrm{J}}{\mathrm{kg}   \mathrm{K}}$, $T_{\mathrm{iron}} = 525^{\circ} C$; $m_{\mathrm{water}} = 0.635\,\mathrm{kg}$, $c_{\mathrm{water}} = 4186$, $T_{\mathrm{water}} = 15^{\circ} C$.
 
 1. Assume an insulated system, negligible container heat capacity, and a final liquid-water state.
 2. Write both signed heat terms using the same final temperature.
@@ -87,28 +87,28 @@ $$\begin{aligned}
 T_f&=20.4778^\circ\mathrm C.
 \end{aligned}$$
 
-4. Check that 15°C < Tf < 525°C.
-5. Calculate heat gained by the water and heat lost by the iron. Both magnitudes are about 14.56 kJ.
+4. Check that $15^{\circ} C < T_{f} < 525^{\circ} C$.
+5. Calculate heat gained by the water and heat lost by the iron. Both magnitudes are about $14.56\,\mathrm{kJ}$.
 
-**Why the sign works.** Tf−15 is positive; Tf−525 is negative. Both signs come from the same ΔT definition.
+**Why the sign works.** Tf−15 is positive; Tf−525 is negative. Both signs come from the same $\Delta T$ definition.
 :::
 
-:::example Melt 2.0 kg of ice already at its melting point
-**Sources:** Companion p. 10; alternate companion p. 8. Use the problem's Lf = 334,000 J/kg.
+:::example Melt $2.0\,\mathrm{kg}$ of ice already at its melting point
+**Sources:** Companion p. 10; alternate companion p. 8. Use the problem'$s L_{f} = 334{,}000\,\frac{\mathrm{J}}{\mathrm{kg}}$.
 
-1. Identify a phase change at constant temperature, so use Q = mLf.
-2. Calculate Q = 2.0(334,000) = 668,000 J.
-3. Report 668 kJ absorbed.
+1. Identify a phase change at constant temperature, so use $Q = mL_{f}$.
+2. Calculate $Q = 2.0 \left( 334{,}000 \right) = 668{,}000\,\mathrm{J}$.
+3. Report $668\,\mathrm{kJ}$ absorbed.
 
-**Check.** There is no mcΔT term because the ice starts at 0°C and the question ends with liquid water at 0°C. Freezing the same mass reverses the heat sign.
+**Check.** There is no $mc\Delta T$ term because the ice starts at 0°C and the question ends with liquid water at 0°C. Freezing the same mass reverses the heat sign.
 :::
 
 :::example How much ice cools the cola to 0°C?
-**Sources:** Companion p. 11; alternate companion pp. 8–9. **Given:** 0.25 kg of cola approximated as water at 25°C; ice starts at −20°C. Neglect the glass. Use cwater = 4190, cice = 2090 J/(kg·K), and Lf = 334,000 J/kg.
+**Sources:** Companion p. 11; alternate companion pp. 8–9. **Given:** $0.25\,\mathrm{kg}$ of cola approximated as water at 25°C; ice starts at −20°C. Neglect the glass. Use $c_{\mathrm{water}} = 4190$, $c_{\mathrm{ice}} = 2090\,\frac{\mathrm{J}}{\mathrm{kg}   \mathrm{K}}$, and $L_{f} = 334{,}000\,\frac{\mathrm{J}}{\mathrm{kg}}$.
 
-1. Calculate the energy the cola releases on cooling: Qcola = 0.25(4190)(25) = 26,187.5 J.
-2. Find the energy needed per kilogram of ice to warm to 0°C: cice(20) = 41,800 J/kg.
-3. Add the energy per kilogram needed to melt it: 41,800 + 334,000 = 375,800 J/kg.
+1. Calculate the energy the cola releases on cooling: $Q_{\mathrm{cola}} = 0.25 \left( 4190 \right) \left( 25 \right) = 26{,}187.5\,\mathrm{J}$.
+2. Find the energy needed per kilogram of ice to warm to 0°C: $c_{\mathrm{ice}} \left( 20 \right) = 41{,}800\,\frac{\mathrm{J}}{\mathrm{kg}}$.
+3. Add the energy per kilogram needed to melt it: $41{,}800 + 334{,}000 = 375{,}800\,\frac{\mathrm{J}}{\mathrm{kg}}$.
 4. Equate the gained and lost energy magnitudes, then isolate the ice mass.
 
 $$m_{ice}=\frac{m_{cola}c_{water}(25-0)}{c_{ice}(0-(-20))+L_f}
@@ -121,10 +121,10 @@ $$m_{ice}=\frac{m_{cola}c_{water}(25-0)}{c_{ice}(0-(-20))+L_f}
 
 {{figure:m2-main:40|The original latent-heat table, preserved for comparison. Read the correction below before using its copper entry.}}
 
-> **Source correction.** Primary p. 40 lists copper's boiling point as 1460 K, or 1187°C. This entry is incorrect. [PubChem's copper data](https://pubchem.ncbi.nlm.nih.gov/element/Copper) give about 2835 K, or 2562°C. Water's listed Lf values of 333,000–335,000 J/kg are different rounded classroom choices. Use the value stated in a problem.
+> **Source correction.** Primary p. 40 lists copper's boiling point as $1460\,\mathrm{K}$, or 1187°C. This entry is incorrect. [PubChem's copper data](https://pubchem.ncbi.nlm.nih.gov/element/Copper) give about $2835\,\mathrm{K}$, or 2562°C. Water's listed Lf values of 333,000–$335{,}000\,\frac{\mathrm{J}}{\mathrm{kg}}$ are different rounded classroom choices. Use the value stated in a problem.
 
 :::example Expand the source's five-stage ice-to-steam calculation
-**Source:** Primary p. 41. **Given:** 0.100 kg of ice at −40°C, ending as steam at 110°C. Use the constants supplied in the primary worked solution.
+**Source:** Primary p. 41. **Given:** $0.100\,\mathrm{kg}$ of ice at −40°C, ending as steam at 110°C. Use the constants supplied in the primary worked solution.
 
 | Stage | Temperature interval or transition | Equation | Heat absorbed, J |
 | --- | --- | --- | --- |
@@ -136,7 +136,7 @@ $$m_{ice}=\frac{m_{cola}c_{water}(25-0)}{c_{ice}(0-(-20))+L_f}
 
 1. Draw the initial and final states on a heating curve.
 2. Include every intervening sloped section and phase plateau.
-3. Add the five energies: Qtotal = 311,830 J, about 3.12 × 10⁵ J.
+3. Add the five energies: $Q_{\mathrm{total}} = 311{,}830\,\mathrm{J}$, about $3.12 \times 10^{5}\,\mathrm{J}$.
 4. Check that every term is positive because every stage absorbs energy.
 
 **Source correction.** Primary p. 39's caption says the illustrated ice starts at +30°C. Its graph starts at −30°C. The missing minus sign matters. That 1 g illustration is separate from the 100 g, −40°C worked problem above.
@@ -155,30 +155,30 @@ $$m_{ice}=\frac{m_{cola}c_{water}(25-0)}{c_{ice}(0-(-20))+L_f}
 :::
 
 :::example Complete the two first-law numerical cases
-**Primary p. 44:** Q = +3000 J and Wby = +2500 J. Therefore ΔU = Q−Wby = +500 J.
+**Primary p. 44:** $Q = + 3000\,\mathrm{J}$ and $W_{\mathrm{by}} = + 2500\,\mathrm{J}$. Therefore $\Delta U = Q - W_{\mathrm{by}} = + 500\,\mathrm{J}$.
 
-**Primary p. 45:** The net heat is 40−25 = +15 J. The net work by the system is 10−4 = +6 J. Therefore ΔU = 15−6 = +9 J.
+**Primary p. 45:** The net heat is $40 - 25 = + 15\,\mathrm{J}$. The net work by the system is $10 - 4 = + 6\,\mathrm{J}$. Therefore $\Delta U = 15 - 6 = + 9\,\mathrm{J}$.
 
-**Companion p. 8; alternate companion p. 6:** The net heat is 1500−400 = 1100 J. The net work on the gas is −600+250 = −350 J. Therefore ΔU = Q+Won = 1100−350 = +750 J.
+**Companion p. 8; alternate companion p. 6:** The net heat is $1500 - 400 = 1100\,\mathrm{J}$. The net work on the gas is $- 600 + 250 = - 350\,\mathrm{J}$. Therefore $\Delta U = Q + W_{\mathrm{on}} = 1100 - 350 = + 750\,\mathrm{J}$.
 
 **Check.** The primary and companion sign conventions agree. Their work variables have opposite definitions.
 :::
 
 :::derivation Read the slope of a heating curve
-During a single phase, Q = mcΔT. At fixed m and approximately constant c, ΔT/ΔQ = 1/(mc). A larger heat capacity produces a flatter temperature-versus-energy slope. During an equilibrium phase change, the added energy changes phase fraction, so the temperature plateau has slope zero.
+During a single phase, $Q = mc\Delta T$. At fixed m and approximately constant c, $\frac{\Delta T}{\Delta Q} = \frac{1}{\left( mc \right)}$. A larger heat capacity produces a flatter temperature-versus-energy slope. During an equilibrium phase change, the added energy changes phase fraction, so the temperature plateau has slope zero.
 
-For heating at constant power P, Q = Pt. Thus dT/dt = P/(mc) within a phase, and a complete phase transition takes Δt = mL/P. These relations require negligible energy losses and the stated constant-power model.
+For heating at constant power P, $Q = Pt$. Thus $\frac{dT}{dt} = \frac{P}{\left( mc \right)}$ within a phase, and a complete phase transition takes $\Delta t = \frac{\mathrm{mL}}{P}$. These relations require negligible energy losses and the stated constant-power model.
 :::
 
 :::example Apply the companion's conduction equation
 **Source law:** Companion p. 11; alternate companion p. 9. The numbers below form a labeled extension.
 
-**Given:** k = 0.80 W/(m·K), A = 2.0 m², thickness L = 0.10 m, and face temperatures 30°C and 10°C.
+**Given:** $k = 0.80\,\frac{\mathrm{W}}{\mathrm{m}   \mathrm{K}}$, $A = 2.0\,\mathrm{m}^{2}$, thickness $L = 0.10\,\mathrm{m}$, and face temperatures 30°C and 10°C.
 
-1. Find ΔT = 20 K.
-2. Calculate the steady heat rate: H = kAΔT/L = 0.80(2.0)(20)/0.10 = 320 W.
-3. For 60 s, calculate transferred energy Q = Ht = 320(60) = 19,200 J.
-4. Check the rate unit: W/(m·K) × m² × K/m = W.
+1. Find $\Delta T = 20\,\mathrm{K}$.
+2. Calculate the steady heat rate: $H = \frac{kA\Delta T}{L} = \frac{0.80 \left( 2.0 \right) \left( 20 \right)}{0.10} = 320\,\mathrm{W}$.
+3. For $60\,\mathrm{s}$, calculate transferred energy $Q = Ht = 320 \left( 60 \right) = 19{,}200\,\mathrm{J}$.
+4. Check the rate unit: $\frac{\frac{W}{\left( m \cdot K \right)} \times m^{2} \times K}{m} = W$.
 
 **Assumptions.** The slab is uniform. The temperature profile has reached steady state. Ignore side losses and contact resistance.
 :::

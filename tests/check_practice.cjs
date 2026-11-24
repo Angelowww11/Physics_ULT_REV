@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
-global.window={};require('../practice-data.js');require('../sources.js');
+global.window={};require('../practice-data.js');require('../practice-math.js');require('../sources.js');
 const Q=window.PhysicsPractice,S=window.PHYSICS_SOURCES;
 assert.equal(Q.length,600);assert.equal(new Set(Q.map(q=>q.id)).size,600);
 const near=(a,b)=>assert.ok(Math.abs(a-b)<=Math.max(1e-22,Math.abs(b)*1e-12),`${a} != ${b}`);
@@ -25,11 +25,22 @@ for(let m=1;m<=10;m++){
   const source=S.find(s=>s.module===m&&s.variant==='main');assert.ok(q.page>0&&q.page<=source.pages.length);
  }
 }
-const katex=require('../node_modules/katex');let blocks=0;
+const katex=require('../node_modules/katex');let blocks=0,inline=0;
+for(const q of Q){
+ for(const tex of [q.lawTex,q.workingTex]){
+  assert.ok(tex,q.id+' missing formatted math');
+  katex.renderToString(tex,{displayMode:true,throwOnError:true,strict:'error'});
+ }
+}
 for(const file of fs.readdirSync(path.join(__dirname,'../notes')).filter(f=>/^\d{2}(-worked)?\.txt$/.test(f))){
  const note=fs.readFileSync(path.join(__dirname,'../notes',file),'utf8');
- for(const match of note.matchAll(/\$\$([\s\S]*?)\$\$/g)){katex.renderToString(match[1],{displayMode:true,throwOnError:true,strict:'error'});blocks++;}
+ for(const match of note.matchAll(/(\$\$[\s\S]*?\$\$|\$[^\n$]+\$)/g)){
+  const display=match[1].startsWith('$$'),tex=display?match[1].slice(2,-2):match[1].slice(1,-1);
+  katex.renderToString(tex,{displayMode:display,throwOnError:true,strict:'error'});
+  if(display)blocks++;else inline++;
+ }
 }
 const stats=JSON.parse(fs.readFileSync(path.join(__dirname,'../note-stats.json'),'utf8'));
 assert.equal(blocks,stats.derivation_blocks);
-console.log(`PASS: 600 independent numerical answers, 600 unique IDs, 4 distinct choices each, source page ranges, ${blocks} strict KaTeX blocks.`);
+assert.equal(inline,stats.inline_equations);
+console.log(`PASS: 600 numerical answers, 600 IDs, distinct choices, source page ranges, 1200 practice equations, ${blocks} display and ${inline} inline equations.`);

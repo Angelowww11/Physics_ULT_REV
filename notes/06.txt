@@ -1,6 +1,6 @@
 ## Capacitors: first decide what stays fixed
 
-A capacitor stores energy in an electric field between conductors. Its plates carry +Q and −Q. In C = Q/V, Q is the magnitude on ONE plate, not the algebraic total charge of the pair. One farad is one coulomb per volt. Use μF = 10⁻⁶ F, nF = 10⁻⁹ F, and pF = 10⁻¹² F.
+A capacitor stores energy in an electric field between conductors. Its plates carry +Q and −Q. In $C = \frac{Q}{V}$, Q is the magnitude on ONE plate, not the algebraic total charge of the pair. One farad is one coulomb per volt. Use $\mathrm{\mu F} = 10^{-6}\,\mathrm{F}$, $\mathrm{nF} = 10^{-9}\,\mathrm{F}$, and $\mathrm{pF} = 10^{-12}\,\mathrm{F}$.
 
 $$C=Q/V,\quad Q=CV,\quad V=Q/C.$$
 
@@ -8,58 +8,58 @@ For a linear ideal capacitor, geometry and dielectric determine C. A larger Q do
 
 ### Derive parallel-plate capacitance
 
-For large parallel plates with edge effects neglected, σ = Q/A and E = σ/ε. The approximately uniform gap field gives V = Ed. Substitute:
+For large parallel plates with edge effects neglected, $\sigma = \frac{Q}{A}$ and $E = \frac{\sigma}{\varepsilon}$. The approximately uniform gap field gives $V = Ed$. Substitute:
 
 $$V=\frac{Qd}{\epsilon A}\Rightarrow C=\frac QV=\frac{\epsilon A}{d}=\frac{\kappa\epsilon_0 A}{d}.$$
 
-Here ε₀ ≈ 8.85 × 10⁻¹² F/m and κ is a dimensionless dielectric constant. Rearrangements are A = Cd/(κε₀), d = κε₀A/C, κ = Cd/(ε₀A). The parallel-plate model needs plate dimensions much larger than gap d. Do not use the same equation for arbitrary conductor shapes.
+Here $\varepsilon_{0} \approx 8.85 \times 10^{-12}\,\frac{\mathrm{F}}{\mathrm{m}}$ and $\kappa$ is a dimensionless dielectric constant. Rearrangements are $A = \frac{Cd}{\left( \kappa \varepsilon_{0} \right)}$, $d = \frac{\kappa \varepsilon_{0} A}{C}$, $\kappa = \frac{Cd}{\left( \varepsilon_{0} A \right)}$. The parallel-plate model needs plate dimensions much larger than gap d. Do not use the same equation for arbitrary conductor shapes.
 
-**Worked example — primary p. 14.** C = 1.0 F, d = 1.0 mm in vacuum gives A = 1 × 0.001/(8.85 × 10⁻¹²) = 1.13 × 10⁸ m². A missing milli prefix changes the answer by 1000.
+**Worked example — primary p. 14.** $C = 1.0\,\mathrm{F}$, $d = 1.0\,\mathrm{mm}$ in vacuum gives $A = \frac{1 \times 0.001}{\left( 8.85 \times 10^{-12} \right)} = 1.13 \times 10^{8}\,\mathrm{m}^{2}$. A missing milli prefix changes the answer by 1000.
 
-**Worked example — primary p. 14.** A = 2.0 m², d = 5.0 mm, and V = 10,000 V give C = 3.54 × 10⁻⁹ F = 0.00354 μF, Q = 35.4 μC, and E = 2.0 × 10⁶ V/m. Check Q = CV and V = Ed independently.
+**Worked example — primary p. 14.** $A = 2.0\,\mathrm{m}^{2}$, $d = 5.0\,\mathrm{mm}$, and $V = 10{,}000\,\mathrm{V}$ give $C = 3.54 \times 10^{-9}\,\mathrm{F} = 0.00354\,\mathrm{\mu F}$, $Q = 35.4\,\mathrm{\mu C}$, and $E = 2.0 \times 10^{6}\,\frac{\mathrm{V}}{\mathrm{m}}$. Check $Q = CV$ and $V = Ed$ independently.
 
 ### Dielectrics: connected versus disconnected battery
 
-A dielectric polarizes and increases capacitance when it fills the gap: Cnew = κCold. It can mechanically separate plates and permit greater voltage before breakdown, depending on the material and conditions.
+A dielectric polarizes and increases capacitance when it fills the gap: $C_{\mathrm{new}} = \kappa C_{\mathrm{old}}$. It can mechanically separate plates and permit greater voltage before breakdown, depending on the material and conditions.
 
 | Quantity | Battery stays connected | Battery is disconnected, ideal isolated capacitor |
 | --- | --- | --- |
-| Voltage | Fixed by ideal battery | Divides by κ |
-| Free charge magnitude | Multiplies by κ | Fixed |
-| Capacitance | Multiplies by κ | Multiplies by κ |
-| Field in fully filled fixed gap | Fixed | Divides by κ |
-| Stored energy | Multiplies by κ | Divides by κ |
+| Voltage | Fixed by ideal battery | Divides by $\kappa$ |
+| Free charge magnitude | Multiplies by $\kappa$ | Fixed |
+| Capacitance | Multiplies by $\kappa$ | Multiplies by $\kappa$ |
+| Field in fully filled fixed gap | Fixed | Divides by $\kappa$ |
+| Stored energy | Multiplies by $\kappa$ | Divides by $\kappa$ |
 
-**Derive these changes.** Start with Q = CV. Fix V in the connected case or Q in the isolated case. Then use U = CV²/2 or Q²/(2C). The connected capacitor can gain stored energy because the battery exchanges energy and charge. The isolated capacitor's energy decrease can become mechanical work during dielectric insertion.
+**Derive these changes.** Start with $Q = CV$. Fix V in the connected case or Q in the isolated case. Then use $U = \frac{CV^{2}}{2}$ or $\frac{Q^{2}}{\left( 2\,\mathrm{C} \right)}$. The connected capacitor can gain stored energy because the battery exchanges energy and charge. The isolated capacitor's energy decrease can become mechanical work during dielectric insertion.
 
-**Extensions — partial dielectric geometry.** Two materials occupying side-by-side area fractions share the voltage, so C = ε₀(κ₁A₁ + κ₂A₂)/d. Layers stacked across the gap share the series charge, so 1/C = d₁/(κ₁ε₀A) + d₂/(κ₂ε₀A). Use the geometry to choose the connection model.
+**Extensions — partial dielectric geometry.** Two materials occupying side-by-side area fractions share the voltage, so $C = \frac{\varepsilon_{0} \left( \kappa_{1} A_{1} + \kappa_{2} A_{2} \right)}{d}$. Layers stacked across the gap share the series charge, so $\frac{1}{C} = \frac{d_{1}}{\left( \kappa_{1} \varepsilon_{0} A \right)} + \frac{d_{2}}{\left( \kappa_{2} \varepsilon_{0} A \right)}$. Use the geometry to choose the connection model.
 
 ### Derive all three energy expressions
 
-The voltage rises while charging. An additional dq requires work dU = V(q)dq = (q/C)dq. Integrate from zero to Q:
+The voltage rises while charging. An additional dq requires work $dU = V \left( q \right) dq = \left( \frac{q}{C} \right) dq$. Integrate from zero to Q:
 
 $$U=\int_0^Q\frac qC\,dq=\frac{Q^2}{2C}=\frac12QV=\frac12CV^2.$$
 
-Multiplying the FINAL voltage by the entire charge gives QV, twice the stored energy. A linear voltage rise has average charging voltage V/2. Rearranging gives V = √(2U/C), C = 2U/V², or Q = √(2CU), with magnitudes and physically positive C.
+Multiplying the FINAL voltage by the entire charge gives QV, twice the stored energy. A linear voltage rise has average charging voltage $\frac{V}{2}$. Rearranging gives $V = \sqrt{\left( \frac{2 U}{C} \right)}$, $C = \frac{2 U}{V^{2}}$, or $Q = \sqrt{\left( 2 CU \right)}$, with magnitudes and physically positive C.
 
-**Worked example — primary p. 16.** C = 5.80 μF and V = 400 V give U = 0.5(5.80 × 10⁻⁶)(400²) = 0.464 J. The answer fixes the exponent obscured in some PDF text extraction. A 5.0 μF capacitor at 1.5 V has Q = 7.5 μC.
+**Worked example — primary p. 16.** $C = 5.80\,\mathrm{\mu F}$ and $V = 400\,\mathrm{V}$ give $U = 0.5 \left( 5.80 \times 10^{-6} \right) \left( 400^{2} \right) = 0.464\,\mathrm{J}$. The answer fixes the exponent obscured in some PDF text extraction. A $5.0\,\mathrm{\mu F}$ capacitor at $1.5\,\mathrm{V}$ has $Q = 7.5\,\mathrm{\mu C}$.
 
-Substitute C = εA/d and V = Ed: U = εE²Ad/2. Divide by gap volume Ad to derive field-energy density u = εE²/2 for a linear material.
+Substitute $C = \frac{\varepsilon A}{d}$ and $V = Ed$: $U = \frac{\varepsilon E^{2} Ad}{2}$. Divide by gap volume Ad to derive field-energy density $u = \frac{\varepsilon E^{2}}{2}$ for a linear material.
 
 ### Networks: derive series and parallel rules
 
-Parallel branches share the SAME two nodes. Their voltages are equal and terminal charges add: Qtot = ΣCiV. Thus Ceq = ΣCi. Series capacitors in an initially uncharged isolated-intermediate-node chain carry equal charge magnitude. Their voltage drops add: Vtot = QΣ(1/Ci), so 1/Ceq = Σ1/Ci.
+Parallel branches share the SAME two nodes. Their voltages are equal and terminal charges add: $Q_{\mathrm{tot}} = \sum C_{i} V$. Thus $C_{\mathrm{eq}} = \sum C_{i}$. Series capacitors in an initially uncharged isolated-intermediate-node chain carry equal charge magnitude. Their voltage drops add: $V_{\mathrm{tot}} = Q\sum \left( \frac{1}{C_{i}} \right)$, so $\frac1{C_{\mathrm{eq}}}=\sum_i\frac1{C_i}$.
 
-For two series capacitors, Ceq = C₁C₂/(C₁+C₂). Solving for an unknown gives C₂ = CeqC₁/(C₁−Ceq), requiring C₁ > Ceq > 0. In parallel, C₂ = Ceq − C₁ > 0. Series equivalent capacitance is smaller than the smallest element; parallel equivalent capacitance exceeds each positive element.
+For two series capacitors, $C_{\mathrm{eq}} = \frac{C_{1} C_{2}}{\left( C_{1} + C_{2} \right)}$. Solving for an unknown gives $C_{2} = \frac{C_{\mathrm{eq}}C_{1}}{\left( C_{1} - C_{\mathrm{eq}} \right)}$, requiring $C_{1} > C_{\mathrm{eq}} > 0$. In parallel, $C_{2} = C_{\mathrm{eq}} - C_{1} > 0$. Series equivalent capacitance is smaller than the smallest element; parallel equivalent capacitance exceeds each positive element.
 
-**Worked example — primary p. 24.** Connect 6 μF and 3 μF to 18 V. Series: Ceq = 2 μF, Qeach = 36 μC, V₆ = 6 V, V₃ = 12 V. Parallel: Ceq = 9 μF, Veach = 18 V, Q₆ = 108 μC, Q₃ = 54 μC. The smaller SERIES capacitor has the larger voltage because its charge magnitude is the same.
+**Worked example — primary p. 24.** Connect $6\,\mathrm{\mu F}$ and $3\,\mathrm{\mu F}$ to $18\,\mathrm{V}$. Series: $C_{\mathrm{eq}} = 2\,\mathrm{\mu F}$, $Q_{\mathrm{each}} = 36\,\mathrm{\mu C}$, $V_{6} = 6\,\mathrm{V}$, $V_{3} = 12\,\mathrm{V}$. Parallel: $C_{\mathrm{eq}} = 9\,\mathrm{\mu F}$, $V_{\mathrm{each}} = 18\,\mathrm{V}$, $Q_{6} = 108\,\mathrm{\mu C}$, $Q_{3} = 54\,\mathrm{\mu C}$. The smaller SERIES capacitor has the larger voltage because its charge magnitude is the same.
 
 For a mixed network, label nodes before reducing it. Two nearby symbols are not necessarily parallel. Reduce a valid group, record its equivalent value, solve the terminal circuit, and then work backward. Use the original group’s shared Q or shared V to recover each element. Check ΣVi for series groups and ΣQi for parallel groups.
 
-**Worked extension — reduce, then restore the branches.** Put 2 μF and 4 μF in parallel. Connect that group in series with 3 μF across 12 V. The parallel group is 6 μF. Its series equivalent with 3 μF is (6×3)/(6+3) = 2 μF. The source transfers Q = 2×12 = 24 μC to each series unit.
+**Worked extension — reduce, then restore the branches.** Put $2\,\mathrm{\mu F}$ and $4\,\mathrm{\mu F}$ in parallel. Connect that group in series with $3\,\mathrm{\mu F}$ across $12\,\mathrm{V}$. The parallel group is $6\,\mathrm{\mu F}$. Its series equivalent with $3\,\mathrm{\mu F}$ is $\frac{\left( 6 \times 3 \right)}{\left( 6 + 3 \right)} = 2\,\mathrm{\mu F}$. The source transfers $Q = 2 \times 12 = 24\,\mathrm{\mu C}$ to each series unit.
 
-The 6 μF group has voltage 24/6 = 4 V. The 3 μF capacitor has voltage 24/3 = 8 V. Both parallel capacitors share 4 V, so their charges are 8 μC and 16 μC. Their sum is the group's 24 μC. Check energy: ½(2 μF)(12²) = 144 μJ. The individual energies are 16, 32, and 96 μJ, which also sum to 144 μJ. A single equivalent capacitance alone does not reveal every branch voltage.
+The $6\,\mathrm{\mu F}$ group has voltage $\frac{24}{6} = 4\,\mathrm{V}$. The $3\,\mathrm{\mu F}$ capacitor has voltage $\frac{24}{3} = 8\,\mathrm{V}$. Both parallel capacitors share $4\,\mathrm{V}$, so their charges are $8\,\mathrm{\mu C}$ and $16\,\mathrm{\mu C}$. Their sum is the group's $24\,\mathrm{\mu C}$. Check energy: $\tfrac{1}{2} \left( 2\,\mathrm{\mu F} \right) \left( 12^{2} \right) = 144\,\mathrm{\mu J}$. The individual energies are 16, 32, and $96\,\mathrm{\mu J}$, which also sum to $144\,\mathrm{\mu J}$. A single equivalent capacitance alone does not reveal every branch voltage.
 
-**Charge-sharing extension.** Disconnect two capacitors from their supplies and join their positive plates together. With no leakage, Vf = (C₁V₁ + C₂V₂)/(C₁+C₂). Reverse one capacitor's polarity by using a negative signed initial voltage. Final energy need not equal the sum of initial capacitor energies; the connection can dissipate energy. Charge conservation does not imply capacitor-energy conservation.
+**Charge-sharing extension.** Disconnect two capacitors from their supplies and join their positive plates together. With no leakage, $V_{f} = \frac{\left( C_{1} V_{1} + C_{2} V_{2} \right)}{\left( C_{1} + C_{2} \right)}$. Reverse one capacitor's polarity by using a negative signed initial voltage. Final energy need not equal the sum of initial capacitor energies; the connection can dissipate energy. Charge conservation does not imply capacitor-energy conservation.
 
-For C₁ = 2 μF at 12 V and C₂ = 4 μF at 0 V, Vf = 4 V. Initial stored energy is 144 μJ; final energy is 48 μJ. The difference, 96 μJ, leaves the capacitor fields during the transient. Real connections transfer it through resistance, radiation, or other losses. An ideal zero-resistance instantaneous connection is not a complete transient model.
+For $C_{1} = 2\,\mathrm{\mu F}$ at $12\,\mathrm{V}$ and $C_{2} = 4\,\mathrm{\mu F}$ at $0\,\mathrm{V}$, $V_{f} = 4\,\mathrm{V}$. Initial stored energy is $144\,\mathrm{\mu J}$; final energy is $48\,\mathrm{\mu J}$. The difference, $96\,\mathrm{\mu J}$, leaves the capacitor fields during the transient. Real connections transfer it through resistance, radiation, or other losses. An ideal zero-resistance instantaneous connection is not a complete transient model.

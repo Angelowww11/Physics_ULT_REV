@@ -8,21 +8,21 @@ Oersted's current-carrying wire deflects a compass, showing that current creates
 
 $$\mathbf F_B=q\mathbf v\times\mathbf B,\quad F_B=|q|vB\sin\theta.$$
 
-θ is between velocity and B. For positive q, curl the right-hand direction from v toward B; reverse the result for negative q. A charge at rest has no magnetic force from this law. Parallel or antiparallel motion gives zero magnetic force, not maximum force. Perpendicular motion gives the maximum magnitude.
+$\theta$ is between velocity and B. For positive q, curl the right-hand direction from v toward B; reverse the result for negative q. A charge at rest has no magnetic force from this law. Parallel or antiparallel motion gives zero magnetic force, not maximum force. Perpendicular motion gives the maximum magnitude.
 
-**Derive wire force.** A segment of length L and cross-sectional area A contains nAL carriers. Each has transverse force qvd×B. Sum and use I = n|q|Avd to obtain F = IL×B, with L directed along conventional current. For a curved wire use I∫dl×B. Only the length inside the field contributes.
+**Derive wire force.** A segment of length L and cross-sectional area A contains nAL carriers. Each has transverse force $qv_{d} \times B$. Sum and use $I = n \left| q \right| Av_{d}$ to obtain $F = IL \times B$, with L directed along conventional current. For a curved wire use $I \int dl \times B$. Only the length inside the field contributes.
 
-**Worked example — primary p. 14.** I = 5.0 A east; L = 1.0 m; B = 1.20 T at 45° north of east. F = 5 × 1 × 1.2 sin45° = 4.243 N. East × north points up in an east/north/up coordinate system.
+**Worked example — primary p. 14.** $I = 5.0\,\mathrm{A}$ east; $L = 1.0\,\mathrm{m}$; $B = 1.20\,\mathrm{T}$ at 45° north of east. $F = 5 \times 1 \times 1.2 \sin 45^{\circ} = 4.243\,\mathrm{N}$. East × north points up in an east/north/up coordinate system.
 
-**Worked example — primary p. 20.** An electron moves +x at 8.0 × 10⁶ m/s. A 0.025 T field makes 60° to +x in the +y half of the xy plane. Magnitude = e v B sin60° = 2.775 × 10⁻¹⁴ N. Since +x × +y = +z, the electron's force is −z. Without specifying the y-half-plane, the angle alone does not fix that sign.
+**Worked example — primary p. 20.** An electron moves +x at $8.0 \times 10^{6}\,\frac{\mathrm{m}}{\mathrm{s}}$. A $0.025\,\mathrm{T}$ field makes 60° to +x in the +y half of the xy plane. Magnitude: $e v B \sin 60^{\circ} = 2.775 \times 10^{-14}\,\mathrm{N}$. Since $+ x \times + y = + z$, the electron's force is −z. Without specifying the y-half-plane, the angle alone does not fix that sign.
 
 ### Circular and helical motion: derived extensions
 
-A magnetic force does no work on a point charge because v·(v×B)=0. It changes direction, not speed, in a purely magnetic uniform field. For perpendicular motion, set |q|vB = mv²/r:
+A magnetic force does no work on a point charge because $v \cdot \left( v \times B \right) = 0$. It changes direction, not speed, in a purely magnetic uniform field. For perpendicular motion, set $\left| q \right| vB = \frac{mv^{2}}{r}$:
 
 $$r=\frac{mv_\perp}{|q|B},\quad \omega_c=\frac{|q|B}{m},\quad T=\frac{2\pi m}{|q|B}.$$
 
-For an oblique entry, vparallel remains constant, while vperpendicular circles. Helical pitch = vparallelT. These are nonrelativistic formulas. Combining kinetic energy K with r gives r = √(2mK)/(|q|B) for perpendicular entry. In crossed perpendicular E and B fields, straight undeflected motion requires |q|E = |q|vB, so v = E/B with force directions opposing.
+For an oblique entry, $v_{\parallel}$ remains constant, while $v_{\perp}$ circles. Helical pitch: $p=v_{\parallel}T$. These are nonrelativistic formulas. Combining kinetic energy K with r gives $r = \frac{\sqrt{\left( 2 mK \right)}}{\left( \left| q \right| B \right)}$ for perpendicular entry. In crossed perpendicular E and B fields, straight undeflected motion requires $\left| q \right| E = \left| q \right| vB$, so $v = \frac{E}{B}$ with force directions opposing.
 
 ### Torque on a current loop
 
@@ -30,34 +30,34 @@ Opposite sides of a loop in uniform B have equal and opposite forces. Net force 
 
 $$\boldsymbol\mu=NI\mathbf A,\quad \boldsymbol\tau=\boldsymbol\mu\times\mathbf B,\quad \tau=NIAB\sin\theta,\quad U=-\boldsymbol\mu\cdot\mathbf B.$$
 
-Here θ is between the AREA NORMAL and B, not between the loop's plane and B. For angle φ to the plane, sinθ = cosφ. Maximum torque occurs when the normal is perpendicular to B. Zero torque occurs when the normal is parallel or antiparallel; the parallel orientation has the lower potential energy.
+Here $\theta$ is between the AREA NORMAL and B, not between the loop's plane and B. For angle $\phi$ to the plane, $\sin \theta = \cos \phi$. Maximum torque occurs when the normal is perpendicular to B. Zero torque occurs when the normal is parallel or antiparallel; the parallel orientation has the lower potential energy.
 
-**Worked example — primary p. 28.** Diameter = 20.0 cm, so r = 0.100 m and A = π(0.100)². With N = 10, I = 3.00 A, B = 2.00 T, τmax = 1.885 N·m and τmin = 0. The primary's side-force label involving IAB should not be read as the wire-force law: force uses a LENGTH, while torque uses an AREA.
+**Worked example — primary p. 28.** Diameter: $20.0\,\mathrm{cm}$, so $r = 0.100\,\mathrm{m}$ and $A = \pi \left( 0.100 \right)^{2}$. With $N = 10$, $I = 3.00\,\mathrm{A}$, $B = 2.00\,\mathrm{T}$, $\tau _{\mathrm{max}} = 1.885\,\mathrm{N} \cdot m$ and $\tau _{\mathrm{min}} = 0$. The primary's side-force label involving IAB should not be read as the wire-force law: force uses a LENGTH, while torque uses an AREA.
 
 A galvanometer turns a current-carrying coil against a restoring effect. Analog meters build on that principle. A motor converts electrical energy to mechanical energy; a loudspeaker moves a coil and cone with a varying force.
 
 ### Long wires, parallel-current force, and Ampere's law
 
-Magnetostatic Ampere's law is ∮B·dl = μ₀Ienclosed. For a long straight wire, cylindrical symmetry makes B constant on a circular path. Therefore B(2πr) = μ₀I:
+Magnetostatic Ampere's law is $\oint B \cdot dl = \mu_{0} I_{\mathrm{enclosed}}$. For a long straight wire, cylindrical symmetry makes B constant on a circular path. Therefore $B \left( 2 \pi r \right) = \mu_{0} I$:
 
 $$B=\frac{\mu_0 I}{2\pi r},\quad \frac FL=I_2B_1=\frac{\mu_0 I_1I_2}{2\pi d}.$$
 
-Use μ₀ ≈ 4π × 10⁻⁷ T·m/A for course calculations. Same-direction parallel currents attract; opposite directions repel. The distance is between the wire axes, not wire length. Fields from several wires add as vectors.
+Use $\mu_{0} \approx \frac{4 \pi \times 10^{-7}\,\mathrm{T} \cdot m}{A}$ for course calculations. Same-direction parallel currents attract; opposite directions repel. The distance is between the wire axes, not wire length. Fields from several wires add as vectors.
 
-**Worked examples — primary pp. 33 and 36.** A 25 A upward wire at r = 0.10 m gives B = 5.0 × 10⁻⁵ T. At a point north of that wire, the direction is west. Two wires carrying 8.0 A, separated by 0.0030 m over 2.0 m length, exert F = 8.533 × 10⁻³ N. Their relative current directions determine attraction or repulsion.
+**Worked examples — primary pp. 33 and 36.** A $25\,\mathrm{A}$ upward wire at $r = 0.10\,\mathrm{m}$ gives $B = 5.0 \times 10^{-5}\,\mathrm{T}$. At a point north of that wire, the direction is west. Two wires carrying $8.0\,\mathrm{A}$, separated by $0.0030\,\mathrm{m}$ over $2.0\,\mathrm{m}$ length, exert $F = 8.533 \times 10^{-3}\,\mathrm{N}$. Their relative current directions determine attraction or repulsion.
 
 ### Solenoids, cores, and scope of symmetry
 
-For an ideal long solenoid, an Amperian rectangle has negligible external contribution. Enclosed current is (N/ℓ)I times its interior path length. Thus B = μ₀(N/ℓ)I, or μnI in an ideal linear core. ℓ is the SOLENOID length, not the total winding-wire length.
+For an ideal long solenoid, an Amperian rectangle has negligible external contribution. Enclosed current is $\left( \frac{N}{\ell} \right) I$ times its interior path length. Thus $B = \mu_{0} \left( \frac{N}{\ell} \right) I$, or $\mu nI$ in an ideal linear core. ℓ is the SOLENOID length, not the total winding-wire length.
 
-**Worked example — primary p. 39.** N = 420, ℓ = 0.12 m, I = 2.0 A. B = 4π × 10⁻⁷(420/0.12)(2) = 8.796 × 10⁻³ T near the center in the long-solenoid approximation.
+**Worked example — primary p. 39.** $N = 420$, $\ell = 0.12\,\mathrm{m}$, $I = 2.0\,\mathrm{A}$. $B = 4 \pi \times 10^{-7} \left( \frac{420}{0.12} \right) \left( 2 \right) = 8.796 \times 10^{-3}\,\mathrm{T}$ near the center in the long-solenoid approximation.
 
-An iron core can increase field strongly, but a constant relative permeability is only an approximation; real cores can saturate and show hysteresis. Ampere's law alone does not let you pull B outside the integral without sufficient symmetry. For a circular coil's center, a separate Biot–Savart integration gives B = μ₀NI/(2R); do not substitute the long-solenoid formula into a single-loop problem.
+An iron core can increase field strongly, but a constant relative permeability is only an approximation; real cores can saturate and show hysteresis. Ampere's law alone does not let you pull B outside the integral without sufficient symmetry. For a circular coil's center, a separate Biot–Savart integration gives $B = \frac{\mu_{0} NI}{\left( 2 R \right)}$; do not substitute the long-solenoid formula into a single-loop problem.
 
-**Derive the circular-coil result.** Biot–Savart gives dB = μ₀I dl sinθ/(4πr²). At a loop's center, r = R and every tangent element is perpendicular to its radius. All field contributions point along the same axis. Integrate dl around circumference 2πR and multiply by N:
+**Derive the circular-coil result.** Biot–Savart gives $dB = \frac{\mu_{0} I dl \sin \theta}{\left( 4 \pi r^{2} \right)}$. At a loop's center, $r = R$ and every tangent element is perpendicular to its radius. All field contributions point along the same axis. Integrate dl around circumference 2πR and multiply by N:
 
 $$B_{center}=\frac{\mu_0NI}{4\pi R^2}\oint dl=\frac{\mu_0NI}{4\pi R^2}(2\pi R)=\frac{\mu_0NI}{2R}.$$
 
-For 20 turns, 0.050 m radius, and 2.0 A, B ≈ 5.027 × 10⁻⁴ T. This formula describes thin coincident loops. A long coil uses the solenoid approximation instead. A magnetic field created by this coil can exert force on another wire; do not substitute the wire's own field into a simple external-field force calculation.
+For 20 turns, $0.050\,\mathrm{m}$ radius, and $2.0\,\mathrm{A}$, $B \approx 5.027 \times 10^{-4}\,\mathrm{T}$. This formula describes thin coincident loops. A long coil uses the solenoid approximation instead. A magnetic field created by this coil can exert force on another wire; do not substitute the wire's own field into a simple external-field force calculation.
 
-**Worked trajectory extension.** A proton enters perpendicular to 0.20 T at 1.0 × 10⁶ m/s. Use mp = 1.67 × 10⁻²⁷ kg and e = 1.602 × 10⁻¹⁹ C. Its radius is 0.05212 m and period is 3.275 × 10⁻⁷ s. Doubling the speed doubles the radius but leaves the nonrelativistic period unchanged. A parallel velocity component adds a helical displacement instead of changing this perpendicular radius.
+**Worked trajectory extension.** A proton enters perpendicular to $0.20\,\mathrm{T}$ at $1.0 \times 10^{6}\,\frac{\mathrm{m}}{\mathrm{s}}$. Use $m_{p} = 1.67 \times 10^{-27}\,\mathrm{kg}$ and $e = 1.602 \times 10^{-19}\,\mathrm{C}$. Its radius is $0.05212\,\mathrm{m}$ and period is $3.275 \times 10^{-7}\,\mathrm{s}$. Doubling the speed doubles the radius but leaves the nonrelativistic period unchanged. A parallel velocity component adds a helical displacement instead of changing this perpendicular radius.

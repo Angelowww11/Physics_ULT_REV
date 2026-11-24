@@ -1,111 +1,111 @@
 ### Derive capacitance with the charge, geometry, and units visible
 
-:::derivation From the plate fields to C = εA/d
+:::derivation From the plate fields to $C = \frac{\varepsilon A}{d}$
 **Sources:** Primary pp. 7–13; companion pp. 1–4. Use large parallel plates, a uniform linear dielectric, and negligible edge effects.
 
-1. Write the free surface-charge density as σ = Q/A.
-2. Add the two ideal plate fields. The gap field is E = σ/ε, not σ/(2ε).
-3. Use the uniform-gap potential difference magnitude V = Ed.
-4. Substitute σ = Q/A to obtain V = Qd/(εA).
-5. Divide charge by voltage: C = Q/V = εA/d.
+1. Write the free surface-charge density as $\sigma = \frac{Q}{A}$.
+2. Add the two ideal plate fields. The gap field is $E = \frac{\sigma}{\varepsilon}$, not $\frac{\sigma}{\left( 2 \varepsilon \right)}$.
+3. Use the uniform-gap potential difference magnitude $V = Ed$.
+4. Substitute $\sigma = \frac{Q}{A}$ to obtain $V = \frac{Qd}{\left( \varepsilon A \right)}$.
+5. Divide charge by voltage: $C = \frac{Q}{V} = \frac{\varepsilon A}{d}$.
 
-**Unit check.** εA/d has units (F/m)(m²)/m = F. The dielectric constant κ = ε/ε₀ has no unit. Do not confuse κ with Coulomb's constant k.
+**Unit check.** $\frac{\varepsilon A}{d}$ has units $\frac{\left( \frac{F}{m} \right) \left( m^{2} \right)}{m} = F$. The dielectric constant $\kappa = \frac{\varepsilon}{\varepsilon_{0}}$ has no unit. Do not confuse $\kappa$ with Coulomb's constant k.
 :::
 
 {{figure:m6-main:12|The primary dielectric-constant table at 20°C, also reproduced in the companion.}}
 
-The table gives κ = 1 for vacuum and about 1.00059 for air at 1 atm. The usual classroom approximation uses air ≈ vacuum. Listed examples include Teflon 2.1, polyethylene 2.25, glass 5–10, and water 80.4. Capacitance depends on both geometry and the dielectric, not geometry alone when materials change.
+The table gives $\kappa = 1$ for vacuum and about 1.00059 for air at $1\,\mathrm{atm}$. The usual classroom approximation uses air ≈ vacuum. Listed examples include Teflon 2.1, polyethylene 2.25, glass 5–10, and water 80.4. Capacitance depends on both geometry and the dielectric, not geometry alone when materials change.
 
 :::example Complete the primary capacitor geometry calculations
-**Source:** Primary p. 14. Use ε₀ = 8.85 × 10⁻¹² F/m.
+**Source:** Primary p. 14. Use $\varepsilon_{0} = 8.85 \times 10^{-12}\,\frac{\mathrm{F}}{\mathrm{m}}$.
 
-**First problem: 1.0 F with a 1.0 mm vacuum gap.**
+**First problem: $1.0\,\mathrm{F}$ with a $1.0\,\mathrm{mm}$ vacuum gap.**
 
-1. Convert d = 1.0 × 10⁻³ m.
-2. Rearrange C = ε₀A/d to A = Cd/ε₀.
-3. Calculate A = (1.0)(1.0 × 10⁻³)/(8.85 × 10⁻¹²) = 1.12994 × 10⁸ m².
+1. Convert $d = 1.0 \times 10^{-3}\,\mathrm{m}$.
+2. Rearrange $C = \frac{\varepsilon_{0} A}{d}$ to $A = \frac{Cd}{\varepsilon_{0}}$.
+3. Calculate $A = \frac{\left( 1.0 \right) \left( 1.0 \times 10^{-3} \right)}{\left( 8.85 \times 10^{-12} \right)} = 1.12994 \times 10^{8}\,\mathrm{m}^{2}$.
 
-**Second problem: A = 2.0 m², d = 5.0 mm, and V = 10,000 V.**
+**Second problem: $A = 2.0\,\mathrm{m}^{2}$, $d = 5.0\,\mathrm{mm}$, and $V = 10{,}000\,\mathrm{V}$.**
 
-1. Convert d = 0.0050 m.
-2. Calculate C = ε₀A/d = 3.54 × 10⁻⁹ F = 3.54 nF = 0.00354 μF.
-3. Calculate Q = CV = 3.54 × 10⁻⁵ C = 35.4 μC on either plate in magnitude.
-4. Calculate E = V/d = 2.0 × 10⁶ V/m.
-5. Check the field independently: E = Q/(ε₀A) gives the same result.
+1. Convert $d = 0.0050\,\mathrm{m}$.
+2. Calculate $C = \frac{\varepsilon_{0} A}{d} = 3.54 \times 10^{-9}\,\mathrm{F} = 3.54\,\mathrm{nF} = 0.00354\,\mathrm{\mu F}$.
+3. Calculate $Q = CV = 3.54 \times 10^{-5}\,\mathrm{C} = 35.4\,\mathrm{\mu C}$ on either plate in magnitude.
+4. Calculate $E = \frac{V}{d} = 2.0 \times 10^{6}\,\frac{\mathrm{V}}{\mathrm{m}}$.
+5. Check the field independently: $E = \frac{Q}{\left( \varepsilon_{0} A \right)}$ gives the same result.
 
-**Check.** The plate pair's algebraic net charge is zero. C = Q/V uses one plate's charge magnitude, not that zero total.
+**Check.** The plate pair's algebraic net charge is zero. $C = \frac{Q}{V}$ uses one plate's charge magnitude, not that zero total.
 :::
 
 :::example The omitted companion dielectric calculation
-**Source:** Companion p. 4. **Given:** A = 0.020 m², d = 2.0 mm, κ = 4.0. Approximate the initial air-filled gap as vacuum.
+**Source:** Companion p. 4. **Given:** $A = 0.020\,\mathrm{m}^{2}$, $d = 2.0\,\mathrm{mm}$, $\kappa = 4.0$. Approximate the initial air-filled gap as vacuum.
 
-1. Convert d = 0.0020 m.
-2. Calculate C₀ = ε₀A/d = 8.85 × 10⁻¹¹ F = 88.5 pF.
-3. Multiply by the dielectric constant: C = κC₀ = 4.0(88.5) = 354 pF.
+1. Convert $d = 0.0020\,\mathrm{m}$.
+2. Calculate $C_{0} = \frac{\varepsilon_{0} A}{d} = 8.85 \times 10^{-11}\,\mathrm{F} = 88.5\,\mathrm{pF}$.
+3. Multiply by the dielectric constant: $C = \kappa C_{0} = 4.0 \left( 88.5 \right) = 354\,\mathrm{pF}$.
 
-**Source correction.** The printed 353 pF does not follow from 88.5 pF and κ = 4.0. These stated classroom inputs give 354 pF. The presence of a battery does not change the geometric capacitance calculation; it changes which charge or voltage stays fixed.
+**Source correction.** The printed $353\,\mathrm{pF}$ does not follow from $88.5\,\mathrm{pF}$ and $\kappa = 4.0$. These stated classroom inputs give $354\,\mathrm{pF}$. The presence of a battery does not change the geometric capacitance calculation; it changes which charge or voltage stays fixed.
 :::
 
 :::derivation Plate separation changes: connected and isolated cases
-These are labeled consequences of the source's parallel-plate law. Keep plate area and dielectric fixed. Change the gap from d to sd, with s > 0.
+These are labeled consequences of the source's parallel-plate law. Keep plate area and dielectric fixed. Change the gap from d to sd, with $s > 0$.
 
 | Quantity | Ideal battery connected | Isolated plates, no leakage |
 | --- | --- | --- |
-| Cnew/Cinitial | 1/s | 1/s |
-| Vnew/Vinitial | 1 | s |
-| Qnew/Qinitial | 1/s | 1 |
-| Enew/Einitial | 1/s | 1 |
-| Unew/Uinitial | 1/s | s |
+| $\frac{C_{\mathrm{new}}}{C_{\mathrm{initial}}}$ | $\frac{1}{s}$ | $\frac{1}{s}$ |
+| $\frac{V_{\mathrm{new}}}{V_{\mathrm{initial}}}$ | 1 | s |
+| $\frac{Q_{\mathrm{new}}}{Q_{\mathrm{initial}}}$ | $\frac{1}{s}$ | 1 |
+| $\frac{E_{\mathrm{new}}}{E_{\mathrm{initial}}}$ | $\frac{1}{s}$ | 1 |
+| $\frac{U_{\mathrm{new}}}{U_{\mathrm{initial}}}$ | $\frac{1}{s}$ | s |
 
-Derive each row from C ∝ 1/d, Q = CV, E = V/d, and U = Q²/(2C) or CV²/2. Moving isolated charged plates apart increases field energy because external mechanical work enters the system. Do not use the dielectric-insertion ratios for a plate-gap change.
+Derive each row from $C \propto \frac{1}{d}$, $Q = CV$, $E = \frac{V}{d}$, and $U = \frac{Q^{2}}{\left( 2\,\mathrm{C} \right)}$ or $\frac{CV^{2}}{2}$. Moving isolated charged plates apart increases field energy because external mechanical work enters the system. Do not use the dielectric-insertion ratios for a plate-gap change.
 :::
 
 ### Restore every capacitor in the source networks
 
 :::example Two capacitors in series or parallel: full branch values
-**Sources:** Primary p. 24; companion p. 6. **Given:** 6.0 μF and 3.0 μF across 18.0 V.
+**Sources:** Primary p. 24; companion p. 6. **Given:** $6.0\,\mathrm{\mu F}$ and $3.0\,\mathrm{\mu F}$ across $18.0\,\mathrm{V}$.
 
 **Series solution.**
 
-1. Calculate Ceq = (6×3)/(6+3) = 2.0 μF.
-2. Calculate the common series charge Q = CeqV = 2.0(18.0) = 36.0 μC.
-3. Find V₆ = Q/C₆ = 36/6 = 6 V and V₃ = 36/3 = 12 V.
-4. Check V₆+V₃ = 18 V.
+1. Calculate $C_{\mathrm{eq}} = \frac{\left( 6 \times 3 \right)}{\left( 6 + 3 \right)} = 2.0\,\mathrm{\mu F}$.
+2. Calculate the common series charge $Q = C_{\mathrm{eq}}V = 2.0 \left( 18.0 \right) = 36.0\,\mathrm{\mu C}$.
+3. Find $V_{6} = \frac{Q}{C_{6}} = \frac{36}{6} = 6\,\mathrm{V}$ and $V_{3} = \frac{36}{3} = 12\,\mathrm{V}$.
+4. Check $V_{6} + V_{3} = 18\,\mathrm{V}$.
 
 **Parallel solution.**
 
-1. Calculate Ceq = 6+3 = 9.0 μF.
-2. Set both branch voltages to 18.0 V.
-3. Calculate Q₆ = 6(18) = 108 μC and Q₃ = 3(18) = 54 μC.
-4. Check Qtotal = 162 μC = CeqV.
+1. Calculate $C_{\mathrm{eq}} = 6 + 3 = 9.0\,\mathrm{\mu F}$.
+2. Set both branch voltages to $18.0\,\mathrm{V}$.
+3. Calculate $Q_{6} = 6 \left( 18 \right) = 108\,\mathrm{\mu C}$ and $Q_{3} = 3 \left( 18 \right) = 54\,\mathrm{\mu C}$.
+4. Check $Q_{\mathrm{total}} = 162\,\mathrm{\mu C} = C_{\mathrm{eq}}V$.
 
-For the other primary problem, 5.0 μF and 12.0 μF in parallel across 9.0 V give Ceq = 17.0 μF. Each has 9.0 V. Their charges are 45 μC and 108 μC, totaling 153 μC.
+For the other primary problem, $5.0\,\mathrm{\mu F}$ and $12.0\,\mathrm{\mu F}$ in parallel across $9.0\,\mathrm{V}$ give $C_{\mathrm{eq}} = 17.0\,\mathrm{\mu F}$. Each has $9.0\,\mathrm{V}$. Their charges are $45\,\mathrm{\mu C}$ and $108\,\mathrm{\mu C}$, totaling $153\,\mathrm{\mu C}$.
 :::
 
 {{figure:m6-main:25|The original five-capacitor network. The 9 μF element is in series with the entire upper group.}}
 
-:::example Five-capacitor network at 28 V: every branch solved
-**Sources:** Primary p. 25; companion p. 6. The upper group has 3 μF and 11 μF branches beside a series pair of 12 μF and 6 μF. This group connects in series with 9 μF between a and b.
+:::example Five-capacitor network at $28\,\mathrm{V}$: every branch solved
+**Sources:** Primary p. 25; companion p. 6. The upper group has $3\,\mathrm{\mu F}$ and $11\,\mathrm{\mu F}$ branches beside a series pair of $12\,\mathrm{\mu F}$ and $6\,\mathrm{\mu F}$. This group connects in series with $9\,\mathrm{\mu F}$ between a and b.
 
-1. Reduce the right series pair: Cright = (12×6)/(12+6) = 4 μF.
-2. Add the three parallel branches: Cupper = 3+11+4 = 18 μF.
-3. Combine 18 μF in series with 9 μF: Ceq = (18×9)/(18+9) = 6 μF.
-4. Apply 28 V: Qseries = CeqVab = 6(28) = 168 μC.
-5. Recover group voltages: Vupper = 168/18 = 28/3 V; V₉ = 168/9 = 56/3 V.
+1. Reduce the right series pair: $C_{\mathrm{right}} = \frac{\left( 12 \times 6 \right)}{\left( 12 + 6 \right)} = 4\,\mathrm{\mu F}$.
+2. Add the three parallel branches: $C_{\mathrm{upper}} = 3 + 11 + 4 = 18\,\mathrm{\mu F}$.
+3. Combine $18\,\mathrm{\mu F}$ in series with $9\,\mathrm{\mu F}$: $C_{\mathrm{eq}} = \frac{\left( 18 \times 9 \right)}{\left( 18 + 9 \right)} = 6\,\mathrm{\mu F}$.
+4. Apply $28\,\mathrm{V}$: $Q_{\mathrm{series}} = C_{\mathrm{eq}}V_{ab} = 6 \left( 28 \right) = 168\,\mathrm{\mu C}$.
+5. Recover group voltages: $V_{\mathrm{upper}} = \frac{168}{18} = \frac{28}{3} V$; $V_{9} = \frac{168}{9} = \frac{56}{3} V$.
 6. Use the shared upper voltage for each upper parallel branch.
-7. Use the shared right-branch charge for its 12 μF and 6 μF capacitors.
+7. Use the shared right-branch charge for its $12\,\mathrm{\mu F}$ and $6\,\mathrm{\mu F}$ capacitors.
 
-| Capacitor | Voltage magnitude, V | Charge magnitude, μC |
+| Capacitor | Voltage magnitude, V | Charge magnitude, $\mathrm{\mu C}$ |
 | --- | --- | --- |
-| 3 μF | 28/3 ≈ 9.3333 | 28 |
-| 11 μF | 28/3 ≈ 9.3333 | 308/3 ≈ 102.6667 |
-| 12 μF | 28/9 ≈ 3.1111 | 112/3 ≈ 37.3333 |
-| 6 μF | 56/9 ≈ 6.2222 | 112/3 ≈ 37.3333 |
-| 9 μF | 56/3 ≈ 18.6667 | 168 |
+| $3\,\mathrm{\mu F}$ | $\frac{28}{3} \approx 9.3333$ | 28 |
+| $11\,\mathrm{\mu F}$ | $\frac{28}{3} \approx 9.3333$ | $\frac{308}{3} \approx 102.6667$ |
+| $12\,\mathrm{\mu F}$ | $\frac{28}{9} \approx 3.1111$ | $\frac{112}{3} \approx 37.3333$ |
+| $6\,\mathrm{\mu F}$ | $\frac{56}{9} \approx 6.2222$ | $\frac{112}{3} \approx 37.3333$ |
+| $9\,\mathrm{\mu F}$ | $\frac{56}{3} \approx 18.6667$ | 168 |
 
-**Three checks.** The right-pair voltages sum to 28/3 V. The upper branch charges sum to 168 μC. The upper-group and 9 μF voltages sum to 28 V. The full network stores U = ½CeqV² = 2352 μJ.
+**Three checks.** The right-pair voltages sum to $\frac{28}{3} V$. The upper branch charges sum to $168\,\mathrm{\mu C}$. The upper-group and $9\,\mathrm{\mu F}$ voltages sum to $28\,\mathrm{V}$. The full network stores $U = \tfrac{1}{2} C_{\mathrm{eq}}V^{2} = 2352\,\mathrm{\mu J}$.
 
-**Common error.** The 12 μF and 6 μF elements each carry the right branch's charge, not the full network's 168 μC.
+**Common error.** The $12\,\mathrm{\mu F}$ and $6\,\mathrm{\mu F}$ elements each carry the right branch's charge, not the full network's $168\,\mathrm{\mu C}$.
 :::
 
 ### Energy, dielectric insertion, and capacitor applications
@@ -113,25 +113,25 @@ For the other primary problem, 5.0 μF and 12.0 μF in parallel across 9.0 V giv
 :::example Evaluate the source energy and charge questions
 **Source:** Primary p. 16.
 
-1. Convert C = 5.80 μF to 5.80 × 10⁻⁶ F and use V = 400 V.
-2. Calculate U = ½CV² = ½(5.80 × 10⁻⁶)(400²) = 0.464 J.
-3. For the separate 5.0 μF, 1.5 V problem, use Q = CV = 7.5 μC.
+1. Convert $C = 5.80\,\mathrm{\mu F}$ to $5.80 \times 10^{-6}\,\mathrm{F}$ and use $V = 400\,\mathrm{V}$.
+2. Calculate $U = \tfrac{1}{2} CV^{2} = \tfrac{1}{2} \left( 5.80 \times 10^{-6} \right) \left( 400^{2} \right) = 0.464\,\mathrm{J}$.
+3. For the separate $5.0\,\mathrm{\mu F}$, $1.5\,\mathrm{V}$ problem, use $Q = CV = 7.5\,\mathrm{\mu C}$.
 
 **Check.** Squaring the voltage squares its factor of ten. The first problem's plate separation is not needed once C and V are already supplied.
 :::
 
 :::derivation Battery work and stored energy during dielectric insertion
-This is a labeled extension. Initially C₀ and V₀ describe the capacitor. Insert a dielectric of constant κ quasistatically into the entire fixed gap, while an ideal battery stays connected.
+This is a labeled extension. Initially $C_{0}$ and $V_{0}$ describe the capacitor. Insert a dielectric of constant $\kappa$ quasistatically into the entire fixed gap, while an ideal battery stays connected.
 
-1. Find ΔQ = (κ−1)C₀V₀ from Q = CV.
-2. Calculate battery energy supplied: Wbattery = V₀ΔQ = (κ−1)C₀V₀².
-3. Calculate the increase in stored field energy: ΔU = ½(κ−1)C₀V₀².
+1. Find $\Delta Q = \left( \kappa - 1 \right) C_{0} V_{0}$ from $Q = CV$.
+2. Calculate battery energy supplied: $W_{\mathrm{battery}} = V_{0} \Delta Q = \left( \kappa - 1 \right) C_{0} V_{0}^{2}$.
+3. Calculate the increase in stored field energy: $\Delta U = \tfrac{1}{2} \left( \kappa - 1 \right) C_{0} V_{0}^{2}$.
 4. Under the ideal loss-free quasistatic model, the remaining half leaves as mechanical work by the field on the dielectric.
 
 $$W_{field,mech}=W_{battery}-\Delta U
 =\frac12(\kappa-1)C_0V_0^2.$$
 
-For an isolated capacitor, the battery supplies no energy. Its field energy decreases from Q₀²/(2C₀) to Q₀²/(2κC₀). The decrease can become mechanical work. State the electrical connection before applying energy conservation.
+For an isolated capacitor, the battery supplies no energy. Its field energy decreases from $\frac{Q_{0}^{2}}{\left( 2 C_{0} \right)}$ to $\frac{Q_{0}^{2}}{\left( 2 \kappa C_{0} \right)}$. The decrease can become mechanical work. State the electrical connection before applying energy conservation.
 :::
 
-**Applications — primary p. 26.** A camera flash stores energy over a longer charging interval and releases it over a shorter interval. The same energy released in less time gives greater average power, Pavg = ΔU/Δt. Capacitors also smooth changing supply voltages and provide brief charge pulses. Their circuit role depends on the connection, not merely the presence of a capacitor symbol.
+**Applications — primary p. 26.** A camera flash stores energy over a longer charging interval and releases it over a shorter interval. The same energy released in less time gives greater average power, $P_{\mathrm{avg}} = \frac{\Delta U}{\Delta t}$. Capacitors also smooth changing supply voltages and provide brief charge pulses. Their circuit role depends on the connection, not merely the presence of a capacitor symbol.
