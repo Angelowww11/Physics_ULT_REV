@@ -54,7 +54,7 @@ $$v_f=\sqrt{v_i^2-\frac{2q\Delta V}{m}}.$$
 
 The expression inside the root must be nonnegative. A negative value means the particle cannot reach that endpoint with the stated initial energy. From rest, an electron accelerates through a positive potential increase; a positive particle accelerates toward lower potential.
 
-**Companion example.** A proton moves from rest 0.20 m along E = 1.0 × 10⁵ N/C. Wfield = eEd = 3.204 × 10⁻¹⁵ J. With mp = 1.67 × 10⁻²⁷ kg, v = √(2W/mp) ≈ 1.96 × 10⁶ m/s. The equivalent potential change is −20,000 V.
+**Companion example, p. 3.** A proton moves from rest 0.20 m along E = 1.0 × 10³ N/C. Use the slide's qp = 1.60 × 10⁻¹⁹ C and mp = 1.67 × 10⁻²⁷ kg. Wfield = qpEd = 3.20 × 10⁻¹⁷ J. Therefore v = √(2W/mp) ≈ 1.96 × 10⁵ m/s. The potential change is −200 V. The previous notes used a different field value; this solution now matches the supplied slide.
 
 ### Extensions: uniform rings and finite rods
 

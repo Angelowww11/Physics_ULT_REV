@@ -26,9 +26,10 @@ for(let m=1;m<=10;m++){
  }
 }
 const katex=require('../node_modules/katex');let blocks=0;
-for(let n=1;n<=10;n++){
- const note=fs.readFileSync(path.join(__dirname,'../notes',String(n).padStart(2,'0')+'.txt'),'utf8');
+for(const file of fs.readdirSync(path.join(__dirname,'../notes')).filter(f=>/^\d{2}(-worked)?\.txt$/.test(f))){
+ const note=fs.readFileSync(path.join(__dirname,'../notes',file),'utf8');
  for(const match of note.matchAll(/\$\$([\s\S]*?)\$\$/g)){katex.renderToString(match[1],{displayMode:true,throwOnError:true,strict:'error'});blocks++;}
 }
-assert.equal(blocks,57);
-console.log('PASS: 600 independent numerical answers, 600 unique IDs, 4 distinct choices each, source page ranges, 57 strict KaTeX blocks.');
+const stats=JSON.parse(fs.readFileSync(path.join(__dirname,'../note-stats.json'),'utf8'));
+assert.equal(blocks,stats.derivation_blocks);
+console.log(`PASS: 600 independent numerical answers, 600 unique IDs, 4 distinct choices each, source page ranges, ${blocks} strict KaTeX blocks.`);

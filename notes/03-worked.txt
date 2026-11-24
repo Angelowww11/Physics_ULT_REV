@@ -1,0 +1,118 @@
+### Charging diagrams and charge-conservation calculations
+
+**Names and signs — primary pp. 4–6.** The historical word “electric” comes from the Greek word for amber. The coulomb names the charge unit after Coulomb. Franklin's positive and negative labels distinguish the two charge signs. “Positive” does not mean more electrons; an electron deficit gives a positive net charge in the ordinary charging examples.
+
+| Particle | Approximate mass, kg | Charge, C |
+| --- | --- | --- |
+| Electron | 9.11 × 10⁻³¹ | −1.602 × 10⁻¹⁹ |
+| Proton | 1.673 × 10⁻²⁷ | +1.602 × 10⁻¹⁹ |
+| Neutron | 1.675 × 10⁻²⁷ | 0 |
+
+**Source correction.** Primary p. 21 repeats the proton's mass for the neutron. Their masses are close but not identical. The rounded values above distinguish them. A neutral object can contain many charged particles; their net charge cancels.
+
+**Grounding.** Earth acts as a large charge reservoir. Connecting a conductor to ground lets electrons move as the surrounding electric field requires. With a nearby negative rod, electrons leave the grounded conductor. Remove the ground first, then the rod: the conductor remains positive. A positive inducing rod draws electrons from ground and leaves the conductor negative after the same removal sequence.
+
+{{figure:m3-main:13|The original induction sequence. Distinguish charge separation from a final net charge.}}
+
+**Conduction versus polarization.** A charged metal redistributes mobile electrons over its surface. Charge on an insulating rod does not spread as freely. Neutral paper can still be attracted to a charged comb. Polarization places the nearer opposite-sign charge slightly closer, making its attraction exceed the farther like-sign repulsion. Attraction alone does not prove a net charge.
+
+:::example Count the transferred electrons and check the charge sign
+**Source:** Primary p. 8. **Given:** Initially neutral body; final charge +0.32 C; e = 1.602 × 10⁻¹⁹ C.
+
+1. Identify an electron deficit because the final charge is positive.
+2. Use N = |Q|/e, with both quantities in coulombs.
+3. Calculate N = 0.32/(1.602 × 10⁻¹⁹) = 1.99750 × 10¹⁸ electrons removed.
+4. Check the sign: removing negative charge produces a positive change in net charge.
+5. If asked for mass change, use Δm = −Nme. With me = 9.11 × 10⁻³¹ kg, Δm ≈ −1.82 × 10⁻¹² kg.
+
+**Check.** Do not use a negative electron count. The count is positive; the transfer direction and charge sign carry the physical information.
+:::
+
+:::derivation Identical conducting spheres share charge equally: a labeled extension
+For two isolated identical metal spheres that touch, conservation gives Qtotal = Q₁+Q₂. Symmetry gives equal final charges after they reach equilibrium. Therefore Qfinal,each = (Q₁+Q₂)/2.
+
+For +8 nC and −2 nC, the total is +6 nC, so each ends with +3 nC. The initially negative sphere loses enough electrons to become positive. Unequal spheres do not generally share charge equally. Widely separated spherical conductors have equal potentials at equilibrium, giving approximately Q₁/R₁ = Q₂/R₂ before disconnection in that ideal model.
+:::
+
+### Complete the source force problems in one and two dimensions
+
+:::example Two charges: equal force magnitudes, opposite directions
+**Sources:** Primary p. 22; companion p. 4. **Given:** q₁ = +25 nC, q₂ = −75 nC, and r = 3.0 cm.
+
+1. Convert charges to +25 × 10⁻⁹ C and −75 × 10⁻⁹ C.
+2. Convert distance to 0.030 m, then square it: r² = 9.0 × 10⁻⁴ m².
+3. Substitute magnitudes in Coulomb's law.
+
+$$F=\frac{(8.99\times10^9)(25\times10^{-9})(75\times10^{-9})}{(0.030)^2}
+=0.0187292\ \mathrm N.$$
+
+4. Choose attraction because the signs differ. Each charge feels a force toward the other charge.
+5. Apply Newton's third law: F₁on₂ = −F₂on₁ as vectors.
+
+**Check.** The larger-magnitude charge does not receive a larger pair-force magnitude. Both magnitudes round to 0.019 N.
+:::
+
+:::example Three charges on the x-axis
+**Sources:** Primary pp. 24–25. **Find:** Force on +5.0 nC at x = 0. Sources are +1.0 nC at x = 0.020 m and −3.0 nC at x = 0.040 m.
+
+1. Select +x to the right. The positive source repels the target left; the negative source attracts it right.
+2. Calculate the leftward magnitude: F₁ = 8.99 × 10⁹(5 × 10⁻⁹)(1 × 10⁻⁹)/(0.020)² = 1.12375 × 10⁻⁴ N.
+3. Calculate the rightward magnitude: F₂ = 8.99 × 10⁹(5 × 10⁻⁹)(3 × 10⁻⁹)/(0.040)² = 8.428125 × 10⁻⁵ N.
+4. Add signed components: Fx = −1.12375 × 10⁻⁴ + 8.428125 × 10⁻⁵ = −2.809375 × 10⁻⁵ N.
+5. Report 28.09 μN left.
+
+**Check.** The farther charge is three times larger, but its squared distance is four times larger. Its force is only 3/4 of the nearer source's force.
+:::
+
+{{figure:m3-main:26|Use this actual rectangle for the next solution. The target is the lower-right +8 nC charge.}}
+
+:::example The rectangle: every force, component, unit, and direction
+**Sources:** Primary pp. 26–28. **Given:** q₁ = +8 nC at the lower right, q₂ = +4 nC above it, q₃ = −8 nC at the upper left, q₄ = −12 nC at the lower left. Width = 0.040 m; height = 0.030 m. Use k = 9.0 × 10⁹.
+
+1. Place the origin at q₁. Let +x point right and +y point up.
+2. Find r₁₂ = 0.030 m, r₁₄ = 0.040 m, and r₁₃ = √(0.040²+0.030²) = 0.050 m.
+3. Determine directions before calculating: q₂ repels q₁ down; q₃ attracts it upper-left; q₄ attracts it left.
+4. Calculate the three magnitudes and resolve the diagonal.
+
+$$\begin{aligned}
+F_{2\to1}&=\frac{9\times10^9(8\times10^{-9})(4\times10^{-9})}{0.030^2}=3.20\times10^{-4}\ \mathrm N,\\
+F_{3\to1}&=\frac{9\times10^9(8\times10^{-9})(8\times10^{-9})}{0.050^2}=2.304\times10^{-4}\ \mathrm N,\\
+F_{4\to1}&=\frac{9\times10^9(8\times10^{-9})(12\times10^{-9})}{0.040^2}=5.40\times10^{-4}\ \mathrm N.
+\end{aligned}$$
+
+| Source | Fx, N | Fy, N |
+| --- | --- | --- |
+| q₂ above | 0 | −3.2000 × 10⁻⁴ |
+| q₃ diagonal | −(4/5)(2.304 × 10⁻⁴) = −1.8432 × 10⁻⁴ | +(3/5)(2.304 × 10⁻⁴) = +1.3824 × 10⁻⁴ |
+| q₄ left | −5.4000 × 10⁻⁴ | 0 |
+| Total | −7.2432 × 10⁻⁴ | −1.8176 × 10⁻⁴ |
+
+5. Calculate Fnet = √(Fx²+Fy²) ≈ 7.468 × 10⁻⁴ N.
+6. Find the reference angle atan(|Fy/Fx|) ≈ 14.09°.
+7. Report the direction as 14.09° below the negative x-axis, or about 194.09° from +x.
+
+**Source corrections.** The diagonal attraction is not repulsion. A downward vector has a negative y component. The magnitudes 32, 23.04, and 54 multiply 10⁻⁵ N, not 10⁻⁶ N. The original slide rounds the diagonal force before adding components; the unrounded calculation above avoids that extra rounding.
+:::
+
+{{figure:m3-dyn:5|The companion's symmetric-force example contains conflicting values in the text and drawing. The solution states its interpretation.}}
+
+:::example Symmetric force pair, with the companion's conflicting labels resolved
+**Source:** Companion p. 5. **Use the drawing:** q₁ = q₂ = +2.0 μC at (0, ±0.30 m), and Q = +4.0 μC at (0.40 m, 0). This is the set consistent with the printed 0.46 N answer.
+
+1. Find each source-to-target distance: r = √(0.30²+0.40²) = 0.50 m.
+2. Calculate each magnitude: F = 8.99 × 10⁹(2.0 × 10⁻⁶)(4.0 × 10⁻⁶)/(0.50)² = 0.28768 N.
+3. Resolve each horizontal component: Fx,each = F(0.40/0.50) = 0.230144 N.
+4. Cancel the equal and opposite vertical components, ±F(0.30/0.50).
+5. Add the horizontal components: Fnet = 2(0.230144) = 0.460288 N in +x.
+
+**Ambiguity check.** The text instead prints y = ±30 m and Q = 40 μC. Keeping 40 μC but using the drawing's 0.30 m gives 4.60288 N. Using both literal printed text values gives about 2.13 × 10⁻⁵ N. These are different problems. State the chosen values; do not force an inconsistent question to match an answer key.
+:::
+
+:::derivation Compare electric and gravitational forces without retaining the distance
+**Source:** Primary p. 21. Use Fe = ke²/r² and Fg = Gmemp/r² for a proton–electron pair.
+
+$$\frac{F_e}{F_g}=\frac{ke^2/r^2}{Gm_em_p/r^2}
+=\frac{ke^2}{Gm_em_p}\approx2.27\times10^{39}.$$
+
+The squared distance cancels. At r = 5.3 × 10⁻¹¹ m, Fe ≈ 8.21 × 10⁻⁸ N and Fg ≈ 3.62 × 10⁻⁴⁷ N. Both attract. The ratio is enormous even though both formulas have inverse-square distance dependence.
+:::

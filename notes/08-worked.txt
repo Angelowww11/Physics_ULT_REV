@@ -1,0 +1,159 @@
+### Magnetism, field notation, and the three right-hand rules
+
+**Source context — primary pp. 4–11.** The historical material describes magnetite and the name Magnesia. A magnetized needle aligns with the local field. Either end of a magnet can attract an initially unmagnetized iron nail because the nail becomes magnetized. Splitting a magnet produces smaller dipoles. It does not separate an ordinary bar magnet into isolated north and south poles.
+
+**Earth and a compass.** The geographic poles describe the rotation axis. Magnetic-pole locations and the local field direction differ from that axis. Near geographic north, Earth's field can attract a compass's north-seeking end. Keep the pole-naming convention separate from the field direction used in a force calculation.
+
+| Question | Right-hand operation | What the result means |
+| --- | --- | --- |
+| Field around a straight wire | Point the thumb along conventional current; curl the fingers | Finger curl gives B around the wire |
+| Force on a current-carrying segment | Form L × B, with L along conventional current | The cross product gives the force direction |
+| Force on a moving positive charge | Form v × B | The result gives force for positive q |
+| Force on a negative charge | Find v × B, then reverse it | Reversal accounts for negative q |
+
+{{figure:m8-main:18|The source's three right-hand rules answer different physical questions.}}
+
+Use a dot ⊙ for a vector out of the page and a cross ⊗ for a vector into the page. In a right-handed coordinate system, x × y = z, y × z = x, and z × x = y. Reversing either factor reverses the cross product.
+
+**Units.** 1 T = 1 N/(A·m) = 1 N·s/(C·m) = 1 Wb/m². Also, 1 T = 10⁴ gauss. Convert 3.0 mm to 0.0030 m before using a wire-spacing formula.
+
+:::derivation Wire-force law from the motion of charge carriers
+**Source laws:** Primary pp. 12–17. Let the carrier number density be n, wire cross section A, and segment length L. Use a uniform external field.
+
+1. Count the carriers inside the segment: Ncarriers = nAL.
+2. Add their magnetic forces: Ftotal = nALq(vd × B).
+3. Use the signed carrier-current relation nqvd = J, with conventional-current direction encoded in J.
+4. Replace JA by the current and direct the length vector along that current.
+
+$$\mathbf F=I\mathbf L\times\mathbf B,
+\qquad F=ILB\sin\theta.$$
+
+This derivation removes the microscopic carrier density and drift speed. L means the length inside the field. For a curved path in a nonuniform field, integrate I dl × B instead of using one segment's product.
+:::
+
+### Solve both source magnetic-force examples in full
+
+:::example Eastward current in a northeast field
+**Source:** Primary p. 14. **Given:** I = 5.0 A east, L = 1.0 m, B = 1.20 T at 45° north of east.
+
+1. Choose east = +x, north = +y, and up = +z.
+2. Resolve B: Bx = Bcos45° and By = Bsin45°.
+3. The x component is parallel to the current and produces no force.
+4. Calculate F = ILBy = 5.0(1.0)(1.20)sin45° = 4.24264 N.
+5. Use +x × +y = +z. The force points upward.
+
+**Check.** The maximum possible magnitude for these I, L, and B values is ILB = 6.0 N. The 45° result is smaller by sin45°.
+:::
+
+:::example Magnetic force on the television-tube electron
+**Source:** Primary p. 20. **Given:** v = 8.0 × 10⁶ m/s along +x, B = 0.025 T at 60° to +x in the xy plane. Use |q| = 1.602 × 10⁻¹⁹ C.
+
+1. Calculate the perpendicular field component: Bperp = Bsin60° = 0.0216506 T.
+2. Calculate F = |q|vBperp ≈ 2.7747 × 10⁻¹⁴ N.
+3. If the field has a positive y component, v × B points +z.
+4. Reverse that result for the electron: F points −z.
+
+**Geometry check.** An angle of 60° to +x alone does not distinguish the +y and −y sides. A negative y component would reverse the force direction. Use the actual drawing's orientation before naming into-page or out-of-page.
+:::
+
+:::derivation Recover an unknown field or angle from a force measurement
+Start with F = |q|vBsinθ or F = ILBsinθ. If the geometry is perpendicular, sinθ = 1.
+
+$$B=\frac{F}{|q|v\sin\theta},\qquad
+v=\frac{F}{|q|B\sin\theta},\qquad
+\sin\theta=\frac{F}{|q|vB}.$$
+
+For a wire, replace |q|v by IL. A sine value larger than one signals inconsistent data or a wrong equation. In 0°–180°, both θ and 180°−θ have the same sine. Magnitude data alone cannot distinguish those directions. Parallel motion gives zero force even in a nonzero field.
+:::
+
+### Torque: derive the area factor and use the actual angle
+
+:::derivation Why a current loop has torque NIABsinθ
+**Sources:** Primary pp. 25–28. Let a rectangular loop have side length a along one pair of opposite forces and separation b between them.
+
+1. Each active side feels force F = IaB for the perpendicular-field component in the stated geometry.
+2. The perpendicular lever arm between the forces is bsinθ, where θ measures the area normal relative to B.
+3. Add the two moments as a force couple: τ = F(bsinθ).
+4. Substitute A = ab and multiply by N turns.
+
+$$\tau=NIabB\sin\theta=NIAB\sin\theta.$$
+
+Equal and opposite side forces can cancel the net force while their torques add. Primary p. 27's side-force expression “IAB” uses area where a length is needed. Force uses ILB; torque uses NIAB.
+:::
+
+:::example Circular coil: maximum, minimum, and an intermediate angle
+**Source problem:** Primary p. 28. **Given:** Diameter 0.200 m, N = 10, I = 3.00 A, B = 2.00 T.
+
+1. Halve the diameter: r = 0.100 m.
+2. Find the one-turn area: A = πr² = 0.0314159 m².
+3. Find τmax = NIAB = 1.88496 N·m.
+4. Set the area normal perpendicular to B for the maximum. Set it parallel or antiparallel for τmin = 0.
+5. For a labeled extension at θ = 30° to the normal, τ = τmaxsin30° = 0.942478 N·m.
+
+**Angle check.** If 30° is measured to the plane instead, θnormal = 60°, giving τ ≈ 1.63242 N·m. The reference line changes the answer.
+:::
+
+:::derivation Magnetic-loop potential energy from the torque
+This is a labeled extension of the source's torque model. Keep the current, loop area, and applied field constant, so μ = NIA stays constant. The magnetic torque turns a loop toward alignment with B. Its signed angular component is τmag = −μBsinθ when positive θ increases the normal-to-field angle.
+
+For a quasistatic increase dθ, an external agent supplies τexternal = +μBsinθ. Thus dU = τexternaldθ. Integrating and choosing zero energy at θ = 90° gives U = −μBcosθ. Alignment at θ = 0 has minimum energy −μB. Anti-alignment at θ = π has maximum energy +μB. Both have zero torque, but only the first is a stable orientation in this simple model.
+:::
+
+**Devices — primary pp. 29–31.** A galvanometer balances magnetic torque against a restoring torque. In a linear spring model, κtorsionφ = NIAB for a radial-field meter, so its deflection can indicate current. A motor uses continuing electromagnetic torque to produce rotation. A loudspeaker uses a coil's magnetic force to move its attached cone. An ohmmeter also needs an internal source and associated circuitry; the galvanometer alone does not directly measure resistance.
+
+### Source-wire fields, parallel-wire force, and solenoids
+
+:::example Field north of an upward 25 A wire
+**Source:** Primary p. 33. **Given:** I = 25 A, perpendicular distance r = 0.10 m, μ₀ = 4π × 10⁻⁷ T·m/A.
+
+1. Select the long-straight-wire model: B = μ₀I/(2πr).
+2. Substitute B = (4π × 10⁻⁷)(25)/(2π × 0.10) = 5.0 × 10⁻⁵ T.
+3. Point the right thumb upward along the current.
+4. Read the field at the north-side point: it points west.
+
+**Check.** This is 50 μT. “Into the page” is correct only for a drawing whose page orientation makes west point inward.
+:::
+
+:::derivation Parallel-wire force and its attraction or repulsion
+**Sources:** Primary pp. 34–36. Wire 1 creates B₁ = μ₀I₁/(2πd) at wire 2. For parallel wires, this field is perpendicular to wire 2. Apply F₂ = I₂LB₁:
+
+$$F_2=\frac{\mu_0 I_1I_2L}{2\pi d},\qquad
+\frac FL=\frac{\mu_0 I_1I_2}{2\pi d}.$$
+
+Use the grip rule for B₁, then L₂ × B₁ for the second force. Matching current directions give forces toward each other. Opposite current directions give forces away from each other. Repeating the calculation on wire 1 gives the same force magnitude.
+:::
+
+:::example Appliance-cord wire force
+**Source:** Primary p. 36. **Given:** I₁ = I₂ = 8.0 A, L = 2.0 m, d = 3.0 mm = 0.0030 m.
+
+1. Calculate F/L = (4π × 10⁻⁷)(8)(8)/(2π × 0.0030) = 0.00426667 N/m.
+2. Multiply by 2.0 m: F = 0.00853333 N.
+3. For the supply and return wires of an ordinary DC appliance cord, currents run in opposite directions, so the force is repulsive.
+
+**Check.** Report a force in newtons when L is supplied. Reporting F/L alone omits the requested wire length.
+:::
+
+:::derivation Ampere's law inside a long solenoid
+**Sources:** Primary pp. 37–42. Use a rectangular Amperian path with an interior segment of length x parallel to the solenoid axis.
+
+1. The transverse path segments have B perpendicular to dl, so their dot-product contributions vanish.
+2. Neglect the outside field in the ideal long-solenoid approximation.
+3. The interior segment contributes Bx.
+4. If n = N/ℓ is turns per unit solenoid length, the path encloses nx turns. Its enclosed current is nxI.
+5. Apply Ampere's law and cancel x.
+
+$$Bx=\mu_0(nxI)\Rightarrow B=\mu_0nI
+=\mu_0\frac{N}{\ell}I.$$
+
+The Amperian-path length x cancels. The physical solenoid length ℓ remains. It is not the total length of wire used in the winding.
+:::
+
+:::example The source's 420-turn solenoid
+**Source:** Primary p. 39. **Given:** N = 420, ℓ = 12 cm = 0.12 m, and I = 2.0 A.
+
+1. Calculate the turn density n = N/ℓ = 3500 m⁻¹.
+2. Calculate B = (4π × 10⁻⁷)(3500)(2.0) = 0.00879646 T.
+3. Report about 8.80 mT near the center under the long-solenoid model.
+
+**Core check.** A linear material of relative permeability μr would multiply this ideal value by μr. A real iron core can saturate, so a constant multiplier is not universal.
+:::

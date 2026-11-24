@@ -1,0 +1,141 @@
+### Work signs, coordinate choices, and the battery model
+
+The companion's U = qEs uses a position coordinate s measured opposite to its leftward field. It is not a direction-free rule. With +x along a uniform field, V(x) = V(0)−Ex and U(x) = U(0)−qEx. The reference constant does not affect a force or energy difference.
+
+| Displacement | Charge sign | ΔV | ΔU = qΔV | Wfield = −ΔU |
+| --- | --- | --- | --- | --- |
+| Along E | Positive | Negative | Negative | Positive |
+| Along E | Negative | Negative | Positive | Negative |
+| Against E | Positive | Positive | Positive | Negative |
+| Against E | Negative | Positive | Negative | Positive |
+
+The table describes the electrostatic work during a specified displacement. It does not say that every particle initially moves in its force direction. A particle can initially move against its force and slow down.
+
+**Battery model — primary pp. 30–31; companion p. 6.** Chemical processes move charge through the source against electrostatic forces. The supplied energy per positive charge is the emf, ℰ = Wchemical/q. An ideal DC battery maintains a fixed terminal voltage. A real battery's terminal voltage depends on current and internal resistance. A generator can produce a changing voltage, so “all electrical sources supply a constant potential difference” is too broad.
+
+:::example The companion proton problem, with the actual slide values
+**Source:** Companion p. 3. **Given:** q = +1.60 × 10⁻¹⁹ C, m = 1.67 × 10⁻²⁷ kg, E = 1.0 × 10³ N/C, d = 0.20 m, and vi = 0.
+
+1. Identify parallel force and displacement. Wfield = qEd is positive.
+2. Calculate Wfield = (1.60 × 10⁻¹⁹)(1.0 × 10³)(0.20) = 3.20 × 10⁻¹⁷ J.
+3. Set the work equal to the kinetic-energy gain: ½mvf² = Wfield.
+4. Isolate and calculate the final speed.
+
+$$v_f=\sqrt{\frac{2W_{field}}m}
+=\sqrt{\frac{6.40\times10^{-17}}{1.67\times10^{-27}}}
+=1.95765\times10^5\ \mathrm{m/s}.$$
+
+5. Check the potential difference: ΔV = −Ed = −200 V.
+6. Check the energy independently: ΔU = qΔV = −3.20 × 10⁻¹⁷ J, so ΔK = −ΔU.
+
+**Correction.** The earlier notes used 10⁵ N/C. The supplied companion uses 10³ N/C. This solution now matches the slide and its 1.96 × 10⁵ m/s answer.
+:::
+
+### Complete the symbolic charge-assembly examples
+
+{{figure:m5-main:17|The source geometry for bringing a third charge from infinity. Keep the first two sources fixed.}}
+
+:::derivation External work to bring +e to x = 2a
+**Source:** Primary p. 17. Fixed charges are −e at x = 0 and +e at x = a. Bring a third +e from infinity to x = 2a quasistatically.
+
+1. Find its final distances from the sources: 2a and a.
+2. Add the existing-source potentials at the destination: Vexisting = k(−e/(2a)+e/a).
+3. Simplify to Vexisting = ke/(2a).
+4. Multiply by the added charge and use Vexisting(∞) = 0.
+
+$$W_{external}=q_3\Delta V_{existing}
+=e\left(\frac{ke}{2a}-0\right)
+=\frac{ke^2}{2a}.$$
+
+The electric field does the opposite work, −ke²/(2a). Do not include the unchanged interaction energy between the first two charges in this work difference.
+:::
+
+:::derivation Total energy of the final three-charge configuration
+**Source:** Primary p. 25. Use the same final positions: −e at 0, +e at a, and +e at 2a.
+
+1. List each unique pair once: (1,2), (1,3), and (2,3).
+2. Use distances a, 2a, and a respectively.
+3. Retain each product's sign before adding.
+
+$$\begin{aligned}
+U_{12}&=-\frac{ke^2}{a},&
+U_{13}&=-\frac{ke^2}{2a},&
+U_{23}&=+\frac{ke^2}{a},\\
+U_{total}&=U_{12}+U_{13}+U_{23}
+=-\frac{ke^2}{2a}.
+\end{aligned}$$
+
+**Check the distinction.** Initially, the two fixed charges store −ke²/a. Adding the third charge changes that energy by +ke²/(2a). The final total remains negative, −ke²/(2a). Total configuration energy and work for one assembly stage answer different questions.
+:::
+
+:::example Three numerical charges: show every pair contribution
+**Source:** Primary p. 26. **Given:** +4 nC at x = 0, −3 nC at x = 0.20 m, and +2 nC at x = 0.10 m. Use k = 9 × 10⁹.
+
+| Pair | Distance | Pair energy |
+| --- | --- | --- |
+| +4 nC and −3 nC | 0.20 m | −5.40 × 10⁻⁷ J |
+| +4 nC and +2 nC | 0.10 m | +7.20 × 10⁻⁷ J |
+| −3 nC and +2 nC | 0.10 m | −5.40 × 10⁻⁷ J |
+
+1. Use Uij = kqiqj/rij for each row. The denominator is distance, not distance squared.
+2. Add the signed energies: Utotal = (−5.40+7.20−5.40) × 10⁻⁷ = −3.60 × 10⁻⁷ J.
+3. Check that no pair appears twice and no self-interaction appears.
+
+**Interpretation.** Separating all charges to infinity quasistatically requires a net external work of +3.60 × 10⁻⁷ J, with the chosen zero-energy reference.
+:::
+
+### Complete the companion potential and dipole problems
+
+:::example Opposite charges and the meaning of negative potential energy
+**Source:** Companion p. 4. **Given:** q₁ = +2.0 μC, q₂ = −3.0 μC, r = 0.10 m. Use k = 9 × 10⁹.
+
+1. Multiply the signed charges: q₁q₂ = −6.0 × 10⁻¹² C².
+2. Calculate U = kq₁q₂/r = −0.540 J.
+3. Use U(∞) = 0. Increasing the separation to infinity changes U by +0.540 J.
+
+**Check.** Opposite charges attract. Slow separation therefore requires positive external work even though the initial energy is negative.
+:::
+
+:::example Potentials at two distances from the same source
+**Source:** Companion p. 6. **Given:** Q = +3.0 μC, rA = 0.30 m, rB = 0.60 m. Use k = 9 × 10⁹.
+
+1. Calculate VA = kQ/rA = 90,000 V.
+2. Calculate VB = kQ/rB = 45,000 V.
+3. Apply the source's requested order: VAB = VA−VB = +45,000 V.
+4. For a move A → B, use ΔV = VB−VA = −45,000 V instead.
+
+**Check.** Doubling the distance halves this positive point-source potential. Endpoint order determines the sign of a potential difference.
+:::
+
+:::example The two omitted single-charge potential calculations
+**Primary p. 33:** Q = 2.50 × 10⁻¹¹ C; r = 1.75 m. With k = 9 × 10⁹, V = kQ/r = 0.225/1.75 = 0.128571 V, about 0.129 V.
+
+**Companion p. 5:** Q = +2.0 μC; r = 0.30 m. V = (9 × 10⁹)(2.0 × 10⁻⁶)/0.30 = 60,000 V.
+
+**Check.** Both calculations use V ∝ 1/r. An inverse-square denominator would calculate a field magnitude instead of a potential.
+:::
+
+{{figure:m5-dyn:7|The companion dipole problem: a lies between the charges; b is to the left; c has equal 13 cm source distances.}}
+
+:::example Dipole potential at a, b, and c
+**Source:** Companion p. 7. **Given:** +12 nC on the left and −12 nC on the right, separated by 0.10 m. Use k = 9 × 10⁹ and V(∞) = 0.
+
+1. Use the signed scalar sum V = kq(1/rpositive−1/rnegative).
+2. At a, the distances are 0.060 m from the positive charge and 0.040 m from the negative charge.
+3. At b, the distances are 0.040 m from the positive charge and 0.140 m from the negative charge.
+4. At c, both distances are 0.130 m.
+
+$$\begin{aligned}
+V_a&=108\left(\frac1{0.060}-\frac1{0.040}\right)=-900\ \mathrm V,\\
+V_b&=108\left(\frac1{0.040}-\frac1{0.140}\right)=1928.57\ \mathrm V,\\
+V_c&=108\left(\frac1{0.130}-\frac1{0.130}\right)=0.
+\end{aligned}$$
+
+**Check.** Point a is closer to the negative charge, so its potential is negative. Point b is closer to the positive charge, so its potential is positive. Zero potential at c does not imply zero electric field.
+:::
+
+:::derivation Derive why equipotentials are perpendicular to E
+For an infinitesimal displacement dl along an equipotential, dV = 0. The electrostatic relation gives dV = −E·dl. Therefore E·dl = 0 for every tangent displacement. Where E is nonzero, E has no tangent component and must point normal to the surface.
+
+For closely spaced equal-voltage contours, |E| ≈ |ΔV|/Δsnormal. Smaller normal spacing means a stronger field. Use perpendicular spacing, not an arbitrary diagonal separation between two contour points.
+:::

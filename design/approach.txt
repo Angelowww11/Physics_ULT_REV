@@ -1,0 +1,32 @@
+Field Notes revision: a physics notebook with visible reasoning.
+Audience: a Physics 2 student studying the 18 supplied module files.
+Primary job: explain a calculation from the physical model through its checked answer.
+
+Color tokens: Ice #F0F5FE; Paper #FFFFFF; Ink #172544; Cobalt #365BD8; Lagoon #087B82; Marker #FFD86B.
+Dark mode uses navy paper, pale text, and softer versions of the same selected theme.
+Retain the three palette preferences and the existing appearance storage key.
+
+Type: Bricolage for chapter and page headings; DM Sans for sustained reading; Consolas for source labels and calculation metadata.
+KaTeX supplies the mathematics. Equations render at build time rather than after page load.
+
+Layout:
+  Header: brand | Home / Reviewer Notes / Practice / Originals | theme
+  Home: concise reading invitation | one annotated worked calculation
+  Notes: module index | reading column, chapter outline, derivations, worked solutions
+  Mobile: single reading column, one persistent module selector, existing four-section navigation
+
+Signature: an annotated equation ladder, with a sign check in the margin.
+The numbered steps encode real calculation order. Other decoration does not imitate procedural numbering.
+Use original source figures beside relevant explanations. Crop portrait scan previews only for the reading view; preserve full originals.
+
+Critique: the previous large serif slogan and decorative field diagram gave less help to a student solving a problem.
+Replace that marketing composition with one real qΔV example. Keep the rest of the interface quiet.
+Avoid a dense dashboard, additional navigation tabs, animation over the reading text, and collapsed solution answers.
+
+References reviewed:
+Superdesign CLI library: tech-editorial (typographic roles and technical annotations; do not copy its forest palette, serif hero, or animations).
+OpenStax RC Circuits: https://openstax.org/books/university-physics-volume-2/pages/10-5-rc-circuits
+MIT course notes: https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/pages/lecture-notes/
+PhET Capacitor Lab: https://phet.colorado.edu/en/simulations/capacitor-lab-basics
+
+Physics statements derive primarily from the supplied PDFs. Supplementary pages check corrections and labeled extensions.

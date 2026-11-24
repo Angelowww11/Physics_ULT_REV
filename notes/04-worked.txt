@@ -1,0 +1,106 @@
+### Read field diagrams and solve the primary examples completely
+
+**Source and field points.** A source point identifies the charge producing the field. A field point identifies where E is evaluated. The field equation uses their separation, not the source's distance from an arbitrary coordinate origin.
+
+**Field-line diagnosis — primary p. 20.** Reject crossing electrostatic lines. Check that lines leave positive charges and enter negative charges. Check that line counts reflect relative charge magnitudes. Check that stronger fields have closer line spacing. Do not treat the number of lines as an independently measurable number of physical threads.
+
+{{figure:m4-main:20|The field-line concept check. Use direction, crossing, line-count, and spacing tests.}}
+
+:::example Field from a measured test-charge force
+**Source:** Primary p. 12. **Given:** q₀ = +3.0 × 10⁻⁸ C and F₀ = 6.0 × 10⁻⁸ N.
+
+1. Divide force by the positive test charge: E = F₀/q₀ = 2.0 N/C.
+2. Preserve the force direction as the field direction because q₀ is positive.
+3. Replace the charge with +12 × 10⁻⁸ C while keeping the source distribution fixed.
+4. Calculate Fnew = qnewE = (12 × 10⁻⁸)(2.0) = 2.4 × 10⁻⁷ N.
+
+**Check.** The test charge increases fourfold, so its force increases fourfold. E does not change in the ideal non-disturbing-test-charge model.
+:::
+
+:::example Find the source charge from the field
+**Source:** Primary p. 30. **Given:** E = 5 N/C at r = 150 cm. Use k = 9.0 × 10⁹ N·m²/C².
+
+1. Convert 150 cm to 1.50 m.
+2. Start with E = k|Q|/r².
+3. Multiply by r² and divide by k: |Q| = Er²/k.
+4. Calculate |Q| = 5(1.50)²/(9.0 × 10⁹) = 1.25 × 10⁻⁹ C = 1.25 nC.
+
+**Check.** The problem gives a magnitude. It does not give enough information to choose a positive or negative source charge.
+:::
+
+:::example Electric field halfway between two negative charges
+**Source:** Primary p. 32. Put −5.00 nC at x = 0 and −3.00 nC at x = 1.50 m. Evaluate at x = 0.75 m. Use k = 9.0 × 10⁹.
+
+1. Use the midpoint distance 0.75 m for both contributions.
+2. Calculate Eleft = 9.0 × 10⁹(5.00 × 10⁻⁹)/(0.75)² = 80.0 N/C.
+3. Point that contribution left, toward the left negative source.
+4. Calculate Eright = 9.0 × 10⁹(3.00 × 10⁻⁹)/(0.75)² = 48.0 N/C, directed right.
+5. Add x components: Ex = −80.0+48.0 = −32.0 N/C.
+
+**Check.** The stronger contribution points toward the larger-magnitude negative charge. Do not multiply the result by a test charge unless the question asks for a force.
+:::
+
+### Derive the companion's three-charge field and the dipole limits
+
+{{figure:m4-dyn:2|The companion's three-charge geometry and its field-line diagrams.}}
+
+:::derivation Three equal charges on the y-axis
+**Source:** Companion p. 2. Put equal charges q at (0,d), (0,0), and (0,−d). Evaluate at (x,0), with x > 0.
+
+1. Find the outer distances r = √(x²+d²). The central distance is x.
+2. Use Coulomb's field magnitude k|q|/r² for either outer source.
+3. Project horizontally with cosθ = x/r. Each outer x component is kqx/r³.
+4. Cancel the equal, opposite y components.
+5. Add the central x component kq/x² and both outer x components.
+
+$$\begin{aligned}
+E_x&=\frac{kq}{x^2}+2\frac{kq}{x^2+d^2}\frac{x}{\sqrt{x^2+d^2}}\\
+&=kq\left[\frac1{x^2}+\frac{2x}{(x^2+d^2)^{3/2}}\right],
+\qquad E_y=0.
+\end{aligned}$$
+
+**Limit check.** Far away, x ≫ d, the result tends to 3kq/x². The collection then resembles one point charge of total charge 3q. At x → 0, the central point-charge term diverges; do not substitute x = 0 into the formula.
+:::
+
+:::derivation Electric dipole: axial and perpendicular-bisector fields, labeled extensions
+Put −q at x = −a and +q at x = +a. The dipole moment has magnitude p = 2aq and points from negative to positive.
+
+For an axial point x > a, the two fields oppose. Subtract their signed x components:
+
+$$E_{axis}=kq\left[\frac1{(x-a)^2}-\frac1{(x+a)^2}\right]
+=\frac{4kqax}{(x^2-a^2)^2}
+\longrightarrow\frac{2kp}{x^3}\quad(x\gg a).$$
+
+For a point (0,y) on the perpendicular bisector, both source distances equal √(a²+y²). The y components cancel. The x components both point toward −x:
+
+$$E_x=-\frac{2kqa}{(a^2+y^2)^{3/2}}
+=-\frac{kp}{(a^2+y^2)^{3/2}},\qquad E_y=0.$$
+
+Far away on that bisector, the magnitude tends to kp/|y|³. Compare the dipole's 1/r³ far field with a nonzero net point charge's 1/r² field. These extensions explain the dipole patterns shown in both decks.
+:::
+
+### Motion problems: initial conditions, stopping, and deflection
+
+:::derivation Derive the stopping distance in a uniform electric field
+This is a labeled extension of primary pp. 24–25. Let a positive charge enter along +x while E points along −x. Neglect other forces.
+
+1. Write ax = −qE/m, where E denotes the positive field magnitude.
+2. Use vx = v₀+at. Setting vx = 0 gives tstop = mv₀/(qE).
+3. Use vx² = v₀²+2aΔx. Set vx = 0 and isolate the stopping distance.
+
+$$d_{stop}=\frac{mv_0^2}{2qE}.$$
+
+The particle reaches a turning point only if the uniform-field region extends that far. After stopping, the force still acts, so the particle reverses direction. Zero instantaneous velocity does not mean zero acceleration.
+:::
+
+:::example Electron deflection: retain the negative charge sign
+**Extension of the uniform-field diagrams.** Let an electron enter horizontally at 2.0 × 10⁶ m/s. The field region is 0.020 m long, with Ey = +100 N/C. Take y₀ = v₀y = 0, e = 1.602 × 10⁻¹⁹ C, and me = 9.11 × 10⁻³¹ kg.
+
+1. Calculate transit time t = L/v₀x = 0.020/(2.0 × 10⁶) = 1.0 × 10⁻⁸ s.
+2. Calculate ay = qEy/me = −1.7585 × 10¹³ m/s².
+3. Find exit displacement y = ½ayt² ≈ −8.793 × 10⁻⁴ m, or −0.8793 mm.
+4. Find exit vertical speed vy = ayt ≈ −1.7585 × 10⁵ m/s.
+5. Check the available plate gap. A plate collision ends this free-flight solution before the nominal exit.
+
+**Why the path curves downward.** The field points upward, but the electron is negative. Its horizontal speed stays constant only because this model has no horizontal force.
+:::

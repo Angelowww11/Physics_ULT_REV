@@ -1,0 +1,1328 @@
+{
+  "review_date": "2026-11-24",
+  "method": "Compare primary text, source figures, and locally recognized scanned text; check diagram labels and numerical solutions against original images.",
+  "scope": "All 18 supplied files. Retain covers, references, and blank pages. Added extensions are labeled.",
+  "files": [
+    {
+      "id": "m1-main",
+      "file": "Module 1 - Physics.pdf",
+      "module": 1,
+      "variant": "main",
+      "page_count": 36,
+      "sha256": "b7791a1a038a54a1ea357e5373528d881aba0ae0518fbf4e29b431b293b18545",
+      "groups": [
+        {
+          "first": 1,
+          "last": 6,
+          "topic": "Orientation and fluid definitions",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 7,
+          "last": 10,
+          "topic": "Density, tables, and air mass",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 11,
+          "last": 20,
+          "topic": "Pressure, units, and liquid columns",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 21,
+          "last": 23,
+          "topic": "Hydraulic force and displacement",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 24,
+          "last": 25,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 26,
+          "last": 34,
+          "topic": "Buoyancy, tension, and floating",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 35,
+          "last": 36,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-1"
+        }
+      ]
+    },
+    {
+      "id": "m1-dyn",
+      "file": "Module 1 - Physics (Dyn).pdf",
+      "module": 1,
+      "variant": "dyn",
+      "page_count": 12,
+      "sha256": "7f80b590b6ecc94fe42e692f97cd1e661e92cc9d8eaa7167bdbdb29d54e3c3c2",
+      "groups": [
+        {
+          "first": 1,
+          "last": 1,
+          "topic": "Fluid molecular model",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "topic": "Density table and alternate air example",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 3,
+          "last": 4,
+          "topic": "Pressure and atmosphere",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "topic": "Hydrostatics and submarine",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "topic": "Closed tube and changed surface pressure",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "topic": "Hydraulic force and displacement",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 8,
+          "last": 8,
+          "topic": "Archimedes derivation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 9,
+          "last": 10,
+          "topic": "Submerged blocks and tether tension",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "topic": "Floating and iceberg fraction",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        },
+        {
+          "first": 12,
+          "last": 12,
+          "topic": "Summary",
+          "role": "course-material",
+          "notes": "reviewer.html#module-1"
+        }
+      ]
+    },
+    {
+      "id": "m2-main",
+      "file": "Module 2 - Physics.pdf",
+      "module": 2,
+      "variant": "main",
+      "page_count": 46,
+      "sha256": "885b6e4af066bd568c2ca06c775a77a9b1b65efe914e4e67aa9b2fe798285953",
+      "groups": [
+        {
+          "first": 1,
+          "last": 3,
+          "topic": "Orientation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 4,
+          "last": 7,
+          "topic": "Temperature and conversions",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 8,
+          "last": 18,
+          "topic": "Expansion, tables, and overflow",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 19,
+          "last": 19,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 20,
+          "last": 21,
+          "topic": "Heat-transfer objectives",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 22,
+          "last": 27,
+          "topic": "Heat mechanisms, units, and specific heat",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 28,
+          "last": 30,
+          "topic": "Equilibrium and conservation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 31,
+          "last": 33,
+          "topic": "Calorimetry source problems",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 34,
+          "last": 36,
+          "topic": "Thermodynamic definitions",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 37,
+          "last": 41,
+          "topic": "Phase changes, tables, and five-stage solution",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 42,
+          "last": 45,
+          "topic": "First law and sign conventions",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 46,
+          "last": 46,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-2"
+        }
+      ]
+    },
+    {
+      "id": "m2-dyn-alt",
+      "file": "Module 2 - Physics (Dyn) (1).pdf",
+      "module": 2,
+      "variant": "dyn-alt",
+      "page_count": 10,
+      "sha256": "ec46d7e5db02ecb74a70e01dd43d6b9a4f047b4c6df1334a43348e9dc6d5c436",
+      "groups": [
+        {
+          "first": 1,
+          "last": 2,
+          "topic": "Molecular model, thermometers, scales, and coefficient table",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "topic": "Pipe expansion and water anomaly",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "topic": "Phase diagrams",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "topic": "Equilibrium and heat",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "topic": "First-law example",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "topic": "Specific heat, fever, and phase changes",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 8,
+          "last": 8,
+          "topic": "Latent-heat table and melting",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 9,
+          "last": 9,
+          "topic": "Cola-ice problem and conduction",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "topic": "Summary",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        }
+      ]
+    },
+    {
+      "id": "m2-dyn",
+      "file": "Module 2 - Physics (Dyn).pdf",
+      "module": 2,
+      "variant": "dyn",
+      "page_count": 13,
+      "sha256": "1e2661eadeeb1b90920b007880eb6ef29e3280eb72713c729956d86cc109e3d7",
+      "groups": [
+        {
+          "first": 1,
+          "last": 2,
+          "topic": "Molecular model, thermometers, and scales",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "topic": "Expansion table and pipe problem",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 4,
+          "last": 5,
+          "topic": "Water anomaly and phase diagrams",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 6,
+          "last": 7,
+          "topic": "Equilibrium, heat, and sign conventions",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 8,
+          "last": 8,
+          "topic": "First-law and heat-response examples",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 9,
+          "last": 9,
+          "topic": "Specific-heat table and fever problem",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "topic": "Latent-heat table and melting problem",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "topic": "Calorimetry and cola-ice problem",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 12,
+          "last": 12,
+          "topic": "Conduction and summary",
+          "role": "course-material",
+          "notes": "reviewer.html#module-2"
+        },
+        {
+          "first": 13,
+          "last": 13,
+          "topic": "Blank source page",
+          "role": "blank",
+          "notes": "reviewer.html#module-2"
+        }
+      ]
+    },
+    {
+      "id": "m3-main",
+      "file": "Module 3 - Physics.pdf",
+      "module": 3,
+      "variant": "main",
+      "page_count": 30,
+      "sha256": "b2ea5068b36c5c7bdc02aa7b2cad915a92ea54e4e527a2fb01b81d4f4cd6ad13",
+      "groups": [
+        {
+          "first": 1,
+          "last": 3,
+          "topic": "Orientation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 4,
+          "last": 10,
+          "topic": "Charge and its properties",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 11,
+          "last": 14,
+          "topic": "Conduction, induction, and polarization",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 15,
+          "last": 16,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 17,
+          "last": 18,
+          "topic": "Force objectives",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 19,
+          "last": 22,
+          "topic": "Coulomb law and pair-force calculations",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 23,
+          "last": 28,
+          "topic": "Vector superposition and rectangle solution",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 29,
+          "last": 30,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-3"
+        }
+      ]
+    },
+    {
+      "id": "m3-dyn",
+      "file": "Module 3 - Physics (Dyn).pdf",
+      "module": 3,
+      "variant": "dyn",
+      "page_count": 7,
+      "sha256": "72dd4147769f671ca457d108fce173141b5be61115b2cc7436dc2de8ba06fcf3",
+      "groups": [
+        {
+          "first": 1,
+          "last": 2,
+          "topic": "Charge, conservation, and conductor model",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "topic": "Grounding, induction, and Coulomb law",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "topic": "Pair-force example and superposition",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "topic": "Symmetric-force example and conflicting labels",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "topic": "Point-charge field example",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "topic": "Superposition illustration",
+          "role": "course-material",
+          "notes": "reviewer.html#module-3"
+        }
+      ]
+    },
+    {
+      "id": "m4-main",
+      "file": "Module 4 - Physics.pdf",
+      "module": 4,
+      "variant": "main",
+      "page_count": 33,
+      "sha256": "68dae9ff3171e8af3ce14600c35034d30a62edd852b5314113d76a7f77e8bfdc",
+      "groups": [
+        {
+          "first": 1,
+          "last": 3,
+          "topic": "Orientation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 4,
+          "last": 12,
+          "topic": "Field definition and test-charge calculations",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 13,
+          "last": 20,
+          "topic": "Field lines, dipoles, and diagram checks",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 21,
+          "last": 21,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 22,
+          "last": 23,
+          "topic": "Motion and distribution objectives",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 24,
+          "last": 25,
+          "topic": "Uniform-field motion",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 26,
+          "last": 30,
+          "topic": "Point-field derivation and inverse problems",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 31,
+          "last": 32,
+          "topic": "Field superposition",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 33,
+          "last": 33,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-4"
+        }
+      ]
+    },
+    {
+      "id": "m4-dyn",
+      "file": "Module 4 - Physics (Dyn).pdf",
+      "module": 4,
+      "variant": "dyn",
+      "page_count": 2,
+      "sha256": "eabd8d9a5fe8008e0471e6baf0f87a48e96a3a8774fbcb71510f9510481e9f3c",
+      "groups": [
+        {
+          "first": 1,
+          "last": 1,
+          "topic": "Field vectors and field lines",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "topic": "Dipole patterns and three-charge field derivation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-4"
+        }
+      ]
+    },
+    {
+      "id": "m5-main",
+      "file": "Module 5 - Physics.pdf",
+      "module": 5,
+      "variant": "main",
+      "page_count": 41,
+      "sha256": "c56ec5bcf3ea366342d262861f8b63f129b1e984752eff418982a483c641c869",
+      "groups": [
+        {
+          "first": 1,
+          "last": 3,
+          "topic": "Orientation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 4,
+          "last": 13,
+          "topic": "Work, energy, and signs",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 14,
+          "last": 17,
+          "topic": "Pair energy and external assembly work",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 18,
+          "last": 19,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 20,
+          "last": 21,
+          "topic": "Potential objectives",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 22,
+          "last": 26,
+          "topic": "Multi-charge system energy",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 27,
+          "last": 35,
+          "topic": "Potential, batteries, and numerical source problems",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 36,
+          "last": 40,
+          "topic": "Equipotential surfaces and radii",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 41,
+          "last": 41,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-5"
+        }
+      ]
+    },
+    {
+      "id": "m5-dyn",
+      "file": "Module 5 - Physics (Dyn).pdf",
+      "module": 5,
+      "variant": "dyn",
+      "page_count": 8,
+      "sha256": "f9469f5f840bca4ff916c156b4a172e9ebc4a7aaed4187d24e6a83a6ac47e07c",
+      "groups": [
+        {
+          "first": 1,
+          "last": 2,
+          "topic": "Work, energy, and gravitational analogy",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "topic": "Uniform-field coordinates and proton speed",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "topic": "Signed pair energy",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "topic": "Point potential and graphical representations",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "topic": "Battery model and potential difference",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "topic": "Equipotentials and dipole points",
+          "role": "course-material",
+          "notes": "reviewer.html#module-5"
+        },
+        {
+          "first": 8,
+          "last": 8,
+          "topic": "Blank source page",
+          "role": "blank",
+          "notes": "reviewer.html#module-5"
+        }
+      ]
+    },
+    {
+      "id": "m6-main",
+      "file": "Module 6 - Physics.pdf",
+      "module": 6,
+      "variant": "main",
+      "page_count": 27,
+      "sha256": "e13fd327f79b0c35aa0ce1e5bb7055f9b9eee8e3ed5435d1624237a15ef1ef60",
+      "groups": [
+        {
+          "first": 1,
+          "last": 4,
+          "topic": "Orientation and capacitor types",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 5,
+          "last": 13,
+          "topic": "Capacitance, plate geometry, and dielectric tables",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 14,
+          "last": 16,
+          "topic": "Geometry, charge, field, and energy problems",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 17,
+          "last": 17,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 18,
+          "last": 20,
+          "topic": "Networks and symbols",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 21,
+          "last": 24,
+          "topic": "Series and parallel derivations and problems",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 25,
+          "last": 25,
+          "topic": "Five-capacitor network",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 26,
+          "last": 26,
+          "topic": "Applications",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 27,
+          "last": 27,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-6"
+        }
+      ]
+    },
+    {
+      "id": "m6-dyn",
+      "file": "Module 6 - Physics (Dyn).pdf",
+      "module": 6,
+      "variant": "dyn",
+      "page_count": 7,
+      "sha256": "bf6e80d35db6a21c1d824d698e2ac1ea20fbdab5d86e8371dbf7636d83277383",
+      "groups": [
+        {
+          "first": 1,
+          "last": 2,
+          "topic": "Capacitance and plate geometry examples",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "topic": "Dielectric polarization",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "topic": "Dielectric table and 354 pF correction",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "topic": "Series and parallel laws",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "topic": "Two-capacitor and five-capacitor networks",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "topic": "Summary",
+          "role": "course-material",
+          "notes": "reviewer.html#module-6"
+        }
+      ]
+    },
+    {
+      "id": "m7-main",
+      "file": "Module 7 - Physics.pdf",
+      "module": 7,
+      "variant": "main",
+      "page_count": 80,
+      "sha256": "db8c85bffded8e35fe01c7bbc06f445cca3a8d051539779683cf24e98aa86aad",
+      "groups": [
+        {
+          "first": 1,
+          "last": 3,
+          "topic": "Orientation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 4,
+          "last": 14,
+          "topic": "Current, drift, and current density",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 15,
+          "last": 15,
+          "topic": "Current effects and source-table context",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 16,
+          "last": 17,
+          "topic": "Carrier and current calculations",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 18,
+          "last": 29,
+          "topic": "Resistivity, temperature, color bands, and Ohm law",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 30,
+          "last": 32,
+          "topic": "Ohm law source exercises",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 33,
+          "last": 34,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 35,
+          "last": 38,
+          "topic": "Power, emf, and symbols",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 39,
+          "last": 44,
+          "topic": "Power and real-battery source problems",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 45,
+          "last": 45,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 46,
+          "last": 52,
+          "topic": "Series and parallel resistor rules",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 53,
+          "last": 56,
+          "topic": "Complete primary network calculations",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 57,
+          "last": 57,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 58,
+          "last": 68,
+          "topic": "Kirchhoff signs and independent equations",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 69,
+          "last": 69,
+          "topic": "Opposing-source single loop",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 70,
+          "last": 74,
+          "topic": "Primary three-branch network",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 75,
+          "last": 79,
+          "topic": "RC derivations, switching, and decay time",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 80,
+          "last": 80,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-7"
+        }
+      ]
+    },
+    {
+      "id": "m7-dyn",
+      "file": "Module 7 - Physics (Dyn).pdf",
+      "module": 7,
+      "variant": "dyn",
+      "page_count": 16,
+      "sha256": "2d0111e2ed21c18307b6999502ab2c72027ce14294bc24f9189334740afcaff1",
+      "groups": [
+        {
+          "first": 1,
+          "last": 2,
+          "topic": "Current, carriers, and microscopic Ohm law",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 3,
+          "last": 4,
+          "topic": "Material tables and temperature calculation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "topic": "Real sources and circuit symbols",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 6,
+          "last": 7,
+          "topic": "Battery readings and heater power",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 8,
+          "last": 9,
+          "topic": "Series network and corrected voltage drops",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "topic": "Parallel network and branch currents",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "topic": "Mixed-network reduction",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 12,
+          "last": 13,
+          "topic": "Junctions, signs, and independent rules",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 14,
+          "last": 14,
+          "topic": "Opposing-source single loop",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        },
+        {
+          "first": 15,
+          "last": 16,
+          "topic": "Companion two-loop elimination and resistor voltages",
+          "role": "course-material",
+          "notes": "reviewer.html#module-7"
+        }
+      ]
+    },
+    {
+      "id": "m8-main",
+      "file": "Module 8 - Physics.pdf",
+      "module": 8,
+      "variant": "main",
+      "page_count": 44,
+      "sha256": "4d3800ee97e5810f1750c15fd02d6d9898ab54d6627587c9737307c71452fbfe",
+      "groups": [
+        {
+          "first": 1,
+          "last": 3,
+          "topic": "Orientation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-8"
+        },
+        {
+          "first": 4,
+          "last": 11,
+          "topic": "Magnets, compass, Earth, and wire field direction",
+          "role": "course-material",
+          "notes": "reviewer.html#module-8"
+        },
+        {
+          "first": 12,
+          "last": 20,
+          "topic": "Wire and charge forces and right-hand rules",
+          "role": "course-material",
+          "notes": "reviewer.html#module-8"
+        },
+        {
+          "first": 21,
+          "last": 22,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-8"
+        },
+        {
+          "first": 23,
+          "last": 24,
+          "topic": "Torque objectives",
+          "role": "course-material",
+          "notes": "reviewer.html#module-8"
+        },
+        {
+          "first": 25,
+          "last": 31,
+          "topic": "Torque derivation, coil problem, and devices",
+          "role": "course-material",
+          "notes": "reviewer.html#module-8"
+        },
+        {
+          "first": 32,
+          "last": 36,
+          "topic": "Wire fields and parallel-wire force",
+          "role": "course-material",
+          "notes": "reviewer.html#module-8"
+        },
+        {
+          "first": 37,
+          "last": 42,
+          "topic": "Solenoids, cores, and Ampere law",
+          "role": "course-material",
+          "notes": "reviewer.html#module-8"
+        },
+        {
+          "first": 43,
+          "last": 44,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-8"
+        }
+      ]
+    },
+    {
+      "id": "m9-main",
+      "file": "Module 9 - Physics.pdf",
+      "module": 9,
+      "variant": "main",
+      "page_count": 47,
+      "sha256": "36604a54e426b2be7770f4f020b4593bda6045d92002034b239c29c351be5db0",
+      "groups": [
+        {
+          "first": 1,
+          "last": 3,
+          "topic": "Orientation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 4,
+          "last": 9,
+          "topic": "Induction experiment and flux",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 10,
+          "last": 11,
+          "topic": "Overlap and flux extrema",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 12,
+          "last": 17,
+          "topic": "Faraday law, generators, microphones, and transformers",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 18,
+          "last": 19,
+          "topic": "Coil and transformer problems",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 20,
+          "last": 21,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 22,
+          "last": 23,
+          "topic": "Induced-field and circuit objectives",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 24,
+          "last": 30,
+          "topic": "Lenz law and all four direction cases",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 31,
+          "last": 35,
+          "topic": "Motional emf, drag, induced E, and airplane problem",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 36,
+          "last": 36,
+          "topic": "Eddy currents",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 37,
+          "last": 41,
+          "topic": "Mutual and self-inductance",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 42,
+          "last": 44,
+          "topic": "RL growth, decay, and source time problem",
+          "role": "course-material",
+          "notes": "reviewer.html#module-9"
+        },
+        {
+          "first": 45,
+          "last": 47,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-9"
+        }
+      ]
+    },
+    {
+      "id": "m10-main",
+      "file": "Module 10 - Physics (1).pdf",
+      "module": 10,
+      "variant": "main",
+      "page_count": 33,
+      "sha256": "c76d91cb913bd4ba99959277827ab3eadb18af323f3b112019a90b83176a4a2d",
+      "groups": [
+        {
+          "first": 1,
+          "last": 3,
+          "topic": "Orientation",
+          "role": "course-material",
+          "notes": "reviewer.html#module-10"
+        },
+        {
+          "first": 4,
+          "last": 11,
+          "topic": "Light models, spectrum, photons, wavelength, and ray optics",
+          "role": "course-material",
+          "notes": "reviewer.html#module-10"
+        },
+        {
+          "first": 12,
+          "last": 13,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-10"
+        },
+        {
+          "first": 14,
+          "last": 15,
+          "topic": "Optics objectives",
+          "role": "course-material",
+          "notes": "reviewer.html#module-10"
+        },
+        {
+          "first": 16,
+          "last": 17,
+          "topic": "Reflection",
+          "role": "course-material",
+          "notes": "reviewer.html#module-10"
+        },
+        {
+          "first": 18,
+          "last": 24,
+          "topic": "Refraction, index table, and Snell law",
+          "role": "course-material",
+          "notes": "reviewer.html#module-10"
+        },
+        {
+          "first": 25,
+          "last": 27,
+          "topic": "Air-water and water-glass-air solutions",
+          "role": "course-material",
+          "notes": "reviewer.html#module-10"
+        },
+        {
+          "first": 28,
+          "last": 31,
+          "topic": "Critical angle, total internal reflection, and fibers",
+          "role": "course-material",
+          "notes": "reviewer.html#module-10"
+        },
+        {
+          "first": 32,
+          "last": 33,
+          "topic": "References",
+          "role": "reference",
+          "notes": "reviewer.html#module-10"
+        }
+      ]
+    }
+  ]
+}

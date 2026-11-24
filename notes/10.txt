@@ -18,7 +18,7 @@ The source introduces E = hf. The photoelectric relations above extend that idea
 
 Primary p. 10 incorrectly says electron kinetic energy is independent of frequency. Maximum kinetic energy INCREASES with frequency above threshold. At fixed frequency, higher intensity increases available photon rate, not each photon's energy. See the supplementary photoelectric reference in the source notes.
 
-**Worked extension.** At λ = 500 nm, Eγ = (6.626 × 10⁻³⁴)(3.00 × 10⁸)/(500 × 10⁻⁹) = 3.976 × 10⁻¹⁹ J ≈ 2.482 eV. For φ = 2.00 eV, Kmax ≈ 0.482 eV and stopping-potential magnitude ≈ 0.482 V. The boundary wavelength hc/φ is about 621 nm. A longer wavelength cannot supply the required photon energy in this model.
+**Worked extension.** At λ = 500 nm, Eγ = (6.626 × 10⁻³⁴)(3.00 × 10⁸)/(500 × 10⁻⁹) = 3.976 × 10⁻¹⁹ J ≈ 2.482 eV. For φ = 2.00 eV, Kmax ≈ 0.482 eV and stopping-potential magnitude ≈ 0.482 V. The boundary wavelength hc/φ is about 620 nm. A longer wavelength cannot supply the required photon energy in this model.
 
 ### Reflection and surfaces
 

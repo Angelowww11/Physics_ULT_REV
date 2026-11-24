@@ -40,7 +40,7 @@ Ordinary arctan(Fy/Fx) needs a quadrant check. Forces on different targets canno
 
 ### Rectangles, diagonals, and force cancellation
 
-For the rectangular arrangement in primary pp. 26–28, draw all forces on the SAME corner charge. A 3–4–5 rectangle has diagonal r = 5 units. A diagonal force's component factors are 4/5 and 3/5 when the horizontal side is 4 units. Use the directions in the drawing; a magnitude of 23 μN does not decide its component signs.
+For the rectangular arrangement in primary pp. 26–28, draw all forces on the SAME corner charge. A 3–4–5 rectangle has diagonal r = 5 units. A diagonal force's component factors are 4/5 and 3/5 when the horizontal side is 4 units. The diagonal force is 230.4 μN with k = 9 × 10⁹. Its magnitude does not decide its component signs. The complete solution below corrects the previous factor-of-ten error in these notes.
 
 The source's working mixes a downward −90° direction with a positive j term. Recompute from the arrows instead of copying that sign. If a diagonal force points upper-left, its components are (−4F/5, +3F/5). Add the horizontal and vertical forces algebraically after resolving the diagonal.
 
