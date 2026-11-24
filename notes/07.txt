@@ -1,0 +1,87 @@
+## Current and DC circuits: label nodes, currents, and polarity
+
+Current is signed charge flow per time: I = dQ/dt, or Q/Δt for a constant average flow. One ampere is one C/s. Conventional current points as positive charge would move. Electron drift in a metal points the opposite way. Random microscopic motion alone gives no net current. Current through a branch is a signed scalar; current density J is a vector.
+
+### Derive drift current and macroscopic resistance
+
+In time Δt, carriers drift through volume AvdΔt. With number density n and charge magnitude |q|, charge crossing the area is nAvdΔt|q|. Divide by Δt:
+
+$$I=n|q|Av_d,\quad J=I/A=n|q|v_d,\quad \mathbf J=nq\mathbf v_d.$$
+
+The vector expression keeps the signed charge. Carrier concentration has units m⁻³, not C/m³. Current from several carrier populations adds. J parallel to E is the simple isotropic ohmic model; it is not a universal statement for every medium and magnetic-field condition.
+
+**Worked examples — primary pp. 16–17.** 29.3 C in 7.84 s gives 3.737 A. A 0.010 A calculator for 60 s transfers 0.600 C. J = 50 A/m², q = −0.10 C, and vd = −2.0 × 10⁻⁴ m/s give n = J/(qvd) = 2.5 × 10⁶ m⁻³. The unusually large individual charge is the source's hypothetical value, not an electron charge.
+
+For an ohmic isotropic material, E = ρJ and conductivity σ = 1/ρ. Substitute E = V/L and J = I/A for a uniform wire:
+
+$$\frac VL=\rho\frac IA\Rightarrow V=IR,\quad R=\frac{\rho L}{A},\quad \rho=\frac{RA}{L}.$$
+
+Resistivity ρ has units Ω·m; resistance R has units Ω. For a circular wire A = πr² = πd²/4. Doubling LENGTH at fixed area doubles R. Doubling DIAMETER at fixed length divides R by four. For the same wire stretched without volume change, A = Vwire/L, so R = ρL²/Vwire if resistivity stays constant.
+
+### Temperature, ohmic behavior, and resistor identification
+
+Near a reference temperature, R = R₀[1 + α(T−T₀)], and similarly for resistivity. Rearrange α = (R/R₀−1)/(T−T₀). This linear approximation can fail over a large temperature range. Do not confuse the resistance-temperature coefficient with thermal-expansion α. R₀ is resistance when used in the R equation, despite the source's occasional “resistivity” label.
+
+Ohm's law means a linear V–I relation under stable material conditions. A lamp heating up need not have a constant resistance. Carbon/semiconductor temperature behavior can differ from metals.
+
+The source includes resistor color bands. For a four-band resistor, the first two colors give digits, the third gives a power-of-ten multiplier, and the fourth gives tolerance. Digit sequence: black 0, brown 1, red 2, orange 3, yellow 4, green 5, blue 6, violet 7, gray 8, white 9. Gold/silver commonly represent multipliers 10⁻¹/10⁻² or tolerances ±5%/±10%. Read the band roles and orientation, not only the colors.
+
+### Electrical power, energy, and internal resistance
+
+An amount dq crossing voltage V transfers energy dW = Vdq. Divide by dt:
+
+$$P=VI,\quad P_R=I^2R=V_R^2/R,\quad E_{energy}=Pt.$$
+
+The resistor substitutions require Ohm's law. A kilowatt-hour is an ENERGY unit: 1 kWh = 3.6 × 10⁶ J. It is not “kilowatts per hour.” At fixed V, increasing R lowers resistor power; at fixed I, increasing R raises it.
+
+A real source has emf ℰ and internal resistance r. For discharging current I, terminal voltage V = ℰ − Ir and I = ℰ/(R+r). During charging with current driven into the positive terminal, V = ℰ + Ir under that stated convention. Emf is energy supplied per charge, not a mechanical force.
+
+**Worked example — companion heating element.** R = 20 Ω on 120 V gives I = 6 A and P = 720 W. In 15 min = 900 s, energy = 648,000 J = 0.18 kWh. Increasing R to 30 Ω at the same voltage gives 480 W, not greater power.
+
+### Derive series and parallel resistor rules
+
+Series resistors have a common current if there is no branch at their connecting node. Vtot = ΣIRi gives Req = ΣRi. Therefore Vi/Vtot = Ri/Req: the voltage-divider relation.
+
+Parallel resistors share the same two nodes and voltage. Itot = ΣV/Ri gives 1/Req = Σ1/Ri. For two, Req = R₁R₂/(R₁+R₂). Their current ratio is I₁/I₂ = R₂/R₁. An equivalent parallel resistance must be smaller than the smallest positive branch resistance.
+
+**Worked example.** Put 3 Ω and 6 Ω in parallel across 12 V. Req = 2 Ω; branch currents are 4 A and 2 A; total is 6 A. Total power = 12 × 6 = 72 W, also 4²×3 + 2²×6 = 72 W. A series 4 Ω added before that group gives 6 Ω overall. The source current becomes 2 A, the parallel-group drop becomes 4 V, and its branch currents become 4/3 A and 2/3 A.
+
+An ideal ammeter goes in SERIES and has zero resistance. An ideal voltmeter goes in PARALLEL and has infinite resistance. An ideal wire shorts points into one node. A shorted resistor has zero voltage, not its previous unmodified branch voltage. Do not reduce an arbitrary bridge as series/parallel when the required node conditions fail.
+
+### Kirchhoff rules: derive the equations and keep the signs
+
+KCL follows conservation of charge at a steady node: ΣIin = ΣIout. KVL follows energy balance around a lumped DC loop: ΣΔV = 0. A resistor traversed with the chosen current gives −IR; traversed against it gives +IR. Across an ideal battery, negative-to-positive gives +ℰ and the reverse gives −ℰ.
+
+Choose arbitrary current directions, write independent equations, and solve them simultaneously. A negative answer reverses the assumed direction; it is not a negative physical resistance. Do not change an assumed arrow midway through the algebra.
+
+**Worked example — companion p. 14 type.** A loop has a 12 V aiding source, an opposing 6 V source, and 6 Ω total resistance. KVL gives 12 − 6 − 6I = 0, so I = 1 A. If both sources aided, the same resistance would give 3 A.
+
+**Primary multi-branch example, pp. 70–74.** Preserve the source's chosen arrows. Its independent equations are I₃ = I₁ + I₂, 30I₁ + 41I₃ = 45, and −30I₁ + 21I₂ = 80. Solving without early rounding gives I₁ = −2335/2721 ≈ −0.85814 A, I₂ ≈ 2.58361 A, and I₃ ≈ 1.72547 A. Substitute all three into the ORIGINAL equations. The negative I₁ reverses its chosen arrow. The printed intermediate rounded expressions obscure this small difference.
+
+**Show the elimination.** Substitute I₃ = I₁+I₂ into the first loop. This produces 71I₁+41I₂ = 45. Keep −30I₁+21I₂ = 80 as the second loop. Multiply the first equation by 30 and the second by 71. Add them to remove I₁:
+
+$$\begin{aligned}2130I_1+1230I_2&=1350,\\-2130I_1+1491I_2&=5680,\\2721I_2&=7030.\end{aligned}$$
+
+Thus I₂ = 7030/2721. Back-substitution gives I₁ = (21I₂−80)/30 = −2335/2721 and I₃ = 4695/2721. Check KCL: −0.858140+2.583609 = 1.725469 A. Check the loops with full precision: 30I₁+41I₃ = 45 V and −30I₁+21I₂ = 80 V. A small residual after using rounded displayed currents is a rounding effect; a large residual needs corrected signs or algebra.
+
+### RC charging and discharging: derive the exponentials
+
+For an initially uncharged capacitor C charged through R from constant emf ℰ, KVL gives ℰ − R(dq/dt) − q/C = 0. Separate dq/(Cℰ−q) = dt/(RC). Integrate with q(0)=0:
+
+$$q=C\mathcal E(1-e^{-t/RC}),\quad V_C=\mathcal E(1-e^{-t/RC}),\quad I=\frac{\mathcal E}{R}e^{-t/RC}.$$
+
+For discharging through R, R(dq/dt)+q/C = 0, so q = Q₀e⁻ᵗᐟᴿᶜ and VC = V₀e⁻ᵗᐟᴿᶜ. The signed current depends on its reference arrow; its magnitude is V₀e⁻ᵗᐟᴿᶜ/R. The capacitor voltage cannot jump instantaneously in this ideal finite-current model.
+
+$$\tau_{RC}=RC,\quad t_{discharge}=-RC\ln f,\quad t_{charge}=-RC\ln(1-f).$$
+
+At one τ, discharge leaves 36.8%; charging reaches 63.2%. “63%” is rounded, so exactly 63.000% is not exactly one τ. For an arbitrary initial voltage V₀, VC(t) = Vf + (V₀−Vf)e⁻ᵗᐟᴿᶜ. A network's relevant R is the resistance seen by the capacitor with independent ideal sources appropriately deactivated, not always the sum of all printed resistors.
+
+**Worked example — primary p. 79.** C = 35 μF, R = 120 Ω. τ = 0.00420 s. To reach 10% of the initial voltage, t = −0.00420 ln(0.10) = 0.009671 s = 9.67 ms. Do not enter 10 in place of 0.10.
+
+**Show the charging integration.** The separated equation integrates from q = 0 to q(t), and from time 0 to t. The minus sign comes from differentiating Cℰ−q:
+
+$$-\ln\left(\frac{C\mathcal E-q}{C\mathcal E}\right)=\frac{t}{RC}\Rightarrow 1-\frac q{C\mathcal E}=e^{-t/RC}.$$
+
+For R = 2.0 kΩ, C = 10 μF, and ℰ = 12 V, τ = 0.020 s and Qfinal = 120 μC. At t = 0.020 s, q ≈ 75.854 μC, VC ≈ 7.58545 V, and I ≈ 2.20728 mA. Check KVL: RI+VC = 4.41455+7.58545 = 12 V. To reach 90%, solve t = −0.020 ln(0.10) ≈ 0.04605 s.
+
+**Transient energy extension.** During a complete ideal RC charge from zero, the battery supplies ∫ℰI dt = Cℰ². The capacitor stores Cℰ²/2. The resistor dissipates the remaining Cℰ²/2, independent of positive R in this model. A smaller R changes the time and peak power; it does not remove that total dissipated energy.

@@ -1,0 +1,57 @@
+## Electric charge and force: signs before substitution
+
+Charge is a property of matter, not a synonym for “electron.” Electrons carry −e, protons +e, and neutrons zero net charge. Use e = 1.602 × 10⁻¹⁹ C in course calculations. A positive net charge usually indicates an electron deficit. A negative net charge indicates excess electrons. Ordinary rubbing transfers electrons rather than creating charge.
+
+### Quantization, conservation, and charging mechanisms
+
+$$q=(N_p-N_e)e,\quad N=\frac{|q|}{e},\quad \Delta m=N m_e.$$
+
+For ordinary isolated charged bodies, q is an integer multiple of e. An isolated system conserves total signed charge: Σqbefore = Σqafter. Neutral means balanced net charge, not absence of charged particles. Charge is frame invariant in the classical situations covered here.
+
+**Worked example — primary p. 8.** A charge of +0.32 C represents 0.32/(1.602 × 10⁻¹⁹) = 1.998 × 10¹⁸ removed electrons. Its mass decreases by about 1.82 × 10⁻¹² kg if only electron transfer changes its mass. Neutrino oscillations show that neutrinos are not all massless. The source's blanket zero-rest-mass statement is inaccurate and unnecessary for this charge calculation.
+
+Conduction requires contact and permits charge transfer. Friction transfers charge during rubbing. Induction separates charge without contact with the inducing body. To leave a single conductor with net charge by the standard grounding method, approach the charged rod, connect the ground, remove the ground, then remove the rod. Changing that order can remove the intended final charge. Polarization separates positive and negative charge slightly within a neutral object; attraction does not prove the object has acquired a net charge.
+
+Conductors have mobile charges. Insulators restrict bulk charge motion. Semiconductors have conductivity between these broad categories and strongly depend on material conditions. In electrostatic equilibrium, excess conductor charge lies on its surface; the field inside conducting material is zero. These statements concern equilibrium, not every current-carrying wire.
+
+### Coulomb's law: empirical starting law and algebraic forms
+
+For stationary point charges in vacuum, use k ≈ 8.99 × 10⁹ N·m²/C². Coulomb's inverse-square law is an empirical starting law here; it cannot be independently proved just by rearranging its definition.
+
+$$F=k\frac{|q_1q_2|}{r^2},\quad r=\sqrt{\frac{k|q_1q_2|}{F}},\quad |q_1|=\frac{Fr^2}{k|q_2|}.$$
+
+Use magnitudes in this scalar formula. Determine attraction or repulsion separately. Like signs repel; opposite signs attract. Doubling r divides F by four. Tripling one charge triples F. In a uniform linear medium with relative permittivity κ, replace ε₀ by κε₀ if the problem justifies that model.
+
+**Worked example — primary p. 22.** q₁ = +25 nC, q₂ = −75 nC, r = 3.0 cm = 0.030 m. F = (8.99 × 10⁹)(25 × 10⁻⁹)(75 × 10⁻⁹)/(0.030)² = 0.01873 N. Both forces have this magnitude. Their directions are opposite and attractive. A larger charge does not experience the larger force in this two-body pair.
+
+### Superposition in one, two, and three dimensions
+
+Define the displacement from source j to the target i as ri − rj. This definition prevents ambiguous subscript conventions:
+
+$$\mathbf F_i=\sum_{j\ne i} kq_iq_j\frac{\mathbf r_i-\mathbf r_j}{|\mathbf r_i-\mathbf r_j|^3}.$$
+
+**Derive the component form.** A unit displacement vector is Δr/r. Multiplying it by kqiqj/r² gives the denominator r³. Therefore Fx = ΣkqiqjΔx/r³, with analogous y and z terms. Combine components before computing magnitude:
+
+$$F=\sqrt{F_x^2+F_y^2+F_z^2},\quad \theta=\operatorname{atan2}(F_y,F_x).$$
+
+Ordinary arctan(Fy/Fx) needs a quadrant check. Forces on different targets cannot be added to answer “net force on q₁.” Exclude the target's own field.
+
+**Worked example — primary pp. 24–25.** A +5 nC target is at x = 0. A +1 nC source at +0.020 m repels it left with 112.375 μN. A −3 nC source at +0.040 m attracts it right with 84.281 μN. Fx = −112.375 + 84.281 = −28.094 μN. Thus the net force is about 28 μN left. Adding the magnitudes would be wrong.
+
+### Rectangles, diagonals, and force cancellation
+
+For the rectangular arrangement in primary pp. 26–28, draw all forces on the SAME corner charge. A 3–4–5 rectangle has diagonal r = 5 units. A diagonal force's component factors are 4/5 and 3/5 when the horizontal side is 4 units. Use the directions in the drawing; a magnitude of 23 μN does not decide its component signs.
+
+The source's working mixes a downward −90° direction with a positive j term. Recompute from the arrows instead of copying that sign. If a diagonal force points upper-left, its components are (−4F/5, +3F/5). Add the horizontal and vertical forces algebraically after resolving the diagonal.
+
+For two like-signed sources on a line, a cancellation point lies between them. For opposite signs, their fields reinforce between them; a possible zero-field point lies outside on the smaller-magnitude charge's side. Solve in each physically allowed region. Squaring distance equations can produce an invalid location.
+
+**Derive the cancellation location.** Put positive Q₁ at x = 0 and positive Q₂ at x = d. A nonzero test charge between them has opposing forces. Cancel its magnitude and k: Q₁/x² = Q₂/(d−x)². Both distances are positive in this region. Taking positive square roots and collecting x gives:
+
+$$\sqrt{Q_1}(d-x)=\sqrt{Q_2}x\Rightarrow x=\frac{d\sqrt{Q_1}}{\sqrt{Q_1}+\sqrt{Q_2}}.$$
+
+For +4 nC and +9 nC separated by 1.00 m, x = 2/(2+3) = 0.400 m from +4 nC. The fields there have equal magnitudes and opposite directions. The point is closer to the smaller charge because its weaker source needs a smaller distance to match the other field.
+
+**Opposite-sign extension.** Put +4 nC at x = 0 and −9 nC at x = 1.00 m. Between them, both fields point right. Test x < 0 instead: 4/x² = 9/(1−x)². Positive distances give 2(1−x) = 3(−x), so x = −2.00 m. Substitution gives equal field magnitudes 8.99 N/C, with opposite directions. Equal opposite charges have no finite zero-field point on their joining line.
+
+**Force comparison — primary p. 21.** For a proton and electron separated by 5.3 × 10⁻¹¹ m, Fe ≈ 8.21 × 10⁻⁸ N and Fg ≈ 3.62 × 10⁻⁴⁷ N. Their ratio is ke²/(Gmemp), independent of r. Both forces attract, but they are not comparable in size. Keep the exponents; the PDF's text extraction can obscure minus signs.

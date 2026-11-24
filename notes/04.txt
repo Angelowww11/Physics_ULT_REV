@@ -1,0 +1,67 @@
+## Electric fields: calculate the field before inserting a test charge
+
+An electric field assigns a force-per-charge vector to each point. It is not merely an area with electricity. A source charge produces its field even when no test particle is present. Define field direction by the force on a positive test charge.
+
+$$\mathbf E=\frac{\mathbf F}{q_0},\quad \mathbf F=q_0\mathbf E,\quad [E]=\mathrm{N/C}=\mathrm{V/m}.$$
+
+For a negative test charge, force opposes E. The source charge sets the field; the test charge sets the force experienced in that field. The ideal test charge is small enough not to rearrange the source distribution significantly.
+
+### Derive the point-charge field and its inverse forms
+
+Substitute Coulomb's force into E = F/q₀ and cancel the positive test-charge magnitude:
+
+$$E=\frac{k|Q|}{r^2},\quad |Q|=\frac{Er^2}{k},\quad r=\sqrt{\frac{k|Q|}{E}}.$$
+
+E points away from positive Q and toward negative Q. The field magnitude decreases as 1/r². The value at r = 0 is not finite in the point-charge idealization.
+
+**Worked example — primary p. 12.** A +3.0 × 10⁻⁸ C test charge experiences 6.0 × 10⁻⁸ N. E = 2.0 N/C. Replacing it with +12 × 10⁻⁸ C gives F = 2.4 × 10⁻⁷ N in the same direction. Replacing it with a negative charge reverses the force, not the pre-existing field.
+
+**Worked examples — primary pp. 29–30.** A +4.0 nC source gives E = 9.0 N/C at 2.0 m when k = 9.0 × 10⁹. Conversely, E = 5 N/C at 1.50 m requires |Q| = 1.25 × 10⁻⁹ C. Magnitude alone does not identify the source's sign.
+
+### Field lines, dipoles, and equipattern reasoning
+
+The tangent to a field line gives the local field direction. Denser lines indicate stronger field. Lines start on positive charges and end on negative charges or at infinity. Line counts communicate relative magnitude; they are not physical wires. Electrostatic field lines do not cross because the field has one direction at a regular point.
+
+A dipole has equal and opposite separated charges. Equal like charges can cancel at their midpoint. Equal opposite charges do not cancel their midpoint fields: both point from positive to negative. A curved field line is not generally a charged particle's trajectory; motion also depends on initial velocity and inertia.
+
+### Discrete-source superposition and a midpoint example
+
+$$\mathbf E(\mathbf r)=k\sum_j Q_j\frac{\mathbf r-\mathbf r_j}{|\mathbf r-\mathbf r_j|^3}.$$
+
+**Worked example — primary p. 32.** Put −5.00 nC on the left and −3.00 nC on the right, 1.50 m apart. At their midpoint r = 0.75 m from each. Eleft = 80 N/C left and Eright = 48 N/C right. The result is 32 N/C left. Use 0.75 m, not the full separation, for BOTH denominators.
+
+**Derivation — the scanned companion's symmetric three-charge geometry.** Put equal charges q at (0, −a), (0, 0), and (0, +a). Evaluate at (x, 0), with x > 0. The upper/lower y components cancel. Each outer charge contributes kqx/(x²+a²)³ᐟ² horizontally. The central charge contributes kq/x². Thus Ex = kq[1/x² + 2x/(x²+a²)³ᐟ²], Ey = 0. The signs reverse when q is negative. This result belongs to this stated geometry only.
+
+### Uniform-field motion: derive the trajectory
+
+Combine Newton's law ma = qE with constant-acceleration kinematics. For a constant field along y:
+
+$$a_y=\frac{qE_y}{m},\quad x=x_0+v_{0x}t,\quad y=y_0+v_{0y}t+\frac{qE_y}{2m}t^2.$$
+
+When v₀x ≠ 0, eliminate t = (x − x₀)/v₀x. The resulting y(x) is parabolic. An electron has q = −e; do not substitute +e for its acceleration. A particle initially moving along E can speed up or slow down depending on q and its velocity direction.
+
+**Worked example.** An electron enters horizontally at 2.0 × 10⁶ m/s through a 0.020 m long uniform-field region. Let Ey = +100 N/C and y₀ = v₀y = 0. Transit time = 1.0 × 10⁻⁸ s. ay = −1.759 × 10¹³ m/s². Exit displacement = −8.79 × 10⁻⁴ m and vy = −1.759 × 10⁵ m/s. A plate collision invalidates the full-length transit assumption. Relativistic speeds require relativistic dynamics.
+
+### Continuous charge distributions: a labeled extension
+
+The primary objectives mention continuous distributions but do not develop all standard integrations. Use dq = λdl for a line, σdA for a surface, or ρqdV for a volume. Here ρq is charge density, not mass density.
+
+$$\mathbf E=k\int\frac{\hat{\mathbf r}}{r^2}\,dq.$$
+
+**Uniform finite rod.** At perpendicular distance a from the midpoint of a rod extending from −L to +L, transverse components add and longitudinal components cancel. Integrate dE⊥ = kλa dx/(x²+a²)³ᐟ² to obtain E = 2kλL/[a√(L²+a²)]. As L → ∞, E → 2kλ/a. The result must tend toward the point-charge field k(2λL)/a² when a ≫ L.
+
+The antiderivative follows from d[x/√(x²+a²)]/dx = a²/(x²+a²)³ᐟ². With a > 0 and λ ≥ 0, the outward field magnitude is:
+
+$$E_\perp=k\lambda a\left[\frac{x}{a^2\sqrt{x^2+a^2}}\right]_{-L}^{L}=\frac{2k\lambda L}{a\sqrt{L^2+a^2}}.$$
+
+For λ = 2.0 nC/m, L = 0.30 m, and a = 0.40 m, E = 53.94 N/C. The total rod length is 2L = 0.60 m. Confusing L with the total length changes both the charge and the geometry.
+
+**Uniform ring.** At axial distance x from a ring of radius R, each element has distance √(x²+R²). Radial components cancel. Integrating the axial part gives Ex = kQx/(x²+R²)³ᐟ². At x = 0, E = 0 although the potential is generally not zero.
+
+**Disk and infinite-sheet limits.** Build a uniformly charged disk from rings with dQ = σ2πr dr. For x > 0, Ex = σ/(2ε₀)[1 − x/√(x²+R²)]. Let R → ∞ to obtain E = σ/(2ε₀) for one isolated infinite sheet. Two oppositely charged ideal capacitor sheets add to σ/ε₀ between them. Do not confuse the one-sheet and two-sheet factors.
+
+The disk integration keeps the ring radius r separate from the fixed axial distance x:
+
+$$E_x=2\pi k\sigma x\int_0^R\frac{r\,dr}{(x^2+r^2)^{3/2}}=2\pi k\sigma x\left[-\frac1{\sqrt{x^2+r^2}}\right]_0^R.$$
+
+For x > 0, the lower endpoint uses √(x²) = x. Substitute k = 1/(4πε₀) to recover the stated disk result. On the opposite side, the normal field direction reverses for the same positive surface charge.

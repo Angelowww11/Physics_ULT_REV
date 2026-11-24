@@ -1,0 +1,91 @@
+## Thermal physics: separate heat, temperature, and internal energy
+
+Temperature describes thermal state. Heat Q is energy transferred because of a temperature difference. Internal energy U belongs to the system. Heat is not a stored substance or another name for U. Work is a different mode of energy transfer. The source sometimes uses these terms interchangeably; the notes keep them separate.
+
+### Temperature scales and differences
+
+$$T_K=T_C+273.15,\quad T_F=\frac95T_C+32,\quad T_C=\frac59(T_F-32).$$
+
+**Derivation.** Water's standard freezing/boiling interval spans 100 Celsius degrees and 180 Fahrenheit degrees. The slope is 180/100 = 9/5. The freezing-point offset supplies 32. Kelvin uses the same interval size as Celsius but a different zero.
+
+$$\Delta T_K=\Delta T_C,\quad \Delta T_F=\frac95\Delta T_C.$$
+
+Do not add 273.15 to a temperature CHANGE. A 20°C rise is a 20 K rise, not 293.15 K. Gas-law absolute-temperature ratios require Kelvin. Absolute zero does not mean every quantum-mechanical contribution to energy vanishes.
+
+Thermometers measure temperature through a calibrated property, such as a liquid's volume, gas pressure, or electrical resistance. Mercury's illustrated −39°C to 357°C liquid range explains one thermometer limitation; it is not a universal temperature scale limit.
+
+### Linear, area, and volume expansion: derivations and inverses
+
+For moderate changes with approximately constant coefficient, ΔL = αL₀ΔT and L = L₀(1 + αΔT). The coefficient has units K⁻¹ or °C⁻¹.
+
+$$\alpha=\frac{L-L_0}{L_0\Delta T},\quad \Delta T=\frac{L-L_0}{\alpha L_0},\quad L_0=\frac{L}{1+\alpha\Delta T}.$$
+
+**Derive area expansion.** Expand both dimensions by the same factor: A/A₀ = (1 + αΔT)² = 1 + 2αΔT + α²ΔT². Neglect the second-order term only when |αΔT| ≪ 1. Then ΔA ≈ 2αA₀ΔT. The slides call the area coefficient γ; γ ≈ 2α.
+
+**Derive volume expansion.** Three dimensions give V/V₀ = (1 + αΔT)³. Its first-order term is 1 + 3αΔT. Thus β ≈ 3α for an isotropic solid, and ΔV ≈ βV₀ΔT. Liquids have their own volume coefficient; do not assign them a solid's α without justification. The finite-power expressions follow the linear dimensional model; a temperature-dependent instantaneous coefficient requires integration.
+
+A hole expands as the surrounding material would expand if the hole were filled with the same material. Heating both a plug and hole made from the same material does not automatically create clearance. Cooling only the plug or heating only the plate changes their relative fit.
+
+**Worked example — primary p. 11.** A 50 m steel tape at 20°C has α = 11 × 10⁻⁶ K⁻¹. At 35°C, ΔL = 0.00825 m and L = 50.00825 m. The printed 50.008 m is rounded. A hot tape has wider-spaced markings; distinguish the indicated reading from the actual length.
+
+### Containers, overflow, water's anomaly, and phase diagrams
+
+For a full container and a small common temperature rise:
+
+$$\Delta V_{overflow}=V_0(\beta_{liquid}-\beta_{container})\Delta T.$$
+
+**Derivation.** Subtract the expanded container capacity V₀(1 + βcontainerΔT) from the expanded liquid volume V₀(1 + βliquidΔT). The original V₀ terms cancel. A negative result means no positive overflow in this model; the liquid leaves space instead.
+
+**Worked example — primary p. 18.** V₀ = 200 cm³; ΔT = 80 K; βHg = 18 × 10⁻⁵ K⁻¹; αglass = 0.40 × 10⁻⁵ K⁻¹. Therefore βglass = 1.20 × 10⁻⁵. Overflow = 200(18 − 1.2) × 10⁻⁵ × 80 = 2.688 cm³. Keep volume units consistent; conversion to m³ is not necessary when every volume uses cm³.
+
+**Companion extension.** Water contracts when heated from about 0°C to 4°C at ordinary pressure. Its density reaches a maximum near 4°C. “All matter expands when heated” is not a universal law. A phase diagram plots pressure against temperature. Boundaries separate phases; the triple point joins three phases. A liquid–gas boundary ends at the critical point. Do not confuse a phase diagram with a heating curve.
+
+### Heat transfer, specific heat, and thermal equilibrium
+
+Conduction transfers energy through microscopic interactions; metals also have mobile-electron contributions. Convection carries energy with bulk fluid motion. Radiation transfers electromagnetic energy and needs no material medium. The source's explanation that solid molecules are generally far apart is incorrect.
+
+The zeroth law states: if A and B separately share thermal equilibrium with C, A and B share thermal equilibrium. Equality of temperature, not equal mass or equal internal energy, characterizes that equilibrium.
+
+$$Q=mc(T_f-T_i),\quad c=\frac{Q}{m\Delta T},\quad m=\frac{Q}{c\Delta T},\quad T_f=T_i+\frac{Q}{mc}.$$
+
+The relation assumes no phase change and approximately constant c. Heat capacity C = mc has units J/K. Specific heat c has units J/(kg·K). With variable c, Q = m∫c(T)dT. The PDFs use 1 cal = 4.186 J and cwater = 4186 J/(kg·K). Use the supplied convention consistently. One kcal is 1000 cal; the source uses 1 Btu ≈ 252 cal.
+
+**Worked example — primary p. 32.** Water of mass 0.625 kg initially at 75°C loses 7.96 × 10⁴ J. Use Q = −79,600 J. Tf = 75 − 79,600/(0.625 × 4186) ≈ 44.575°C, about 44.6°C. A positive loss magnitude must acquire a negative sign in the system energy equation.
+
+### Mixing: derive the common final temperature
+
+For an insulated mixture without phase changes, Σmc(Tf − Ti) = 0. Expand the sum and collect Tf:
+
+$$T_f=\frac{\sum_i m_ic_iT_i}{\sum_i m_ic_i}.$$
+
+Include a calorimeter as another heat-capacity term if its energy is not negligible. Without phase change or external heating, Tf lies between the initial temperatures. That is a useful sign check.
+
+**Worked example — primary p. 33.** Iron: 0.065 kg at 525°C, c = 444 J/(kg·K). Water: 0.635 kg at 15°C, c = 4186. The weighted formula gives Tf ≈ 20.478°C, about 20.5°C. Neither the simple arithmetic average nor the mass-weighted average alone is correct when c differs.
+
+### Latent heat and every stage of an ice-to-steam problem
+
+During an equilibrium phase transition at the specified pressure, Q = ±mL. Melting and vaporization absorb heat; freezing and condensation release heat. Lf belongs to solid–liquid transitions. Lv belongs to liquid–gas transitions. Primary p. 38 incorrectly repeats melting/freezing labels for vaporization.
+
+**Decision method.** Bring material to the phase boundary with mcΔT. Use mL for the transition. Then use the new phase's specific heat. Never apply a single water c across ice, liquid, and steam.
+
+**Worked example — primary p. 41.** Convert 0.100 kg of ice at −40°C to steam at 110°C. Use cice = 2090, cwater = 4186, csteam = 2110 J/(kg·K), Lf = 3.35 × 10⁵ and Lv = 2.26 × 10⁶ J/kg.
+
+$$Q=0.1(2090)(40)+0.1(335000)+0.1(4186)(100)+0.1(2260000)+0.1(2110)(10)=311830\ \mathrm J.$$
+
+The five contributions are 8360, 33,500, 41,860, 226,000, and 2110 J. The result rounds to 3.12 × 10⁵ J. The latent-heat stage dominates here.
+
+For ice mixed with warm water, compare the available cooling energy with mLf before assuming all ice melts. If the energy is insufficient, the final mixture can stay at 0°C with some ice remaining. If all ice melts, subtract the melting energy before solving the later temperature rise. The companion's milk-and-ice case uses this energy-budget logic.
+
+**Worked extension — test the final phase first.** Mix 0.050 kg of ice at 0°C with 0.200 kg of water at 30°C. Use cwater = 4186 and Lf = 335,000 in SI units. The water can release 0.200(4186)(30) = 25,116 J before reaching 0°C. Melting all the ice needs 0.050(335,000) = 16,750 J. All the ice therefore melts. The remaining 8366 J warms 0.250 kg of liquid water, giving Tf = 8366/(0.250×4186) ≈ 7.994°C.
+
+Change only the ice mass to 0.100 kg. Melting it all needs 33,500 J, more than 25,116 J. The final temperature stays 0°C. Melted mass = 25,116/335,000 ≈ 0.07497 kg; about 0.02503 kg of ice remains. Do not report a negative final liquid temperature from an equation that incorrectly assumes complete melting.
+
+### First law and two sign conventions
+
+The primary uses ΔU = Q − Wby. The companion uses ΔU = Q + Won. They agree because Won = −Wby. Q is positive into the system. A closed system exchanges energy but not matter; an isolated system exchanges neither.
+
+**Worked example — primary p. 45.** Qnet = 40 − 25 = 15 J. Wby,net = 10 − 4 = 6 J. ΔU = 15 − 6 = 9 J. Adding the 4 J of compression to Wby would reverse its meaning.
+
+**Companion example.** Heat input 1500 J, heat loss 400 J, expansion work 600 J, and paddle-wheel work ON the gas 250 J give ΔU = 1500 − 400 − 600 + 250 = 750 J.
+
+**Extension — steady conduction.** Fourier's one-dimensional law gives heat rate H = kA(Th − Tc)/L for a uniform slab. Derive Q = Ht; rearrange k = HL/(AΔT). For stacked slabs, thermal resistance is L/(kA), so H = ΔT/ΣRthermal. This is the conduction relation shown in the scanned companion, not an electrical resistance formula.

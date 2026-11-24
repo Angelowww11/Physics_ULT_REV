@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{if(window.renderMathInElement)renderMathInElement(document.querySelector('main'),{delimiters:[{left:'$$',right:'$$',display:true}],throwOnError:false});document.fonts.ready.then(()=>{if(location.hash){const target=document.getElementById(location.hash.slice(1));if(target)target.scrollIntoView({behavior:'instant'});}});});

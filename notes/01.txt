@@ -1,0 +1,87 @@
+## Fluids: start with a force diagram
+
+A fluid can flow. Liquids and gases are fluids. Fluid statics studies equilibrium; fluid dynamics studies motion. In the molecular model, gas particles are widely separated and compressible. A liquid has a definite volume but takes its container's shape. The hydrostatic formulas below require a stationary fluid, not an accelerating flow.
+
+### Density, relative density, and unit conversions
+
+Density measures mass per volume. Relative density compares two densities and has no unit. Use the fluid density in buoyancy calculations, not the object's density.
+
+$$\rho=\frac mV,\quad m=\rho V,\quad V=\frac m\rho,\quad w=mg=\rho Vg,\quad SG=\frac{\rho}{\rho_{water}}.$$
+
+For a composite body, divide the total mass by the total external volume. For separate parts with additive volumes, use ρavg = Σm/ΣV. A hollow object's average density includes its empty interior. Water is about 1000 kg/m³ in the classroom model. Convert 1 g/cm³ to 1000 kg/m³. Also use 1 L = 10⁻³ m³, 1 mL = 1 cm³, and 1 cm³ = 10⁻⁶ m³. Squaring and cubing conversion factors is essential.
+
+**Worked example — primary p. 10.** A room measures 4.0 × 5.0 × 3.0 m. With ρair = 1.20 kg/m³, V = 60 m³. Therefore m = 1.20 × 60 = 72 kg. Its weight is 72 × 9.81 = 706.32 N. Mass and weight have different units.
+
+### Pressure and the hydrostatic derivation
+
+Pressure is normal force per area: P = F⊥/A. One pascal equals one N/m². Rearrange to F⊥ = PA or A = F⊥/P. Pressure is a scalar; the force on each wall points perpendicular to that wall. A static fluid cannot sustain a shear stress.
+
+**Derivation.** Isolate a vertical fluid column of area A and depth h. The downward forces are P₀A and its weight ρAhg. The upward force is PbottomA. Equilibrium gives:
+
+$$P_bA-P_0A-\rho Ahg=0\Rightarrow P_b=P_0+\rho gh.$$
+
+The area cancels. This explains why pressure at a given depth does not depend on container shape. Equal pressure at equal depth requires the same connected, stationary fluid under the same surface conditions.
+
+$$\Delta P=\rho gh,\quad h=\frac{\Delta P}{\rho g},\quad \rho=\frac{\Delta P}{gh},\quad F=(P_0+\rho gh)A.$$
+
+Pressure differences across a wall use the pressure on BOTH sides. Do not multiply an absolute pressure by area when the question asks the net force against outside air. For nonconstant density, the general vertical relation is dP/dz = −ρ(z)g; integrate instead of assuming ρgh.
+
+**Worked example — diver, primary p. 17.** At 20 m in freshwater, Pgauge = 1000 × 9.8 × 20 = 196,000 Pa. Add 101,300 Pa for an absolute pressure of 297,300 Pa. The statement “pressure due to water” means the gauge contribution here.
+
+**Worked example — two liquids, primary p. 19.** At 3.00 m and g = 9.81 m/s², freshwater gives 130,730 Pa absolute. Seawater with ρ = 1030 gives 131,612.9 Pa. Their difference is 882.9 Pa, because the same atmospheric term cancels.
+
+### Atmospheric, gauge, absolute, and connected-column cases
+
+$$P_{abs}=P_{atm}+P_g,\quad P_g=P_{abs}-P_{atm}.$$
+
+The slides use 1 atm ≈ 101.3 kPa = 760 torr ≈ 760 mmHg. Gauge pressure can be negative; absolute pressure cannot be negative. Vacuum devices do not create a pulling pressure. A pressure difference lets the higher-pressure surroundings push inward.
+
+For a manometer, start at a known pressure. Add ρgΔh when moving DOWN through a fluid. Subtract it when moving UP. Keep each fluid's density separate. Set pressures equal at the same level only within the same connected fluid. For multiple stationary layers, Pbottom = Ptop + Σρᵢghᵢ.
+
+**Worked example — companion p. 6 type.** A closed water column's gas interface is 0.60 m below an open water surface. Pgas = 101,300 + 1000 × 9.81 × 0.60 = 107,186 Pa, about 1.058 atm. A different interface height reverses the sign. The drawing, not the word “closed,” decides the height contribution.
+
+### Pascal's principle and hydraulic displacement
+
+An applied pressure change travels through a confined fluid. At equal piston elevations and neglecting friction, ΔP₁ = ΔP₂:
+
+$$\frac{F_1}{A_1}=\frac{F_2}{A_2},\quad F_2=F_1\frac{A_2}{A_1}=F_1\left(\frac{r_2}{r_1}\right)^2.$$
+
+**Derive the distance relation.** Conservation of incompressible fluid volume gives A₁d₁ = A₂d₂. Thus d₂/d₁ = A₁/A₂. Multiplying by the force ratio gives F₁d₁ = F₂d₂: force multiplication is not energy creation. For unequal piston heights, include the hydrostatic pressure difference before applying the force balance.
+
+**Worked example — primary p. 23.** A 10,000 N load sits on a piston of radius 1.00 m. The smaller radius is 0.050 m. Required input force = 10,000(0.050/1.00)² = 25 N. A diameter ratio gives the same squared ratio if both inputs are diameters.
+
+**Worked example — companion p. 7.** Diameters 5 cm and 25 cm give an area ratio of 25. An input of 100 N produces 2500 N ideally. The large piston moves only 1/25 of the smaller piston's distance.
+
+### Archimedes' principle: derive it before choosing a volume
+
+Pressure at a submerged block's bottom exceeds the pressure at its top. For constant area A, the net upward fluid force is (Pbottom − Ptop)A = ρfg(hbottom − htop)A. Since AΔh = Vdisplaced:
+
+$$F_B=\rho_f gV_{disp}.$$
+
+This relation uses the volume of displaced fluid. For a fully submerged impermeable body, it equals the object's external volume. For partial immersion, it does not equal the whole object volume. A fluid's pressure gradient produces buoyancy even without a free surface immediately beside the object.
+
+For a hanging object in equilibrium, T + FB − mg = 0, so T = mg − FB. Apparent weight equals that tension. If a light object is tied DOWN, FB − mg − T = 0, so T = FB − mg. Choose the sign from the diagram.
+
+**Worked example — primary p. 32 type.** A 2.00 kg brass block has density 8700 kg/m³ and is fully submerged in water. V = 2/8700 = 2.299 × 10⁻⁴ m³. FB = 2.255 N. Its upward-string tension is 19.62 − 2.255 = 17.365 N. The density is the chosen brass-table value; a different supplied value changes the result.
+
+**Worked example — companion pp. 9–10.** A 0.10 m cube of wood has density 700 kg/m³. V = 0.001 m³, mg = 6.867 N, and FB = 9.81 N. A bottom string must pull downward with 2.943 N. A negative “upward tension” would indicate the wrong assumed string direction.
+
+### Floating, sinking, and identifying unknown density
+
+For free floating equilibrium, FB = mg. With m = ρobjectVtotal:
+
+$$\frac{V_{sub}}{V_{total}}=\frac{\rho_{object}}{\rho_f},\quad \rho_f=\rho_{object}\frac{V_{total}}{V_{sub}}.$$
+
+This fraction must lie between zero and one. If the average object density exceeds the fluid density, a freely floating equilibrium with partial immersion is impossible. A sinking object still has an upward buoyant force; that force is simply insufficient to balance its weight. Neutral buoyancy means equal average densities, not zero buoyancy.
+
+**Worked example — primary p. 34.** One-third of a person's volume is above the surface, so two-thirds is submerged. With average density 970 kg/m³, fluid density = 970/(2/3) = 1455 kg/m³. The printed 1460 is a rounded value. The assumed 3 m³ is only a convenient volume ratio, not a realistic measured body volume.
+
+**Take note.** Primary p. 12 labels density with Pa; its unit must be kg/m³. Floating formulas require equilibrium without an extra vertical support force. Do not use them for a block held underwater by a string.
+
+**Derivation extension — weighing an unknown solid.** Measure the weight Wair in air, then the apparent weight Wsub while fully submerged. Neglect air buoyancy and string mass. The difference is the fluid buoyancy: Wair − Wsub = ρf gV. Meanwhile Wair = ρobject gV. Divide the equations to remove both g and V:
+
+$$\rho_{object}=\rho_f\frac{W_{air}}{W_{air}-W_{sub}}.$$
+
+For Wair = 12.0 N and Wsub = 8.0 N in water, density = 1000(12)/(12−8) = 3000 kg/m³. A smaller apparent weight means a larger buoyant force. This formula does not apply unchanged to an object resting on the bottom.
+
+**Worked extension — a layered column.** An open tank holds 0.20 m of oil, density 800 kg/m³, above 0.30 m of water. Gauge pressure at the bottom is 800(9.81)(0.20) + 1000(9.81)(0.30) = 4512.6 Pa. A small horizontal bottom hatch of area 0.010 m², exposed to air underneath, feels a net downward force of 45.126 N. Atmospheric pressure cancels across the hatch. For a tall vertical hatch, pressure varies over its area; use F = ∫Pdepth dA, not the pressure at its lowest point everywhere.
