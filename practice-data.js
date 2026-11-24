@@ -6,13 +6,13 @@ for(let i=1;i<=20;i++){
 let m=2+i,V=(i+2)/1000,h=i*.5,A=.001*i,q=i*1e-9,r=.1+i*.02;
 add(1,7,`Mass is ${m} kg; volume is ${V.toFixed(3)} m³.`,'Find density.',m/V,'kg/m³','ρ = m/V',`${m}/${V}`);
 add(1,17,`Freshwater density is 1000 kg/m³; depth is ${h} m; g = 9.81 m/s².`,'Find gauge pressure.',1000*9.81*h,'Pa','ΔP = ρgh',`1000 × 9.81 × ${h}`);
-add(1,32,`A body displaces ${V.toFixed(3)} m³ of freshwater; g = 9.81 m/s².`,'Find buoyant force.',1000*9.81*V,'N','FB = ρfluid g Vdisplaced',`1000 × 9.81 × ${V}`);
+add(1,32,`A body displaces ${V.toFixed(3)} m³ of freshwater (density 1000 kg/m³); g = 9.81 m/s².`,'Find buoyant force.',1000*9.81*V,'N','FB = ρfluid g Vdisplaced',`1000 × 9.81 × ${V}`);
 add(2,7,`Temperature is ${i*3} °C.`,'Convert to Fahrenheit.',i*3*9/5+32,'°F','TF = (9/5) TC + 32',`${i*3} × 9/5 + 32`);
 add(2,10,`A ${i+1} m rod has α = 12 × 10⁻⁶ K⁻¹ and warms by 20 K.`,'Find its length INCREASE.',(i+1)*12e-6*20,'m','ΔL = αL₀ΔT',`12 × 10⁻⁶ × ${i+1} × 20`);
 add(2,27,`Water mass is ${((i/10)).toFixed(1)} kg; c = 4186 J/(kg·K); temperature rises 5 K without a phase change.`,'Find heat absorbed.',(i/10)*4186*5,'J','Q = mcΔT',`${(i/10)} × 4186 × 5`);
 add(3,8,`${i} × 10¹⁰ electrons are removed from a neutral body. Use e = 1.602 × 10⁻¹⁹ C.`,'Find its positive charge magnitude.',i*1e10*e,'C','Q = Ne',`${i} × 10¹⁰ × 1.602 × 10⁻¹⁹`);
 add(3,22,`Charges +${i} nC and −10 nC are 0.10 m apart. Use k = 8.99 × 10⁹.`,'Find force magnitude.',k*q*10e-9/.1**2,'N','F = k|q₁q₂|/r²',`8.99 × 10⁹ × ${i} × 10⁻⁹ × 10 × 10⁻⁹ / 0.10²`);
-add(3,19,`An original Coulomb force is ${i} N. Both charges stay fixed while distance doubles.`,'Find the new force magnitude.',i/4,'N','Fnew/Fold = (rold/rnew)²',`${i}/2²`);
+add(3,19,`An original Coulomb force is ${i} N. Both charge values stay constant while the distance doubles.`,'Find the new force magnitude.',i/4,'N','Fnew/Fold = (rold/rnew)²',`${i}/2²`);
 add(4,29,`A point source is +${i} nC. Evaluate its field 0.50 m away. Use k = 8.99 × 10⁹.`,'Find field magnitude.',k*q/.5**2,'N/C','E = k|Q|/r²',`8.99 × 10⁹ × ${i} × 10⁻⁹ / 0.50²`);
 add(4,12,`A positive ${i} μC test charge is in a 200 N/C field.`,'Find force magnitude.',i*1e-6*200,'N','F = |q|E',`${i} × 10⁻⁶ × 200`);
 add(4,25,`A 0.002 kg hypothetical particle carries +${i} μC in a uniform 100 N/C field. Ignore other forces.`,'Find acceleration magnitude.',i*1e-6*100/.002,'m/s²','a = |q|E/m',`${i} × 10⁻⁶ × 100 / 0.002`);
