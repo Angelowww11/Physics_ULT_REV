@@ -1,12 +1,12 @@
 from pathlib import Path
-from html import escape
+from html import escape,unescape
 from urllib.parse import quote
 import json,re,subprocess
 from markdown_it import MarkdownIt
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='20261124-math6'
+VERSION='20261127-study4'
 SOURCES=json.loads((ROOT/'sources.js').read_text(encoding='utf-8').split('=',1)[1].rstrip(';'))
 BY_ID={s['id']:s for s in SOURCES}
 AUDIT=json.loads((ROOT/'audit/source-map.json').read_text(encoding='utf-8'))
@@ -140,6 +140,26 @@ def build():
     html=html.replace('<a href="#source-notes"><span>','<a data-chapter-link="source-notes" href="#source-notes"><span>',1)
     (ROOT/'reviewer.html').write_text(html,encoding='utf-8')
     (ROOT/'note-stats.json').write_text(json.dumps(STATS),encoding='utf-8')
+    # The study desk loads one complete chapter instead of the whole notebook.
+    lesson_dir=ROOT/'lessons';lesson_dir.mkdir(exist_ok=True)
+    index=[]
+    for match in re.finditer(r'(<article class="chapter" id="module-(\d+)"[\s\S]*?</article>)',html):
+        fragment,n=match[1],int(match[2])
+        source=next(s for s in SOURCES if s['module']==n and s['variant']=='main')
+        filename=f'lessons/{n:02}.html'
+        (ROOT/filename).write_text(fragment,encoding='utf-8')
+        sections=[]
+        raw=(ROOT/'notes'/f'{n:02}.txt').read_text(encoding='utf-8')+'\n'+(ROOT/'notes'/f'{n:02}-worked.txt').read_text(encoding='utf-8')
+        chunks=re.split(r'^### ',raw,flags=re.M)[1:]
+        for i,h in enumerate(re.finditer(r'<h3 id="([^"]+)">([\s\S]*?)</h3>',fragment)):
+            title=unescape(re.sub('<[^>]+>','',h[2]))
+            search=chunks[i] if i<len(chunks) else title
+            if i==0:search=raw.split('### ',1)[0]+search
+            sections.append({'anchor':h[1],'title':title,'search':search})
+        headline=unescape(re.sub('<[^>]+>','',re.search(r'<h2>(.*?)</h2>',fragment)[1]))
+        index.append({'module':n,'title':source['title'],'headline':headline,'summary':summaries[n],'file':filename,'sections':sections,'pdf':source['file'],'pages':len(source['pages'])})
+    assert len(index)==10
+    (ROOT/'study-index.json').write_text(json.dumps(index,ensure_ascii=False),encoding='utf-8')
     print(STATS)
 
 if __name__=='__main__':build()

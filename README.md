@@ -2,16 +2,24 @@
 
 [Open the website](https://angelowww11.github.io/Physics_ULT_REV/)
 
-The website contains a detailed Physics 2 notebook, original course files, and numerical practice.
+The website opens with the full Physics 2 notes and a practice question beside them. The design keeps the Field Notes identity.
 
 - Read ten chapters with worked examples, derivations, assumptions, units, and sign checks.
 - Browse all 18 supplied PDFs and 492 page images.
 - Choose 1–60 practice questions from one module or all modules.
+- Use smart practice, new questions, mistakes, due reviews, guessed or unrated answers, and saved questions.
+- Record confidence after answering. Revisit wrong answers and scheduled reviews.
+- Use a timed practice exam with saved answers, flags, and explanations after submission.
+- Search all module notes and save reading sections.
 - Use light, dark, or automatic mode with three color themes.
 - Read the notes on a phone, or print them as a PDF.
 - Export progress to move it between devices. Browser storage does not synchronize automatically.
 
 The notes explain identified source errors. The original PDFs remain unchanged. Added extensions carry explicit labels. No finite notebook contains every possible exam derivation.
+
+The [earlier website](https://angelowww11.github.io/Physics_ULT_REV/classic.html) and the [full printable notebook](https://angelowww11.github.io/Physics_ULT_REV/reviewer.html) remain available.
+
+The supplied [TOPCIT Sprint reference](https://tpct-reviewer.onrender.com/) informs the review cycle. It supplies no physics questions or course content.
 
 ## Files
 
@@ -21,7 +29,17 @@ The notes explain identified source errors. The original PDFs remain unchanged. 
 
 `sources.js` records the source filenames, hashes, page text, and images. `audit/source-map.json` maps all 492 source pages to topics. Each module provides its source-page map beside the original file links. Covers, references, and blank pages remain in that map.
 
-`practice-data.js` creates 600 numerical variants across 30 question families. `practice-math.js` supplies the formatted laws and substitutions. The practice page uses the bundled KaTeX renderer. `notebook.css` controls the reading layout. `palette.css` defines the three color themes and the light and dark modes.
+`practice-data.js` creates 600 numerical variants across 30 question families. `practice-math.js` supplies the formatted laws and substitutions. `concept-data.js` supplies 60 original concept checks, including an explanation for every choice.
+
+`study-core.js` manages question selection, confidence, review scheduling, exam state, and backup compatibility. `desk.js` provides the study workspace. `study-desk.css` extends the existing visual system. `notebook.css` controls the full notebook. `palette.css` defines the themes.
+
+The notes build also writes `study-index.json` and `lessons/01.html` through `lessons/10.html`. Each lesson contains the complete chapter and its original mathematics. The study desk loads one chapter at a time.
+
+The earlier browser-storage key remains in use for question records and original-page bookmarks. The study desk stores its extra state under `field-notes-learning-v2`. It supports earlier Field Notes backup files.
+
+Wrong answers become due after five minutes. Smart mix and Mistakes permit earlier retries. Correct guesses and unrated correct answers return after one day. Confident correct answers use 1, 3, 7, 14, then 30 days. These intervals guide review; they do not measure examination readiness.
+
+Smart selection preserves mistake-first priority and spreads new questions across concept and calculation families. Timed exams balance modules and alternate conceptual and numerical questions within each module.
 
 The scanned companion PDFs contain embedded slides. Their PDF page numbers differ from the embedded slide numbers. Image-only pages retain their images; the website does not invent extracted text.
 
@@ -39,6 +57,9 @@ Run `python tools/build_notes.py` after changes to the notes. Run these checks:
 - `python tests/check_expanded.py` checks 75 expanded calculations and the complete source-page map.
 - `python tests/check_math_format.py` checks that the notes contain rendered equations without raw formulas.
 - `node tests/check_practice.cjs` checks the 600 practice variants and the display and inline equations.
+- `node tests/check_study.cjs` checks the 660-question combined bank, complete lesson exports, scheduling, storage compatibility, smart selection, exam persistence, and backups.
+
+`tests/study-browser-flow.js` checks the study desk through its interface in an isolated browser. `tests/browser-flow.js` checks all 600 questions on `classic.html`.
 
 Run `python tools/build_source_map.py` after changes to the source-page map definitions. Rebuild the notes after this command.
 
