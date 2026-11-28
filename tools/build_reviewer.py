@@ -6,7 +6,7 @@ from markdown_it import MarkdownIt
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='20261128-challenge60'
+VERSION='20261128-reading'
 SOURCES=json.loads((ROOT/'sources.js').read_text(encoding='utf-8').split('=',1)[1].rstrip(';'))
 BY_ID={s['id']:s for s in SOURCES}
 AUDIT=json.loads((ROOT/'audit/source-map.json').read_text(encoding='utf-8'))
@@ -53,6 +53,7 @@ def render_note(text,n):
         ALL_TEX.append({'tex':tex,'display':display,'working':working,'label':plain})
         marker=f'MATHPLACEHOLDER{len(ALL_TEX)-1}END'
         return f'\n\n{marker}\n\n' if display else marker
+    text=text.replace(':::example How much ice cools the cola to 0°C?', ':::example Ice mass needed to cool the cola to 0°C').replace(':::example Evaluate the source energy and charge questions', ':::example Source energy and charge calculations').replace('| Question | Right-hand operation |', '| Physical quantity | Right-hand operation |')
     text=re.sub(r'(\$\$[\s\S]*?\$\$|\$[^\n$]+\$)',math,text)
     blocks=[]
     def block(m):
@@ -90,7 +91,7 @@ def build():
         STATS['words']+=len((core+'\n'+more+'\n'+situations).split())
         STATS['situational_examples']=STATS.get('situational_examples',0)+60
         page,caption=core_figures[n]
-        text=core+f'\n\n{{{{figure:{s["id"]}:{page}|{caption}}}}}\n\n<p class="chapter-divider">Source problems · full working</p>\n\n'+more+'\n\n'+situations
+        text=core+f'\n\n{{{{figure:{s["id"]}:{page}|{caption}}}}}\n\n<p class="chapter-divider">Source examples · full working</p>\n\n'+more+'\n\n'+situations
         rendered,headings=render_note(text,n)
         rendered=re.sub(r'<h2>(.*?)</h2>',f'<header class="chapter-heading"><span class="eyebrow">Module {n:02} / Physics 2</span><h2>\\1</h2><p>{summaries[n]}</p></header>',rendered,count=1)
         outline='<details class="chapter-outline"><summary>Topics in this module</summary><div>'+''.join(f'<a href="#{id}">{escape(title)}</a>' for id,title in headings)+'</div></details>'

@@ -1,0 +1,15 @@
+{
+  "description": "Original rendered notes before the added application section. Only two example titles, one table heading, and source/application section labels change.",
+  "originalReading": {
+    "lessons/01.html": "ebb74e32f659607d73cee70c1f344199d13f7365378709babf74a64ebd1703c5",
+    "lessons/02.html": "428f1fd2b907cba87f70026066fa61484d618e74b753b251c95f14b337b7da5b",
+    "lessons/03.html": "86f1c18efebe6df5de22af5f7deb607076a4009480e5b62287fbbe3b5c01551e",
+    "lessons/04.html": "c03ad4620cf3090a010dc2c2767d81e757314d99aceb66b06d91af77b6b90e11",
+    "lessons/05.html": "9f9dd6cebd700466cbaf2cd418cedd91e2e5d21ae8df1d1f90649d83486d40e1",
+    "lessons/06.html": "7c7a3729916fa3f402fb422e2c01e967acd7919d318c636d18a01d8005d9306e",
+    "lessons/07.html": "3554a7d123b15ca3906bc4d1bbc71bfa31cbfeff737b47a66a115a70b4acad8e",
+    "lessons/08.html": "8f22d22d55989e7f0181635c1295cdea77afeffd82a7fb3252f19bd27c431bc2",
+    "lessons/09.html": "ac6d8235ec701da4adf5de8074a9d5c5721570e8d9401b90f248c4f1c382f774",
+    "lessons/10.html": "d76fcd1da518a93bee423edd9d730f60095249b05957bd8d622ca61e674d6362"
+  }
+}

@@ -26,7 +26,7 @@ for(const q of added){
 for(let m=1;m<=10;m++){
  assert.equal(Q.filter(q=>q.module===m).length,126);
  const ids=C.select(Q,{}, {module:m,mode:'challenge',count:60});assert.equal(ids.length,60);assert.ok(ids.every(id=>added.some(q=>q.id===id)));
- const html=fs.readFileSync(index[m-1].file,'utf8');assert.equal((html.match(/Situation \d+:/g)||[]).length,60);
+ const html=fs.readFileSync(index[m-1].file,'utf8');assert.equal((html.match(/Worked application \d+:/g)||[]).length,60);
 }
 assert.equal(C.select(Q,{}, {mode:'challenge',count:999}).length,60);
 // Previously stored IDs and choice indices retain their complete identity.

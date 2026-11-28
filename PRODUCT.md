@@ -18,7 +18,7 @@ Explain the supplied physics modules accurately. Show the derivations and every 
 
 The user supplies 18 PDFs across ten modules. The website retains those files and their 492 page images.
 
-The user chooses full reviewer notes as the opening experience, with practice alongside. The TOPCIT Sprint reference supplies review techniques, not course content or visual identity.
+The user chooses full reviewer notes as the opening experience, with practice on a separate page. The TOPCIT Sprint reference supplies review techniques, not course content or visual identity.
 
 ## Capabilities and Constraints
 
@@ -31,7 +31,7 @@ Publish the static website to the existing GitHub Pages repository. Progress sta
 ## Product Principles
 
 - Keep the full explanations available.
-- Put practice beside the relevant module.
+- Keep quiz questions out of the notes. Link each module to separate practice.
 - Show correct physics when a slide contains an error.
 - Separate recorded practice performance from examination readiness.
 - Keep the controls clear and limited.
@@ -42,4 +42,4 @@ The course sources appear in `modules/`, `slides/`, `sources.js`, and `audit/sou
 
 The full notes appear in `notes/` and `reviewer.html`. The existing question bank contains 600 numerical variants across 30 families.
 
-The user confirms the main flow: “Full reviewer notes, with practice alongside.”
+The latest user request keeps detailed derivations and worked examples in the notes, with practice on a separate page.

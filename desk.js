@@ -1,10 +1,10 @@
 (()=>{
  'use strict';
- const V='20261128-feedback',C=StudyCore,Q=C.bank(PhysicsPractice,PhysicsConcepts,PhysicsChallenges),byId=new Map(Q.map(q=>[q.id,q])),S=PHYSICS_SOURCES;
+ const V='20261128-reading',C=StudyCore,Q=C.bank(PhysicsPractice,PhysicsConcepts,PhysicsChallenges),byId=new Map(Q.map(q=>[q.id,q])),S=PHYSICS_SOURCES;
  let storage;try{storage=localStorage;}catch{storage={getItem(){throw Error();},setItem(){throw Error();}};}
  const store=new C.Store(storage,Q),main=document.querySelector('#main'),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- let modules=[],currentModule=0,currentSection=null,renderToken=0,observer=null,saveTimer=null,examTimer=null,reviewMode='smart',reviewModule='all',reviewLimit=30,readingY=0,reviewIds=[];
- const cache=new Map(),margins=new Map();
+ let modules=[],currentModule=0,currentSection=null,renderToken=0,observer=null,saveTimer=null,examTimer=null,reviewMode='smart',reviewModule='all',reviewLimit=30,reviewIds=[];
+ const cache=new Map();
  const paths={check:'m5 12 4 4L19 6',bookmark:'M6 3h12v18l-6-4-6 4z',arrow:'M4 12h16m-6-6 6 6-6 6',back:'M20 12H4m6-6-6 6 6 6',file:'M6 3h8l4 4v14H6zM14 3v5h5M9 12h6m-6 4h6',clock:'M12 7v5l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0',refresh:'M20 7v5h-5M4 17v-5h5m11 0A8 8 0 0 0 6 6m-2 6a8 8 0 0 0 14 6',flag:'M5 21V3m0 1h13l-3 5 3 5H5'};
  const icon=n=>`<svg class="desk-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="${paths[n]||paths.file}"/></svg>`;
  const math=(tex,display=false)=>katex.renderToString(tex,{displayMode:display,throwOnError:false,trust:false});
@@ -41,12 +41,9 @@
   const heads=[...main.querySelectorAll('.desk-reading .chapter>h2[id]')],selected=heads.findLast(h=>h.getBoundingClientRect().top<200)||heads[0];if(!selected)return;
   const meta=mod(currentModule).sections.find(x=>x.anchor===selected.id);if(!meta)return;currentSection={module:currentModule,anchor:meta.anchor,title:meta.title};
   const b=main.querySelector('[data-save-section]'),label=main.querySelector('#current-reading-section');
-  if(b){const saved=store.data.savedSections.some(x=>x.module===currentModule&&x.anchor===meta.anchor);b.innerHTML=icon('bookmark')+(saved?' Section saved':' Save this section');b.setAttribute('aria-pressed',saved);}
+  if(b){const saved=store.data.savedSections.some(x=>x.module===currentModule&&x.anchor===meta.anchor);b.innerHTML=icon('bookmark')+(saved?' Section saved':' Save section');b.setAttribute('aria-pressed',saved);}
   if(label)label.textContent=meta.title;
   store.data.lessons[currentModule]={...store.data.lessons[currentModule],anchor:meta.anchor,updatedAt:Date.now()};clearTimeout(saveTimer);saveTimer=setTimeout(()=>store.save(),800);
- }
- function marginState(m){
-  if(!margins.has(m)){const pool=Q.filter(q=>q.module===m&&q.kind==='concept'),q=pool.find(q=>store.data.reviews[q.id]?.correct===false)||pool.find(q=>q.level==='challenge'&&!store.data.reviews[q.id])||pool.find(q=>!store.data.reviews[q.id])||pool[0];margins.set(m,{id:q.id,order:C.shuffle([0,1,2,3]),choice:undefined,seen:[q.id],counter:0});}return margins.get(m);
  }
  function choicesHTML(q,order,answer,answered,context='practice',exam=false){
   return `<div class="desk-choices">${order.map((i,pos)=>{
@@ -65,16 +62,9 @@
   const answered=state.choice!==undefined,saved=store.data.saved.includes(q.id);
   return `<div class="desk-question-meta"><span>${esc(q.topic)}</span><button class="desk-button text-button small" data-save-question="${q.id}" aria-pressed="${saved}" aria-label="${saved?'Unsave':'Save'} question">${icon('bookmark')}</button></div><h2 class="desk-question-title">${questionText(q)}</h2>${choicesHTML(q,state.order,state.choice,answered,context)}${answered?explanation(q,state.choice,{context}):'<p class="desk-quiet-note">Work it out before choosing. You can keep the notes open.</p>'}`;
  }
- function renderMargin(){
-  const el=main.querySelector('#practice-panel');if(!el)return;
-  const m=currentModule,s=marginState(m),q=byId.get(s.id),scroll=el.scrollTop;
-  el.innerHTML=`<button class="desk-button small desk-mobile-back" data-panel="notes">${icon('back')} Back to the notes</button><div class="desk-margin-title"><h2>In the margin</h2><span>Module ${String(m).padStart(2,'0')}</span></div><div id="margin-question">${questionHTML(q,s,'margin')}</div>${s.choice!==undefined?`<button class="desk-button primary-action desk-next-check" data-next-check>Try another check ${icon('arrow')}</button>`:''}<div class="desk-margin-links"><a href="#practice/${m}">A focused practice set ${icon('arrow')}</a><button class="desk-section-save" data-save-section aria-pressed="false">${icon('bookmark')} Save this section</button><span id="current-reading-section" class="desk-reading-location"></span><a href="#checks/${m}">Check the source corrections</a><a href="modules/${encodeURIComponent(mod(m).pdf)}" target="_blank" rel="noopener">Original module PDF ↗</a></div>`;
-  el.scrollTop=scroll;currentSectionUpdate();overflowFocus();
- }
  async function study(m,anchor,token){
   m=Number(m);if(!mod(m))m=store.data.activeModule;const data=mod(m),target=anchor||store.data.lessons[m]?.anchor;currentModule=m;store.data.activeModule=m;store.save();updateChrome();
-  main.innerHTML=`<div class="desk-study-top"><div><strong>Your study desk</strong><span>/</span><span>Full notes, with practice alongside</span></div><a href="reviewer.html#module-${m}">All notes &amp; print view ↗</a></div><div class="desk-study-grid"><div class="desk-note-paper"><div class="desk-module-controls"><label><span>Module</span><select id="study-module" aria-label="Choose a module">${moduleOptions(m,false)}</select></label><button class="desk-button small desk-mobile-practice" data-panel="check">Quick check ${icon('arrow')}</button></div><div id="reading-host" class="desk-reading"><div class="desk-loading" role="status"><div></div><div></div><p>Opening the complete module…</p></div></div></div><aside id="practice-panel" class="desk-practice-margin" aria-label="Practice beside the notes"></aside></div>`;
-  renderMargin();
+  main.innerHTML=`<div class="desk-study-top"><div><strong>Your study desk</strong><span>/</span><span>Full notes &amp; worked examples</span></div><a href="reviewer.html#module-${m}">All notes &amp; print view ↗</a></div><div class="desk-study-grid desk-reading-only"><div class="desk-note-paper"><div class="desk-module-controls"><label><span>Module</span><select id="study-module" aria-label="Choose a module">${moduleOptions(m,false)}</select></label><button class="desk-button small" data-save-section aria-pressed="false">${icon('bookmark')} Save section</button></div><div class="desk-reading-tools"><span id="current-reading-section" class="desk-reading-location"></span><a href="#practice/${m}">Practice this module ${icon('arrow')}</a></div><div id="reading-host" class="desk-reading"><div class="desk-loading" role="status"><div></div><div></div><p>Opening the complete module…</p></div></div></div></div>`;
   try{
    if(!cache.has(m))cache.set(m,fetch(data.file+'?v='+V).then(r=>{if(!r.ok)throw Error();return r.text();}).catch(e=>{cache.delete(m);throw e;}));
    const html=await cache.get(m);if(token!==renderToken)return;
@@ -154,16 +144,14 @@
   document.fonts.ready.then(()=>{if(token===renderToken)overflowFocus();});
  }
  document.addEventListener('click',event=>{
-  const note=event.target.closest('a.desk-question-note');if(note){event.preventDefault();main.querySelector('.desk-study-grid')?.classList.remove('desk-mobile-check');go(note.hash.slice(1));return;}
+  const note=event.target.closest('a.desk-question-note');if(note){event.preventDefault();go(note.hash.slice(1));return;}
   const b=event.target.closest('button');if(!b||b.disabled)return;const d=b.dataset;
-  if(d.deskAnswer!==undefined){const value=Number(d.deskAnswer);if(d.context==='margin'){const s=marginState(currentModule);if(s.choice!==undefined)return;s.choice=value;store.answer(s.id,value);renderMargin();}else{store.choose(value);quiz();}updateChrome();}
-  if(d.confidence){store.confidence(d.qid,d.confidence);if(d.context==='margin')renderMargin();else quiz();updateChrome();}
+  if(d.deskAnswer!==undefined){store.choose(Number(d.deskAnswer));quiz();updateChrome();}
+  if(d.confidence){store.confidence(d.qid,d.confidence);quiz();updateChrome();}
   if(d.saveQuestion){store.toggleSaved(d.saveQuestion);if(location.hash==='#saved')saved();else{b.setAttribute('aria-pressed',store.data.saved.includes(d.saveQuestion));b.setAttribute('aria-label',store.data.saved.includes(d.saveQuestion)?'Unsave question':'Save question');}toast(store.data.saved.includes(d.saveQuestion)?'Question saved.':'Question removed from Saved.');}
-  if(d.nextCheck!==undefined){const s=marginState(currentModule);s.counter++;const kind=s.counter%2?'numerical':'concept',pool=Q.filter(q=>q.module===currentModule&&q.kind===kind&&!s.seen.includes(q.id));const ids=C.select(pool,store.data.reviews,{module:currentModule,count:1});const q=byId.get(ids[0])||Q.find(q=>q.module===currentModule&&q.kind===kind);s.id=q.id;s.choice=undefined;s.order=C.shuffle([0,1,2,3]);s.seen.push(q.id);renderMargin();main.querySelector('#practice-panel').scrollTop=0;}
   if(d.saveSection!==undefined&&currentSection){store.toggleSection(currentSection.module,currentSection.anchor,currentSection.title);currentSectionUpdate();}
   if(d.removeSection){const [m,anchor]=d.removeSection.split(':');store.toggleSection(Number(m),anchor,'');saved();}
   if(d.markRead){const m=Number(d.markRead),read=!store.data.lessons[m]?.read;store.data.lessons[m]={...store.data.lessons[m],read,updatedAt:Date.now()};store.save();b.setAttribute('aria-pressed',read);b.innerHTML=icon('check')+(read?' Notes marked as read':' Mark these notes as read');updateChrome();}
-  if(d.panel){const grid=main.querySelector('.desk-study-grid');if(d.panel==='check'){readingY=window.scrollY;grid.classList.add('desk-mobile-check');window.scrollTo({top:0,behavior:'instant'});}else{grid.classList.remove('desk-mobile-check');window.scrollTo({top:readingY,behavior:'instant'});}overflowFocus();}
   if(d.startPractice!==undefined)startSet({module:main.querySelector('#practice-module').value,mode:main.querySelector('#practice-mode').value,count:main.querySelector('#practice-count').value});
   if(d.nextPractice!==undefined){const s=store.data.practice;if(!(s.ids[s.index]in s.answers))return;if(s.index<s.ids.length-1){s.index++;store.save();quiz();window.scrollTo({top:0,behavior:'instant'});}else{store.finish();go('result');}}
   if(d.single)startSet({ids:[d.single]});

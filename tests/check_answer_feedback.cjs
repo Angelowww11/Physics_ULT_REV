@@ -51,7 +51,11 @@ for(const q of Q){
  }
 }
 assert.equal(Q.length,1260);assert.equal(Object.keys(base.questions).length,Q.length);assert.equal(checkedCandidates,2400);
-for(const [file,digest] of Object.entries(base.files))assert.equal(hash(/\.(js|html|json|txt)$/.test(file)?fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n'):fs.readFileSync(file)),digest,`Teaching file changed: ${file}`);
+// Reading-only exports change in this task; check their original content and every solution step separately.
+require('./check_reading_notes.cjs');
+const regenerated=file=>/^(?:reviewer\.html|note-stats\.json|study-index\.json|lessons\/\d+\.html|notes\/\d+-situations\.txt)$/.test(file);
+const preservedFiles=Object.entries(base.files).filter(([file])=>!regenerated(file));
+for(const [file,digest] of preservedFiles)assert.equal(hash(/\.(js|html|json|txt)$/.test(file)?fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n'):fs.readFileSync(file)),digest,`Teaching file changed: ${file}`);
 const attack='<img src=x onerror=alert(1)>',mock={choices:[attack,'a','b','c'],answerIndex:0,reasons:[attack,attack,attack,attack],explanation:attack,steps:[{title:attack,text:attack}]};
 assert(!render(mock,1).includes(attack));
 for(const file of ['index.html','classic.html']){
@@ -61,4 +65,4 @@ for(const file of ['index.html','classic.html']){
  assert(scripts.findIndex(s=>s.file==='answer-feedback.js')<scripts.findIndex(s=>s.file===(file==='index.html'?'desk.js':'app.js')));
  assert(html.includes('answer-feedback.css?v=20261128-feedback'));
 }
-console.log(`PASS: ${Q.length} complete answer views, ${states} shuffled feedback states, ${formulas} rendered equations, ${checkedCandidates} back-substitution checks, all original solution steps, and ${Object.keys(base.files).length} unchanged teaching files.`);
+console.log(`PASS: ${Q.length} complete answer views, ${states} shuffled feedback states, ${formulas} rendered equations, ${checkedCandidates} back-substitution checks, all original solution steps, and ${preservedFiles.length} unchanged teaching files plus checked reading exports.`);

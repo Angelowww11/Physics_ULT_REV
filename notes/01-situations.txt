@@ -1,10 +1,14 @@
-### Situational problems: choose the law, then solve
+### Worked applications: models, calculations, and interpretation
 
-These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+These worked examples apply the module concepts. Each example states its conditions, explains the model, and shows the complete working.
 
-#### Situation 1: A tether below a buoyant body
+<section class="worked-application">
 
-A sealed rigid body is completely submerged. Buoyancy exceeds its weight. A string attached to the bottom holds it at rest. Which statement gives the tension magnitude?
+<h4 id="worked-m1h1">Worked application 1: A tether below a buoyant body</h4>
+
+A sealed rigid body is completely submerged. Buoyancy exceeds its weight. A string attached to the bottom holds it at rest.
+
+The force balance determines the tension in the bottom tether.
 
 1. **Identify all forces.** The bottom tether pulls downward. Weight is downward; buoyancy is upward.
 
@@ -18,17 +22,17 @@ A sealed rigid body is completely submerged. Buoyancy exceeds its weight. A stri
 
 4. **Check the geometry.** An upper string could not provide this required downward force. Attachment location is part of the problem.
 
-**Answer:** $T=F_B-mg$
+**Result:** $T=F_B-mg$
 
-**Why the other answers do not work:**
+</section>
 
-- **$T=mg-F_B$** — This becomes negative; it is the wrong assumed direction for this bottom tether.
-- **$T=F_B+mg$** — Weight already acts downward, so it does not add to the required downward tether force.
-- **$T=mg$** — This ignores the buoyant force.
+<section class="worked-application">
 
-#### Situation 2: A stone leaves a floating boat
+<h4 id="worked-m1h2">Worked application 2: A stone leaves a floating boat</h4>
 
-A dense stone is carried in a boat floating on a still-water tank. The stone is then placed on the tank bottom. The boat stays afloat. Ignore absorption and volume changes. What happens to the water level?
+A dense stone is carried in a boat floating on a still-water tank. The stone is then placed on the tank bottom. The boat stays afloat. Ignore absorption and volume changes.
+
+The comparison determines the water-level change when the stone moves from the floating boat to the tank bottom.
 
 1. **Count the stone’s contribution while carried.**
 
@@ -44,17 +48,17 @@ A dense stone is carried in a boat floating on a still-water tank. The stone is 
 
 4. **Interpret the tank.** The boat’s own weight contribution remains. The reduced total displacement lowers the level.
 
-**Answer:** It decreases.
+**Result:** It decreases.
 
-**Why the other answers do not work:**
+</section>
 
-- **It increases.** — For a stone denser than water, its material volume is smaller than the water volume previously displaced to support its weight.
-- **It stays the same.** — That would require equal before-and-after displaced volumes.
-- **Its direction cannot be inferred even when the stone is denser than water.** — The density inequality determines which displacement is larger.
+<section class="worked-application">
 
-#### Situation 3: Depth and buoyancy
+<h4 id="worked-m1h3">Worked application 3: Depth and buoyancy</h4>
 
-The same rigid sealed block is moved deeper while remaining fully submerged in an incompressible liquid of constant density. Its volume does not change. What happens to buoyancy?
+The same rigid sealed block is moved deeper while remaining fully submerged in an incompressible liquid of constant density. Its volume does not change.
+
+The comparison explains buoyancy at different depths for the same fully submerged rigid block.
 
 1. **Compare top and bottom pressures.**
 
@@ -68,17 +72,17 @@ The same rigid sealed block is moved deeper while remaining fully submerged in a
 
 4. **State the limit.** A compressible body or a liquid whose density changes with depth needs a different analysis.
 
-**Answer:** It remains unchanged.
+**Result:** It remains unchanged.
 
-**Why the other answers do not work:**
+</section>
 
-- **It increases in proportion to absolute depth.** — Absolute pressure is not the buoyant force.
-- **It decreases because less atmosphere is above the block.** — The displaced volume and fluid density stay fixed.
-- **It vanishes when no surface is nearby.** — A pressure gradient persists in the liquid.
+<section class="worked-application">
 
-#### Situation 4: Pressure across a hatch
+<h4 id="worked-m1h4">Worked application 4: Pressure across a hatch</h4>
 
-A small flat hatch is horizontal, so all its points have the same depth. Water is on one side and a pressurized gas is on the other. Which pressure determines its net force?
+A small flat hatch is horizontal, so all its points have the same depth. Water is on one side and a pressurized gas is on the other.
+
+The pressure difference across the hatch determines its net force.
 
 1. **Choose a force direction.** Take the water-to-gas direction as positive.
 
@@ -90,17 +94,17 @@ A small flat hatch is horizontal, so all its points have the same depth. Water i
 
 4. **Check the pressure model.** For a tall vertical hatch, pressure varies with depth; a single-depth value cannot be applied to the whole hatch without justification.
 
-**Answer:** The pressure difference across the hatch: $F_{\mathrm{net}}=(P_w-P_g)A$.
+**Result:** The pressure difference across the hatch: $F_{\mathrm{net}}=(P_w-P_g)A$.
 
-**Why the other answers do not work:**
+</section>
 
-- **Only the water’s absolute pressure: $P_wA$.** — The gas also exerts a force.
-- **Always the water gauge pressure $\rho gh$, regardless of the gas pressure.** — Atmospheric cancellation applies only when the reference pressures really match.
-- **The sum $(P_w+P_g)A$ in one direction.** — The pressures act on opposite sides, giving opposing forces.
+<section class="worked-application">
 
-#### Situation 5: Hydraulics: diameter is not area
+<h4 id="worked-m1h5">Worked application 5: Hydraulics: diameter is not area</h4>
 
-An ideal incompressible hydraulic lift has an output piston with three times the input piston’s diameter. Ignore piston weights and height differences. Which pair describes output force and travel relative to the input?
+An ideal incompressible hydraulic lift has an output piston with three times the input piston’s diameter. Ignore piston weights and height differences.
+
+The piston area ratio connects the output force and travel to the input force and travel.
 
 1. **Convert diameter ratio to area ratio.**
 
@@ -118,17 +122,15 @@ An ideal incompressible hydraulic lift has an output piston with three times the
 
    $$F_1d_1=F_2d_2$$
 
-**Answer:** Force ×9; travel ÷9.
+**Result:** Force ×9; travel ÷9.
 
-**Why the other answers do not work:**
+</section>
 
-- **Force ×3; travel ÷3.** — This uses the diameter ratio as an area ratio.
-- **Force ×9; travel ×9.** — That violates equal displaced volumes and ideal work balance.
-- **Force unchanged; travel ÷9.** — Equal pressure does not mean equal force on unequal areas.
+<section class="worked-application">
 
-#### Situation 6: Two fluid layers and a hatch
+<h4 id="worked-m1h6">Worked application 6: Two fluid layers and a hatch</h4>
 
-An open tank has a 0.30 m-thick oil layer above water. A small horizontal hatch is 0.40 m below the oil–water interface. Both the top liquid surface and the outside of the hatch are at the same atmospheric pressure. Oil density is 800 kg/m³; water density is 1000 kg/m³; hatch area is 0.020 m². Find the net water-side force magnitude. Use $g=9.81\,\mathrm{m\,s^{-2}}$.
+An open tank has a 0.30 m-thick oil layer above water. A small horizontal hatch is 0.40 m below the oil–water interface. Both the top liquid surface and the outside of the hatch are at the same atmospheric pressure. Oil density is 800 kg/m³; water density is 1000 kg/m³; hatch area is 0.020 m². The calculation determines the net water-side force magnitude. Use $g=9.81\,\mathrm{m\,s^{-2}}$.
 
 1. **Choose the pressure reference.** The matching atmospheric terms cancel across the hatch.
 
@@ -148,17 +150,15 @@ An open tank has a 0.30 m-thick oil layer above water. A small horizontal hatch 
 
    $$125.568\,\mathrm N$$
 
-**Answer:** $125.568\,\mathrm N$
+**Result:** $125.568\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$137.34\,\mathrm N$** — Treating all 0.70 m as water overestimates the oil layer.
-- **$109.872\,\mathrm N$** — Treating both layers as oil underestimates the water layer.
-- **$78.48\,\mathrm N$** — This omits the oil pressure contribution.
+<section class="worked-application">
 
-#### Situation 7: A floating block with cargo
+<h4 id="worked-m1h7">Worked application 7: A floating block with cargo</h4>
 
-A rigid block has volume 0.010 m³ and average density 600 kg/m³. It floats in freshwater of density 1000 kg/m³. A 2.0 kg load is placed on top without touching the water. What fraction of the block’s volume is now submerged?
+A rigid block has volume 0.010 m³ and average density 600 kg/m³. It floats in freshwater of density 1000 kg/m³. A 2.0 kg load is placed on top without touching the water. The calculation determines the fraction of the block volume submerged after loading.
 
 1. **Find the block mass.**
 
@@ -180,17 +180,15 @@ A rigid block has volume 0.010 m³ and average density 600 kg/m³. It floats in 
 
    $$0.8$$
 
-**Answer:** $0.8$
+**Result:** $0.8$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.6$** — This is the unloaded fraction and omits the cargo.
-- **$0.2$** — This counts only the added cargo.
-- **$1.25$** — A fraction above one would not describe this floating equilibrium.
+<section class="worked-application">
 
-#### Situation 8: A bottom-tether force
+<h4 id="worked-m1h8">Worked application 8: A bottom-tether force</h4>
 
-A sealed 0.0040 m³ body has mass 2.0 kg and is fully submerged in freshwater. A tether to the bottom holds it at rest. Water density is 1000 kg/m³. Find the tether tension magnitude using $g=9.81\,\mathrm{m\,s^{-2}}$.
+A sealed 0.0040 m³ body has mass 2.0 kg and is fully submerged in freshwater. A tether to the bottom holds it at rest. Water density is 1000 kg/m³. The calculation determines the tether tension magnitude using $g=9.81\,\mathrm{m\,s^{-2}}$.
 
 1. **Find buoyancy.**
 
@@ -212,17 +210,15 @@ A sealed 0.0040 m³ body has mass 2.0 kg and is fully submerged in freshwater. A
 
    $$19.62\,\mathrm N$$
 
-**Answer:** $19.62\,\mathrm N$
+**Result:** $19.62\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$58.86\,\mathrm N$** — Adding buoyancy and weight ignores that both weight and the tether oppose buoyancy.
-- **$-19.62\,\mathrm N$** — This sign would correspond to an incorrectly assumed upward tether force.
-- **$39.24\,\mathrm N$** — This gives buoyancy alone, not the additional downward tether force.
+<section class="worked-application">
 
-#### Situation 9: Hydraulic force and displacement
+<h4 id="worked-m1h9">Worked application 9: Hydraulic force and displacement</h4>
 
-An ideal lift uses piston diameters 2.0 cm and 10.0 cm. An input force of 120 N moves the small piston down 0.25 m. Ignore weights and elevation differences. How far does the large piston rise?
+An ideal lift uses piston diameters 2.0 cm and 10.0 cm. An input force of 120 N moves the small piston down 0.25 m. Ignore weights and elevation differences. The calculation determines the rise of the large piston.
 
 1. **Find the area ratio.**
 
@@ -244,17 +240,15 @@ An ideal lift uses piston diameters 2.0 cm and 10.0 cm. An input force of 120 N 
 
    $$0.01\,\mathrm m$$
 
-**Answer:** $0.01\,\mathrm m$
+**Result:** $0.01\,\mathrm m$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.05\,\mathrm m$** — This uses the diameter ratio instead of its square.
-- **$6.25\,\mathrm m$** — This multiplies travel by the area ratio rather than dividing.
-- **$0.25\,\mathrm m$** — Equal displaced volumes do not mean equal piston travel.
+<section class="worked-application">
 
-#### Situation 10: Apparent weight identifies density
+<h4 id="worked-m1h10">Worked application 10: Apparent weight identifies density</h4>
 
-A uniform object weighs 30 N in air and has an apparent weight of 18 N while fully submerged in water. Ignore air buoyancy. Water density is 1000 kg/m³. Find the object’s density.
+A uniform object weighs 30 N in air and has an apparent weight of 18 N while fully submerged in water. Ignore air buoyancy. Water density is 1000 kg/m³. The calculation determines the object’s density.
 
 1. **Identify the buoyant force.**
 
@@ -276,17 +270,15 @@ A uniform object weighs 30 N in air and has an apparent weight of 18 N while ful
 
    $$2500\,\mathrm{kg\,m^{-3}}$$
 
-**Answer:** $2500\,\mathrm{kg\,m^{-3}}$
+**Result:** $2500\,\mathrm{kg\,m^{-3}}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$1500\,\mathrm{kg\,m^{-3}}$** — Using the submerged tension as the actual weight gives the wrong mass.
-- **$600\,\mathrm{kg\,m^{-3}}$** — This confuses an apparent-weight fraction with a density ratio.
-- **$1666.67\,\mathrm{kg\,m^{-3}}$** — The required ratio uses the loss of weight, not the remaining apparent weight.
+<section class="worked-application">
 
-<h4 id="solution-m1h11">Situation 11: Two-liquid pressure measurement · Find the gas gauge pressure</h4>
+<h4 id="solution-m1h11">Worked application 11: Two-liquid pressure measurement · the gas gauge pressure</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. Find the gas gauge pressure.
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. The calculation determines the gas gauge pressure.
 
 1. **Identify the model and the conditions.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -308,17 +300,15 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
    $$1863.9\,\mathrm{Pa}$$
 
-**Answer:** $1863.9\,\mathrm{Pa}$
+**Result:** $1863.9\,\mathrm{Pa}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$5003.1\,\mathrm{Pa}$** — This adds both heads although they lie on opposite sides of the balance.
-- **$3433.5\,\mathrm{Pa}$** — This ignores the oil column.
-- **$103164\,\mathrm{Pa}$** — This gives absolute pressure instead of gauge pressure.
+<section class="worked-application">
 
-<h4 id="solution-m1h12">Situation 12: Two-liquid pressure measurement · Find the gas absolute pressure</h4>
+<h4 id="solution-m1h12">Worked application 12: Two-liquid pressure measurement · the gas absolute pressure</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. Find the gas absolute pressure.
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. The calculation determines the gas absolute pressure.
 
 1. **Identify the model and the conditions.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -340,17 +330,15 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
    $$103164\,\mathrm{Pa}$$
 
-**Answer:** $103164\,\mathrm{Pa}$
+**Result:** $103164\,\mathrm{Pa}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$1863.9\,\mathrm{Pa}$** — This omits atmospheric pressure.
-- **$99436.1\,\mathrm{Pa}$** — This subtracts a positive gauge pressure.
-- **$106303\,\mathrm{Pa}$** — This adds the opposing oil head.
+<section class="worked-application">
 
-<h4 id="solution-m1h13">Situation 13: Two-liquid pressure measurement · Find the outward net piston force</h4>
+<h4 id="solution-m1h13">Worked application 13: Two-liquid pressure measurement · the outward net piston force</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. Find the outward net piston force.
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. The calculation determines the outward net piston force.
 
 1. **Identify the model and the conditions.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -372,17 +360,15 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
    $$37.278\,\mathrm N$$
 
-**Answer:** $37.278\,\mathrm N$
+**Result:** $37.278\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$2063.28\,\mathrm N$** — This ignores atmospheric force on the outer face.
-- **$68.67\,\mathrm N$** — This ignores the oil contribution.
-- **$100.062\,\mathrm N$** — This adds opposing pressure heads.
+<section class="worked-application">
 
-<h4 id="solution-m1h14">Situation 14: Two-liquid pressure measurement · Find the equivalent freshwater gauge head</h4>
+<h4 id="solution-m1h14">Worked application 14: Two-liquid pressure measurement · the equivalent freshwater gauge head</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. Find the equivalent freshwater gauge head.
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. The calculation determines the equivalent freshwater gauge head.
 
 1. **Identify the model and the conditions.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -404,17 +390,17 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
    $$0.19\,\mathrm m$$
 
-**Answer:** $0.19\,\mathrm m$
+**Result:** $0.19\,\mathrm m$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.35\,\mathrm m$** — This ignores the oil column.
-- **$0.55\,\mathrm m$** — This adds geometric heights without density weighting.
-- **$0.2375\,\mathrm m$** — This reports oil head instead of freshwater head.
+<section class="worked-application">
 
-<h4 id="solution-m1h15">Situation 15: Two-liquid pressure measurement · model check</h4>
+<h4 id="solution-m1h15">Worked application 15: Two-liquid pressure measurement · model and interpretation</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside. Which operation correctly changes this measurement to an absolute gas pressure?
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.2\,\mathrm m$; the water-side height is $h_w=0.35\,\mathrm m$. Use $\rho_o=800\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.02\,\mathrm{m^2}$, with atmosphere outside.
+
+The signed gauge result converts to absolute gas pressure by adding atmospheric pressure once.
 
 1. **Identify what stays fixed.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -428,17 +414,15 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
 4. **Apply the conclusion.** The manometer balance determines a difference from atmosphere.
 
-**Answer:** Add atmospheric pressure to the signed gauge result.
+**Result:** Add atmospheric pressure to the signed gauge result.
 
-**Why the other answers do not work:**
+</section>
 
-- **Add atmospheric pressure to both liquid heads before subtracting them again.** — The same reference cancels in the gauge difference; it is added once at the end.
-- **Use the sum of the two liquid heads as the gauge result.** — The stated bottom-level balance contains opposing liquid contributions.
-- **Use the gas absolute pressure alone for the net piston force.** — The atmosphere exerts a force on the outer face too.
+<section class="worked-application">
 
-<h4 id="solution-m1h16">Situation 16: Two-liquid pressure measurement · Find the gas gauge pressure</h4>
+<h4 id="solution-m1h16">Worked application 16: Two-liquid pressure measurement · the gas gauge pressure</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. Find the gas gauge pressure.
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. The calculation determines the gas gauge pressure.
 
 1. **Identify the model and the conditions.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -460,17 +444,15 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
    $$2619.27\,\mathrm{Pa}$$
 
-**Answer:** $2619.27\,\mathrm{Pa}$
+**Result:** $2619.27\,\mathrm{Pa}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$5621.13\,\mathrm{Pa}$** — This adds both heads although they lie on opposite sides of the balance.
-- **$4120.2\,\mathrm{Pa}$** — This ignores the oil column.
-- **$103919\,\mathrm{Pa}$** — This gives absolute pressure instead of gauge pressure.
+<section class="worked-application">
 
-<h4 id="solution-m1h17">Situation 17: Two-liquid pressure measurement · Find the gas absolute pressure</h4>
+<h4 id="solution-m1h17">Worked application 17: Two-liquid pressure measurement · the gas absolute pressure</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. Find the gas absolute pressure.
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. The calculation determines the gas absolute pressure.
 
 1. **Identify the model and the conditions.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -492,17 +474,15 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
    $$103919\,\mathrm{Pa}$$
 
-**Answer:** $103919\,\mathrm{Pa}$
+**Result:** $103919\,\mathrm{Pa}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$2619.27\,\mathrm{Pa}$** — This omits atmospheric pressure.
-- **$98680.7\,\mathrm{Pa}$** — This subtracts a positive gauge pressure.
-- **$106921\,\mathrm{Pa}$** — This adds the opposing oil head.
+<section class="worked-application">
 
-<h4 id="solution-m1h18">Situation 18: Two-liquid pressure measurement · Find the outward net piston force</h4>
+<h4 id="solution-m1h18">Worked application 18: Two-liquid pressure measurement · the outward net piston force</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. Find the outward net piston force.
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. The calculation determines the outward net piston force.
 
 1. **Identify the model and the conditions.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -524,17 +504,15 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
    $$39.289\,\mathrm N$$
 
-**Answer:** $39.289\,\mathrm N$
+**Result:** $39.289\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$1558.79\,\mathrm N$** — This ignores atmospheric force on the outer face.
-- **$61.803\,\mathrm N$** — This ignores the oil contribution.
-- **$84.317\,\mathrm N$** — This adds opposing pressure heads.
+<section class="worked-application">
 
-<h4 id="solution-m1h19">Situation 19: Two-liquid pressure measurement · Find the equivalent freshwater gauge head</h4>
+<h4 id="solution-m1h19">Worked application 19: Two-liquid pressure measurement · the equivalent freshwater gauge head</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. Find the equivalent freshwater gauge head.
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. The calculation determines the equivalent freshwater gauge head.
 
 1. **Identify the model and the conditions.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -556,17 +534,17 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
    $$0.267\,\mathrm m$$
 
-**Answer:** $0.267\,\mathrm m$
+**Result:** $0.267\,\mathrm m$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.42\,\mathrm m$** — This ignores the oil column.
-- **$0.6\,\mathrm m$** — This adds geometric heights without density weighting.
-- **$0.314118\,\mathrm m$** — This reports oil head instead of freshwater head.
+<section class="worked-application">
 
-<h4 id="solution-m1h20">Situation 20: Two-liquid pressure measurement · model check</h4>
+<h4 id="solution-m1h20">Worked application 20: Two-liquid pressure measurement · model and interpretation</h4>
 
-A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside. Which operation correctly changes this measurement to an absolute gas pressure?
+A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bottom pressure balance gives $P_g+\rho_o gh_o=P_{\rm atm}+\rho_w gh_w$. The oil-side height is $h_o=0.18\,\mathrm m$; the water-side height is $h_w=0.42\,\mathrm m$. Use $\rho_o=850\,\mathrm{kg\,m^{-3}}$, $\rho_w=1000\,\mathrm{kg\,m^{-3}}$, $P_{\rm atm}=101300\,\mathrm{Pa}$, and $g=9.81\,\mathrm{m\,s^{-2}}$. The gas acts on a small piston of area $A=0.015\,\mathrm{m^2}$, with atmosphere outside.
+
+The signed gauge result converts to absolute gas pressure by adding atmospheric pressure once.
 
 1. **Identify what stays fixed.** The liquids are stationary. Add pressure when moving downward and subtract it when moving upward.
 
@@ -580,17 +558,15 @@ A stationary U-tube connects a gas to the atmosphere. Following a horizontal-bot
 
 4. **Apply the conclusion.** The manometer balance determines a difference from atmosphere.
 
-**Answer:** Add atmospheric pressure to the signed gauge result.
+**Result:** Add atmospheric pressure to the signed gauge result.
 
-**Why the other answers do not work:**
+</section>
 
-- **Add atmospheric pressure to both liquid heads before subtracting them again.** — The same reference cancels in the gauge difference; it is added once at the end.
-- **Use the sum of the two liquid heads as the gauge result.** — The stated bottom-level balance contains opposing liquid contributions.
-- **Use the gas absolute pressure alone for the net piston force.** — The atmosphere exerts a force on the outer face too.
+<section class="worked-application">
 
-<h4 id="solution-m1h21">Situation 21: A block across a liquid interface · Find the total buoyant force</h4>
+<h4 id="solution-m1h21">Worked application 21: A block across a liquid interface · the total buoyant force</h4>
 
-A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the total buoyant force.
+A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the total buoyant force.
 
 1. **Identify the model and the conditions.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -612,17 +588,15 @@ A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ st
 
    $$33.7464\,\mathrm N$$
 
-**Answer:** $33.7464\,\mathrm N$
+**Result:** $33.7464\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$39.24\,\mathrm N$** — This treats the whole block as submerged in the denser liquid.
-- **$31.392\,\mathrm N$** — This ignores the lower-liquid volume.
-- **$35.316\,\mathrm N$** — Weight equals buoyancy only when no support force is needed.
+<section class="worked-application">
 
-<h4 id="solution-m1h22">Situation 22: A block across a liquid interface · Find the upper-support tension magnitude</h4>
+<h4 id="solution-m1h22">Worked application 22: A block across a liquid interface · the upper-support tension magnitude</h4>
 
-A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the upper-support tension magnitude.
+A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the upper-support tension magnitude.
 
 1. **Identify the model and the conditions.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -644,17 +618,15 @@ A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ st
 
    $$1.5696\,\mathrm N$$
 
-**Answer:** $1.5696\,\mathrm N$
+**Result:** $1.5696\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$33.7464\,\mathrm N$** — This reports buoyancy, not the remaining support force.
-- **$69.0624\,\mathrm N$** — Weight and buoyancy oppose each other.
-- **$35.316\,\mathrm N$** — This ignores buoyancy.
+<section class="worked-application">
 
-<h4 id="solution-m1h23">Situation 23: A block across a liquid interface · After the support is removed, find the equilibrium fraction in the lower liquid</h4>
+<h4 id="solution-m1h23">Worked application 23: A block across a liquid interface · After the support is removed, the equilibrium fraction in the lower liquid</h4>
 
-A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. After the support is removed, find the equilibrium fraction in the lower liquid.
+A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. After the support is removed, the calculation determines the equilibrium fraction in the lower liquid.
 
 1. **Identify the model and the conditions.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -676,17 +648,15 @@ A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ st
 
    $$0.5$$
 
-**Answer:** $0.5$
+**Result:** $0.5$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.9$** — This assumes that the rest of the displaced volume is air.
-- **$0.3$** — The original position needed a nonzero support force.
-- **$1.125$** — This uses only the upper liquid and can exceed a possible fraction.
+<section class="worked-application">
 
-<h4 id="solution-m1h24">Situation 24: A block across a liquid interface · Starting from unsupported interface equilibrium, find the added mass needed to make the block just fully enter the lower liquid</h4>
+<h4 id="solution-m1h24">Worked application 24: A block across a liquid interface · Starting from unsupported interface equilibrium, the added mass needed to make the block just fully enter the lower liquid</h4>
 
-A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Starting from unsupported interface equilibrium, find the added mass needed to make the block just fully enter the lower liquid.
+A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Starting from unsupported interface equilibrium, the calculation determines the added mass needed to make the block just fully enter the lower liquid.
 
 1. **Identify the model and the conditions.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -708,17 +678,17 @@ A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ st
 
    $$0.4\,\mathrm{kg}$$
 
-**Answer:** $0.4\,\mathrm{kg}$
+**Result:** $0.4\,\mathrm{kg}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$4\,\mathrm{kg}$** — This gives the total supported mass, not the added mass.
-- **$0.8\,\mathrm{kg}$** — This uses the upper-fluid density instead of the block density.
-- **$3.6\,\mathrm{kg}$** — The existing block mass is already present.
+<section class="worked-application">
 
-<h4 id="solution-m1h25">Situation 25: A block across a liquid interface · model check</h4>
+<h4 id="solution-m1h25">Worked application 25: A block across a liquid interface · model and interpretation</h4>
 
-A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Why does the unsupported block move farther into the lower liquid?
+A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.3$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$.
+
+Removing the support changes the equilibrium position; the lower-liquid displaced volume controls the buoyancy increase.
 
 1. **Identify what stays fixed.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -732,17 +702,15 @@ A rigid block of volume $V=0.004\,\mathrm{m^3}$ and mass $m=3.6\,\mathrm{kg}$ st
 
 4. **Apply the conclusion.** Increasing the lower-liquid fraction raises the displaced-fluid weight.
 
-**Answer:** The original buoyancy is below the weight; the lower liquid increases buoyancy as its displaced share grows.
+**Result:** The original buoyancy is below the weight; the lower liquid increases buoyancy as its displaced share grows.
 
-**Why the other answers do not work:**
+</section>
 
-- **Greater absolute pressure always increases buoyancy on a fully submerged rigid body.** — Here the relevant change is the displaced density distribution.
-- **The upper liquid supplies no buoyant force.** — It supplies the weight of its displaced volume.
-- **The block must sink indefinitely because its density exceeds that of the upper liquid.** — Its density remains below that of the lower liquid, allowing interface equilibrium.
+<section class="worked-application">
 
-<h4 id="solution-m1h26">Situation 26: A block across a liquid interface · Find the total buoyant force</h4>
+<h4 id="solution-m1h26">Worked application 26: A block across a liquid interface · the total buoyant force</h4>
 
-A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the total buoyant force.
+A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the total buoyant force.
 
 1. **Identify the model and the conditions.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -764,17 +732,15 @@ A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ st
 
    $$49.4424\,\mathrm N$$
 
-**Answer:** $49.4424\,\mathrm N$
+**Result:** $49.4424\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$58.86\,\mathrm N$** — This treats the whole block as submerged in the denser liquid.
-- **$47.088\,\mathrm N$** — This ignores the lower-liquid volume.
-- **$52.974\,\mathrm N$** — Weight equals buoyancy only when no support force is needed.
+<section class="worked-application">
 
-<h4 id="solution-m1h27">Situation 27: A block across a liquid interface · Find the upper-support tension magnitude</h4>
+<h4 id="solution-m1h27">Worked application 27: A block across a liquid interface · the upper-support tension magnitude</h4>
 
-A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the upper-support tension magnitude.
+A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the upper-support tension magnitude.
 
 1. **Identify the model and the conditions.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -796,17 +762,15 @@ A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ st
 
    $$3.5316\,\mathrm N$$
 
-**Answer:** $3.5316\,\mathrm N$
+**Result:** $3.5316\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$49.4424\,\mathrm N$** — This reports buoyancy, not the remaining support force.
-- **$102.416\,\mathrm N$** — Weight and buoyancy oppose each other.
-- **$52.974\,\mathrm N$** — This ignores buoyancy.
+<section class="worked-application">
 
-<h4 id="solution-m1h28">Situation 28: A block across a liquid interface · After the support is removed, find the equilibrium fraction in the lower liquid</h4>
+<h4 id="solution-m1h28">Worked application 28: A block across a liquid interface · After the support is removed, the equilibrium fraction in the lower liquid</h4>
 
-A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. After the support is removed, find the equilibrium fraction in the lower liquid.
+A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. After the support is removed, the calculation determines the equilibrium fraction in the lower liquid.
 
 1. **Identify the model and the conditions.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -828,17 +792,15 @@ A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ st
 
    $$0.5$$
 
-**Answer:** $0.5$
+**Result:** $0.5$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.9$** — This assumes that the rest of the displaced volume is air.
-- **$0.2$** — The original position needed a nonzero support force.
-- **$1.125$** — This uses only the upper liquid and can exceed a possible fraction.
+<section class="worked-application">
 
-<h4 id="solution-m1h29">Situation 29: A block across a liquid interface · Starting from unsupported interface equilibrium, find the added mass needed to make the block just fully enter the lower liquid</h4>
+<h4 id="solution-m1h29">Worked application 29: A block across a liquid interface · Starting from unsupported interface equilibrium, the added mass needed to make the block just fully enter the lower liquid</h4>
 
-A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Starting from unsupported interface equilibrium, find the added mass needed to make the block just fully enter the lower liquid.
+A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Starting from unsupported interface equilibrium, the calculation determines the added mass needed to make the block just fully enter the lower liquid.
 
 1. **Identify the model and the conditions.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -860,17 +822,17 @@ A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ st
 
    $$0.6\,\mathrm{kg}$$
 
-**Answer:** $0.6\,\mathrm{kg}$
+**Result:** $0.6\,\mathrm{kg}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$6\,\mathrm{kg}$** — This gives the total supported mass, not the added mass.
-- **$1.2\,\mathrm{kg}$** — This uses the upper-fluid density instead of the block density.
-- **$5.4\,\mathrm{kg}$** — The existing block mass is already present.
+<section class="worked-application">
 
-<h4 id="solution-m1h30">Situation 30: A block across a liquid interface · model check</h4>
+<h4 id="solution-m1h30">Worked application 30: A block across a liquid interface · model and interpretation</h4>
 
-A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$. Why does the unsupported block move farther into the lower liquid?
+A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ straddles two deep immiscible liquids. The upper liquid has density $800\,\mathrm{kg\,m^{-3}}$; the lower liquid has density $1000\,\mathrm{kg\,m^{-3}}$. Fraction $f=0.2$ of the block volume lies in the lower liquid. The rest lies in the upper liquid. An upper support holds the block at rest. Ignore surface tension; use $g=9.81\,\mathrm{m\,s^{-2}}$.
+
+Removing the support changes the equilibrium position; the lower-liquid displaced volume controls the buoyancy increase.
 
 1. **Identify what stays fixed.** Add buoyancy from each displaced liquid. The upper support supplies any remaining upward force.
 
@@ -884,17 +846,15 @@ A rigid block of volume $V=0.006\,\mathrm{m^3}$ and mass $m=5.4\,\mathrm{kg}$ st
 
 4. **Apply the conclusion.** Increasing the lower-liquid fraction raises the displaced-fluid weight.
 
-**Answer:** The original buoyancy is below the weight; the lower liquid increases buoyancy as its displaced share grows.
+**Result:** The original buoyancy is below the weight; the lower liquid increases buoyancy as its displaced share grows.
 
-**Why the other answers do not work:**
+</section>
 
-- **Greater absolute pressure always increases buoyancy on a fully submerged rigid body.** — Here the relevant change is the displaced density distribution.
-- **The upper liquid supplies no buoyant force.** — It supplies the weight of its displaced volume.
-- **The block must sink indefinitely because its density exceeds that of the upper liquid.** — Its density remains below that of the lower liquid, allowing interface equilibrium.
+<section class="worked-application">
 
-<h4 id="solution-m1h31">Situation 31: Hydraulics with an elevated load · Find the input gauge pressure</h4>
+<h4 id="solution-m1h31">Worked application 31: Hydraulics with an elevated load · the input gauge pressure</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Find the input gauge pressure.
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model. The calculation determines the input gauge pressure.
 
 1. **Identify the model and the conditions.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -920,17 +880,15 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
    $$230126\,\mathrm{Pa}$$
 
-**Answer:** $230126\,\mathrm{Pa}$
+**Result:** $230126\,\mathrm{Pa}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$224829\,\mathrm{Pa}$** — This ignores the higher output elevation.
-- **$219531\,\mathrm{Pa}$** — This reverses the hydrostatic sign.
-- **$331426\,\mathrm{Pa}$** — This gives absolute rather than gauge pressure.
+<section class="worked-application">
 
-<h4 id="solution-m1h32">Situation 32: Hydraulics with an elevated load · Find the required input force</h4>
+<h4 id="solution-m1h32">Worked application 32: Hydraulics with an elevated load · the required input force</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Find the required input force.
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model. The calculation determines the required input force.
 
 1. **Identify the model and the conditions.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -956,17 +914,15 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
    $$72.2962\,\mathrm N$$
 
-**Answer:** $72.2962\,\mathrm N$
+**Result:** $72.2962\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$70.632\,\mathrm N$** — This ignores the elevation difference.
-- **$353.16\,\mathrm N$** — This uses diameter rather than area ratio.
-- **$1807.41\,\mathrm N$** — This applies input pressure to the output area.
+<section class="worked-application">
 
-<h4 id="solution-m1h33">Situation 33: Hydraulics with an elevated load · Find the input piston speed</h4>
+<h4 id="solution-m1h33">Worked application 33: Hydraulics with an elevated load · the input piston speed</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Find the input piston speed.
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model. The calculation determines the input piston speed.
 
 1. **Identify the model and the conditions.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -992,17 +948,15 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
    $$0.1\,\mathrm{m\,s^{-1}}$$
 
-**Answer:** $0.1\,\mathrm{m\,s^{-1}}$
+**Result:** $0.1\,\mathrm{m\,s^{-1}}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.02\,\mathrm{m\,s^{-1}}$** — This uses the diameter ratio only once.
-- **$1.6\times10^{-4}\,\mathrm{m\,s^{-1}}$** — This reverses volume continuity.
-- **$0.004\,\mathrm{m\,s^{-1}}$** — Unequal areas do not have equal speeds.
+<section class="worked-application">
 
-<h4 id="solution-m1h34">Situation 34: Hydraulics with an elevated load · Find the instantaneous input mechanical power</h4>
+<h4 id="solution-m1h34">Worked application 34: Hydraulics with an elevated load · the instantaneous input mechanical power</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Find the instantaneous input mechanical power.
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model. The calculation determines the instantaneous input mechanical power.
 
 1. **Identify the model and the conditions.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -1028,17 +982,17 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
    $$7.22962\,\mathrm W$$
 
-**Answer:** $7.22962\,\mathrm W$
+**Result:** $7.22962\,\mathrm W$
 
-**Why the other answers do not work:**
+</section>
 
-- **$7.0632\,\mathrm W$** — This omits the instantaneous gravitational-energy transfer to the elevated oil flow.
-- **$0.289185\,\mathrm W$** — This combines the input force with the output speed.
-- **$176.58\,\mathrm W$** — This combines the output force with the input speed.
+<section class="worked-application">
 
-<h4 id="solution-m1h35">Situation 35: Hydraulics with an elevated load · model check</h4>
+<h4 id="solution-m1h35">Worked application 35: Hydraulics with an elevated load · model and interpretation</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Why is the usual equal-gauge-pressure piston formula insufficient here?
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.02 m and 0.1 m. A 180 kg load rests on the output piston. At this instant the output face is 0.6 m above the input face and rises at 0.004 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model.
+
+The different piston elevations introduce a hydrostatic pressure difference in addition to the applied pressure change.
 
 1. **Identify what stays fixed.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -1056,17 +1010,15 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
 5. **Apply the conclusion.** Pascal transmission does not remove hydrostatic pressure variation.
 
-**Answer:** The piston faces have different elevations, so the stationary-fluid pressure includes a height difference.
+**Result:** The piston faces have different elevations, so the stationary-fluid pressure includes a height difference.
 
-**Why the other answers do not work:**
+</section>
 
-- **An ideal hydraulic liquid has zero density.** — The problem supplies a nonzero oil density.
-- **Piston pressure is proportional to diameter.** — Pressure is force divided by area.
-- **Atmosphere adds a net lifting force on only the input piston.** — The same atmospheric reference acts above both pistons.
+<section class="worked-application">
 
-<h4 id="solution-m1h36">Situation 36: Hydraulics with an elevated load · Find the input gauge pressure</h4>
+<h4 id="solution-m1h36">Worked application 36: Hydraulics with an elevated load · the input gauge pressure</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Find the input gauge pressure.
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model. The calculation determines the input gauge pressure.
 
 1. **Identify the model and the conditions.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -1092,17 +1044,15 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
    $$198917\,\mathrm{Pa}$$
 
-**Answer:** $198917\,\mathrm{Pa}$
+**Result:** $198917\,\mathrm{Pa}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$191854\,\mathrm{Pa}$** — This ignores the higher output elevation.
-- **$184791\,\mathrm{Pa}$** — This reverses the hydrostatic sign.
-- **$300217\,\mathrm{Pa}$** — This gives absolute rather than gauge pressure.
+<section class="worked-application">
 
-<h4 id="solution-m1h37">Situation 37: Hydraulics with an elevated load · Find the required input force</h4>
+<h4 id="solution-m1h37">Worked application 37: Hydraulics with an elevated load · the required input force</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Find the required input force.
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model. The calculation determines the required input force.
 
 1. **Identify the model and the conditions.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -1128,17 +1078,15 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
    $$97.6431\,\mathrm N$$
 
-**Answer:** $97.6431\,\mathrm N$
+**Result:** $97.6431\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$94.176\,\mathrm N$** — This ignores the elevation difference.
-- **$470.88\,\mathrm N$** — This uses diameter rather than area ratio.
-- **$2441.08\,\mathrm N$** — This applies input pressure to the output area.
+<section class="worked-application">
 
-<h4 id="solution-m1h38">Situation 38: Hydraulics with an elevated load · Find the input piston speed</h4>
+<h4 id="solution-m1h38">Worked application 38: Hydraulics with an elevated load · the input piston speed</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Find the input piston speed.
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model. The calculation determines the input piston speed.
 
 1. **Identify the model and the conditions.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -1164,17 +1112,15 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
    $$0.075\,\mathrm{m\,s^{-1}}$$
 
-**Answer:** $0.075\,\mathrm{m\,s^{-1}}$
+**Result:** $0.075\,\mathrm{m\,s^{-1}}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.015\,\mathrm{m\,s^{-1}}$** — This uses the diameter ratio only once.
-- **$1.2\times10^{-4}\,\mathrm{m\,s^{-1}}$** — This reverses volume continuity.
-- **$0.003\,\mathrm{m\,s^{-1}}$** — Unequal areas do not have equal speeds.
+<section class="worked-application">
 
-<h4 id="solution-m1h39">Situation 39: Hydraulics with an elevated load · Find the instantaneous input mechanical power</h4>
+<h4 id="solution-m1h39">Worked application 39: Hydraulics with an elevated load · the instantaneous input mechanical power</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Find the instantaneous input mechanical power.
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model. The calculation determines the instantaneous input mechanical power.
 
 1. **Identify the model and the conditions.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -1200,17 +1146,17 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
    $$7.32324\,\mathrm W$$
 
-**Answer:** $7.32324\,\mathrm W$
+**Result:** $7.32324\,\mathrm W$
 
-**Why the other answers do not work:**
+</section>
 
-- **$7.0632\,\mathrm W$** — This omits the instantaneous gravitational-energy transfer to the elevated oil flow.
-- **$0.292929\,\mathrm W$** — This combines the input force with the output speed.
-- **$176.58\,\mathrm W$** — This combines the output force with the input speed.
+<section class="worked-application">
 
-<h4 id="solution-m1h40">Situation 40: Hydraulics with an elevated load · model check</h4>
+<h4 id="solution-m1h40">Worked application 40: Hydraulics with an elevated load · model and interpretation</h4>
 
-An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Evaluate instantaneous quantities with the quasistatic model. Why is the usual equal-gauge-pressure piston formula insufficient here?
+An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Input and output piston diameters are 0.025 m and 0.125 m. A 240 kg load rests on the output piston. At this instant the output face is 0.8 m above the input face and rises at 0.003 m/s. Atmosphere acts above both pistons. Ignore piston masses and losses. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The instantaneous calculation uses the quasistatic model.
+
+The different piston elevations introduce a hydrostatic pressure difference in addition to the applied pressure change.
 
 1. **Identify what stays fixed.** Use gauge pressure. The higher piston has lower oil pressure; piston areas scale with diameter squared.
 
@@ -1228,17 +1174,15 @@ An ideal hydraulic lift contains oil of density $900\,\mathrm{kg\,m^{-3}}$. Inpu
 
 5. **Apply the conclusion.** Pascal transmission does not remove hydrostatic pressure variation.
 
-**Answer:** The piston faces have different elevations, so the stationary-fluid pressure includes a height difference.
+**Result:** The piston faces have different elevations, so the stationary-fluid pressure includes a height difference.
 
-**Why the other answers do not work:**
+</section>
 
-- **An ideal hydraulic liquid has zero density.** — The problem supplies a nonzero oil density.
-- **Piston pressure is proportional to diameter.** — Pressure is force divided by area.
-- **Atmosphere adds a net lifting force on only the input piston.** — The same atmospheric reference acts above both pistons.
+<section class="worked-application">
 
-<h4 id="solution-m1h41">Situation 41: Infer densities from scale readings · Find the object volume</h4>
+<h4 id="solution-m1h41">Worked application 41: Infer densities from scale readings · the object volume</h4>
 
-A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Find the object volume.
+A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. The calculation determines the object volume.
 
 1. **Identify the model and the conditions.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1264,17 +1208,15 @@ A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged
 
    $$8.15494\times10^{-4}\,\mathrm{m^3}$$
 
-**Answer:** $8.15494\times10^{-4}\,\mathrm{m^3}$
+**Result:** $8.15494\times10^{-4}\,\mathrm{m^3}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.00244648\,\mathrm{m^3}$** — This treats the whole weight as the displaced-water weight.
-- **$0.00163099\,\mathrm{m^3}$** — This uses tension instead of the weight loss.
-- **$0.008\,\mathrm{m^3}$** — This omits g and gives the wrong dimensions.
+<section class="worked-application">
 
-<h4 id="solution-m1h42">Situation 42: Infer densities from scale readings · Find the object density</h4>
+<h4 id="solution-m1h42">Worked application 42: Infer densities from scale readings · the object density</h4>
 
-A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Find the object density.
+A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. The calculation determines the object density.
 
 1. **Identify the model and the conditions.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1300,17 +1242,15 @@ A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged
 
    $$3000\,\mathrm{kg\,m^{-3}}$$
 
-**Answer:** $3000\,\mathrm{kg\,m^{-3}}$
+**Result:** $3000\,\mathrm{kg\,m^{-3}}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$2000\,\mathrm{kg\,m^{-3}}$** — This uses apparent weight as the true weight.
-- **$1500\,\mathrm{kg\,m^{-3}}$** — This uses the wrong denominator.
-- **$1000\,\mathrm{kg\,m^{-3}}$** — The object is not neutrally buoyant in water.
+<section class="worked-application">
 
-<h4 id="solution-m1h43">Situation 43: Infer densities from scale readings · Find the unknown-liquid density</h4>
+<h4 id="solution-m1h43">Worked application 43: Infer densities from scale readings · the unknown-liquid density</h4>
 
-A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Find the unknown-liquid density.
+A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. The calculation determines the unknown-liquid density.
 
 1. **Identify the model and the conditions.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1336,17 +1276,15 @@ A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged
 
    $$750\,\mathrm{kg\,m^{-3}}$$
 
-**Answer:** $750\,\mathrm{kg\,m^{-3}}$
+**Result:** $750\,\mathrm{kg\,m^{-3}}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$1125\,\mathrm{kg\,m^{-3}}$** — Tension ratios are not buoyancy ratios.
-- **$1333.33\,\mathrm{kg\,m^{-3}}$** — This inverts the ratio of the buoyant forces.
-- **$3000\,\mathrm{kg\,m^{-3}}$** — This gives the object density rather than the liquid density.
+<section class="worked-application">
 
-<h4 id="solution-m1h44">Situation 44: Infer densities from scale readings · Predict the scale reading in the third liquid</h4>
+<h4 id="solution-m1h44">Worked application 44: Infer densities from scale readings · Predict the scale reading in the third liquid</h4>
 
-A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Predict the scale reading in the third liquid.
+A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. The calculation predicts the scale reading in the third liquid.
 
 1. **Identify the model and the conditions.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1372,17 +1310,17 @@ A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged
 
    $$17.6\,\mathrm N$$
 
-**Answer:** $17.6\,\mathrm N$
+**Result:** $17.6\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$6.4\,\mathrm N$** — This gives buoyancy rather than tension.
-- **$30.4\,\mathrm N$** — Buoyancy reduces the required upper-support force.
-- **$16\,\mathrm N$** — The third liquid and water have different densities.
+<section class="worked-application">
 
-<h4 id="solution-m1h45">Situation 45: Infer densities from scale readings · model check</h4>
+<h4 id="solution-m1h45">Worked application 45: Infer densities from scale readings · model and interpretation</h4>
 
-A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Which change invalidates the equal-displaced-volume comparison?
+A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged in water and 18 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$.
+
+The equal-displaced-volume comparison depends on keeping the immersed volume unchanged.
 
 1. **Identify what stays fixed.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1400,17 +1338,15 @@ A rigid object weighs 24 N in air. A scale reads 16 N when it is fully submerged
 
 5. **Apply the conclusion.** The buoyancy ratio assumes the same displaced volume in both liquids.
 
-**Answer:** The object traps a compressible gas pocket whose volume changes between tests.
+**Result:** The object traps a compressible gas pocket whose volume changes between tests.
 
-**Why the other answers do not work:**
+</section>
 
-- **The scale readings differ.** — Different readings are the information used to compare the liquids.
-- **The unknown liquid is less dense than water.** — The method allows different fluid densities.
-- **The true object weight stays constant.** — A fixed true weight is part of the comparison.
+<section class="worked-application">
 
-<h4 id="solution-m1h46">Situation 46: Infer densities from scale readings · Find the object volume</h4>
+<h4 id="solution-m1h46">Worked application 46: Infer densities from scale readings · the object volume</h4>
 
-A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Find the object volume.
+A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. The calculation determines the object volume.
 
 1. **Identify the model and the conditions.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1436,17 +1372,15 @@ A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged
 
    $$0.00122324\,\mathrm{m^3}$$
 
-**Answer:** $0.00122324\,\mathrm{m^3}$
+**Result:** $0.00122324\,\mathrm{m^3}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.00366972\,\mathrm{m^3}$** — This treats the whole weight as the displaced-water weight.
-- **$0.00244648\,\mathrm{m^3}$** — This uses tension instead of the weight loss.
-- **$0.012\,\mathrm{m^3}$** — This omits g and gives the wrong dimensions.
+<section class="worked-application">
 
-<h4 id="solution-m1h47">Situation 47: Infer densities from scale readings · Find the object density</h4>
+<h4 id="solution-m1h47">Worked application 47: Infer densities from scale readings · the object density</h4>
 
-A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Find the object density.
+A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. The calculation determines the object density.
 
 1. **Identify the model and the conditions.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1472,17 +1406,15 @@ A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged
 
    $$3000\,\mathrm{kg\,m^{-3}}$$
 
-**Answer:** $3000\,\mathrm{kg\,m^{-3}}$
+**Result:** $3000\,\mathrm{kg\,m^{-3}}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$2000\,\mathrm{kg\,m^{-3}}$** — This uses apparent weight as the true weight.
-- **$1500\,\mathrm{kg\,m^{-3}}$** — This uses the wrong denominator.
-- **$1000\,\mathrm{kg\,m^{-3}}$** — The object is not neutrally buoyant in water.
+<section class="worked-application">
 
-<h4 id="solution-m1h48">Situation 48: Infer densities from scale readings · Find the unknown-liquid density</h4>
+<h4 id="solution-m1h48">Worked application 48: Infer densities from scale readings · the unknown-liquid density</h4>
 
-A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Find the unknown-liquid density.
+A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. The calculation determines the unknown-liquid density.
 
 1. **Identify the model and the conditions.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1508,17 +1440,15 @@ A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged
 
    $$750\,\mathrm{kg\,m^{-3}}$$
 
-**Answer:** $750\,\mathrm{kg\,m^{-3}}$
+**Result:** $750\,\mathrm{kg\,m^{-3}}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$1125\,\mathrm{kg\,m^{-3}}$** — Tension ratios are not buoyancy ratios.
-- **$1333.33\,\mathrm{kg\,m^{-3}}$** — This inverts the ratio of the buoyant forces.
-- **$3000\,\mathrm{kg\,m^{-3}}$** — This gives the object density rather than the liquid density.
+<section class="worked-application">
 
-<h4 id="solution-m1h49">Situation 49: Infer densities from scale readings · Predict the scale reading in the third liquid</h4>
+<h4 id="solution-m1h49">Worked application 49: Infer densities from scale readings · Predict the scale reading in the third liquid</h4>
 
-A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Predict the scale reading in the third liquid.
+A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. The calculation predicts the scale reading in the third liquid.
 
 1. **Identify the model and the conditions.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1544,17 +1474,17 @@ A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged
 
    $$26.4\,\mathrm N$$
 
-**Answer:** $26.4\,\mathrm N$
+**Result:** $26.4\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$9.6\,\mathrm N$** — This gives buoyancy rather than tension.
-- **$45.6\,\mathrm N$** — Buoyancy reduces the required upper-support force.
-- **$24\,\mathrm N$** — The third liquid and water have different densities.
+<section class="worked-application">
 
-<h4 id="solution-m1h50">Situation 50: Infer densities from scale readings · model check</h4>
+<h4 id="solution-m1h50">Worked application 50: Infer densities from scale readings · model and interpretation</h4>
 
-A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$. Which change invalidates the equal-displaced-volume comparison?
+A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged in water and 27 N in an unknown liquid. The object hangs from above without touching a container. Ignore air buoyancy. Use water density $1000\,\mathrm{kg\,m^{-3}}$ and $g=9.81\,\mathrm{m\,s^{-2}}$. A third liquid has density $800\,\mathrm{kg\,m^{-3}}$.
+
+The equal-displaced-volume comparison depends on keeping the immersed volume unchanged.
 
 1. **Identify what stays fixed.** The apparent-weight loss equals buoyancy. The same rigid object displaces the same volume in each liquid.
 
@@ -1572,17 +1502,15 @@ A rigid object weighs 36 N in air. A scale reads 24 N when it is fully submerged
 
 5. **Apply the conclusion.** The buoyancy ratio assumes the same displaced volume in both liquids.
 
-**Answer:** The object traps a compressible gas pocket whose volume changes between tests.
+**Result:** The object traps a compressible gas pocket whose volume changes between tests.
 
-**Why the other answers do not work:**
+</section>
 
-- **The scale readings differ.** — Different readings are the information used to compare the liquids.
-- **The unknown liquid is less dense than water.** — The method allows different fluid densities.
-- **The true object weight stays constant.** — A fixed true weight is part of the comparison.
+<section class="worked-application">
 
-<h4 id="solution-m1h51">Situation 51: Load capacity and freeboard · Find the submerged volume fraction</h4>
+<h4 id="solution-m1h51">Worked application 51: Load capacity and freeboard · the submerged volume fraction</h4>
 
-A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the submerged volume fraction.
+A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the submerged volume fraction.
 
 1. **Identify the model and the conditions.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1604,17 +1532,15 @@ A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and ma
 
    $$0.65$$
 
-**Answer:** $0.65$
+**Result:** $0.65$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.4$** — This ignores the carried load.
-- **$0.25$** — This ignores the raft mass.
-- **$1.53846$** — This reverses the submerged fraction.
+<section class="worked-application">
 
-<h4 id="solution-m1h52">Situation 52: Load capacity and freeboard · Find the freeboard height above water</h4>
+<h4 id="solution-m1h52">Worked application 52: Load capacity and freeboard · the freeboard height above water</h4>
 
-A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the freeboard height above water.
+A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the freeboard height above water.
 
 1. **Identify the model and the conditions.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1636,17 +1562,15 @@ A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and ma
 
    $$0.14\,\mathrm m$$
 
-**Answer:** $0.14\,\mathrm m$
+**Result:** $0.14\,\mathrm m$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.26\,\mathrm m$** — This gives the submerged depth.
-- **$0.4\,\mathrm m$** — This gives the total raft thickness.
-- **$0.3\,\mathrm m$** — This omits the raft’s own displaced-water requirement.
+<section class="worked-application">
 
-<h4 id="solution-m1h53">Situation 53: Load capacity and freeboard · Find the additional load mass that brings the top just to water level</h4>
+<h4 id="solution-m1h53">Worked application 53: Load capacity and freeboard · the additional load mass that brings the top just to water level</h4>
 
-A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the additional load mass that brings the top just to water level.
+A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the additional load mass that brings the top just to water level.
 
 1. **Identify the model and the conditions.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1668,17 +1592,15 @@ A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and ma
 
    $$140\,\mathrm{kg}$$
 
-**Answer:** $140\,\mathrm{kg}$
+**Result:** $140\,\mathrm{kg}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$400\,\mathrm{kg}$** — This is total displacement capacity, not remaining capacity.
-- **$300\,\mathrm{kg}$** — This omits the raft mass.
-- **$240\,\mathrm{kg}$** — This omits the existing payload.
+<section class="worked-application">
 
-<h4 id="solution-m1h54">Situation 54: Load capacity and freeboard · Find the present total buoyant force</h4>
+<h4 id="solution-m1h54">Worked application 54: Load capacity and freeboard · the present total buoyant force</h4>
 
-A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the present total buoyant force.
+A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the present total buoyant force.
 
 1. **Identify the model and the conditions.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1700,17 +1622,17 @@ A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and ma
 
    $$2550.6\,\mathrm N$$
 
-**Answer:** $2550.6\,\mathrm N$
+**Result:** $2550.6\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$1569.6\,\mathrm N$** — This supports only the raft, not its load.
-- **$3924\,\mathrm N$** — This assumes full submergence.
-- **$981\,\mathrm N$** — This supports only the load.
+<section class="worked-application">
 
-<h4 id="solution-m1h55">Situation 55: Load capacity and freeboard · model check</h4>
+<h4 id="solution-m1h55">Worked application 55: Load capacity and freeboard · model and interpretation</h4>
 
-A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. What happens to freeboard when the same extra dry load is added in denser water?
+A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 100 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$.
+
+The freeboard comparison uses the same extra dry load in denser water.
 
 1. **Identify what stays fixed.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1724,17 +1646,15 @@ A uniform rectangular raft has volume 0.4 m³, horizontal top area 1 m², and ma
 
 4. **Apply the conclusion.** The added displaced volume is added mass divided by fluid density.
 
-**Answer:** The freeboard decreases by a smaller amount than in freshwater.
+**Result:** The freeboard decreases by a smaller amount than in freshwater.
 
-**Why the other answers do not work:**
+</section>
 
-- **The freeboard decreases by the same amount in every liquid.** — Displacement depends on fluid density.
-- **The raft volume increases to support the added load.** — The model treats the raft as rigid.
-- **The load mass disappears from the force balance.** — The liquid must support both raft and load.
+<section class="worked-application">
 
-<h4 id="solution-m1h56">Situation 56: Load capacity and freeboard · Find the submerged volume fraction</h4>
+<h4 id="solution-m1h56">Worked application 56: Load capacity and freeboard · the submerged volume fraction</h4>
 
-A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the submerged volume fraction.
+A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the submerged volume fraction.
 
 1. **Identify the model and the conditions.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1756,17 +1676,15 @@ A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and 
 
    $$0.666667$$
 
-**Answer:** $0.666667$
+**Result:** $0.666667$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.4$** — This ignores the carried load.
-- **$0.266667$** — This ignores the raft mass.
-- **$1.5$** — This reverses the submerged fraction.
+<section class="worked-application">
 
-<h4 id="solution-m1h57">Situation 57: Load capacity and freeboard · Find the freeboard height above water</h4>
+<h4 id="solution-m1h57">Worked application 57: Load capacity and freeboard · the freeboard height above water</h4>
 
-A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the freeboard height above water.
+A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the freeboard height above water.
 
 1. **Identify the model and the conditions.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1788,17 +1706,15 @@ A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and 
 
    $$0.133333\,\mathrm m$$
 
-**Answer:** $0.133333\,\mathrm m$
+**Result:** $0.133333\,\mathrm m$
 
-**Why the other answers do not work:**
+</section>
 
-- **$0.266667\,\mathrm m$** — This gives the submerged depth.
-- **$0.4\,\mathrm m$** — This gives the total raft thickness.
-- **$0.293333\,\mathrm m$** — This omits the raft’s own displaced-water requirement.
+<section class="worked-application">
 
-<h4 id="solution-m1h58">Situation 58: Load capacity and freeboard · Find the additional load mass that brings the top just to water level</h4>
+<h4 id="solution-m1h58">Worked application 58: Load capacity and freeboard · the additional load mass that brings the top just to water level</h4>
 
-A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the additional load mass that brings the top just to water level.
+A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the additional load mass that brings the top just to water level.
 
 1. **Identify the model and the conditions.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1820,17 +1736,15 @@ A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and 
 
    $$200\,\mathrm{kg}$$
 
-**Answer:** $200\,\mathrm{kg}$
+**Result:** $200\,\mathrm{kg}$
 
-**Why the other answers do not work:**
+</section>
 
-- **$600\,\mathrm{kg}$** — This is total displacement capacity, not remaining capacity.
-- **$440\,\mathrm{kg}$** — This omits the raft mass.
-- **$360\,\mathrm{kg}$** — This omits the existing payload.
+<section class="worked-application">
 
-<h4 id="solution-m1h59">Situation 59: Load capacity and freeboard · Find the present total buoyant force</h4>
+<h4 id="solution-m1h59">Worked application 59: Load capacity and freeboard · the present total buoyant force</h4>
 
-A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the present total buoyant force.
+A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. The calculation determines the present total buoyant force.
 
 1. **Identify the model and the conditions.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1852,17 +1766,17 @@ A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and 
 
    $$3924\,\mathrm N$$
 
-**Answer:** $3924\,\mathrm N$
+**Result:** $3924\,\mathrm N$
 
-**Why the other answers do not work:**
+</section>
 
-- **$2354.4\,\mathrm N$** — This supports only the raft, not its load.
-- **$5886\,\mathrm N$** — This assumes full submergence.
-- **$1569.6\,\mathrm N$** — This supports only the load.
+<section class="worked-application">
 
-<h4 id="solution-m1h60">Situation 60: Load capacity and freeboard · model check</h4>
+<h4 id="solution-m1h60">Worked application 60: Load capacity and freeboard · model and interpretation</h4>
 
-A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$. What happens to freeboard when the same extra dry load is added in denser water?
+A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and material density $400\,\mathrm{kg\,m^{-3}}$. It carries a 160 kg load in freshwater of density $1000\,\mathrm{kg\,m^{-3}}$. The load stays dry. Ignore waves, tilt, and water absorption. Use $g=9.81\,\mathrm{m\,s^{-2}}$.
+
+The freeboard comparison uses the same extra dry load in denser water.
 
 1. **Identify what stays fixed.** A freely floating raft displaces water whose mass equals the raft-plus-load mass.
 
@@ -1876,11 +1790,7 @@ A uniform rectangular raft has volume 0.6 m³, horizontal top area 1.5 m², and 
 
 4. **Apply the conclusion.** The added displaced volume is added mass divided by fluid density.
 
-**Answer:** The freeboard decreases by a smaller amount than in freshwater.
+**Result:** The freeboard decreases by a smaller amount than in freshwater.
 
-**Why the other answers do not work:**
-
-- **The freeboard decreases by the same amount in every liquid.** — Displacement depends on fluid density.
-- **The raft volume increases to support the added load.** — The model treats the raft as rigid.
-- **The load mass disappears from the force balance.** — The liquid must support both raft and load.
+</section>
 

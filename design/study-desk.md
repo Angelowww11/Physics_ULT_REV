@@ -1,20 +1,20 @@
 # Study desk direction
 
-Mode: Read, with a practice margin.
+Mode: Read complete notes. Open practice separately.
 
-Confirmed entry: full reviewer notes, with practice alongside.
+Confirmed entry: full reviewer notes, with practice on a separate page.
 
 Keep the existing visual identity. This is a specified extension, not a replacement brand or a copy of TOPCIT Sprint.
 
 ## First viewport
 
-Show the course index on the left. Show the current module's full notes in the center. Show one source-based check on the right.
+Show the course index on the left. Show the current module’s full notes in one reading column. Keep quiz questions on the Practice page.
 
-The notes lead. The practice margin stays narrower and quieter. Do not open with a marketing hero, readiness score, radar chart, streak, or question-setting form.
+The notes retain all derivations and worked examples. Do not open with a marketing hero, readiness score, radar chart, streak, or question-setting form.
 
 ## Review cycle
 
-Read the full explanation. Answer a check. Inspect the explanation. Record confidence. Revisit mistakes and scheduled reviews.
+Read the full explanation. Open Practice. Answer a question. Inspect the explanation. Record confidence. Revisit mistakes and scheduled reviews.
 
 ## Reference observations
 
@@ -30,6 +30,6 @@ Use code-based composition in the established visual system. The user fixes the 
 
 ## Verification
 
-Inspect desktop and phone layouts together. Verify the study check, confidence, review queue, saved sections, source viewer, exam submission, and backup restoration.
+Inspect desktop and phone layouts together. Check the separate practice page, confidence, review queue, saved sections, source viewer, exam submission, and backup restoration.
 
 Run the existing source and calculation checks. Test scheduling, filtering, storage migration, and exam persistence separately from the interface.
