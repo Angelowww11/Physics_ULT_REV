@@ -268,3 +268,1683 @@ Two isolated small charges +2.0 μC and −3.0 μC are 0.30 m apart. The +2.0 μ
 - **$17.98\,\mathrm{m\,s^{-2}}$** — The charge separation must be squared.
 - **$0.00599333\,\mathrm{m\,s^{-2}}$** — Acceleration divides force by mass.
 
+<h4 id="solution-m3h11">Situation 11: Opposing forces on a target charge · Find the signed net x force on the target</h4>
+
+A positive target charge $q=2\times10^{-9}\,\mathrm C$ of mass $1\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.06\,\mathrm m$ and $x=+0.15\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. Find the signed net x force on the target.
+
+1. **Identify the model and the conditions.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.99778\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=7.192\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=1.27858\times10^{-5}\,\mathrm N$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x=1.99778\times10^{-5}-7.192\times10^{-6}$$
+
+6. **Check the physical result.** The sign identifies the physical direction; the two force magnitudes must not simply be added.
+
+7. **State the result.**
+
+   $$1.27858\times10^{-5}\,\mathrm N$$
+
+**Answer:** $1.27858\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$2.71698\times10^{-5}\,\mathrm N$** — The two repulsive forces point in opposite directions.
+- **$-1.27858\times10^{-5}\,\mathrm N$** — This reverses the chosen right-positive axis.
+- **$1.99778\times10^{-5}\,\mathrm N$** — This ignores the right-hand source.
+
+<h4 id="solution-m3h12">Situation 12: Opposing forces on a target charge · Find the initial acceleration magnitude</h4>
+
+A positive target charge $q=2\times10^{-9}\,\mathrm C$ of mass $1\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.06\,\mathrm m$ and $x=+0.15\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. Find the initial acceleration magnitude.
+
+1. **Identify the model and the conditions.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.99778\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=7.192\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=1.27858\times10^{-5}\,\mathrm N$$
+
+5. **Solve the requested quantity.**
+
+   $$a_{\rm target}=|F_x|/m=1.27858\times10^{-5}/1\times10^{-5}$$
+
+6. **Check the physical result.** The source charges remain fixed, so only the target’s mass enters its acceleration.
+
+7. **State the result.**
+
+   $$1.27858\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $1.27858\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$2.71698\,\mathrm{m\,s^{-2}}$** — This adds opposing forces as magnitudes.
+- **$1.99778\,\mathrm{m\,s^{-2}}$** — This ignores the second source.
+- **$0.639289\,\mathrm{m\,s^{-2}}$** — Only the target mass belongs in $F=ma$; no second equal mass is present.
+
+<h4 id="solution-m3h13">Situation 13: Opposing forces on a target charge · Keeping the left source fixed, find the positive x position for the right source that makes the target force zero</h4>
+
+A positive target charge $q=2\times10^{-9}\,\mathrm C$ of mass $1\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.06\,\mathrm m$ and $x=+0.15\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. Keeping the left source fixed, find the positive x position for the right source that makes the target force zero.
+
+1. **Identify the model and the conditions.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.99778\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=7.192\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=1.27858\times10^{-5}\,\mathrm N$$
+
+5. **Solve the requested quantity.**
+
+   $$\frac{q_A}{a^2}=\frac{q_B}{b_c^2}\ \Rightarrow\ b_c=a\sqrt{q_B/q_A}=0.09\,\mathrm m$$
+
+6. **Check the physical result.** The larger source charge must be farther from the target at cancellation.
+
+7. **State the result.**
+
+   $$0.09\,\mathrm m$$
+
+**Answer:** $0.09\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.135\,\mathrm m$** — This uses a charge ratio instead of its square root.
+- **$0.04\,\mathrm m$** — This inverts the source-charge ratio.
+- **$0.06\,\mathrm m$** — Equal distances cancel only for equal source charges.
+
+<h4 id="solution-m3h14">Situation 14: Opposing forces on a target charge · If only the left-source distance doubles, find the new signed net force</h4>
+
+A positive target charge $q=2\times10^{-9}\,\mathrm C$ of mass $1\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.06\,\mathrm m$ and $x=+0.15\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. If only the left-source distance doubles, find the new signed net force.
+
+1. **Identify the model and the conditions.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.99778\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=7.192\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=1.27858\times10^{-5}\,\mathrm N$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x'=F_A/4-F_B=4.99444\times10^{-6}-7.192\times10^{-6}$$
+
+6. **Check the physical result.** Changing one source distance does not scale the whole original net force.
+
+7. **State the result.**
+
+   $$-2.19756\times10^{-6}\,\mathrm N$$
+
+**Answer:** $-2.19756\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$3.19644\times10^{-6}\,\mathrm N$** — Only the left contribution changes; the right force does not scale.
+- **$2.79689\times10^{-6}\,\mathrm N$** — Doubling distance divides the Coulomb force by four.
+- **$1.21864\times10^{-5}\,\mathrm N$** — The two contributions still oppose.
+
+<h4 id="solution-m3h15">Situation 15: Opposing forces on a target charge · model check</h4>
+
+A positive target charge $q=2\times10^{-9}\,\mathrm C$ of mass $1\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.06\,\mathrm m$ and $x=+0.15\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. If the target charge changes sign without moving any charge, what happens immediately?
+
+1. **Identify what stays fixed.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.99778\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=7.192\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=1.27858\times10^{-5}\,\mathrm N$$
+
+5. **Apply the conclusion.** Every source force is proportional to the signed target charge.
+
+**Answer:** The net force reverses; its magnitude stays the same.
+
+**Why the other answers do not work:**
+
+- **Only the larger source force reverses.** — Changing the target sign reverses every electric force on it.
+- **The zero-force source position changes.** — The nonzero target charge cancels from the force-balance condition.
+- **The source charges exchange their positions.** — Changing charge sign does not change geometry.
+
+<h4 id="solution-m3h16">Situation 16: Opposing forces on a target charge · Find the signed net x force on the target</h4>
+
+A positive target charge $q=3\times10^{-9}\,\mathrm C$ of mass $2\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.08\,\mathrm m$ and $x=+0.16\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. Find the signed net x force on the target.
+
+1. **Identify the model and the conditions.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.68562\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=9.48164\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=7.37461\times10^{-6}\,\mathrm N$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x=1.68562\times10^{-5}-9.48164\times10^{-6}$$
+
+6. **Check the physical result.** The sign identifies the physical direction; the two force magnitudes must not simply be added.
+
+7. **State the result.**
+
+   $$7.37461\times10^{-6}\,\mathrm N$$
+
+**Answer:** $7.37461\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$2.63379\times10^{-5}\,\mathrm N$** — The two repulsive forces point in opposite directions.
+- **$-7.37461\times10^{-6}\,\mathrm N$** — This reverses the chosen right-positive axis.
+- **$1.68562\times10^{-5}\,\mathrm N$** — This ignores the right-hand source.
+
+<h4 id="solution-m3h17">Situation 17: Opposing forces on a target charge · Find the initial acceleration magnitude</h4>
+
+A positive target charge $q=3\times10^{-9}\,\mathrm C$ of mass $2\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.08\,\mathrm m$ and $x=+0.16\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. Find the initial acceleration magnitude.
+
+1. **Identify the model and the conditions.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.68562\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=9.48164\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=7.37461\times10^{-6}\,\mathrm N$$
+
+5. **Solve the requested quantity.**
+
+   $$a_{\rm target}=|F_x|/m=7.37461\times10^{-6}/2\times10^{-5}$$
+
+6. **Check the physical result.** The source charges remain fixed, so only the target’s mass enters its acceleration.
+
+7. **State the result.**
+
+   $$0.36873\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $0.36873\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$1.31689\,\mathrm{m\,s^{-2}}$** — This adds opposing forces as magnitudes.
+- **$0.842812\,\mathrm{m\,s^{-2}}$** — This ignores the second source.
+- **$0.184365\,\mathrm{m\,s^{-2}}$** — Only the target mass belongs in $F=ma$; no second equal mass is present.
+
+<h4 id="solution-m3h18">Situation 18: Opposing forces on a target charge · Keeping the left source fixed, find the positive x position for the right source that makes the target force zero</h4>
+
+A positive target charge $q=3\times10^{-9}\,\mathrm C$ of mass $2\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.08\,\mathrm m$ and $x=+0.16\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. Keeping the left source fixed, find the positive x position for the right source that makes the target force zero.
+
+1. **Identify the model and the conditions.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.68562\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=9.48164\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=7.37461\times10^{-6}\,\mathrm N$$
+
+5. **Solve the requested quantity.**
+
+   $$\frac{q_A}{a^2}=\frac{q_B}{b_c^2}\ \Rightarrow\ b_c=a\sqrt{q_B/q_A}=0.12\,\mathrm m$$
+
+6. **Check the physical result.** The larger source charge must be farther from the target at cancellation.
+
+7. **State the result.**
+
+   $$0.12\,\mathrm m$$
+
+**Answer:** $0.12\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.18\,\mathrm m$** — This uses a charge ratio instead of its square root.
+- **$0.0533333\,\mathrm m$** — This inverts the source-charge ratio.
+- **$0.08\,\mathrm m$** — Equal distances cancel only for equal source charges.
+
+<h4 id="solution-m3h19">Situation 19: Opposing forces on a target charge · If only the left-source distance doubles, find the new signed net force</h4>
+
+A positive target charge $q=3\times10^{-9}\,\mathrm C$ of mass $2\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.08\,\mathrm m$ and $x=+0.16\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. If only the left-source distance doubles, find the new signed net force.
+
+1. **Identify the model and the conditions.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.68562\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=9.48164\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=7.37461\times10^{-6}\,\mathrm N$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x'=F_A/4-F_B=4.21406\times10^{-6}-9.48164\times10^{-6}$$
+
+6. **Check the physical result.** Changing one source distance does not scale the whole original net force.
+
+7. **State the result.**
+
+   $$-5.26758\times10^{-6}\,\mathrm N$$
+
+**Answer:** $-5.26758\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$1.84365\times10^{-6}\,\mathrm N$** — Only the left contribution changes; the right force does not scale.
+- **$-1.05352\times10^{-6}\,\mathrm N$** — Doubling distance divides the Coulomb force by four.
+- **$1.36957\times10^{-5}\,\mathrm N$** — The two contributions still oppose.
+
+<h4 id="solution-m3h20">Situation 20: Opposing forces on a target charge · model check</h4>
+
+A positive target charge $q=3\times10^{-9}\,\mathrm C$ of mass $2\times10^{-5}\,\mathrm{kg}$ is at the origin. Fixed positive charges $q_A=4.0\,\mathrm{nC}$ and $q_B=9.0\,\mathrm{nC}$ lie at $x=-0.08\,\mathrm m$ and $x=+0.16\,\mathrm m$. Choose right as positive. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. Ignore all other forces. If the target charge changes sign without moving any charge, what happens immediately?
+
+1. **Identify what stays fixed.** Both sources repel the positive target. Their forces oppose because the sources lie on opposite sides.
+
+2. **Calculate the rightward force from the left source.**
+
+   $$F_A=kqq_A/a^2=1.68562\times10^{-5}\,\mathrm N$$
+
+3. **Calculate the leftward force from the right source.**
+
+   $$F_B=kqq_B/b^2=9.48164\times10^{-6}\,\mathrm N$$
+
+4. **Add signed forces.**
+
+   $$F_x=F_A-F_B=7.37461\times10^{-6}\,\mathrm N$$
+
+5. **Apply the conclusion.** Every source force is proportional to the signed target charge.
+
+**Answer:** The net force reverses; its magnitude stays the same.
+
+**Why the other answers do not work:**
+
+- **Only the larger source force reverses.** — Changing the target sign reverses every electric force on it.
+- **The zero-force source position changes.** — The nonzero target charge cancels from the force-balance condition.
+- **The source charges exchange their positions.** — Changing charge sign does not change geometry.
+
+<h4 id="solution-m3h21">Situation 21: An equilateral three-charge arrangement · Find the signed net y force on the target</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.1 m. A target $-q$ at the top has mass $2\times10^{-6}\,\mathrm{kg}$. Use $Q=2\times10^{-9}\,\mathrm C$, $q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. Find the signed net y force on the target.
+
+1. **Identify the model and the conditions.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=5.394\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-9.34268\times10^{-6}\,\mathrm N,\quad F_x=0$$
+
+4. **Solve the requested quantity.**
+
+   $$F_y=-\sqrt3(5.394\times10^{-6})$$
+
+5. **Check the physical result.** The net force lies along the triangle altitude and points downward.
+
+6. **State the result.**
+
+   $$-9.34268\times10^{-6}\,\mathrm N$$
+
+**Answer:** $-9.34268\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-1.0788\times10^{-5}\,\mathrm N$** — This assumes each force is fully vertical.
+- **$-5.394\times10^{-6}\,\mathrm N$** — This misses one vertical contribution and its projection.
+- **$9.34268\times10^{-6}\,\mathrm N$** — Attraction pulls the negative target toward the base, not upward.
+
+<h4 id="solution-m3h22">Situation 22: An equilateral three-charge arrangement · Find the initial target acceleration magnitude</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.1 m. A target $-q$ at the top has mass $2\times10^{-6}\,\mathrm{kg}$. Use $Q=2\times10^{-9}\,\mathrm C$, $q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. Find the initial target acceleration magnitude.
+
+1. **Identify the model and the conditions.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=5.394\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-9.34268\times10^{-6}\,\mathrm N,\quad F_x=0$$
+
+4. **Solve the requested quantity.**
+
+   $$a_t=|F_y|/m=9.34268\times10^{-6}/2\times10^{-6}$$
+
+5. **Check the physical result.** Equal horizontal components cancel before you use the net force in Newton’s law.
+
+6. **State the result.**
+
+   $$4.67134\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $4.67134\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$5.394\,\mathrm{m\,s^{-2}}$** — This adds force magnitudes without projecting them.
+- **$2.697\,\mathrm{m\,s^{-2}}$** — This uses one source force only.
+- **$2.33567\,\mathrm{m\,s^{-2}}$** — The mass in Newton’s law is the target mass, not a doubled source count.
+
+<h4 id="solution-m3h23">Situation 23: An equilateral three-charge arrangement · Find the mutual force magnitude between the two fixed base charges</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.1 m. A target $-q$ at the top has mass $2\times10^{-6}\,\mathrm{kg}$. Use $Q=2\times10^{-9}\,\mathrm C$, $q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. Find the mutual force magnitude between the two fixed base charges.
+
+1. **Identify the model and the conditions.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=5.394\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-9.34268\times10^{-6}\,\mathrm N,\quad F_x=0$$
+
+4. **Solve the requested quantity.**
+
+   $$F_{\rm base}=kQ^2/a^2=3.596\times10^{-6}\,\mathrm N$$
+
+5. **Check the physical result.** This pair force is repulsive and uses the base-to-base distance.
+
+6. **State the result.**
+
+   $$3.596\times10^{-6}\,\mathrm N$$
+
+**Answer:** $3.596\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$5.394\times10^{-6}\,\mathrm N$** — This uses Qq rather than the product of the two base charges.
+- **$7.192\times10^{-6}\,\mathrm N$** — A force on one base charge is not twice the pair interaction.
+- **$1.19867\times10^{-6}\,\mathrm N$** — The base-charge separation is the full side length.
+
+<h4 id="solution-m3h24">Situation 24: An equilateral three-charge arrangement · If all three separations double, find the new signed net y force on the target</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.1 m. A target $-q$ at the top has mass $2\times10^{-6}\,\mathrm{kg}$. Use $Q=2\times10^{-9}\,\mathrm C$, $q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. If all three separations double, find the new signed net y force on the target.
+
+1. **Identify the model and the conditions.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=5.394\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-9.34268\times10^{-6}\,\mathrm N,\quad F_x=0$$
+
+4. **Solve the requested quantity.**
+
+   $$F_y'=F_y/2^2=-9.34268\times10^{-6}/4$$
+
+5. **Check the physical result.** The geometry angles stay fixed, so the whole force vector scales by one quarter.
+
+6. **State the result.**
+
+   $$-2.33567\times10^{-6}\,\mathrm N$$
+
+**Answer:** $-2.33567\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-4.67134\times10^{-6}\,\mathrm N$** — The force follows inverse-square scaling.
+- **$-3.73707\times10^{-5}\,\mathrm N$** — Larger separations reduce the force.
+- **$2.33567\times10^{-6}\,\mathrm N$** — Changing scale does not reverse the force direction.
+
+<h4 id="solution-m3h25">Situation 25: An equilateral three-charge arrangement · model check</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.1 m. A target $-q$ at the top has mass $2\times10^{-6}\,\mathrm{kg}$. Use $Q=2\times10^{-9}\,\mathrm C$, $q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. Why do the horizontal forces cancel?
+
+1. **Identify what stays fixed.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=5.394\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-9.34268\times10^{-6}\,\mathrm N,\quad F_x=0$$
+
+4. **Apply the conclusion.** Each source has the same charge and the same distance to the target.
+
+**Answer:** Symmetry gives equal magnitudes and opposite horizontal directions.
+
+**Why the other answers do not work:**
+
+- **Electric forces have no horizontal components.** — Each individual force is oblique and has a horizontal component.
+- **The negative target repels one source and attracts the other.** — Both positive sources attract the negative target.
+- **Horizontal components are smaller and can always be ignored.** — Cancellation comes from symmetry, not smallness.
+
+<h4 id="solution-m3h26">Situation 26: An equilateral three-charge arrangement · Find the signed net y force on the target</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.12 m. A target $-q$ at the top has mass $3\times10^{-6}\,\mathrm{kg}$. Use $Q=3\times10^{-9}\,\mathrm C$, $q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. Find the signed net y force on the target.
+
+1. **Identify the model and the conditions.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-1.29759\times10^{-5}\,\mathrm N,\quad F_x=0$$
+
+4. **Solve the requested quantity.**
+
+   $$F_y=-\sqrt3(7.49167\times10^{-6})$$
+
+5. **Check the physical result.** The net force lies along the triangle altitude and points downward.
+
+6. **State the result.**
+
+   $$-1.29759\times10^{-5}\,\mathrm N$$
+
+**Answer:** $-1.29759\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-1.49833\times10^{-5}\,\mathrm N$** — This assumes each force is fully vertical.
+- **$-7.49167\times10^{-6}\,\mathrm N$** — This misses one vertical contribution and its projection.
+- **$1.29759\times10^{-5}\,\mathrm N$** — Attraction pulls the negative target toward the base, not upward.
+
+<h4 id="solution-m3h27">Situation 27: An equilateral three-charge arrangement · Find the initial target acceleration magnitude</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.12 m. A target $-q$ at the top has mass $3\times10^{-6}\,\mathrm{kg}$. Use $Q=3\times10^{-9}\,\mathrm C$, $q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. Find the initial target acceleration magnitude.
+
+1. **Identify the model and the conditions.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-1.29759\times10^{-5}\,\mathrm N,\quad F_x=0$$
+
+4. **Solve the requested quantity.**
+
+   $$a_t=|F_y|/m=1.29759\times10^{-5}/3\times10^{-6}$$
+
+5. **Check the physical result.** Equal horizontal components cancel before you use the net force in Newton’s law.
+
+6. **State the result.**
+
+   $$4.32532\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $4.32532\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$4.99444\,\mathrm{m\,s^{-2}}$** — This adds force magnitudes without projecting them.
+- **$2.49722\,\mathrm{m\,s^{-2}}$** — This uses one source force only.
+- **$2.16266\,\mathrm{m\,s^{-2}}$** — The mass in Newton’s law is the target mass, not a doubled source count.
+
+<h4 id="solution-m3h28">Situation 28: An equilateral three-charge arrangement · Find the mutual force magnitude between the two fixed base charges</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.12 m. A target $-q$ at the top has mass $3\times10^{-6}\,\mathrm{kg}$. Use $Q=3\times10^{-9}\,\mathrm C$, $q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. Find the mutual force magnitude between the two fixed base charges.
+
+1. **Identify the model and the conditions.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-1.29759\times10^{-5}\,\mathrm N,\quad F_x=0$$
+
+4. **Solve the requested quantity.**
+
+   $$F_{\rm base}=kQ^2/a^2=5.61875\times10^{-6}\,\mathrm N$$
+
+5. **Check the physical result.** This pair force is repulsive and uses the base-to-base distance.
+
+6. **State the result.**
+
+   $$5.61875\times10^{-6}\,\mathrm N$$
+
+**Answer:** $5.61875\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$7.49167\times10^{-6}\,\mathrm N$** — This uses Qq rather than the product of the two base charges.
+- **$1.12375\times10^{-5}\,\mathrm N$** — A force on one base charge is not twice the pair interaction.
+- **$1.87292\times10^{-6}\,\mathrm N$** — The base-charge separation is the full side length.
+
+<h4 id="solution-m3h29">Situation 29: An equilateral three-charge arrangement · If all three separations double, find the new signed net y force on the target</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.12 m. A target $-q$ at the top has mass $3\times10^{-6}\,\mathrm{kg}$. Use $Q=3\times10^{-9}\,\mathrm C$, $q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. If all three separations double, find the new signed net y force on the target.
+
+1. **Identify the model and the conditions.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-1.29759\times10^{-5}\,\mathrm N,\quad F_x=0$$
+
+4. **Solve the requested quantity.**
+
+   $$F_y'=F_y/2^2=-1.29759\times10^{-5}/4$$
+
+5. **Check the physical result.** The geometry angles stay fixed, so the whole force vector scales by one quarter.
+
+6. **State the result.**
+
+   $$-3.24399\times10^{-6}\,\mathrm N$$
+
+**Answer:** $-3.24399\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-6.48797\times10^{-6}\,\mathrm N$** — The force follows inverse-square scaling.
+- **$-5.19038\times10^{-5}\,\mathrm N$** — Larger separations reduce the force.
+- **$3.24399\times10^{-6}\,\mathrm N$** — Changing scale does not reverse the force direction.
+
+<h4 id="solution-m3h30">Situation 30: An equilateral three-charge arrangement · model check</h4>
+
+Two fixed charges $+Q$ occupy the lower corners of an equilateral triangle of side 0.12 m. A target $-q$ at the top has mass $3\times10^{-6}\,\mathrm{kg}$. Use $Q=3\times10^{-9}\,\mathrm C$, $q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$. The base is horizontal; upward is positive y. Ignore gravity and other forces. Why do the horizontal forces cancel?
+
+1. **Identify what stays fixed.** The two attractions have equal magnitudes. Their horizontal components cancel; their downward vertical components add.
+
+2. **Calculate either source-to-target force magnitude.**
+
+   $$F_0=kQq/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the forces using the triangle geometry.**
+
+   $$F_y=-2F_0\cos30^\circ=-\sqrt3F_0=-1.29759\times10^{-5}\,\mathrm N,\quad F_x=0$$
+
+4. **Apply the conclusion.** Each source has the same charge and the same distance to the target.
+
+**Answer:** Symmetry gives equal magnitudes and opposite horizontal directions.
+
+**Why the other answers do not work:**
+
+- **Electric forces have no horizontal components.** — Each individual force is oblique and has a horizontal component.
+- **The negative target repels one source and attracts the other.** — Both positive sources attract the negative target.
+- **Horizontal components are smaller and can always be ignored.** — Cancellation comes from symmetry, not smallness.
+
+<h4 id="solution-m3h31">Situation 31: Sequential charge sharing · Find the final charge on B</h4>
+
+Three identical small conducting spheres initially have $Q_A=1\times10^{-8}\,\mathrm C$, $Q_B=-4\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.2 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Find the final charge on B.
+
+1. **Identify the model and the conditions.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=3\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=1.5\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_B''=1.5\times10^{-9}\,\mathrm C$$
+
+6. **Check the physical result.** The second contact changes B and C, but leaves A’s separated charge unchanged.
+
+7. **State the result.**
+
+   $$1.5\times10^{-9}\,\mathrm C$$
+
+**Answer:** $1.5\times10^{-9}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$3\times10^{-9}\,\mathrm C$** — This stops after the first contact.
+- **$2\times10^{-9}\,\mathrm C$** — The three spheres never touch simultaneously.
+- **$-2\times10^{-9}\,\mathrm C$** — This uses B’s original charge instead of its updated charge.
+
+<h4 id="solution-m3h32">Situation 32: Sequential charge sharing · Find the later A–B force magnitude</h4>
+
+Three identical small conducting spheres initially have $Q_A=1\times10^{-8}\,\mathrm C$, $Q_B=-4\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.2 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Find the later A–B force magnitude.
+
+1. **Identify the model and the conditions.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=3\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=1.5\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Solve the requested quantity.**
+
+   $$F_{AB}=kQ_A'Q_B''/d^2=1.01137\times10^{-6}\,\mathrm N$$
+
+6. **Check the physical result.** The final A and B charges have the same sign, so the pair force is repulsive.
+
+7. **State the result.**
+
+   $$1.01137\times10^{-6}\,\mathrm N$$
+
+**Answer:** $1.01137\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$2.02275\times10^{-6}\,\mathrm N$** — This uses B’s charge before its contact with C.
+- **$5.05687\times10^{-7}\,\mathrm N$** — This incorrectly changes A in the second contact.
+- **$8.99\times10^{-6}\,\mathrm N$** — This uses the original charges before either contact.
+
+<h4 id="solution-m3h33">Situation 33: Sequential charge sharing · Find the later B–C force magnitude</h4>
+
+Three identical small conducting spheres initially have $Q_A=1\times10^{-8}\,\mathrm C$, $Q_B=-4\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.2 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Find the later B–C force magnitude.
+
+1. **Identify the model and the conditions.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=3\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=1.5\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Solve the requested quantity.**
+
+   $$F_{BC}=k(Q_B'')^2/d^2=5.05687\times10^{-7}\,\mathrm N$$
+
+6. **Check the physical result.** Use the two final equal charges from the second contact.
+
+7. **State the result.**
+
+   $$5.05687\times10^{-7}\,\mathrm N$$
+
+**Answer:** $5.05687\times10^{-7}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$1.01137\times10^{-6}\,\mathrm N$** — A retains more charge than B or C after the second contact.
+- **$2.02275\times10^{-6}\,\mathrm N$** — This gives both spheres the pre-sharing B charge.
+- **$0\,\mathrm N$** — The initially neutral sphere C acquires charge during contact.
+
+<h4 id="solution-m3h34">Situation 34: Sequential charge sharing · Find the number of electrons removed from C during its contact with B</h4>
+
+Three identical small conducting spheres initially have $Q_A=1\times10^{-8}\,\mathrm C$, $Q_B=-4\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.2 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Find the number of electrons removed from C during its contact with B.
+
+1. **Identify the model and the conditions.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=3\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=1.5\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Solve the requested quantity.**
+
+   $$N_e=|Q_C'-Q_C|/e=1.5\times10^{-9}/(1.602\times10^{-19})$$
+
+6. **Check the physical result.** A positive final charge on initially neutral C means electrons leave C.
+
+7. **State the result.**
+
+   $$9.3633\times10^{9}$$
+
+**Answer:** $9.3633\times10^{9}$
+
+**Why the other answers do not work:**
+
+- **$1.87266\times10^{10}$** — This uses the whole incoming pair charge rather than C’s share.
+- **$4.68165\times10^{9}$** — The final charge on C already includes the equal-sharing step.
+- **$6.2422\times10^{10}$** — A’s original charge is not the charge transferred to C.
+
+<h4 id="solution-m3h35">Situation 35: Sequential charge sharing · model check</h4>
+
+Three identical small conducting spheres initially have $Q_A=1\times10^{-8}\,\mathrm C$, $Q_B=-4\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.2 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Which bookkeeping rule is essential for the second contact?
+
+1. **Identify what stays fixed.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=3\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=1.5\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Apply the conclusion.** Sequential processes need the updated state from the previous step.
+
+**Answer:** Use B’s charge after its first contact with A.
+
+**Why the other answers do not work:**
+
+- **Redistribute all three initial charges equally.** — A is separated during the B–C contact.
+- **Keep C neutral because it started neutral.** — Electrical contact transfers charge.
+- **Conserve each sphere’s individual charge during contact.** — Only the total charge of the touching isolated pair is conserved.
+
+<h4 id="solution-m3h36">Situation 36: Sequential charge sharing · Find the final charge on B</h4>
+
+Three identical small conducting spheres initially have $Q_A=1.4\times10^{-8}\,\mathrm C$, $Q_B=-2\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.25 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Find the final charge on B.
+
+1. **Identify the model and the conditions.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=6\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=3\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_B''=3\times10^{-9}\,\mathrm C$$
+
+6. **Check the physical result.** The second contact changes B and C, but leaves A’s separated charge unchanged.
+
+7. **State the result.**
+
+   $$3\times10^{-9}\,\mathrm C$$
+
+**Answer:** $3\times10^{-9}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$6\times10^{-9}\,\mathrm C$** — This stops after the first contact.
+- **$4\times10^{-9}\,\mathrm C$** — The three spheres never touch simultaneously.
+- **$-1\times10^{-9}\,\mathrm C$** — This uses B’s original charge instead of its updated charge.
+
+<h4 id="solution-m3h37">Situation 37: Sequential charge sharing · Find the later A–B force magnitude</h4>
+
+Three identical small conducting spheres initially have $Q_A=1.4\times10^{-8}\,\mathrm C$, $Q_B=-2\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.25 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Find the later A–B force magnitude.
+
+1. **Identify the model and the conditions.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=6\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=3\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Solve the requested quantity.**
+
+   $$F_{AB}=kQ_A'Q_B''/d^2=2.58912\times10^{-6}\,\mathrm N$$
+
+6. **Check the physical result.** The final A and B charges have the same sign, so the pair force is repulsive.
+
+7. **State the result.**
+
+   $$2.58912\times10^{-6}\,\mathrm N$$
+
+**Answer:** $2.58912\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$5.17824\times10^{-6}\,\mathrm N$** — This uses B’s charge before its contact with C.
+- **$1.29456\times10^{-6}\,\mathrm N$** — This incorrectly changes A in the second contact.
+- **$4.02752\times10^{-6}\,\mathrm N$** — This uses the original charges before either contact.
+
+<h4 id="solution-m3h38">Situation 38: Sequential charge sharing · Find the later B–C force magnitude</h4>
+
+Three identical small conducting spheres initially have $Q_A=1.4\times10^{-8}\,\mathrm C$, $Q_B=-2\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.25 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Find the later B–C force magnitude.
+
+1. **Identify the model and the conditions.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=6\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=3\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Solve the requested quantity.**
+
+   $$F_{BC}=k(Q_B'')^2/d^2=1.29456\times10^{-6}\,\mathrm N$$
+
+6. **Check the physical result.** Use the two final equal charges from the second contact.
+
+7. **State the result.**
+
+   $$1.29456\times10^{-6}\,\mathrm N$$
+
+**Answer:** $1.29456\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$2.58912\times10^{-6}\,\mathrm N$** — A retains more charge than B or C after the second contact.
+- **$5.17824\times10^{-6}\,\mathrm N$** — This gives both spheres the pre-sharing B charge.
+- **$0\,\mathrm N$** — The initially neutral sphere C acquires charge during contact.
+
+<h4 id="solution-m3h39">Situation 39: Sequential charge sharing · Find the number of electrons removed from C during its contact with B</h4>
+
+Three identical small conducting spheres initially have $Q_A=1.4\times10^{-8}\,\mathrm C$, $Q_B=-2\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.25 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Find the number of electrons removed from C during its contact with B.
+
+1. **Identify the model and the conditions.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=6\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=3\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Solve the requested quantity.**
+
+   $$N_e=|Q_C'-Q_C|/e=3\times10^{-9}/(1.602\times10^{-19})$$
+
+6. **Check the physical result.** A positive final charge on initially neutral C means electrons leave C.
+
+7. **State the result.**
+
+   $$1.87266\times10^{10}$$
+
+**Answer:** $1.87266\times10^{10}$
+
+**Why the other answers do not work:**
+
+- **$3.74532\times10^{10}$** — This uses the whole incoming pair charge rather than C’s share.
+- **$9.3633\times10^{9}$** — The final charge on C already includes the equal-sharing step.
+- **$8.73908\times10^{10}$** — A’s original charge is not the charge transferred to C.
+
+<h4 id="solution-m3h40">Situation 40: Sequential charge sharing · model check</h4>
+
+Three identical small conducting spheres initially have $Q_A=1.4\times10^{-8}\,\mathrm C$, $Q_B=-2\times10^{-9}\,\mathrm C$, and $Q_C=0$. First A touches B, then they separate. Next B touches C, then they separate. Charge cannot escape. For each later pair-force measurement, the other sphere is far away and the measured pair has center separation 0.25 m, much larger than either radius. Use $k=8.99\times10^9$ in SI units and $e=1.602\times10^{-19}\,\mathrm C$. Which bookkeeping rule is essential for the second contact?
+
+1. **Identify what stays fixed.** Only the pair currently touching shares charge. Identical spheres end that contact with equal charges.
+
+2. **Share charge in the first contact.**
+
+   $$Q_A'=Q_B'=\frac{Q_A+Q_B}{2}=6\times10^{-9}\,\mathrm C$$
+
+3. **Use B’s updated charge in the second contact.**
+
+   $$Q_B''=Q_C'=\frac{Q_B'+Q_C}{2}=3\times10^{-9}\,\mathrm C$$
+
+4. **Check total charge.**
+
+   $$Q_A'+Q_B''+Q_C'=Q_A+Q_B+Q_C$$
+
+5. **Apply the conclusion.** Sequential processes need the updated state from the previous step.
+
+**Answer:** Use B’s charge after its first contact with A.
+
+**Why the other answers do not work:**
+
+- **Redistribute all three initial charges equally.** — A is separated during the B–C contact.
+- **Keep C neutral because it started neutral.** — Electrical contact transfers charge.
+- **Conserve each sphere’s individual charge during contact.** — Only the total charge of the touching isolated pair is conserved.
+
+<h4 id="solution-m3h41">Situation 41: Two suspended charged beads · Find the charge magnitude on each bead</h4>
+
+Two identical small beads of mass 0.002 kg hang from a common point on strings of length 0.4 m. Equal positive charges make each string settle at 10° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Find the charge magnitude on each bead.
+
+1. **Identify the model and the conditions.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.138919\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00345954\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Solve the requested quantity.**
+
+   $$q=\sqrt{\frac{0.00345954(0.138919)^2}{8.99\times10^9}}$$
+
+6. **Check the physical result.** The equal charges enter Coulomb’s law as their product q squared.
+
+7. **State the result.**
+
+   $$8.61766\times10^{-8}\,\mathrm C$$
+
+**Answer:** $8.61766\times10^{-8}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$4.30883\times10^{-8}\,\mathrm C$** — This uses L sinθ instead of the full separation 2L sinθ.
+- **$1.21872\times10^{-7}\,\mathrm C$** — This doubles the force on one bead by counting the pair twice.
+- **$2.05225\times10^{-7}\,\mathrm C$** — The horizontal repulsion is mg tanθ, not mg.
+
+<h4 id="solution-m3h42">Situation 42: Two suspended charged beads · Find the electric force magnitude on either bead</h4>
+
+Two identical small beads of mass 0.002 kg hang from a common point on strings of length 0.4 m. Equal positive charges make each string settle at 10° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Find the electric force magnitude on either bead.
+
+1. **Identify the model and the conditions.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.138919\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00345954\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Solve the requested quantity.**
+
+   $$F_e=mg\tan\theta=0.002(9.81)\tan10^\circ$$
+
+6. **Check the physical result.** For these small angles the horizontal force is below the bead’s weight.
+
+7. **State the result.**
+
+   $$0.00345954\,\mathrm N$$
+
+**Answer:** $0.00345954\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$0.01962\,\mathrm N$** — Weight is vertical; the electric force is horizontal.
+- **$0.00340698\,\mathrm N$** — Eliminating tension gives tanθ, not sinθ.
+- **$0.00691907\,\mathrm N$** — The force on one bead is not twice the interaction force.
+
+<h4 id="solution-m3h43">Situation 43: Two suspended charged beads · Find the tension in either string</h4>
+
+Two identical small beads of mass 0.002 kg hang from a common point on strings of length 0.4 m. Equal positive charges make each string settle at 10° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Find the tension in either string.
+
+1. **Identify the model and the conditions.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.138919\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00345954\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Solve the requested quantity.**
+
+   $$T=mg/\cos\theta=0.002(9.81)/\cos10^\circ$$
+
+6. **Check the physical result.** The tension is slightly greater than the weight.
+
+7. **State the result.**
+
+   $$0.0199227\,\mathrm N$$
+
+**Answer:** $0.0199227\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$0.01962\,\mathrm N$** — The tension must also provide a horizontal component.
+- **$0.0193219\,\mathrm N$** — The vertical component is T cosθ, so divide by cosine.
+- **$0.0230795\,\mathrm N$** — Perpendicular force components combine vectorially, not by scalar addition.
+
+<h4 id="solution-m3h44">Situation 44: Two suspended charged beads · Find the number of electrons removed from each initially neutral bead</h4>
+
+Two identical small beads of mass 0.002 kg hang from a common point on strings of length 0.4 m. Equal positive charges make each string settle at 10° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Find the number of electrons removed from each initially neutral bead.
+
+1. **Identify the model and the conditions.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.138919\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00345954\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Solve the requested quantity.**
+
+   $$N_e=q/e=8.61766\times10^{-8}/(1.602\times10^{-19})$$
+
+6. **Check the physical result.** Electron removal leaves each bead positively charged.
+
+7. **State the result.**
+
+   $$5.37931\times10^{11}$$
+
+**Answer:** $5.37931\times10^{11}$
+
+**Why the other answers do not work:**
+
+- **$1.07586\times10^{12}$** — This counts both beads instead of each bead.
+- **$2.68966\times10^{11}$** — Each bead individually carries the calculated charge.
+- **$1.38055\times10^{-26}$** — Electron count is charge divided by elementary charge, not their product.
+
+<h4 id="solution-m3h45">Situation 45: Two suspended charged beads · model check</h4>
+
+Two identical small beads of mass 0.002 kg hang from a common point on strings of length 0.4 m. Equal positive charges make each string settle at 10° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Why is the distance between the beads not equal to the string length?
+
+1. **Identify what stays fixed.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.138919\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00345954\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Apply the conclusion.** The two horizontal displacements add to give separation 2L sinθ.
+
+**Answer:** Each bead is displaced horizontally by L sinθ on an opposite side.
+
+**Why the other answers do not work:**
+
+- **Coulomb’s law always uses the distance to the support.** — It uses the center-to-center distance between interacting charges.
+- **The string length doubles when the beads repel.** — The specified string length stays fixed.
+- **The electric force acts along the strings.** — The equal-height beads exert horizontal forces on one another.
+
+<h4 id="solution-m3h46">Situation 46: Two suspended charged beads · Find the charge magnitude on each bead</h4>
+
+Two identical small beads of mass 0.003 kg hang from a common point on strings of length 0.45 m. Equal positive charges make each string settle at 12° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Find the charge magnitude on each bead.
+
+1. **Identify the model and the conditions.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.187121\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00625554\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Solve the requested quantity.**
+
+   $$q=\sqrt{\frac{0.00625554(0.187121)^2}{8.99\times10^9}}$$
+
+6. **Check the physical result.** The equal charges enter Coulomb’s law as their product q squared.
+
+7. **State the result.**
+
+   $$1.5609\times10^{-7}\,\mathrm C$$
+
+**Answer:** $1.5609\times10^{-7}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$7.80448\times10^{-8}\,\mathrm C$** — This uses L sinθ instead of the full separation 2L sinθ.
+- **$2.20744\times10^{-7}\,\mathrm C$** — This doubles the force on one bead by counting the pair twice.
+- **$3.38561\times10^{-7}\,\mathrm C$** — The horizontal repulsion is mg tanθ, not mg.
+
+<h4 id="solution-m3h47">Situation 47: Two suspended charged beads · Find the electric force magnitude on either bead</h4>
+
+Two identical small beads of mass 0.003 kg hang from a common point on strings of length 0.45 m. Equal positive charges make each string settle at 12° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Find the electric force magnitude on either bead.
+
+1. **Identify the model and the conditions.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.187121\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00625554\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Solve the requested quantity.**
+
+   $$F_e=mg\tan\theta=0.003(9.81)\tan12^\circ$$
+
+6. **Check the physical result.** For these small angles the horizontal force is below the bead’s weight.
+
+7. **State the result.**
+
+   $$0.00625554\,\mathrm N$$
+
+**Answer:** $0.00625554\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$0.02943\,\mathrm N$** — Weight is vertical; the electric force is horizontal.
+- **$0.00611884\,\mathrm N$** — Eliminating tension gives tanθ, not sinθ.
+- **$0.0125111\,\mathrm N$** — The force on one bead is not twice the interaction force.
+
+<h4 id="solution-m3h48">Situation 48: Two suspended charged beads · Find the tension in either string</h4>
+
+Two identical small beads of mass 0.003 kg hang from a common point on strings of length 0.45 m. Equal positive charges make each string settle at 12° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Find the tension in either string.
+
+1. **Identify the model and the conditions.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.187121\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00625554\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Solve the requested quantity.**
+
+   $$T=mg/\cos\theta=0.003(9.81)/\cos12^\circ$$
+
+6. **Check the physical result.** The tension is slightly greater than the weight.
+
+7. **State the result.**
+
+   $$0.0300875\,\mathrm N$$
+
+**Answer:** $0.0300875\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$0.02943\,\mathrm N$** — The tension must also provide a horizontal component.
+- **$0.0287869\,\mathrm N$** — The vertical component is T cosθ, so divide by cosine.
+- **$0.0356855\,\mathrm N$** — Perpendicular force components combine vectorially, not by scalar addition.
+
+<h4 id="solution-m3h49">Situation 49: Two suspended charged beads · Find the number of electrons removed from each initially neutral bead</h4>
+
+Two identical small beads of mass 0.003 kg hang from a common point on strings of length 0.45 m. Equal positive charges make each string settle at 12° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Find the number of electrons removed from each initially neutral bead.
+
+1. **Identify the model and the conditions.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.187121\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00625554\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Solve the requested quantity.**
+
+   $$N_e=q/e=1.5609\times10^{-7}/(1.602\times10^{-19})$$
+
+6. **Check the physical result.** Electron removal leaves each bead positively charged.
+
+7. **State the result.**
+
+   $$9.74342\times10^{11}$$
+
+**Answer:** $9.74342\times10^{11}$
+
+**Why the other answers do not work:**
+
+- **$1.94868\times10^{12}$** — This counts both beads instead of each bead.
+- **$4.87171\times10^{11}$** — Each bead individually carries the calculated charge.
+- **$2.50056\times10^{-26}$** — Electron count is charge divided by elementary charge, not their product.
+
+<h4 id="solution-m3h50">Situation 50: Two suspended charged beads · model check</h4>
+
+Two identical small beads of mass 0.003 kg hang from a common point on strings of length 0.45 m. Equal positive charges make each string settle at 12° from the vertical. The beads have the same height. Ignore air forces. Use $g=9.81\,\mathrm{m\,s^{-2}}$, $k=8.99\times10^9$ in SI units, and $e=1.602\times10^{-19}\,\mathrm C$. Why is the distance between the beads not equal to the string length?
+
+1. **Identify what stays fixed.** Balance each bead’s vertical weight and horizontal electric repulsion. The charge separation is twice the horizontal string projection.
+
+2. **Find the actual bead separation.**
+
+   $$d=2L\sin\theta=0.187121\,\mathrm m$$
+
+3. **Resolve one bead’s tension.**
+
+   $$T\cos\theta=mg,\quad T\sin\theta=F_e\ \Rightarrow\ F_e=mg\tan\theta=0.00625554\,\mathrm N$$
+
+4. **Use Coulomb’s law for equal charges.**
+
+   $$F_e=kq^2/d^2\ \Rightarrow\ q=d\sqrt{F_e/k}$$
+
+5. **Apply the conclusion.** The two horizontal displacements add to give separation 2L sinθ.
+
+**Answer:** Each bead is displaced horizontally by L sinθ on an opposite side.
+
+**Why the other answers do not work:**
+
+- **Coulomb’s law always uses the distance to the support.** — It uses the center-to-center distance between interacting charges.
+- **The string length doubles when the beads repel.** — The specified string length stays fixed.
+- **The electric force acts along the strings.** — The equal-height beads exert horizontal forces on one another.
+
+<h4 id="solution-m3h51">Situation 51: Forces from three square corners · Find the signed net x force</h4>
+
+A target $+q=1\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.06\,\mathrm m$, $Q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. Find the signed net x force.
+
+1. **Identify the model and the conditions.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.01404\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.23346\times10^{-5}\quad(\mathrm N)$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x=-K(1+1/(2\sqrt2))=-1.01404\times10^{-5}\,\mathrm N$$
+
+6. **Check the physical result.** The negative x sign agrees with both positive sources lying to the right of the target.
+
+7. **State the result.**
+
+   $$-1.01404\times10^{-5}\,\mathrm N$$
+
+**Answer:** $-1.01404\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-1.12375\times10^{-5}\,\mathrm N$** — This uses the full diagonal magnitude as an x component.
+- **$-7.49167\times10^{-6}\,\mathrm N$** — This omits the diagonal source.
+- **$1.01404\times10^{-5}\,\mathrm N$** — Both x contributions point left, not right.
+
+<h4 id="solution-m3h52">Situation 52: Forces from three square corners · Find the signed net y force</h4>
+
+A target $+q=1\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.06\,\mathrm m$, $Q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. Find the signed net y force.
+
+1. **Identify the model and the conditions.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.01404\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.23346\times10^{-5}\quad(\mathrm N)$$
+
+5. **Solve the requested quantity.**
+
+   $$F_y=K(2-1/(2\sqrt2))=1.23346\times10^{-5}\,\mathrm N$$
+
+6. **Check the physical result.** The net y force is positive even though the diagonal source contributes downward.
+
+7. **State the result.**
+
+   $$1.23346\times10^{-5}\,\mathrm N$$
+
+**Answer:** $1.23346\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$1.7632\times10^{-5}\,\mathrm N$** — The diagonal positive charge pushes downward.
+- **$1.49833\times10^{-5}\,\mathrm N$** — This ignores the diagonal y component.
+- **$-1.23346\times10^{-5}\,\mathrm N$** — Attraction to the larger negative source dominates upward.
+
+<h4 id="solution-m3h53">Situation 53: Forces from three square corners · Find the net force magnitude</h4>
+
+A target $+q=1\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.06\,\mathrm m$, $Q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. Find the net force magnitude.
+
+1. **Identify the model and the conditions.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.01404\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.23346\times10^{-5}\quad(\mathrm N)$$
+
+5. **Solve the requested quantity.**
+
+   $$|\vec F|=\sqrt{F_x^2+F_y^2}=1.59678\times10^{-5}\,\mathrm N$$
+
+6. **Check the physical result.** The magnitude exceeds either component magnitude and remains below their scalar sum.
+
+7. **State the result.**
+
+   $$1.59678\times10^{-5}\,\mathrm N$$
+
+**Answer:** $1.59678\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$2.2475\times10^{-5}\,\mathrm N$** — Perpendicular components combine by the Pythagorean theorem.
+- **$2.19426\times10^{-6}\,\mathrm N$** — Adding signed Cartesian components is not a magnitude.
+- **$2.62208\times10^{-5}\,\mathrm N$** — This adds all three individual magnitudes without vector directions.
+
+<h4 id="solution-m3h54">Situation 54: Forces from three square corners · Find the force direction counterclockwise from +x, between 0° and 360°</h4>
+
+A target $+q=1\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.06\,\mathrm m$, $Q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. Find the force direction counterclockwise from +x, between 0° and 360°.
+
+1. **Identify the model and the conditions.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.01404\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.23346\times10^{-5}\quad(\mathrm N)$$
+
+5. **Solve the requested quantity.**
+
+   $$\theta=\operatorname{atan2}(F_y,F_x)=129.424{}^\circ$$
+
+6. **Check the physical result.** Negative x and positive y place the resultant in quadrant II.
+
+7. **State the result.**
+
+   $$129.424\,{}^\circ$$
+
+**Answer:** $129.424\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$50.5762\,{}^\circ$** — This gives the acute reference angle but misses quadrant II.
+- **$309.424\,{}^\circ$** — This places the vector in quadrant IV instead of quadrant II.
+- **$230.576\,{}^\circ$** — This places both components negative in quadrant III.
+
+<h4 id="solution-m3h55">Situation 55: Forces from three square corners · model check</h4>
+
+A target $+q=1\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.06\,\mathrm m$, $Q=3\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. What is wrong with using a as the diagonal source-to-target distance?
+
+1. **Identify what stays fixed.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=7.49167\times10^{-6}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.01404\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.23346\times10^{-5}\quad(\mathrm N)$$
+
+5. **Apply the conclusion.** The component projection then adds another factor of $1/\sqrt2$.
+
+**Answer:** The diagonal distance is $a\sqrt2$, so its inverse-square force has an extra factor of one half.
+
+**Why the other answers do not work:**
+
+- **Nothing; every corner of a square is equally far from the origin.** — Adjacent and opposite corners have different distances.
+- **Only the force direction changes; its magnitude is unaffected.** — Coulomb magnitude depends on the squared distance.
+- **The diagonal source has zero field by symmetry.** — The single diagonal source has a nonzero force contribution.
+
+<h4 id="solution-m3h56">Situation 56: Forces from three square corners · Find the signed net x force</h4>
+
+A target $+q=2\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.08\,\mathrm m$, $Q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. Find the signed net x force.
+
+1. **Identify the model and the conditions.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=1.12375\times10^{-5}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.52106\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.85019\times10^{-5}\quad(\mathrm N)$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x=-K(1+1/(2\sqrt2))=-1.52106\times10^{-5}\,\mathrm N$$
+
+6. **Check the physical result.** The negative x sign agrees with both positive sources lying to the right of the target.
+
+7. **State the result.**
+
+   $$-1.52106\times10^{-5}\,\mathrm N$$
+
+**Answer:** $-1.52106\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-1.68562\times10^{-5}\,\mathrm N$** — This uses the full diagonal magnitude as an x component.
+- **$-1.12375\times10^{-5}\,\mathrm N$** — This omits the diagonal source.
+- **$1.52106\times10^{-5}\,\mathrm N$** — Both x contributions point left, not right.
+
+<h4 id="solution-m3h57">Situation 57: Forces from three square corners · Find the signed net y force</h4>
+
+A target $+q=2\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.08\,\mathrm m$, $Q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. Find the signed net y force.
+
+1. **Identify the model and the conditions.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=1.12375\times10^{-5}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.52106\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.85019\times10^{-5}\quad(\mathrm N)$$
+
+5. **Solve the requested quantity.**
+
+   $$F_y=K(2-1/(2\sqrt2))=1.85019\times10^{-5}\,\mathrm N$$
+
+6. **Check the physical result.** The net y force is positive even though the diagonal source contributes downward.
+
+7. **State the result.**
+
+   $$1.85019\times10^{-5}\,\mathrm N$$
+
+**Answer:** $1.85019\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$2.64481\times10^{-5}\,\mathrm N$** — The diagonal positive charge pushes downward.
+- **$2.2475\times10^{-5}\,\mathrm N$** — This ignores the diagonal y component.
+- **$-1.85019\times10^{-5}\,\mathrm N$** — Attraction to the larger negative source dominates upward.
+
+<h4 id="solution-m3h58">Situation 58: Forces from three square corners · Find the net force magnitude</h4>
+
+A target $+q=2\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.08\,\mathrm m$, $Q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. Find the net force magnitude.
+
+1. **Identify the model and the conditions.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=1.12375\times10^{-5}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.52106\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.85019\times10^{-5}\quad(\mathrm N)$$
+
+5. **Solve the requested quantity.**
+
+   $$|\vec F|=\sqrt{F_x^2+F_y^2}=2.39517\times10^{-5}\,\mathrm N$$
+
+6. **Check the physical result.** The magnitude exceeds either component magnitude and remains below their scalar sum.
+
+7. **State the result.**
+
+   $$2.39517\times10^{-5}\,\mathrm N$$
+
+**Answer:** $2.39517\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$3.37125\times10^{-5}\,\mathrm N$** — Perpendicular components combine by the Pythagorean theorem.
+- **$3.29139\times10^{-6}\,\mathrm N$** — Adding signed Cartesian components is not a magnitude.
+- **$3.93313\times10^{-5}\,\mathrm N$** — This adds all three individual magnitudes without vector directions.
+
+<h4 id="solution-m3h59">Situation 59: Forces from three square corners · Find the force direction counterclockwise from +x, between 0° and 360°</h4>
+
+A target $+q=2\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.08\,\mathrm m$, $Q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. Find the force direction counterclockwise from +x, between 0° and 360°.
+
+1. **Identify the model and the conditions.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=1.12375\times10^{-5}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.52106\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.85019\times10^{-5}\quad(\mathrm N)$$
+
+5. **Solve the requested quantity.**
+
+   $$\theta=\operatorname{atan2}(F_y,F_x)=129.424{}^\circ$$
+
+6. **Check the physical result.** Negative x and positive y place the resultant in quadrant II.
+
+7. **State the result.**
+
+   $$129.424\,{}^\circ$$
+
+**Answer:** $129.424\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$50.5762\,{}^\circ$** — This gives the acute reference angle but misses quadrant II.
+- **$309.424\,{}^\circ$** — This places the vector in quadrant IV instead of quadrant II.
+- **$230.576\,{}^\circ$** — This places both components negative in quadrant III.
+
+<h4 id="solution-m3h60">Situation 60: Forces from three square corners · model check</h4>
+
+A target $+q=2\times10^{-9}\,\mathrm C$ is at $(0,0)$. Fixed sources are $+Q$ at $(a,0)$, $-2Q$ at $(0,a)$, and $+Q$ at $(a,a)$. Use $a=0.08\,\mathrm m$, $Q=4\times10^{-9}\,\mathrm C$, and $k=8.99\times10^9$ in SI units. Choose right and upward as positive x and y. What is wrong with using a as the diagonal source-to-target distance?
+
+1. **Identify what stays fixed.** Add the three forces on the same target. The diagonal source is farther away by a factor of square root two.
+
+2. **Define an adjacent-corner force scale.**
+
+   $$K=kqQ/a^2=1.12375\times10^{-5}\,\mathrm N$$
+
+3. **Resolve the diagonal repulsion.**
+
+   $$F_{d,x}=F_{d,y}=-\frac{K}{2\sqrt2}$$
+
+4. **Add both Cartesian components.**
+
+   $$F_x=-K-\frac{K}{2\sqrt2}=-1.52106\times10^{-5},\quad F_y=2K-\frac{K}{2\sqrt2}=1.85019\times10^{-5}\quad(\mathrm N)$$
+
+5. **Apply the conclusion.** The component projection then adds another factor of $1/\sqrt2$.
+
+**Answer:** The diagonal distance is $a\sqrt2$, so its inverse-square force has an extra factor of one half.
+
+**Why the other answers do not work:**
+
+- **Nothing; every corner of a square is equally far from the origin.** — Adjacent and opposite corners have different distances.
+- **Only the force direction changes; its magnitude is unaffected.** — Coulomb magnitude depends on the squared distance.
+- **The diagonal source has zero field by symmetry.** — The single diagonal source has a nonzero force contribution.
+

@@ -280,3 +280,1603 @@ During leg A, a system absorbs 300 J and does 100 J of work. During leg B, it lo
 - **$330\,\mathrm J$** — This changes the sign of the heat lost in leg B.
 - **$270\,\mathrm J$** — This omits the 100 J of work output in leg A.
 
+<h4 id="solution-m2h11">Situation 11: A hot metal heats water and a calorimeter · Find the final equilibrium temperature in °C</h4>
+
+A 0.15 kg metal sample at 90°C enters 0.2 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $45\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Find the final equilibrium temperature in °C.
+
+1. **Identify the model and the conditions.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.2902\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$T_f=29.2902\,{}^\circ\mathrm C$$
+
+5. **Check the physical result.** The final temperature lies between the initial temperatures.
+
+6. **State the result.**
+
+   $$29.2902\,{}^\circ\mathrm C$$
+
+**Answer:** $29.2902\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$55\,{}^\circ\mathrm C$** — This assumes equal heat capacities.
+- **$29.7202\,{}^\circ\mathrm C$** — This omits the calorimeter heat capacity.
+- **$50\,{}^\circ\mathrm C$** — This weights masses without their different specific heats.
+
+<h4 id="solution-m2h12">Situation 12: A hot metal heats water and a calorimeter · Find the heat gained by the water</h4>
+
+A 0.15 kg metal sample at 90°C enters 0.2 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $45\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Find the heat gained by the water.
+
+1. **Identify the model and the conditions.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.2902\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$Q_w=m_wc_w(T_f-T_w)=0.2(4186)(29.2902-20)$$
+
+5. **Check the physical result.** The water gains less energy than the metal loses because the calorimeter also warms.
+
+6. **State the result.**
+
+   $$7777.76\,\mathrm J$$
+
+**Answer:** $7777.76\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$8195.82\,\mathrm J$** — This includes heat absorbed by the calorimeter too.
+- **$58604\,\mathrm J$** — The water does not reach the initial metal temperature.
+- **$24521.8\,\mathrm J$** — Heat depends on temperature change, not final Celsius reading.
+
+<h4 id="solution-m2h13">Situation 13: A hot metal heats water and a calorimeter · Find the heat gained by the calorimeter</h4>
+
+A 0.15 kg metal sample at 90°C enters 0.2 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $45\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Find the heat gained by the calorimeter.
+
+1. **Identify the model and the conditions.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.2902\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$Q_c=C_c(T_f-T_w)=45(29.2902-20)$$
+
+5. **Check the physical result.** Heat capacity already describes the whole calorimeter; no extra mass factor belongs here.
+
+6. **State the result.**
+
+   $$418.059\,\mathrm J$$
+
+**Answer:** $418.059\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1318.06\,\mathrm J$** — This treats zero Celsius as the initial temperature.
+- **$3150\,\mathrm J$** — The calorimeter does not reach the initial metal temperature.
+- **$7777.76\,\mathrm J$** — Water and calorimeter have different heat capacities.
+
+<h4 id="solution-m2h14">Situation 14: A hot metal heats water and a calorimeter · Find the heat released by the metal as a positive magnitude</h4>
+
+A 0.15 kg metal sample at 90°C enters 0.2 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $45\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Find the heat released by the metal as a positive magnitude.
+
+1. **Identify the model and the conditions.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.2902\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$|Q_m|=m_mc_m(T_m-T_f)=0.15(900)(90-29.2902)$$
+
+5. **Check the physical result.** The magnitude equals the sum of the two positive absorbed heats.
+
+6. **State the result.**
+
+   $$8195.82\,\mathrm J$$
+
+**Answer:** $8195.82\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$7777.76\,\mathrm J$** — This omits energy gained by the calorimeter.
+- **$9450\,\mathrm J$** — The metal stops cooling at the final equilibrium temperature.
+- **$-8195.82\,\mathrm J$** — The requested released-heat magnitude is nonnegative.
+
+<h4 id="solution-m2h15">Situation 15: A hot metal heats water and a calorimeter · model check</h4>
+
+A 0.15 kg metal sample at 90°C enters 0.2 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $45\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Which term is missing if someone balances only the metal and water heats?
+
+1. **Identify what stays fixed.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.2902\,{}^\circ\mathrm C$$
+
+4. **Apply the conclusion.** The container warms from the initial water temperature to the final temperature.
+
+**Answer:** The calorimeter heat gain.
+
+**Why the other answers do not work:**
+
+- **A latent-heat term for all the water.** — The problem explicitly excludes phase changes.
+- **The absolute Kelvin offset multiplied by every heat capacity.** — Only temperature differences enter this sensible-heat balance.
+- **An extra metal mass multiplying its stated specific heat and mass again.** — The metal heat capacity is its mass times specific heat, once.
+
+<h4 id="solution-m2h16">Situation 16: A hot metal heats water and a calorimeter · Find the final equilibrium temperature in °C</h4>
+
+A 0.18 kg metal sample at 95°C enters 0.25 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $60\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Find the final equilibrium temperature in °C.
+
+1. **Identify the model and the conditions.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.5782\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$T_f=29.5782\,{}^\circ\mathrm C$$
+
+5. **Check the physical result.** The final temperature lies between the initial temperatures.
+
+6. **State the result.**
+
+   $$29.5782\,{}^\circ\mathrm C$$
+
+**Answer:** $29.5782\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$57.5\,{}^\circ\mathrm C$** — This assumes equal heat capacities.
+- **$30.0538\,{}^\circ\mathrm C$** — This omits the calorimeter heat capacity.
+- **$51.3953\,{}^\circ\mathrm C$** — This weights masses without their different specific heats.
+
+<h4 id="solution-m2h17">Situation 17: A hot metal heats water and a calorimeter · Find the heat gained by the water</h4>
+
+A 0.18 kg metal sample at 95°C enters 0.25 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $60\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Find the heat gained by the water.
+
+1. **Identify the model and the conditions.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.5782\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$Q_w=m_wc_w(T_f-T_w)=0.25(4186)(29.5782-20)$$
+
+5. **Check the physical result.** The water gains less energy than the metal loses because the calorimeter also warms.
+
+6. **State the result.**
+
+   $$10023.6\,\mathrm J$$
+
+**Answer:** $10023.6\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$10598.3\,\mathrm J$** — This includes heat absorbed by the calorimeter too.
+- **$78487.5\,\mathrm J$** — The water does not reach the initial metal temperature.
+- **$30953.6\,\mathrm J$** — Heat depends on temperature change, not final Celsius reading.
+
+<h4 id="solution-m2h18">Situation 18: A hot metal heats water and a calorimeter · Find the heat gained by the calorimeter</h4>
+
+A 0.18 kg metal sample at 95°C enters 0.25 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $60\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Find the heat gained by the calorimeter.
+
+1. **Identify the model and the conditions.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.5782\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$Q_c=C_c(T_f-T_w)=60(29.5782-20)$$
+
+5. **Check the physical result.** Heat capacity already describes the whole calorimeter; no extra mass factor belongs here.
+
+6. **State the result.**
+
+   $$574.695\,\mathrm J$$
+
+**Answer:** $574.695\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1774.69\,\mathrm J$** — This treats zero Celsius as the initial temperature.
+- **$4500\,\mathrm J$** — The calorimeter does not reach the initial metal temperature.
+- **$10023.6\,\mathrm J$** — Water and calorimeter have different heat capacities.
+
+<h4 id="solution-m2h19">Situation 19: A hot metal heats water and a calorimeter · Find the heat released by the metal as a positive magnitude</h4>
+
+A 0.18 kg metal sample at 95°C enters 0.25 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $60\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Find the heat released by the metal as a positive magnitude.
+
+1. **Identify the model and the conditions.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.5782\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$|Q_m|=m_mc_m(T_m-T_f)=0.18(900)(95-29.5782)$$
+
+5. **Check the physical result.** The magnitude equals the sum of the two positive absorbed heats.
+
+6. **State the result.**
+
+   $$10598.3\,\mathrm J$$
+
+**Answer:** $10598.3\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$10023.6\,\mathrm J$** — This omits energy gained by the calorimeter.
+- **$12150\,\mathrm J$** — The metal stops cooling at the final equilibrium temperature.
+- **$-10598.3\,\mathrm J$** — The requested released-heat magnitude is nonnegative.
+
+<h4 id="solution-m2h20">Situation 20: A hot metal heats water and a calorimeter · model check</h4>
+
+A 0.18 kg metal sample at 95°C enters 0.25 kg of water at 20°C. The calorimeter also starts at 20°C. Use metal specific heat $900\,\mathrm{J\,kg^{-1}\,K^{-1}}$, water specific heat $4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and calorimeter heat capacity $60\,\mathrm{J\,K^{-1}}$. The system is insulated; no phase change occurs. Which term is missing if someone balances only the metal and water heats?
+
+1. **Identify what stays fixed.** Heat lost by the metal equals heat gained by both the water and the calorimeter.
+
+2. **Write the complete energy balance.**
+
+   $$m_mc_m(T_m-T_f)=(m_wc_w+C_c)(T_f-T_w)$$
+
+3. **Solve before inserting numbers.**
+
+   $$T_f=\frac{m_mc_mT_m+(m_wc_w+C_c)T_w}{m_mc_m+m_wc_w+C_c}=29.5782\,{}^\circ\mathrm C$$
+
+4. **Apply the conclusion.** The container warms from the initial water temperature to the final temperature.
+
+**Answer:** The calorimeter heat gain.
+
+**Why the other answers do not work:**
+
+- **A latent-heat term for all the water.** — The problem explicitly excludes phase changes.
+- **The absolute Kelvin offset multiplied by every heat capacity.** — Only temperature differences enter this sensible-heat balance.
+- **An extra metal mass multiplying its stated specific heat and mass again.** — The metal heat capacity is its mass times specific heat, once.
+
+<h4 id="solution-m2h21">Situation 21: Condensing steam in cold water · Find the final temperature in °C</h4>
+
+An insulated vessel of negligible heat capacity contains 0.5 kg of water at 20°C. It receives 0.01 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Find the final temperature in °C.
+
+1. **Identify the model and the conditions.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=32.1548\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$T_f=32.1548\,{}^\circ\mathrm C$$
+
+5. **Check the physical result.** The solution lies below the condensation temperature, consistent with complete condensation.
+
+6. **State the result.**
+
+   $$32.1548\,{}^\circ\mathrm C$$
+
+**Answer:** $32.1548\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$21.5686\,{}^\circ\mathrm C$** — This ignores latent heat released during condensation.
+- **$30.7979\,{}^\circ\mathrm C$** — This omits cooling of the condensate and its final heat capacity.
+- **$100\,{}^\circ\mathrm C$** — The cold water can absorb enough energy to leave a lower final temperature.
+
+<h4 id="solution-m2h22">Situation 22: Condensing steam in cold water · Find the total heat released by the steam and its condensate</h4>
+
+An insulated vessel of negligible heat capacity contains 0.5 kg of water at 20°C. It receives 0.01 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Find the total heat released by the steam and its condensate.
+
+1. **Identify the model and the conditions.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=32.1548\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$Q_s=m_sL_v+m_sc_w(100-T_f)=25440\,\mathrm J$$
+
+5. **Check the physical result.** Both latent and sensible heat contribute to the energy release.
+
+6. **State the result.**
+
+   $$25440\,\mathrm J$$
+
+**Answer:** $25440\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$22600\,\mathrm J$** — This omits cooling of the condensed water.
+- **$2840\,\mathrm J$** — This omits condensation heat.
+- **$25948.8\,\mathrm J$** — The condensate stops cooling at the final temperature, not the original cold-water temperature.
+
+<h4 id="solution-m2h23">Situation 23: Condensing steam in cold water · Find the heat released while the condensate cools after condensation</h4>
+
+An insulated vessel of negligible heat capacity contains 0.5 kg of water at 20°C. It receives 0.01 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Find the heat released while the condensate cools after condensation.
+
+1. **Identify the model and the conditions.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=32.1548\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$Q_{\rm cool}=m_sc_w(100-T_f)=2840\,\mathrm J$$
+
+5. **Check the physical result.** The condensate remains liquid during this cooling stage.
+
+6. **State the result.**
+
+   $$2840\,\mathrm J$$
+
+**Answer:** $2840\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$22600\,\mathrm J$** — This gives condensation heat rather than the later cooling stage.
+- **$25440\,\mathrm J$** — The original water receives heat from both stages.
+- **$3348.8\,\mathrm J$** — The condensate does not cool all the way to the original water temperature.
+
+<h4 id="solution-m2h24">Situation 24: Condensing steam in cold water · Find the fraction of the total steam heat release supplied by condensation</h4>
+
+An insulated vessel of negligible heat capacity contains 0.5 kg of water at 20°C. It receives 0.01 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Find the fraction of the total steam heat release supplied by condensation.
+
+1. **Identify the model and the conditions.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=32.1548\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$f=\frac{m_sL_v}{m_sL_v+m_sc_w(100-T_f)}=0.888365$$
+
+5. **Check the physical result.** A fraction between zero and one is required.
+
+6. **State the result.**
+
+   $$0.888365$$
+
+**Answer:** $0.888365$
+
+**Why the other answers do not work:**
+
+- **$1$** — Cooling after condensation also releases heat.
+- **$0.111635$** — This gives the sensible-cooling fraction.
+- **$1.12566$** — This inverts the requested fraction.
+
+<h4 id="solution-m2h25">Situation 25: Condensing steam in cold water · model check</h4>
+
+An insulated vessel of negligible heat capacity contains 0.5 kg of water at 20°C. It receives 0.01 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Why must the calculated final temperature be checked against 100°C?
+
+1. **Identify what stays fixed.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=32.1548\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Apply the conclusion.** An energy balance must agree with its phase assumptions.
+
+**Answer:** A result above 100°C would contradict the assumed complete-condensation phase sequence under the stated conditions.
+
+**Why the other answers do not work:**
+
+- **Every insulated mixture must finish at 100°C.** — Insulation enforces energy conservation, not a universal final temperature.
+- **Latent heat is negative whenever steam is initially hot.** — Released heat and signed system heat use different sign conventions; the magnitude remains positive.
+- **Specific heat must be multiplied by the Kelvin offset.** — Heat within a phase depends on temperature change.
+
+<h4 id="solution-m2h26">Situation 26: Condensing steam in cold water · Find the final temperature in °C</h4>
+
+An insulated vessel of negligible heat capacity contains 0.45 kg of water at 18°C. It receives 0.012 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Find the final temperature in °C.
+
+1. **Identify the model and the conditions.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=34.1531\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$T_f=34.1531\,{}^\circ\mathrm C$$
+
+5. **Check the physical result.** The solution lies below the condensation temperature, consistent with complete condensation.
+
+6. **State the result.**
+
+   $$34.1531\,{}^\circ\mathrm C$$
+
+**Answer:** $34.1531\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$20.1299\,{}^\circ\mathrm C$** — This ignores latent heat released during condensation.
+- **$32.3972\,{}^\circ\mathrm C$** — This omits cooling of the condensate and its final heat capacity.
+- **$100\,{}^\circ\mathrm C$** — The cold water can absorb enough energy to leave a lower final temperature.
+
+<h4 id="solution-m2h27">Situation 27: Condensing steam in cold water · Find the total heat released by the steam and its condensate</h4>
+
+An insulated vessel of negligible heat capacity contains 0.45 kg of water at 18°C. It receives 0.012 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Find the total heat released by the steam and its condensate.
+
+1. **Identify the model and the conditions.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=34.1531\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$Q_s=m_sL_v+m_sc_w(100-T_f)=30427.6\,\mathrm J$$
+
+5. **Check the physical result.** Both latent and sensible heat contribute to the energy release.
+
+6. **State the result.**
+
+   $$30427.6\,\mathrm J$$
+
+**Answer:** $30427.6\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$27120\,\mathrm J$** — This omits cooling of the condensed water.
+- **$3307.62\,\mathrm J$** — This omits condensation heat.
+- **$31239\,\mathrm J$** — The condensate stops cooling at the final temperature, not the original cold-water temperature.
+
+<h4 id="solution-m2h28">Situation 28: Condensing steam in cold water · Find the heat released while the condensate cools after condensation</h4>
+
+An insulated vessel of negligible heat capacity contains 0.45 kg of water at 18°C. It receives 0.012 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Find the heat released while the condensate cools after condensation.
+
+1. **Identify the model and the conditions.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=34.1531\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$Q_{\rm cool}=m_sc_w(100-T_f)=3307.62\,\mathrm J$$
+
+5. **Check the physical result.** The condensate remains liquid during this cooling stage.
+
+6. **State the result.**
+
+   $$3307.62\,\mathrm J$$
+
+**Answer:** $3307.62\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$27120\,\mathrm J$** — This gives condensation heat rather than the later cooling stage.
+- **$30427.6\,\mathrm J$** — The original water receives heat from both stages.
+- **$4119.02\,\mathrm J$** — The condensate does not cool all the way to the original water temperature.
+
+<h4 id="solution-m2h29">Situation 29: Condensing steam in cold water · Find the fraction of the total steam heat release supplied by condensation</h4>
+
+An insulated vessel of negligible heat capacity contains 0.45 kg of water at 18°C. It receives 0.012 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Find the fraction of the total steam heat release supplied by condensation.
+
+1. **Identify the model and the conditions.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=34.1531\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Solve the requested quantity.**
+
+   $$f=\frac{m_sL_v}{m_sL_v+m_sc_w(100-T_f)}=0.891295$$
+
+5. **Check the physical result.** A fraction between zero and one is required.
+
+6. **State the result.**
+
+   $$0.891295$$
+
+**Answer:** $0.891295$
+
+**Why the other answers do not work:**
+
+- **$1$** — Cooling after condensation also releases heat.
+- **$0.108705$** — This gives the sensible-cooling fraction.
+- **$1.12196$** — This inverts the requested fraction.
+
+<h4 id="solution-m2h30">Situation 30: Condensing steam in cold water · model check</h4>
+
+An insulated vessel of negligible heat capacity contains 0.45 kg of water at 18°C. It receives 0.012 kg of saturated steam at 100°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_v=2.260\times10^6\,\mathrm{J\,kg^{-1}}$. The pressure permits condensation at 100°C. Check the all-condensed solution. Why must the calculated final temperature be checked against 100°C?
+
+1. **Identify what stays fixed.** Steam first condenses, then its condensate cools. Include both stages when the calculated final temperature is below 100°C.
+
+2. **Balance the complete two-stage steam heat.**
+
+   $$m_sL_v+m_sc_w(100-T_f)=m_wc_w(T_f-T_w)$$
+
+3. **Solve and test the phase assumption.**
+
+   $$T_f=\frac{m_sL_v+m_sc_w(100)+m_wc_wT_w}{(m_s+m_w)c_w}=34.1531\,{}^\circ\mathrm C<100\,{}^\circ\mathrm C$$
+
+4. **Apply the conclusion.** An energy balance must agree with its phase assumptions.
+
+**Answer:** A result above 100°C would contradict the assumed complete-condensation phase sequence under the stated conditions.
+
+**Why the other answers do not work:**
+
+- **Every insulated mixture must finish at 100°C.** — Insulation enforces energy conservation, not a universal final temperature.
+- **Latent heat is negative whenever steam is initially hot.** — Released heat and signed system heat use different sign conventions; the magnitude remains positive.
+- **Specific heat must be multiplied by the Kelvin offset.** — Heat within a phase depends on temperature change.
+
+<h4 id="solution-m2h31">Situation 31: Ice below freezing enters warm water · Find the final temperature in °C</h4>
+
+A 0.03 kg ice sample at -10°C enters 0.2 kg of water at 30°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Find the final temperature in °C.
+
+1. **Identify the model and the conditions.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=10650\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=25116\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=15.0252\,{}^\circ\mathrm C$$
+
+5. **Solve the requested quantity.**
+
+   $$T_f=15.0252\,{}^\circ\mathrm C$$
+
+6. **Check the physical result.** A positive final temperature confirms complete melting in this insulated model.
+
+7. **State the result.**
+
+   $$15.0252\,{}^\circ\mathrm C$$
+
+**Answer:** $15.0252\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$15.6796\,{}^\circ\mathrm C$** — This omits warming the initially cold ice.
+- **$17.279\,{}^\circ\mathrm C$** — This omits the melted ice from the final liquid heat capacity.
+- **$0\,{}^\circ\mathrm C$** — The available warm-water heat exceeds the warming-and-melting requirement.
+
+<h4 id="solution-m2h32">Situation 32: Ice below freezing enters warm water · Find the minimum initial warm-water temperature needed to just melt all the ice</h4>
+
+A 0.03 kg ice sample at -10°C enters 0.2 kg of water at 30°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Find the minimum initial warm-water temperature needed to just melt all the ice.
+
+1. **Identify the model and the conditions.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=10650\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=25116\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=15.0252\,{}^\circ\mathrm C$$
+
+5. **Solve the requested quantity.**
+
+   $$T_{w,\min}=\frac{m_ic_i(-T_i)+m_iL_f}{m_wc_w}=12.721\,{}^\circ\mathrm C$$
+
+6. **Check the physical result.** At this threshold, the final liquid is exactly at zero Celsius.
+
+7. **State the result.**
+
+   $$12.721\,{}^\circ\mathrm C$$
+
+**Answer:** $12.721\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$11.9685\,{}^\circ\mathrm C$** — This omits warming the ice to zero.
+- **$0.752508\,{}^\circ\mathrm C$** — This omits the melting energy.
+- **$11.0617\,{}^\circ\mathrm C$** — At the limiting final state, only the original warm water supplies cooling heat.
+
+<h4 id="solution-m2h33">Situation 33: Ice below freezing enters warm water · Find the heat lost by the original warm water</h4>
+
+A 0.03 kg ice sample at -10°C enters 0.2 kg of water at 30°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Find the heat lost by the original warm water.
+
+1. **Identify the model and the conditions.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=10650\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=25116\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=15.0252\,{}^\circ\mathrm C$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_w=m_wc_w(T_w-T_f)=12536.9\,\mathrm J$$
+
+6. **Check the physical result.** The lost heat includes every energy gain of the ice and its meltwater.
+
+7. **State the result.**
+
+   $$12536.9\,\mathrm J$$
+
+**Answer:** $12536.9\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$25116\,\mathrm J$** — This cools the original water all the way to zero.
+- **$10020\,\mathrm J$** — This omits ice warming and later melted-water warming.
+- **$10650\,\mathrm J$** — This omits warming the melted ice to the positive final temperature.
+
+<h4 id="solution-m2h34">Situation 34: Ice below freezing enters warm water · Find the fraction of that lost heat used for melting alone</h4>
+
+A 0.03 kg ice sample at -10°C enters 0.2 kg of water at 30°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Find the fraction of that lost heat used for melting alone.
+
+1. **Identify the model and the conditions.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=10650\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=25116\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=15.0252\,{}^\circ\mathrm C$$
+
+5. **Solve the requested quantity.**
+
+   $$f=\frac{m_iL_f}{m_wc_w(T_w-T_f)}=0.799243$$
+
+6. **Check the physical result.** The melting fraction is below one because the sample also warms before and after melting.
+
+7. **State the result.**
+
+   $$0.799243$$
+
+**Answer:** $0.799243$
+
+**Why the other answers do not work:**
+
+- **$0.940845$** — This ignores the energy used after melting.
+- **$0.200757$** — This gives the combined non-melting fraction.
+- **$1.25118$** — This reverses the requested fraction.
+
+<h4 id="solution-m2h35">Situation 35: Ice below freezing enters warm water · model check</h4>
+
+A 0.03 kg ice sample at -10°C enters 0.2 kg of water at 30°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Which result would require an ice–water mixture calculation instead of the positive-temperature solution?
+
+1. **Identify what stays fixed.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=10650\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=25116\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=15.0252\,{}^\circ\mathrm C$$
+
+5. **Apply the conclusion.** The ice reaches zero, but some ice remains unmelted.
+
+**Answer:** Available cooling heat exceeds ice-warming heat but is below ice-warming-plus-melting heat.
+
+**Why the other answers do not work:**
+
+- **Available heat exceeds all the warming-and-melting energy.** — That condition permits a positive all-liquid final temperature.
+- **The calculated final temperature lies between zero and the original warm-water temperature.** — That range is consistent with the complete-melting assumption.
+- **The container has negligible heat capacity.** — That removes a container term; it does not force partial melting.
+
+<h4 id="solution-m2h36">Situation 36: Ice below freezing enters warm water · Find the final temperature in °C</h4>
+
+A 0.04 kg ice sample at -15°C enters 0.25 kg of water at 35°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Find the final temperature in °C.
+
+1. **Identify the model and the conditions.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=14620\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=36627.5\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=18.129\,{}^\circ\mathrm C$$
+
+5. **Solve the requested quantity.**
+
+   $$T_f=18.129\,{}^\circ\mathrm C$$
+
+6. **Check the physical result.** A positive final temperature confirms complete melting in this insulated model.
+
+7. **State the result.**
+
+   $$18.129\,{}^\circ\mathrm C$$
+
+**Answer:** $18.129\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$19.1669\,{}^\circ\mathrm C$** — This omits warming the initially cold ice.
+- **$21.0296\,{}^\circ\mathrm C$** — This omits the melted ice from the final liquid heat capacity.
+- **$0\,{}^\circ\mathrm C$** — The available warm-water heat exceeds the warming-and-melting requirement.
+
+<h4 id="solution-m2h37">Situation 37: Ice below freezing enters warm water · Find the minimum initial warm-water temperature needed to just melt all the ice</h4>
+
+A 0.04 kg ice sample at -15°C enters 0.25 kg of water at 35°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Find the minimum initial warm-water temperature needed to just melt all the ice.
+
+1. **Identify the model and the conditions.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=14620\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=36627.5\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=18.129\,{}^\circ\mathrm C$$
+
+5. **Solve the requested quantity.**
+
+   $$T_{w,\min}=\frac{m_ic_i(-T_i)+m_iL_f}{m_wc_w}=13.9704\,{}^\circ\mathrm C$$
+
+6. **Check the physical result.** At this threshold, the final liquid is exactly at zero Celsius.
+
+7. **State the result.**
+
+   $$13.9704\,{}^\circ\mathrm C$$
+
+**Answer:** $13.9704\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$12.7664\,{}^\circ\mathrm C$** — This omits warming the ice to zero.
+- **$1.20401\,{}^\circ\mathrm C$** — This omits the melting energy.
+- **$12.0434\,{}^\circ\mathrm C$** — At the limiting final state, only the original warm water supplies cooling heat.
+
+<h4 id="solution-m2h38">Situation 38: Ice below freezing enters warm water · Find the heat lost by the original warm water</h4>
+
+A 0.04 kg ice sample at -15°C enters 0.25 kg of water at 35°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Find the heat lost by the original warm water.
+
+1. **Identify the model and the conditions.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=14620\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=36627.5\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=18.129\,{}^\circ\mathrm C$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_w=m_wc_w(T_w-T_f)=17655.5\,\mathrm J$$
+
+6. **Check the physical result.** The lost heat includes every energy gain of the ice and its meltwater.
+
+7. **State the result.**
+
+   $$17655.5\,\mathrm J$$
+
+**Answer:** $17655.5\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$36627.5\,\mathrm J$** — This cools the original water all the way to zero.
+- **$13360\,\mathrm J$** — This omits ice warming and later melted-water warming.
+- **$14620\,\mathrm J$** — This omits warming the melted ice to the positive final temperature.
+
+<h4 id="solution-m2h39">Situation 39: Ice below freezing enters warm water · Find the fraction of that lost heat used for melting alone</h4>
+
+A 0.04 kg ice sample at -15°C enters 0.25 kg of water at 35°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Find the fraction of that lost heat used for melting alone.
+
+1. **Identify the model and the conditions.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=14620\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=36627.5\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=18.129\,{}^\circ\mathrm C$$
+
+5. **Solve the requested quantity.**
+
+   $$f=\frac{m_iL_f}{m_wc_w(T_w-T_f)}=0.756704$$
+
+6. **Check the physical result.** The melting fraction is below one because the sample also warms before and after melting.
+
+7. **State the result.**
+
+   $$0.756704$$
+
+**Answer:** $0.756704$
+
+**Why the other answers do not work:**
+
+- **$0.913817$** — This ignores the energy used after melting.
+- **$0.243296$** — This gives the combined non-melting fraction.
+- **$1.32152$** — This reverses the requested fraction.
+
+<h4 id="solution-m2h40">Situation 40: Ice below freezing enters warm water · model check</h4>
+
+A 0.04 kg ice sample at -15°C enters 0.25 kg of water at 35°C in an insulated container of negligible heat capacity. Use $c_i=2100$, $c_w=4186$ in $\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Test whether all ice melts before finding equilibrium. Which result would require an ice–water mixture calculation instead of the positive-temperature solution?
+
+1. **Identify what stays fixed.** Warm the ice to zero, melt it, then warm the melted water. First compare the available warm-water heat with the first two stages.
+
+2. **Find the energy needed before liquid warming.**
+
+   $$Q_0=m_ic_i(0-T_i)+m_iL_f=14620\,\mathrm J$$
+
+3. **Test the phase condition.**
+
+   $$m_wc_wT_w=36627.5\,\mathrm J>Q_0$$
+
+4. **Solve the final all-liquid balance.**
+
+   $$T_f=\frac{m_wc_wT_w-Q_0}{(m_w+m_i)c_w}=18.129\,{}^\circ\mathrm C$$
+
+5. **Apply the conclusion.** The ice reaches zero, but some ice remains unmelted.
+
+**Answer:** Available cooling heat exceeds ice-warming heat but is below ice-warming-plus-melting heat.
+
+**Why the other answers do not work:**
+
+- **Available heat exceeds all the warming-and-melting energy.** — That condition permits a positive all-liquid final temperature.
+- **The calculated final temperature lies between zero and the original warm-water temperature.** — That range is consistent with the complete-melting assumption.
+- **The container has negligible heat capacity.** — That removes a container term; it does not force partial melting.
+
+<h4 id="solution-m2h41">Situation 41: Steady heat flow through two layers · Find the heat-transfer rate</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.03 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.06 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1 m². Surface temperatures stay at 30°C and 5°C for 600 s. Assume one-dimensional steady conduction and perfect thermal contact. Find the heat-transfer rate.
+
+1. **Identify the model and the conditions.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.15,\quad R_2=L_2/(k_2A)=1.2\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=18.5185\,\mathrm W$$
+
+4. **Solve the requested quantity.**
+
+   $$\dot Q=\frac{30-5}{0.15+1.2}$$
+
+5. **Check the physical result.** Both layers reduce the heat rate relative to using either layer alone.
+
+6. **State the result.**
+
+   $$18.5185\,\mathrm W$$
+
+**Answer:** $18.5185\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$166.667\,\mathrm W$** — This ignores the cold-side layer resistance.
+- **$20.8333\,\mathrm W$** — This ignores the hot-side layer resistance.
+- **$69.4444\,\mathrm W$** — Adding conductivities does not describe series layers.
+
+<h4 id="solution-m2h42">Situation 42: Steady heat flow through two layers · Find the interface temperature in °C</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.03 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.06 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1 m². Surface temperatures stay at 30°C and 5°C for 600 s. Assume one-dimensional steady conduction and perfect thermal contact. Find the interface temperature in °C.
+
+1. **Identify the model and the conditions.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.15,\quad R_2=L_2/(k_2A)=1.2\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=18.5185\,\mathrm W$$
+
+4. **Solve the requested quantity.**
+
+   $$T_j=T_h-\dot QR_1=30-18.5185(0.15)$$
+
+5. **Check the physical result.** The larger drop belongs to the layer with larger thermal resistance.
+
+6. **State the result.**
+
+   $$27.2222\,{}^\circ\mathrm C$$
+
+**Answer:** $27.2222\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$17.5\,{}^\circ\mathrm C$** — The drops are unequal because thermal resistances differ.
+- **$7.77778\,{}^\circ\mathrm C$** — This assigns the second layer’s drop to the hot-side layer.
+- **$32.7778\,{}^\circ\mathrm C$** — This adds the hot-side temperature drop instead of subtracting it.
+
+<h4 id="solution-m2h43">Situation 43: Steady heat flow through two layers · Find the energy transferred during the stated time</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.03 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.06 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1 m². Surface temperatures stay at 30°C and 5°C for 600 s. Assume one-dimensional steady conduction and perfect thermal contact. Find the energy transferred during the stated time.
+
+1. **Identify the model and the conditions.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.15,\quad R_2=L_2/(k_2A)=1.2\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=18.5185\,\mathrm W$$
+
+4. **Solve the requested quantity.**
+
+   $$Q=\dot Qt=18.5185(600)$$
+
+5. **Check the physical result.** Constant steady heat rate multiplied by seconds gives joules.
+
+6. **State the result.**
+
+   $$11111.1\,\mathrm J$$
+
+**Answer:** $11111.1\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$18.5185\,\mathrm J$** — This is a rate, not an accumulated energy.
+- **$666667\,\mathrm J$** — The given time is already in seconds.
+- **$100000\,\mathrm J$** — This ignores one layer in calculating the rate.
+
+<h4 id="solution-m2h44">Situation 44: Steady heat flow through two layers · Find the temperature drop across the cold-side layer</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.03 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.06 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1 m². Surface temperatures stay at 30°C and 5°C for 600 s. Assume one-dimensional steady conduction and perfect thermal contact. Find the temperature drop across the cold-side layer.
+
+1. **Identify the model and the conditions.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.15,\quad R_2=L_2/(k_2A)=1.2\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=18.5185\,\mathrm W$$
+
+4. **Solve the requested quantity.**
+
+   $$\Delta T_2=\dot QR_2=18.5185(1.2)$$
+
+5. **Check the physical result.** The two layer drops add to the imposed whole-wall difference.
+
+6. **State the result.**
+
+   $$22.2222\,\mathrm K$$
+
+**Answer:** $22.2222\,\mathrm K$
+
+**Why the other answers do not work:**
+
+- **$2.77778\,\mathrm K$** — This gives the drop across the other layer.
+- **$25\,\mathrm K$** — The whole wall temperature difference is shared between layers.
+- **$12.5\,\mathrm K$** — Equal division requires equal thermal resistances.
+
+<h4 id="solution-m2h45">Situation 45: Steady heat flow through two layers · model check</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.03 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.06 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1 m². Surface temperatures stay at 30°C and 5°C for 600 s. Assume one-dimensional steady conduction and perfect thermal contact. Which condition must hold at the interface in steady operation?
+
+1. **Identify what stays fixed.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.15,\quad R_2=L_2/(k_2A)=1.2\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=18.5185\,\mathrm W$$
+
+4. **Apply the conclusion.** Otherwise the interface region would continuously gain or lose internal energy.
+
+**Answer:** The heat rate entering the interface equals the heat rate leaving it.
+
+**Why the other answers do not work:**
+
+- **Both layer temperature drops are equal.** — Their drops are proportional to thermal resistance, not necessarily equal.
+- **Both conductivities are equal.** — The material conductivities can differ.
+- **The interface temperature is the arithmetic mean of the two surfaces.** — That mean applies only when the two thermal resistances match.
+
+<h4 id="solution-m2h46">Situation 46: Steady heat flow through two layers · Find the heat-transfer rate</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.04 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.08 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1.2 m². Surface temperatures stay at 35°C and 5°C for 900 s. Assume one-dimensional steady conduction and perfect thermal contact. Find the heat-transfer rate.
+
+1. **Identify the model and the conditions.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.166667,\quad R_2=L_2/(k_2A)=1.33333\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=20\,\mathrm W$$
+
+4. **Solve the requested quantity.**
+
+   $$\dot Q=\frac{35-5}{0.166667+1.33333}$$
+
+5. **Check the physical result.** Both layers reduce the heat rate relative to using either layer alone.
+
+6. **State the result.**
+
+   $$20\,\mathrm W$$
+
+**Answer:** $20\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$180\,\mathrm W$** — This ignores the cold-side layer resistance.
+- **$22.5\,\mathrm W$** — This ignores the hot-side layer resistance.
+- **$75\,\mathrm W$** — Adding conductivities does not describe series layers.
+
+<h4 id="solution-m2h47">Situation 47: Steady heat flow through two layers · Find the interface temperature in °C</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.04 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.08 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1.2 m². Surface temperatures stay at 35°C and 5°C for 900 s. Assume one-dimensional steady conduction and perfect thermal contact. Find the interface temperature in °C.
+
+1. **Identify the model and the conditions.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.166667,\quad R_2=L_2/(k_2A)=1.33333\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=20\,\mathrm W$$
+
+4. **Solve the requested quantity.**
+
+   $$T_j=T_h-\dot QR_1=35-20(0.166667)$$
+
+5. **Check the physical result.** The larger drop belongs to the layer with larger thermal resistance.
+
+6. **State the result.**
+
+   $$31.6667\,{}^\circ\mathrm C$$
+
+**Answer:** $31.6667\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$20\,{}^\circ\mathrm C$** — The drops are unequal because thermal resistances differ.
+- **$8.33333\,{}^\circ\mathrm C$** — This assigns the second layer’s drop to the hot-side layer.
+- **$38.3333\,{}^\circ\mathrm C$** — This adds the hot-side temperature drop instead of subtracting it.
+
+<h4 id="solution-m2h48">Situation 48: Steady heat flow through two layers · Find the energy transferred during the stated time</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.04 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.08 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1.2 m². Surface temperatures stay at 35°C and 5°C for 900 s. Assume one-dimensional steady conduction and perfect thermal contact. Find the energy transferred during the stated time.
+
+1. **Identify the model and the conditions.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.166667,\quad R_2=L_2/(k_2A)=1.33333\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=20\,\mathrm W$$
+
+4. **Solve the requested quantity.**
+
+   $$Q=\dot Qt=20(900)$$
+
+5. **Check the physical result.** Constant steady heat rate multiplied by seconds gives joules.
+
+6. **State the result.**
+
+   $$18000\,\mathrm J$$
+
+**Answer:** $18000\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$20\,\mathrm J$** — This is a rate, not an accumulated energy.
+- **$1.08\times10^{6}\,\mathrm J$** — The given time is already in seconds.
+- **$162000\,\mathrm J$** — This ignores one layer in calculating the rate.
+
+<h4 id="solution-m2h49">Situation 49: Steady heat flow through two layers · Find the temperature drop across the cold-side layer</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.04 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.08 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1.2 m². Surface temperatures stay at 35°C and 5°C for 900 s. Assume one-dimensional steady conduction and perfect thermal contact. Find the temperature drop across the cold-side layer.
+
+1. **Identify the model and the conditions.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.166667,\quad R_2=L_2/(k_2A)=1.33333\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=20\,\mathrm W$$
+
+4. **Solve the requested quantity.**
+
+   $$\Delta T_2=\dot QR_2=20(1.33333)$$
+
+5. **Check the physical result.** The two layer drops add to the imposed whole-wall difference.
+
+6. **State the result.**
+
+   $$26.6667\,\mathrm K$$
+
+**Answer:** $26.6667\,\mathrm K$
+
+**Why the other answers do not work:**
+
+- **$3.33333\,\mathrm K$** — This gives the drop across the other layer.
+- **$30\,\mathrm K$** — The whole wall temperature difference is shared between layers.
+- **$15\,\mathrm K$** — Equal division requires equal thermal resistances.
+
+<h4 id="solution-m2h50">Situation 50: Steady heat flow through two layers · model check</h4>
+
+A flat wall has two layers in series. The hot-side layer has thickness 0.04 m and conductivity $0.20\,\mathrm{W\,m^{-1}\,K^{-1}}$. The cold-side layer has thickness 0.08 m and conductivity $0.050\,\mathrm{W\,m^{-1}\,K^{-1}}$. Area is 1.2 m². Surface temperatures stay at 35°C and 5°C for 900 s. Assume one-dimensional steady conduction and perfect thermal contact. Which condition must hold at the interface in steady operation?
+
+1. **Identify what stays fixed.** The same heat rate passes through both layers. Add thermal resistances, not conductivities.
+
+2. **Calculate thermal resistances.**
+
+   $$R_1=L_1/(k_1A)=0.166667,\quad R_2=L_2/(k_2A)=1.33333\quad(\mathrm{K\,W^{-1}})$$
+
+3. **Use the series heat-flow law.**
+
+   $$\dot Q=(T_h-T_c)/(R_1+R_2)=20\,\mathrm W$$
+
+4. **Apply the conclusion.** Otherwise the interface region would continuously gain or lose internal energy.
+
+**Answer:** The heat rate entering the interface equals the heat rate leaving it.
+
+**Why the other answers do not work:**
+
+- **Both layer temperature drops are equal.** — Their drops are proportional to thermal resistance, not necessarily equal.
+- **Both conductivities are equal.** — The material conductivities can differ.
+- **The interface temperature is the arithmetic mean of the two surfaces.** — That mean applies only when the two thermal resistances match.
+
+<h4 id="solution-m2h51">Situation 51: Close a thermodynamic cycle · Find the signed heat for stage C</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=600\,\mathrm J$ and $W_A=200\,\mathrm J$. Stage B has $Q_B=-150\,\mathrm J$ and $W_B=-80\,\mathrm J$. Stage C has $W_C=50\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Find the signed heat for stage C.
+
+1. **Identify the model and the conditions.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=600-200=400\,\mathrm J,\quad\Delta U_B=-150-(-80)=-70\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-330\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-330+50=-280\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_C=-280\,\mathrm J$$
+
+6. **Check the physical result.** A negative stage-C heat means energy leaves the gas as heat.
+
+7. **State the result.**
+
+   $$-280\,\mathrm J$$
+
+**Answer:** $-280\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-330\,\mathrm J$** — This omits the work done in stage C.
+- **$280\,\mathrm J$** — This reverses the defined heat sign.
+- **$-380\,\mathrm J$** — The first law rearranges to $Q=\Delta U+W$.
+
+<h4 id="solution-m2h52">Situation 52: Close a thermodynamic cycle · Find the internal-energy change during stage C</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=600\,\mathrm J$ and $W_A=200\,\mathrm J$. Stage B has $Q_B=-150\,\mathrm J$ and $W_B=-80\,\mathrm J$. Stage C has $W_C=50\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Find the internal-energy change during stage C.
+
+1. **Identify the model and the conditions.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=600-200=400\,\mathrm J,\quad\Delta U_B=-150-(-80)=-70\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-330\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-330+50=-280\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$\Delta U_C=-330\,\mathrm J$$
+
+6. **Check the physical result.** Adding the three stage changes gives zero.
+
+7. **State the result.**
+
+   $$-330\,\mathrm J$$
+
+**Answer:** $-330\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-280\,\mathrm J$** — Heat is not the same as internal-energy change when work occurs.
+- **$330\,\mathrm J$** — This fails the zero-sum cycle condition.
+- **$0\,\mathrm J$** — Only the total cycle change must vanish, not each stage change.
+
+<h4 id="solution-m2h53">Situation 53: Close a thermodynamic cycle · Find the net work done by the gas during the cycle</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=600\,\mathrm J$ and $W_A=200\,\mathrm J$. Stage B has $Q_B=-150\,\mathrm J$ and $W_B=-80\,\mathrm J$. Stage C has $W_C=50\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Find the net work done by the gas during the cycle.
+
+1. **Identify the model and the conditions.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=600-200=400\,\mathrm J,\quad\Delta U_B=-150-(-80)=-70\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-330\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-330+50=-280\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$W_{\rm net}=200+(-80)+50=170\,\mathrm J$$
+
+6. **Check the physical result.** The same number equals signed net heat over the complete cycle.
+
+7. **State the result.**
+
+   $$170\,\mathrm J$$
+
+**Answer:** $170\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$330\,\mathrm J$** — Compression work is already negative and must not have its sign reversed again.
+- **$250\,\mathrm J$** — This omits stage-B work.
+- **$0\,\mathrm J$** — Returning to the same state does not force zero net work.
+
+<h4 id="solution-m2h54">Situation 54: Close a thermodynamic cycle · Find the defined engine efficiency as a fraction</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=600\,\mathrm J$ and $W_A=200\,\mathrm J$. Stage B has $Q_B=-150\,\mathrm J$ and $W_B=-80\,\mathrm J$. Stage C has $W_C=50\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Find the defined engine efficiency as a fraction.
+
+1. **Identify the model and the conditions.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=600-200=400\,\mathrm J,\quad\Delta U_B=-150-(-80)=-70\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-330\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-330+50=-280\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$\eta=W_{\rm net}/Q_{\rm in}=170/600$$
+
+6. **Check the physical result.** Only stage A supplies positive heat for these values; efficiency is below one.
+
+7. **State the result.**
+
+   $$0.283333$$
+
+**Answer:** $0.283333$
+
+**Why the other answers do not work:**
+
+- **$1$** — This divides by net heat instead of positive heat input.
+- **$0.566667$** — This doubles the actual net-work fraction without a physical basis.
+- **$0.716667$** — This is the rejected-heat fraction, not the work fraction.
+
+<h4 id="solution-m2h55">Situation 55: Close a thermodynamic cycle · model check</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=600\,\mathrm J$ and $W_A=200\,\mathrm J$. Stage B has $Q_B=-150\,\mathrm J$ and $W_B=-80\,\mathrm J$. Stage C has $W_C=50\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Why can the cycle have nonzero net work although its internal-energy change is zero?
+
+1. **Identify what stays fixed.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=600-200=400\,\mathrm J,\quad\Delta U_B=-150-(-80)=-70\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-330\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-330+50=-280\,\mathrm J$$
+
+5. **Apply the conclusion.** Energy can pass through the gas while the gas returns to its original state.
+
+**Answer:** Net heat equals net work over the cycle.
+
+**Why the other answers do not work:**
+
+- **The first law stops applying when a path closes.** — The first law applies to the complete cycle and each stage.
+- **Every heat transfer must individually equal every work transfer.** — That equality is required only after summing the complete cycle here.
+- **Compression work becomes positive because its magnitude is positive.** — The stated sign convention assigns negative work to compression.
+
+<h4 id="solution-m2h56">Situation 56: Close a thermodynamic cycle · Find the signed heat for stage C</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=720\,\mathrm J$ and $W_A=250\,\mathrm J$. Stage B has $Q_B=-180\,\mathrm J$ and $W_B=-100\,\mathrm J$. Stage C has $W_C=60\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Find the signed heat for stage C.
+
+1. **Identify the model and the conditions.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=720-250=470\,\mathrm J,\quad\Delta U_B=-180-(-100)=-80\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-390\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-390+60=-330\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_C=-330\,\mathrm J$$
+
+6. **Check the physical result.** A negative stage-C heat means energy leaves the gas as heat.
+
+7. **State the result.**
+
+   $$-330\,\mathrm J$$
+
+**Answer:** $-330\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-390\,\mathrm J$** — This omits the work done in stage C.
+- **$330\,\mathrm J$** — This reverses the defined heat sign.
+- **$-450\,\mathrm J$** — The first law rearranges to $Q=\Delta U+W$.
+
+<h4 id="solution-m2h57">Situation 57: Close a thermodynamic cycle · Find the internal-energy change during stage C</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=720\,\mathrm J$ and $W_A=250\,\mathrm J$. Stage B has $Q_B=-180\,\mathrm J$ and $W_B=-100\,\mathrm J$. Stage C has $W_C=60\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Find the internal-energy change during stage C.
+
+1. **Identify the model and the conditions.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=720-250=470\,\mathrm J,\quad\Delta U_B=-180-(-100)=-80\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-390\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-390+60=-330\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$\Delta U_C=-390\,\mathrm J$$
+
+6. **Check the physical result.** Adding the three stage changes gives zero.
+
+7. **State the result.**
+
+   $$-390\,\mathrm J$$
+
+**Answer:** $-390\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-330\,\mathrm J$** — Heat is not the same as internal-energy change when work occurs.
+- **$390\,\mathrm J$** — This fails the zero-sum cycle condition.
+- **$0\,\mathrm J$** — Only the total cycle change must vanish, not each stage change.
+
+<h4 id="solution-m2h58">Situation 58: Close a thermodynamic cycle · Find the net work done by the gas during the cycle</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=720\,\mathrm J$ and $W_A=250\,\mathrm J$. Stage B has $Q_B=-180\,\mathrm J$ and $W_B=-100\,\mathrm J$. Stage C has $W_C=60\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Find the net work done by the gas during the cycle.
+
+1. **Identify the model and the conditions.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=720-250=470\,\mathrm J,\quad\Delta U_B=-180-(-100)=-80\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-390\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-390+60=-330\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$W_{\rm net}=250+(-100)+60=210\,\mathrm J$$
+
+6. **Check the physical result.** The same number equals signed net heat over the complete cycle.
+
+7. **State the result.**
+
+   $$210\,\mathrm J$$
+
+**Answer:** $210\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$410\,\mathrm J$** — Compression work is already negative and must not have its sign reversed again.
+- **$310\,\mathrm J$** — This omits stage-B work.
+- **$0\,\mathrm J$** — Returning to the same state does not force zero net work.
+
+<h4 id="solution-m2h59">Situation 59: Close a thermodynamic cycle · Find the defined engine efficiency as a fraction</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=720\,\mathrm J$ and $W_A=250\,\mathrm J$. Stage B has $Q_B=-180\,\mathrm J$ and $W_B=-100\,\mathrm J$. Stage C has $W_C=60\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Find the defined engine efficiency as a fraction.
+
+1. **Identify the model and the conditions.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=720-250=470\,\mathrm J,\quad\Delta U_B=-180-(-100)=-80\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-390\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-390+60=-330\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$\eta=W_{\rm net}/Q_{\rm in}=210/720$$
+
+6. **Check the physical result.** Only stage A supplies positive heat for these values; efficiency is below one.
+
+7. **State the result.**
+
+   $$0.291667$$
+
+**Answer:** $0.291667$
+
+**Why the other answers do not work:**
+
+- **$1$** — This divides by net heat instead of positive heat input.
+- **$0.583333$** — This doubles the actual net-work fraction without a physical basis.
+- **$0.708333$** — This is the rejected-heat fraction, not the work fraction.
+
+<h4 id="solution-m2h60">Situation 60: Close a thermodynamic cycle · model check</h4>
+
+A gas completes a three-stage cycle. Heat entering the gas is positive; work done by the gas is positive. Stage A has $Q_A=720\,\mathrm J$ and $W_A=250\,\mathrm J$. Stage B has $Q_B=-180\,\mathrm J$ and $W_B=-100\,\mathrm J$. Stage C has $W_C=60\,\mathrm J$. The final state equals the initial state. Define engine efficiency as net cycle work divided by total positive heat input. Why can the cycle have nonzero net work although its internal-energy change is zero?
+
+1. **Identify what stays fixed.** Use $\Delta U=Q-W$ for every stage. A closed cycle has zero total internal-energy change.
+
+2. **Calculate the known energy changes.**
+
+   $$\Delta U_A=720-250=470\,\mathrm J,\quad\Delta U_B=-180-(-100)=-80\,\mathrm J$$
+
+3. **Close the internal-energy balance.**
+
+   $$\Delta U_C=-(\Delta U_A+\Delta U_B)=-390\,\mathrm J$$
+
+4. **Recover the missing heat.**
+
+   $$Q_C=\Delta U_C+W_C=-390+60=-330\,\mathrm J$$
+
+5. **Apply the conclusion.** Energy can pass through the gas while the gas returns to its original state.
+
+**Answer:** Net heat equals net work over the cycle.
+
+**Why the other answers do not work:**
+
+- **The first law stops applying when a path closes.** — The first law applies to the complete cycle and each stage.
+- **Every heat transfer must individually equal every work transfer.** — That equality is required only after summing the complete cycle here.
+- **Compression work becomes positive because its magnitude is positive.** — The stated sign convention assigns negative work to compression.
+

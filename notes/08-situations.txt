@@ -286,3 +286,1723 @@ Two ideal long coaxial air-core solenoids overlap. Their uniform internal fields
 - **$0.00125664\,\mathrm T$** — This gives the second solenoid field alone.
 - **$0.00376991\,\mathrm T$** — This gives the first solenoid field alone.
 
+<h4 id="solution-m8h11">Situation 11: A velocity selector followed by a magnetic analyzer · Find the selected particle speed</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=3000\,\mathrm{N\,C^{-1}}$ and $B_1=0.02\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.1\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. Find the selected particle speed.
+
+1. **Identify the model and the conditions.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Solve the requested quantity.**
+
+   $$v=3000/0.02=150000\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The test-particle charge magnitude cancels from the selector speed.
+
+7. **State the result.**
+
+   $$150000\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $150000\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$30000\,\mathrm{m\,s^{-1}}$** — This uses the analyzer field instead of the selector field.
+- **$60\,\mathrm{m\,s^{-1}}$** — The force balance requires division by B, not multiplication.
+- **$300000\,\mathrm{m\,s^{-1}}$** — Both forces act on one particle; their balance does not double the speed.
+
+<h4 id="solution-m8h12">Situation 12: A velocity selector followed by a magnetic analyzer · Find the proton orbit radius in the analyzer</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=3000\,\mathrm{N\,C^{-1}}$ and $B_1=0.02\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.1\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. Find the proton orbit radius in the analyzer.
+
+1. **Identify the model and the conditions.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Solve the requested quantity.**
+
+   $$r=\frac{(1.673\times10^{-27})(150000)}{(1.602\times10^{-19})(0.1)}$$
+
+6. **Check the physical result.** The analyzer field is perpendicular to the velocity, so the full speed supplies circular motion.
+
+7. **State the result.**
+
+   $$0.0156648\,\mathrm m$$
+
+**Answer:** $0.0156648\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.078324\,\mathrm m$** — This uses the selector field for the analyzer orbit.
+- **$0.0313296\,\mathrm m$** — The asked quantity is radius, not diameter.
+- **$0.0078324\,\mathrm m$** — No extra factor two appears in the magnetic-force radius relation.
+
+<h4 id="solution-m8h13">Situation 13: A velocity selector followed by a magnetic analyzer · Find the proton kinetic energy after selection</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=3000\,\mathrm{N\,C^{-1}}$ and $B_1=0.02\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.1\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. Find the proton kinetic energy after selection.
+
+1. **Identify the model and the conditions.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Solve the requested quantity.**
+
+   $$K=\tfrac12(1.673\times10^{-27})(150000)^2$$
+
+6. **Check the physical result.** The magnetic analyzer preserves the selected kinetic energy.
+
+7. **State the result.**
+
+   $$1.88213\times10^{-17}\,\mathrm J$$
+
+**Answer:** $1.88213\times10^{-17}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$3.76425\times10^{-17}\,\mathrm J$** — This omits the kinetic-energy one-half.
+- **$7.5285\times10^{-19}\,\mathrm J$** — This uses the analyzer field in the speed-selection condition.
+- **$9.41063\times10^{-18}\,\mathrm J$** — This adds an extra one-half beyond the kinetic-energy formula.
+
+<h4 id="solution-m8h14">Situation 14: A velocity selector followed by a magnetic analyzer · Find the analyzer orbit period</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=3000\,\mathrm{N\,C^{-1}}$ and $B_1=0.02\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.1\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. Find the analyzer orbit period.
+
+1. **Identify the model and the conditions.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Solve the requested quantity.**
+
+   $$T=\frac{2\pi m}{qB_2}=6.56165\times10^{-7}\,\mathrm s$$
+
+6. **Check the physical result.** For this nonrelativistic uniform-field model, period is independent of particle speed.
+
+7. **State the result.**
+
+   $$6.56165\times10^{-7}\,\mathrm s$$
+
+**Answer:** $6.56165\times10^{-7}\,\mathrm s$
+
+**Why the other answers do not work:**
+
+- **$3.28083\times10^{-6}\,\mathrm s$** — This uses the selector field instead of the analyzer field.
+- **$3.28083\times10^{-7}\,\mathrm s$** — This gives a half-orbit time.
+- **$1.31233\times10^{-6}\,\mathrm s$** — The period already covers one complete circle.
+
+<h4 id="solution-m8h15">Situation 15: A velocity selector followed by a magnetic analyzer · model check</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=3000\,\mathrm{N\,C^{-1}}$ and $B_1=0.02\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.1\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. What makes an off-speed proton deflect inside the selector?
+
+1. **Identify what stays fixed.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Apply the conclusion.** Electric force is qE, while magnetic force depends on speed through qvB.
+
+**Answer:** Its electric and magnetic force magnitudes no longer match.
+
+**Why the other answers do not work:**
+
+- **The proton charge becomes velocity dependent.** — The model uses a fixed elementary charge.
+- **The electric field does no force on a moving charge.** — Electric force qE acts whether the charge is moving or at rest.
+- **Every magnetic force increases particle kinetic energy.** — Magnetic force alone is perpendicular to velocity and does no work.
+
+<h4 id="solution-m8h16">Situation 16: A velocity selector followed by a magnetic analyzer · Find the selected particle speed</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=4500\,\mathrm{N\,C^{-1}}$ and $B_1=0.03\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.12\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. Find the selected particle speed.
+
+1. **Identify the model and the conditions.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Solve the requested quantity.**
+
+   $$v=4500/0.03=150000\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The test-particle charge magnitude cancels from the selector speed.
+
+7. **State the result.**
+
+   $$150000\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $150000\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$37500\,\mathrm{m\,s^{-1}}$** — This uses the analyzer field instead of the selector field.
+- **$135\,\mathrm{m\,s^{-1}}$** — The force balance requires division by B, not multiplication.
+- **$300000\,\mathrm{m\,s^{-1}}$** — Both forces act on one particle; their balance does not double the speed.
+
+<h4 id="solution-m8h17">Situation 17: A velocity selector followed by a magnetic analyzer · Find the proton orbit radius in the analyzer</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=4500\,\mathrm{N\,C^{-1}}$ and $B_1=0.03\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.12\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. Find the proton orbit radius in the analyzer.
+
+1. **Identify the model and the conditions.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Solve the requested quantity.**
+
+   $$r=\frac{(1.673\times10^{-27})(150000)}{(1.602\times10^{-19})(0.12)}$$
+
+6. **Check the physical result.** The analyzer field is perpendicular to the velocity, so the full speed supplies circular motion.
+
+7. **State the result.**
+
+   $$0.013054\,\mathrm m$$
+
+**Answer:** $0.013054\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.052216\,\mathrm m$** — This uses the selector field for the analyzer orbit.
+- **$0.026108\,\mathrm m$** — The asked quantity is radius, not diameter.
+- **$0.006527\,\mathrm m$** — No extra factor two appears in the magnetic-force radius relation.
+
+<h4 id="solution-m8h18">Situation 18: A velocity selector followed by a magnetic analyzer · Find the proton kinetic energy after selection</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=4500\,\mathrm{N\,C^{-1}}$ and $B_1=0.03\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.12\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. Find the proton kinetic energy after selection.
+
+1. **Identify the model and the conditions.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Solve the requested quantity.**
+
+   $$K=\tfrac12(1.673\times10^{-27})(150000)^2$$
+
+6. **Check the physical result.** The magnetic analyzer preserves the selected kinetic energy.
+
+7. **State the result.**
+
+   $$1.88213\times10^{-17}\,\mathrm J$$
+
+**Answer:** $1.88213\times10^{-17}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$3.76425\times10^{-17}\,\mathrm J$** — This omits the kinetic-energy one-half.
+- **$1.17633\times10^{-18}\,\mathrm J$** — This uses the analyzer field in the speed-selection condition.
+- **$9.41063\times10^{-18}\,\mathrm J$** — This adds an extra one-half beyond the kinetic-energy formula.
+
+<h4 id="solution-m8h19">Situation 19: A velocity selector followed by a magnetic analyzer · Find the analyzer orbit period</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=4500\,\mathrm{N\,C^{-1}}$ and $B_1=0.03\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.12\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. Find the analyzer orbit period.
+
+1. **Identify the model and the conditions.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Solve the requested quantity.**
+
+   $$T=\frac{2\pi m}{qB_2}=5.46804\times10^{-7}\,\mathrm s$$
+
+6. **Check the physical result.** For this nonrelativistic uniform-field model, period is independent of particle speed.
+
+7. **State the result.**
+
+   $$5.46804\times10^{-7}\,\mathrm s$$
+
+**Answer:** $5.46804\times10^{-7}\,\mathrm s$
+
+**Why the other answers do not work:**
+
+- **$2.18722\times10^{-6}\,\mathrm s$** — This uses the selector field instead of the analyzer field.
+- **$2.73402\times10^{-7}\,\mathrm s$** — This gives a half-orbit time.
+- **$1.09361\times10^{-6}\,\mathrm s$** — The period already covers one complete circle.
+
+<h4 id="solution-m8h20">Situation 20: A velocity selector followed by a magnetic analyzer · model check</h4>
+
+A beam of protons passes straight through crossed electric and magnetic fields. Their directions make the electric and magnetic forces oppose. The selector has $E=4500\,\mathrm{N\,C^{-1}}$ and $B_1=0.03\,\mathrm T$. The beam then enters a separate perpendicular uniform field $B_2=0.12\,\mathrm T$. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Ignore all other forces and relativistic effects. What makes an off-speed proton deflect inside the selector?
+
+1. **Identify what stays fixed.** Straight selector motion requires electric and magnetic forces to cancel. The analyzer changes direction without changing speed.
+
+2. **Balance selector force magnitudes.**
+
+   $$qE=qvB_1\ \Rightarrow\ v=E/B_1=150000\,\mathrm{m\,s^{-1}}$$
+
+3. **Balance analyzer force with centripetal acceleration.**
+
+   $$qvB_2=mv^2/r\ \Rightarrow\ r=mv/(qB_2)$$
+
+4. **Relate kinetic energy and period to the selected speed.**
+
+   $$K=\tfrac12mv^2,\quad T=2\pi r/v=2\pi m/(qB_2)$$
+
+5. **Apply the conclusion.** Electric force is qE, while magnetic force depends on speed through qvB.
+
+**Answer:** Its electric and magnetic force magnitudes no longer match.
+
+**Why the other answers do not work:**
+
+- **The proton charge becomes velocity dependent.** — The model uses a fixed elementary charge.
+- **The electric field does no force on a moving charge.** — Electric force qE acts whether the charge is moving or at rest.
+- **Every magnetic force increases particle kinetic energy.** — Magnetic force alone is perpendicular to velocity and does no work.
+
+<h4 id="solution-m8h21">Situation 21: A wire supported by magnetic force · Find the upward magnetic-force magnitude</h4>
+
+A horizontal straight wire segment has length 0.3 m, mass 0.02 kg, and conventional current 3 A. A horizontal uniform magnetic field of 0.5 T makes 40° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the upward magnetic-force magnitude.
+
+1. **Identify the model and the conditions.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.289254\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Solve the requested quantity.**
+
+   $$F_B=(3)(0.3)(0.5)\sin40^\circ$$
+
+6. **Check the physical result.** The magnetic force is below ILB because the angle is less than 90 degrees.
+
+7. **State the result.**
+
+   $$0.289254\,\mathrm N$$
+
+**Answer:** $0.289254\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$0.45\,\mathrm N$** — This assumes the wire is perpendicular to the field.
+- **$0.34472\,\mathrm N$** — The stated angle is between current and field, so use sine.
+- **$0.1962\,\mathrm N$** — Magnetic force equals weight only at the levitation current.
+
+<h4 id="solution-m8h22">Situation 22: A wire supported by magnetic force · Find the signed vertical acceleration, with upward positive</h4>
+
+A horizontal straight wire segment has length 0.3 m, mass 0.02 kg, and conventional current 3 A. A horizontal uniform magnetic field of 0.5 T makes 40° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the signed vertical acceleration, with upward positive.
+
+1. **Identify the model and the conditions.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.289254\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Solve the requested quantity.**
+
+   $$a_y=(0.289254-0.02(9.81))/0.02=4.65272\,\mathrm{m\,s^{-2}}$$
+
+6. **Check the physical result.** The acceleration sign identifies whether the wire initially rises or falls.
+
+7. **State the result.**
+
+   $$4.65272\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $4.65272\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$14.4627\,\mathrm{m\,s^{-2}}$** — This ignores gravity.
+- **$-4.65272\,\mathrm{m\,s^{-2}}$** — This reverses the upward-positive sign convention.
+- **$24.2727\,\mathrm{m\,s^{-2}}$** — Magnetic force and gravity oppose.
+
+<h4 id="solution-m8h23">Situation 23: A wire supported by magnetic force · Keeping the field unchanged, find the current magnitude needed for levitation</h4>
+
+A horizontal straight wire segment has length 0.3 m, mass 0.02 kg, and conventional current 3 A. A horizontal uniform magnetic field of 0.5 T makes 40° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Keeping the field unchanged, find the current magnitude needed for levitation.
+
+1. **Identify the model and the conditions.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.289254\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Solve the requested quantity.**
+
+   $$I_{\rm bal}=mg/(LB\sin\theta)=2.03489\,\mathrm A$$
+
+6. **Check the physical result.** At the balancing current, magnetic force equals weight and vertical acceleration vanishes.
+
+7. **State the result.**
+
+   $$2.03489\,\mathrm A$$
+
+**Answer:** $2.03489\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$1.308\,\mathrm A$** — This assumes a right angle between current and field.
+- **$1.70747\,\mathrm A$** — This uses cosine with the stated current-to-field angle.
+- **$3\,\mathrm A$** — The original current does not exactly balance weight in this parameter set.
+
+<h4 id="solution-m8h24">Situation 24: A wire supported by magnetic force · Keeping the original current unchanged, find the field magnitude needed for levitation</h4>
+
+A horizontal straight wire segment has length 0.3 m, mass 0.02 kg, and conventional current 3 A. A horizontal uniform magnetic field of 0.5 T makes 40° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Keeping the original current unchanged, find the field magnitude needed for levitation.
+
+1. **Identify the model and the conditions.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.289254\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Solve the requested quantity.**
+
+   $$B_{\rm bal}=mg/(IL\sin\theta)=0.339148\,\mathrm T$$
+
+6. **Check the physical result.** This inverse problem holds the original current fixed instead of adjusting it.
+
+7. **State the result.**
+
+   $$0.339148\,\mathrm T$$
+
+**Answer:** $0.339148\,\mathrm T$
+
+**Why the other answers do not work:**
+
+- **$0.218\,\mathrm T$** — This omits the angle factor.
+- **$0.284579\,\mathrm T$** — This interchanges sine and cosine.
+- **$0.5\,\mathrm T$** — The original field does not exactly balance the weight.
+
+<h4 id="solution-m8h25">Situation 25: A wire supported by magnetic force · model check</h4>
+
+A horizontal straight wire segment has length 0.3 m, mass 0.02 kg, and conventional current 3 A. A horizontal uniform magnetic field of 0.5 T makes 40° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. What happens if the current direction reverses while the geometry and field stay fixed?
+
+1. **Identify what stays fixed.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.289254\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Apply the conclusion.** The wire-force direction follows the cross product of current direction with magnetic field.
+
+**Answer:** The magnetic force becomes downward and adds to gravity.
+
+**Why the other answers do not work:**
+
+- **The magnetic force stays upward because its magnitude is unchanged.** — Magnitude does not determine direction.
+- **Gravity reverses with the current.** — Gravity does not depend on current direction.
+- **The magnetic field vanishes.** — The specified external field stays present.
+
+<h4 id="solution-m8h26">Situation 26: A wire supported by magnetic force · Find the upward magnetic-force magnitude</h4>
+
+A horizontal straight wire segment has length 0.35 m, mass 0.025 kg, and conventional current 4 A. A horizontal uniform magnetic field of 0.6 T makes 50° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the upward magnetic-force magnitude.
+
+1. **Identify the model and the conditions.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.643477\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Solve the requested quantity.**
+
+   $$F_B=(4)(0.35)(0.6)\sin50^\circ$$
+
+6. **Check the physical result.** The magnetic force is below ILB because the angle is less than 90 degrees.
+
+7. **State the result.**
+
+   $$0.643477\,\mathrm N$$
+
+**Answer:** $0.643477\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$0.84\,\mathrm N$** — This assumes the wire is perpendicular to the field.
+- **$0.539942\,\mathrm N$** — The stated angle is between current and field, so use sine.
+- **$0.24525\,\mathrm N$** — Magnetic force equals weight only at the levitation current.
+
+<h4 id="solution-m8h27">Situation 27: A wire supported by magnetic force · Find the signed vertical acceleration, with upward positive</h4>
+
+A horizontal straight wire segment has length 0.35 m, mass 0.025 kg, and conventional current 4 A. A horizontal uniform magnetic field of 0.6 T makes 50° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Find the signed vertical acceleration, with upward positive.
+
+1. **Identify the model and the conditions.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.643477\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Solve the requested quantity.**
+
+   $$a_y=(0.643477-0.025(9.81))/0.025=15.9291\,\mathrm{m\,s^{-2}}$$
+
+6. **Check the physical result.** The acceleration sign identifies whether the wire initially rises or falls.
+
+7. **State the result.**
+
+   $$15.9291\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $15.9291\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$25.7391\,\mathrm{m\,s^{-2}}$** — This ignores gravity.
+- **$-15.9291\,\mathrm{m\,s^{-2}}$** — This reverses the upward-positive sign convention.
+- **$35.5491\,\mathrm{m\,s^{-2}}$** — Magnetic force and gravity oppose.
+
+<h4 id="solution-m8h28">Situation 28: A wire supported by magnetic force · Keeping the field unchanged, find the current magnitude needed for levitation</h4>
+
+A horizontal straight wire segment has length 0.35 m, mass 0.025 kg, and conventional current 4 A. A horizontal uniform magnetic field of 0.6 T makes 50° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Keeping the field unchanged, find the current magnitude needed for levitation.
+
+1. **Identify the model and the conditions.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.643477\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Solve the requested quantity.**
+
+   $$I_{\rm bal}=mg/(LB\sin\theta)=1.52453\,\mathrm A$$
+
+6. **Check the physical result.** At the balancing current, magnetic force equals weight and vertical acceleration vanishes.
+
+7. **State the result.**
+
+   $$1.52453\,\mathrm A$$
+
+**Answer:** $1.52453\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$1.16786\,\mathrm A$** — This assumes a right angle between current and field.
+- **$1.81686\,\mathrm A$** — This uses cosine with the stated current-to-field angle.
+- **$4\,\mathrm A$** — The original current does not exactly balance weight in this parameter set.
+
+<h4 id="solution-m8h29">Situation 29: A wire supported by magnetic force · Keeping the original current unchanged, find the field magnitude needed for levitation</h4>
+
+A horizontal straight wire segment has length 0.35 m, mass 0.025 kg, and conventional current 4 A. A horizontal uniform magnetic field of 0.6 T makes 50° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. Keeping the original current unchanged, find the field magnitude needed for levitation.
+
+1. **Identify the model and the conditions.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.643477\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Solve the requested quantity.**
+
+   $$B_{\rm bal}=mg/(IL\sin\theta)=0.228679\,\mathrm T$$
+
+6. **Check the physical result.** This inverse problem holds the original current fixed instead of adjusting it.
+
+7. **State the result.**
+
+   $$0.228679\,\mathrm T$$
+
+**Answer:** $0.228679\,\mathrm T$
+
+**Why the other answers do not work:**
+
+- **$0.175179\,\mathrm T$** — This omits the angle factor.
+- **$0.272529\,\mathrm T$** — This interchanges sine and cosine.
+- **$0.6\,\mathrm T$** — The original field does not exactly balance the weight.
+
+<h4 id="solution-m8h30">Situation 30: A wire supported by magnetic force · model check</h4>
+
+A horizontal straight wire segment has length 0.35 m, mass 0.025 kg, and conventional current 4 A. A horizontal uniform magnetic field of 0.6 T makes 50° with the wire. The current and field directions give upward magnetic force. Only gravity and magnetic force act vertically after support is removed. Use $g=9.81\,\mathrm{m\,s^{-2}}$. What happens if the current direction reverses while the geometry and field stay fixed?
+
+1. **Identify what stays fixed.** Use the angle between current direction and magnetic field. Subtract weight when calculating the net vertical acceleration.
+
+2. **Calculate upward magnetic force.**
+
+   $$F_B=ILB\sin\theta=0.643477\,\mathrm N$$
+
+3. **Keep gravity in the net-force balance.**
+
+   $$ma_y=F_B-mg$$
+
+4. **State the levitation condition.**
+
+   $$I_{\rm bal}LB\sin\theta=mg$$
+
+5. **Apply the conclusion.** The wire-force direction follows the cross product of current direction with magnetic field.
+
+**Answer:** The magnetic force becomes downward and adds to gravity.
+
+**Why the other answers do not work:**
+
+- **The magnetic force stays upward because its magnitude is unchanged.** — Magnitude does not determine direction.
+- **Gravity reverses with the current.** — Gravity does not depend on current direction.
+- **The magnetic field vanishes.** — The specified external field stays present.
+
+<h4 id="solution-m8h31">Situation 31: Current-loop torque and orientation energy · Find the magnetic-moment magnitude</h4>
+
+A rigid 20-turn rectangular loop measures 0.1 m by 0.2 m and carries 0.5 A. Its positive area normal makes 40° with a uniform 0.3 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Find the magnetic-moment magnitude.
+
+1. **Identify the model and the conditions.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.2\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Solve the requested quantity.**
+
+   $$\mu=(20)(0.5)(0.1)(0.2)$$
+
+6. **Check the physical result.** Each identical turn contributes current times its enclosed area.
+
+7. **State the result.**
+
+   $$0.2\,\mathrm{A\,m^2}$$
+
+**Answer:** $0.2\,\mathrm{A\,m^2}$
+
+**Why the other answers do not work:**
+
+- **$0.01\,\mathrm{A\,m^2}$** — This omits the number of turns.
+- **$6\,\mathrm{A\,m^2}$** — Magnetic moment uses loop area, not perimeter.
+- **$0.06\,\mathrm{A\,m^2}$** — This has an extra field factor and is not magnetic moment.
+
+<h4 id="solution-m8h32">Situation 32: Current-loop torque and orientation energy · Find the torque magnitude at the stated orientation</h4>
+
+A rigid 20-turn rectangular loop measures 0.1 m by 0.2 m and carries 0.5 A. Its positive area normal makes 40° with a uniform 0.3 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Find the torque magnitude at the stated orientation.
+
+1. **Identify the model and the conditions.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.2\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Solve the requested quantity.**
+
+   $$\tau=\mu B\sin40^\circ=0.0385673\,\mathrm{N\,m}$$
+
+6. **Check the physical result.** The torque is below the maximum μB for the stated non-right normal angle.
+
+7. **State the result.**
+
+   $$0.0385673\,\mathrm{N\,m}$$
+
+**Answer:** $0.0385673\,\mathrm{N\,m}$
+
+**Why the other answers do not work:**
+
+- **$0.06\,\mathrm{N\,m}$** — This gives maximum torque at a 90-degree normal angle.
+- **$0.0459627\,\mathrm{N\,m}$** — The normal-based torque formula uses sine.
+- **$0.00192836\,\mathrm{N\,m}$** — This omits the number of turns.
+
+<h4 id="solution-m8h33">Situation 33: Current-loop torque and orientation energy · Find the orientation energy using the stated zero reference</h4>
+
+A rigid 20-turn rectangular loop measures 0.1 m by 0.2 m and carries 0.5 A. Its positive area normal makes 40° with a uniform 0.3 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Find the orientation energy using the stated zero reference.
+
+1. **Identify the model and the conditions.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.2\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Solve the requested quantity.**
+
+   $$U=-\mu B\cos40^\circ=-0.0459627\,\mathrm J$$
+
+6. **Check the physical result.** Energy is lowest when the positive normal aligns with the field.
+
+7. **State the result.**
+
+   $$-0.0459627\,\mathrm J$$
+
+**Answer:** $-0.0459627\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$0.0459627\,\mathrm J$** — This reverses the stable-alignment energy convention.
+- **$-0.06\,\mathrm J$** — This gives energy at complete alignment, not the stated angle.
+- **$-0.0385673\,\mathrm J$** — The integrated energy uses cosine rather than the torque sine.
+
+<h4 id="solution-m8h34">Situation 34: Current-loop torque and orientation energy · Find the signed external work to rotate the normal slowly into alignment</h4>
+
+A rigid 20-turn rectangular loop measures 0.1 m by 0.2 m and carries 0.5 A. Its positive area normal makes 40° with a uniform 0.3 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Find the signed external work to rotate the normal slowly into alignment.
+
+1. **Identify the model and the conditions.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.2\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Solve the requested quantity.**
+
+   $$W_{\rm ext}=-\mu B-U(\theta)=-0.0140373\,\mathrm J$$
+
+6. **Check the physical result.** Negative external work means the external agent removes energy as the loop aligns.
+
+7. **State the result.**
+
+   $$-0.0140373\,\mathrm J$$
+
+**Answer:** $-0.0140373\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$0.0140373\,\mathrm J$** — This gives work by the magnetic torque instead of quasistatic external work.
+- **$-0.0459627\,\mathrm J$** — The initial orientation energy is not the change to the aligned state.
+- **$-0.06\,\mathrm J$** — This omits the initial orientation energy.
+
+<h4 id="solution-m8h35">Situation 35: Current-loop torque and orientation energy · model check</h4>
+
+A rigid 20-turn rectangular loop measures 0.1 m by 0.2 m and carries 0.5 A. Its positive area normal makes 40° with a uniform 0.3 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Why is the angle in the torque law not the angle between the field and the loop plane?
+
+1. **Identify what stays fixed.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.2\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Apply the conclusion.** Torque is the cross product of magnetic moment with field.
+
+**Answer:** The magnetic moment points along the loop’s positive normal.
+
+**Why the other answers do not work:**
+
+- **The plane angle and normal angle are always equal.** — They are complementary, except for special angles.
+- **The field must lie in the loop plane for every torque calculation.** — The formula handles arbitrary orientation.
+- **Loop torque depends only on perimeter.** — The moment depends on current times enclosed area.
+
+<h4 id="solution-m8h36">Situation 36: Current-loop torque and orientation energy · Find the magnetic-moment magnitude</h4>
+
+A rigid 30-turn rectangular loop measures 0.1 m by 0.15 m and carries 0.4 A. Its positive area normal makes 55° with a uniform 0.25 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Find the magnetic-moment magnitude.
+
+1. **Identify the model and the conditions.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.18\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Solve the requested quantity.**
+
+   $$\mu=(30)(0.4)(0.1)(0.15)$$
+
+6. **Check the physical result.** Each identical turn contributes current times its enclosed area.
+
+7. **State the result.**
+
+   $$0.18\,\mathrm{A\,m^2}$$
+
+**Answer:** $0.18\,\mathrm{A\,m^2}$
+
+**Why the other answers do not work:**
+
+- **$0.006\,\mathrm{A\,m^2}$** — This omits the number of turns.
+- **$6\,\mathrm{A\,m^2}$** — Magnetic moment uses loop area, not perimeter.
+- **$0.045\,\mathrm{A\,m^2}$** — This has an extra field factor and is not magnetic moment.
+
+<h4 id="solution-m8h37">Situation 37: Current-loop torque and orientation energy · Find the torque magnitude at the stated orientation</h4>
+
+A rigid 30-turn rectangular loop measures 0.1 m by 0.15 m and carries 0.4 A. Its positive area normal makes 55° with a uniform 0.25 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Find the torque magnitude at the stated orientation.
+
+1. **Identify the model and the conditions.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.18\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Solve the requested quantity.**
+
+   $$\tau=\mu B\sin55^\circ=0.0368618\,\mathrm{N\,m}$$
+
+6. **Check the physical result.** The torque is below the maximum μB for the stated non-right normal angle.
+
+7. **State the result.**
+
+   $$0.0368618\,\mathrm{N\,m}$$
+
+**Answer:** $0.0368618\,\mathrm{N\,m}$
+
+**Why the other answers do not work:**
+
+- **$0.045\,\mathrm{N\,m}$** — This gives maximum torque at a 90-degree normal angle.
+- **$0.0258109\,\mathrm{N\,m}$** — The normal-based torque formula uses sine.
+- **$0.00122873\,\mathrm{N\,m}$** — This omits the number of turns.
+
+<h4 id="solution-m8h38">Situation 38: Current-loop torque and orientation energy · Find the orientation energy using the stated zero reference</h4>
+
+A rigid 30-turn rectangular loop measures 0.1 m by 0.15 m and carries 0.4 A. Its positive area normal makes 55° with a uniform 0.25 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Find the orientation energy using the stated zero reference.
+
+1. **Identify the model and the conditions.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.18\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Solve the requested quantity.**
+
+   $$U=-\mu B\cos55^\circ=-0.0258109\,\mathrm J$$
+
+6. **Check the physical result.** Energy is lowest when the positive normal aligns with the field.
+
+7. **State the result.**
+
+   $$-0.0258109\,\mathrm J$$
+
+**Answer:** $-0.0258109\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$0.0258109\,\mathrm J$** — This reverses the stable-alignment energy convention.
+- **$-0.045\,\mathrm J$** — This gives energy at complete alignment, not the stated angle.
+- **$-0.0368618\,\mathrm J$** — The integrated energy uses cosine rather than the torque sine.
+
+<h4 id="solution-m8h39">Situation 39: Current-loop torque and orientation energy · Find the signed external work to rotate the normal slowly into alignment</h4>
+
+A rigid 30-turn rectangular loop measures 0.1 m by 0.15 m and carries 0.4 A. Its positive area normal makes 55° with a uniform 0.25 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Find the signed external work to rotate the normal slowly into alignment.
+
+1. **Identify the model and the conditions.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.18\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Solve the requested quantity.**
+
+   $$W_{\rm ext}=-\mu B-U(\theta)=-0.0191891\,\mathrm J$$
+
+6. **Check the physical result.** Negative external work means the external agent removes energy as the loop aligns.
+
+7. **State the result.**
+
+   $$-0.0191891\,\mathrm J$$
+
+**Answer:** $-0.0191891\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$0.0191891\,\mathrm J$** — This gives work by the magnetic torque instead of quasistatic external work.
+- **$-0.0258109\,\mathrm J$** — The initial orientation energy is not the change to the aligned state.
+- **$-0.045\,\mathrm J$** — This omits the initial orientation energy.
+
+<h4 id="solution-m8h40">Situation 40: Current-loop torque and orientation energy · model check</h4>
+
+A rigid 30-turn rectangular loop measures 0.1 m by 0.15 m and carries 0.4 A. Its positive area normal makes 55° with a uniform 0.25 T field. Hold current constant. For orientation energy, define $U(90^\circ)=0$ and use quasistatic external work without dissipation. This extends the loop-torque relation by integrating it over angle. Why is the angle in the torque law not the angle between the field and the loop plane?
+
+1. **Identify what stays fixed.** Use the angle to the loop normal. A fixed-current magnetic moment has magnitude NIA and torque tending to align it with the field.
+
+2. **Find the magnetic moment.**
+
+   $$\mu=NIA=NIab=0.18\,\mathrm{A\,m^2}$$
+
+3. **Use torque and derive orientation energy.**
+
+   $$\tau=\mu B\sin\theta,\quad U(\theta)=\int_{90^\circ}^{\theta}\mu B\sin\theta'\,d\theta'=-\mu B\cos\theta$$
+
+4. **Use external work as the energy change.**
+
+   $$W_{\rm ext}(\theta\to0)=U(0)-U(\theta)$$
+
+5. **Apply the conclusion.** Torque is the cross product of magnetic moment with field.
+
+**Answer:** The magnetic moment points along the loop’s positive normal.
+
+**Why the other answers do not work:**
+
+- **The plane angle and normal angle are always equal.** — They are complementary, except for special angles.
+- **The field must lie in the loop plane for every torque calculation.** — The formula handles arbitrary orientation.
+- **Loop torque depends only on perimeter.** — The moment depends on current times enclosed area.
+
+<h4 id="solution-m8h41">Situation 41: Opposite currents and a third test wire · Find the signed y field at the stated external point</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.2\,\mathrm m$. Their currents are $+2\,\mathrm A$ and $-6\,\mathrm A$ along z. Evaluate the external field at $x=0.4\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Find the signed y field at the stated external point.
+
+1. **Identify the model and the conditions.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-5\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.1\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Solve the requested quantity.**
+
+   $$B_y=-5\times10^{-6}\,\mathrm T$$
+
+6. **Check the physical result.** The field is negative y at the stated point.
+
+7. **State the result.**
+
+   $$-5\times10^{-6}\,\mathrm T$$
+
+**Answer:** $-5\times10^{-6}\,\mathrm T$
+
+**Why the other answers do not work:**
+
+- **$7\times10^{-6}\,\mathrm T$** — At this external point the two source fields oppose.
+- **$-2\times10^{-6}\,\mathrm T$** — The second source is distance x − d, not x, from the point.
+- **$5\times10^{-6}\,\mathrm T$** — The nearer stronger negative-z wire produces the dominant negative-y field.
+
+<h4 id="solution-m8h42">Situation 42: Opposite currents and a third test wire · Find the signed x coordinate of the zero-field point</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.2\,\mathrm m$. Their currents are $+2\,\mathrm A$ and $-6\,\mathrm A$ along z. Evaluate the external field at $x=0.4\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Find the signed x coordinate of the zero-field point.
+
+1. **Identify the model and the conditions.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-5\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.1\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Solve the requested quantity.**
+
+   $$x_0=-I_1d/(I_2-I_1)=-0.1\,\mathrm m$$
+
+6. **Check the physical result.** The negative coordinate lies outside the pair, to the left of the smaller-current wire.
+
+7. **State the result.**
+
+   $$-0.1\,\mathrm m$$
+
+**Answer:** $-0.1\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.05\,\mathrm m$** — Between opposite-current wires, their magnetic fields reinforce.
+- **$0.1\,\mathrm m$** — The cancellation lies on the weaker-wire side.
+- **$-0.273205\,\mathrm m$** — This incorrectly uses an inverse-square field relation.
+
+<h4 id="solution-m8h43">Situation 43: Opposite currents and a third test wire · Find the repulsive force per unit length between the source wires</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.2\,\mathrm m$. Their currents are $+2\,\mathrm A$ and $-6\,\mathrm A$ along z. Evaluate the external field at $x=0.4\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Find the repulsive force per unit length between the source wires.
+
+1. **Identify the model and the conditions.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-5\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.1\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Solve the requested quantity.**
+
+   $$F/L=\mu_0I_1I_2/(2\pi d)=1.2\times10^{-5}\,\mathrm{N\,m^{-1}}$$
+
+6. **Check the physical result.** Opposite conventional currents repel; equal lengths experience equal-magnitude opposite forces.
+
+7. **State the result.**
+
+   $$1.2\times10^{-5}\,\mathrm{N\,m^{-1}}$$
+
+**Answer:** $1.2\times10^{-5}\,\mathrm{N\,m^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$6\times10^{-6}\,\mathrm{N\,m^{-1}}$** — This inserts an extra two into the parallel-wire force relation.
+- **$2.4\times10^{-5}\,\mathrm{N\,m^{-1}}$** — This doubles the interaction by counting both equal-and-opposite forces together.
+- **$6\times10^{-5}\,\mathrm{N\,m^{-1}}$** — This introduces an unjustified second distance factor.
+
+<h4 id="solution-m8h44">Situation 44: Opposite currents and a third test wire · Find the signed x force on the test-wire segment</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.2\,\mathrm m$. Their currents are $+2\,\mathrm A$ and $-6\,\mathrm A$ along z. Evaluate the external field at $x=0.4\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Find the signed x force on the test-wire segment.
+
+1. **Identify the model and the conditions.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-5\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.1\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Solve the requested quantity.**
+
+   $$F_{3,x}=-(1.5)(0.10)B_y=7.5\times10^{-7}\,\mathrm N$$
+
+6. **Check the physical result.** The test wire’s force uses the net local field from both sources.
+
+7. **State the result.**
+
+   $$7.5\times10^{-7}\,\mathrm N$$
+
+**Answer:** $7.5\times10^{-7}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-7.5\times10^{-7}\,\mathrm N$** — The cross product +z × −y points +x.
+- **$7.5\times10^{-6}\,\mathrm N$** — This omits the segment length.
+- **$5\times10^{-7}\,\mathrm N$** — This omits the test current.
+
+<h4 id="solution-m8h45">Situation 45: Opposite currents and a third test wire · model check</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.2\,\mathrm m$. Their currents are $+2\,\mathrm A$ and $-6\,\mathrm A$ along z. Evaluate the external field at $x=0.4\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Why do the source-wire fields reinforce between these wires?
+
+1. **Identify what stays fixed.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-5\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.1\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Apply the conclusion.** Use a separate right-hand rule around each source wire.
+
+**Answer:** Their opposite current directions give the same field direction in the gap.
+
+**Why the other answers do not work:**
+
+- **Opposite currents always cancel their fields everywhere.** — Cancellation depends on both observation point and current direction.
+- **A straight wire produces a field parallel to its current.** — Its magnetic field circles the wire.
+- **Only the stronger wire produces a field.** — Both nonzero source currents contribute.
+
+<h4 id="solution-m8h46">Situation 46: Opposite currents and a third test wire · Find the signed y field at the stated external point</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.24\,\mathrm m$. Their currents are $+3\,\mathrm A$ and $-9\,\mathrm A$ along z. Evaluate the external field at $x=0.48\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Find the signed y field at the stated external point.
+
+1. **Identify the model and the conditions.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-6.25\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.12\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Solve the requested quantity.**
+
+   $$B_y=-6.25\times10^{-6}\,\mathrm T$$
+
+6. **Check the physical result.** The field is negative y at the stated point.
+
+7. **State the result.**
+
+   $$-6.25\times10^{-6}\,\mathrm T$$
+
+**Answer:** $-6.25\times10^{-6}\,\mathrm T$
+
+**Why the other answers do not work:**
+
+- **$8.75\times10^{-6}\,\mathrm T$** — At this external point the two source fields oppose.
+- **$-2.5\times10^{-6}\,\mathrm T$** — The second source is distance x − d, not x, from the point.
+- **$6.25\times10^{-6}\,\mathrm T$** — The nearer stronger negative-z wire produces the dominant negative-y field.
+
+<h4 id="solution-m8h47">Situation 47: Opposite currents and a third test wire · Find the signed x coordinate of the zero-field point</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.24\,\mathrm m$. Their currents are $+3\,\mathrm A$ and $-9\,\mathrm A$ along z. Evaluate the external field at $x=0.48\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Find the signed x coordinate of the zero-field point.
+
+1. **Identify the model and the conditions.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-6.25\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.12\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Solve the requested quantity.**
+
+   $$x_0=-I_1d/(I_2-I_1)=-0.12\,\mathrm m$$
+
+6. **Check the physical result.** The negative coordinate lies outside the pair, to the left of the smaller-current wire.
+
+7. **State the result.**
+
+   $$-0.12\,\mathrm m$$
+
+**Answer:** $-0.12\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.06\,\mathrm m$** — Between opposite-current wires, their magnetic fields reinforce.
+- **$0.12\,\mathrm m$** — The cancellation lies on the weaker-wire side.
+- **$-0.327846\,\mathrm m$** — This incorrectly uses an inverse-square field relation.
+
+<h4 id="solution-m8h48">Situation 48: Opposite currents and a third test wire · Find the repulsive force per unit length between the source wires</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.24\,\mathrm m$. Their currents are $+3\,\mathrm A$ and $-9\,\mathrm A$ along z. Evaluate the external field at $x=0.48\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Find the repulsive force per unit length between the source wires.
+
+1. **Identify the model and the conditions.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-6.25\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.12\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Solve the requested quantity.**
+
+   $$F/L=\mu_0I_1I_2/(2\pi d)=2.25\times10^{-5}\,\mathrm{N\,m^{-1}}$$
+
+6. **Check the physical result.** Opposite conventional currents repel; equal lengths experience equal-magnitude opposite forces.
+
+7. **State the result.**
+
+   $$2.25\times10^{-5}\,\mathrm{N\,m^{-1}}$$
+
+**Answer:** $2.25\times10^{-5}\,\mathrm{N\,m^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$1.125\times10^{-5}\,\mathrm{N\,m^{-1}}$** — This inserts an extra two into the parallel-wire force relation.
+- **$4.5\times10^{-5}\,\mathrm{N\,m^{-1}}$** — This doubles the interaction by counting both equal-and-opposite forces together.
+- **$9.375\times10^{-5}\,\mathrm{N\,m^{-1}}$** — This introduces an unjustified second distance factor.
+
+<h4 id="solution-m8h49">Situation 49: Opposite currents and a third test wire · Find the signed x force on the test-wire segment</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.24\,\mathrm m$. Their currents are $+3\,\mathrm A$ and $-9\,\mathrm A$ along z. Evaluate the external field at $x=0.48\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Find the signed x force on the test-wire segment.
+
+1. **Identify the model and the conditions.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-6.25\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.12\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Solve the requested quantity.**
+
+   $$F_{3,x}=-(1.5)(0.10)B_y=9.375\times10^{-7}\,\mathrm N$$
+
+6. **Check the physical result.** The test wire’s force uses the net local field from both sources.
+
+7. **State the result.**
+
+   $$9.375\times10^{-7}\,\mathrm N$$
+
+**Answer:** $9.375\times10^{-7}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-9.375\times10^{-7}\,\mathrm N$** — The cross product +z × −y points +x.
+- **$9.375\times10^{-6}\,\mathrm N$** — This omits the segment length.
+- **$6.25\times10^{-7}\,\mathrm N$** — This omits the test current.
+
+<h4 id="solution-m8h50">Situation 50: Opposite currents and a third test wire · model check</h4>
+
+Two long wires parallel to z lie at x zero and $x=0.24\,\mathrm m$. Their currents are $+3\,\mathrm A$ and $-9\,\mathrm A$ along z. Evaluate the external field at $x=0.48\,\mathrm m$ on the x axis. A very weak test wire there carries $+1.5\,\mathrm A$ over length 0.10 m; ignore its effect on the source wires. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$. Why do the source-wire fields reinforce between these wires?
+
+1. **Identify what stays fixed.** Use right-hand-rule signs before adding the two wire fields. Straight-wire fields vary as inverse distance, not inverse-square distance.
+
+2. **Write the signed field at the external point.**
+
+   $$B_y=\frac{\mu_0}{2\pi}\left(\frac{I_1}{x}-\frac{I_2}{x-d}\right)=-6.25\times10^{-6}\,\mathrm T$$
+
+3. **Find the separate zero-field location on the weaker-wire side.**
+
+   $$x_0=-\frac{I_1d}{I_2-I_1}=-0.12\,\mathrm m$$
+
+4. **Use current direction crossed with local field.**
+
+   $$F_{3,x}=-I_3LB_y$$
+
+5. **Apply the conclusion.** Use a separate right-hand rule around each source wire.
+
+**Answer:** Their opposite current directions give the same field direction in the gap.
+
+**Why the other answers do not work:**
+
+- **Opposite currents always cancel their fields everywhere.** — Cancellation depends on both observation point and current direction.
+- **A straight wire produces a field parallel to its current.** — Its magnetic field circles the wire.
+- **Only the stronger wire produces a field.** — Both nonzero source currents contribute.
+
+<h4 id="solution-m8h51">Situation 51: Infer velocity from a measured helix · Find the perpendicular speed</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.01 T. The helix radius is 0.025 m and the distance along the field per complete turn is 0.08 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Find the perpendicular speed.
+
+1. **Identify the model and the conditions.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=6.56165\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=23939\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=12192\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Solve the requested quantity.**
+
+   $$v_\perp=qBr/m=23939\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** Only the velocity component perpendicular to the field bends into a circle.
+
+7. **State the result.**
+
+   $$23939\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $23939\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$47878.1\,\mathrm{m\,s^{-1}}$** — This uses diameter as radius.
+- **$12192\,\mathrm{m\,s^{-1}}$** — Pitch determines the parallel component, not the perpendicular component.
+- **$11969.5\,\mathrm{m\,s^{-1}}$** — This inserts an extra one-half into the force-radius relation.
+
+<h4 id="solution-m8h52">Situation 52: Infer velocity from a measured helix · Find the parallel speed</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.01 T. The helix radius is 0.025 m and the distance along the field per complete turn is 0.08 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Find the parallel speed.
+
+1. **Identify the model and the conditions.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=6.56165\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=23939\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=12192\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Solve the requested quantity.**
+
+   $$v_\parallel=p/T=0.08/6.56165\times10^{-6}$$
+
+6. **Check the physical result.** Parallel motion is uniform because the magnetic force has no field-parallel component.
+
+7. **State the result.**
+
+   $$12192\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $12192\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$23939\,\mathrm{m\,s^{-1}}$** — This uses circular rather than axial motion.
+- **$24384.1\,\mathrm{m\,s^{-1}}$** — The stated pitch is already the advance per full turn.
+- **$1940.42\,\mathrm{m\,s^{-1}}$** — The period already contains the full 2π revolution factor.
+
+<h4 id="solution-m8h53">Situation 53: Infer velocity from a measured helix · Find the total kinetic energy</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.01 T. The helix radius is 0.025 m and the distance along the field per complete turn is 0.08 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Find the total kinetic energy.
+
+1. **Identify the model and the conditions.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=6.56165\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=23939\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=12192\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Solve the requested quantity.**
+
+   $$K=\tfrac12m(v_\perp^2+v_\parallel^2)=6.03722\times10^{-19}\,\mathrm J$$
+
+6. **Check the physical result.** Both orthogonal velocity components contribute positively to the energy.
+
+7. **State the result.**
+
+   $$6.03722\times10^{-19}\,\mathrm J$$
+
+**Answer:** $6.03722\times10^{-19}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$4.79379\times10^{-19}\,\mathrm J$** — This omits parallel kinetic energy.
+- **$1.24342\times10^{-19}\,\mathrm J$** — This omits perpendicular kinetic energy.
+- **$1.09201\times10^{-18}\,\mathrm J$** — Perpendicular speed components add in quadrature, not arithmetically.
+
+<h4 id="solution-m8h54">Situation 54: Infer velocity from a measured helix · Find the velocity angle to the magnetic-field direction</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.01 T. The helix radius is 0.025 m and the distance along the field per complete turn is 0.08 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Find the velocity angle to the magnetic-field direction.
+
+1. **Identify the model and the conditions.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=6.56165\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=23939\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=12192\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Solve the requested quantity.**
+
+   $$\theta=\tan^{-1}(v_\perp/v_\parallel)=63.0104{}^\circ$$
+
+6. **Check the physical result.** The angle is between zero and 90 degrees because both component magnitudes are nonzero.
+
+7. **State the result.**
+
+   $$63.0104\,{}^\circ$$
+
+**Answer:** $63.0104\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$26.9896\,{}^\circ$** — This gives the complementary angle to the perpendicular plane.
+- **$72.646\,{}^\circ$** — Pitch and radius need the full-turn 2π relation before becoming a velocity ratio.
+- **$0\,{}^\circ$** — A nonzero radius requires a nonzero perpendicular component.
+
+<h4 id="solution-m8h55">Situation 55: Infer velocity from a measured helix · model check</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.01 T. The helix radius is 0.025 m and the distance along the field per complete turn is 0.08 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Which change would increase pitch without changing radius for the same particle and field?
+
+1. **Identify what stays fixed.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=6.56165\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=23939\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=12192\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Apply the conclusion.** Pitch depends on parallel speed, while radius depends on perpendicular speed.
+
+**Answer:** Increase only the parallel speed.
+
+**Why the other answers do not work:**
+
+- **Increase only the perpendicular speed.** — That changes radius rather than the parallel advance per turn.
+- **Reverse only the charge sign.** — That reverses the rotation sense without changing the component magnitudes or period.
+- **Set the parallel speed to zero.** — That gives a circle with zero pitch.
+
+<h4 id="solution-m8h56">Situation 56: Infer velocity from a measured helix · Find the perpendicular speed</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.015 T. The helix radius is 0.035 m and the distance along the field per complete turn is 0.12 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Find the perpendicular speed.
+
+1. **Identify the model and the conditions.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=4.37444\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=50272\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=27432.1\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Solve the requested quantity.**
+
+   $$v_\perp=qBr/m=50272\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** Only the velocity component perpendicular to the field bends into a circle.
+
+7. **State the result.**
+
+   $$50272\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $50272\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$100544\,\mathrm{m\,s^{-1}}$** — This uses diameter as radius.
+- **$27432.1\,\mathrm{m\,s^{-1}}$** — Pitch determines the parallel component, not the perpendicular component.
+- **$25136\,\mathrm{m\,s^{-1}}$** — This inserts an extra one-half into the force-radius relation.
+
+<h4 id="solution-m8h57">Situation 57: Infer velocity from a measured helix · Find the parallel speed</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.015 T. The helix radius is 0.035 m and the distance along the field per complete turn is 0.12 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Find the parallel speed.
+
+1. **Identify the model and the conditions.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=4.37444\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=50272\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=27432.1\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Solve the requested quantity.**
+
+   $$v_\parallel=p/T=0.12/4.37444\times10^{-6}$$
+
+6. **Check the physical result.** Parallel motion is uniform because the magnetic force has no field-parallel component.
+
+7. **State the result.**
+
+   $$27432.1\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $27432.1\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$50272\,\mathrm{m\,s^{-1}}$** — This uses circular rather than axial motion.
+- **$54864.2\,\mathrm{m\,s^{-1}}$** — The stated pitch is already the advance per full turn.
+- **$4365.96\,\mathrm{m\,s^{-1}}$** — The period already contains the full 2π revolution factor.
+
+<h4 id="solution-m8h58">Situation 58: Infer velocity from a measured helix · Find the total kinetic energy</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.015 T. The helix radius is 0.035 m and the distance along the field per complete turn is 0.12 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Find the total kinetic energy.
+
+1. **Identify the model and the conditions.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=4.37444\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=50272\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=27432.1\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Solve the requested quantity.**
+
+   $$K=\tfrac12m(v_\perp^2+v_\parallel^2)=2.74355\times10^{-18}\,\mathrm J$$
+
+6. **Check the physical result.** Both orthogonal velocity components contribute positively to the energy.
+
+7. **State the result.**
+
+   $$2.74355\times10^{-18}\,\mathrm J$$
+
+**Answer:** $2.74355\times10^{-18}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$2.11406\times10^{-18}\,\mathrm J$** — This omits parallel kinetic energy.
+- **$6.29484\times10^{-19}\,\mathrm J$** — This omits perpendicular kinetic energy.
+- **$5.05072\times10^{-18}\,\mathrm J$** — Perpendicular speed components add in quadrature, not arithmetically.
+
+<h4 id="solution-m8h59">Situation 59: Infer velocity from a measured helix · Find the velocity angle to the magnetic-field direction</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.015 T. The helix radius is 0.035 m and the distance along the field per complete turn is 0.12 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Find the velocity angle to the magnetic-field direction.
+
+1. **Identify the model and the conditions.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=4.37444\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=50272\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=27432.1\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Solve the requested quantity.**
+
+   $$\theta=\tan^{-1}(v_\perp/v_\parallel)=61.3798{}^\circ$$
+
+6. **Check the physical result.** The angle is between zero and 90 degrees because both component magnitudes are nonzero.
+
+7. **State the result.**
+
+   $$61.3798\,{}^\circ$$
+
+**Answer:** $61.3798\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$28.6202\,{}^\circ$** — This gives the complementary angle to the perpendicular plane.
+- **$73.7398\,{}^\circ$** — Pitch and radius need the full-turn 2π relation before becoming a velocity ratio.
+- **$0\,{}^\circ$** — A nonzero radius requires a nonzero perpendicular component.
+
+<h4 id="solution-m8h60">Situation 60: Infer velocity from a measured helix · model check</h4>
+
+A proton follows a helix in a uniform magnetic field of 0.015 T. The helix radius is 0.035 m and the distance along the field per complete turn is 0.12 m. Use proton mass $1.673\times10^{-27}\,\mathrm{kg}$ and charge $+1.602\times10^{-19}\,\mathrm C$. Assume nonrelativistic motion and no other force. Which change would increase pitch without changing radius for the same particle and field?
+
+1. **Identify what stays fixed.** Radius determines perpendicular speed. Pitch divided by the cyclotron period determines parallel speed. Both components contribute to kinetic energy.
+
+2. **Find the period from charge, mass, and field.**
+
+   $$T=2\pi m/(qB)=4.37444\times10^{-6}\,\mathrm s$$
+
+3. **Recover both velocity components.**
+
+   $$v_\perp=qBr/m=50272\,\mathrm{m\,s^{-1}},\quad v_\parallel=p/T=27432.1\,\mathrm{m\,s^{-1}}$$
+
+4. **Combine the orthogonal speeds.**
+
+   $$v^2=v_\perp^2+v_\parallel^2,\quad\tan\theta=v_\perp/v_\parallel$$
+
+5. **Apply the conclusion.** Pitch depends on parallel speed, while radius depends on perpendicular speed.
+
+**Answer:** Increase only the parallel speed.
+
+**Why the other answers do not work:**
+
+- **Increase only the perpendicular speed.** — That changes radius rather than the parallel advance per turn.
+- **Reverse only the charge sign.** — That reverses the rotation sense without changing the component magnitudes or period.
+- **Set the parallel speed to zero.** — That gives a circle with zero pitch.
+

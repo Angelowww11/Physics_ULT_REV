@@ -294,3 +294,1763 @@ An ideal transformer receives 24 V rms at its 100-turn primary. Its 500-turn sec
 - **$0.1\,\mathrm A$** — This applies the load directly to the primary voltage.
 - **$12.5\,\mathrm A$** — This applies the turns ratio twice to the primary current.
 
+<h4 id="solution-m9h11">Situation 11: An RL circuit with initial current · Find the current at the stated time</h4>
+
+A series RL loop has resistance 6 Ω, inductance 3 H, and ideal source 12 V. Just before a switch establishes this loop, the inductor current is 0.3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.3 s. Define inductor voltage as the passive drop along positive current. Find the current at the stated time.
+
+1. **Identify the model and the conditions.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=1.06702\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=5.59788\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$I=2+(0.3-2)e^{-0.3/0.5}$$
+
+6. **Check the physical result.** The current lies between its initial value and the source-defined final value.
+
+7. **State the result.**
+
+   $$1.06702\,\mathrm A$$
+
+**Answer:** $1.06702\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.902377\,\mathrm A$** — This assumes zero initial current.
+- **$0.164643\,\mathrm A$** — This ignores the connected source.
+- **$-1.0976\,\mathrm A$** — The transient must decay rather than grow.
+
+<h4 id="solution-m9h12">Situation 12: An RL circuit with initial current · Find the signed inductor voltage at that time</h4>
+
+A series RL loop has resistance 6 Ω, inductance 3 H, and ideal source 12 V. Just before a switch establishes this loop, the inductor current is 0.3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.3 s. Define inductor voltage as the passive drop along positive current. Find the signed inductor voltage at that time.
+
+1. **Identify the model and the conditions.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=1.06702\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=5.59788\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$V_L=12-6(1.06702)=5.59788\,\mathrm V$$
+
+6. **Check the physical result.** The inductor voltage is negative while a current above the steady value decays.
+
+7. **State the result.**
+
+   $$5.59788\,\mathrm V$$
+
+**Answer:** $5.59788\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$-5.59788\,\mathrm V$** — This reverses the specified passive voltage reference.
+- **$12\,\mathrm V$** — Part of the source voltage appears across the resistor.
+- **$6.40212\,\mathrm V$** — This is the resistor voltage, not the inductor voltage.
+
+<h4 id="solution-m9h13">Situation 13: An RL circuit with initial current · Find the stored magnetic energy</h4>
+
+A series RL loop has resistance 6 Ω, inductance 3 H, and ideal source 12 V. Just before a switch establishes this loop, the inductor current is 0.3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.3 s. Define inductor voltage as the passive drop along positive current. Find the stored magnetic energy.
+
+1. **Identify the model and the conditions.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=1.06702\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=5.59788\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$U_L=\tfrac12LI^2=\tfrac12(3)(1.06702)^2$$
+
+6. **Check the physical result.** Magnetic energy is positive even when the signed inductor voltage is negative.
+
+7. **State the result.**
+
+   $$1.7078\,\mathrm J$$
+
+**Answer:** $1.7078\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$6\,\mathrm J$** — This gives the final asymptotic energy.
+- **$0.135\,\mathrm J$** — This gives the initial energy.
+- **$3.4156\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m9h14">Situation 14: An RL circuit with initial current · Find the instantaneous resistor heating power</h4>
+
+A series RL loop has resistance 6 Ω, inductance 3 H, and ideal source 12 V. Just before a switch establishes this loop, the inductor current is 0.3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.3 s. Define inductor voltage as the passive drop along positive current. Find the instantaneous resistor heating power.
+
+1. **Identify the model and the conditions.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=1.06702\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=5.59788\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$P_R=RI^2=6(1.06702)^2$$
+
+6. **Check the physical result.** Source power equals resistor heat rate plus the rate of change of stored magnetic energy.
+
+7. **State the result.**
+
+   $$6.83119\,\mathrm W$$
+
+**Answer:** $6.83119\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$12.8042\,\mathrm W$** — This is source power, which differs while inductor energy changes.
+- **$24\,\mathrm W$** — This gives only the final steady power.
+- **$0.54\,\mathrm W$** — This gives only the initial power.
+
+<h4 id="solution-m9h15">Situation 15: An RL circuit with initial current · model check</h4>
+
+A series RL loop has resistance 6 Ω, inductance 3 H, and ideal source 12 V. Just before a switch establishes this loop, the inductor current is 0.3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.3 s. Define inductor voltage as the passive drop along positive current. If initial current exceeds the new steady current, what happens just after switching?
+
+1. **Identify what stays fixed.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=1.06702\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=5.59788\,\mathrm V$$
+
+5. **Apply the conclusion.** The general exponential solution handles a transient from above as well as from below.
+
+**Answer:** Current decreases continuously toward the steady value.
+
+**Why the other answers do not work:**
+
+- **Current instantly falls to the steady value.** — Finite voltage cannot cause an instantaneous ideal-inductor current jump.
+- **The time constant becomes negative.** — Positive inductance and resistance give a positive time constant.
+- **The current must first reverse sign.** — Both the initial and final currents are positive in the stated situation.
+
+<h4 id="solution-m9h16">Situation 16: An RL circuit with initial current · Find the current at the stated time</h4>
+
+A series RL loop has resistance 8 Ω, inductance 4 H, and ideal source 16 V. Just before a switch establishes this loop, the inductor current is 3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.4 s. Define inductor voltage as the passive drop along positive current. Find the current at the stated time.
+
+1. **Identify the model and the conditions.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=2.44933\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=-3.59463\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$I=2+(3-2)e^{-0.4/0.5}$$
+
+6. **Check the physical result.** The current lies between its initial value and the source-defined final value.
+
+7. **State the result.**
+
+   $$2.44933\,\mathrm A$$
+
+**Answer:** $2.44933\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$1.10134\,\mathrm A$** — This assumes zero initial current.
+- **$1.34799\,\mathrm A$** — This ignores the connected source.
+- **$4.22554\,\mathrm A$** — The transient must decay rather than grow.
+
+<h4 id="solution-m9h17">Situation 17: An RL circuit with initial current · Find the signed inductor voltage at that time</h4>
+
+A series RL loop has resistance 8 Ω, inductance 4 H, and ideal source 16 V. Just before a switch establishes this loop, the inductor current is 3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.4 s. Define inductor voltage as the passive drop along positive current. Find the signed inductor voltage at that time.
+
+1. **Identify the model and the conditions.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=2.44933\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=-3.59463\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$V_L=16-8(2.44933)=-3.59463\,\mathrm V$$
+
+6. **Check the physical result.** The inductor voltage is negative while a current above the steady value decays.
+
+7. **State the result.**
+
+   $$-3.59463\,\mathrm V$$
+
+**Answer:** $-3.59463\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$3.59463\,\mathrm V$** — This reverses the specified passive voltage reference.
+- **$16\,\mathrm V$** — Part of the source voltage appears across the resistor.
+- **$19.5946\,\mathrm V$** — This is the resistor voltage, not the inductor voltage.
+
+<h4 id="solution-m9h18">Situation 18: An RL circuit with initial current · Find the stored magnetic energy</h4>
+
+A series RL loop has resistance 8 Ω, inductance 4 H, and ideal source 16 V. Just before a switch establishes this loop, the inductor current is 3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.4 s. Define inductor voltage as the passive drop along positive current. Find the stored magnetic energy.
+
+1. **Identify the model and the conditions.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=2.44933\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=-3.59463\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$U_L=\tfrac12LI^2=\tfrac12(4)(2.44933)^2$$
+
+6. **Check the physical result.** Magnetic energy is positive even when the signed inductor voltage is negative.
+
+7. **State the result.**
+
+   $$11.9984\,\mathrm J$$
+
+**Answer:** $11.9984\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$8\,\mathrm J$** — This gives the final asymptotic energy.
+- **$18\,\mathrm J$** — This gives the initial energy.
+- **$23.9968\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m9h19">Situation 19: An RL circuit with initial current · Find the instantaneous resistor heating power</h4>
+
+A series RL loop has resistance 8 Ω, inductance 4 H, and ideal source 16 V. Just before a switch establishes this loop, the inductor current is 3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.4 s. Define inductor voltage as the passive drop along positive current. Find the instantaneous resistor heating power.
+
+1. **Identify the model and the conditions.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=2.44933\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=-3.59463\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$P_R=RI^2=8(2.44933)^2$$
+
+6. **Check the physical result.** Source power equals resistor heat rate plus the rate of change of stored magnetic energy.
+
+7. **State the result.**
+
+   $$47.9937\,\mathrm W$$
+
+**Answer:** $47.9937\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$39.1893\,\mathrm W$** — This is source power, which differs while inductor energy changes.
+- **$32\,\mathrm W$** — This gives only the final steady power.
+- **$72\,\mathrm W$** — This gives only the initial power.
+
+<h4 id="solution-m9h20">Situation 20: An RL circuit with initial current · model check</h4>
+
+A series RL loop has resistance 8 Ω, inductance 4 H, and ideal source 16 V. Just before a switch establishes this loop, the inductor current is 3 A in the source-driven positive direction. The switch preserves a closed finite-resistance path. Find values at 0.4 s. Define inductor voltage as the passive drop along positive current. If initial current exceeds the new steady current, what happens just after switching?
+
+1. **Identify what stays fixed.** Inductor current is continuous. Use the general exponential solution with the actual initial current, whether it is above or below the new steady value.
+
+2. **Find the steady current and time constant.**
+
+   $$I_\infty=V_s/R=2\,\mathrm A,\quad\tau=L/R=0.5\,\mathrm s$$
+
+3. **Use the arbitrary-initial-current solution.**
+
+   $$I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}=2.44933\,\mathrm A$$
+
+4. **Use the passive inductor-voltage convention.**
+
+   $$V_L=L\,dI/dt=V_s-RI=-3.59463\,\mathrm V$$
+
+5. **Apply the conclusion.** The general exponential solution handles a transient from above as well as from below.
+
+**Answer:** Current decreases continuously toward the steady value.
+
+**Why the other answers do not work:**
+
+- **Current instantly falls to the steady value.** — Finite voltage cannot cause an instantaneous ideal-inductor current jump.
+- **The time constant becomes negative.** — Positive inductance and resistance give a positive time constant.
+- **The current must first reverse sign.** — Both the initial and final currents are positive in the stated situation.
+
+<h4 id="solution-m9h21">Situation 21: Where the inductor energy goes · Find the current at the stated time</h4>
+
+An inductor of 1.8 H initially carries 1.5 A. It discharges into a closed 9 Ω resistor loop with no source. Neglect other losses. Consider time 0.08 s after the decay begins. The current reference follows the initial current. Find the current at the stated time.
+
+1. **Identify the model and the conditions.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.00548\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Solve the requested quantity.**
+
+   $$I=1.5e^{-9(0.08)/1.8}$$
+
+6. **Check the physical result.** The current remains in its original direction while its magnitude decays.
+
+7. **State the result.**
+
+   $$1.00548\,\mathrm A$$
+
+**Answer:** $1.00548\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.673993\,\mathrm A$** — This uses the energy decay exponent for current.
+- **$0.49452\,\mathrm A$** — This uses a growth curve rather than source-free decay.
+- **$1.5\,\mathrm A$** — Current decreases because stored energy heats the resistor.
+
+<h4 id="solution-m9h22">Situation 22: Where the inductor energy goes · Find the remaining magnetic energy</h4>
+
+An inductor of 1.8 H initially carries 1.5 A. It discharges into a closed 9 Ω resistor loop with no source. Neglect other losses. Consider time 0.08 s after the decay begins. The current reference follows the initial current. Find the remaining magnetic energy.
+
+1. **Identify the model and the conditions.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.00548\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Solve the requested quantity.**
+
+   $$U_L=\tfrac12(1.8)(1.00548)^2$$
+
+6. **Check the physical result.** The energy fraction is the square of the current fraction.
+
+7. **State the result.**
+
+   $$0.909891\,\mathrm J$$
+
+**Answer:** $0.909891\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.3574\,\mathrm J$** — This uses the current exponential for energy.
+- **$1.11511\,\mathrm J$** — This is energy already dissipated, not energy remaining.
+- **$1.81978\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m9h23">Situation 23: Where the inductor energy goes · Find the resistor heat accumulated by that time</h4>
+
+An inductor of 1.8 H initially carries 1.5 A. It discharges into a closed 9 Ω resistor loop with no source. Neglect other losses. Consider time 0.08 s after the decay begins. The current reference follows the initial current. Find the resistor heat accumulated by that time.
+
+1. **Identify the model and the conditions.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.00548\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_R=\tfrac12L(I_0^2-I^2)=1.11511\,\mathrm J$$
+
+6. **Check the physical result.** The accumulated heat plus remaining field energy equals the initial field energy.
+
+7. **State the result.**
+
+   $$1.11511\,\mathrm J$$
+
+**Answer:** $1.11511\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$0.909891\,\mathrm J$** — This is the remaining energy.
+- **$0.727913\,\mathrm J$** — Instantaneous power decreases with time; multiplying its final value by time is not the integral.
+- **$2.025\,\mathrm J$** — This assumes the decay has already completed.
+
+<h4 id="solution-m9h24">Situation 24: Where the inductor energy goes · Find the time for half the initial magnetic energy to remain</h4>
+
+An inductor of 1.8 H initially carries 1.5 A. It discharges into a closed 9 Ω resistor loop with no source. Neglect other losses. Consider time 0.08 s after the decay begins. The current reference follows the initial current. Find the time for half the initial magnetic energy to remain.
+
+1. **Identify the model and the conditions.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.00548\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Solve the requested quantity.**
+
+   $$t_{1/2,U}=L\ln2/(2R)=0.0693147\,\mathrm s$$
+
+6. **Check the physical result.** Energy reaches half its initial value before current reaches half its initial value.
+
+7. **State the result.**
+
+   $$0.0693147\,\mathrm s$$
+
+**Answer:** $0.0693147\,\mathrm s$
+
+**Why the other answers do not work:**
+
+- **$0.138629\,\mathrm s$** — This is the current half-time, which is twice the energy half-time.
+- **$0.2\,\mathrm s$** — One current time constant leaves e to the minus two of the energy, not one half.
+- **$0.277259\,\mathrm s$** — This applies the current-square effect in the wrong direction.
+
+<h4 id="solution-m9h25">Situation 25: Where the inductor energy goes · model check</h4>
+
+An inductor of 1.8 H initially carries 1.5 A. It discharges into a closed 9 Ω resistor loop with no source. Neglect other losses. Consider time 0.08 s after the decay begins. The current reference follows the initial current. Why does the inductor keep current flowing after the source is removed?
+
+1. **Identify what stays fixed.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.00548\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Apply the conclusion.** The induced emf opposes the current decrease.
+
+**Answer:** Its changing magnetic field transfers stored energy into the resistor loop.
+
+**Why the other answers do not work:**
+
+- **The inductor creates new energy.** — The heat comes from the finite initial magnetic energy.
+- **Inductor current must remain constant forever.** — A finite resistor dissipates the stored energy, so current decays.
+- **Lenz’s law immediately reverses current.** — The induced emf opposes the decrease of the original current.
+
+<h4 id="solution-m9h26">Situation 26: Where the inductor energy goes · Find the current at the stated time</h4>
+
+An inductor of 2.4 H initially carries 2 A. It discharges into a closed 12 Ω resistor loop with no source. Neglect other losses. Consider time 0.12 s after the decay begins. The current reference follows the initial current. Find the current at the stated time.
+
+1. **Identify the model and the conditions.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.09762\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Solve the requested quantity.**
+
+   $$I=2e^{-12(0.12)/2.4}$$
+
+6. **Check the physical result.** The current remains in its original direction while its magnitude decays.
+
+7. **State the result.**
+
+   $$1.09762\,\mathrm A$$
+
+**Answer:** $1.09762\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.602388\,\mathrm A$** — This uses the energy decay exponent for current.
+- **$0.902377\,\mathrm A$** — This uses a growth curve rather than source-free decay.
+- **$2\,\mathrm A$** — Current decreases because stored energy heats the resistor.
+
+<h4 id="solution-m9h27">Situation 27: Where the inductor energy goes · Find the remaining magnetic energy</h4>
+
+An inductor of 2.4 H initially carries 2 A. It discharges into a closed 12 Ω resistor loop with no source. Neglect other losses. Consider time 0.12 s after the decay begins. The current reference follows the initial current. Find the remaining magnetic energy.
+
+1. **Identify the model and the conditions.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.09762\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Solve the requested quantity.**
+
+   $$U_L=\tfrac12(2.4)(1.09762)^2$$
+
+6. **Check the physical result.** The energy fraction is the square of the current fraction.
+
+7. **State the result.**
+
+   $$1.44573\,\mathrm J$$
+
+**Answer:** $1.44573\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$2.6343\,\mathrm J$** — This uses the current exponential for energy.
+- **$3.35427\,\mathrm J$** — This is energy already dissipated, not energy remaining.
+- **$2.89146\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m9h28">Situation 28: Where the inductor energy goes · Find the resistor heat accumulated by that time</h4>
+
+An inductor of 2.4 H initially carries 2 A. It discharges into a closed 12 Ω resistor loop with no source. Neglect other losses. Consider time 0.12 s after the decay begins. The current reference follows the initial current. Find the resistor heat accumulated by that time.
+
+1. **Identify the model and the conditions.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.09762\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_R=\tfrac12L(I_0^2-I^2)=3.35427\,\mathrm J$$
+
+6. **Check the physical result.** The accumulated heat plus remaining field energy equals the initial field energy.
+
+7. **State the result.**
+
+   $$3.35427\,\mathrm J$$
+
+**Answer:** $3.35427\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.44573\,\mathrm J$** — This is the remaining energy.
+- **$1.73488\,\mathrm J$** — Instantaneous power decreases with time; multiplying its final value by time is not the integral.
+- **$4.8\,\mathrm J$** — This assumes the decay has already completed.
+
+<h4 id="solution-m9h29">Situation 29: Where the inductor energy goes · Find the time for half the initial magnetic energy to remain</h4>
+
+An inductor of 2.4 H initially carries 2 A. It discharges into a closed 12 Ω resistor loop with no source. Neglect other losses. Consider time 0.12 s after the decay begins. The current reference follows the initial current. Find the time for half the initial magnetic energy to remain.
+
+1. **Identify the model and the conditions.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.09762\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Solve the requested quantity.**
+
+   $$t_{1/2,U}=L\ln2/(2R)=0.0693147\,\mathrm s$$
+
+6. **Check the physical result.** Energy reaches half its initial value before current reaches half its initial value.
+
+7. **State the result.**
+
+   $$0.0693147\,\mathrm s$$
+
+**Answer:** $0.0693147\,\mathrm s$
+
+**Why the other answers do not work:**
+
+- **$0.138629\,\mathrm s$** — This is the current half-time, which is twice the energy half-time.
+- **$0.2\,\mathrm s$** — One current time constant leaves e to the minus two of the energy, not one half.
+- **$0.277259\,\mathrm s$** — This applies the current-square effect in the wrong direction.
+
+<h4 id="solution-m9h30">Situation 30: Where the inductor energy goes · model check</h4>
+
+An inductor of 2.4 H initially carries 2 A. It discharges into a closed 12 Ω resistor loop with no source. Neglect other losses. Consider time 0.12 s after the decay begins. The current reference follows the initial current. Why does the inductor keep current flowing after the source is removed?
+
+1. **Identify what stays fixed.** Current decays with time constant L/R. Energy depends on current squared, so it decays twice as fast in the exponential.
+
+2. **Find the current decay.**
+
+   $$I=I_0e^{-Rt/L}=1.09762\,\mathrm A$$
+
+3. **Find the remaining and dissipated energies.**
+
+   $$U_L=\tfrac12LI_0^2e^{-2Rt/L},\quad Q_R=\tfrac12LI_0^2-U_L$$
+
+4. **Derive the energy half-time.**
+
+   $$e^{-2Rt_{1/2}/L}=1/2\ \Rightarrow\ t_{1/2}=\frac{L\ln2}{2R}$$
+
+5. **Apply the conclusion.** The induced emf opposes the current decrease.
+
+**Answer:** Its changing magnetic field transfers stored energy into the resistor loop.
+
+**Why the other answers do not work:**
+
+- **The inductor creates new energy.** — The heat comes from the finite initial magnetic energy.
+- **Inductor current must remain constant forever.** — A finite resistor dissipates the stored energy, so current decays.
+- **Lenz’s law immediately reverses current.** — The induced emf opposes the decrease of the original current.
+
+<h4 id="solution-m9h31">Situation 31: Mutual induction from a nonlinear current ramp · Find the signed instantaneous secondary emf</h4>
+
+A fixed primary coil has current $I_p(t)=1t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 120-turn secondary is 0.03 H. The secondary resistance is 4 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 0.8 s and compare with time zero. Find the signed instantaneous secondary emf.
+
+1. **Identify the model and the conditions.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=1.04\,\mathrm A,\quad dI_p/dt=2(1)(0.8)+0.5=2.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Solve the requested quantity.**
+
+   $$\mathcal E_s=-(0.03)(2.1)=-0.063\,\mathrm V$$
+
+6. **Check the physical result.** Increasing positive primary current gives negative secondary emf in the stated contour.
+
+7. **State the result.**
+
+   $$-0.063\,\mathrm V$$
+
+**Answer:** $-0.063\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$0.063\,\mathrm V$** — This omits the chosen Faraday–Lenz sign.
+- **$-0.039\,\mathrm V$** — This gives the interval average rather than the instantaneous derivative.
+- **$-7.56\,\mathrm V$** — Mutual inductance already relates the complete secondary flux linkage; do not multiply by turns again.
+
+<h4 id="solution-m9h32">Situation 32: Mutual induction from a nonlinear current ramp · Find the instantaneous secondary-current magnitude</h4>
+
+A fixed primary coil has current $I_p(t)=1t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 120-turn secondary is 0.03 H. The secondary resistance is 4 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 0.8 s and compare with time zero. Find the instantaneous secondary-current magnitude.
+
+1. **Identify the model and the conditions.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=1.04\,\mathrm A,\quad dI_p/dt=2(1)(0.8)+0.5=2.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Solve the requested quantity.**
+
+   $$|I_s|=|\mathcal E_s|/R=0.063/4$$
+
+6. **Check the physical result.** The stated negligible-self-inductance model lets the current follow emf divided by resistance.
+
+7. **State the result.**
+
+   $$0.01575\,\mathrm A$$
+
+**Answer:** $0.01575\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.00975\,\mathrm A$** — This uses the average rather than instantaneous emf.
+- **$0.252\,\mathrm A$** — Ohm’s law requires division by resistance.
+- **$1.89\,\mathrm A$** — This counts secondary turns twice through M.
+
+<h4 id="solution-m9h33">Situation 33: Mutual induction from a nonlinear current ramp · Find the signed linked flux per secondary turn</h4>
+
+A fixed primary coil has current $I_p(t)=1t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 120-turn secondary is 0.03 H. The secondary resistance is 4 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 0.8 s and compare with time zero. Find the signed linked flux per secondary turn.
+
+1. **Identify the model and the conditions.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=1.04\,\mathrm A,\quad dI_p/dt=2(1)(0.8)+0.5=2.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Solve the requested quantity.**
+
+   $$\Phi=MI_p/N=0.03(1.04)/120$$
+
+6. **Check the physical result.** Divide flux linkage by turn count only when the question asks for flux per turn.
+
+7. **State the result.**
+
+   $$2.6\times10^{-4}\,\mathrm{Wb}$$
+
+**Answer:** $2.6\times10^{-4}\,\mathrm{Wb}$
+
+**Why the other answers do not work:**
+
+- **$0.0312\,\mathrm{Wb}$** — This is the total flux linkage, not flux per turn.
+- **$5.25\times10^{-4}\,\mathrm{Wb}$** — Flux depends on current; its derivative determines emf.
+- **$-2.6\times10^{-4}\,\mathrm{Wb}$** — The primary current produces positive flux under the stated sign definition.
+
+<h4 id="solution-m9h34">Situation 34: Mutual induction from a nonlinear current ramp · Find the signed average secondary emf from zero to the stated time</h4>
+
+A fixed primary coil has current $I_p(t)=1t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 120-turn secondary is 0.03 H. The secondary resistance is 4 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 0.8 s and compare with time zero. Find the signed average secondary emf from zero to the stated time.
+
+1. **Identify the model and the conditions.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=1.04\,\mathrm A,\quad dI_p/dt=2(1)(0.8)+0.5=2.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Solve the requested quantity.**
+
+   $$\overline{\mathcal E}_s=-M[I_p(t)-0]/t=-0.039\,\mathrm V$$
+
+6. **Check the physical result.** The current derivative increases during this ramp, so the endpoint emf magnitude exceeds the average.
+
+7. **State the result.**
+
+   $$-0.039\,\mathrm V$$
+
+**Answer:** $-0.039\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$-0.063\,\mathrm V$** — The nonlinear current makes the endpoint derivative differ from the interval average.
+- **$0.039\,\mathrm V$** — This drops Faraday’s sign.
+- **$-0.0312\,\mathrm V$** — This omits division by the time interval.
+
+<h4 id="solution-m9h35">Situation 35: Mutual induction from a nonlinear current ramp · model check</h4>
+
+A fixed primary coil has current $I_p(t)=1t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 120-turn secondary is 0.03 H. The secondary resistance is 4 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 0.8 s and compare with time zero. Why is turn count not multiplied into −M dIp/dt again?
+
+1. **Identify what stays fixed.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=1.04\,\mathrm A,\quad dI_p/dt=2(1)(0.8)+0.5=2.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Apply the conclusion.** The secondary turns are already included in the mutual-inductance definition.
+
+**Answer:** M is defined using the whole secondary flux linkage.
+
+**Why the other answers do not work:**
+
+- **Faraday’s law never involves the number of turns.** — Faraday’s law uses flux linkage; M already packages it here.
+- **Each secondary turn has a different elementary charge.** — Turn count has no effect on elementary charge.
+- **Mutual inductance is the same as resistance.** — They have different definitions and units.
+
+<h4 id="solution-m9h36">Situation 36: Mutual induction from a nonlinear current ramp · Find the signed instantaneous secondary emf</h4>
+
+A fixed primary coil has current $I_p(t)=1.5t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 180-turn secondary is 0.045 H. The secondary resistance is 6 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 1.2 s and compare with time zero. Find the signed instantaneous secondary emf.
+
+1. **Identify the model and the conditions.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=2.76\,\mathrm A,\quad dI_p/dt=2(1.5)(1.2)+0.5=4.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Solve the requested quantity.**
+
+   $$\mathcal E_s=-(0.045)(4.1)=-0.1845\,\mathrm V$$
+
+6. **Check the physical result.** Increasing positive primary current gives negative secondary emf in the stated contour.
+
+7. **State the result.**
+
+   $$-0.1845\,\mathrm V$$
+
+**Answer:** $-0.1845\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$0.1845\,\mathrm V$** — This omits the chosen Faraday–Lenz sign.
+- **$-0.1035\,\mathrm V$** — This gives the interval average rather than the instantaneous derivative.
+- **$-33.21\,\mathrm V$** — Mutual inductance already relates the complete secondary flux linkage; do not multiply by turns again.
+
+<h4 id="solution-m9h37">Situation 37: Mutual induction from a nonlinear current ramp · Find the instantaneous secondary-current magnitude</h4>
+
+A fixed primary coil has current $I_p(t)=1.5t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 180-turn secondary is 0.045 H. The secondary resistance is 6 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 1.2 s and compare with time zero. Find the instantaneous secondary-current magnitude.
+
+1. **Identify the model and the conditions.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=2.76\,\mathrm A,\quad dI_p/dt=2(1.5)(1.2)+0.5=4.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Solve the requested quantity.**
+
+   $$|I_s|=|\mathcal E_s|/R=0.1845/6$$
+
+6. **Check the physical result.** The stated negligible-self-inductance model lets the current follow emf divided by resistance.
+
+7. **State the result.**
+
+   $$0.03075\,\mathrm A$$
+
+**Answer:** $0.03075\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.01725\,\mathrm A$** — This uses the average rather than instantaneous emf.
+- **$1.107\,\mathrm A$** — Ohm’s law requires division by resistance.
+- **$5.535\,\mathrm A$** — This counts secondary turns twice through M.
+
+<h4 id="solution-m9h38">Situation 38: Mutual induction from a nonlinear current ramp · Find the signed linked flux per secondary turn</h4>
+
+A fixed primary coil has current $I_p(t)=1.5t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 180-turn secondary is 0.045 H. The secondary resistance is 6 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 1.2 s and compare with time zero. Find the signed linked flux per secondary turn.
+
+1. **Identify the model and the conditions.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=2.76\,\mathrm A,\quad dI_p/dt=2(1.5)(1.2)+0.5=4.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Solve the requested quantity.**
+
+   $$\Phi=MI_p/N=0.045(2.76)/180$$
+
+6. **Check the physical result.** Divide flux linkage by turn count only when the question asks for flux per turn.
+
+7. **State the result.**
+
+   $$6.9\times10^{-4}\,\mathrm{Wb}$$
+
+**Answer:** $6.9\times10^{-4}\,\mathrm{Wb}$
+
+**Why the other answers do not work:**
+
+- **$0.1242\,\mathrm{Wb}$** — This is the total flux linkage, not flux per turn.
+- **$0.001025\,\mathrm{Wb}$** — Flux depends on current; its derivative determines emf.
+- **$-6.9\times10^{-4}\,\mathrm{Wb}$** — The primary current produces positive flux under the stated sign definition.
+
+<h4 id="solution-m9h39">Situation 39: Mutual induction from a nonlinear current ramp · Find the signed average secondary emf from zero to the stated time</h4>
+
+A fixed primary coil has current $I_p(t)=1.5t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 180-turn secondary is 0.045 H. The secondary resistance is 6 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 1.2 s and compare with time zero. Find the signed average secondary emf from zero to the stated time.
+
+1. **Identify the model and the conditions.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=2.76\,\mathrm A,\quad dI_p/dt=2(1.5)(1.2)+0.5=4.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Solve the requested quantity.**
+
+   $$\overline{\mathcal E}_s=-M[I_p(t)-0]/t=-0.1035\,\mathrm V$$
+
+6. **Check the physical result.** The current derivative increases during this ramp, so the endpoint emf magnitude exceeds the average.
+
+7. **State the result.**
+
+   $$-0.1035\,\mathrm V$$
+
+**Answer:** $-0.1035\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$-0.1845\,\mathrm V$** — The nonlinear current makes the endpoint derivative differ from the interval average.
+- **$0.1035\,\mathrm V$** — This drops Faraday’s sign.
+- **$-0.1242\,\mathrm V$** — This omits division by the time interval.
+
+<h4 id="solution-m9h40">Situation 40: Mutual induction from a nonlinear current ramp · model check</h4>
+
+A fixed primary coil has current $I_p(t)=1.5t^2+0.5t$ amperes, with time in seconds. Its mutual inductance with a 180-turn secondary is 0.045 H. The secondary resistance is 6 Ω. Define positive primary current as producing positive linked flux; positive secondary emf follows that positive contour. Neglect secondary self-inductance and back-reaction. Evaluate at 1.2 s and compare with time zero. Why is turn count not multiplied into −M dIp/dt again?
+
+1. **Identify what stays fixed.** Mutual inductance relates secondary flux linkage to primary current. Emf uses the instantaneous derivative; interval-average emf uses the finite change.
+
+2. **Evaluate current and its instantaneous derivative.**
+
+   $$I_p=2.76\,\mathrm A,\quad dI_p/dt=2(1.5)(1.2)+0.5=4.1\,\mathrm{A\,s^{-1}}$$
+
+3. **Apply flux-linkage and mutual-emf definitions.**
+
+   $$N\Phi=MI_p,\quad\mathcal E_s=-M\,dI_p/dt$$
+
+4. **Write the interval-average relation.**
+
+   $$\overline{\mathcal E}_s=-M\frac{I_p(t)-I_p(0)}t$$
+
+5. **Apply the conclusion.** The secondary turns are already included in the mutual-inductance definition.
+
+**Answer:** M is defined using the whole secondary flux linkage.
+
+**Why the other answers do not work:**
+
+- **Faraday’s law never involves the number of turns.** — Faraday’s law uses flux linkage; M already packages it here.
+- **Each secondary turn has a different elementary charge.** — Turn count has no effect on elementary charge.
+- **Mutual inductance is the same as resistance.** — They have different definitions and units.
+
+<h4 id="solution-m9h41">Situation 41: A sliding rod opposes a battery · Find the signed loop current</h4>
+
+A conducting rod of length 0.4 m slides at constant speed 4 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.3 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. Find the signed loop current.
+
+1. **Identify the model and the conditions.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.8\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=0.25\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Solve the requested quantity.**
+
+   $$I=(0.8-0.3)/2=0.25\,\mathrm A$$
+
+7. **Check the physical result.** The sign is positive when motional emf wins and negative when the battery wins.
+
+8. **State the result.**
+
+   $$0.25\,\mathrm A$$
+
+**Answer:** $0.25\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.55\,\mathrm A$** — The battery opposes, rather than reinforces, the motional emf.
+- **$0.4\,\mathrm A$** — This ignores the battery.
+- **$-0.25\,\mathrm A$** — This reverses the specified motional-positive current reference.
+
+<h4 id="solution-m9h42">Situation 42: A sliding rod opposes a battery · Find the signed external force needed to maintain the speed</h4>
+
+A conducting rod of length 0.4 m slides at constant speed 4 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.3 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. Find the signed external force needed to maintain the speed.
+
+1. **Identify the model and the conditions.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.8\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=0.25\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Solve the requested quantity.**
+
+   $$F_{\rm ext}=BLI=(0.50)(0.4)(0.25)$$
+
+7. **Check the physical result.** A negative external force means braking is needed because the battery drives the rod.
+
+8. **State the result.**
+
+   $$0.05\,\mathrm N$$
+
+**Answer:** $0.05\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-0.05\,\mathrm N$** — This is the magnetic force rather than the balancing external force.
+- **$0.08\,\mathrm N$** — This ignores battery-driven current changes.
+- **$0.125\,\mathrm N$** — This omits rod length.
+
+<h4 id="solution-m9h43">Situation 43: A sliding rod opposes a battery · Find the signed external mechanical power</h4>
+
+A conducting rod of length 0.4 m slides at constant speed 4 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.3 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. Find the signed external mechanical power.
+
+1. **Identify the model and the conditions.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.8\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=0.25\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Solve the requested quantity.**
+
+   $$P_{\rm ext}=F_{\rm ext}v=0.05(4)$$
+
+7. **Check the physical result.** Mechanical power can be negative while resistor heating remains positive.
+
+8. **State the result.**
+
+   $$0.2\,\mathrm W$$
+
+**Answer:** $0.2\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$-0.2\,\mathrm W$** — This reverses the sign of external energy transfer.
+- **$0.125\,\mathrm W$** — Resistor heating is not the whole mechanical power when a battery exchanges energy.
+- **$0.605\,\mathrm W$** — This adds opposing emfs and does not represent external mechanical power.
+
+<h4 id="solution-m9h44">Situation 44: A sliding rod opposes a battery · Find the signed power absorbed by the battery</h4>
+
+A conducting rod of length 0.4 m slides at constant speed 4 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.3 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. Find the signed power absorbed by the battery.
+
+1. **Identify the model and the conditions.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.8\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=0.25\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Solve the requested quantity.**
+
+   $$P_b=\mathcal E_bI=0.3(0.25)$$
+
+7. **Check the physical result.** A negative result means the battery supplies electrical power.
+
+8. **State the result.**
+
+   $$0.075\,\mathrm W$$
+
+**Answer:** $0.075\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$-0.075\,\mathrm W$** — This reports delivered battery power instead of absorbed battery power.
+- **$0.125\,\mathrm W$** — This is resistor heat rate.
+- **$0.2\,\mathrm W$** — This is motional mechanical-to-electrical power, not battery power.
+
+<h4 id="solution-m9h45">Situation 45: A sliding rod opposes a battery · model check</h4>
+
+A conducting rod of length 0.4 m slides at constant speed 4 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.3 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. If the battery emf exceeds the motional emf, what must the external agent do at constant speed?
+
+1. **Identify what stays fixed.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.8\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=0.25\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Apply the conclusion.** The negative signed loop current reverses the magnetic-force direction.
+
+**Answer:** Apply a braking force because current reverses and the magnetic force drives the rod.
+
+**Why the other answers do not work:**
+
+- **Pull harder in the direction of motion because magnetic drag always opposes velocity.** — A battery can supply energy and reverse the force from drag to drive.
+- **Provide no force because the two emfs automatically cancel.** — They cancel only when their magnitudes are equal.
+- **Make the resistance negative.** — Positive resistance is compatible with a reversed current.
+
+<h4 id="solution-m9h46">Situation 46: A sliding rod opposes a battery · Find the signed loop current</h4>
+
+A conducting rod of length 0.5 m slides at constant speed 2 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.8 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. Find the signed loop current.
+
+1. **Identify the model and the conditions.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.5\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=-0.15\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Solve the requested quantity.**
+
+   $$I=(0.5-0.8)/2=-0.15\,\mathrm A$$
+
+7. **Check the physical result.** The sign is positive when motional emf wins and negative when the battery wins.
+
+8. **State the result.**
+
+   $$-0.15\,\mathrm A$$
+
+**Answer:** $-0.15\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.65\,\mathrm A$** — The battery opposes, rather than reinforces, the motional emf.
+- **$0.25\,\mathrm A$** — This ignores the battery.
+- **$0.15\,\mathrm A$** — This reverses the specified motional-positive current reference.
+
+<h4 id="solution-m9h47">Situation 47: A sliding rod opposes a battery · Find the signed external force needed to maintain the speed</h4>
+
+A conducting rod of length 0.5 m slides at constant speed 2 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.8 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. Find the signed external force needed to maintain the speed.
+
+1. **Identify the model and the conditions.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.5\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=-0.15\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Solve the requested quantity.**
+
+   $$F_{\rm ext}=BLI=(0.50)(0.5)(-0.15)$$
+
+7. **Check the physical result.** A negative external force means braking is needed because the battery drives the rod.
+
+8. **State the result.**
+
+   $$-0.0375\,\mathrm N$$
+
+**Answer:** $-0.0375\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$0.0375\,\mathrm N$** — This is the magnetic force rather than the balancing external force.
+- **$0.0625\,\mathrm N$** — This ignores battery-driven current changes.
+- **$-0.075\,\mathrm N$** — This omits rod length.
+
+<h4 id="solution-m9h48">Situation 48: A sliding rod opposes a battery · Find the signed external mechanical power</h4>
+
+A conducting rod of length 0.5 m slides at constant speed 2 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.8 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. Find the signed external mechanical power.
+
+1. **Identify the model and the conditions.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.5\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=-0.15\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Solve the requested quantity.**
+
+   $$P_{\rm ext}=F_{\rm ext}v=-0.0375(2)$$
+
+7. **Check the physical result.** Mechanical power can be negative while resistor heating remains positive.
+
+8. **State the result.**
+
+   $$-0.075\,\mathrm W$$
+
+**Answer:** $-0.075\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$0.075\,\mathrm W$** — This reverses the sign of external energy transfer.
+- **$0.045\,\mathrm W$** — Resistor heating is not the whole mechanical power when a battery exchanges energy.
+- **$0.845\,\mathrm W$** — This adds opposing emfs and does not represent external mechanical power.
+
+<h4 id="solution-m9h49">Situation 49: A sliding rod opposes a battery · Find the signed power absorbed by the battery</h4>
+
+A conducting rod of length 0.5 m slides at constant speed 2 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.8 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. Find the signed power absorbed by the battery.
+
+1. **Identify the model and the conditions.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.5\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=-0.15\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Solve the requested quantity.**
+
+   $$P_b=\mathcal E_bI=0.8(-0.15)$$
+
+7. **Check the physical result.** A negative result means the battery supplies electrical power.
+
+8. **State the result.**
+
+   $$-0.12\,\mathrm W$$
+
+**Answer:** $-0.12\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$0.12\,\mathrm W$** — This reports delivered battery power instead of absorbed battery power.
+- **$0.045\,\mathrm W$** — This is resistor heat rate.
+- **$-0.075\,\mathrm W$** — This is motional mechanical-to-electrical power, not battery power.
+
+<h4 id="solution-m9h50">Situation 50: A sliding rod opposes a battery · model check</h4>
+
+A conducting rod of length 0.5 m slides at constant speed 2 m/s on ideal rails in a uniform perpendicular field of 0.50 T. Rod, velocity, and field are mutually perpendicular. Its motional emf drives the positive loop direction. A 0.8 V ideal battery opposes that direction. Total circuit resistance is 2.0 Ω. Ignore friction and self-inductance. Define external force positive along the rod velocity; define battery power positive when absorbed. If the battery emf exceeds the motional emf, what must the external agent do at constant speed?
+
+1. **Identify what stays fixed.** Add the signed battery and motional emfs. Current reversal can turn magnetic drag into a magnetic driving force.
+
+2. **Calculate motional emf.**
+
+   $$\mathcal E_m=BLv=0.5\,\mathrm V$$
+
+3. **Apply the signed loop equation.**
+
+   $$I=(\mathcal E_m-\mathcal E_b)/R=-0.15\,\mathrm A$$
+
+4. **Balance the magnetic force at constant speed.**
+
+   $$F_{\rm ext}=BLI,\quad P_{\rm ext}=F_{\rm ext}v$$
+
+5. **Check the power balance.**
+
+   $$\mathcal E_mI=I^2R+\mathcal E_bI$$
+
+6. **Apply the conclusion.** The negative signed loop current reverses the magnetic-force direction.
+
+**Answer:** Apply a braking force because current reverses and the magnetic force drives the rod.
+
+**Why the other answers do not work:**
+
+- **Pull harder in the direction of motion because magnetic drag always opposes velocity.** — A battery can supply energy and reverse the force from drag to drive.
+- **Provide no force because the two emfs automatically cancel.** — They cancel only when their magnitudes are equal.
+- **Make the resistance negative.** — Positive resistance is compatible with a reversed current.
+
+<h4 id="solution-m9h51">Situation 51: A transformer with stated efficiency · Find the secondary rms voltage</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 24 V. It has 100 primary turns and 500 secondary turns. A 240 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.9. All losses are represented by that efficiency. Find the secondary rms voltage.
+
+1. **Identify the model and the conditions.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=120\,\mathrm V,\quad I_s=V_s/R=0.5\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=60\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=66.6667\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Solve the requested quantity.**
+
+   $$V_s=24(500/100)=120\,\mathrm V$$
+
+6. **Check the physical result.** The voltage follows the explicitly stated turns-ratio model, not an extra efficiency factor.
+
+7. **State the result.**
+
+   $$120\,\mathrm V$$
+
+**Answer:** $120\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$4.8\,\mathrm V$** — This reverses the turns ratio.
+- **$108\,\mathrm V$** — The stated model applies efficiency to power, while preserving the ideal voltage ratio.
+- **$24\,\mathrm V$** — Primary and secondary voltages match only for equal turns.
+
+<h4 id="solution-m9h52">Situation 52: A transformer with stated efficiency · Find the secondary rms current</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 24 V. It has 100 primary turns and 500 secondary turns. A 240 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.9. All losses are represented by that efficiency. Find the secondary rms current.
+
+1. **Identify the model and the conditions.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=120\,\mathrm V,\quad I_s=V_s/R=0.5\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=60\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=66.6667\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Solve the requested quantity.**
+
+   $$I_s=V_s/R=120/240$$
+
+6. **Check the physical result.** The resistive load current is in phase with its secondary voltage.
+
+7. **State the result.**
+
+   $$0.5\,\mathrm A$$
+
+**Answer:** $0.5\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.1\,\mathrm A$** — The load sees secondary rather than primary voltage.
+- **$0.555556\,\mathrm A$** — Efficiency changes the required input power; this load current follows its applied secondary voltage.
+- **$2.5\,\mathrm A$** — This applies the turns ratio a second time to a current already calculated from load voltage.
+
+<h4 id="solution-m9h53">Situation 53: A transformer with stated efficiency · Find total transformer power loss</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 24 V. It has 100 primary turns and 500 secondary turns. A 240 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.9. All losses are represented by that efficiency. Find total transformer power loss.
+
+1. **Identify the model and the conditions.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=120\,\mathrm V,\quad I_s=V_s/R=0.5\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=60\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=66.6667\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Solve the requested quantity.**
+
+   $$P_{\rm loss}=P_{\rm out}(1/\eta-1)=6.66667\,\mathrm W$$
+
+6. **Check the physical result.** Input power equals useful output power plus positive loss.
+
+7. **State the result.**
+
+   $$6.66667\,\mathrm W$$
+
+**Answer:** $6.66667\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$6\,\mathrm W$** — The lost fraction 1 − η multiplies input power, not output power.
+- **$66.6667\,\mathrm W$** — This is total input power rather than loss.
+- **$60\,\mathrm W$** — This is useful load power rather than loss.
+
+<h4 id="solution-m9h54">Situation 54: A transformer with stated efficiency · Find the primary rms current</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 24 V. It has 100 primary turns and 500 secondary turns. A 240 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.9. All losses are represented by that efficiency. Find the primary rms current.
+
+1. **Identify the model and the conditions.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=120\,\mathrm V,\quad I_s=V_s/R=0.5\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=60\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=66.6667\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Solve the requested quantity.**
+
+   $$I_p=P_{\rm out}/(\eta V_p)=2.77778\,\mathrm A$$
+
+6. **Check the physical result.** Unity primary power factor is needed here to use real input power divided by rms voltage.
+
+7. **State the result.**
+
+   $$2.77778\,\mathrm A$$
+
+**Answer:** $2.77778\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$2.5\,\mathrm A$** — This assumes 100% efficiency.
+- **$0.5\,\mathrm A$** — Primary and secondary currents need not match.
+- **$2.25\,\mathrm A$** — Lower efficiency increases required input current, not decreases it.
+
+<h4 id="solution-m9h55">Situation 55: A transformer with stated efficiency · model check</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 24 V. It has 100 primary turns and 500 secondary turns. A 240 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.9. All losses are represented by that efficiency. Why is the unity-primary-power-factor assumption stated?
+
+1. **Identify what stays fixed.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=120\,\mathrm V,\quad I_s=V_s/R=0.5\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=60\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=66.6667\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Apply the conclusion.** Efficiency supplies real input power; a power-factor model is also needed to infer rms current.
+
+**Answer:** Otherwise real power is Vp Ip times power factor, so P/V alone would not determine rms current.
+
+**Why the other answers do not work:**
+
+- **Every transformer necessarily has unity primary power factor.** — Real transformer input can have reactive current.
+- **Rms voltage must be multiplied by the AC frequency to get power.** — Real sinusoidal power uses voltage, current, and their phase relation.
+- **Efficiency and power factor are the same quantity.** — Efficiency compares real output and input powers; power factor relates real and apparent input power.
+
+<h4 id="solution-m9h56">Situation 56: A transformer with stated efficiency · Find the secondary rms voltage</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 120 V. It has 300 primary turns and 150 secondary turns. A 30 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.85. All losses are represented by that efficiency. Find the secondary rms voltage.
+
+1. **Identify the model and the conditions.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=60\,\mathrm V,\quad I_s=V_s/R=2\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=120\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=141.176\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Solve the requested quantity.**
+
+   $$V_s=120(150/300)=60\,\mathrm V$$
+
+6. **Check the physical result.** The voltage follows the explicitly stated turns-ratio model, not an extra efficiency factor.
+
+7. **State the result.**
+
+   $$60\,\mathrm V$$
+
+**Answer:** $60\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$240\,\mathrm V$** — This reverses the turns ratio.
+- **$51\,\mathrm V$** — The stated model applies efficiency to power, while preserving the ideal voltage ratio.
+- **$120\,\mathrm V$** — Primary and secondary voltages match only for equal turns.
+
+<h4 id="solution-m9h57">Situation 57: A transformer with stated efficiency · Find the secondary rms current</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 120 V. It has 300 primary turns and 150 secondary turns. A 30 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.85. All losses are represented by that efficiency. Find the secondary rms current.
+
+1. **Identify the model and the conditions.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=60\,\mathrm V,\quad I_s=V_s/R=2\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=120\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=141.176\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Solve the requested quantity.**
+
+   $$I_s=V_s/R=60/30$$
+
+6. **Check the physical result.** The resistive load current is in phase with its secondary voltage.
+
+7. **State the result.**
+
+   $$2\,\mathrm A$$
+
+**Answer:** $2\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$4\,\mathrm A$** — The load sees secondary rather than primary voltage.
+- **$2.35294\,\mathrm A$** — Efficiency changes the required input power; this load current follows its applied secondary voltage.
+- **$1\,\mathrm A$** — This applies the turns ratio a second time to a current already calculated from load voltage.
+
+<h4 id="solution-m9h58">Situation 58: A transformer with stated efficiency · Find total transformer power loss</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 120 V. It has 300 primary turns and 150 secondary turns. A 30 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.85. All losses are represented by that efficiency. Find total transformer power loss.
+
+1. **Identify the model and the conditions.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=60\,\mathrm V,\quad I_s=V_s/R=2\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=120\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=141.176\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Solve the requested quantity.**
+
+   $$P_{\rm loss}=P_{\rm out}(1/\eta-1)=21.1765\,\mathrm W$$
+
+6. **Check the physical result.** Input power equals useful output power plus positive loss.
+
+7. **State the result.**
+
+   $$21.1765\,\mathrm W$$
+
+**Answer:** $21.1765\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$18\,\mathrm W$** — The lost fraction 1 − η multiplies input power, not output power.
+- **$141.176\,\mathrm W$** — This is total input power rather than loss.
+- **$120\,\mathrm W$** — This is useful load power rather than loss.
+
+<h4 id="solution-m9h59">Situation 59: A transformer with stated efficiency · Find the primary rms current</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 120 V. It has 300 primary turns and 150 secondary turns. A 30 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.85. All losses are represented by that efficiency. Find the primary rms current.
+
+1. **Identify the model and the conditions.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=60\,\mathrm V,\quad I_s=V_s/R=2\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=120\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=141.176\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Solve the requested quantity.**
+
+   $$I_p=P_{\rm out}/(\eta V_p)=1.17647\,\mathrm A$$
+
+6. **Check the physical result.** Unity primary power factor is needed here to use real input power divided by rms voltage.
+
+7. **State the result.**
+
+   $$1.17647\,\mathrm A$$
+
+**Answer:** $1.17647\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$1\,\mathrm A$** — This assumes 100% efficiency.
+- **$2\,\mathrm A$** — Primary and secondary currents need not match.
+- **$0.85\,\mathrm A$** — Lower efficiency increases required input current, not decreases it.
+
+<h4 id="solution-m9h60">Situation 60: A transformer with stated efficiency · model check</h4>
+
+A transformer operates on sinusoidal AC with primary rms voltage 120 V. It has 300 primary turns and 150 secondary turns. A 30 Ω resistor loads the secondary. Use a model with the ideal turns voltage ratio, unity primary power factor, and total efficiency 0.85. All losses are represented by that efficiency. Why is the unity-primary-power-factor assumption stated?
+
+1. **Identify what stays fixed.** Use the turns ratio for voltage under the stated model. Use efficiency for real input power before converting that power to primary rms current.
+
+2. **Find secondary voltage and current.**
+
+   $$V_s=V_pN_s/N_p=60\,\mathrm V,\quad I_s=V_s/R=2\,\mathrm A$$
+
+3. **Include efficiency in the power balance.**
+
+   $$P_{\rm out}=V_sI_s=120\,\mathrm W,\quad P_{\rm in}=P_{\rm out}/\eta=141.176\,\mathrm W$$
+
+4. **Use the specified unity primary power factor.**
+
+   $$I_p=P_{\rm in}/V_p$$
+
+5. **Apply the conclusion.** Efficiency supplies real input power; a power-factor model is also needed to infer rms current.
+
+**Answer:** Otherwise real power is Vp Ip times power factor, so P/V alone would not determine rms current.
+
+**Why the other answers do not work:**
+
+- **Every transformer necessarily has unity primary power factor.** — Real transformer input can have reactive current.
+- **Rms voltage must be multiplied by the AC frequency to get power.** — Real sinusoidal power uses voltage, current, and their phase relation.
+- **Efficiency and power factor are the same quantity.** — Efficiency compares real output and input powers; power factor relates real and apparent input power.
+

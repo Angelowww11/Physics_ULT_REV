@@ -294,3 +294,1643 @@ Three branches connect the same upper node to ground. Branch 1 has a 12 V ideal 
 - **$0.5\,\mathrm A$** — This ignores the shared node voltage and the other source.
 - **$1.5\,\mathrm A$** — This is the current delivered by the 12 V branch, not the requested branch.
 
+<h4 id="solution-m7h11">Situation 11: A voltage divider with a load · Find the equivalent resistance seen by the source</h4>
+
+An ideal 12 V source supplies a divider with upper resistor $R_1=100\,\Omega$ and lower resistor $R_2=200\,\Omega$. A load $R_L=300\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Find the equivalent resistance seen by the source.
+
+1. **Identify the model and the conditions.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=120\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0545455\,\mathrm A,\quad V_L=IR_p=6.54545\,\mathrm V$$
+
+4. **Solve the requested quantity.**
+
+   $$R_{\rm eq}=R_1+R_p=220\,\Omega$$
+
+5. **Check the physical result.** Adding the load reduces the lower-branch resistance and the whole divider resistance.
+
+6. **State the result.**
+
+   $$220\,\Omega$$
+
+**Answer:** $220\,\Omega$
+
+**Why the other answers do not work:**
+
+- **$600\,\Omega$** — The load and R2 are parallel, not series.
+- **$300\,\Omega$** — This ignores the connected load.
+- **$54.5455\,\Omega$** — R1 is not parallel to the lower branch.
+
+<h4 id="solution-m7h12">Situation 12: A voltage divider with a load · Find the load voltage</h4>
+
+An ideal 12 V source supplies a divider with upper resistor $R_1=100\,\Omega$ and lower resistor $R_2=200\,\Omega$. A load $R_L=300\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Find the load voltage.
+
+1. **Identify the model and the conditions.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=120\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0545455\,\mathrm A,\quad V_L=IR_p=6.54545\,\mathrm V$$
+
+4. **Solve the requested quantity.**
+
+   $$V_L=V\frac{R_p}{R_1+R_p}=6.54545\,\mathrm V$$
+
+5. **Check the physical result.** The loaded output voltage is below the unloaded divider output.
+
+6. **State the result.**
+
+   $$6.54545\,\mathrm V$$
+
+**Answer:** $6.54545\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$8\,\mathrm V$** — This uses the unloaded divider voltage.
+- **$12\,\mathrm V$** — The upper resistor still takes a voltage drop.
+- **$5.45455\,\mathrm V$** — This gives the drop across the upper resistor.
+
+<h4 id="solution-m7h13">Situation 13: A voltage divider with a load · Find the current through the load alone</h4>
+
+An ideal 12 V source supplies a divider with upper resistor $R_1=100\,\Omega$ and lower resistor $R_2=200\,\Omega$. A load $R_L=300\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Find the current through the load alone.
+
+1. **Identify the model and the conditions.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=120\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0545455\,\mathrm A,\quad V_L=IR_p=6.54545\,\mathrm V$$
+
+4. **Solve the requested quantity.**
+
+   $$I_L=V_L/R_L=6.54545/300$$
+
+5. **Check the physical result.** Load current and lower-resistor current add to the source current.
+
+6. **State the result.**
+
+   $$0.0218182\,\mathrm A$$
+
+**Answer:** $0.0218182\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.0545455\,\mathrm A$** — This is source current, which splits between R2 and the load.
+- **$0.04\,\mathrm A$** — The load does not receive the entire source voltage.
+- **$0.0327273\,\mathrm A$** — This is the current through R2.
+
+<h4 id="solution-m7h14">Situation 14: A voltage divider with a load · Find the power dissipated in the upper resistor</h4>
+
+An ideal 12 V source supplies a divider with upper resistor $R_1=100\,\Omega$ and lower resistor $R_2=200\,\Omega$. A load $R_L=300\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Find the power dissipated in the upper resistor.
+
+1. **Identify the model and the conditions.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=120\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0545455\,\mathrm A,\quad V_L=IR_p=6.54545\,\mathrm V$$
+
+4. **Solve the requested quantity.**
+
+   $$P_1=I^2R_1=(0.0545455)^2(100)$$
+
+5. **Check the physical result.** Use the current through the requested resistor and its own resistance.
+
+6. **State the result.**
+
+   $$0.297521\,\mathrm W$$
+
+**Answer:** $0.297521\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$0.0476033\,\mathrm W$** — The upper resistor carries source current, not load current alone.
+- **$1.44\,\mathrm W$** — The upper resistor does not receive the full source voltage.
+- **$0.357025\,\mathrm W$** — This combines source current with the lower-branch voltage.
+
+<h4 id="solution-m7h15">Situation 15: A voltage divider with a load · model check</h4>
+
+An ideal 12 V source supplies a divider with upper resistor $R_1=100\,\Omega$ and lower resistor $R_2=200\,\Omega$. A load $R_L=300\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Why does connecting the load change the output voltage of this divider?
+
+1. **Identify what stays fixed.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=120\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0545455\,\mathrm A,\quad V_L=IR_p=6.54545\,\mathrm V$$
+
+4. **Apply the conclusion.** The source voltage is fixed, but its division between the two series branches changes.
+
+**Answer:** The load changes the equivalent resistance of the lower branch.
+
+**Why the other answers do not work:**
+
+- **An ideal source must reduce its specified voltage whenever current rises.** — That behavior belongs to a source with internal resistance.
+- **The upper resistor automatically changes resistance.** — Its specified resistance stays fixed.
+- **Parallel components always have equal current.** — They have equal voltage; their currents depend on resistance.
+
+<h4 id="solution-m7h16">Situation 16: A voltage divider with a load · Find the equivalent resistance seen by the source</h4>
+
+An ideal 18 V source supplies a divider with upper resistor $R_1=120\,\Omega$ and lower resistor $R_2=240\,\Omega$. A load $R_L=360\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Find the equivalent resistance seen by the source.
+
+1. **Identify the model and the conditions.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=144\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0681818\,\mathrm A,\quad V_L=IR_p=9.81818\,\mathrm V$$
+
+4. **Solve the requested quantity.**
+
+   $$R_{\rm eq}=R_1+R_p=264\,\Omega$$
+
+5. **Check the physical result.** Adding the load reduces the lower-branch resistance and the whole divider resistance.
+
+6. **State the result.**
+
+   $$264\,\Omega$$
+
+**Answer:** $264\,\Omega$
+
+**Why the other answers do not work:**
+
+- **$720\,\Omega$** — The load and R2 are parallel, not series.
+- **$360\,\Omega$** — This ignores the connected load.
+- **$65.4545\,\Omega$** — R1 is not parallel to the lower branch.
+
+<h4 id="solution-m7h17">Situation 17: A voltage divider with a load · Find the load voltage</h4>
+
+An ideal 18 V source supplies a divider with upper resistor $R_1=120\,\Omega$ and lower resistor $R_2=240\,\Omega$. A load $R_L=360\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Find the load voltage.
+
+1. **Identify the model and the conditions.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=144\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0681818\,\mathrm A,\quad V_L=IR_p=9.81818\,\mathrm V$$
+
+4. **Solve the requested quantity.**
+
+   $$V_L=V\frac{R_p}{R_1+R_p}=9.81818\,\mathrm V$$
+
+5. **Check the physical result.** The loaded output voltage is below the unloaded divider output.
+
+6. **State the result.**
+
+   $$9.81818\,\mathrm V$$
+
+**Answer:** $9.81818\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$12\,\mathrm V$** — This uses the unloaded divider voltage.
+- **$18\,\mathrm V$** — The upper resistor still takes a voltage drop.
+- **$8.18182\,\mathrm V$** — This gives the drop across the upper resistor.
+
+<h4 id="solution-m7h18">Situation 18: A voltage divider with a load · Find the current through the load alone</h4>
+
+An ideal 18 V source supplies a divider with upper resistor $R_1=120\,\Omega$ and lower resistor $R_2=240\,\Omega$. A load $R_L=360\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Find the current through the load alone.
+
+1. **Identify the model and the conditions.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=144\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0681818\,\mathrm A,\quad V_L=IR_p=9.81818\,\mathrm V$$
+
+4. **Solve the requested quantity.**
+
+   $$I_L=V_L/R_L=9.81818/360$$
+
+5. **Check the physical result.** Load current and lower-resistor current add to the source current.
+
+6. **State the result.**
+
+   $$0.0272727\,\mathrm A$$
+
+**Answer:** $0.0272727\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.0681818\,\mathrm A$** — This is source current, which splits between R2 and the load.
+- **$0.05\,\mathrm A$** — The load does not receive the entire source voltage.
+- **$0.0409091\,\mathrm A$** — This is the current through R2.
+
+<h4 id="solution-m7h19">Situation 19: A voltage divider with a load · Find the power dissipated in the upper resistor</h4>
+
+An ideal 18 V source supplies a divider with upper resistor $R_1=120\,\Omega$ and lower resistor $R_2=240\,\Omega$. A load $R_L=360\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Find the power dissipated in the upper resistor.
+
+1. **Identify the model and the conditions.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=144\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0681818\,\mathrm A,\quad V_L=IR_p=9.81818\,\mathrm V$$
+
+4. **Solve the requested quantity.**
+
+   $$P_1=I^2R_1=(0.0681818)^2(120)$$
+
+5. **Check the physical result.** Use the current through the requested resistor and its own resistance.
+
+6. **State the result.**
+
+   $$0.557851\,\mathrm W$$
+
+**Answer:** $0.557851\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$0.0892562\,\mathrm W$** — The upper resistor carries source current, not load current alone.
+- **$2.7\,\mathrm W$** — The upper resistor does not receive the full source voltage.
+- **$0.669421\,\mathrm W$** — This combines source current with the lower-branch voltage.
+
+<h4 id="solution-m7h20">Situation 20: A voltage divider with a load · model check</h4>
+
+An ideal 18 V source supplies a divider with upper resistor $R_1=120\,\Omega$ and lower resistor $R_2=240\,\Omega$. A load $R_L=360\,\Omega$ connects across R2. Use steady DC conditions and ideal wires. Why does connecting the load change the output voltage of this divider?
+
+1. **Identify what stays fixed.** The load is parallel to the lower resistor. Calculate the loaded equivalent resistance before applying the voltage-divider relation.
+
+2. **Reduce the loaded lower branch.**
+
+   $$R_p=R_2R_L/(R_2+R_L)=144\,\Omega$$
+
+3. **Find source current and load voltage.**
+
+   $$I=V/(R_1+R_p)=0.0681818\,\mathrm A,\quad V_L=IR_p=9.81818\,\mathrm V$$
+
+4. **Apply the conclusion.** The source voltage is fixed, but its division between the two series branches changes.
+
+**Answer:** The load changes the equivalent resistance of the lower branch.
+
+**Why the other answers do not work:**
+
+- **An ideal source must reduce its specified voltage whenever current rises.** — That behavior belongs to a source with internal resistance.
+- **The upper resistor automatically changes resistance.** — Its specified resistance stays fixed.
+- **Parallel components always have equal current.** — They have equal voltage; their currents depend on resistance.
+
+<h4 id="solution-m7h21">Situation 21: A warm resistor on a real battery · Find the warm wire resistance</h4>
+
+A wire has resistance 6 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 70°C while connected to a battery of emf 12 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Find the warm wire resistance.
+
+1. **Identify the model and the conditions.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=7.2\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.46341\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=10.5366\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$R=6[1+0.0040(70-20)]$$
+
+6. **Check the physical result.** The positive temperature coefficient makes the warm resistance exceed the reference resistance.
+
+7. **State the result.**
+
+   $$7.2\,\Omega$$
+
+**Answer:** $7.2\,\Omega$
+
+**Why the other answers do not work:**
+
+- **$7.68\,\Omega$** — This uses the final Celsius reading instead of a temperature change.
+- **$6\,\Omega$** — This ignores the temperature increase.
+- **$1.2\,\Omega$** — This gives the resistance increase, not final resistance.
+
+<h4 id="solution-m7h22">Situation 22: A warm resistor on a real battery · Find the steady circuit current</h4>
+
+A wire has resistance 6 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 70°C while connected to a battery of emf 12 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Find the steady circuit current.
+
+1. **Identify the model and the conditions.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=7.2\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.46341\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=10.5366\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$I=12/(7.2+1.0)$$
+
+6. **Check the physical result.** Both the heated wire and battery resistance limit the current.
+
+7. **State the result.**
+
+   $$1.46341\,\mathrm A$$
+
+**Answer:** $1.46341\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$1.66667\,\mathrm A$** — This ignores the battery internal resistance.
+- **$1.71429\,\mathrm A$** — This ignores the wire temperature change.
+- **$1.93548\,\mathrm A$** — Series resistances add; internal resistance is not subtracted.
+
+<h4 id="solution-m7h23">Situation 23: A warm resistor on a real battery · Find the battery terminal voltage under this load</h4>
+
+A wire has resistance 6 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 70°C while connected to a battery of emf 12 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Find the battery terminal voltage under this load.
+
+1. **Identify the model and the conditions.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=7.2\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.46341\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=10.5366\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$V_t=12-1.46341(1.0)$$
+
+6. **Check the physical result.** Terminal voltage also equals current times the external warm-wire resistance.
+
+7. **State the result.**
+
+   $$10.5366\,\mathrm V$$
+
+**Answer:** $10.5366\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$12\,\mathrm V$** — This ignores the internal voltage drop.
+- **$1.46341\,\mathrm V$** — This gives the internal drop rather than terminal voltage.
+- **$13.4634\,\mathrm V$** — A discharging battery’s internal resistance reduces terminal voltage.
+
+<h4 id="solution-m7h24">Situation 24: A warm resistor on a real battery · Find power dissipated in the warm wire alone</h4>
+
+A wire has resistance 6 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 70°C while connected to a battery of emf 12 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Find power dissipated in the warm wire alone.
+
+1. **Identify the model and the conditions.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=7.2\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.46341\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=10.5366\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$P_w=I^2R=(1.46341)^2(7.2)$$
+
+6. **Check the physical result.** External-wire heat and internal battery heat sum to emf times current.
+
+7. **State the result.**
+
+   $$15.4194\,\mathrm W$$
+
+**Answer:** $15.4194\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$17.561\,\mathrm W$** — This includes battery internal heating.
+- **$2.14158\,\mathrm W$** — This is internal-resistance power.
+- **$20\,\mathrm W$** — This applies the entire emf across the external wire.
+
+<h4 id="solution-m7h25">Situation 25: A warm resistor on a real battery · model check</h4>
+
+A wire has resistance 6 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 70°C while connected to a battery of emf 12 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Why must the problem specify that the wire temperature is held fixed?
+
+1. **Identify what stays fixed.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=7.2\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.46341\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=10.5366\,\mathrm V$$
+
+5. **Apply the conclusion.** The stated circuit calculation uses the specified operating temperature.
+
+**Answer:** Otherwise electrical heating can change resistance and current until a thermal balance is reached.
+
+**Why the other answers do not work:**
+
+- **Ohm’s law cannot be used at any temperature other than 20°C.** — Use the resistance appropriate to the stated temperature.
+- **Battery internal resistance becomes negative when the wire warms.** — No such change follows from the model.
+- **Temperature changes the charge of an electron.** — The resistance change is a material transport effect, not a change in elementary charge.
+
+<h4 id="solution-m7h26">Situation 26: A warm resistor on a real battery · Find the warm wire resistance</h4>
+
+A wire has resistance 8 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 80°C while connected to a battery of emf 18 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Find the warm wire resistance.
+
+1. **Identify the model and the conditions.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=9.92\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.64835\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=16.3516\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$R=8[1+0.0040(80-20)]$$
+
+6. **Check the physical result.** The positive temperature coefficient makes the warm resistance exceed the reference resistance.
+
+7. **State the result.**
+
+   $$9.92\,\Omega$$
+
+**Answer:** $9.92\,\Omega$
+
+**Why the other answers do not work:**
+
+- **$10.56\,\Omega$** — This uses the final Celsius reading instead of a temperature change.
+- **$8\,\Omega$** — This ignores the temperature increase.
+- **$1.92\,\Omega$** — This gives the resistance increase, not final resistance.
+
+<h4 id="solution-m7h27">Situation 27: A warm resistor on a real battery · Find the steady circuit current</h4>
+
+A wire has resistance 8 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 80°C while connected to a battery of emf 18 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Find the steady circuit current.
+
+1. **Identify the model and the conditions.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=9.92\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.64835\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=16.3516\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$I=18/(9.92+1.0)$$
+
+6. **Check the physical result.** Both the heated wire and battery resistance limit the current.
+
+7. **State the result.**
+
+   $$1.64835\,\mathrm A$$
+
+**Answer:** $1.64835\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$1.81452\,\mathrm A$** — This ignores the battery internal resistance.
+- **$2\,\mathrm A$** — This ignores the wire temperature change.
+- **$2.01794\,\mathrm A$** — Series resistances add; internal resistance is not subtracted.
+
+<h4 id="solution-m7h28">Situation 28: A warm resistor on a real battery · Find the battery terminal voltage under this load</h4>
+
+A wire has resistance 8 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 80°C while connected to a battery of emf 18 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Find the battery terminal voltage under this load.
+
+1. **Identify the model and the conditions.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=9.92\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.64835\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=16.3516\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$V_t=18-1.64835(1.0)$$
+
+6. **Check the physical result.** Terminal voltage also equals current times the external warm-wire resistance.
+
+7. **State the result.**
+
+   $$16.3516\,\mathrm V$$
+
+**Answer:** $16.3516\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$18\,\mathrm V$** — This ignores the internal voltage drop.
+- **$1.64835\,\mathrm V$** — This gives the internal drop rather than terminal voltage.
+- **$19.6484\,\mathrm V$** — A discharging battery’s internal resistance reduces terminal voltage.
+
+<h4 id="solution-m7h29">Situation 29: A warm resistor on a real battery · Find power dissipated in the warm wire alone</h4>
+
+A wire has resistance 8 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 80°C while connected to a battery of emf 18 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Find power dissipated in the warm wire alone.
+
+1. **Identify the model and the conditions.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=9.92\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.64835\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=16.3516\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$P_w=I^2R=(1.64835)^2(9.92)$$
+
+6. **Check the physical result.** External-wire heat and internal battery heat sum to emf times current.
+
+7. **State the result.**
+
+   $$26.9533\,\mathrm W$$
+
+**Answer:** $26.9533\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$29.6703\,\mathrm W$** — This includes battery internal heating.
+- **$2.71706\,\mathrm W$** — This is internal-resistance power.
+- **$32.6613\,\mathrm W$** — This applies the entire emf across the external wire.
+
+<h4 id="solution-m7h30">Situation 30: A warm resistor on a real battery · model check</h4>
+
+A wire has resistance 8 Ω at 20°C and linear temperature coefficient $0.0040\,\mathrm{K^{-1}}$. It is held at 80°C while connected to a battery of emf 18 V and internal resistance 1.0 Ω. Treat temperature as externally fixed and the coefficient as constant over this range. Why must the problem specify that the wire temperature is held fixed?
+
+1. **Identify what stays fixed.** First update the wire resistance using the temperature difference. Then include internal resistance in the complete circuit.
+
+2. **Find the wire resistance at the stated temperature.**
+
+   $$R=R_0[1+\alpha(T-T_0)]=9.92\,\Omega$$
+
+3. **Include battery internal resistance.**
+
+   $$I=\mathcal E/(R+r)=1.64835\,\mathrm A$$
+
+4. **Find terminal voltage.**
+
+   $$V_t=\mathcal E-Ir=16.3516\,\mathrm V$$
+
+5. **Apply the conclusion.** The stated circuit calculation uses the specified operating temperature.
+
+**Answer:** Otherwise electrical heating can change resistance and current until a thermal balance is reached.
+
+**Why the other answers do not work:**
+
+- **Ohm’s law cannot be used at any temperature other than 20°C.** — Use the resistance appropriate to the stated temperature.
+- **Battery internal resistance becomes negative when the wire warms.** — No such change follows from the model.
+- **Temperature changes the charge of an electron.** — The resistance change is a material transport effect, not a change in elementary charge.
+
+<h4 id="solution-m7h31">Situation 31: RC switching with a nonzero initial voltage · Find the capacitor voltage</h4>
+
+A capacitor $C=1\times10^{-4}\,\mathrm F$ starts at voltage 3 V with its marked positive plate positive. A switch connects that plate through $R=2000\,\Omega$ to the positive terminal of an ideal 12 V source; negative terminals share a return node. Find values 0.15 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. Find the capacitor voltage.
+
+1. **Identify the model and the conditions.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.2\,\mathrm s,\quad f=e^{-t/\tau}=0.472367$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=7.7487\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=0.00212565\,\mathrm A$$
+
+5. **Solve the requested quantity.**
+
+   $$V_C=12+(3-12)e^{-0.15/0.2}$$
+
+6. **Check the physical result.** The voltage lies between its initial value and the new source voltage.
+
+7. **State the result.**
+
+   $$7.7487\,\mathrm V$$
+
+**Answer:** $7.7487\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$6.3316\,\mathrm V$** — This assumes the capacitor initially has zero voltage.
+- **$1.4171\,\mathrm V$** — This assumes a source-free discharge.
+- **$-7.053\,\mathrm V$** — This gives a growing transient instead of a decaying one.
+
+<h4 id="solution-m7h32">Situation 32: RC switching with a nonzero initial voltage · Find the signed resistor current</h4>
+
+A capacitor $C=1\times10^{-4}\,\mathrm F$ starts at voltage 3 V with its marked positive plate positive. A switch connects that plate through $R=2000\,\Omega$ to the positive terminal of an ideal 12 V source; negative terminals share a return node. Find values 0.15 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. Find the signed resistor current.
+
+1. **Identify the model and the conditions.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.2\,\mathrm s,\quad f=e^{-t/\tau}=0.472367$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=7.7487\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=0.00212565\,\mathrm A$$
+
+5. **Solve the requested quantity.**
+
+   $$I=(12-7.7487)/2000=0.00212565\,\mathrm A$$
+
+6. **Check the physical result.** A negative result means the initially higher-voltage capacitor sends current back toward the source.
+
+7. **State the result.**
+
+   $$0.00212565\,\mathrm A$$
+
+**Answer:** $0.00212565\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$-0.00212565\,\mathrm A$** — This reverses the specified source-to-capacitor current reference.
+- **$0.0045\,\mathrm A$** — This is the initial current, not its later value.
+- **$0.006\,\mathrm A$** — This ignores the capacitor’s nonzero opposing voltage.
+
+<h4 id="solution-m7h33">Situation 33: RC switching with a nonzero initial voltage · Find the charge on the marked capacitor plate</h4>
+
+A capacitor $C=1\times10^{-4}\,\mathrm F$ starts at voltage 3 V with its marked positive plate positive. A switch connects that plate through $R=2000\,\Omega$ to the positive terminal of an ideal 12 V source; negative terminals share a return node. Find values 0.15 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. Find the charge on the marked capacitor plate.
+
+1. **Identify the model and the conditions.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.2\,\mathrm s,\quad f=e^{-t/\tau}=0.472367$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=7.7487\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=0.00212565\,\mathrm A$$
+
+5. **Solve the requested quantity.**
+
+   $$Q=CV_C=1\times10^{-4}(7.7487)$$
+
+6. **Check the physical result.** The plate charge follows the actual instantaneous capacitor voltage.
+
+7. **State the result.**
+
+   $$7.7487\times10^{-4}\,\mathrm C$$
+
+**Answer:** $7.7487\times10^{-4}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$0.0012\,\mathrm C$** — This gives the eventual steady charge, not the present charge.
+- **$3\times10^{-4}\,\mathrm C$** — This gives the initial charge.
+- **$4.7487\times10^{-4}\,\mathrm C$** — This gives the charge change, not total charge.
+
+<h4 id="solution-m7h34">Situation 34: RC switching with a nonzero initial voltage · Find the stored energy at the stated time</h4>
+
+A capacitor $C=1\times10^{-4}\,\mathrm F$ starts at voltage 3 V with its marked positive plate positive. A switch connects that plate through $R=2000\,\Omega$ to the positive terminal of an ideal 12 V source; negative terminals share a return node. Find values 0.15 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. Find the stored energy at the stated time.
+
+1. **Identify the model and the conditions.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.2\,\mathrm s,\quad f=e^{-t/\tau}=0.472367$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=7.7487\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=0.00212565\,\mathrm A$$
+
+5. **Solve the requested quantity.**
+
+   $$U=\tfrac12CV_C^2=\tfrac12(1\times10^{-4})(7.7487)^2$$
+
+6. **Check the physical result.** Stored energy is positive even when the signed resistor current is negative.
+
+7. **State the result.**
+
+   $$0.00300212\,\mathrm J$$
+
+**Answer:** $0.00300212\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$0.0072\,\mathrm J$** — This gives the final asymptotic energy.
+- **$4.5\times10^{-4}\,\mathrm J$** — This gives the initial energy.
+- **$0.00600424\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m7h35">Situation 35: RC switching with a nonzero initial voltage · model check</h4>
+
+A capacitor $C=1\times10^{-4}\,\mathrm F$ starts at voltage 3 V with its marked positive plate positive. A switch connects that plate through $R=2000\,\Omega$ to the positive terminal of an ideal 12 V source; negative terminals share a return node. Find values 0.15 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. What determines the sign of the initial resistor current?
+
+1. **Identify what stays fixed.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.2\,\mathrm s,\quad f=e^{-t/\tau}=0.472367$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=7.7487\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=0.00212565\,\mathrm A$$
+
+5. **Apply the conclusion.** Initially the resistor sees Vs − V0 under the stated current reference.
+
+**Answer:** The difference between the source voltage and the initial capacitor voltage.
+
+**Why the other answers do not work:**
+
+- **The initial capacitor voltage must instantly become the source voltage.** — A finite resistor prevents an instantaneous capacitor-voltage jump.
+- **Current must always flow out of an ideal source.** — An ideal source can absorb current from a higher-voltage capacitor.
+- **The sign of the time constant.** — Positive resistance and capacitance give a positive time constant.
+
+<h4 id="solution-m7h36">Situation 36: RC switching with a nonzero initial voltage · Find the capacitor voltage</h4>
+
+A capacitor $C=1.5\times10^{-4}\,\mathrm F$ starts at voltage 14 V with its marked positive plate positive. A switch connects that plate through $R=3000\,\Omega$ to the positive terminal of an ideal 6 V source; negative terminals share a return node. Find values 0.3 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. Find the capacitor voltage.
+
+1. **Identify the model and the conditions.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.45\,\mathrm s,\quad f=e^{-t/\tau}=0.513417$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=10.1073\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=-0.00136911\,\mathrm A$$
+
+5. **Solve the requested quantity.**
+
+   $$V_C=6+(14-6)e^{-0.3/0.45}$$
+
+6. **Check the physical result.** The voltage lies between its initial value and the new source voltage.
+
+7. **State the result.**
+
+   $$10.1073\,\mathrm V$$
+
+**Answer:** $10.1073\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$2.9195\,\mathrm V$** — This assumes the capacitor initially has zero voltage.
+- **$7.18784\,\mathrm V$** — This assumes a source-free discharge.
+- **$21.5819\,\mathrm V$** — This gives a growing transient instead of a decaying one.
+
+<h4 id="solution-m7h37">Situation 37: RC switching with a nonzero initial voltage · Find the signed resistor current</h4>
+
+A capacitor $C=1.5\times10^{-4}\,\mathrm F$ starts at voltage 14 V with its marked positive plate positive. A switch connects that plate through $R=3000\,\Omega$ to the positive terminal of an ideal 6 V source; negative terminals share a return node. Find values 0.3 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. Find the signed resistor current.
+
+1. **Identify the model and the conditions.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.45\,\mathrm s,\quad f=e^{-t/\tau}=0.513417$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=10.1073\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=-0.00136911\,\mathrm A$$
+
+5. **Solve the requested quantity.**
+
+   $$I=(6-10.1073)/3000=-0.00136911\,\mathrm A$$
+
+6. **Check the physical result.** A negative result means the initially higher-voltage capacitor sends current back toward the source.
+
+7. **State the result.**
+
+   $$-0.00136911\,\mathrm A$$
+
+**Answer:** $-0.00136911\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.00136911\,\mathrm A$** — This reverses the specified source-to-capacitor current reference.
+- **$-0.00266667\,\mathrm A$** — This is the initial current, not its later value.
+- **$0.002\,\mathrm A$** — This ignores the capacitor’s nonzero opposing voltage.
+
+<h4 id="solution-m7h38">Situation 38: RC switching with a nonzero initial voltage · Find the charge on the marked capacitor plate</h4>
+
+A capacitor $C=1.5\times10^{-4}\,\mathrm F$ starts at voltage 14 V with its marked positive plate positive. A switch connects that plate through $R=3000\,\Omega$ to the positive terminal of an ideal 6 V source; negative terminals share a return node. Find values 0.3 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. Find the charge on the marked capacitor plate.
+
+1. **Identify the model and the conditions.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.45\,\mathrm s,\quad f=e^{-t/\tau}=0.513417$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=10.1073\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=-0.00136911\,\mathrm A$$
+
+5. **Solve the requested quantity.**
+
+   $$Q=CV_C=1.5\times10^{-4}(10.1073)$$
+
+6. **Check the physical result.** The plate charge follows the actual instantaneous capacitor voltage.
+
+7. **State the result.**
+
+   $$0.0015161\,\mathrm C$$
+
+**Answer:** $0.0015161\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$9\times10^{-4}\,\mathrm C$** — This gives the eventual steady charge, not the present charge.
+- **$0.0021\,\mathrm C$** — This gives the initial charge.
+- **$-5.83899\times10^{-4}\,\mathrm C$** — This gives the charge change, not total charge.
+
+<h4 id="solution-m7h39">Situation 39: RC switching with a nonzero initial voltage · Find the stored energy at the stated time</h4>
+
+A capacitor $C=1.5\times10^{-4}\,\mathrm F$ starts at voltage 14 V with its marked positive plate positive. A switch connects that plate through $R=3000\,\Omega$ to the positive terminal of an ideal 6 V source; negative terminals share a return node. Find values 0.3 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. Find the stored energy at the stated time.
+
+1. **Identify the model and the conditions.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.45\,\mathrm s,\quad f=e^{-t/\tau}=0.513417$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=10.1073\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=-0.00136911\,\mathrm A$$
+
+5. **Solve the requested quantity.**
+
+   $$U=\tfrac12CV_C^2=\tfrac12(1.5\times10^{-4})(10.1073)^2$$
+
+6. **Check the physical result.** Stored energy is positive even when the signed resistor current is negative.
+
+7. **State the result.**
+
+   $$0.00766187\,\mathrm J$$
+
+**Answer:** $0.00766187\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$0.0027\,\mathrm J$** — This gives the final asymptotic energy.
+- **$0.0147\,\mathrm J$** — This gives the initial energy.
+- **$0.0153237\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m7h40">Situation 40: RC switching with a nonzero initial voltage · model check</h4>
+
+A capacitor $C=1.5\times10^{-4}\,\mathrm F$ starts at voltage 14 V with its marked positive plate positive. A switch connects that plate through $R=3000\,\Omega$ to the positive terminal of an ideal 6 V source; negative terminals share a return node. Find values 0.3 s after switching. Define resistor current as positive from the source toward the marked capacitor plate. What determines the sign of the initial resistor current?
+
+1. **Identify what stays fixed.** Capacitor voltage is continuous at switching. The general RC solution approaches the new source voltage from the actual initial voltage.
+
+2. **Calculate the time constant and decay factor.**
+
+   $$\tau=RC=0.45\,\mathrm s,\quad f=e^{-t/\tau}=0.513417$$
+
+3. **Apply the nonzero-initial-voltage solution.**
+
+   $$V_C=V_s+(V_0-V_s)e^{-t/RC}=10.1073\,\mathrm V$$
+
+4. **Use the stated current direction.**
+
+   $$I=(V_s-V_C)/R=-0.00136911\,\mathrm A$$
+
+5. **Apply the conclusion.** Initially the resistor sees Vs − V0 under the stated current reference.
+
+**Answer:** The difference between the source voltage and the initial capacitor voltage.
+
+**Why the other answers do not work:**
+
+- **The initial capacitor voltage must instantly become the source voltage.** — A finite resistor prevents an instantaneous capacitor-voltage jump.
+- **Current must always flow out of an ideal source.** — An ideal source can absorb current from a higher-voltage capacitor.
+- **The sign of the time constant.** — Positive resistance and capacitance give a positive time constant.
+
+<h4 id="solution-m7h41">Situation 41: A loop with opposing sources · Find the signed loop current</h4>
+
+One series loop has two ideal emfs 12 V and 2 V oriented in opposition. Its resistors are 3 Ω, 5 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. Find the signed loop current.
+
+1. **Identify the model and the conditions.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$12-2-I(3+5+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{12-2}{3+5+1}=1.11111\,\mathrm A$$
+
+4. **Solve the requested quantity.**
+
+   $$I=1.11111\,\mathrm A$$
+
+5. **Check the physical result.** A positive result confirms the chosen current direction.
+
+6. **State the result.**
+
+   $$1.11111\,\mathrm A$$
+
+**Answer:** $1.11111\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$1.55556\,\mathrm A$** — The source emfs oppose rather than reinforce.
+- **$1.25\,\mathrm A$** — This omits internal resistance.
+- **$-1.11111\,\mathrm A$** — The larger source drives the chosen positive direction.
+
+<h4 id="solution-m7h42">Situation 42: A loop with opposing sources · Find the voltage-drop magnitude across the second resistor</h4>
+
+One series loop has two ideal emfs 12 V and 2 V oriented in opposition. Its resistors are 3 Ω, 5 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. Find the voltage-drop magnitude across the second resistor.
+
+1. **Identify the model and the conditions.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$12-2-I(3+5+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{12-2}{3+5+1}=1.11111\,\mathrm A$$
+
+4. **Solve the requested quantity.**
+
+   $$V_{R2}=IR_2=1.11111(5)$$
+
+5. **Check the physical result.** The sum of all resistor drops equals the difference between the emfs.
+
+6. **State the result.**
+
+   $$5.55556\,\mathrm V$$
+
+**Answer:** $5.55556\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$10\,\mathrm V$** — The net emf divides among all three resistances.
+- **$3.33333\,\mathrm V$** — This gives the drop across the first resistor.
+- **$2\,\mathrm V$** — The smaller source emf is not the second resistor’s drop.
+
+<h4 id="solution-m7h43">Situation 43: A loop with opposing sources · Find the power dissipated in the first resistor</h4>
+
+One series loop has two ideal emfs 12 V and 2 V oriented in opposition. Its resistors are 3 Ω, 5 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. Find the power dissipated in the first resistor.
+
+1. **Identify the model and the conditions.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$12-2-I(3+5+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{12-2}{3+5+1}=1.11111\,\mathrm A$$
+
+4. **Solve the requested quantity.**
+
+   $$P_{R1}=I^2R_1=(1.11111)^2(3)$$
+
+5. **Check the physical result.** A positive resistance dissipates nonnegative power regardless of the current-reference convention.
+
+6. **State the result.**
+
+   $$3.7037\,\mathrm W$$
+
+**Answer:** $3.7037\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$13.3333\,\mathrm W$** — This gives larger-source output power.
+- **$6.17284\,\mathrm W$** — This gives second-resistor power.
+- **$11.1111\,\mathrm W$** — This gives total resistor heating, not the first resistor alone.
+
+<h4 id="solution-m7h44">Situation 44: A loop with opposing sources · Find the power absorbed by the smaller ideal source</h4>
+
+One series loop has two ideal emfs 12 V and 2 V oriented in opposition. Its resistors are 3 Ω, 5 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. Find the power absorbed by the smaller ideal source.
+
+1. **Identify the model and the conditions.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$12-2-I(3+5+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{12-2}{3+5+1}=1.11111\,\mathrm A$$
+
+4. **Solve the requested quantity.**
+
+   $$P_{\rm small}=\mathcal E_2I=2(1.11111)$$
+
+5. **Check the physical result.** The larger source supplies both resistor heating and energy absorbed by the smaller source.
+
+6. **State the result.**
+
+   $$2.22222\,\mathrm W$$
+
+**Answer:** $2.22222\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$-2.22222\,\mathrm W$** — Current enters the smaller source’s positive terminal, so it absorbs power.
+- **$13.3333\,\mathrm W$** — This gives the larger source’s delivered power.
+- **$0.444444\,\mathrm W$** — The common current depends on both emfs.
+
+<h4 id="solution-m7h45">Situation 45: A loop with opposing sources · model check</h4>
+
+One series loop has two ideal emfs 12 V and 2 V oriented in opposition. Its resistors are 3 Ω, 5 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. What indicates that the smaller source absorbs electrical power?
+
+1. **Identify what stays fixed.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$12-2-I(3+5+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{12-2}{3+5+1}=1.11111\,\mathrm A$$
+
+4. **Apply the conclusion.** Under this reference, absorbed power is its positive emf times the entering current.
+
+**Answer:** The loop current enters its positive terminal.
+
+**Why the other answers do not work:**
+
+- **Every ideal source must deliver power.** — An ideal source can either supply or absorb electrical energy.
+- **Its emf is smaller than a resistor voltage in every circuit.** — Power direction depends on current relative to source polarity.
+- **A negative resistance develops in the smaller source.** — No negative resistance is needed to describe source power absorption.
+
+<h4 id="solution-m7h46">Situation 46: A loop with opposing sources · Find the signed loop current</h4>
+
+One series loop has two ideal emfs 18 V and 6 V oriented in opposition. Its resistors are 4 Ω, 6 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. Find the signed loop current.
+
+1. **Identify the model and the conditions.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$18-6-I(4+6+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{18-6}{4+6+1}=1.09091\,\mathrm A$$
+
+4. **Solve the requested quantity.**
+
+   $$I=1.09091\,\mathrm A$$
+
+5. **Check the physical result.** A positive result confirms the chosen current direction.
+
+6. **State the result.**
+
+   $$1.09091\,\mathrm A$$
+
+**Answer:** $1.09091\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$2.18182\,\mathrm A$** — The source emfs oppose rather than reinforce.
+- **$1.2\,\mathrm A$** — This omits internal resistance.
+- **$-1.09091\,\mathrm A$** — The larger source drives the chosen positive direction.
+
+<h4 id="solution-m7h47">Situation 47: A loop with opposing sources · Find the voltage-drop magnitude across the second resistor</h4>
+
+One series loop has two ideal emfs 18 V and 6 V oriented in opposition. Its resistors are 4 Ω, 6 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. Find the voltage-drop magnitude across the second resistor.
+
+1. **Identify the model and the conditions.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$18-6-I(4+6+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{18-6}{4+6+1}=1.09091\,\mathrm A$$
+
+4. **Solve the requested quantity.**
+
+   $$V_{R2}=IR_2=1.09091(6)$$
+
+5. **Check the physical result.** The sum of all resistor drops equals the difference between the emfs.
+
+6. **State the result.**
+
+   $$6.54545\,\mathrm V$$
+
+**Answer:** $6.54545\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$12\,\mathrm V$** — The net emf divides among all three resistances.
+- **$4.36364\,\mathrm V$** — This gives the drop across the first resistor.
+- **$6\,\mathrm V$** — The smaller source emf is not the second resistor’s drop.
+
+<h4 id="solution-m7h48">Situation 48: A loop with opposing sources · Find the power dissipated in the first resistor</h4>
+
+One series loop has two ideal emfs 18 V and 6 V oriented in opposition. Its resistors are 4 Ω, 6 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. Find the power dissipated in the first resistor.
+
+1. **Identify the model and the conditions.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$18-6-I(4+6+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{18-6}{4+6+1}=1.09091\,\mathrm A$$
+
+4. **Solve the requested quantity.**
+
+   $$P_{R1}=I^2R_1=(1.09091)^2(4)$$
+
+5. **Check the physical result.** A positive resistance dissipates nonnegative power regardless of the current-reference convention.
+
+6. **State the result.**
+
+   $$4.76033\,\mathrm W$$
+
+**Answer:** $4.76033\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$19.6364\,\mathrm W$** — This gives larger-source output power.
+- **$7.1405\,\mathrm W$** — This gives second-resistor power.
+- **$13.0909\,\mathrm W$** — This gives total resistor heating, not the first resistor alone.
+
+<h4 id="solution-m7h49">Situation 49: A loop with opposing sources · Find the power absorbed by the smaller ideal source</h4>
+
+One series loop has two ideal emfs 18 V and 6 V oriented in opposition. Its resistors are 4 Ω, 6 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. Find the power absorbed by the smaller ideal source.
+
+1. **Identify the model and the conditions.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$18-6-I(4+6+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{18-6}{4+6+1}=1.09091\,\mathrm A$$
+
+4. **Solve the requested quantity.**
+
+   $$P_{\rm small}=\mathcal E_2I=6(1.09091)$$
+
+5. **Check the physical result.** The larger source supplies both resistor heating and energy absorbed by the smaller source.
+
+6. **State the result.**
+
+   $$6.54545\,\mathrm W$$
+
+**Answer:** $6.54545\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$-6.54545\,\mathrm W$** — Current enters the smaller source’s positive terminal, so it absorbs power.
+- **$19.6364\,\mathrm W$** — This gives the larger source’s delivered power.
+- **$3.27273\,\mathrm W$** — The common current depends on both emfs.
+
+<h4 id="solution-m7h50">Situation 50: A loop with opposing sources · model check</h4>
+
+One series loop has two ideal emfs 18 V and 6 V oriented in opposition. Its resistors are 4 Ω, 6 Ω, and an additional combined internal resistance of 1.0 Ω. Choose positive loop current in the direction driven by the larger emf. The smaller source is entered at its positive terminal for that current. What indicates that the smaller source absorbs electrical power?
+
+1. **Identify what stays fixed.** Add all series resistances and subtract the opposing emfs. Distinguish power in a resistor from power absorbed by an ideal source.
+
+2. **Write a signed loop equation.**
+
+   $$18-6-I(4+6+1)=0$$
+
+3. **Solve the common loop current.**
+
+   $$I=\frac{18-6}{4+6+1}=1.09091\,\mathrm A$$
+
+4. **Apply the conclusion.** Under this reference, absorbed power is its positive emf times the entering current.
+
+**Answer:** The loop current enters its positive terminal.
+
+**Why the other answers do not work:**
+
+- **Every ideal source must deliver power.** — An ideal source can either supply or absorb electrical energy.
+- **Its emf is smaller than a resistor voltage in every circuit.** — Power direction depends on current relative to source polarity.
+- **A negative resistance develops in the smaller source.** — No negative resistance is needed to describe source power absorption.
+
+<h4 id="solution-m7h51">Situation 51: Maximum power from a resistive source · Find the load resistance for maximum delivered load power</h4>
+
+A battery has fixed emf 12 V and fixed internal resistance 2 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Find the load resistance for maximum delivered load power.
+
+1. **Identify the model and the conditions.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Solve the requested quantity.**
+
+   $$R_{\rm opt}=r=2\,\Omega$$
+
+6. **Check the physical result.** The stationary point is a maximum because power falls to zero at both resistance limits.
+
+7. **State the result.**
+
+   $$2\,\Omega$$
+
+**Answer:** $2\,\Omega$
+
+**Why the other answers do not work:**
+
+- **$0\,\Omega$** — A short circuit has zero load voltage and zero load power.
+- **$4\,\Omega$** — The derivative vanishes at $R=r$, not 2r.
+- **$1\,\Omega$** — This gives a smaller load than the maximum-power condition.
+
+<h4 id="solution-m7h52">Situation 52: Maximum power from a resistive source · Find the maximum delivered load power</h4>
+
+A battery has fixed emf 12 V and fixed internal resistance 2 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Find the maximum delivered load power.
+
+1. **Identify the model and the conditions.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Solve the requested quantity.**
+
+   $$P_{L,\max}=\mathcal E^2/(4r)=12^2/(4(2))$$
+
+6. **Check the physical result.** At the optimum, equal internal and load resistances dissipate equal powers.
+
+7. **State the result.**
+
+   $$18\,\mathrm W$$
+
+**Answer:** $18\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$72\,\mathrm W$** — This uses the short-circuit current while also assigning full emf to the load.
+- **$36\,\mathrm W$** — This is total source power at the maximum-load-power point.
+- **$9\,\mathrm W$** — This adds an extra factor of two not present in the power relation.
+
+<h4 id="solution-m7h53">Situation 53: Maximum power from a resistive source · Find the current at the maximum-load-power point</h4>
+
+A battery has fixed emf 12 V and fixed internal resistance 2 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Find the current at the maximum-load-power point.
+
+1. **Identify the model and the conditions.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Solve the requested quantity.**
+
+   $$I_{\rm opt}=\mathcal E/(2r)=12/(2(2))$$
+
+6. **Check the physical result.** The optimum current is half the idealized short-circuit current.
+
+7. **State the result.**
+
+   $$3\,\mathrm A$$
+
+**Answer:** $3\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$6\,\mathrm A$** — This is short-circuit current.
+- **$1.5\,\mathrm A$** — The total resistance at the optimum is 2r, not 4r.
+- **$0\,\mathrm A$** — An open circuit delivers no load power.
+
+<h4 id="solution-m7h54">Situation 54: Maximum power from a resistive source · Find the loaded terminal voltage at maximum load power</h4>
+
+A battery has fixed emf 12 V and fixed internal resistance 2 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Find the loaded terminal voltage at maximum load power.
+
+1. **Identify the model and the conditions.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Solve the requested quantity.**
+
+   $$V_t=\mathcal E-Ir=\mathcal E/2=6\,\mathrm V$$
+
+6. **Check the physical result.** Maximum delivered load power does not mean maximum electrical efficiency.
+
+7. **State the result.**
+
+   $$6\,\mathrm V$$
+
+**Answer:** $6\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$12\,\mathrm V$** — Half the emf is lost across the internal resistance at this operating point.
+- **$0\,\mathrm V$** — This describes a short circuit, not the maximum-power load.
+- **$3\,\mathrm V$** — The load and internal voltage drops are equal, not in a one-to-three ratio.
+
+<h4 id="solution-m7h55">Situation 55: Maximum power from a resistive source · model check</h4>
+
+A battery has fixed emf 12 V and fixed internal resistance 2 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Why is maximum load power different from maximum efficiency in this source model?
+
+1. **Identify what stays fixed.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Apply the conclusion.** Efficiency approaches one only at very small current, where delivered load power approaches zero.
+
+**Answer:** At maximum load power, half the source power heats the internal resistance.
+
+**Why the other answers do not work:**
+
+- **Internal resistance dissipates no power at the optimum.** — Its current equals the load current and its resistance equals the optimum load resistance.
+- **An open circuit delivers the largest load power.** — Its current is zero, so delivered power is zero.
+- **A short circuit delivers the largest load voltage.** — Its external load voltage is zero in this model.
+
+<h4 id="solution-m7h56">Situation 56: Maximum power from a resistive source · Find the load resistance for maximum delivered load power</h4>
+
+A battery has fixed emf 18 V and fixed internal resistance 3 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Find the load resistance for maximum delivered load power.
+
+1. **Identify the model and the conditions.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Solve the requested quantity.**
+
+   $$R_{\rm opt}=r=3\,\Omega$$
+
+6. **Check the physical result.** The stationary point is a maximum because power falls to zero at both resistance limits.
+
+7. **State the result.**
+
+   $$3\,\Omega$$
+
+**Answer:** $3\,\Omega$
+
+**Why the other answers do not work:**
+
+- **$0\,\Omega$** — A short circuit has zero load voltage and zero load power.
+- **$6\,\Omega$** — The derivative vanishes at $R=r$, not 2r.
+- **$1.5\,\Omega$** — This gives a smaller load than the maximum-power condition.
+
+<h4 id="solution-m7h57">Situation 57: Maximum power from a resistive source · Find the maximum delivered load power</h4>
+
+A battery has fixed emf 18 V and fixed internal resistance 3 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Find the maximum delivered load power.
+
+1. **Identify the model and the conditions.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Solve the requested quantity.**
+
+   $$P_{L,\max}=\mathcal E^2/(4r)=18^2/(4(3))$$
+
+6. **Check the physical result.** At the optimum, equal internal and load resistances dissipate equal powers.
+
+7. **State the result.**
+
+   $$27\,\mathrm W$$
+
+**Answer:** $27\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$108\,\mathrm W$** — This uses the short-circuit current while also assigning full emf to the load.
+- **$54\,\mathrm W$** — This is total source power at the maximum-load-power point.
+- **$13.5\,\mathrm W$** — This adds an extra factor of two not present in the power relation.
+
+<h4 id="solution-m7h58">Situation 58: Maximum power from a resistive source · Find the current at the maximum-load-power point</h4>
+
+A battery has fixed emf 18 V and fixed internal resistance 3 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Find the current at the maximum-load-power point.
+
+1. **Identify the model and the conditions.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Solve the requested quantity.**
+
+   $$I_{\rm opt}=\mathcal E/(2r)=18/(2(3))$$
+
+6. **Check the physical result.** The optimum current is half the idealized short-circuit current.
+
+7. **State the result.**
+
+   $$3\,\mathrm A$$
+
+**Answer:** $3\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$6\,\mathrm A$** — This is short-circuit current.
+- **$1.5\,\mathrm A$** — The total resistance at the optimum is 2r, not 4r.
+- **$0\,\mathrm A$** — An open circuit delivers no load power.
+
+<h4 id="solution-m7h59">Situation 59: Maximum power from a resistive source · Find the loaded terminal voltage at maximum load power</h4>
+
+A battery has fixed emf 18 V and fixed internal resistance 3 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Find the loaded terminal voltage at maximum load power.
+
+1. **Identify the model and the conditions.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Solve the requested quantity.**
+
+   $$V_t=\mathcal E-Ir=\mathcal E/2=9\,\mathrm V$$
+
+6. **Check the physical result.** Maximum delivered load power does not mean maximum electrical efficiency.
+
+7. **State the result.**
+
+   $$9\,\mathrm V$$
+
+**Answer:** $9\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$18\,\mathrm V$** — Half the emf is lost across the internal resistance at this operating point.
+- **$0\,\mathrm V$** — This describes a short circuit, not the maximum-power load.
+- **$4.5\,\mathrm V$** — The load and internal voltage drops are equal, not in a one-to-three ratio.
+
+<h4 id="solution-m7h60">Situation 60: Maximum power from a resistive source · model check</h4>
+
+A battery has fixed emf 18 V and fixed internal resistance 3 Ω. A variable positive load resistance R connects to it. Assume steady DC behavior. Find the operating point that maximizes power delivered to the load, rather than total source power or efficiency. Why is maximum load power different from maximum efficiency in this source model?
+
+1. **Identify what stays fixed.** Load power depends on both load resistance and the current it allows. Differentiate the full expression rather than treating current as fixed.
+
+2. **Write load power as a function of the adjustable load.**
+
+   $$P_L(R)=\left(\frac{\mathcal E}{R+r}\right)^2R$$
+
+3. **Differentiate and use the positive-resistance domain.**
+
+   $$\frac{dP_L}{dR}=\frac{\mathcal E^2(r-R)}{(R+r)^3}=0\ \Rightarrow\ R=r$$
+
+4. **Check the two limiting cases.**
+
+   $$P_L\to0\text{ as }R\to0\text{ or }R\to\infty$$
+
+5. **Apply the conclusion.** Efficiency approaches one only at very small current, where delivered load power approaches zero.
+
+**Answer:** At maximum load power, half the source power heats the internal resistance.
+
+**Why the other answers do not work:**
+
+- **Internal resistance dissipates no power at the optimum.** — Its current equals the load current and its resistance equals the optimum load resistance.
+- **An open circuit delivers the largest load power.** — Its current is zero, so delivered power is zero.
+- **A short circuit delivers the largest load voltage.** — Its external load voltage is zero in this model.
+

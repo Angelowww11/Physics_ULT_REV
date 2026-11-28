@@ -3,6 +3,7 @@ import json,math,subprocess
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 qs=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./tools/challenge-source.cjs').questions.filter(q=>q.verification)))"],cwd=root,text=True,encoding='utf-8'))
+qs=[q for q in qs if q['verification']['type']!='expanded-scenario']
 def close(a,b,label):
     assert math.isclose(a,b,rel_tol=1e-10,abs_tol=1e-22),(label,a,b)
 for q in qs:

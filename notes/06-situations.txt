@@ -286,3 +286,1723 @@ Isolated capacitors 2.0 μF at 10 V and 3.0 μF at 4 V are connected in parallel
 - **$8\,\mathrm V$** — Conserve the joined-node charge rather than selecting an arbitrary intermediate voltage.
 - **$14\,\mathrm V$** — Parallel connection does not add the original voltages.
 
+<h4 id="solution-m6h11">Situation 11: A series capacitor feeds a parallel pair · Find the equivalent capacitance</h4>
+
+An initially uncharged capacitor $C_1=3\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=4\times10^{-6}\,\mathrm F$. An ideal 12 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Find the equivalent capacitance.
+
+1. **Identify the model and the conditions.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=6\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=2.4\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=4\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$C_{\rm eq}=\frac{3\times10^{-6}(6\times10^{-6})}{9\times10^{-6}}$$
+
+6. **Check the physical result.** The total series capacitance is below either of its two branch capacitances.
+
+7. **State the result.**
+
+   $$2\times10^{-6}\,\mathrm F$$
+
+**Answer:** $2\times10^{-6}\,\mathrm F$
+
+**Why the other answers do not work:**
+
+- **$9\times10^{-6}\,\mathrm F$** — This treats the whole network as parallel.
+- **$9.23077\times10^{-7}\,\mathrm F$** — This treats the parallel pair as series.
+- **$6\times10^{-6}\,\mathrm F$** — This omits the series capacitor.
+
+<h4 id="solution-m6h12">Situation 12: A series capacitor feeds a parallel pair · Find the magnitude of charge on C1</h4>
+
+An initially uncharged capacitor $C_1=3\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=4\times10^{-6}\,\mathrm F$. An ideal 12 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Find the magnitude of charge on C1.
+
+1. **Identify the model and the conditions.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=6\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=2.4\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=4\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_1=C_{\rm eq}V=2\times10^{-6}(12)$$
+
+6. **Check the physical result.** Equal series charge applies to C1 and the whole parallel branch, not separately to C2 and C3.
+
+7. **State the result.**
+
+   $$2.4\times10^{-5}\,\mathrm C$$
+
+**Answer:** $2.4\times10^{-5}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$3.6\times10^{-5}\,\mathrm C$** — C1 does not receive the full source voltage.
+- **$7.2\times10^{-5}\,\mathrm C$** — The parallel pair does not receive the full source voltage.
+- **$1.2\times10^{-5}\,\mathrm C$** — Series branch charge magnitudes are equal; source voltage is not split by halving the charge.
+
+<h4 id="solution-m6h13">Situation 13: A series capacitor feeds a parallel pair · Find the voltage across C3</h4>
+
+An initially uncharged capacitor $C_1=3\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=4\times10^{-6}\,\mathrm F$. An ideal 12 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Find the voltage across C3.
+
+1. **Identify the model and the conditions.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=6\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=2.4\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=4\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$V_3=V_p=Q_1/(C_2+C_3)=4\,\mathrm V$$
+
+6. **Check the physical result.** C2 and C3 share the same parallel voltage.
+
+7. **State the result.**
+
+   $$4\,\mathrm V$$
+
+**Answer:** $4\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$12\,\mathrm V$** — The series capacitor takes part of the total voltage.
+- **$8\,\mathrm V$** — This gives the voltage across C1.
+- **$6\,\mathrm V$** — The whole branch charge is shared by C2 and C3.
+
+<h4 id="solution-m6h14">Situation 14: A series capacitor feeds a parallel pair · Find the energy stored in C3 alone</h4>
+
+An initially uncharged capacitor $C_1=3\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=4\times10^{-6}\,\mathrm F$. An ideal 12 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Find the energy stored in C3 alone.
+
+1. **Identify the model and the conditions.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=6\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=2.4\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=4\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$U_3=\tfrac12C_3V_p^2=\tfrac12(4\times10^{-6})(4)^2$$
+
+6. **Check the physical result.** Use C3’s own capacitance and its actual branch voltage.
+
+7. **State the result.**
+
+   $$3.2\times10^{-5}\,\mathrm J$$
+
+**Answer:** $3.2\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$2.88\times10^{-4}\,\mathrm J$** — This puts the full source voltage across C3.
+- **$4.8\times10^{-5}\,\mathrm J$** — This includes energy in C2 too.
+- **$6.4\times10^{-5}\,\mathrm J$** — This omits the one-half in capacitor energy.
+
+<h4 id="solution-m6h15">Situation 15: A series capacitor feeds a parallel pair · model check</h4>
+
+An initially uncharged capacitor $C_1=3\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=4\times10^{-6}\,\mathrm F$. An ideal 12 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Which equality applies to the two capacitors in the parallel pair?
+
+1. **Identify what stays fixed.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=6\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=2.4\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=4\,\mathrm V$$
+
+5. **Apply the conclusion.** Each connects between the same two nodes.
+
+**Answer:** Their voltages are equal; their charges need not be equal.
+
+**Why the other answers do not work:**
+
+- **Their charges must equal the full C1 charge separately.** — Their charges sum to the charge magnitude of the parallel branch.
+- **Their voltage drops add to the branch voltage.** — Voltage drops add along a series path, not across parallel elements.
+- **Their capacitances become equal after charging.** — Capacitance is set by geometry and material.
+
+<h4 id="solution-m6h16">Situation 16: A series capacitor feeds a parallel pair · Find the equivalent capacitance</h4>
+
+An initially uncharged capacitor $C_1=4\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=6\times10^{-6}\,\mathrm F$. An ideal 18 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Find the equivalent capacitance.
+
+1. **Identify the model and the conditions.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=8\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2.66667\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=4.8\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=6\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$C_{\rm eq}=\frac{4\times10^{-6}(8\times10^{-6})}{1.2\times10^{-5}}$$
+
+6. **Check the physical result.** The total series capacitance is below either of its two branch capacitances.
+
+7. **State the result.**
+
+   $$2.66667\times10^{-6}\,\mathrm F$$
+
+**Answer:** $2.66667\times10^{-6}\,\mathrm F$
+
+**Why the other answers do not work:**
+
+- **$1.2\times10^{-5}\,\mathrm F$** — This treats the whole network as parallel.
+- **$1.09091\times10^{-6}\,\mathrm F$** — This treats the parallel pair as series.
+- **$8\times10^{-6}\,\mathrm F$** — This omits the series capacitor.
+
+<h4 id="solution-m6h17">Situation 17: A series capacitor feeds a parallel pair · Find the magnitude of charge on C1</h4>
+
+An initially uncharged capacitor $C_1=4\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=6\times10^{-6}\,\mathrm F$. An ideal 18 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Find the magnitude of charge on C1.
+
+1. **Identify the model and the conditions.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=8\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2.66667\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=4.8\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=6\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_1=C_{\rm eq}V=2.66667\times10^{-6}(18)$$
+
+6. **Check the physical result.** Equal series charge applies to C1 and the whole parallel branch, not separately to C2 and C3.
+
+7. **State the result.**
+
+   $$4.8\times10^{-5}\,\mathrm C$$
+
+**Answer:** $4.8\times10^{-5}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$7.2\times10^{-5}\,\mathrm C$** — C1 does not receive the full source voltage.
+- **$1.44\times10^{-4}\,\mathrm C$** — The parallel pair does not receive the full source voltage.
+- **$2.4\times10^{-5}\,\mathrm C$** — Series branch charge magnitudes are equal; source voltage is not split by halving the charge.
+
+<h4 id="solution-m6h18">Situation 18: A series capacitor feeds a parallel pair · Find the voltage across C3</h4>
+
+An initially uncharged capacitor $C_1=4\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=6\times10^{-6}\,\mathrm F$. An ideal 18 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Find the voltage across C3.
+
+1. **Identify the model and the conditions.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=8\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2.66667\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=4.8\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=6\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$V_3=V_p=Q_1/(C_2+C_3)=6\,\mathrm V$$
+
+6. **Check the physical result.** C2 and C3 share the same parallel voltage.
+
+7. **State the result.**
+
+   $$6\,\mathrm V$$
+
+**Answer:** $6\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$18\,\mathrm V$** — The series capacitor takes part of the total voltage.
+- **$12\,\mathrm V$** — This gives the voltage across C1.
+- **$8\,\mathrm V$** — The whole branch charge is shared by C2 and C3.
+
+<h4 id="solution-m6h19">Situation 19: A series capacitor feeds a parallel pair · Find the energy stored in C3 alone</h4>
+
+An initially uncharged capacitor $C_1=4\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=6\times10^{-6}\,\mathrm F$. An ideal 18 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Find the energy stored in C3 alone.
+
+1. **Identify the model and the conditions.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=8\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2.66667\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=4.8\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=6\,\mathrm V$$
+
+5. **Solve the requested quantity.**
+
+   $$U_3=\tfrac12C_3V_p^2=\tfrac12(6\times10^{-6})(6)^2$$
+
+6. **Check the physical result.** Use C3’s own capacitance and its actual branch voltage.
+
+7. **State the result.**
+
+   $$1.08\times10^{-4}\,\mathrm J$$
+
+**Answer:** $1.08\times10^{-4}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$9.72\times10^{-4}\,\mathrm J$** — This puts the full source voltage across C3.
+- **$1.44\times10^{-4}\,\mathrm J$** — This includes energy in C2 too.
+- **$2.16\times10^{-4}\,\mathrm J$** — This omits the one-half in capacitor energy.
+
+<h4 id="solution-m6h20">Situation 20: A series capacitor feeds a parallel pair · model check</h4>
+
+An initially uncharged capacitor $C_1=4\times10^{-6}\,\mathrm F$ connects in series with a parallel pair $C_2=2.0\,\mu\mathrm F$ and $C_3=6\times10^{-6}\,\mathrm F$. An ideal 18 V source connects across the complete network. The internal connecting node starts neutral. Use the final steady electrostatic state. Which equality applies to the two capacitors in the parallel pair?
+
+1. **Identify what stays fixed.** Combine the parallel pair first. The series branch charges have equal magnitudes; the parallel capacitors share voltage.
+
+2. **Reduce the parallel pair.**
+
+   $$C_p=C_2+C_3=8\times10^{-6}\,\mathrm F$$
+
+3. **Reduce the remaining series pair.**
+
+   $$C_{\rm eq}=C_1C_p/(C_1+C_p)=2.66667\times10^{-6}\,\mathrm F$$
+
+4. **Recover branch charge and voltage.**
+
+   $$Q_1=C_{\rm eq}V=4.8\times10^{-5}\,\mathrm C,\quad V_p=Q_1/C_p=6\,\mathrm V$$
+
+5. **Apply the conclusion.** Each connects between the same two nodes.
+
+**Answer:** Their voltages are equal; their charges need not be equal.
+
+**Why the other answers do not work:**
+
+- **Their charges must equal the full C1 charge separately.** — Their charges sum to the charge magnitude of the parallel branch.
+- **Their voltage drops add to the branch voltage.** — Voltage drops add along a series path, not across parallel elements.
+- **Their capacitances become equal after charging.** — Capacitance is set by geometry and material.
+
+<h4 id="solution-m6h21">Situation 21: A dielectric covers only part of the area · Find the final capacitance</h4>
+
+A parallel-plate capacitor has area 0.03 m² and gap 0.001 m. A dielectric of relative permittivity 3 completely fills the gap over fraction 0.4 of the plate area. The remaining area contains vacuum. An ideal 100 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the final capacitance.
+
+1. **Identify the model and the conditions.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.655\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=4.779\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Solve the requested quantity.**
+
+   $$C=2.655\times10^{-10}[(1-0.4)+3(0.4)]$$
+
+6. **Check the physical result.** Parallel area regions contribute capacitance additively.
+
+7. **State the result.**
+
+   $$4.779\times10^{-10}\,\mathrm F$$
+
+**Answer:** $4.779\times10^{-10}\,\mathrm F$
+
+**Why the other answers do not work:**
+
+- **$7.965\times10^{-10}\,\mathrm F$** — This assumes dielectric covers the entire area.
+- **$2.655\times10^{-10}\,\mathrm F$** — This ignores the dielectric.
+- **$3.62045\times10^{-10}\,\mathrm F$** — This incorrectly models side-by-side regions as stacked series layers.
+
+<h4 id="solution-m6h22">Situation 22: A dielectric covers only part of the area · Find the final charge magnitude</h4>
+
+A parallel-plate capacitor has area 0.03 m² and gap 0.001 m. A dielectric of relative permittivity 3 completely fills the gap over fraction 0.4 of the plate area. The remaining area contains vacuum. An ideal 100 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the final charge magnitude.
+
+1. **Identify the model and the conditions.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.655\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=4.779\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Solve the requested quantity.**
+
+   $$Q=CV=4.779\times10^{-10}(100)$$
+
+6. **Check the physical result.** The source supplies additional charge while maintaining the voltage.
+
+7. **State the result.**
+
+   $$4.779\times10^{-8}\,\mathrm C$$
+
+**Answer:** $4.779\times10^{-8}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$2.655\times10^{-8}\,\mathrm C$** — This keeps the old charge despite the connected source.
+- **$7.965\times10^{-8}\,\mathrm C$** — This assumes complete area coverage.
+- **$1.593\times10^{-8}\,\mathrm C$** — Connected-source charge increases rather than decreases as capacitance increases.
+
+<h4 id="solution-m6h23">Situation 23: A dielectric covers only part of the area · Find the final stored field energy</h4>
+
+A parallel-plate capacitor has area 0.03 m² and gap 0.001 m. A dielectric of relative permittivity 3 completely fills the gap over fraction 0.4 of the plate area. The remaining area contains vacuum. An ideal 100 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the final stored field energy.
+
+1. **Identify the model and the conditions.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.655\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=4.779\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Solve the requested quantity.**
+
+   $$U=\tfrac12CV^2=\tfrac12(4.779\times10^{-10})(100)^2$$
+
+6. **Check the physical result.** At fixed voltage, field energy increases with capacitance; the battery exchanges energy too.
+
+7. **State the result.**
+
+   $$2.3895\times10^{-6}\,\mathrm J$$
+
+**Answer:** $2.3895\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.3275\times10^{-6}\,\mathrm J$** — This uses the original vacuum capacitance.
+- **$4.779\times10^{-6}\,\mathrm J$** — This omits the energy one-half.
+- **$7.375\times10^{-7}\,\mathrm J$** — This incorrectly holds the initial charge fixed.
+
+<h4 id="solution-m6h24">Situation 24: A dielectric covers only part of the area · Find the additional charge supplied by the source</h4>
+
+A parallel-plate capacitor has area 0.03 m² and gap 0.001 m. A dielectric of relative permittivity 3 completely fills the gap over fraction 0.4 of the plate area. The remaining area contains vacuum. An ideal 100 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the additional charge supplied by the source.
+
+1. **Identify the model and the conditions.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.655\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=4.779\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Solve the requested quantity.**
+
+   $$\Delta Q=(C-C_0)V=(4.779\times10^{-10}-2.655\times10^{-10})(100)$$
+
+6. **Check the physical result.** The added source charge is the difference between the final and initial plate charges.
+
+7. **State the result.**
+
+   $$2.124\times10^{-8}\,\mathrm C$$
+
+**Answer:** $2.124\times10^{-8}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$4.779\times10^{-8}\,\mathrm C$** — This gives total final charge, not the increase.
+- **$2.655\times10^{-8}\,\mathrm C$** — This gives the original charge.
+- **$5.31\times10^{-8}\,\mathrm C$** — This assumes full area coverage.
+
+<h4 id="solution-m6h25">Situation 25: A dielectric covers only part of the area · model check</h4>
+
+A parallel-plate capacitor has area 0.03 m² and gap 0.001 m. A dielectric of relative permittivity 3 completely fills the gap over fraction 0.4 of the plate area. The remaining area contains vacuum. An ideal 100 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Why are these two regions parallel rather than series?
+
+1. **Identify what stays fixed.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.655\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=4.779\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Apply the conclusion.** A common pair of endpoint potentials defines parallel connection.
+
+**Answer:** Both regions connect the same two plates and have the same potential difference.
+
+**Why the other answers do not work:**
+
+- **Their dielectric constants are different.** — Different material alone does not determine a series or parallel geometry.
+- **The electric field crosses one region and then the other along the gap.** — Here the regions lie side by side across plate area, not consecutively through the gap.
+- **The battery fixes charge instead of voltage.** — An ideal connected battery fixes voltage.
+
+<h4 id="solution-m6h26">Situation 26: A dielectric covers only part of the area · Find the final capacitance</h4>
+
+A parallel-plate capacitor has area 0.04 m² and gap 0.0015 m. A dielectric of relative permittivity 4 completely fills the gap over fraction 0.6 of the plate area. The remaining area contains vacuum. An ideal 120 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the final capacitance.
+
+1. **Identify the model and the conditions.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.36\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=6.608\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Solve the requested quantity.**
+
+   $$C=2.36\times10^{-10}[(1-0.6)+4(0.6)]$$
+
+6. **Check the physical result.** Parallel area regions contribute capacitance additively.
+
+7. **State the result.**
+
+   $$6.608\times10^{-10}\,\mathrm F$$
+
+**Answer:** $6.608\times10^{-10}\,\mathrm F$
+
+**Why the other answers do not work:**
+
+- **$9.44\times10^{-10}\,\mathrm F$** — This assumes dielectric covers the entire area.
+- **$2.36\times10^{-10}\,\mathrm F$** — This ignores the dielectric.
+- **$4.29091\times10^{-10}\,\mathrm F$** — This incorrectly models side-by-side regions as stacked series layers.
+
+<h4 id="solution-m6h27">Situation 27: A dielectric covers only part of the area · Find the final charge magnitude</h4>
+
+A parallel-plate capacitor has area 0.04 m² and gap 0.0015 m. A dielectric of relative permittivity 4 completely fills the gap over fraction 0.6 of the plate area. The remaining area contains vacuum. An ideal 120 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the final charge magnitude.
+
+1. **Identify the model and the conditions.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.36\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=6.608\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Solve the requested quantity.**
+
+   $$Q=CV=6.608\times10^{-10}(120)$$
+
+6. **Check the physical result.** The source supplies additional charge while maintaining the voltage.
+
+7. **State the result.**
+
+   $$7.9296\times10^{-8}\,\mathrm C$$
+
+**Answer:** $7.9296\times10^{-8}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$2.832\times10^{-8}\,\mathrm C$** — This keeps the old charge despite the connected source.
+- **$1.1328\times10^{-7}\,\mathrm C$** — This assumes complete area coverage.
+- **$1.9824\times10^{-8}\,\mathrm C$** — Connected-source charge increases rather than decreases as capacitance increases.
+
+<h4 id="solution-m6h28">Situation 28: A dielectric covers only part of the area · Find the final stored field energy</h4>
+
+A parallel-plate capacitor has area 0.04 m² and gap 0.0015 m. A dielectric of relative permittivity 4 completely fills the gap over fraction 0.6 of the plate area. The remaining area contains vacuum. An ideal 120 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the final stored field energy.
+
+1. **Identify the model and the conditions.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.36\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=6.608\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Solve the requested quantity.**
+
+   $$U=\tfrac12CV^2=\tfrac12(6.608\times10^{-10})(120)^2$$
+
+6. **Check the physical result.** At fixed voltage, field energy increases with capacitance; the battery exchanges energy too.
+
+7. **State the result.**
+
+   $$4.75776\times10^{-6}\,\mathrm J$$
+
+**Answer:** $4.75776\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.6992\times10^{-6}\,\mathrm J$** — This uses the original vacuum capacitance.
+- **$9.51552\times10^{-6}\,\mathrm J$** — This omits the energy one-half.
+- **$6.06857\times10^{-7}\,\mathrm J$** — This incorrectly holds the initial charge fixed.
+
+<h4 id="solution-m6h29">Situation 29: A dielectric covers only part of the area · Find the additional charge supplied by the source</h4>
+
+A parallel-plate capacitor has area 0.04 m² and gap 0.0015 m. A dielectric of relative permittivity 4 completely fills the gap over fraction 0.6 of the plate area. The remaining area contains vacuum. An ideal 120 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the additional charge supplied by the source.
+
+1. **Identify the model and the conditions.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.36\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=6.608\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Solve the requested quantity.**
+
+   $$\Delta Q=(C-C_0)V=(6.608\times10^{-10}-2.36\times10^{-10})(120)$$
+
+6. **Check the physical result.** The added source charge is the difference between the final and initial plate charges.
+
+7. **State the result.**
+
+   $$5.0976\times10^{-8}\,\mathrm C$$
+
+**Answer:** $5.0976\times10^{-8}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$7.9296\times10^{-8}\,\mathrm C$** — This gives total final charge, not the increase.
+- **$2.832\times10^{-8}\,\mathrm C$** — This gives the original charge.
+- **$8.496\times10^{-8}\,\mathrm C$** — This assumes full area coverage.
+
+<h4 id="solution-m6h30">Situation 30: A dielectric covers only part of the area · model check</h4>
+
+A parallel-plate capacitor has area 0.04 m² and gap 0.0015 m. A dielectric of relative permittivity 4 completely fills the gap over fraction 0.6 of the plate area. The remaining area contains vacuum. An ideal 120 V source remains connected. Ignore fringing. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Why are these two regions parallel rather than series?
+
+1. **Identify what stays fixed.** The side-by-side regions have the same plate voltage, so they form parallel capacitances.
+
+2. **Calculate the vacuum reference capacitance.**
+
+   $$C_0=\varepsilon_0A/d=2.36\times10^{-10}\,\mathrm F$$
+
+3. **Add the two area regions in parallel.**
+
+   $$C=C_0[(1-f)+\kappa f]=6.608\times10^{-10}\,\mathrm F$$
+
+4. **Apply the connected-source constraint.**
+
+   $$V=\text{constant},\quad Q=CV,\quad U=\tfrac12CV^2$$
+
+5. **Apply the conclusion.** A common pair of endpoint potentials defines parallel connection.
+
+**Answer:** Both regions connect the same two plates and have the same potential difference.
+
+**Why the other answers do not work:**
+
+- **Their dielectric constants are different.** — Different material alone does not determine a series or parallel geometry.
+- **The electric field crosses one region and then the other along the gap.** — Here the regions lie side by side across plate area, not consecutively through the gap.
+- **The battery fixes charge instead of voltage.** — An ideal connected battery fixes voltage.
+
+<h4 id="solution-m6h31">Situation 31: An isolated capacitor changes geometry · Find the final capacitance</h4>
+
+A vacuum capacitor initially has capacitance $C_i=2\times10^{-9}\,\mathrm F$ and voltage 120 V. It is disconnected. Its plate area becomes 1.25 times the original, its gap becomes 2 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Find the final capacitance.
+
+1. **Identify the model and the conditions.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.25}{2}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.4\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Solve the requested quantity.**
+
+   $$C_f=C_i\kappa(1.25)/2=3.75\times10^{-9}\,\mathrm F$$
+
+6. **Check the physical result.** All three geometry/material factors act on capacitance before charge conservation is applied.
+
+7. **State the result.**
+
+   $$3.75\times10^{-9}\,\mathrm F$$
+
+**Answer:** $3.75\times10^{-9}\,\mathrm F$
+
+**Why the other answers do not work:**
+
+- **$6\times10^{-9}\,\mathrm F$** — This ignores both area and gap changes.
+- **$1.25\times10^{-9}\,\mathrm F$** — This omits the dielectric factor.
+- **$1.5\times10^{-8}\,\mathrm F$** — Capacitance decreases when gap increases.
+
+<h4 id="solution-m6h32">Situation 32: An isolated capacitor changes geometry · Find the final voltage</h4>
+
+A vacuum capacitor initially has capacitance $C_i=2\times10^{-9}\,\mathrm F$ and voltage 120 V. It is disconnected. Its plate area becomes 1.25 times the original, its gap becomes 2 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Find the final voltage.
+
+1. **Identify the model and the conditions.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.25}{2}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.4\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Solve the requested quantity.**
+
+   $$V_f=Q/C_f=2.4\times10^{-7}/3.75\times10^{-9}$$
+
+6. **Check the physical result.** Final voltage decreases because this parameter set increases capacitance at fixed charge.
+
+7. **State the result.**
+
+   $$64\,\mathrm V$$
+
+**Answer:** $64\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$120\,\mathrm V$** — The battery is disconnected, so it cannot keep voltage fixed.
+- **$225\,\mathrm V$** — At fixed charge, voltage is inversely proportional to capacitance.
+- **$40\,\mathrm V$** — This ignores the area and gap changes.
+
+<h4 id="solution-m6h33">Situation 33: An isolated capacitor changes geometry · Find the final stored energy</h4>
+
+A vacuum capacitor initially has capacitance $C_i=2\times10^{-9}\,\mathrm F$ and voltage 120 V. It is disconnected. Its plate area becomes 1.25 times the original, its gap becomes 2 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Find the final stored energy.
+
+1. **Identify the model and the conditions.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.25}{2}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.4\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Solve the requested quantity.**
+
+   $$U_f=Q^2/(2C_f)=7.68\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** At fixed charge, increasing capacitance reduces stored field energy.
+
+7. **State the result.**
+
+   $$7.68\times10^{-6}\,\mathrm J$$
+
+**Answer:** $7.68\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$2.7\times10^{-5}\,\mathrm J$** — This incorrectly keeps the original voltage fixed.
+- **$1.44\times10^{-5}\,\mathrm J$** — The field energy changes when capacitance changes at fixed charge.
+- **$1.536\times10^{-5}\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m6h34">Situation 34: An isolated capacitor changes geometry · Find the signed external work during the reversible isolated change</h4>
+
+A vacuum capacitor initially has capacitance $C_i=2\times10^{-9}\,\mathrm F$ and voltage 120 V. It is disconnected. Its plate area becomes 1.25 times the original, its gap becomes 2 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Find the signed external work during the reversible isolated change.
+
+1. **Identify the model and the conditions.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.25}{2}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.4\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Solve the requested quantity.**
+
+   $$W_{\rm ext}=U_f-U_i=7.68\times10^{-6}-1.44\times10^{-5}=-6.72\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** Negative external work means the field supplies net mechanical energy to the external agent.
+
+7. **State the result.**
+
+   $$-6.72\times10^{-6}\,\mathrm J$$
+
+**Answer:** $-6.72\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$6.72\times10^{-6}\,\mathrm J$** — This reverses external work and work delivered by the field.
+- **$7.68\times10^{-6}\,\mathrm J$** — This omits the initial field energy.
+- **$0\,\mathrm J$** — No battery exchange does not imply no mechanical energy exchange.
+
+<h4 id="solution-m6h35">Situation 35: An isolated capacitor changes geometry · model check</h4>
+
+A vacuum capacitor initially has capacitance $C_i=2\times10^{-9}\,\mathrm F$ and voltage 120 V. It is disconnected. Its plate area becomes 1.25 times the original, its gap becomes 2 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Which conserved quantity connects the initial and final electrical states?
+
+1. **Identify what stays fixed.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.25}{2}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.4\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Apply the conclusion.** There is no conducting path through which charge can enter or leave the isolated capacitor.
+
+**Answer:** The free plate charge.
+
+**Why the other answers do not work:**
+
+- **The original voltage.** — Voltage stays fixed only with a suitable connected voltage source.
+- **The stored electric-field energy.** — Reversible mechanical work changes the field energy.
+- **The original capacitance.** — Capacitance changes with geometry and dielectric.
+
+<h4 id="solution-m6h36">Situation 36: An isolated capacitor changes geometry · Find the final capacitance</h4>
+
+A vacuum capacitor initially has capacitance $C_i=3\times10^{-9}\,\mathrm F$ and voltage 90 V. It is disconnected. Its plate area becomes 1.5 times the original, its gap becomes 2.5 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Find the final capacitance.
+
+1. **Identify the model and the conditions.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.5}{2.5}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.7\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Solve the requested quantity.**
+
+   $$C_f=C_i\kappa(1.5)/2.5=5.4\times10^{-9}\,\mathrm F$$
+
+6. **Check the physical result.** All three geometry/material factors act on capacitance before charge conservation is applied.
+
+7. **State the result.**
+
+   $$5.4\times10^{-9}\,\mathrm F$$
+
+**Answer:** $5.4\times10^{-9}\,\mathrm F$
+
+**Why the other answers do not work:**
+
+- **$9\times10^{-9}\,\mathrm F$** — This ignores both area and gap changes.
+- **$1.8\times10^{-9}\,\mathrm F$** — This omits the dielectric factor.
+- **$3.375\times10^{-8}\,\mathrm F$** — Capacitance decreases when gap increases.
+
+<h4 id="solution-m6h37">Situation 37: An isolated capacitor changes geometry · Find the final voltage</h4>
+
+A vacuum capacitor initially has capacitance $C_i=3\times10^{-9}\,\mathrm F$ and voltage 90 V. It is disconnected. Its plate area becomes 1.5 times the original, its gap becomes 2.5 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Find the final voltage.
+
+1. **Identify the model and the conditions.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.5}{2.5}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.7\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Solve the requested quantity.**
+
+   $$V_f=Q/C_f=2.7\times10^{-7}/5.4\times10^{-9}$$
+
+6. **Check the physical result.** Final voltage decreases because this parameter set increases capacitance at fixed charge.
+
+7. **State the result.**
+
+   $$50\,\mathrm V$$
+
+**Answer:** $50\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$90\,\mathrm V$** — The battery is disconnected, so it cannot keep voltage fixed.
+- **$162\,\mathrm V$** — At fixed charge, voltage is inversely proportional to capacitance.
+- **$30\,\mathrm V$** — This ignores the area and gap changes.
+
+<h4 id="solution-m6h38">Situation 38: An isolated capacitor changes geometry · Find the final stored energy</h4>
+
+A vacuum capacitor initially has capacitance $C_i=3\times10^{-9}\,\mathrm F$ and voltage 90 V. It is disconnected. Its plate area becomes 1.5 times the original, its gap becomes 2.5 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Find the final stored energy.
+
+1. **Identify the model and the conditions.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.5}{2.5}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.7\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Solve the requested quantity.**
+
+   $$U_f=Q^2/(2C_f)=6.75\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** At fixed charge, increasing capacitance reduces stored field energy.
+
+7. **State the result.**
+
+   $$6.75\times10^{-6}\,\mathrm J$$
+
+**Answer:** $6.75\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$2.187\times10^{-5}\,\mathrm J$** — This incorrectly keeps the original voltage fixed.
+- **$1.215\times10^{-5}\,\mathrm J$** — The field energy changes when capacitance changes at fixed charge.
+- **$1.35\times10^{-5}\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m6h39">Situation 39: An isolated capacitor changes geometry · Find the signed external work during the reversible isolated change</h4>
+
+A vacuum capacitor initially has capacitance $C_i=3\times10^{-9}\,\mathrm F$ and voltage 90 V. It is disconnected. Its plate area becomes 1.5 times the original, its gap becomes 2.5 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Find the signed external work during the reversible isolated change.
+
+1. **Identify the model and the conditions.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.5}{2.5}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.7\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Solve the requested quantity.**
+
+   $$W_{\rm ext}=U_f-U_i=6.75\times10^{-6}-1.215\times10^{-5}=-5.4\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** Negative external work means the field supplies net mechanical energy to the external agent.
+
+7. **State the result.**
+
+   $$-5.4\times10^{-6}\,\mathrm J$$
+
+**Answer:** $-5.4\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$5.4\times10^{-6}\,\mathrm J$** — This reverses external work and work delivered by the field.
+- **$6.75\times10^{-6}\,\mathrm J$** — This omits the initial field energy.
+- **$0\,\mathrm J$** — No battery exchange does not imply no mechanical energy exchange.
+
+<h4 id="solution-m6h40">Situation 40: An isolated capacitor changes geometry · model check</h4>
+
+A vacuum capacitor initially has capacitance $C_i=3\times10^{-9}\,\mathrm F$ and voltage 90 V. It is disconnected. Its plate area becomes 1.5 times the original, its gap becomes 2.5 times the original, and an ideal dielectric of relative permittivity 3 fills the new gap. Assume a quasistatic reversible change without leakage or dissipation. Which conserved quantity connects the initial and final electrical states?
+
+1. **Identify what stays fixed.** Isolation fixes charge, not voltage. Geometry and dielectric together determine the capacitance ratio.
+
+2. **Calculate the new capacitance ratio.**
+
+   $$\frac{C_f}{C_i}=\kappa\frac{A_f/A_i}{d_f/d_i}=3\frac{1.5}{2.5}$$
+
+3. **Conserve the initial plate charge.**
+
+   $$Q=C_iV_i=2.7\times10^{-7}\,\mathrm C$$
+
+4. **Use charge-constrained voltage and energy.**
+
+   $$V_f=Q/C_f,\quad U_f=Q^2/(2C_f),\quad W_{\rm ext}=U_f-U_i$$
+
+5. **Apply the conclusion.** There is no conducting path through which charge can enter or leave the isolated capacitor.
+
+**Answer:** The free plate charge.
+
+**Why the other answers do not work:**
+
+- **The original voltage.** — Voltage stays fixed only with a suitable connected voltage source.
+- **The stored electric-field energy.** — Reversible mechanical work changes the field energy.
+- **The original capacitance.** — Capacitance changes with geometry and dielectric.
+
+<h4 id="solution-m6h41">Situation 41: Connect oppositely charged capacitors · Find the signed final common voltage</h4>
+
+Two isolated capacitors have $C_1=3\times10^{-6}\,\mathrm F$ at 10 V and $C_2=2.0\,\mu\mathrm F$ at 4 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Find the signed final common voltage.
+
+1. **Identify the model and the conditions.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=2.2\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=4.4\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=1.66\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=4.84\times10^{-5}\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$V_f=\frac{C_1V_1-C_2V_2}{C_1+C_2}=4.4\,\mathrm V$$
+
+6. **Check the physical result.** The positive result means C1’s initial reference-node charge dominates.
+
+7. **State the result.**
+
+   $$4.4\,\mathrm V$$
+
+**Answer:** $4.4\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$7.6\,\mathrm V$** — This joins like polarities instead of the stated opposite polarities.
+- **$3\,\mathrm V$** — Voltage averaging needs equal capacitances; signed charge is the general rule.
+- **$6\,\mathrm V$** — Parallel settling does not retain the original voltage difference unchanged.
+
+<h4 id="solution-m6h42">Situation 42: Connect oppositely charged capacitors · Find the final charge on C1’s reference-node plate</h4>
+
+Two isolated capacitors have $C_1=3\times10^{-6}\,\mathrm F$ at 10 V and $C_2=2.0\,\mu\mathrm F$ at 4 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Find the final charge on C1’s reference-node plate.
+
+1. **Identify the model and the conditions.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=2.2\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=4.4\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=1.66\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=4.84\times10^{-5}\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_{1f}=C_1V_f=1.32\times10^{-5}\,\mathrm C$$
+
+6. **Check the physical result.** The two final plate charges sum to the conserved joined-node charge.
+
+7. **State the result.**
+
+   $$1.32\times10^{-5}\,\mathrm C$$
+
+**Answer:** $1.32\times10^{-5}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$3\times10^{-5}\,\mathrm C$** — C1 exchanges charge with the other capacitor.
+- **$2.2\times10^{-5}\,\mathrm C$** — The reference-node charge is shared between both capacitors.
+- **$8.8\times10^{-6}\,\mathrm C$** — This gives the other capacitor’s plate charge.
+
+<h4 id="solution-m6h43">Situation 43: Connect oppositely charged capacitors · Find the final total stored energy</h4>
+
+Two isolated capacitors have $C_1=3\times10^{-6}\,\mathrm F$ at 10 V and $C_2=2.0\,\mu\mathrm F$ at 4 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Find the final total stored energy.
+
+1. **Identify the model and the conditions.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=2.2\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=4.4\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=1.66\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=4.84\times10^{-5}\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$U_f=\tfrac12(C_1+C_2)V_f^2=4.84\times10^{-5}\,\mathrm J$$
+
+6. **Check the physical result.** The field energy is nonnegative despite the signed initial node charges.
+
+7. **State the result.**
+
+   $$4.84\times10^{-5}\,\mathrm J$$
+
+**Answer:** $4.84\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.66\times10^{-4}\,\mathrm J$** — Field energy is not conserved through the resistive transient.
+- **$2.904\times10^{-5}\,\mathrm J$** — This includes C1 only.
+- **$9.68\times10^{-5}\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m6h44">Situation 44: Connect oppositely charged capacitors · Find the energy dissipated during settling</h4>
+
+Two isolated capacitors have $C_1=3\times10^{-6}\,\mathrm F$ at 10 V and $C_2=2.0\,\mu\mathrm F$ at 4 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Find the energy dissipated during settling.
+
+1. **Identify the model and the conditions.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=2.2\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=4.4\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=1.66\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=4.84\times10^{-5}\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$E_{\rm heat}=U_i-U_f=1.66\times10^{-4}-4.84\times10^{-5}$$
+
+6. **Check the physical result.** The energy loss is positive and accounts for the decrease in electric-field energy.
+
+7. **State the result.**
+
+   $$1.176\times10^{-4}\,\mathrm J$$
+
+**Answer:** $1.176\times10^{-4}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$4.84\times10^{-5}\,\mathrm J$** — This is the remaining field energy, not the energy lost.
+- **$-1.176\times10^{-4}\,\mathrm J$** — A passive settling resistance does not supply energy.
+- **$2.144\times10^{-4}\,\mathrm J$** — Energy lost is an initial-minus-final difference.
+
+<h4 id="solution-m6h45">Situation 45: Connect oppositely charged capacitors · model check</h4>
+
+Two isolated capacitors have $C_1=3\times10^{-6}\,\mathrm F$ at 10 V and $C_2=2.0\,\mu\mathrm F$ at 4 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Why is it incorrect to conserve total capacitor field energy during this connection?
+
+1. **Identify what stays fixed.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=2.2\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=4.4\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=1.66\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=4.84\times10^{-5}\,\mathrm J$$
+
+5. **Apply the conclusion.** Charge conservation remains valid even when field energy becomes heat.
+
+**Answer:** The transient current dissipates energy in the settling resistance.
+
+**Why the other answers do not work:**
+
+- **Charge conservation fails during a transient.** — Charge still cannot disappear from an isolated joined node.
+- **One capacitor initially has negative stored energy.** — Stored capacitor energy depends on voltage squared and is nonnegative.
+- **The capacitors cease having capacitance during the connection.** — Their geometry and capacitance remain defined.
+
+<h4 id="solution-m6h46">Situation 46: Connect oppositely charged capacitors · Find the signed final common voltage</h4>
+
+Two isolated capacitors have $C_1=4\times10^{-6}\,\mathrm F$ at 12 V and $C_2=2.0\,\mu\mathrm F$ at 5 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Find the signed final common voltage.
+
+1. **Identify the model and the conditions.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=3.8\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=6.33333\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=3.13\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=1.20333\times10^{-4}\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$V_f=\frac{C_1V_1-C_2V_2}{C_1+C_2}=6.33333\,\mathrm V$$
+
+6. **Check the physical result.** The positive result means C1’s initial reference-node charge dominates.
+
+7. **State the result.**
+
+   $$6.33333\,\mathrm V$$
+
+**Answer:** $6.33333\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$9.66667\,\mathrm V$** — This joins like polarities instead of the stated opposite polarities.
+- **$3.5\,\mathrm V$** — Voltage averaging needs equal capacitances; signed charge is the general rule.
+- **$7\,\mathrm V$** — Parallel settling does not retain the original voltage difference unchanged.
+
+<h4 id="solution-m6h47">Situation 47: Connect oppositely charged capacitors · Find the final charge on C1’s reference-node plate</h4>
+
+Two isolated capacitors have $C_1=4\times10^{-6}\,\mathrm F$ at 12 V and $C_2=2.0\,\mu\mathrm F$ at 5 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Find the final charge on C1’s reference-node plate.
+
+1. **Identify the model and the conditions.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=3.8\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=6.33333\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=3.13\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=1.20333\times10^{-4}\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$Q_{1f}=C_1V_f=2.53333\times10^{-5}\,\mathrm C$$
+
+6. **Check the physical result.** The two final plate charges sum to the conserved joined-node charge.
+
+7. **State the result.**
+
+   $$2.53333\times10^{-5}\,\mathrm C$$
+
+**Answer:** $2.53333\times10^{-5}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$4.8\times10^{-5}\,\mathrm C$** — C1 exchanges charge with the other capacitor.
+- **$3.8\times10^{-5}\,\mathrm C$** — The reference-node charge is shared between both capacitors.
+- **$1.26667\times10^{-5}\,\mathrm C$** — This gives the other capacitor’s plate charge.
+
+<h4 id="solution-m6h48">Situation 48: Connect oppositely charged capacitors · Find the final total stored energy</h4>
+
+Two isolated capacitors have $C_1=4\times10^{-6}\,\mathrm F$ at 12 V and $C_2=2.0\,\mu\mathrm F$ at 5 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Find the final total stored energy.
+
+1. **Identify the model and the conditions.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=3.8\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=6.33333\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=3.13\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=1.20333\times10^{-4}\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$U_f=\tfrac12(C_1+C_2)V_f^2=1.20333\times10^{-4}\,\mathrm J$$
+
+6. **Check the physical result.** The field energy is nonnegative despite the signed initial node charges.
+
+7. **State the result.**
+
+   $$1.20333\times10^{-4}\,\mathrm J$$
+
+**Answer:** $1.20333\times10^{-4}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$3.13\times10^{-4}\,\mathrm J$** — Field energy is not conserved through the resistive transient.
+- **$8.02222\times10^{-5}\,\mathrm J$** — This includes C1 only.
+- **$2.40667\times10^{-4}\,\mathrm J$** — This omits the energy one-half.
+
+<h4 id="solution-m6h49">Situation 49: Connect oppositely charged capacitors · Find the energy dissipated during settling</h4>
+
+Two isolated capacitors have $C_1=4\times10^{-6}\,\mathrm F$ at 12 V and $C_2=2.0\,\mu\mathrm F$ at 5 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Find the energy dissipated during settling.
+
+1. **Identify the model and the conditions.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=3.8\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=6.33333\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=3.13\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=1.20333\times10^{-4}\,\mathrm J$$
+
+5. **Solve the requested quantity.**
+
+   $$E_{\rm heat}=U_i-U_f=3.13\times10^{-4}-1.20333\times10^{-4}$$
+
+6. **Check the physical result.** The energy loss is positive and accounts for the decrease in electric-field energy.
+
+7. **State the result.**
+
+   $$1.92667\times10^{-4}\,\mathrm J$$
+
+**Answer:** $1.92667\times10^{-4}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.20333\times10^{-4}\,\mathrm J$** — This is the remaining field energy, not the energy lost.
+- **$-1.92667\times10^{-4}\,\mathrm J$** — A passive settling resistance does not supply energy.
+- **$4.33333\times10^{-4}\,\mathrm J$** — Energy lost is an initial-minus-final difference.
+
+<h4 id="solution-m6h50">Situation 50: Connect oppositely charged capacitors · model check</h4>
+
+Two isolated capacitors have $C_1=4\times10^{-6}\,\mathrm F$ at 12 V and $C_2=2.0\,\mu\mathrm F$ at 5 V. They connect in parallel with C1’s positive plate joined to C2’s negative plate. The other plates also join. A small resistance allows settling. Define the joined C1-positive node as the positive voltage reference. Why is it incorrect to conserve total capacitor field energy during this connection?
+
+1. **Identify what stays fixed.** Conserve signed charge on each joined node. Opposite initial polarities subtract; resistor heating accounts for lost field energy.
+
+2. **Add signed charge on the reference node.**
+
+   $$Q_{\rm node}=C_1V_1-C_2V_2=3.8\times10^{-5}\,\mathrm C$$
+
+3. **Use the final parallel capacitance.**
+
+   $$V_f=Q_{\rm node}/(C_1+C_2)=6.33333\,\mathrm V$$
+
+4. **Compare field energies.**
+
+   $$U_i=\tfrac12C_1V_1^2+\tfrac12C_2V_2^2=3.13\times10^{-4}\,\mathrm J,\quad U_f=\tfrac12(C_1+C_2)V_f^2=1.20333\times10^{-4}\,\mathrm J$$
+
+5. **Apply the conclusion.** Charge conservation remains valid even when field energy becomes heat.
+
+**Answer:** The transient current dissipates energy in the settling resistance.
+
+**Why the other answers do not work:**
+
+- **Charge conservation fails during a transient.** — Charge still cannot disappear from an isolated joined node.
+- **One capacitor initially has negative stored energy.** — Stored capacitor energy depends on voltage squared and is nonnegative.
+- **The capacitors cease having capacitance during the connection.** — Their geometry and capacitance remain defined.
+
+<h4 id="solution-m6h51">Situation 51: Two dielectric layers through the gap · Find the equivalent capacitance</h4>
+
+A parallel-plate capacitor has area 0.02 m² and total gap 0.0015 m. Dielectric 1 of relative permittivity 2 fills fraction 0.5 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 120 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the equivalent capacitance.
+
+1. **Identify the model and the conditions.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.37143\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.02286\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Solve the requested quantity.**
+
+   $$C=\frac{\varepsilon_0A}{d[0.5/2+(1-0.5)/5]}$$
+
+6. **Check the physical result.** The effective relative permittivity lies between the two material values.
+
+7. **State the result.**
+
+   $$3.37143\times10^{-10}\,\mathrm F$$
+
+**Answer:** $3.37143\times10^{-10}\,\mathrm F$
+
+**Why the other answers do not work:**
+
+- **$4.13\times10^{-10}\,\mathrm F$** — This averages parallel-area permittivities instead of series thickness layers.
+- **$1.18\times10^{-10}\,\mathrm F$** — This ignores both dielectrics.
+- **$1.18\times10^{-9}\,\mathrm F$** — This multiplies dielectric constants without a series-layer derivation.
+
+<h4 id="solution-m6h52">Situation 52: Two dielectric layers through the gap · Find the free plate charge per unit area</h4>
+
+A parallel-plate capacitor has area 0.02 m² and total gap 0.0015 m. Dielectric 1 of relative permittivity 2 fills fraction 0.5 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 120 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the free plate charge per unit area.
+
+1. **Identify the model and the conditions.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.37143\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.02286\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Solve the requested quantity.**
+
+   $$D=CV/A=3.37143\times10^{-10}(120)/0.02$$
+
+6. **Check the physical result.** This D represents free charge per plate area and is common to both layers under the stated interface condition.
+
+7. **State the result.**
+
+   $$2.02286\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+**Answer:** $2.02286\times10^{-6}\,\mathrm{C\,m^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$4.04571\times10^{-8}\,\mathrm{C\,m^{-2}}$** — This is total charge rather than charge per area.
+- **$7.08\times10^{-7}\,\mathrm{C\,m^{-2}}$** — This treats the whole gap as vacuum.
+- **$1.01143\times10^{-6}\,\mathrm{C\,m^{-2}}$** — The series layers carry the same free-charge magnitude; they do not divide it.
+
+<h4 id="solution-m6h53">Situation 53: Two dielectric layers through the gap · Find the field magnitude inside dielectric 1</h4>
+
+A parallel-plate capacitor has area 0.02 m² and total gap 0.0015 m. Dielectric 1 of relative permittivity 2 fills fraction 0.5 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 120 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the field magnitude inside dielectric 1.
+
+1. **Identify the model and the conditions.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.37143\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.02286\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Solve the requested quantity.**
+
+   $$E_1=D/(2\varepsilon_0)=114286\,\mathrm{N\,C^{-1}}$$
+
+6. **Check the physical result.** The lower-permittivity layer has the larger electric field.
+
+7. **State the result.**
+
+   $$114286\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $114286\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$80000\,\mathrm{N\,C^{-1}}$** — The two material fields are not equal when permittivities differ.
+- **$228571\,\mathrm{N\,C^{-1}}$** — This omits the relative permittivity of layer 1.
+- **$45714.3\,\mathrm{N\,C^{-1}}$** — This gives the field inside dielectric 2.
+
+<h4 id="solution-m6h54">Situation 54: Two dielectric layers through the gap · Find the voltage across dielectric 1</h4>
+
+A parallel-plate capacitor has area 0.02 m² and total gap 0.0015 m. Dielectric 1 of relative permittivity 2 fills fraction 0.5 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 120 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the voltage across dielectric 1.
+
+1. **Identify the model and the conditions.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.37143\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.02286\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Solve the requested quantity.**
+
+   $$V_1=E_1fd=114286(0.5)(0.0015)$$
+
+6. **Check the physical result.** The two layer voltages add to the maintained source voltage.
+
+7. **State the result.**
+
+   $$85.7143\,\mathrm V$$
+
+**Answer:** $85.7143\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$120\,\mathrm V$** — The source voltage divides between both layers.
+- **$60\,\mathrm V$** — Thickness fraction alone does not set voltage fraction when fields differ.
+- **$171.429\,\mathrm V$** — This uses the whole gap rather than layer 1’s thickness.
+
+<h4 id="solution-m6h55">Situation 55: Two dielectric layers through the gap · model check</h4>
+
+A parallel-plate capacitor has area 0.02 m² and total gap 0.0015 m. Dielectric 1 of relative permittivity 2 fills fraction 0.5 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 120 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. What identifies this geometry as a series arrangement?
+
+1. **Identify what stays fixed.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.37143\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.02286\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Apply the conclusion.** The layer voltage drops add, while the free-charge magnitude is common.
+
+**Answer:** A normal field path crosses dielectric 1 and then dielectric 2 through the plate gap.
+
+**Why the other answers do not work:**
+
+- **Both dielectrics have equal voltage because each covers the whole area.** — Equal area does not make stacked thickness layers parallel.
+- **The larger dielectric constant removes all field from its layer.** — A finite dielectric constant reduces the field but does not generally make it zero.
+- **The source fixes the same field in every dielectric.** — The source fixes total voltage; the layer fields depend on permittivity.
+
+<h4 id="solution-m6h56">Situation 56: Two dielectric layers through the gap · Find the equivalent capacitance</h4>
+
+A parallel-plate capacitor has area 0.025 m² and total gap 0.0018 m. Dielectric 1 of relative permittivity 2 fills fraction 0.4 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 150 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the equivalent capacitance.
+
+1. **Identify the model and the conditions.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.84115\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.30469\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Solve the requested quantity.**
+
+   $$C=\frac{\varepsilon_0A}{d[0.4/2+(1-0.4)/5]}$$
+
+6. **Check the physical result.** The effective relative permittivity lies between the two material values.
+
+7. **State the result.**
+
+   $$3.84115\times10^{-10}\,\mathrm F$$
+
+**Answer:** $3.84115\times10^{-10}\,\mathrm F$
+
+**Why the other answers do not work:**
+
+- **$4.67083\times10^{-10}\,\mathrm F$** — This averages parallel-area permittivities instead of series thickness layers.
+- **$1.22917\times10^{-10}\,\mathrm F$** — This ignores both dielectrics.
+- **$1.22917\times10^{-9}\,\mathrm F$** — This multiplies dielectric constants without a series-layer derivation.
+
+<h4 id="solution-m6h57">Situation 57: Two dielectric layers through the gap · Find the free plate charge per unit area</h4>
+
+A parallel-plate capacitor has area 0.025 m² and total gap 0.0018 m. Dielectric 1 of relative permittivity 2 fills fraction 0.4 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 150 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the free plate charge per unit area.
+
+1. **Identify the model and the conditions.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.84115\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.30469\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Solve the requested quantity.**
+
+   $$D=CV/A=3.84115\times10^{-10}(150)/0.025$$
+
+6. **Check the physical result.** This D represents free charge per plate area and is common to both layers under the stated interface condition.
+
+7. **State the result.**
+
+   $$2.30469\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+**Answer:** $2.30469\times10^{-6}\,\mathrm{C\,m^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$5.76172\times10^{-8}\,\mathrm{C\,m^{-2}}$** — This is total charge rather than charge per area.
+- **$7.375\times10^{-7}\,\mathrm{C\,m^{-2}}$** — This treats the whole gap as vacuum.
+- **$1.15234\times10^{-6}\,\mathrm{C\,m^{-2}}$** — The series layers carry the same free-charge magnitude; they do not divide it.
+
+<h4 id="solution-m6h58">Situation 58: Two dielectric layers through the gap · Find the field magnitude inside dielectric 1</h4>
+
+A parallel-plate capacitor has area 0.025 m² and total gap 0.0018 m. Dielectric 1 of relative permittivity 2 fills fraction 0.4 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 150 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the field magnitude inside dielectric 1.
+
+1. **Identify the model and the conditions.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.84115\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.30469\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Solve the requested quantity.**
+
+   $$E_1=D/(2\varepsilon_0)=130208\,\mathrm{N\,C^{-1}}$$
+
+6. **Check the physical result.** The lower-permittivity layer has the larger electric field.
+
+7. **State the result.**
+
+   $$130208\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $130208\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$83333.3\,\mathrm{N\,C^{-1}}$** — The two material fields are not equal when permittivities differ.
+- **$260417\,\mathrm{N\,C^{-1}}$** — This omits the relative permittivity of layer 1.
+- **$52083.3\,\mathrm{N\,C^{-1}}$** — This gives the field inside dielectric 2.
+
+<h4 id="solution-m6h59">Situation 59: Two dielectric layers through the gap · Find the voltage across dielectric 1</h4>
+
+A parallel-plate capacitor has area 0.025 m² and total gap 0.0018 m. Dielectric 1 of relative permittivity 2 fills fraction 0.4 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 150 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. Find the voltage across dielectric 1.
+
+1. **Identify the model and the conditions.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.84115\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.30469\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Solve the requested quantity.**
+
+   $$V_1=E_1fd=130208(0.4)(0.0018)$$
+
+6. **Check the physical result.** The two layer voltages add to the maintained source voltage.
+
+7. **State the result.**
+
+   $$93.75\,\mathrm V$$
+
+**Answer:** $93.75\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$150\,\mathrm V$** — The source voltage divides between both layers.
+- **$60\,\mathrm V$** — Thickness fraction alone does not set voltage fraction when fields differ.
+- **$234.375\,\mathrm V$** — This uses the whole gap rather than layer 1’s thickness.
+
+<h4 id="solution-m6h60">Situation 60: Two dielectric layers through the gap · model check</h4>
+
+A parallel-plate capacitor has area 0.025 m² and total gap 0.0018 m. Dielectric 1 of relative permittivity 2 fills fraction 0.4 of the gap thickness. Dielectric 2 of relative permittivity 5 fills the remaining thickness. Each layer covers the whole plate area. An ideal 150 V source stays connected. Ignore fringing and free charge at the dielectric interface. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$. What identifies this geometry as a series arrangement?
+
+1. **Identify what stays fixed.** The field crosses both layers consecutively. They form series capacitances with the same free-charge magnitude per area.
+
+2. **Add the two thickness-dependent inverse capacitances.**
+
+   $$C=\frac{\varepsilon_0A}{d[f/\kappa_1+(1-f)/\kappa_2]}=3.84115\times10^{-10}\,\mathrm F$$
+
+3. **Find the common free-charge surface density.**
+
+   $$D=Q/A=CV/A=2.30469\times10^{-6}\,\mathrm{C\,m^{-2}}$$
+
+4. **Recover each layer’s field and voltage.**
+
+   $$E_1=D/(\kappa_1\varepsilon_0),\quad V_1=E_1fd$$
+
+5. **Apply the conclusion.** The layer voltage drops add, while the free-charge magnitude is common.
+
+**Answer:** A normal field path crosses dielectric 1 and then dielectric 2 through the plate gap.
+
+**Why the other answers do not work:**
+
+- **Both dielectrics have equal voltage because each covers the whole area.** — Equal area does not make stacked thickness layers parallel.
+- **The larger dielectric constant removes all field from its layer.** — A finite dielectric constant reduces the field but does not generally make it zero.
+- **The source fixes the same field in every dielectric.** — The source fixes total voltage; the layer fields depend on permittivity.
+

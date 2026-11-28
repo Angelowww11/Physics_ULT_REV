@@ -31,11 +31,13 @@ The supplied [TOPCIT Sprint reference](https://tpct-reviewer.onrender.com/) info
 
 `practice-data.js` creates 600 numerical variants across 30 question families. `practice-math.js` supplies the formatted laws and substitutions. `concept-data.js` supplies 60 original concept checks, including an explanation for every choice.
 
-`challenge-data.js` adds 100 situational questions: ten per module, with five calculations and five conceptual situations. `practice-solutions.js` adds full working to the existing 600 numerical variants. The combined study bank contains 760 questions.
+`challenge-data.js` adds 600 situational questions: 60 per module, with 45 calculation questions and 15 conceptual situations. `practice-solutions.js` adds full working to the existing 600 numerical variants. The combined study bank contains 1,260 questions.
 
-Choose **Situational challenges** in the practice menu to select the harder questions. Sets remain limited to 60 questions. Each module also contains ten fully open worked situations in the complete notes. The original 20 note files and all 18 PDFs remain unchanged.
+Choose **Situational challenges** in the practice menu to select the harder questions. Sets remain limited to 60 questions. Each module also contains 60 fully open worked situations in the complete notes. The original 20 note files and all 18 PDFs remain unchanged.
 
-Edit `tools/challenge-source.cjs` to change the added questions. `python tools/build_notes.py` regenerates the added question data, supplementary notes, lesson exports, and full notebook.
+The expansion uses 50 added scenario families. Each family has four calculation targets, a reasoning check, and two parameter sets. New questions change the requested quantity or numerical conditions. The original 100 challenge IDs and their answer choices remain intact.
+
+Edit `tools/challenge-source.cjs` and `tools/challenge-expansion.cjs` to change the added questions. `python tools/build_notes.py` regenerates the added question data, supplementary notes, lesson exports, and full notebook.
 
 `study-core.js` manages question selection, confidence, review scheduling, exam state, and backup compatibility. `desk.js` provides the study workspace. `study-desk.css` extends the existing visual system. `notebook.css` controls the full notebook. `palette.css` defines the themes.
 
@@ -63,9 +65,12 @@ Run `python tools/build_notes.py` after changes to the notes. Run these checks:
 - `python tests/check_expanded.py` checks 75 expanded calculations and the complete source-page map.
 - `python tests/check_math_format.py` checks that the notes contain rendered equations without raw formulas.
 - `node tests/check_practice.cjs` checks the 600 practice variants and the display and inline equations.
-- `node tests/check_challenges.cjs` checks the 760-question bank, mathematical rendering, old progress, and preserved notes.
-- `python tests/check_challenge_physics.py` independently checks all 50 new numerical answers.
+- `node tests/check_challenges.cjs` checks the 1,260-question bank, mathematical rendering, old progress, and preserved notes.
+- `python tests/check_challenge_physics.py` independently checks the original 50 challenge calculations.
+- `python tests/check_expanded_challenges.py` independently checks all 400 added calculation answers, phase conditions, vectors, and reachable motion.
 - `node tests/check_study.cjs` checks the legacy 660-question bank, complete lesson exports, scheduling, storage compatibility, smart selection, exam persistence, and backups.
+
+`tests/sixty-browser-flow.js` checks 60 challenge questions in each module through the interface, full working, and every choice explanation.
 
 `tests/study-browser-flow.js` checks the study desk through its interface in an isolated browser. `tests/browser-flow.js` checks all 600 questions on `classic.html`.
 
@@ -74,3 +79,5 @@ Run `python tools/build_source_map.py` after changes to the source-page map defi
 Run `python tools/prepare_sources.py` to rebuild the slide library. This command reads the original PDFs from the sibling `Module-ORG` directory.
 
 GitHub Pages serves the `main` branch root. The website needs no server account or database. Fonts and KaTeX files are self-hosted. Their licenses accompany the assets. The supplied course materials belong to their respective owners.
+
+The added loop-energy and source-power applications use the standard models described by [OpenStax: current-loop torque and energy](https://openstax.org/books/university-physics-volume-2/pages/11-5-force-and-torque-on-a-current-loop) and [OpenStax: emf and internal resistance](https://openstax.org/books/university-physics-volume-2/pages/10-1-electromotive-force). The questions state their additional assumptions.

@@ -272,3 +272,1723 @@ A uniform electrostatic field has $E_x=300\,\mathrm{N\,C^{-1}}$ and $E_y=400\,\m
 - **$2.23607\times10^{-4}\,\mathrm J$** — Field magnitude times path length is not the general dot product.
 - **$0\,\mathrm J$** — The displacement is not perpendicular to the field.
 
+<h4 id="solution-m5h11">Situation 11: Potential from unequal opposite sources · Find the potential at the origin</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Find the potential at the origin.
+
+1. **Identify the model and the conditions.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-299.667\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-998.889\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Solve the requested quantity.**
+
+   $$V(0)=-kQ/a=-299.667\,\mathrm V$$
+
+6. **Check the physical result.** The negative source has twice the magnitude at the same distance.
+
+7. **State the result.**
+
+   $$-299.667\,\mathrm V$$
+
+**Answer:** $-299.667\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$899\,\mathrm V$** — This adds source-charge magnitudes rather than signed potentials.
+- **$0\,\mathrm V$** — Opposite signs do not cancel when the magnitudes differ.
+- **$299.667\,\mathrm V$** — This reverses the source-charge signs.
+
+<h4 id="solution-m5h12">Situation 12: Potential from unequal opposite sources · Find the potential at x equal to a/2</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Find the potential at x equal to a/2.
+
+1. **Identify the model and the conditions.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-299.667\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-998.889\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Solve the requested quantity.**
+
+   $$V(a/2)=kQ/(1.5a)-2kQ/(0.5a)=-998.889\,\mathrm V$$
+
+6. **Check the physical result.** Moving closer to the negative source makes the potential more negative here.
+
+7. **State the result.**
+
+   $$-998.889\,\mathrm V$$
+
+**Answer:** $-998.889\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$-299.667\,\mathrm V$** — The observation point is no longer equally distant from both sources.
+- **$199.778\,\mathrm V$** — This interchanges the near and far source distances.
+- **$1398.44\,\mathrm V$** — This drops the negative source sign.
+
+<h4 id="solution-m5h13">Situation 13: Potential from unequal opposite sources · Find the test-particle potential energy at the origin</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Find the test-particle potential energy at the origin.
+
+1. **Identify the model and the conditions.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-299.667\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-998.889\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Solve the requested quantity.**
+
+   $$U(0)=q_tV(0)=(1.602\times10^{-19})(-299.667)$$
+
+6. **Check the physical result.** The negative energy uses infinite separation as the zero reference.
+
+7. **State the result.**
+
+   $$-4.80066\times10^{-17}\,\mathrm J$$
+
+**Answer:** $-4.80066\times10^{-17}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$4.80066\times10^{-17}\,\mathrm J$** — A positive test charge has potential energy with the same sign as V.
+- **$-1.60022\times10^{-16}\,\mathrm J$** — This uses the potential at the wrong point.
+- **$-9.60132\times10^{-17}\,\mathrm J$** — The source magnitudes are already included in the computed potential.
+
+<h4 id="solution-m5h14">Situation 14: Potential from unequal opposite sources · Find the speed at the origin for the stated energy-conserving motion</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Find the speed at the origin for the stated energy-conserving motion.
+
+1. **Identify the model and the conditions.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-299.667\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-998.889\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Solve the requested quantity.**
+
+   $$\tfrac12mv_f^2=-q_tV(0)\ \Rightarrow\ v_f=\sqrt{-2q_tV(0)/m}=239562\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The kinetic energy is positive because the positive particle reaches a negative potential.
+
+7. **State the result.**
+
+   $$239562\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $239562\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$169396\,\mathrm{m\,s^{-1}}$** — This omits the factor two from kinetic energy.
+- **$437378\,\mathrm{m\,s^{-1}}$** — This uses the wrong endpoint potential.
+- **$414933\,\mathrm{m\,s^{-1}}$** — This uses the sum of source magnitudes rather than their signed potential.
+
+<h4 id="solution-m5h15">Situation 15: Potential from unequal opposite sources · model check</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Why do you not resolve the source potentials into x and y components?
+
+1. **Identify what stays fixed.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-299.667\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-998.889\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Apply the conclusion.** Vector components are needed for electric field and force, not scalar potential.
+
+**Answer:** Potential is a scalar, so its signed contributions add directly.
+
+**Why the other answers do not work:**
+
+- **The source charges lie on one axis, so potential secretly becomes a vector.** — Potential remains scalar in every geometry.
+- **A negative source has no potential contribution.** — Its contribution is negative with this reference.
+- **Potential always equals the field magnitude.** — The two quantities have different definitions and units.
+
+<h4 id="solution-m5h16">Situation 16: Potential from unequal opposite sources · Find the potential at the origin</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.08\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Find the potential at the origin.
+
+1. **Identify the model and the conditions.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-337.125\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-1123.75\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Solve the requested quantity.**
+
+   $$V(0)=-kQ/a=-337.125\,\mathrm V$$
+
+6. **Check the physical result.** The negative source has twice the magnitude at the same distance.
+
+7. **State the result.**
+
+   $$-337.125\,\mathrm V$$
+
+**Answer:** $-337.125\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$1011.37\,\mathrm V$** — This adds source-charge magnitudes rather than signed potentials.
+- **$0\,\mathrm V$** — Opposite signs do not cancel when the magnitudes differ.
+- **$337.125\,\mathrm V$** — This reverses the source-charge signs.
+
+<h4 id="solution-m5h17">Situation 17: Potential from unequal opposite sources · Find the potential at x equal to a/2</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.08\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Find the potential at x equal to a/2.
+
+1. **Identify the model and the conditions.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-337.125\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-1123.75\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Solve the requested quantity.**
+
+   $$V(a/2)=kQ/(1.5a)-2kQ/(0.5a)=-1123.75\,\mathrm V$$
+
+6. **Check the physical result.** Moving closer to the negative source makes the potential more negative here.
+
+7. **State the result.**
+
+   $$-1123.75\,\mathrm V$$
+
+**Answer:** $-1123.75\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$-337.125\,\mathrm V$** — The observation point is no longer equally distant from both sources.
+- **$224.75\,\mathrm V$** — This interchanges the near and far source distances.
+- **$1573.25\,\mathrm V$** — This drops the negative source sign.
+
+<h4 id="solution-m5h18">Situation 18: Potential from unequal opposite sources · Find the test-particle potential energy at the origin</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.08\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Find the test-particle potential energy at the origin.
+
+1. **Identify the model and the conditions.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-337.125\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-1123.75\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Solve the requested quantity.**
+
+   $$U(0)=q_tV(0)=(1.602\times10^{-19})(-337.125)$$
+
+6. **Check the physical result.** The negative energy uses infinite separation as the zero reference.
+
+7. **State the result.**
+
+   $$-5.40074\times10^{-17}\,\mathrm J$$
+
+**Answer:** $-5.40074\times10^{-17}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$5.40074\times10^{-17}\,\mathrm J$** — A positive test charge has potential energy with the same sign as V.
+- **$-1.80025\times10^{-16}\,\mathrm J$** — This uses the potential at the wrong point.
+- **$-1.08015\times10^{-16}\,\mathrm J$** — The source magnitudes are already included in the computed potential.
+
+<h4 id="solution-m5h19">Situation 19: Potential from unequal opposite sources · Find the speed at the origin for the stated energy-conserving motion</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.08\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Find the speed at the origin for the stated energy-conserving motion.
+
+1. **Identify the model and the conditions.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-337.125\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-1123.75\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Solve the requested quantity.**
+
+   $$\tfrac12mv_f^2=-q_tV(0)\ \Rightarrow\ v_f=\sqrt{-2q_tV(0)/m}=254094\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The kinetic energy is positive because the positive particle reaches a negative potential.
+
+7. **State the result.**
+
+   $$254094\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $254094\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$179671\,\mathrm{m\,s^{-1}}$** — This omits the factor two from kinetic energy.
+- **$463909\,\mathrm{m\,s^{-1}}$** — This uses the wrong endpoint potential.
+- **$440103\,\mathrm{m\,s^{-1}}$** — This uses the sum of source magnitudes rather than their signed potential.
+
+<h4 id="solution-m5h20">Situation 20: Potential from unequal opposite sources · model check</h4>
+
+Fixed charges $+Q$ and $-2Q$ lie at $x=-a$ and $x=+a$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.08\,\mathrm m$, and zero potential at infinity. Use $k=8.99\times10^9$ in SI units. An ideal test particle has charge $+1.602\times10^{-19}\,\mathrm C$ and mass $1.673\times10^{-27}\,\mathrm{kg}$. For the speed question, consider a permitted path from rest at infinity to the origin with no other work. Why do you not resolve the source potentials into x and y components?
+
+1. **Identify what stays fixed.** Electric potential adds as a signed scalar. Use charge times potential for test-particle potential energy, and conserve mechanical energy for speed.
+
+2. **Add signed scalar contributions at the origin.**
+
+   $$V(0)=kQ/a-2kQ/a=-kQ/a=-337.125\,\mathrm V$$
+
+3. **Use the actual distances at x equal to a/2.**
+
+   $$V(a/2)=\frac{kQ}{3a/2}-\frac{2kQ}{a/2}=-1123.75\,\mathrm V$$
+
+4. **Relate potential energy and kinetic energy.**
+
+   $$U=q_tV,\quad K_f=-q_tV(0)$$
+
+5. **Apply the conclusion.** Vector components are needed for electric field and force, not scalar potential.
+
+**Answer:** Potential is a scalar, so its signed contributions add directly.
+
+**Why the other answers do not work:**
+
+- **The source charges lie on one axis, so potential secretly becomes a vector.** — Potential remains scalar in every geometry.
+- **A negative source has no potential contribution.** — Its contribution is negative with this reference.
+- **Potential always equals the field magnitude.** — The two quantities have different definitions and units.
+
+<h4 id="solution-m5h21">Situation 21: Work in a two-dimensional uniform field · Find the signed endpoint potential change</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.3,0.4)\,\mathrm m$. Its initial speed is 15 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Find the signed endpoint potential change.
+
+1. **Identify the model and the conditions.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.3)-80(0.4)=4\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$\Delta V=-4=-4\,\mathrm V$$
+
+6. **Check the physical result.** Both Cartesian contributions enter the dot product with their stated signs.
+
+7. **State the result.**
+
+   $$-4\,\mathrm V$$
+
+**Answer:** $-4\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$4\,\mathrm V$** — This omits the minus sign in the field–potential relation.
+- **$-72.111\,\mathrm V$** — Magnitude multiplication assumes field and displacement are parallel.
+- **$-68\,\mathrm V$** — This changes the sign of the already negative y field component.
+
+<h4 id="solution-m5h22">Situation 22: Work in a two-dimensional uniform field · Find the signed potential-energy change</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.3,0.4)\,\mathrm m$. Its initial speed is 15 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Find the signed potential-energy change.
+
+1. **Identify the model and the conditions.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.3)-80(0.4)=4\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$\Delta U=(-2.0\times10^{-6})(-4)=8\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** A negative charge moving to lower potential gains potential energy.
+
+7. **State the result.**
+
+   $$8\times10^{-6}\,\mathrm J$$
+
+**Answer:** $8\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-8\times10^{-6}\,\mathrm J$** — This gives electric-field work rather than potential-energy change.
+- **$-6.4\times10^{-5}\,\mathrm J$** — This ignores the x displacement contribution.
+- **$7.2\times10^{-5}\,\mathrm J$** — This ignores the y contribution to potential change.
+
+<h4 id="solution-m5h23">Situation 23: Work in a two-dimensional uniform field · Find the signed work done by the electric force</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.3,0.4)\,\mathrm m$. Its initial speed is 15 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Find the signed work done by the electric force.
+
+1. **Identify the model and the conditions.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.3)-80(0.4)=4\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$W_E=q\vec E\cdot\Delta\vec r=(-2.0\times10^{-6})(4)$$
+
+6. **Check the physical result.** Negative field work decreases kinetic energy.
+
+7. **State the result.**
+
+   $$-8\times10^{-6}\,\mathrm J$$
+
+**Answer:** $-8\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$8\times10^{-6}\,\mathrm J$** — Electric work equals minus the potential-energy change.
+- **$-7.2\times10^{-5}\,\mathrm J$** — This ignores the y contribution.
+- **$-1.44222\times10^{-4}\,\mathrm J$** — This assumes parallel vectors and uses magnitudes only.
+
+<h4 id="solution-m5h24">Situation 24: Work in a two-dimensional uniform field · Find the final speed</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.3,0.4)\,\mathrm m$. Its initial speed is 15 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Find the final speed.
+
+1. **Identify the model and the conditions.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.3)-80(0.4)=4\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$v_f=\sqrt{15^2+\frac{2(-8\times10^{-6})}{2.0\times10^{-6}}}=14.7309\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The radicand is positive and the final speed is below the initial speed.
+
+7. **State the result.**
+
+   $$14.7309\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $14.7309\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$15.2643\,\mathrm{m\,s^{-1}}$** — This reverses the work sign in the kinetic-energy balance.
+- **$14.8661\,\mathrm{m\,s^{-1}}$** — This omits the factor two from kinetic energy.
+- **$15\,\mathrm{m\,s^{-1}}$** — A nonzero field work changes speed.
+
+<h4 id="solution-m5h25">Situation 25: Work in a two-dimensional uniform field · model check</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.3,0.4)\,\mathrm m$. Its initial speed is 15 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Would a longer curved route between these same endpoints change the electric work?
+
+1. **Identify what stays fixed.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.3)-80(0.4)=4\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Apply the conclusion.** The work depends on endpoint potential difference, not path length.
+
+**Answer:** No, because this electrostatic field is conservative.
+
+**Why the other answers do not work:**
+
+- **Yes, work always equals field magnitude times total path length times charge.** — That expression ignores the changing angle along a curved route.
+- **Yes, unless the particle has positive charge.** — Conservative-path independence does not depend on the test-charge sign.
+- **No, because all electric forces do zero work.** — Electric forces can do nonzero work; this work is path independent.
+
+<h4 id="solution-m5h26">Situation 26: Work in a two-dimensional uniform field · Find the signed endpoint potential change</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.4,0.5)\,\mathrm m$. Its initial speed is 20 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Find the signed endpoint potential change.
+
+1. **Identify the model and the conditions.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.4)-80(0.5)=8\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$\Delta V=-8=-8\,\mathrm V$$
+
+6. **Check the physical result.** Both Cartesian contributions enter the dot product with their stated signs.
+
+7. **State the result.**
+
+   $$-8\,\mathrm V$$
+
+**Answer:** $-8\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$8\,\mathrm V$** — This omits the minus sign in the field–potential relation.
+- **$-92.3472\,\mathrm V$** — Magnitude multiplication assumes field and displacement are parallel.
+- **$-88\,\mathrm V$** — This changes the sign of the already negative y field component.
+
+<h4 id="solution-m5h27">Situation 27: Work in a two-dimensional uniform field · Find the signed potential-energy change</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.4,0.5)\,\mathrm m$. Its initial speed is 20 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Find the signed potential-energy change.
+
+1. **Identify the model and the conditions.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.4)-80(0.5)=8\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$\Delta U=(-2.0\times10^{-6})(-8)=1.6\times10^{-5}\,\mathrm J$$
+
+6. **Check the physical result.** A negative charge moving to lower potential gains potential energy.
+
+7. **State the result.**
+
+   $$1.6\times10^{-5}\,\mathrm J$$
+
+**Answer:** $1.6\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-1.6\times10^{-5}\,\mathrm J$** — This gives electric-field work rather than potential-energy change.
+- **$-8\times10^{-5}\,\mathrm J$** — This ignores the x displacement contribution.
+- **$9.6\times10^{-5}\,\mathrm J$** — This ignores the y contribution to potential change.
+
+<h4 id="solution-m5h28">Situation 28: Work in a two-dimensional uniform field · Find the signed work done by the electric force</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.4,0.5)\,\mathrm m$. Its initial speed is 20 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Find the signed work done by the electric force.
+
+1. **Identify the model and the conditions.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.4)-80(0.5)=8\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$W_E=q\vec E\cdot\Delta\vec r=(-2.0\times10^{-6})(8)$$
+
+6. **Check the physical result.** Negative field work decreases kinetic energy.
+
+7. **State the result.**
+
+   $$-1.6\times10^{-5}\,\mathrm J$$
+
+**Answer:** $-1.6\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.6\times10^{-5}\,\mathrm J$** — Electric work equals minus the potential-energy change.
+- **$-9.6\times10^{-5}\,\mathrm J$** — This ignores the y contribution.
+- **$-1.84694\times10^{-4}\,\mathrm J$** — This assumes parallel vectors and uses magnitudes only.
+
+<h4 id="solution-m5h29">Situation 29: Work in a two-dimensional uniform field · Find the final speed</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.4,0.5)\,\mathrm m$. Its initial speed is 20 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Find the final speed.
+
+1. **Identify the model and the conditions.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.4)-80(0.5)=8\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$v_f=\sqrt{20^2+\frac{2(-1.6\times10^{-5})}{2.0\times10^{-6}}}=19.5959\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The radicand is positive and the final speed is below the initial speed.
+
+7. **State the result.**
+
+   $$19.5959\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $19.5959\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$20.3961\,\mathrm{m\,s^{-1}}$** — This reverses the work sign in the kinetic-energy balance.
+- **$19.799\,\mathrm{m\,s^{-1}}$** — This omits the factor two from kinetic energy.
+- **$20\,\mathrm{m\,s^{-1}}$** — A nonzero field work changes speed.
+
+<h4 id="solution-m5h30">Situation 30: Work in a two-dimensional uniform field · model check</h4>
+
+A uniform electrostatic field is $\vec E=(120,-80)\,\mathrm{N\,C^{-1}}$. A particle of charge $-2.0\,\mu\mathrm C$ and mass $2.0\times10^{-6}\,\mathrm{kg}$ moves through $\Delta\vec r=(0.4,0.5)\,\mathrm m$. Its initial speed is 20 m/s. Only the electric force does work. Use the given endpoint displacement, not its path length. Would a longer curved route between these same endpoints change the electric work?
+
+1. **Identify what stays fixed.** Use the dot product for field work. Potential change is minus field dotted with displacement, and kinetic-energy change is field work.
+
+2. **Calculate the dot product.**
+
+   $$\vec E\cdot\Delta\vec r=120(0.4)-80(0.5)=8\,\mathrm V$$
+
+3. **Keep all energy signs.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r,\quad\Delta U=q\Delta V,\quad W_E=-\Delta U$$
+
+4. **Use the energy-speed relation.**
+
+   $$v_f^2=v_0^2+2W_E/m$$
+
+5. **Apply the conclusion.** The work depends on endpoint potential difference, not path length.
+
+**Answer:** No, because this electrostatic field is conservative.
+
+**Why the other answers do not work:**
+
+- **Yes, work always equals field magnitude times total path length times charge.** — That expression ignores the changing angle along a curved route.
+- **Yes, unless the particle has positive charge.** — Conservative-path independence does not depend on the test-charge sign.
+- **No, because all electric forces do zero work.** — Electric forces can do nonzero work; this work is path independent.
+
+<h4 id="solution-m5h31">Situation 31: Assemble four square-corner charges · Find the total interaction energy of the final four-charge system</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.1 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=2\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Find the total interaction energy of the final four-charge system.
+
+1. **Identify the model and the conditions.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=9.73476\times10^{-7}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Solve the requested quantity.**
+
+   $$U_4=U_3+W_{\rm ext,4}=U_3-2U_3=-U_3=-9.73476\times10^{-7}\,\mathrm J$$
+
+6. **Check the physical result.** The attractive pair contributions dominate, giving negative total interaction energy.
+
+7. **State the result.**
+
+   $$-9.73476\times10^{-7}\,\mathrm J$$
+
+**Answer:** $-9.73476\times10^{-7}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-1.94695\times10^{-6}\,\mathrm J$** — This counts each pair twice.
+- **$9.73476\times10^{-7}\,\mathrm J$** — This reverses the signed negative-charge contributions.
+- **$-7.192\times10^{-7}\,\mathrm J$** — This omits the diagonal pair-energy contributions.
+
+<h4 id="solution-m5h32">Situation 32: Assemble four square-corner charges · Find the signed external work to add only the fourth charge</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.1 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=2\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Find the signed external work to add only the fourth charge.
+
+1. **Identify the model and the conditions.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=9.73476\times10^{-7}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Solve the requested quantity.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-1.94695\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** Negative quasistatic external work means the external agent removes energy during attraction.
+
+7. **State the result.**
+
+   $$-1.94695\times10^{-6}\,\mathrm J$$
+
+**Answer:** $-1.94695\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.94695\times10^{-6}\,\mathrm J$** — This gives the opposite sign, corresponding to field work.
+- **$-9.73476\times10^{-7}\,\mathrm J$** — This includes the earlier assembly energy incorrectly.
+- **$-1.4384\times10^{-6}\,\mathrm J$** — This omits the diagonal interaction with the last charge.
+
+<h4 id="solution-m5h33">Situation 33: Assemble four square-corner charges · Find the potential at the square center after all four charges are present</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.1 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=2\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Find the potential at the square center after all four charges are present.
+
+1. **Identify the model and the conditions.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=9.73476\times10^{-7}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Solve the requested quantity.**
+
+   $$r_c=a/\sqrt2,\quad V_c=k(3q-2q)/r_c=kq\sqrt2/a=254.276\,\mathrm V$$
+
+6. **Check the physical result.** Equal center distances allow the signed charges to combine before dividing by distance.
+
+7. **State the result.**
+
+   $$254.276\,\mathrm V$$
+
+**Answer:** $254.276\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$1271.38\,\mathrm V$** — This adds charge magnitudes rather than signed charges.
+- **$179.8\,\mathrm V$** — The center distance is $a/\sqrt2$, not a.
+- **$-254.276\,\mathrm V$** — The algebraic total source charge is positive at equal distances.
+
+<h4 id="solution-m5h34">Situation 34: Assemble four square-corner charges · Find the assembly energy of the first three positive charges alone</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.1 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=2\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Find the assembly energy of the first three positive charges alone.
+
+1. **Identify the model and the conditions.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=9.73476\times10^{-7}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Solve the requested quantity.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=9.73476\times10^{-7}\,\mathrm J$$
+
+6. **Check the physical result.** All three pair interactions are repulsive, so this partial assembly energy is positive.
+
+7. **State the result.**
+
+   $$9.73476\times10^{-7}\,\mathrm J$$
+
+**Answer:** $9.73476\times10^{-7}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.0788\times10^{-6}\,\mathrm J$** — One of the three pair distances is diagonal.
+- **$1.94695\times10^{-6}\,\mathrm J$** — This counts ordered rather than unordered pairs.
+- **$-9.73476\times10^{-7}\,\mathrm J$** — This includes the later negative charge, which is absent from this three-charge state.
+
+<h4 id="solution-m5h35">Situation 35: Assemble four square-corner charges · model check</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.1 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=2\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Why must the newly added charge be excluded from the potential used to calculate its addition work?
+
+1. **Identify what stays fixed.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=9.73476\times10^{-7}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Apply the conclusion.** The pair-energy method counts interactions between distinct charges.
+
+**Answer:** That potential is the field of the charges already present, not the new charge’s singular self-potential.
+
+**Why the other answers do not work:**
+
+- **A negative charge has no potential of its own.** — Its self-potential is not the interaction potential used in this calculation.
+- **The final charge does no work because it moves slowly.** — Slow motion removes the kinetic-energy change, not the potential-energy change.
+- **Every assembly has zero energy at the last step.** — The zero reference is infinite separation, not the end of assembly.
+
+<h4 id="solution-m5h36">Situation 36: Assemble four square-corner charges · Find the total interaction energy of the final four-charge system</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.12 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=3\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Find the total interaction energy of the final four-charge system.
+
+1. **Identify the model and the conditions.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=1.82527\times10^{-6}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Solve the requested quantity.**
+
+   $$U_4=U_3+W_{\rm ext,4}=U_3-2U_3=-U_3=-1.82527\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** The attractive pair contributions dominate, giving negative total interaction energy.
+
+7. **State the result.**
+
+   $$-1.82527\times10^{-6}\,\mathrm J$$
+
+**Answer:** $-1.82527\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-3.65053\times10^{-6}\,\mathrm J$** — This counts each pair twice.
+- **$1.82527\times10^{-6}\,\mathrm J$** — This reverses the signed negative-charge contributions.
+- **$-1.3485\times10^{-6}\,\mathrm J$** — This omits the diagonal pair-energy contributions.
+
+<h4 id="solution-m5h37">Situation 37: Assemble four square-corner charges · Find the signed external work to add only the fourth charge</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.12 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=3\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Find the signed external work to add only the fourth charge.
+
+1. **Identify the model and the conditions.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=1.82527\times10^{-6}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Solve the requested quantity.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-3.65053\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** Negative quasistatic external work means the external agent removes energy during attraction.
+
+7. **State the result.**
+
+   $$-3.65053\times10^{-6}\,\mathrm J$$
+
+**Answer:** $-3.65053\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$3.65053\times10^{-6}\,\mathrm J$** — This gives the opposite sign, corresponding to field work.
+- **$-1.82527\times10^{-6}\,\mathrm J$** — This includes the earlier assembly energy incorrectly.
+- **$-2.697\times10^{-6}\,\mathrm J$** — This omits the diagonal interaction with the last charge.
+
+<h4 id="solution-m5h38">Situation 38: Assemble four square-corner charges · Find the potential at the square center after all four charges are present</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.12 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=3\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Find the potential at the square center after all four charges are present.
+
+1. **Identify the model and the conditions.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=1.82527\times10^{-6}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Solve the requested quantity.**
+
+   $$r_c=a/\sqrt2,\quad V_c=k(3q-2q)/r_c=kq\sqrt2/a=317.844\,\mathrm V$$
+
+6. **Check the physical result.** Equal center distances allow the signed charges to combine before dividing by distance.
+
+7. **State the result.**
+
+   $$317.844\,\mathrm V$$
+
+**Answer:** $317.844\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$1589.22\,\mathrm V$** — This adds charge magnitudes rather than signed charges.
+- **$224.75\,\mathrm V$** — The center distance is $a/\sqrt2$, not a.
+- **$-317.844\,\mathrm V$** — The algebraic total source charge is positive at equal distances.
+
+<h4 id="solution-m5h39">Situation 39: Assemble four square-corner charges · Find the assembly energy of the first three positive charges alone</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.12 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=3\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Find the assembly energy of the first three positive charges alone.
+
+1. **Identify the model and the conditions.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=1.82527\times10^{-6}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Solve the requested quantity.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=1.82527\times10^{-6}\,\mathrm J$$
+
+6. **Check the physical result.** All three pair interactions are repulsive, so this partial assembly energy is positive.
+
+7. **State the result.**
+
+   $$1.82527\times10^{-6}\,\mathrm J$$
+
+**Answer:** $1.82527\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$2.02275\times10^{-6}\,\mathrm J$** — One of the three pair distances is diagonal.
+- **$3.65053\times10^{-6}\,\mathrm J$** — This counts ordered rather than unordered pairs.
+- **$-1.82527\times10^{-6}\,\mathrm J$** — This includes the later negative charge, which is absent from this three-charge state.
+
+<h4 id="solution-m5h40">Situation 40: Assemble four square-corner charges · model check</h4>
+
+Three fixed charges $+q$ occupy three corners of a square of side 0.12 m. A fourth charge $-2q$ is brought slowly from infinity to the empty corner. Use $q=3\times10^{-9}\,\mathrm C$, $k=8.99\times10^9$ in SI units, and zero interaction energy at infinite separation. Ignore radiation and changes in kinetic energy. Why must the newly added charge be excluded from the potential used to calculate its addition work?
+
+1. **Identify what stays fixed.** Count each unordered pair once. Work to add the final charge uses the potential created by the three charges already present.
+
+2. **Sum the first three positive-charge pair energies.**
+
+   $$U_3=\frac{kq^2}{a}\left(2+\frac1{\sqrt2}\right)=1.82527\times10^{-6}\,\mathrm J$$
+
+3. **Calculate potential at the empty corner before adding the fourth charge.**
+
+   $$V_{\rm empty}=\frac{kq}{a}\left(2+\frac1{\sqrt2}\right)$$
+
+4. **Find work to add the final charge.**
+
+   $$W_{\rm ext,4}=(-2q)V_{\rm empty}=-2U_3$$
+
+5. **Apply the conclusion.** The pair-energy method counts interactions between distinct charges.
+
+**Answer:** That potential is the field of the charges already present, not the new charge’s singular self-potential.
+
+**Why the other answers do not work:**
+
+- **A negative charge has no potential of its own.** — Its self-potential is not the interaction potential used in this calculation.
+- **The final charge does no work because it moves slowly.** — Slow motion removes the kinetic-energy change, not the potential-energy change.
+- **Every assembly has zero energy at the last step.** — The zero reference is infinite separation, not the end of assembly.
+
+<h4 id="solution-m5h41">Situation 41: Energy and stopping in a retarding field · Find the potential-drop magnitude that would just stop the electron</h4>
+
+An electron starts with speed $1\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 200 V. A corresponding uniform retarding region has field magnitude 3000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Find the potential-drop magnitude that would just stop the electron.
+
+1. **Identify the model and the conditions.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=284.332\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-200=84.3321\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Solve the requested quantity.**
+
+   $$V_{\rm stop}=m_ev_i^2/(2e)=284.332\,\mathrm V$$
+
+6. **Check the physical result.** The electron stops when the increase in potential energy consumes all its initial kinetic energy.
+
+7. **State the result.**
+
+   $$284.332\,\mathrm V$$
+
+**Answer:** $284.332\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$568.664\,\mathrm V$** — This omits the one-half in kinetic energy.
+- **$142.166\,\mathrm V$** — The initial kinetic energy already includes the one-half factor.
+- **$200\,\mathrm V$** — The given endpoint does not stop the electron because final kinetic energy remains positive.
+
+<h4 id="solution-m5h42">Situation 42: Energy and stopping in a retarding field · Find the electron speed at the chosen endpoint</h4>
+
+An electron starts with speed $1\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 200 V. A corresponding uniform retarding region has field magnitude 3000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Find the electron speed at the chosen endpoint.
+
+1. **Identify the model and the conditions.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=284.332\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-200=84.3321\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Solve the requested quantity.**
+
+   $$v_f=\sqrt{2eK_{f,\rm eV}/m_e}=5.44607\times10^{6}\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The endpoint is reachable and the speed is lower than the initial speed.
+
+7. **State the result.**
+
+   $$5.44607\times10^{6}\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $5.44607\times10^{6}\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$1.30514\times10^{7}\,\mathrm{m\,s^{-1}}$** — This accelerates the electron instead of retarding it.
+- **$3.85096\times10^{6}\,\mathrm{m\,s^{-1}}$** — This omits the kinetic-energy factor two.
+- **$1\times10^{7}\,\mathrm{m\,s^{-1}}$** — The endpoint potential change does nonzero work.
+
+<h4 id="solution-m5h43">Situation 43: Energy and stopping in a retarding field · Find the endpoint kinetic energy in electronvolts</h4>
+
+An electron starts with speed $1\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 200 V. A corresponding uniform retarding region has field magnitude 3000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Find the endpoint kinetic energy in electronvolts.
+
+1. **Identify the model and the conditions.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=284.332\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-200=84.3321\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Solve the requested quantity.**
+
+   $$K_{f,\rm eV}=284.332-200=84.3321\,\mathrm{eV}$$
+
+6. **Check the physical result.** Subtract energies in the same units before converting the result to speed.
+
+7. **State the result.**
+
+   $$84.3321\,\mathrm{eV}$$
+
+**Answer:** $84.3321\,\mathrm{eV}$
+
+**Why the other answers do not work:**
+
+- **$484.332\,\mathrm{eV}$** — The electron loses, rather than gains, kinetic energy here.
+- **$200\,\mathrm{eV}$** — The potential-energy gain is not the remaining kinetic energy.
+- **$284.332\,\mathrm{eV}$** — This ignores the retarding potential change.
+
+<h4 id="solution-m5h44">Situation 44: Energy and stopping in a retarding field · Find the stopping distance in the stated uniform retarding field</h4>
+
+An electron starts with speed $1\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 200 V. A corresponding uniform retarding region has field magnitude 3000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Find the stopping distance in the stated uniform retarding field.
+
+1. **Identify the model and the conditions.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=284.332\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-200=84.3321\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Solve the requested quantity.**
+
+   $$d_{\rm stop}=V_{\rm stop}/E_0=284.332/3000$$
+
+6. **Check the physical result.** The stopping distance exceeds the endpoint distance because the electron still moves at that endpoint.
+
+7. **State the result.**
+
+   $$0.0947774\,\mathrm m$$
+
+**Answer:** $0.0947774\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.0666667\,\mathrm m$** — This gives the distance to the non-stopping endpoint.
+- **$0.189555\,\mathrm m$** — This omits the one-half from initial kinetic energy.
+- **$0.0473887\,\mathrm m$** — The stopping-work balance already includes the kinetic-energy one-half.
+
+<h4 id="solution-m5h45">Situation 45: Energy and stopping in a retarding field · model check</h4>
+
+An electron starts with speed $1\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 200 V. A corresponding uniform retarding region has field magnitude 3000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Why does decreasing potential slow this electron?
+
+1. **Identify what stays fixed.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=284.332\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-200=84.3321\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Apply the conclusion.** Energy conservation then gives a negative kinetic-energy change.
+
+**Answer:** The electron has negative charge, so a negative potential change gives a positive potential-energy change.
+
+**Why the other answers do not work:**
+
+- **Every charge slows when potential decreases.** — A positive charge would gain kinetic energy under electric force alone.
+- **Electric potential and electron kinetic energy are the same quantity.** — Potential is energy per charge; kinetic energy is energy.
+- **The electron charge changes to positive in a retarding field.** — The particle charge stays negative.
+
+<h4 id="solution-m5h46">Situation 46: Energy and stopping in a retarding field · Find the potential-drop magnitude that would just stop the electron</h4>
+
+An electron starts with speed $1.2\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 250 V. A corresponding uniform retarding region has field magnitude 4000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Find the potential-drop magnitude that would just stop the electron.
+
+1. **Identify the model and the conditions.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=409.438\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-250=159.438\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Solve the requested quantity.**
+
+   $$V_{\rm stop}=m_ev_i^2/(2e)=409.438\,\mathrm V$$
+
+6. **Check the physical result.** The electron stops when the increase in potential energy consumes all its initial kinetic energy.
+
+7. **State the result.**
+
+   $$409.438\,\mathrm V$$
+
+**Answer:** $409.438\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$818.876\,\mathrm V$** — This omits the one-half in kinetic energy.
+- **$204.719\,\mathrm V$** — The initial kinetic energy already includes the one-half factor.
+- **$250\,\mathrm V$** — The given endpoint does not stop the electron because final kinetic energy remains positive.
+
+<h4 id="solution-m5h47">Situation 47: Energy and stopping in a retarding field · Find the electron speed at the chosen endpoint</h4>
+
+An electron starts with speed $1.2\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 250 V. A corresponding uniform retarding region has field magnitude 4000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Find the electron speed at the chosen endpoint.
+
+1. **Identify the model and the conditions.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=409.438\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-250=159.438\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Solve the requested quantity.**
+
+   $$v_f=\sqrt{2eK_{f,\rm eV}/m_e}=7.4883\times10^{6}\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The endpoint is reachable and the speed is lower than the initial speed.
+
+7. **State the result.**
+
+   $$7.4883\times10^{6}\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $7.4883\times10^{6}\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$1.52291\times10^{7}\,\mathrm{m\,s^{-1}}$** — This accelerates the electron instead of retarding it.
+- **$5.29503\times10^{6}\,\mathrm{m\,s^{-1}}$** — This omits the kinetic-energy factor two.
+- **$1.2\times10^{7}\,\mathrm{m\,s^{-1}}$** — The endpoint potential change does nonzero work.
+
+<h4 id="solution-m5h48">Situation 48: Energy and stopping in a retarding field · Find the endpoint kinetic energy in electronvolts</h4>
+
+An electron starts with speed $1.2\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 250 V. A corresponding uniform retarding region has field magnitude 4000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Find the endpoint kinetic energy in electronvolts.
+
+1. **Identify the model and the conditions.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=409.438\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-250=159.438\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Solve the requested quantity.**
+
+   $$K_{f,\rm eV}=409.438-250=159.438\,\mathrm{eV}$$
+
+6. **Check the physical result.** Subtract energies in the same units before converting the result to speed.
+
+7. **State the result.**
+
+   $$159.438\,\mathrm{eV}$$
+
+**Answer:** $159.438\,\mathrm{eV}$
+
+**Why the other answers do not work:**
+
+- **$659.438\,\mathrm{eV}$** — The electron loses, rather than gains, kinetic energy here.
+- **$250\,\mathrm{eV}$** — The potential-energy gain is not the remaining kinetic energy.
+- **$409.438\,\mathrm{eV}$** — This ignores the retarding potential change.
+
+<h4 id="solution-m5h49">Situation 49: Energy and stopping in a retarding field · Find the stopping distance in the stated uniform retarding field</h4>
+
+An electron starts with speed $1.2\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 250 V. A corresponding uniform retarding region has field magnitude 4000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Find the stopping distance in the stated uniform retarding field.
+
+1. **Identify the model and the conditions.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=409.438\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-250=159.438\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Solve the requested quantity.**
+
+   $$d_{\rm stop}=V_{\rm stop}/E_0=409.438/4000$$
+
+6. **Check the physical result.** The stopping distance exceeds the endpoint distance because the electron still moves at that endpoint.
+
+7. **State the result.**
+
+   $$0.10236\,\mathrm m$$
+
+**Answer:** $0.10236\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.0625\,\mathrm m$** — This gives the distance to the non-stopping endpoint.
+- **$0.204719\,\mathrm m$** — This omits the one-half from initial kinetic energy.
+- **$0.0511798\,\mathrm m$** — The stopping-work balance already includes the kinetic-energy one-half.
+
+<h4 id="solution-m5h50">Situation 50: Energy and stopping in a retarding field · model check</h4>
+
+An electron starts with speed $1.2\times10^{7}\,\mathrm{m\,s^{-1}}$ and moves toward decreasing potential. The potential drop magnitude to a chosen endpoint is 250 V. A corresponding uniform retarding region has field magnitude 4000 N/C along the electron’s initial velocity. Use $m_e=9.11\times10^{-31}\,\mathrm{kg}$ and $e=1.602\times10^{-19}\,\mathrm C$. Ignore all other work and relativistic corrections. Why does decreasing potential slow this electron?
+
+1. **Identify what stays fixed.** For an electron, decreasing potential increases potential energy. Its lost kinetic energy is e times the potential-drop magnitude.
+
+2. **Find the initial kinetic energy in electronvolts.**
+
+   $$K_{i,\rm eV}=\frac{m_ev_i^2}{2e}=409.438\,\mathrm{eV}$$
+
+3. **Check whether the stated endpoint can be reached.**
+
+   $$K_{f,\rm eV}=K_{i,\rm eV}-250=159.438\,\mathrm{eV}>0$$
+
+4. **Relate stopping work to uniform-field distance.**
+
+   $$eE_0d_{\rm stop}=\tfrac12m_ev_i^2$$
+
+5. **Apply the conclusion.** Energy conservation then gives a negative kinetic-energy change.
+
+**Answer:** The electron has negative charge, so a negative potential change gives a positive potential-energy change.
+
+**Why the other answers do not work:**
+
+- **Every charge slows when potential decreases.** — A positive charge would gain kinetic energy under electric force alone.
+- **Electric potential and electron kinetic energy are the same quantity.** — Potential is energy per charge; kinetic energy is energy.
+- **The electron charge changes to positive in a retarding field.** — The particle charge stays negative.
+
+<h4 id="solution-m5h51">Situation 51: Recover motion from a potential map · Find the signed x component of electric field</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-150)x+(80)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. Find the signed x component of electric field.
+
+1. **Identify the model and the conditions.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=150,\quad E_y=-\partial V/\partial y=-80\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-150)(0.20)+(80)(0.10)=-22\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=4.4\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$E_x=-(-150)=150\,\mathrm{N\,C^{-1}}$$
+
+6. **Check the physical result.** Potential decreases as x increases, so the x field points in the positive x direction.
+
+7. **State the result.**
+
+   $$150\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $150\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$-150\,\mathrm{N\,C^{-1}}$** — This omits the minus sign in $\vec E=-\nabla V$.
+- **$40\,\mathrm{N\,C^{-1}}$** — A constant potential offset is not a field component.
+- **$170\,\mathrm{N\,C^{-1}}$** — This gives the field magnitude, not its x component.
+
+<h4 id="solution-m5h52">Situation 52: Recover motion from a potential map · Find the signed field angle from +x, with upward angles positive</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-150)x+(80)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. Find the signed field angle from +x, with upward angles positive.
+
+1. **Identify the model and the conditions.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=150,\quad E_y=-\partial V/\partial y=-80\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-150)(0.20)+(80)(0.10)=-22\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=4.4\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$\theta=\operatorname{atan2}(-80,150)=-28.0725{}^\circ$$
+
+6. **Check the physical result.** Positive x and negative y place the field below the positive x axis.
+
+7. **State the result.**
+
+   $$-28.0725\,{}^\circ$$
+
+**Answer:** $-28.0725\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$28.0725\,{}^\circ$** — This reverses the y component.
+- **$151.928\,{}^\circ$** — This places the field on the wrong side of the y axis.
+- **$61.9275\,{}^\circ$** — This measures a complementary angle rather than the angle from +x.
+
+<h4 id="solution-m5h53">Situation 53: Recover motion from a potential map · Find the signed electric work on the particle</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-150)x+(80)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. Find the signed electric work on the particle.
+
+1. **Identify the model and the conditions.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=150,\quad E_y=-\partial V/\partial y=-80\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-150)(0.20)+(80)(0.10)=-22\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=4.4\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$W_E=-(2.0\times10^{-6})(-22)=4.4\times10^{-5}\,\mathrm J$$
+
+6. **Check the physical result.** The positive charge loses potential energy and gains kinetic energy.
+
+7. **State the result.**
+
+   $$4.4\times10^{-5}\,\mathrm J$$
+
+**Answer:** $4.4\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-4.4\times10^{-5}\,\mathrm J$** — This gives potential-energy change rather than electric work.
+- **$-3.6\times10^{-5}\,\mathrm J$** — The constant reference cancels between endpoints.
+- **$6\times10^{-5}\,\mathrm J$** — This omits the y displacement contribution.
+
+<h4 id="solution-m5h54">Situation 54: Recover motion from a potential map · Find the final particle speed</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-150)x+(80)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. Find the final particle speed.
+
+1. **Identify the model and the conditions.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=150,\quad E_y=-\partial V/\partial y=-80\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-150)(0.20)+(80)(0.10)=-22\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=4.4\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$v_f=\sqrt{12^2+2(4.4\times10^{-5})/10^{-6}}=15.2315\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The final speed exceeds the initial speed because field work is positive.
+
+7. **State the result.**
+
+   $$15.2315\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $15.2315\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$9.38083\,\mathrm{m\,s^{-1}}$** — This ignores the initial kinetic energy.
+- **$13.7113\,\mathrm{m\,s^{-1}}$** — This omits the factor two in converting work to squared speed.
+- **$12\,\mathrm{m\,s^{-1}}$** — The electric field does positive work.
+
+<h4 id="solution-m5h55">Situation 55: Recover motion from a potential map · model check</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-150)x+(80)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. What changes if 100 V is added everywhere to this potential map?
+
+1. **Identify what stays fixed.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=150,\quad E_y=-\partial V/\partial y=-80\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-150)(0.20)+(80)(0.10)=-22\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=4.4\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Apply the conclusion.** The gradient and potential differences do not depend on a constant reference offset.
+
+**Answer:** The field, endpoint work, and predicted speed remain unchanged.
+
+**Why the other answers do not work:**
+
+- **Every field component increases by 100 N/C.** — A constant has zero spatial derivative.
+- **The field work increases by charge times 100 V.** — The same offset appears at both endpoints and cancels.
+- **The particle’s charge increases.** — A potential-reference choice cannot change the particle charge.
+
+<h4 id="solution-m5h56">Situation 56: Recover motion from a potential map · Find the signed x component of electric field</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-180)x+(100)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. Find the signed x component of electric field.
+
+1. **Identify the model and the conditions.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=180,\quad E_y=-\partial V/\partial y=-100\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-180)(0.20)+(100)(0.10)=-26\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=5.2\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$E_x=-(-180)=180\,\mathrm{N\,C^{-1}}$$
+
+6. **Check the physical result.** Potential decreases as x increases, so the x field points in the positive x direction.
+
+7. **State the result.**
+
+   $$180\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $180\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$-180\,\mathrm{N\,C^{-1}}$** — This omits the minus sign in $\vec E=-\nabla V$.
+- **$40\,\mathrm{N\,C^{-1}}$** — A constant potential offset is not a field component.
+- **$205.913\,\mathrm{N\,C^{-1}}$** — This gives the field magnitude, not its x component.
+
+<h4 id="solution-m5h57">Situation 57: Recover motion from a potential map · Find the signed field angle from +x, with upward angles positive</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-180)x+(100)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. Find the signed field angle from +x, with upward angles positive.
+
+1. **Identify the model and the conditions.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=180,\quad E_y=-\partial V/\partial y=-100\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-180)(0.20)+(100)(0.10)=-26\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=5.2\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$\theta=\operatorname{atan2}(-100,180)=-29.0546{}^\circ$$
+
+6. **Check the physical result.** Positive x and negative y place the field below the positive x axis.
+
+7. **State the result.**
+
+   $$-29.0546\,{}^\circ$$
+
+**Answer:** $-29.0546\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$29.0546\,{}^\circ$** — This reverses the y component.
+- **$150.945\,{}^\circ$** — This places the field on the wrong side of the y axis.
+- **$60.9454\,{}^\circ$** — This measures a complementary angle rather than the angle from +x.
+
+<h4 id="solution-m5h58">Situation 58: Recover motion from a potential map · Find the signed electric work on the particle</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-180)x+(100)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. Find the signed electric work on the particle.
+
+1. **Identify the model and the conditions.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=180,\quad E_y=-\partial V/\partial y=-100\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-180)(0.20)+(100)(0.10)=-26\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=5.2\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$W_E=-(2.0\times10^{-6})(-26)=5.2\times10^{-5}\,\mathrm J$$
+
+6. **Check the physical result.** The positive charge loses potential energy and gains kinetic energy.
+
+7. **State the result.**
+
+   $$5.2\times10^{-5}\,\mathrm J$$
+
+**Answer:** $5.2\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-5.2\times10^{-5}\,\mathrm J$** — This gives potential-energy change rather than electric work.
+- **$-2.8\times10^{-5}\,\mathrm J$** — The constant reference cancels between endpoints.
+- **$7.2\times10^{-5}\,\mathrm J$** — This omits the y displacement contribution.
+
+<h4 id="solution-m5h59">Situation 59: Recover motion from a potential map · Find the final particle speed</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-180)x+(100)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. Find the final particle speed.
+
+1. **Identify the model and the conditions.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=180,\quad E_y=-\partial V/\partial y=-100\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-180)(0.20)+(100)(0.10)=-26\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=5.2\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Solve the requested quantity.**
+
+   $$v_f=\sqrt{12^2+2(5.2\times10^{-5})/10^{-6}}=15.748\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** The final speed exceeds the initial speed because field work is positive.
+
+7. **State the result.**
+
+   $$15.748\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $15.748\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$10.198\,\mathrm{m\,s^{-1}}$** — This ignores the initial kinetic energy.
+- **$14\,\mathrm{m\,s^{-1}}$** — This omits the factor two in converting work to squared speed.
+- **$12\,\mathrm{m\,s^{-1}}$** — The electric field does positive work.
+
+<h4 id="solution-m5h60">Situation 60: Recover motion from a potential map · model check</h4>
+
+A region has electrostatic potential $V(x,y)=40+(-180)x+(100)y$ volts when coordinates are in metres. A particle with charge $+2.0\,\mu\mathrm C$ and mass $1.0\times10^{-6}\,\mathrm{kg}$ moves through $(0.20,0.10)\,\mathrm m$. Its initial speed is 12 m/s. Only the electric force does work. What changes if 100 V is added everywhere to this potential map?
+
+1. **Identify what stays fixed.** The electric field is the negative spatial gradient of potential. A constant reference offset does not affect the field or potential difference.
+
+2. **Differentiate the potential.**
+
+   $$E_x=-\partial V/\partial x=180,\quad E_y=-\partial V/\partial y=-100\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Evaluate the endpoint difference.**
+
+   $$\Delta V=(-180)(0.20)+(100)(0.10)=-26\,\mathrm V$$
+
+4. **Use field work in the kinetic-energy balance.**
+
+   $$W_E=-q\Delta V=5.2\times10^{-5}\,\mathrm J,\quad v_f^2=v_i^2+2W_E/m$$
+
+5. **Apply the conclusion.** The gradient and potential differences do not depend on a constant reference offset.
+
+**Answer:** The field, endpoint work, and predicted speed remain unchanged.
+
+**Why the other answers do not work:**
+
+- **Every field component increases by 100 N/C.** — A constant has zero spatial derivative.
+- **The field work increases by charge times 100 V.** — The same offset appears at both endpoints and cancels.
+- **The particle’s charge increases.** — A potential-reference choice cannot change the particle charge.
+

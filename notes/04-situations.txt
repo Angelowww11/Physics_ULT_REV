@@ -270,3 +270,1643 @@ A −3.0 nC charge is at $x=-0.020\,\mathrm m$ and a +3.0 nC charge at $x=+0.020
 - **$2157.6\,\mathrm{N\,C^{-1}}$** — This is the far-field estimate; the question asks for the exact finite-separation result.
 - **$0\,\mathrm{N\,C^{-1}}$** — Neutral total charge does not imply zero field outside a dipole.
 
+<h4 id="solution-m4h11">Situation 11: Two perpendicular source fields · Find the net electric-field magnitude at the origin</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.04\,\mathrm m$, $b=0.06\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Find the net electric-field magnitude at the origin.
+
+1. **Identify the model and the conditions.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=11237.5,\quad E_y=2kQ/b^2=9988.89\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=15035.3\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$E=\sqrt{(11237.5)^2+(9988.89)^2}$$
+
+5. **Check the physical result.** Field magnitude is independent of the chosen test-particle charge.
+
+6. **State the result.**
+
+   $$15035.3\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $15035.3\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$21226.4\,\mathrm{N\,C^{-1}}$** — The two field components are perpendicular, not parallel.
+- **$1248.61\,\mathrm{N\,C^{-1}}$** — Opposite-direction subtraction does not apply to perpendicular vectors.
+- **$11237.5\,\mathrm{N\,C^{-1}}$** — This ignores the upper source.
+
+<h4 id="solution-m4h12">Situation 12: Two perpendicular source fields · Find the field direction counterclockwise from +x</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.04\,\mathrm m$, $b=0.06\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Find the field direction counterclockwise from +x.
+
+1. **Identify the model and the conditions.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=11237.5,\quad E_y=2kQ/b^2=9988.89\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=15035.3\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$\theta_E=\tan^{-1}(E_y/E_x)=41.6335{}^\circ$$
+
+5. **Check the physical result.** Both field components are positive, so the field lies in quadrant I.
+
+6. **State the result.**
+
+   $$41.6335\,{}^\circ$$
+
+**Answer:** $41.6335\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$48.3665\,{}^\circ$** — This interchanges the two component roles.
+- **$221.634\,{}^\circ$** — The negative test charge reverses force, not the source field.
+- **$318.366\,{}^\circ$** — The upper negative source produces an upward field at the origin.
+
+<h4 id="solution-m4h13">Situation 13: Two perpendicular source fields · Find the signed y force on the test particle</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.04\,\mathrm m$, $b=0.06\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Find the signed y force on the test particle.
+
+1. **Identify the model and the conditions.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=11237.5,\quad E_y=2kQ/b^2=9988.89\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=15035.3\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$F_y=q_tE_y=(-2.0\times10^{-9})(9988.89)$$
+
+5. **Check the physical result.** The negative particle’s y force points downward, opposite the upward y field.
+
+6. **State the result.**
+
+   $$-1.99778\times10^{-5}\,\mathrm N$$
+
+**Answer:** $-1.99778\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$1.99778\times10^{-5}\,\mathrm N$** — This ignores the test particle’s negative charge.
+- **$-3.00705\times10^{-5}\,\mathrm N$** — This gives a negative total-magnitude value, not its y component.
+- **$-2.2475\times10^{-5}\,\mathrm N$** — This uses the x field component for a y force.
+
+<h4 id="solution-m4h14">Situation 14: Two perpendicular source fields · Find the initial test-particle acceleration magnitude</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.04\,\mathrm m$, $b=0.06\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Find the initial test-particle acceleration magnitude.
+
+1. **Identify the model and the conditions.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=11237.5,\quad E_y=2kQ/b^2=9988.89\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=15035.3\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$a=|q_t|E/m=\frac{(2.0\times10^{-9})(15035.3)}{10^{-6}}$$
+
+5. **Check the physical result.** The acceleration is opposite to the field for a negative particle, but its magnitude is positive.
+
+6. **State the result.**
+
+   $$30.0705\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $30.0705\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$42.4528\,\mathrm{m\,s^{-2}}$** — This adds perpendicular field magnitudes before calculating force.
+- **$22.475\,\mathrm{m\,s^{-2}}$** — This ignores the y field.
+- **$19.9778\,\mathrm{m\,s^{-2}}$** — This ignores the x field.
+
+<h4 id="solution-m4h15">Situation 15: Two perpendicular source fields · model check</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=2\times10^{-9}\,\mathrm C$, $a=0.04\,\mathrm m$, $b=0.06\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Which vector reverses when only the test-particle charge changes from negative to positive?
+
+1. **Identify what stays fixed.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=11237.5,\quad E_y=2kQ/b^2=9988.89\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=15035.3\,\mathrm{N\,C^{-1}}$$
+
+4. **Apply the conclusion.** The field is produced by the fixed sources, while force equals test charge times field.
+
+**Answer:** The force vector; the source electric-field vector does not change.
+
+**Why the other answers do not work:**
+
+- **Both the source field and force vectors.** — Changing the test charge does not change the stated fixed sources.
+- **Only the source field vector.** — It is the force that depends on the test-charge sign.
+- **Neither vector.** — The force depends directly on the signed test charge.
+
+<h4 id="solution-m4h16">Situation 16: Two perpendicular source fields · Find the net electric-field magnitude at the origin</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, $b=0.08\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Find the net electric-field magnitude at the origin.
+
+1. **Identify the model and the conditions.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=7491.67,\quad E_y=2kQ/b^2=8428.13\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=11276.5\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$E=\sqrt{(7491.67)^2+(8428.13)^2}$$
+
+5. **Check the physical result.** Field magnitude is independent of the chosen test-particle charge.
+
+6. **State the result.**
+
+   $$11276.5\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $11276.5\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$15919.8\,\mathrm{N\,C^{-1}}$** — The two field components are perpendicular, not parallel.
+- **$936.458\,\mathrm{N\,C^{-1}}$** — Opposite-direction subtraction does not apply to perpendicular vectors.
+- **$7491.67\,\mathrm{N\,C^{-1}}$** — This ignores the upper source.
+
+<h4 id="solution-m4h17">Situation 17: Two perpendicular source fields · Find the field direction counterclockwise from +x</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, $b=0.08\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Find the field direction counterclockwise from +x.
+
+1. **Identify the model and the conditions.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=7491.67,\quad E_y=2kQ/b^2=8428.13\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=11276.5\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$\theta_E=\tan^{-1}(E_y/E_x)=48.3665{}^\circ$$
+
+5. **Check the physical result.** Both field components are positive, so the field lies in quadrant I.
+
+6. **State the result.**
+
+   $$48.3665\,{}^\circ$$
+
+**Answer:** $48.3665\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$41.6335\,{}^\circ$** — This interchanges the two component roles.
+- **$228.366\,{}^\circ$** — The negative test charge reverses force, not the source field.
+- **$311.634\,{}^\circ$** — The upper negative source produces an upward field at the origin.
+
+<h4 id="solution-m4h18">Situation 18: Two perpendicular source fields · Find the signed y force on the test particle</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, $b=0.08\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Find the signed y force on the test particle.
+
+1. **Identify the model and the conditions.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=7491.67,\quad E_y=2kQ/b^2=8428.13\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=11276.5\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$F_y=q_tE_y=(-2.0\times10^{-9})(8428.13)$$
+
+5. **Check the physical result.** The negative particle’s y force points downward, opposite the upward y field.
+
+6. **State the result.**
+
+   $$-1.68562\times10^{-5}\,\mathrm N$$
+
+**Answer:** $-1.68562\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$1.68562\times10^{-5}\,\mathrm N$** — This ignores the test particle’s negative charge.
+- **$-2.25529\times10^{-5}\,\mathrm N$** — This gives a negative total-magnitude value, not its y component.
+- **$-1.49833\times10^{-5}\,\mathrm N$** — This uses the x field component for a y force.
+
+<h4 id="solution-m4h19">Situation 19: Two perpendicular source fields · Find the initial test-particle acceleration magnitude</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, $b=0.08\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Find the initial test-particle acceleration magnitude.
+
+1. **Identify the model and the conditions.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=7491.67,\quad E_y=2kQ/b^2=8428.13\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=11276.5\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$a=|q_t|E/m=\frac{(2.0\times10^{-9})(11276.5)}{10^{-6}}$$
+
+5. **Check the physical result.** The acceleration is opposite to the field for a negative particle, but its magnitude is positive.
+
+6. **State the result.**
+
+   $$22.5529\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $22.5529\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$31.8396\,\mathrm{m\,s^{-2}}$** — This adds perpendicular field magnitudes before calculating force.
+- **$14.9833\,\mathrm{m\,s^{-2}}$** — This ignores the y field.
+- **$16.8562\,\mathrm{m\,s^{-2}}$** — This ignores the x field.
+
+<h4 id="solution-m4h20">Situation 20: Two perpendicular source fields · model check</h4>
+
+A fixed $+Q$ source lies at $(-a,0)$ and a fixed $-2Q$ source lies at $(0,+b)$. Use $Q=3\times10^{-9}\,\mathrm C$, $a=0.06\,\mathrm m$, $b=0.08\,\mathrm m$, and $k=8.99\times10^9$ in SI units. A separate test particle at the origin has charge $-2.0\,\mathrm{nC}$ and mass $1.0\times10^{-6}\,\mathrm{kg}$. Its presence does not move the sources. Ignore other forces. Which vector reverses when only the test-particle charge changes from negative to positive?
+
+1. **Identify what stays fixed.** The left positive source gives a rightward field; the upper negative source gives an upward field. Multiply the resulting field by the signed test charge only after superposition.
+
+2. **Calculate the field components.**
+
+   $$E_x=kQ/a^2=7491.67,\quad E_y=2kQ/b^2=8428.13\quad(\mathrm{N\,C^{-1}})$$
+
+3. **Combine the components.**
+
+   $$E=\sqrt{E_x^2+E_y^2}=11276.5\,\mathrm{N\,C^{-1}}$$
+
+4. **Apply the conclusion.** The field is produced by the fixed sources, while force equals test charge times field.
+
+**Answer:** The force vector; the source electric-field vector does not change.
+
+**Why the other answers do not work:**
+
+- **Both the source field and force vectors.** — Changing the test charge does not change the stated fixed sources.
+- **Only the source field vector.** — It is the force that depends on the test-charge sign.
+- **Neither vector.** — The force depends directly on the signed test charge.
+
+<h4 id="solution-m4h21">Situation 21: An electron first rises, then falls · Find the signed exit vertical displacement</h4>
+
+An electron enters a region of uniform upward electric field $E=1000\,\mathrm{N\,C^{-1}}$. The region extends 0.04 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. Find the signed exit vertical displacement.
+
+1. **Identify the model and the conditions.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-1.75851\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=5.68664\times10^{-10}\,\mathrm s<t$$
+
+5. **Solve the requested quantity.**
+
+   $$y=(10^5)(2\times10^{-9})+\tfrac12(-1.75851\times10^{14})(2\times10^{-9})^2=-1.51701\times10^{-4}\,\mathrm m$$
+
+6. **Check the physical result.** The electron can finish below entry height even though it initially moved upward.
+
+7. **State the result.**
+
+   $$-1.51701\times10^{-4}\,\mathrm m$$
+
+**Answer:** $-1.51701\times10^{-4}\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$-3.51701\times10^{-4}\,\mathrm m$** — This omits the initial upward vertical motion.
+- **$5.51701\times10^{-4}\,\mathrm m$** — This gives the electron an upward acceleration.
+- **$1.51701\times10^{-4}\,\mathrm m$** — This reverses the stated upward-positive coordinate.
+
+<h4 id="solution-m4h22">Situation 22: An electron first rises, then falls · Find the signed exit vertical velocity</h4>
+
+An electron enters a region of uniform upward electric field $E=1000\,\mathrm{N\,C^{-1}}$. The region extends 0.04 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. Find the signed exit vertical velocity.
+
+1. **Identify the model and the conditions.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-1.75851\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=5.68664\times10^{-10}\,\mathrm s<t$$
+
+5. **Solve the requested quantity.**
+
+   $$v_y=10^5+(-1.75851\times10^{14})(2\times10^{-9})=-251701\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** Negative exit vertical velocity agrees with the downward acceleration after the turning point.
+
+7. **State the result.**
+
+   $$-251701\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $-251701\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$-351701\,\mathrm{m\,s^{-1}}$** — This omits the initial vertical velocity.
+- **$451701\,\mathrm{m\,s^{-1}}$** — This reverses the acceleration sign.
+- **$251701\,\mathrm{m\,s^{-1}}$** — The electron has passed its highest point and is moving downward.
+
+<h4 id="solution-m4h23">Situation 23: An electron first rises, then falls · Find the signed exit angle relative to +x, with upward angles positive</h4>
+
+An electron enters a region of uniform upward electric field $E=1000\,\mathrm{N\,C^{-1}}$. The region extends 0.04 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. Find the signed exit angle relative to +x, with upward angles positive.
+
+1. **Identify the model and the conditions.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-1.75851\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=5.68664\times10^{-10}\,\mathrm s<t$$
+
+5. **Solve the requested quantity.**
+
+   $$\theta=\operatorname{atan2}(v_y,v_x)=-0.721033{}^\circ$$
+
+6. **Check the physical result.** The exit direction follows the final velocity vector, not the net displacement.
+
+7. **State the result.**
+
+   $$-0.721033\,{}^\circ$$
+
+**Answer:** $-0.721033\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$0.721033\,{}^\circ$** — This reports an upward exit direction.
+- **$-0.217295\,{}^\circ$** — This is the entry-to-exit chord angle, not the final velocity angle.
+- **$89.279\,{}^\circ$** — This measures an angle from the vertical instead of +x.
+
+<h4 id="solution-m4h24">Situation 24: An electron first rises, then falls · Find the maximum height above the entry point</h4>
+
+An electron enters a region of uniform upward electric field $E=1000\,\mathrm{N\,C^{-1}}$. The region extends 0.04 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. Find the maximum height above the entry point.
+
+1. **Identify the model and the conditions.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-1.75851\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=5.68664\times10^{-10}\,\mathrm s<t$$
+
+5. **Solve the requested quantity.**
+
+   $$0=v_{y0}^2+2a_yy_{\max}\ \Rightarrow\ y_{\max}=-v_{y0}^2/(2a_y)=2.84332\times10^{-5}\,\mathrm m$$
+
+6. **Check the physical result.** The maximum occurs when vertical velocity is zero, before the electron exits.
+
+7. **State the result.**
+
+   $$2.84332\times10^{-5}\,\mathrm m$$
+
+**Answer:** $2.84332\times10^{-5}\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$5.68664\times10^{-5}\,\mathrm m$** — This omits the factor of two in the kinematic relation.
+- **$1.51701\times10^{-4}\,\mathrm m$** — The exit is not the highest point.
+- **$1.42166\times10^{-5}\,\mathrm m$** — The relation already includes the required factor of two.
+
+<h4 id="solution-m4h25">Situation 25: An electron first rises, then falls · model check</h4>
+
+An electron enters a region of uniform upward electric field $E=1000\,\mathrm{N\,C^{-1}}$. The region extends 0.04 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. At the highest point, which statement is correct?
+
+1. **Identify what stays fixed.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-1.75851\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=5.68664\times10^{-10}\,\mathrm s<t$$
+
+5. **Apply the conclusion.** The uniform electric force continues to act at the turning point.
+
+**Answer:** Vertical velocity is zero, but vertical acceleration remains downward.
+
+**Why the other answers do not work:**
+
+- **The electric force becomes zero because the electron stops rising.** — Electric force depends on charge and field, not on vertical speed.
+- **The total electron speed is zero.** — The horizontal velocity remains nonzero.
+- **The electron follows the upward field line from that point onward.** — A negative particle’s force is opposite the field, and a field line is not its general trajectory.
+
+<h4 id="solution-m4h26">Situation 26: An electron first rises, then falls · Find the signed exit vertical displacement</h4>
+
+An electron enters a region of uniform upward electric field $E=1200\,\mathrm{N\,C^{-1}}$. The region extends 0.045 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. Find the signed exit vertical displacement.
+
+1. **Identify the model and the conditions.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-2.11021\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2.25\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=4.73887\times10^{-10}\,\mathrm s<t$$
+
+5. **Solve the requested quantity.**
+
+   $$y=(10^5)(2.25\times10^{-9})+\tfrac12(-2.11021\times10^{14})(2.25\times10^{-9})^2=-3.09147\times10^{-4}\,\mathrm m$$
+
+6. **Check the physical result.** The electron can finish below entry height even though it initially moved upward.
+
+7. **State the result.**
+
+   $$-3.09147\times10^{-4}\,\mathrm m$$
+
+**Answer:** $-3.09147\times10^{-4}\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$-5.34147\times10^{-4}\,\mathrm m$** — This omits the initial upward vertical motion.
+- **$7.59147\times10^{-4}\,\mathrm m$** — This gives the electron an upward acceleration.
+- **$3.09147\times10^{-4}\,\mathrm m$** — This reverses the stated upward-positive coordinate.
+
+<h4 id="solution-m4h27">Situation 27: An electron first rises, then falls · Find the signed exit vertical velocity</h4>
+
+An electron enters a region of uniform upward electric field $E=1200\,\mathrm{N\,C^{-1}}$. The region extends 0.045 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. Find the signed exit vertical velocity.
+
+1. **Identify the model and the conditions.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-2.11021\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2.25\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=4.73887\times10^{-10}\,\mathrm s<t$$
+
+5. **Solve the requested quantity.**
+
+   $$v_y=10^5+(-2.11021\times10^{14})(2.25\times10^{-9})=-374797\,\mathrm{m\,s^{-1}}$$
+
+6. **Check the physical result.** Negative exit vertical velocity agrees with the downward acceleration after the turning point.
+
+7. **State the result.**
+
+   $$-374797\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $-374797\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$-474797\,\mathrm{m\,s^{-1}}$** — This omits the initial vertical velocity.
+- **$574797\,\mathrm{m\,s^{-1}}$** — This reverses the acceleration sign.
+- **$374797\,\mathrm{m\,s^{-1}}$** — The electron has passed its highest point and is moving downward.
+
+<h4 id="solution-m4h28">Situation 28: An electron first rises, then falls · Find the signed exit angle relative to +x, with upward angles positive</h4>
+
+An electron enters a region of uniform upward electric field $E=1200\,\mathrm{N\,C^{-1}}$. The region extends 0.045 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. Find the signed exit angle relative to +x, with upward angles positive.
+
+1. **Identify the model and the conditions.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-2.11021\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2.25\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=4.73887\times10^{-10}\,\mathrm s<t$$
+
+5. **Solve the requested quantity.**
+
+   $$\theta=\operatorname{atan2}(v_y,v_x)=-1.07359{}^\circ$$
+
+6. **Check the physical result.** The exit direction follows the final velocity vector, not the net displacement.
+
+7. **State the result.**
+
+   $$-1.07359\,{}^\circ$$
+
+**Answer:** $-1.07359\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$1.07359\,{}^\circ$** — This reports an upward exit direction.
+- **$-0.393611\,{}^\circ$** — This is the entry-to-exit chord angle, not the final velocity angle.
+- **$88.9264\,{}^\circ$** — This measures an angle from the vertical instead of +x.
+
+<h4 id="solution-m4h29">Situation 29: An electron first rises, then falls · Find the maximum height above the entry point</h4>
+
+An electron enters a region of uniform upward electric field $E=1200\,\mathrm{N\,C^{-1}}$. The region extends 0.045 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. Find the maximum height above the entry point.
+
+1. **Identify the model and the conditions.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-2.11021\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2.25\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=4.73887\times10^{-10}\,\mathrm s<t$$
+
+5. **Solve the requested quantity.**
+
+   $$0=v_{y0}^2+2a_yy_{\max}\ \Rightarrow\ y_{\max}=-v_{y0}^2/(2a_y)=2.36943\times10^{-5}\,\mathrm m$$
+
+6. **Check the physical result.** The maximum occurs when vertical velocity is zero, before the electron exits.
+
+7. **State the result.**
+
+   $$2.36943\times10^{-5}\,\mathrm m$$
+
+**Answer:** $2.36943\times10^{-5}\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$4.73887\times10^{-5}\,\mathrm m$** — This omits the factor of two in the kinematic relation.
+- **$3.09147\times10^{-4}\,\mathrm m$** — The exit is not the highest point.
+- **$1.18472\times10^{-5}\,\mathrm m$** — The relation already includes the required factor of two.
+
+<h4 id="solution-m4h30">Situation 30: An electron first rises, then falls · model check</h4>
+
+An electron enters a region of uniform upward electric field $E=1200\,\mathrm{N\,C^{-1}}$. The region extends 0.045 m horizontally. Initially $v_x=2.00\times10^7\,\mathrm{m\,s^{-1}}$ and $v_y=+1.00\times10^5\,\mathrm{m\,s^{-1}}$. Take its entry point as y zero. Use $e=1.602\times10^{-19}\,\mathrm C$ and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Ignore gravity, fringing, and relativistic corrections. No plate intercepts the trajectory. At the highest point, which statement is correct?
+
+1. **Identify what stays fixed.** The electron accelerates downward. Its horizontal velocity stays constant. Initial upward motion does not imply upward acceleration.
+
+2. **Find the signed acceleration and flight time.**
+
+   $$a_y=-eE/m_e=-2.11021\times10^{14}\,\mathrm{m\,s^{-2}},\quad t=L/v_x=2.25\times10^{-9}\,\mathrm s$$
+
+3. **Keep the initial vertical velocity term.**
+
+   $$y=v_{y0}t+\tfrac12a_yt^2,\quad v_y=v_{y0}+a_yt$$
+
+4. **Check that the turning point occurs inside the region.**
+
+   $$t_{\rm turn}=-v_{y0}/a_y=4.73887\times10^{-10}\,\mathrm s<t$$
+
+5. **Apply the conclusion.** The uniform electric force continues to act at the turning point.
+
+**Answer:** Vertical velocity is zero, but vertical acceleration remains downward.
+
+**Why the other answers do not work:**
+
+- **The electric force becomes zero because the electron stops rising.** — Electric force depends on charge and field, not on vertical speed.
+- **The total electron speed is zero.** — The horizontal velocity remains nonzero.
+- **The electron follows the upward field line from that point onward.** — A negative particle’s force is opposite the field, and a field line is not its general trajectory.
+
+<h4 id="solution-m4h31">Situation 31: A zero field outside opposite charges · Find the signed x coordinate where the net field is zero</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-4Q$ is at $x=0.12\,\mathrm m$. Use $Q=2\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Find the signed x coordinate where the net field is zero.
+
+1. **Identify the model and the conditions.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(4Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{4}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{4}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+4)/d^2=24972.2\,\mathrm{N\,C^{-1}}$$
+
+5. **Solve the requested quantity.**
+
+   $$x_0=-0.12/(\sqrt{4}-1)=-0.12\,\mathrm m$$
+
+6. **Check the physical result.** The negative coordinate places the point left of the smaller positive charge.
+
+7. **State the result.**
+
+   $$-0.12\,\mathrm m$$
+
+**Answer:** $-0.12\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.04\,\mathrm m$** — This proposes a point between opposite charges where their fields add.
+- **$0.12\,\mathrm m$** — This places the point on the stronger-charge side.
+- **$-0.04\,\mathrm m$** — The inverse-square equality requires a square root of the charge ratio.
+
+<h4 id="solution-m4h32">Situation 32: A zero field outside opposite charges · Find the signed field at the midpoint</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-4Q$ is at $x=0.12\,\mathrm m$. Use $Q=2\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Find the signed field at the midpoint.
+
+1. **Identify the model and the conditions.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(4Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{4}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{4}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+4)/d^2=24972.2\,\mathrm{N\,C^{-1}}$$
+
+5. **Solve the requested quantity.**
+
+   $$E_{\rm mid}=\frac{4kQ(1+4)}{d^2}$$
+
+6. **Check the physical result.** The midpoint field points from the positive charge toward the negative charge.
+
+7. **State the result.**
+
+   $$24972.2\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $24972.2\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$-14983.3\,\mathrm{N\,C^{-1}}$** — The two midpoint fields point right and must add.
+- **$6243.06\,\mathrm{N\,C^{-1}}$** — The midpoint is distance d/2 from each charge.
+- **$4994.44\,\mathrm{N\,C^{-1}}$** — This ignores the larger negative source.
+
+<h4 id="solution-m4h33">Situation 33: A zero field outside opposite charges · Find the signed force on the negative test charge at the midpoint</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-4Q$ is at $x=0.12\,\mathrm m$. Use $Q=2\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Find the signed force on the negative test charge at the midpoint.
+
+1. **Identify the model and the conditions.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(4Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{4}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{4}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+4)/d^2=24972.2\,\mathrm{N\,C^{-1}}$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x=q_tE_{\rm mid}=(-10^{-9})(24972.2)$$
+
+6. **Check the physical result.** The negative test charge feels a leftward force in a rightward field.
+
+7. **State the result.**
+
+   $$-2.49722\times10^{-5}\,\mathrm N$$
+
+**Answer:** $-2.49722\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$2.49722\times10^{-5}\,\mathrm N$** — This drops the negative test-charge sign.
+- **$-4.99444\times10^{-6}\,\mathrm N$** — This ignores the larger source.
+- **$1.49833\times10^{-5}\,\mathrm N$** — This subtracts midpoint fields that point in the same direction.
+
+<h4 id="solution-m4h34">Situation 34: A zero field outside opposite charges · Find the signed field at x equal to twice the source separation</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-4Q$ is at $x=0.12\,\mathrm m$. Use $Q=2\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Find the signed field at x equal to twice the source separation.
+
+1. **Identify the model and the conditions.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(4Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{4}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{4}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+4)/d^2=24972.2\,\mathrm{N\,C^{-1}}$$
+
+5. **Solve the requested quantity.**
+
+   $$E_x(2d)=\frac{kQ}{(2d)^2}-\frac{k(4Q)}{d^2}=\frac{kQ}{d^2}(1/4-4)$$
+
+6. **Check the physical result.** The point is closer to the larger negative source, so its leftward field dominates.
+
+7. **State the result.**
+
+   $$-4682.29\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $-4682.29\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$5306.6\,\mathrm{N\,C^{-1}}$** — To the right of both sources, their fields oppose.
+- **$-936.458\,\mathrm{N\,C^{-1}}$** — The negative source is distance d, not 2d, from this point.
+- **$4682.29\,\mathrm{N\,C^{-1}}$** — The larger, nearer negative source dominates leftward.
+
+<h4 id="solution-m4h35">Situation 35: A zero field outside opposite charges · model check</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-4Q$ is at $x=0.12\,\mathrm m$. Use $Q=2\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Why is there no zero-field point between the two sources?
+
+1. **Identify what stays fixed.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(4Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{4}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{4}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+4)/d^2=24972.2\,\mathrm{N\,C^{-1}}$$
+
+5. **Apply the conclusion.** Nonzero field magnitudes in the same direction cannot cancel.
+
+**Answer:** The field away from the positive source and toward the negative source has the same direction there.
+
+**Why the other answers do not work:**
+
+- **The potential must have the same sign everywhere.** — Potential and field cancellation are different conditions.
+- **The larger source always cancels the smaller one exactly at the midpoint.** — Midpoint cancellation requires opposing, equal fields.
+- **A negative charge produces no electric field.** — Negative charges produce fields directed toward them.
+
+<h4 id="solution-m4h36">Situation 36: A zero field outside opposite charges · Find the signed x coordinate where the net field is zero</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-9Q$ is at $x=0.18\,\mathrm m$. Use $Q=3\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Find the signed x coordinate where the net field is zero.
+
+1. **Identify the model and the conditions.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(9Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{9}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{9}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+9)/d^2=33296.3\,\mathrm{N\,C^{-1}}$$
+
+5. **Solve the requested quantity.**
+
+   $$x_0=-0.18/(\sqrt{9}-1)=-0.09\,\mathrm m$$
+
+6. **Check the physical result.** The negative coordinate places the point left of the smaller positive charge.
+
+7. **State the result.**
+
+   $$-0.09\,\mathrm m$$
+
+**Answer:** $-0.09\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.045\,\mathrm m$** — This proposes a point between opposite charges where their fields add.
+- **$0.09\,\mathrm m$** — This places the point on the stronger-charge side.
+- **$-0.0225\,\mathrm m$** — The inverse-square equality requires a square root of the charge ratio.
+
+<h4 id="solution-m4h37">Situation 37: A zero field outside opposite charges · Find the signed field at the midpoint</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-9Q$ is at $x=0.18\,\mathrm m$. Use $Q=3\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Find the signed field at the midpoint.
+
+1. **Identify the model and the conditions.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(9Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{9}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{9}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+9)/d^2=33296.3\,\mathrm{N\,C^{-1}}$$
+
+5. **Solve the requested quantity.**
+
+   $$E_{\rm mid}=\frac{4kQ(1+9)}{d^2}$$
+
+6. **Check the physical result.** The midpoint field points from the positive charge toward the negative charge.
+
+7. **State the result.**
+
+   $$33296.3\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $33296.3\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$-26637\,\mathrm{N\,C^{-1}}$** — The two midpoint fields point right and must add.
+- **$8324.07\,\mathrm{N\,C^{-1}}$** — The midpoint is distance d/2 from each charge.
+- **$3329.63\,\mathrm{N\,C^{-1}}$** — This ignores the larger negative source.
+
+<h4 id="solution-m4h38">Situation 38: A zero field outside opposite charges · Find the signed force on the negative test charge at the midpoint</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-9Q$ is at $x=0.18\,\mathrm m$. Use $Q=3\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Find the signed force on the negative test charge at the midpoint.
+
+1. **Identify the model and the conditions.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(9Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{9}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{9}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+9)/d^2=33296.3\,\mathrm{N\,C^{-1}}$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x=q_tE_{\rm mid}=(-10^{-9})(33296.3)$$
+
+6. **Check the physical result.** The negative test charge feels a leftward force in a rightward field.
+
+7. **State the result.**
+
+   $$-3.32963\times10^{-5}\,\mathrm N$$
+
+**Answer:** $-3.32963\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$3.32963\times10^{-5}\,\mathrm N$** — This drops the negative test-charge sign.
+- **$-3.32963\times10^{-6}\,\mathrm N$** — This ignores the larger source.
+- **$2.6637\times10^{-5}\,\mathrm N$** — This subtracts midpoint fields that point in the same direction.
+
+<h4 id="solution-m4h39">Situation 39: A zero field outside opposite charges · Find the signed field at x equal to twice the source separation</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-9Q$ is at $x=0.18\,\mathrm m$. Use $Q=3\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Find the signed field at x equal to twice the source separation.
+
+1. **Identify the model and the conditions.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(9Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{9}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{9}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+9)/d^2=33296.3\,\mathrm{N\,C^{-1}}$$
+
+5. **Solve the requested quantity.**
+
+   $$E_x(2d)=\frac{kQ}{(2d)^2}-\frac{k(9Q)}{d^2}=\frac{kQ}{d^2}(1/4-9)$$
+
+6. **Check the physical result.** The point is closer to the larger negative source, so its leftward field dominates.
+
+7. **State the result.**
+
+   $$-7283.56\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $-7283.56\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$7699.77\,\mathrm{N\,C^{-1}}$** — To the right of both sources, their fields oppose.
+- **$-1664.81\,\mathrm{N\,C^{-1}}$** — The negative source is distance d, not 2d, from this point.
+- **$7283.56\,\mathrm{N\,C^{-1}}$** — The larger, nearer negative source dominates leftward.
+
+<h4 id="solution-m4h40">Situation 40: A zero field outside opposite charges · model check</h4>
+
+A fixed charge $+Q$ is at x zero and a fixed charge $-9Q$ is at $x=0.18\,\mathrm m$. Use $Q=3\times10^{-9}\,\mathrm C$ and $k=8.99\times10^9$ in SI units. Rightward field and force components are positive. A test charge used for force measurements is $-1.0\,\mathrm{nC}$. Why is there no zero-field point between the two sources?
+
+1. **Identify what stays fixed.** Between opposite charges their fields point the same way. Cancellation must lie outside, on the side of the smaller charge.
+
+2. **Place a candidate zero a distance u to the left.**
+
+   $$\frac{kQ}{u^2}=\frac{k(9Q)}{(d+u)^2}$$
+
+3. **Use positive distances when taking square roots.**
+
+   $$d+u=\sqrt{9}u\ \Rightarrow\ x_0=-u=-\frac d{\sqrt{9}-1}$$
+
+4. **Add the two fields at the midpoint.**
+
+   $$E_{\rm mid}=4kQ(1+9)/d^2=33296.3\,\mathrm{N\,C^{-1}}$$
+
+5. **Apply the conclusion.** Nonzero field magnitudes in the same direction cannot cancel.
+
+**Answer:** The field away from the positive source and toward the negative source has the same direction there.
+
+**Why the other answers do not work:**
+
+- **The potential must have the same sign everywhere.** — Potential and field cancellation are different conditions.
+- **The larger source always cancels the smaller one exactly at the midpoint.** — Midpoint cancellation requires opposing, equal fields.
+- **A negative charge produces no electric field.** — Negative charges produce fields directed toward them.
+
+<h4 id="solution-m4h41">Situation 41: A charged ring on its axis · Find the signed axial field at the stated point</h4>
+
+A thin insulating ring of radius 0.1 m has uniformly distributed positive charge $Q=5\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.05\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Find the signed axial field at the stated point.
+
+1. **Identify the model and the conditions.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1608.18\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Solve the requested quantity.**
+
+   $$E_x=\frac{kQ(0.05)}{[(0.1)^2+(0.05)^2]^{3/2}}$$
+
+6. **Check the physical result.** The exact expression stays finite and tends to zero at the ring center.
+
+7. **State the result.**
+
+   $$1608.18\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $1608.18\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$17980\,\mathrm{N\,C^{-1}}$** — This treats the ring as a point charge at a distance that is not large compared with its radius.
+- **$3596\,\mathrm{N\,C^{-1}}$** — This omits the axial projection factor.
+- **$-1608.18\,\mathrm{N\,C^{-1}}$** — On the positive axis, a positive ring produces a positive axial field.
+
+<h4 id="solution-m4h42">Situation 42: A charged ring on its axis · Find the signed axial force on the test charge</h4>
+
+A thin insulating ring of radius 0.1 m has uniformly distributed positive charge $Q=5\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.05\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Find the signed axial force on the test charge.
+
+1. **Identify the model and the conditions.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1608.18\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x=q_tE_x=(-2.0\times10^{-9})(1608.18)$$
+
+6. **Check the physical result.** The force points toward the positive ring for this negative test charge.
+
+7. **State the result.**
+
+   $$-3.21636\times10^{-6}\,\mathrm N$$
+
+**Answer:** $-3.21636\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$3.21636\times10^{-6}\,\mathrm N$** — The negative test charge reverses the field direction in the force.
+- **$-3.596\times10^{-5}\,\mathrm N$** — This uses an unjustified point-charge approximation.
+- **$-7.192\times10^{-6}\,\mathrm N$** — This omits projection onto the axis.
+
+<h4 id="solution-m4h43">Situation 43: A charged ring on its axis · Find the positive-axis position of maximum field magnitude</h4>
+
+A thin insulating ring of radius 0.1 m has uniformly distributed positive charge $Q=5\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.05\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Find the positive-axis position of maximum field magnitude.
+
+1. **Identify the model and the conditions.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1608.18\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Solve the requested quantity.**
+
+   $$x_{\max}=R/\sqrt2=0.1/\sqrt2$$
+
+6. **Check the physical result.** The derivative changes from positive to negative at this point.
+
+7. **State the result.**
+
+   $$0.0707107\,\mathrm m$$
+
+**Answer:** $0.0707107\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.1\,\mathrm m$** — Setting x equal to the radius does not make the derivative zero.
+- **$0.05\,\mathrm m$** — The evaluation point is not generally the maximum.
+- **$0.141421\,\mathrm m$** — This inverts the derivative condition.
+
+<h4 id="solution-m4h44">Situation 44: A charged ring on its axis · Find the maximum positive-axis field magnitude</h4>
+
+A thin insulating ring of radius 0.1 m has uniformly distributed positive charge $Q=5\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.05\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Find the maximum positive-axis field magnitude.
+
+1. **Identify the model and the conditions.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1608.18\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Solve the requested quantity.**
+
+   $$E_{\max}=\frac{2kQ}{3\sqrt3R^2}=1730.13\,\mathrm{N\,C^{-1}}$$
+
+6. **Check the physical result.** The exact field has a finite maximum before decreasing as an inverse square far away.
+
+7. **State the result.**
+
+   $$1730.13\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $1730.13\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$4495\,\mathrm{N\,C^{-1}}$** — This uses the point-charge field at one ring radius.
+- **$1608.18\,\mathrm{N\,C^{-1}}$** — The stated point is short of the field maximum.
+- **$3460.25\,\mathrm{N\,C^{-1}}$** — The ring integral already includes every charge element once.
+
+<h4 id="solution-m4h45">Situation 45: A charged ring on its axis · model check</h4>
+
+A thin insulating ring of radius 0.1 m has uniformly distributed positive charge $Q=5\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.05\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Why does the ring field vanish at its center although the ring is charged?
+
+1. **Identify what stays fixed.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1608.18\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Apply the conclusion.** The vector contributions cancel by symmetry.
+
+**Answer:** Each charge element has a diametrically opposite element with an equal and opposite center field.
+
+**Why the other answers do not work:**
+
+- **The ring charge becomes zero at the center.** — The source charge is unchanged; it is the net field that cancels.
+- **All charge elements are infinitely far from the center.** — Each element is a finite radius away.
+- **Potential must also be zero wherever field is zero.** — Zero field does not require zero potential.
+
+<h4 id="solution-m4h46">Situation 46: A charged ring on its axis · Find the signed axial field at the stated point</h4>
+
+A thin insulating ring of radius 0.12 m has uniformly distributed positive charge $Q=8\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.06\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Find the signed axial field at the stated point.
+
+1. **Identify the model and the conditions.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1786.87\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Solve the requested quantity.**
+
+   $$E_x=\frac{kQ(0.06)}{[(0.12)^2+(0.06)^2]^{3/2}}$$
+
+6. **Check the physical result.** The exact expression stays finite and tends to zero at the ring center.
+
+7. **State the result.**
+
+   $$1786.87\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $1786.87\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$19977.8\,\mathrm{N\,C^{-1}}$** — This treats the ring as a point charge at a distance that is not large compared with its radius.
+- **$3995.56\,\mathrm{N\,C^{-1}}$** — This omits the axial projection factor.
+- **$-1786.87\,\mathrm{N\,C^{-1}}$** — On the positive axis, a positive ring produces a positive axial field.
+
+<h4 id="solution-m4h47">Situation 47: A charged ring on its axis · Find the signed axial force on the test charge</h4>
+
+A thin insulating ring of radius 0.12 m has uniformly distributed positive charge $Q=8\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.06\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Find the signed axial force on the test charge.
+
+1. **Identify the model and the conditions.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1786.87\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Solve the requested quantity.**
+
+   $$F_x=q_tE_x=(-2.0\times10^{-9})(1786.87)$$
+
+6. **Check the physical result.** The force points toward the positive ring for this negative test charge.
+
+7. **State the result.**
+
+   $$-3.57373\times10^{-6}\,\mathrm N$$
+
+**Answer:** $-3.57373\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$3.57373\times10^{-6}\,\mathrm N$** — The negative test charge reverses the field direction in the force.
+- **$-3.99556\times10^{-5}\,\mathrm N$** — This uses an unjustified point-charge approximation.
+- **$-7.99111\times10^{-6}\,\mathrm N$** — This omits projection onto the axis.
+
+<h4 id="solution-m4h48">Situation 48: A charged ring on its axis · Find the positive-axis position of maximum field magnitude</h4>
+
+A thin insulating ring of radius 0.12 m has uniformly distributed positive charge $Q=8\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.06\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Find the positive-axis position of maximum field magnitude.
+
+1. **Identify the model and the conditions.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1786.87\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Solve the requested quantity.**
+
+   $$x_{\max}=R/\sqrt2=0.12/\sqrt2$$
+
+6. **Check the physical result.** The derivative changes from positive to negative at this point.
+
+7. **State the result.**
+
+   $$0.0848528\,\mathrm m$$
+
+**Answer:** $0.0848528\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.12\,\mathrm m$** — Setting x equal to the radius does not make the derivative zero.
+- **$0.06\,\mathrm m$** — The evaluation point is not generally the maximum.
+- **$0.169706\,\mathrm m$** — This inverts the derivative condition.
+
+<h4 id="solution-m4h49">Situation 49: A charged ring on its axis · Find the maximum positive-axis field magnitude</h4>
+
+A thin insulating ring of radius 0.12 m has uniformly distributed positive charge $Q=8\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.06\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Find the maximum positive-axis field magnitude.
+
+1. **Identify the model and the conditions.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1786.87\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Solve the requested quantity.**
+
+   $$E_{\max}=\frac{2kQ}{3\sqrt3R^2}=1922.36\,\mathrm{N\,C^{-1}}$$
+
+6. **Check the physical result.** The exact field has a finite maximum before decreasing as an inverse square far away.
+
+7. **State the result.**
+
+   $$1922.36\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $1922.36\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$4994.44\,\mathrm{N\,C^{-1}}$** — This uses the point-charge field at one ring radius.
+- **$1786.87\,\mathrm{N\,C^{-1}}$** — The stated point is short of the field maximum.
+- **$3844.73\,\mathrm{N\,C^{-1}}$** — The ring integral already includes every charge element once.
+
+<h4 id="solution-m4h50">Situation 50: A charged ring on its axis · model check</h4>
+
+A thin insulating ring of radius 0.12 m has uniformly distributed positive charge $Q=8\times10^{-9}\,\mathrm C$. A point lies on its positive axis at $x=0.06\,\mathrm m$ from the center. Use $k=8.99\times10^9$ in SI units. A separate test charge there is $-2.0\,\mathrm{nC}$. Treat the ring as fixed. This applies the module’s continuous-charge extension. Why does the ring field vanish at its center although the ring is charged?
+
+1. **Identify what stays fixed.** Transverse field components cancel around the ring. All axial components add at the same source distance.
+
+2. **Integrate the common axial component.**
+
+   $$E_x=\int\frac{kx\,dq}{(R^2+x^2)^{3/2}}=\frac{kQx}{(R^2+x^2)^{3/2}}$$
+
+3. **Evaluate at the specified point.**
+
+   $$E_x=1786.87\,\mathrm{N\,C^{-1}}$$
+
+4. **Differentiate to find the positive-axis maximum.**
+
+   $$\frac{dE_x}{dx}=\frac{kQ(R^2-2x^2)}{(R^2+x^2)^{5/2}}=0\ \Rightarrow\ x_{\max}=R/\sqrt2$$
+
+5. **Apply the conclusion.** The vector contributions cancel by symmetry.
+
+**Answer:** Each charge element has a diametrically opposite element with an equal and opposite center field.
+
+**Why the other answers do not work:**
+
+- **The ring charge becomes zero at the center.** — The source charge is unchanged; it is the net field that cancels.
+- **All charge elements are infinitely far from the center.** — Each element is a finite radius away.
+- **Potential must also be zero wherever field is zero.** — Zero field does not require zero potential.
+
+<h4 id="solution-m4h51">Situation 51: Axial and equatorial dipole fields · Find the signed axial-point x field</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=3\times10^{-9}\,\mathrm C$ and $a=0.02\,\mathrm m$. Compare the axial point $(0.06,0)\,\mathrm m$ and equatorial point $(0,0.04)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Find the signed axial-point x field.
+
+1. **Identify the model and the conditions.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=12642.2\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-12061.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$E_{a,x}=kq[(0.06-0.02)^{-2}-(0.06+0.02)^{-2}]$$
+
+5. **Check the physical result.** The sign follows the stronger field from the nearer positive source.
+
+6. **State the result.**
+
+   $$12642.2\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $12642.2\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$21070.3\,\mathrm{N\,C^{-1}}$** — The positive and negative source fields oppose on this part of the axis.
+- **$9988.89\,\mathrm{N\,C^{-1}}$** — This uses a far-field approximation at only x equal to 3a.
+- **$-12642.2\,\mathrm{N\,C^{-1}}$** — The nearer positive charge dominates in the positive x direction.
+
+<h4 id="solution-m4h52">Situation 52: Axial and equatorial dipole fields · Find the signed equatorial-point x field</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=3\times10^{-9}\,\mathrm C$ and $a=0.02\,\mathrm m$. Compare the axial point $(0.06,0)\,\mathrm m$ and equatorial point $(0,0.04)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Find the signed equatorial-point x field.
+
+1. **Identify the model and the conditions.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=12642.2\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-12061.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$E_{e,x}=-2kqa/(a^2+y^2)^{3/2}$$
+
+5. **Check the physical result.** The y components cancel; the x components both point toward the negative charge.
+
+6. **State the result.**
+
+   $$-12061.4\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $-12061.4\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$12061.4\,\mathrm{N\,C^{-1}}$** — The equatorial field points opposite the dipole moment.
+- **$-26970\,\mathrm{N\,C^{-1}}$** — This omits projection of each oblique field onto x.
+- **$-16856.2\,\mathrm{N\,C^{-1}}$** — This uses the far-field approximation despite finite a.
+
+<h4 id="solution-m4h53">Situation 53: Axial and equatorial dipole fields · Find the axial-point field magnitude divided by the equatorial-point magnitude</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=3\times10^{-9}\,\mathrm C$ and $a=0.02\,\mathrm m$. Compare the axial point $(0.06,0)\,\mathrm m$ and equatorial point $(0,0.04)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Find the axial-point field magnitude divided by the equatorial-point magnitude.
+
+1. **Identify the model and the conditions.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=12642.2\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-12061.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$\mathcal R=|E_{a,x}|/|E_{e,x}|=1.04816$$
+
+5. **Check the physical result.** Compare the specified locations; neither equal-distance nor far-field assumptions apply.
+
+6. **State the result.**
+
+   $$1.04816$$
+
+**Answer:** $1.04816$
+
+**Why the other answers do not work:**
+
+- **$0.954056$** — This reverses the requested order.
+- **$2$** — The familiar factor two applies at equal large distances, not these different exact distances.
+- **$-1.04816$** — The question asks for magnitudes, so the ratio cannot be negative.
+
+<h4 id="solution-m4h54">Situation 54: Axial and equatorial dipole fields · Find the signed x force on the equatorial test charge</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=3\times10^{-9}\,\mathrm C$ and $a=0.02\,\mathrm m$. Compare the axial point $(0.06,0)\,\mathrm m$ and equatorial point $(0,0.04)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Find the signed x force on the equatorial test charge.
+
+1. **Identify the model and the conditions.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=12642.2\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-12061.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$F_x=q_tE_{e,x}=(-2.0\times10^{-9})(-12061.4)$$
+
+5. **Check the physical result.** A negative charge in the negative-x equatorial field feels a positive-x force.
+
+6. **State the result.**
+
+   $$2.41227\times10^{-5}\,\mathrm N$$
+
+**Answer:** $2.41227\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-2.41227\times10^{-5}\,\mathrm N$** — The negative test charge reverses the negative field direction.
+- **$-2.52844\times10^{-5}\,\mathrm N$** — This uses the field at the wrong location.
+- **$5.394\times10^{-5}\,\mathrm N$** — This omits the field projection at the equatorial point.
+
+<h4 id="solution-m4h55">Situation 55: Axial and equatorial dipole fields · model check</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=3\times10^{-9}\,\mathrm C$ and $a=0.02\,\mathrm m$. Compare the axial point $(0.06,0)\,\mathrm m$ and equatorial point $(0,0.04)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Why is the equatorial field not zero?
+
+1. **Identify what stays fixed.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=12642.2\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-12061.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Apply the conclusion.** Equal distances alone do not guarantee full vector cancellation.
+
+**Answer:** The vertical components cancel, but the horizontal components reinforce toward the negative source.
+
+**Why the other answers do not work:**
+
+- **The two source charges have unequal magnitudes.** — Their magnitudes are explicitly equal.
+- **The negative source has no field.** — Negative charges produce nonzero fields toward themselves.
+- **Every dipole field is parallel to its dipole moment.** — The equatorial field points opposite to the dipole moment.
+
+<h4 id="solution-m4h56">Situation 56: Axial and equatorial dipole fields · Find the signed axial-point x field</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=4\times10^{-9}\,\mathrm C$ and $a=0.025\,\mathrm m$. Compare the axial point $(0.07500000000000001,0)\,\mathrm m$ and equatorial point $(0,0.05)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Find the signed axial-point x field.
+
+1. **Identify the model and the conditions.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=10788\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-10292.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$E_{a,x}=kq[(0.07500000000000001-0.025)^{-2}-(0.07500000000000001+0.025)^{-2}]$$
+
+5. **Check the physical result.** The sign follows the stronger field from the nearer positive source.
+
+6. **State the result.**
+
+   $$10788\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $10788\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$17980\,\mathrm{N\,C^{-1}}$** — The positive and negative source fields oppose on this part of the axis.
+- **$8523.85\,\mathrm{N\,C^{-1}}$** — This uses a far-field approximation at only x equal to 3a.
+- **$-10788\,\mathrm{N\,C^{-1}}$** — The nearer positive charge dominates in the positive x direction.
+
+<h4 id="solution-m4h57">Situation 57: Axial and equatorial dipole fields · Find the signed equatorial-point x field</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=4\times10^{-9}\,\mathrm C$ and $a=0.025\,\mathrm m$. Compare the axial point $(0.07500000000000001,0)\,\mathrm m$ and equatorial point $(0,0.05)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Find the signed equatorial-point x field.
+
+1. **Identify the model and the conditions.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=10788\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-10292.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$E_{e,x}=-2kqa/(a^2+y^2)^{3/2}$$
+
+5. **Check the physical result.** The y components cancel; the x components both point toward the negative charge.
+
+6. **State the result.**
+
+   $$-10292.4\,\mathrm{N\,C^{-1}}$$
+
+**Answer:** $-10292.4\,\mathrm{N\,C^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$10292.4\,\mathrm{N\,C^{-1}}$** — The equatorial field points opposite the dipole moment.
+- **$-23014.4\,\mathrm{N\,C^{-1}}$** — This omits projection of each oblique field onto x.
+- **$-14384\,\mathrm{N\,C^{-1}}$** — This uses the far-field approximation despite finite a.
+
+<h4 id="solution-m4h58">Situation 58: Axial and equatorial dipole fields · Find the axial-point field magnitude divided by the equatorial-point magnitude</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=4\times10^{-9}\,\mathrm C$ and $a=0.025\,\mathrm m$. Compare the axial point $(0.07500000000000001,0)\,\mathrm m$ and equatorial point $(0,0.05)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Find the axial-point field magnitude divided by the equatorial-point magnitude.
+
+1. **Identify the model and the conditions.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=10788\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-10292.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$\mathcal R=|E_{a,x}|/|E_{e,x}|=1.04816$$
+
+5. **Check the physical result.** Compare the specified locations; neither equal-distance nor far-field assumptions apply.
+
+6. **State the result.**
+
+   $$1.04816$$
+
+**Answer:** $1.04816$
+
+**Why the other answers do not work:**
+
+- **$0.954056$** — This reverses the requested order.
+- **$2$** — The familiar factor two applies at equal large distances, not these different exact distances.
+- **$-1.04816$** — The question asks for magnitudes, so the ratio cannot be negative.
+
+<h4 id="solution-m4h59">Situation 59: Axial and equatorial dipole fields · Find the signed x force on the equatorial test charge</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=4\times10^{-9}\,\mathrm C$ and $a=0.025\,\mathrm m$. Compare the axial point $(0.07500000000000001,0)\,\mathrm m$ and equatorial point $(0,0.05)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Find the signed x force on the equatorial test charge.
+
+1. **Identify the model and the conditions.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=10788\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-10292.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Solve the requested quantity.**
+
+   $$F_x=q_tE_{e,x}=(-2.0\times10^{-9})(-10292.4)$$
+
+5. **Check the physical result.** A negative charge in the negative-x equatorial field feels a positive-x force.
+
+6. **State the result.**
+
+   $$2.05847\times10^{-5}\,\mathrm N$$
+
+**Answer:** $2.05847\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$-2.05847\times10^{-5}\,\mathrm N$** — The negative test charge reverses the negative field direction.
+- **$-2.1576\times10^{-5}\,\mathrm N$** — This uses the field at the wrong location.
+- **$4.60288\times10^{-5}\,\mathrm N$** — This omits the field projection at the equatorial point.
+
+<h4 id="solution-m4h60">Situation 60: Axial and equatorial dipole fields · model check</h4>
+
+An electric dipole has charge $-q$ at $x=-a$ and $+q$ at $x=+a$. Use $q=4\times10^{-9}\,\mathrm C$ and $a=0.025\,\mathrm m$. Compare the axial point $(0.07500000000000001,0)\,\mathrm m$ and equatorial point $(0,0.05)\,\mathrm m$. Use exact superposition with $k=8.99\times10^9$ in SI units. A test charge at the equatorial point is $-2.0\,\mathrm{nC}$. Why is the equatorial field not zero?
+
+1. **Identify what stays fixed.** The distances are only a few charge separations. Use exact source distances, not the far-dipole approximation.
+
+2. **Subtract axial contributions using their directions.**
+
+   $$E_{a,x}=kq[(x-a)^{-2}-(x+a)^{-2}]=10788\,\mathrm{N\,C^{-1}}$$
+
+3. **Add the equatorial x components.**
+
+   $$E_{e,x}=-\frac{2kqa}{(a^2+y^2)^{3/2}}=-10292.4\,\mathrm{N\,C^{-1}}$$
+
+4. **Apply the conclusion.** Equal distances alone do not guarantee full vector cancellation.
+
+**Answer:** The vertical components cancel, but the horizontal components reinforce toward the negative source.
+
+**Why the other answers do not work:**
+
+- **The two source charges have unequal magnitudes.** — Their magnitudes are explicitly equal.
+- **The negative source has no field.** — Negative charges produce nonzero fields toward themselves.
+- **Every dipole field is parallel to its dipole moment.** — The equatorial field points opposite to the dipole moment.
+

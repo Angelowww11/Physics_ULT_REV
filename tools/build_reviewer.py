@@ -6,7 +6,7 @@ from markdown_it import MarkdownIt
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='20261127-challenge1'
+VERSION='20261128-challenge60'
 SOURCES=json.loads((ROOT/'sources.js').read_text(encoding='utf-8').split('=',1)[1].rstrip(';'))
 BY_ID={s['id']:s for s in SOURCES}
 AUDIT=json.loads((ROOT/'audit/source-map.json').read_text(encoding='utf-8'))
@@ -88,7 +88,7 @@ def build():
         more=(ROOT/'notes'/f'{n:02}-worked.txt').read_text(encoding='utf-8')
         situations=(ROOT/'notes'/f'{n:02}-situations.txt').read_text(encoding='utf-8')
         STATS['words']+=len((core+'\n'+more+'\n'+situations).split())
-        STATS['situational_examples']=STATS.get('situational_examples',0)+10
+        STATS['situational_examples']=STATS.get('situational_examples',0)+60
         page,caption=core_figures[n]
         text=core+f'\n\n{{{{figure:{s["id"]}:{page}|{caption}}}}}\n\n<p class="chapter-divider">Source problems · full working</p>\n\n'+more+'\n\n'+situations
         rendered,headings=render_note(text,n)
@@ -107,15 +107,20 @@ def build():
     if response.returncode:raise RuntimeError(response.stderr)
     formulas=json.loads(response.stdout)
     assert len(formulas)==len(ALL_TEX)
-    for i,html in enumerate(formulas):
-        item=ALL_TEX[i];marker=f'MATHPLACEHOLDER{i}END'
+    # Resolve every equation once. Repeated whole-document replacements become
+    # quadratic when the complete notebook includes hundreds of worked cases.
+    def resolve_math(match):
+        paragraph=match[1] is not None
+        i=int(match[1] if paragraph else match[2])
+        item=ALL_TEX[i];html=formulas[i]
         if item['display']:
-            body=body.replace(f'<p>{marker}</p>',f'<div class="math">{html}</div>')
-        else:
-            kind='inline-math math-working' if item['working'] else 'inline-math'
-            if item['working']:
-                body=body.replace(marker+'.',marker)
-            body=body.replace(marker,f'<span class="{kind}">{html}</span>')
+            if not paragraph:raise ValueError('Display equation lost its paragraph')
+            return f'<div class="math">{html}</div>'
+        kind='inline-math math-working' if item['working'] else 'inline-math'
+        result=f'<span class="{kind}">{html}</span>'
+        if paragraph:return '<p>'+result+'</p>'
+        return result+('' if item['working'] else match[3])
+    body=re.sub(r'<p>MATHPLACEHOLDER(\d+)END</p>|MATHPLACEHOLDER(\d+)END(\.?)',resolve_math,body)
     unresolved=re.findall(r'.{0,80}(?:MATHPLACEHOLDER|BLOCKPLACEHOLDER|\{\{figure).{0,140}',body)
     if unresolved:raise ValueError(unresolved[:8])
     STATS['derivation_blocks']=sum(t['display'] for t in ALL_TEX)

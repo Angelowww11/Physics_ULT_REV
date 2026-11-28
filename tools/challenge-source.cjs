@@ -319,5 +319,6 @@ function formatProse(text){
  const chars='⁰¹²³⁴⁵⁶⁷⁸⁹';
  return text.split('$').map((part,i)=>i%2?part:part.replace(/([+−-]?\d+(?:\.\d+)?)\s*×\s*10([⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+)/g,(_,a,b)=>'$'+a.replace('−','-')+r`\times10^{`+[...b].map(x=>x==='⁻'?'-':chars.indexOf(x)).join('')+'}$')).join('$');
 }
+require('./challenge-expansion.cjs')({all,numerical,qualitative,T,E,fmt,constants:{k,e,me,eps,mu,c,h,g}});
 for(const q of all){q.prompt=formatProse(q.prompt);q.choices=q.choices.map(formatProse);q.explanation=formatProse(q.explanation);q.reasons=q.reasons.map(formatProse);for(const step of q.steps)if(step.text)step.text=formatProse(step.text);}
 module.exports={questions:all,T,E,qualitative,numerical,fmt,qty,constants:{k,e,me,eps,mu,c,h,g}};
