@@ -1,0 +1,18 @@
+/* Use the existing Field Notes typography, theme colors, and mathematical renderer. */
+.physics-answer-explanation{min-width:0;overflow-wrap:anywhere}
+.physics-answer-explanation>h2,.physics-answer-explanation>h3,.physics-answer-mistake>h2,.physics-answer-mistake>h3{font-family:inherit;font-size:1rem;line-height:1.5;letter-spacing:normal;margin:1.6rem 0 .6rem;color:var(--ink)}
+.physics-answer-explanation p{line-height:1.85;margin:.65rem 0}
+.physics-correct-answer{color:var(--positive-ink)}
+.physics-answer-mistake{margin:1.5rem 0;padding:0 0 1rem;border-block:1px solid var(--line)}
+.physics-answer-mistake>h2,.physics-answer-mistake>h3{color:var(--danger-ink)}
+.physics-answer-unanswered{color:var(--muted)}
+.physics-answer-alternatives{padding-left:1.3rem;margin:1rem 0 1.5rem}
+.physics-answer-alternatives>li{margin:1rem 0;padding:0 0 1rem;border-bottom:1px solid var(--line)}
+.physics-answer-alternatives>li:last-child{border:0;padding-bottom:0}
+.physics-answer-alternatives>li::marker{color:var(--muted)}
+.physics-answer-explanation .desk-solution-steps{padding-left:1.5rem;margin:1.4rem 0}
+.physics-answer-explanation .desk-solution-steps>li{margin:1.4rem 0;padding-left:.3rem}
+.physics-answer-explanation .desk-solution-steps h3,.physics-answer-explanation .desk-solution-steps h4{font-family:inherit;font-size:1rem;line-height:1.5;letter-spacing:normal;margin:0 0 .5rem}
+.physics-answer-explanation .katex-display{max-width:100%;overflow-x:auto;padding-block:.35rem;margin:1rem 0;text-align:left}
+.physics-answer-explanation .katex-display>.katex{text-align:left}
+.answer-explanation .physics-answer-explanation{font-size:1rem}

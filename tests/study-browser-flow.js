@@ -2,7 +2,7 @@
  const wait=()=>new Promise(r=>setTimeout(r,80)),check=(value,message)=>{if(!value)throw Error(message);};
  const state=()=>JSON.parse(localStorage.getItem('field-notes-learning-v2'));
  check(document.querySelector('.desk-reading h1'),'Notes open first');
- check(PhysicsPractice.every(q=>Array.isArray(q.steps)&&q.steps.length===6),'All original numerical questions load full working');
+ check(PhysicsPractice.every(q=>Array.isArray(q.steps)&&q.steps.length>=7),'All original numerical questions load full working and intermediate arithmetic');
  check(document.querySelectorAll('.desk-reading .katex').length>100,'Typeset chapter');
  check(document.querySelector('#practice-panel'),'Practice alongside');
  const id=document.querySelector('#practice-panel [data-save-question]').dataset.saveQuestion;

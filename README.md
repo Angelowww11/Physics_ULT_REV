@@ -33,6 +33,10 @@ The supplied [TOPCIT Sprint reference](https://tpct-reviewer.onrender.com/) info
 
 `challenge-data.js` adds 600 situational questions: 60 per module, with 45 calculation questions and 15 conceptual situations. `practice-solutions.js` adds full working to the existing 600 numerical variants. The combined study bank contains 1,260 questions.
 
+All 1,260 questions show the correct answer, the selected mistake, and the reasons for the other incorrect choices. These explanations stay open after answering. Timed exams reveal them after submission. The earlier website uses the same explanation view for its 600 numerical questions.
+
+`practice-feedback.js` adds intermediate arithmetic, unit conversions, and specific checks for each numerical choice. Each incorrect choice is substituted back into the physical law. The explanation compares the implied value with the given value. The critical-angle check also rejects impossible angles. Every earlier solution step remains available.
+
 Choose **Situational challenges** in the practice menu to select the harder questions. Sets remain limited to 60 questions. Each module also contains 60 fully open worked situations in the complete notes. The original 20 note files and all 18 PDFs remain unchanged.
 
 The expansion uses 50 added scenario families. Each family has four calculation targets, a reasoning check, and two parameter sets. New questions change the requested quantity or numerical conditions. The original 100 challenge IDs and their answer choices remain intact.
@@ -66,11 +70,14 @@ Run `python tools/build_notes.py` after changes to the notes. Run these checks:
 - `python tests/check_math_format.py` checks that the notes contain rendered equations without raw formulas.
 - `node tests/check_practice.cjs` checks the 600 practice variants and the display and inline equations.
 - `node tests/check_challenges.cjs` checks the 1,260-question bank, mathematical rendering, old progress, and preserved notes.
+- `node tests/check_answer_feedback.cjs` checks all 1,260 answer views, shuffled choices, 2,400 numerical substitution cases, rendered equations, and 554 preserved teaching files.
 - `python tests/check_challenge_physics.py` independently checks the original 50 challenge calculations.
 - `python tests/check_expanded_challenges.py` independently checks all 400 added calculation answers, phase conditions, vectors, and reachable motion.
 - `node tests/check_study.cjs` checks the legacy 660-question bank, complete lesson exports, scheduling, storage compatibility, smart selection, exam persistence, and backups.
 
-`tests/sixty-browser-flow.js` checks 60 challenge questions in each module through the interface, full working, and every choice explanation.
+`tests/sixty-browser-flow.js` checks 60-question challenge sets in each module. It checks a sampled solution and all its choice explanations.
+
+`tests/feedback-browser-flow.js` checks all 30 original numerical families through the interface. It checks selected mistakes, correct answers, complete session solutions, equations, and mobile page width.
 
 `tests/study-browser-flow.js` checks the study desk through its interface in an isolated browser. `tests/browser-flow.js` checks all 600 questions on `classic.html`.
 

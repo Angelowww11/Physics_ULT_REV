@@ -11,8 +11,9 @@
   check(state.ids.every(id=>new RegExp('^m'+module+'h').test(id)),'Challenge-only module filter');
   document.querySelector('[data-desk-answer="1"]').click();
   check(document.querySelectorAll('.desk-solution-steps>li').length>=4,'Full solution');
-  const why=document.querySelector('.desk-feedback details');why.open=true;
-  check(why.querySelectorAll('li').length===4,'Explanation for every option');
+  const why=document.querySelector('.physics-answer-explanation');
+  check(why.querySelectorAll('[data-feedback-option]').length===3,'Explanation for every incorrect option');
+  check(!!why.querySelector('.physics-answer-mistake'),'Specific explanation for the selected mistake');
   check(!document.querySelector('.katex-error'),'No equation errors');
   results.push({module,questions:state.ids.length,solutionSteps:document.querySelectorAll('.desk-solution-steps>li').length});
  }
