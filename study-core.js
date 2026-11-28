@@ -3,14 +3,14 @@
  const DAY=86400000,LEGACY='field-notes-progress-v1',KEY='field-notes-learning-v2';
  const fmt=n=>Math.abs(n)>0&&(Math.abs(n)<.001||Math.abs(n)>=1e6)?n.toExponential(5):Number(n.toPrecision(6)).toString();
  const count=n=>Math.max(1,Math.min(60,Math.floor(Number(n)||10)));
- function bank(numeric,concepts){
+ function bank(numeric,concepts,challenges=[]){
   const anchors={1:[1,2,5],2:[1,2,4],3:[1,2,2],4:[1,1,4],5:[2,3,1],6:[1,3,4],7:[1,1,6],8:[1,1,4],9:[1,2,7],10:[1,4,6]};
   const topics={1:['Density','Hydrostatic pressure','Buoyancy'],2:['Temperature scales','Thermal expansion','Heat transfer'],3:['Charge quantization','Coulomb force','Coulomb scaling'],4:['Point-charge field','Electric force','Field acceleration'],5:['Point-charge potential','Potential energy','Electrostatic work'],6:['Capacitor charge','Stored energy','Capacitor networks'],7:['Ohm law','Wire resistance','RC time constant'],8:['Wire force','Particle force','Straight-wire field'],9:['Magnetic flux','Induced emf','RL time constant'],10:['Wavelength','Refraction','Critical angle']};
-  return [...numeric.map(q=>{const family=(Number(q.id.split('q')[1])-1)%3;return {...q,kind:'numerical',topic:topics[q.module][family],anchor:`m${q.module}-s${anchors[q.module][family]}`,choices:[1,1.25,.5,2].map(f=>fmt(q.answer*f)+' '+q.unit),answerIndex:0,reasons:['This matches the law and the stated values.','This is 1.25 times the calculated value. Check the substitution and units.','This is half the calculated value. Check the factors and units.','This is twice the calculated value. Check the factors and units.']};}),...concepts];
+  return [...numeric.map(q=>{const family=(Number(q.id.split('q')[1])-1)%3;return {...q,kind:'numerical',topic:topics[q.module][family],anchor:`m${q.module}-s${anchors[q.module][family]}`,choices:[1,1.25,.5,2].map(f=>fmt(q.answer*f)+' '+q.unit),answerIndex:0,reasons:['This matches the law and the stated values.','This is 1.25 times the calculated value. Check the substitution and units.','This is half the calculated value. Check the factors and units.','This is twice the calculated value. Check the factors and units.']};}),...concepts,...challenges];
  }
  function shuffle(a,rng=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
  function diverse(list){
-  const groups=new Map();for(const q of list){const key=q.kind==='numerical'?`m${q.module}f${(Number(q.id.split('q')[1])-1)%3}`:q.id;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(q);}
+  const groups=new Map();for(const q of list){const key=q.family||(q.kind==='numerical'?`m${q.module}f${(Number(q.id.split('q')[1])-1)%3}`:q.id);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(q);}
   const out=[];while([...groups.values()].some(a=>a.length))for(const a of groups.values())if(a.length)out.push(a.shift());return out;
  }
  function schedule(previous,correct,confidence,now=Date.now()){
@@ -20,7 +20,7 @@
  }
  function select(bank,reviews,{module='all',mode='smart',count:n=10,saved=[],balanced=false}={},now=Date.now(),rng=Math.random){
   const ids=new Set(saved),scope=bank.filter(q=>module==='all'||q.module===Number(module));
-  let pool=scope.filter(q=>mode==='new'?!reviews[q.id]:mode==='mistakes'?reviews[q.id]?.correct===false:mode==='saved'?ids.has(q.id):mode==='due'?reviews[q.id]?.dueAt<=now:mode==='uncertain'?reviews[q.id]?.correct===true&&reviews[q.id]?.confidence!=='sure':true);
+  let pool=scope.filter(q=>mode==='challenge'?q.level==='challenge':mode==='new'?!reviews[q.id]:mode==='mistakes'?reviews[q.id]?.correct===false:mode==='saved'?ids.has(q.id):mode==='due'?reviews[q.id]?.dueAt<=now:mode==='uncertain'?reviews[q.id]?.correct===true&&reviews[q.id]?.confidence!=='sure':true);
   if(mode==='ordered')return pool.slice(0,count(n)).map(q=>q.id);
   pool=shuffle(pool,rng);
   if(mode==='smart'){

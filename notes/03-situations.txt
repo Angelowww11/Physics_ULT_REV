@@ -1,0 +1,270 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: Contact between identical conductors
+
+Two identical small conducting spheres carry +8 nC and −2 nC. They touch in isolation and are then separated far enough for the point-charge model. What describes their final interaction?
+
+1. **Conserve charge.**
+
+   $$Q_{\mathrm{total}}=8-2=+6\,\mathrm{nC}$$
+
+2. **Use the identical-sphere condition.**
+
+   $$q_1'=q_2'=\frac{6}{2}=+3\,\mathrm{nC}$$
+
+3. **Determine the force type.** The separated spheres have charges of the same sign, so their mutual force is repulsive.
+
+4. **Keep the condition.** Equal final charges do not follow for arbitrary unequal conductors without further geometric information.
+
+**Answer:** They repel, with +3 nC on each sphere.
+
+**Why the other answers do not work:**
+
+- **They attract, retaining +8 nC and −2 nC.** — Contact allows charge redistribution.
+- **They repel, with +5 nC on each sphere.** — This violates conservation of the +6 nC total.
+- **They become neutral because opposite signs always cancel completely.** — Only equal and opposite total charge would cancel fully.
+
+#### Situation 2: Zero force with a negative test charge
+
+At a point, two source-charge forces on a nonzero positive test charge cancel. The test charge is replaced by a negative charge of twice the magnitude without changing the sources or position. What is the new net force?
+
+1. **Factor out the test charge.**
+
+   $$\vec F_{\mathrm{net}}=q\sum_i\vec E_i$$
+
+2. **Use the original cancellation.**
+
+   $$q\ne0,\quad\vec F_{\mathrm{net}}=0\ \Longrightarrow\ \sum_i\vec E_i=0$$
+
+3. **Replace the test charge.**
+
+   $$\vec F_{\mathrm{new}}=(-2q)\sum_i\vec E_i=0$$
+
+4. **Separate equilibrium from stability.** Zero net force at a point does not by itself establish stable equilibrium.
+
+**Answer:** Zero.
+
+**Why the other answers do not work:**
+
+- **Twice the original individual source-force magnitude.** — You must transform both contributions and add them.
+- **Nonzero because a negative test charge cannot have equilibrium.** — The source field can be zero for either sign of test charge.
+- **Zero only if the source charges also change sign.** — The unchanged zero field already gives zero force for any test charge.
+
+#### Situation 3: Forces in an isolated pair
+
+Two isolated interacting charges have different masses. Their mutual electric forces have equal magnitudes. Which additional conclusion is correct?
+
+1. **Identify the interaction pair.**
+
+   $$\vec F_{12}=-\vec F_{21}$$
+
+2. **Apply the separate equations of motion.**
+
+   $$a_1=F/m_1,\qquad a_2=F/m_2$$
+
+3. **Compare accelerations.**
+
+   $$\frac{a_1}{a_2}=\frac{m_2}{m_1}$$
+
+4. **Do not add forces on different bodies as one target force.** The system’s internal-force sum cancels, but each body can accelerate.
+
+**Answer:** The smaller mass has the larger acceleration magnitude.
+
+**Why the other answers do not work:**
+
+- **They must have equal acceleration magnitudes.** — Equal force does not imply equal acceleration when masses differ.
+- **The larger charge must experience the larger force.** — The pair interaction has equal and opposite forces.
+- **Both acceleration vectors point in the same direction.** — The pair forces, and therefore the accelerations, point oppositely.
+
+#### Situation 4: Superposition with geometry
+
+A student adds the magnitudes of two perpendicular electric forces on a target charge. What correction is necessary?
+
+1. **Draw each source-to-target direction.** Charge signs determine attraction or repulsion along each relevant line.
+
+2. **Add components on the target.**
+
+   $$F_x=\sum_iF_{ix},\qquad F_y=\sum_iF_{iy}$$
+
+3. **Recover magnitude and direction.**
+
+   $$F=\sqrt{F_x^2+F_y^2}$$
+
+4. **Choose the angle quadrant from both components.** A calculator’s inverse tangent alone can lose quadrant information.
+
+**Answer:** Resolve and add vector components before finding the resultant magnitude.
+
+**Why the other answers do not work:**
+
+- **Subtract the magnitudes because both forces act on one target.** — Subtraction needs opposing collinear directions.
+- **Multiply the force magnitudes.** — That produces the wrong dimensions and is not vector addition.
+- **Add the source charges first regardless of their positions.** — Different positions can give different force directions and distances.
+
+#### Situation 5: Grounding sequence in induction
+
+A negative rod is held near an initially neutral conductor connected to ground. The ground connection is removed first, then the rod is moved away. What is the conductor’s final net charge?
+
+1. **Apply the field while grounded.** Electrons can flow to the ground because the negative rod repels them.
+
+2. **Disconnect the ground with the rod still present.** The conductor is left with an electron deficit.
+
+3. **Remove the rod.** Charge redistributes over the conductor without restoring the missing electrons.
+
+4. **Check the alternative sequence.** Removing the rod while still grounded would allow charge to return and give a different result.
+
+**Answer:** Positive.
+
+**Why the other answers do not work:**
+
+- **Negative.** — Electrons are repelled out of the conductor during grounding in this arrangement.
+- **Necessarily neutral because the rod never touches it.** — Grounding permits charge transfer even without rod contact.
+- **Its sign depends only on the conductor’s mass.** — The transfer sequence, not mass, determines the sign here.
+
+#### Situation 6: Two perpendicular source forces
+
+A +1.0 nC target is at the origin. A −2.0 nC source is at (0.030 m,0), and a −3.0 nC source is at (0,0.040 m). Find the net-force magnitude on the target. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$.
+
+1. **Set directions.** Both sources attract the positive target: the first force is east, and the second is north.
+
+2. **Calculate the east component.**
+
+   $$F_x=\frac{k(1.0\times10^{-9})(2.0\times10^{-9})}{0.030^2}$$
+
+3. **Calculate the north component.**
+
+   $$F_y=\frac{k(1.0\times10^{-9})(3.0\times10^{-9})}{0.040^2}$$
+
+4. **Combine perpendicular components.** The resultant lies in the northeast quadrant; its magnitude is smaller than the sum of the two positive component magnitudes.
+
+   $$F=\sqrt{F_x^2+F_y^2}$$
+
+5. **State the result.**
+
+   $$2.6139\times10^{-5}\,\mathrm N$$
+
+**Answer:** $2.6139\times10^{-5}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$3.6834\times10^{-5}\,\mathrm N$** — This adds perpendicular magnitudes as if they were collinear.
+- **$3.12153\times10^{-6}\,\mathrm N$** — This subtracts perpendicular contributions.
+- **$0.026139\,\mathrm N$** — Nanocoulombs must be converted to coulombs before multiplying.
+
+#### Situation 7: Contact followed by separation
+
+Identical conducting spheres initially carry +8.0 nC and −2.0 nC. They touch in isolation, then their centers are separated by 0.20 m, much larger than their radii. Find the final force magnitude using $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$.
+
+1. **Conserve the total charge.**
+
+   $$Q=+8.0-2.0=+6.0\,\mathrm{nC}$$
+
+2. **Share equally between identical spheres.**
+
+   $$q_1'=q_2'=+3.0\times10^{-9}\,\mathrm C$$
+
+3. **Use the final charges and final separation.**
+
+   $$F=\frac{(8.99\times10^9)(3.0\times10^{-9})^2}{(0.20)^2}$$
+
+4. **Interpret the direction.** The final charges are both positive, so the force is repulsive.
+
+5. **State the result.**
+
+   $$2.02275\times10^{-6}\,\mathrm N$$
+
+**Answer:** $2.02275\times10^{-6}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$3.596\times10^{-6}\,\mathrm N$** — This uses the original charge product after charge redistribution.
+- **$8.091\times10^{-6}\,\mathrm N$** — This puts the complete net charge on each sphere.
+- **$4.0455\times10^{-7}\,\mathrm N$** — Coulomb’s law uses separation squared.
+
+#### Situation 8: A cancellation point between like charges
+
+Fixed charges +4.0 nC and +9.0 nC lie at $x=0$ and $x=0.50\,\mathrm m$. A nonzero test charge is placed between them. At what x-coordinate is its net electric force zero?
+
+1. **Identify the allowed cancellation region.** Between like charges, the two source forces on a given test charge point oppositely.
+
+2. **Set force magnitudes equal and cancel common factors.**
+
+   $$\frac4{x^2}=\frac9{(0.50-x)^2}$$
+
+3. **Take the positive distance square root.**
+
+   $$\frac2x=\frac3{0.50-x}$$
+
+4. **Solve the linear equation.** The point is closer to the smaller +4 nC source, as required.
+
+   $$2(0.50-x)=3x\quad\Longrightarrow\quad x=0.20\,\mathrm m$$
+
+5. **State the result.**
+
+   $$0.2\,\mathrm m$$
+
+**Answer:** $0.2\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.25\,\mathrm m$** — The midpoint cancels equal sources, not these unequal charges.
+- **$0.3\,\mathrm m$** — This reverses which side must be closer to the smaller source.
+- **$0.153846\,\mathrm m$** — Force balance involves inverse squares, so the charge ratio must be square-rooted.
+
+#### Situation 9: Tracking electrons through a transfer
+
+A neutral small object loses $2.0\times10^{10}$ electrons. It then gains $5.0\times10^{9}$ electrons from another object. Find its final charge. Use $e=1.602\times10^{-19}\,\mathrm C$.
+
+1. **Count the final electron deficit.**
+
+   $$N_{\mathrm{deficit}}=2.0\times10^{10}-5.0\times10^9=1.5\times10^{10}$$
+
+2. **Choose the charge sign.** The object still has fewer electrons than its neutral state, so its charge is positive.
+
+3. **Multiply the net count by elementary charge.** Track the signed net transfer before multiplying; do not add all transfer magnitudes.
+
+   $$Q=+(1.5\times10^{10})(1.602\times10^{-19})$$
+
+4. **State the result.**
+
+   $$2.403\times10^{-9}\,\mathrm C$$
+
+**Answer:** $2.403\times10^{-9}\,\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$-2.403\times10^{-9}\,\mathrm C$** — An electron deficit gives positive charge.
+- **$4.005\times10^{-9}\,\mathrm C$** — Returning electrons reduces, rather than increases, the deficit.
+- **$3.204\times10^{-9}\,\mathrm C$** — This omits the second transfer.
+
+#### Situation 10: A mutual force and one acceleration
+
+Two isolated small charges +2.0 μC and −3.0 μC are 0.30 m apart. The +2.0 μC body has mass 0.010 kg. Find its initial acceleration magnitude from the electric interaction. Ignore every other force; $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$.
+
+1. **Find the initial force magnitude.**
+
+   $$F=\frac{k|q_1q_2|}{r^2}$$
+
+2. **Convert both microcoulomb values.**
+
+   $$F=\frac{(8.99\times10^9)(2.0\times10^{-6})(3.0\times10^{-6})}{0.30^2}$$
+
+3. **Apply Newton’s second law to the specified body.**
+
+   $$a=\frac F{0.010}$$
+
+4. **Interpret the instantaneous result.** The positive body initially accelerates toward the negative body. The acceleration changes if their separation changes.
+
+5. **State the result.**
+
+   $$59.9333\,\mathrm{m\,s^{-2}}$$
+
+**Answer:** $59.9333\,\mathrm{m\,s^{-2}}$
+
+**Why the other answers do not work:**
+
+- **$0.599333\,\mathrm{m\,s^{-2}}$** — This is a force in newtons, not acceleration.
+- **$17.98\,\mathrm{m\,s^{-2}}$** — The charge separation must be squared.
+- **$0.00599333\,\mathrm{m\,s^{-2}}$** — Acceleration divides force by mass.
+

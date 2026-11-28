@@ -31,6 +31,12 @@ The supplied [TOPCIT Sprint reference](https://tpct-reviewer.onrender.com/) info
 
 `practice-data.js` creates 600 numerical variants across 30 question families. `practice-math.js` supplies the formatted laws and substitutions. `concept-data.js` supplies 60 original concept checks, including an explanation for every choice.
 
+`challenge-data.js` adds 100 situational questions: ten per module, with five calculations and five conceptual situations. `practice-solutions.js` adds full working to the existing 600 numerical variants. The combined study bank contains 760 questions.
+
+Choose **Situational challenges** in the practice menu to select the harder questions. Sets remain limited to 60 questions. Each module also contains ten fully open worked situations in the complete notes. The original 20 note files and all 18 PDFs remain unchanged.
+
+Edit `tools/challenge-source.cjs` to change the added questions. `python tools/build_notes.py` regenerates the added question data, supplementary notes, lesson exports, and full notebook.
+
 `study-core.js` manages question selection, confidence, review scheduling, exam state, and backup compatibility. `desk.js` provides the study workspace. `study-desk.css` extends the existing visual system. `notebook.css` controls the full notebook. `palette.css` defines the themes.
 
 The notes build also writes `study-index.json` and `lessons/01.html` through `lessons/10.html`. Each lesson contains the complete chapter and its original mathematics. The study desk loads one chapter at a time.
@@ -57,7 +63,9 @@ Run `python tools/build_notes.py` after changes to the notes. Run these checks:
 - `python tests/check_expanded.py` checks 75 expanded calculations and the complete source-page map.
 - `python tests/check_math_format.py` checks that the notes contain rendered equations without raw formulas.
 - `node tests/check_practice.cjs` checks the 600 practice variants and the display and inline equations.
-- `node tests/check_study.cjs` checks the 660-question combined bank, complete lesson exports, scheduling, storage compatibility, smart selection, exam persistence, and backups.
+- `node tests/check_challenges.cjs` checks the 760-question bank, mathematical rendering, old progress, and preserved notes.
+- `python tests/check_challenge_physics.py` independently checks all 50 new numerical answers.
+- `node tests/check_study.cjs` checks the legacy 660-question bank, complete lesson exports, scheduling, storage compatibility, smart selection, exam persistence, and backups.
 
 `tests/study-browser-flow.js` checks the study desk through its interface in an isolated browser. `tests/browser-flow.js` checks all 600 questions on `classic.html`.
 

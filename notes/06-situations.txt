@@ -1,0 +1,288 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: Dielectric with the battery removed
+
+An ideal charged capacitor is disconnected from its battery. A dielectric completely fills its unchanged gap, increasing capacitance by a factor κ>1. Ignore leakage. Which comparison is correct?
+
+1. **Identify the boundary condition.** Disconnection and negligible leakage hold the free plate charge fixed.
+
+2. **Use the new capacitance.**
+
+   $$C'=\kappa C$$
+
+3. **Derive voltage and energy ratios.**
+
+   $$V'=\frac Q{\kappa C}=\frac V\kappa,\quad U'=\frac{Q^2}{2\kappa C}=\frac U\kappa$$
+
+4. **Account for energy.** Field energy can decrease while the electric force does mechanical work on the inserted material.
+
+**Answer:** $Q$ stays fixed, while $V$ and stored field energy each divide by $\kappa$.
+
+**Why the other answers do not work:**
+
+- **$V$ stays fixed and charge multiplies by $\kappa$.** — That describes a connected ideal voltage source, not this isolated capacitor.
+- **Charge and energy both stay fixed.** — Charge conservation does not imply fixed field energy.
+- **Energy multiplies by $\kappa$ because capacitance increases.** — That uses a fixed-voltage energy comparison despite the disconnected battery.
+
+#### Situation 2: Why connected insertion needs the source
+
+A dielectric is inserted quasistatically while an ideal battery stays connected to a capacitor at fixed voltage. Capacitance increases. How can the capacitor’s stored energy increase while the dielectric is pulled inward?
+
+1. **Use the fixed-voltage condition.**
+
+   $$Q=CV,\qquad U=\tfrac12CV^2$$
+
+2. **Compare source work for a change in capacitance.**
+
+   $$W_{\mathrm{battery}}=V\Delta Q=V^2\Delta C$$
+
+3. **Compare the stored-energy increase.**
+
+   $$\Delta U=\tfrac12V^2\Delta C$$
+
+4. **Identify the remaining energy transfer.** In the ideal quasistatic model, the remaining half can appear as mechanical work. A field-only comparison omits this source contribution.
+
+**Answer:** The battery supplies energy; the capacitor field is not an isolated energy system.
+
+**Why the other answers do not work:**
+
+- **Energy conservation fails for dielectrics.** — Include the source and mechanical work before testing conservation.
+- **The plate charge must stay fixed because the geometry is fixed.** — A connected battery can transfer charge as capacitance changes.
+- **A rise in capacitor energy proves the force pushes the dielectric outward.** — That inference omits the battery energy exchange.
+
+#### Situation 3: Parallel capacitors after disconnection
+
+A charged capacitor is disconnected from its source, then connected in parallel with an initially uncharged equal capacitor, with corresponding plates joined. A small connection resistance allows equilibrium. Which statement is correct?
+
+1. **Conserve charge on the joined positive node.**
+
+   $$CV_0=(C+C)V_f$$
+
+2. **Find the shared final voltage.**
+
+   $$V_f=V_0/2$$
+
+3. **Compare field energies.**
+
+   $$U_i=\tfrac12CV_0^2,\quad U_f=\tfrac12(2C)(V_0/2)^2=U_i/2$$
+
+4. **Complete the energy account.** The finite connection dissipates energy during the transient. Conserving charge does not require conserving field energy alone.
+
+**Answer:** Charge is conserved, the final voltage halves, and some initial field energy is dissipated.
+
+**Why the other answers do not work:**
+
+- **Both charge and capacitor field energy remain entirely in the final electric field.** — The final shared voltage gives a lower total field energy.
+- **The final voltage remains equal to the original voltage.** — No connected battery holds it there.
+- **The initially uncharged capacitor cannot acquire charge.** — The joined conductors allow redistribution.
+
+#### Situation 4: Series charge and component voltage
+
+Two initially uncharged capacitors are placed in series across a battery with an initially neutral isolated intermediate node. One capacitor has three times the other’s capacitance. Which comparison is correct?
+
+1. **Use the intermediate-node condition.** Opposite induced charges on the two inner plates have equal magnitudes.
+
+2. **Apply the component relation.**
+
+   $$V_1=Q/C_1,\qquad V_2=Q/C_2$$
+
+3. **Take the ratio.**
+
+   $$\frac{V_{\mathrm{small}}}{V_{\mathrm{large}}}=\frac{C_{\mathrm{large}}}{C_{\mathrm{small}}}=3$$
+
+4. **Distinguish parallel.** Parallel connections fix common voltage instead of common series charge.
+
+**Answer:** They have equal charge magnitudes; the smaller capacitor has three times the voltage.
+
+**Why the other answers do not work:**
+
+- **They have equal voltages; the larger has three times the charge.** — That is the parallel condition.
+- **The larger capacitor must have the larger voltage.** — Voltage is inversely proportional to capacitance at the common series charge.
+- **Their equivalent capacitance exceeds the larger component.** — A positive series equivalent is smaller than the smallest component.
+
+#### Situation 5: Separating isolated capacitor plates
+
+An ideal parallel-plate capacitor is charged and isolated. Its plate gap doubles while overlap area and permittivity remain fixed. Ignore fringing and leakage. Which result follows?
+
+1. **Change the geometry.**
+
+   $$C=\epsilon A/d\quad\Longrightarrow\quad C'=C/2$$
+
+2. **Hold charge fixed.**
+
+   $$V'=Q/C'=2V$$
+
+3. **Use the fixed-charge energy form.**
+
+   $$U'=Q^2/(2C')=2U$$
+
+4. **Check the energy transfer.** The external agent’s positive separation work increases stored field energy.
+
+**Answer:** Capacitance halves, voltage doubles, and field energy doubles.
+
+**Why the other answers do not work:**
+
+- **Capacitance doubles because the gap increases.** — Capacitance is inversely proportional to the gap.
+- **Voltage stays fixed because it was once connected to a battery.** — A removed battery no longer enforces voltage.
+- **Energy halves because capacitance halves.** — That energy scaling would require fixed voltage, not fixed charge.
+
+#### Situation 6: Recovering a series component’s energy
+
+Initially uncharged capacitors 3.0 μF and 6.0 μF are in series across 12 V, with a neutral isolated middle node. Find the energy stored in the 3.0 μF capacitor.
+
+1. **Reduce the series pair.**
+
+   $$C_{\mathrm{eq}}=\frac{3(6)}{3+6}=2\,\mu\mathrm F$$
+
+2. **Find common charge.**
+
+   $$Q=C_{\mathrm{eq}}V=2(12)=24\,\mu\mathrm C$$
+
+3. **Recover the small capacitor’s voltage.**
+
+   $$V_3=Q/C_3=24/3=8\,\mathrm V$$
+
+4. **Calculate that component’s energy.** The 6 μF component has the remaining 4 V, so the recovered voltages add to 12 V.
+
+   $$U_3=\tfrac12(3.0\times10^{-6})(8)^2$$
+
+5. **State the result.**
+
+   $$9.6\times10^{-5}\,\mathrm J$$
+
+**Answer:** $9.6\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$2.16\times10^{-4}\,\mathrm J$** — This incorrectly puts the full 12 V across the 3 μF component.
+- **$4.8\times10^{-5}\,\mathrm J$** — The component energy includes one half, but its actual voltage must first be found.
+- **$1.44\times10^{-4}\,\mathrm J$** — This is the total energy of the series combination.
+
+#### Situation 7: Isolated dielectric insertion
+
+A 2.0 μF capacitor is charged to 10 V and disconnected. An ideal dielectric of $\kappa=3$ fully fills the unchanged gap without leakage. Find the final stored energy.
+
+1. **Find the charge before disconnection.**
+
+   $$Q=(2.0\times10^{-6})(10)=20\,\mu\mathrm C$$
+
+2. **Apply the dielectric change.**
+
+   $$C'=3C=6.0\,\mu\mathrm F$$
+
+3. **Hold charge fixed.**
+
+   $$U'=\frac{Q^2}{2C'}=\frac{(20\times10^{-6})^2}{2(6.0\times10^{-6})}$$
+
+4. **Check the comparison.** The initial energy is 100 μJ. Dividing by $\kappa=3$ gives the final field energy.
+
+5. **State the result.**
+
+   $$3.33333\times10^{-5}\,\mathrm J$$
+
+**Answer:** $3.33333\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$3\times10^{-4}\,\mathrm J$** — This uses the connected fixed-voltage scaling.
+- **$1\times10^{-4}\,\mathrm J$** — This assumes unchanged field energy despite the mechanical interaction.
+- **$1.11111\times10^{-5}\,\mathrm J$** — This divides the energy by κ² rather than κ at fixed charge.
+
+#### Situation 8: Battery work during dielectric insertion
+
+An ideal battery keeps 12 V across an initially 2.0 μF capacitor. A dielectric increases its capacitance to 8.0 μF during quasistatic insertion. Find the energy supplied by the battery, not just the capacitor-energy change.
+
+1. **Find the capacitance increase.**
+
+   $$\Delta C=(8.0-2.0)\,\mu\mathrm F=6.0\times10^{-6}\,\mathrm F$$
+
+2. **Find charge delivered at fixed voltage.**
+
+   $$\Delta Q=V\Delta C=12(6.0\times10^{-6})=72\,\mu\mathrm C$$
+
+3. **Calculate source work.**
+
+   $$W_{\mathrm{battery}}=V\Delta Q=12(72\times10^{-6})$$
+
+4. **Check the larger energy account.** The rest can become mechanical work in the stated quasistatic idealization.
+
+   $$\Delta U=\tfrac12\Delta CV^2=432\,\mu\mathrm J$$
+
+5. **State the result.**
+
+   $$8.64\times10^{-4}\,\mathrm J$$
+
+**Answer:** $8.64\times10^{-4}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$4.32\times10^{-4}\,\mathrm J$** — This is the capacitor’s stored-energy increase, half the ideal battery work for this process.
+- **$0.001152\,\mathrm J$** — This counts the full final CV² rather than the change in delivered charge.
+- **$2.88\times10^{-4}\,\mathrm J$** — This omits the actual capacitance change.
+
+#### Situation 9: Geometry change after isolation
+
+An ideal parallel-plate capacitor has area 0.030 m², gap 1.2 mm, and dielectric constant $\kappa=2$. It is charged to 100 V and isolated. The gap then doubles while the dielectric still completely fills it and κ remains fixed. Find the final stored energy. Use $\varepsilon_0=8.85\times10^{-12}\,\mathrm{F\,m^{-1}}$.
+
+1. **Convert the original gap.**
+
+   $$d_0=1.2\times10^{-3}\,\mathrm m$$
+
+2. **Find the initial capacitance.**
+
+   $$C_0=\frac{\kappa\epsilon_0A}{d_0}=4.425\times10^{-10}\,\mathrm F$$
+
+3. **Hold the isolated charge fixed as the gap doubles.**
+
+   $$C_f=C_0/2,\qquad Q=C_0V_0$$
+
+4. **Use the final capacitance with that fixed charge.** The final energy is twice the initial energy. External work separates the attracting plates.
+
+   $$U_f=\frac{(C_0V_0)^2}{2(C_0/2)}=C_0V_0^2$$
+
+5. **State the result.**
+
+   $$4.425\times10^{-6}\,\mathrm J$$
+
+**Answer:** $4.425\times10^{-6}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$1.10625\times10^{-6}\,\mathrm J$** — This applies fixed-voltage scaling to an isolated capacitor.
+- **$2.2125\times10^{-6}\,\mathrm J$** — This is the initial field energy.
+- **$8.85\times10^{-6}\,\mathrm J$** — This doubles the correct final energy again.
+
+#### Situation 10: Unequally charged capacitors share charge
+
+Isolated capacitors 2.0 μF at 10 V and 3.0 μF at 4 V are connected in parallel with corresponding positive plates joined. A small resistance allows equilibrium. Find the final common voltage.
+
+1. **Find charge on the joined positive node.**
+
+   $$Q_{\mathrm{total}}=(2)(10)+(3)(4)=32\,\mu\mathrm C$$
+
+2. **Find the final parallel capacitance.**
+
+   $$C_f=2+3=5\,\mu\mathrm F$$
+
+3. **Divide conserved charge by final capacitance.**
+
+   $$V_f=32/5=6.4\,\mathrm V$$
+
+4. **Check the energy difference.** The transient dissipates 21.6 μJ; conserving charge alone does not keep all initial energy in the final electric field.
+
+   $$U_i=124\,\mu\mathrm J,\quad U_f=102.4\,\mu\mathrm J$$
+
+5. **State the result.**
+
+   $$6.4\,\mathrm V$$
+
+**Answer:** $6.4\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$7\,\mathrm V$** — This averages voltages without capacitance weighting.
+- **$8\,\mathrm V$** — Conserve the joined-node charge rather than selecting an arbitrary intermediate voltage.
+- **$14\,\mathrm V$** — Parallel connection does not add the original voltages.
+

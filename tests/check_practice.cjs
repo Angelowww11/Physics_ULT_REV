@@ -32,7 +32,7 @@ for(const q of Q){
   katex.renderToString(tex,{displayMode:true,throwOnError:true,strict:'error'});
  }
 }
-for(const file of fs.readdirSync(path.join(__dirname,'../notes')).filter(f=>/^\d{2}(-worked)?\.txt$/.test(f))){
+for(const file of fs.readdirSync(path.join(__dirname,'../notes')).filter(f=>/^\d{2}(-(worked|situations))?\.txt$/.test(f))){
  const note=fs.readFileSync(path.join(__dirname,'../notes',file),'utf8');
  for(const match of note.matchAll(/(\$\$[\s\S]*?\$\$|\$[^\n$]+\$)/g)){
   const display=match[1].startsWith('$$'),tex=display?match[1].slice(2,-2):match[1].slice(1,-1);

@@ -1,0 +1,288 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: Helical motion and magnetic work
+
+A charged particle enters a uniform, static magnetic field with nonzero velocity components parallel and perpendicular to the field. No other force acts. Which statement is correct?
+
+1. **Separate the components.**
+
+   $$v_\parallel=v\cos\theta,\quad v_\perp=v\sin\theta$$
+
+2. **Check power.**
+
+   $$P=q(\vec v\times\vec B)\cdot\vec v=0$$
+
+3. **Write the radius.**
+
+   $$r=mv_\perp/(|q|B)$$
+
+4. **Combine the motions.** Uniform parallel motion and circular perpendicular motion produce a helix.
+
+**Answer:** The path is helical; speed and kinetic energy remain constant.
+
+**Why the other answers do not work:**
+
+- **The field steadily increases kinetic energy.** — The magnetic force is perpendicular to velocity.
+- **The parallel velocity decreases until the motion is circular.** — The magnetic force has no component along the field.
+- **The force always points along the magnetic field.** — The cross product gives a force perpendicular to the field.
+
+#### Situation 2: Compare radii at equal kinetic energy
+
+Two nonrelativistic particles have the same charge magnitude and kinetic energy. Their masses are m and 2m. They enter the same uniform magnetic field perpendicularly. What is the heavier particle’s radius divided by the lighter particle’s radius?
+
+1. **Relate speed to energy.**
+
+   $$K=\tfrac12mv^2\ \Rightarrow\ mv=\sqrt{2mK}$$
+
+2. **Use the magnetic radius.**
+
+   $$r=\frac{mv}{|q|B}=\frac{\sqrt{2mK}}{|q|B}$$
+
+3. **Take the ratio.**
+
+   $$r_{2m}/r_m=\sqrt2$$
+
+4. **Check the conditions.** The result uses perpendicular, nonrelativistic motion and equal charge magnitudes.
+
+**Answer:** $\sqrt2$
+
+**Why the other answers do not work:**
+
+- **$2$** — This would apply at equal speed, not equal kinetic energy.
+- **$1/\sqrt2$** — The heavier particle has larger momentum at the same kinetic energy.
+- **$1$** — Equal kinetic energy does not imply equal momentum.
+
+#### Situation 3: Changing only the charge sign
+
+A particle’s charge changes from +q to −q. Mass, initial velocity, and the uniform magnetic field stay the same. The velocity is perpendicular to the field. What changes?
+
+1. **Reverse the force direction.**
+
+   $$\vec F=(-q)(\vec v\times\vec B)$$
+
+2. **Compare the radius.**
+
+   $$r=mv/(|q|B)$$
+
+3. **Compare the period.**
+
+   $$T=2\pi m/(|q|B)$$
+
+4. **Interpret the motion.** The particle bends in the opposite direction with the same speed and geometric radius.
+
+**Answer:** Curvature reverses; radius and period stay the same.
+
+**Why the other answers do not work:**
+
+- **Radius becomes negative as a physical length.** — The radius is a nonnegative length. Orientation can use a signed convention separately.
+- **The period doubles.** — The charge magnitude, field, and mass stay the same.
+- **Speed increases because the force reverses.** — Magnetic force still does no work.
+
+#### Situation 4: Loop plane versus loop normal
+
+A current loop lies with its plane parallel to a uniform magnetic field. The loop current is nonzero. What is the torque magnitude relative to its maximum possible value?
+
+1. **Identify the angle in the law.** Use the angle between the field and loop normal.
+
+2. **Convert the stated plane orientation.**
+
+   $$\theta_{\mathrm{normal}}=90^\circ$$
+
+3. **Evaluate torque.**
+
+   $$\tau=NIAB\sin90^\circ=NIAB$$
+
+4. **Separate torque from net force.** A uniform field can give a loop torque while the net magnetic force on the closed loop is zero.
+
+**Answer:** It is maximum.
+
+**Why the other answers do not work:**
+
+- **It is zero.** — Zero torque occurs when the loop normal is parallel or antiparallel to the field.
+- **It is half the maximum.** — The given geometry corresponds to 90° between the normal and field.
+- **It cannot be determined without the loop perimeter.** — The relative torque follows from the angle alone.
+
+#### Situation 5: Parallel current directions
+
+Two long parallel wires carry conventional currents in the same direction. Which statement describes their magnetic interaction?
+
+1. **Find the field from one wire.**
+
+   $$B=\mu_0 I/(2\pi d)$$
+
+2. **Apply the right-hand rule.** At the other wire, use its current direction crossed with the local magnetic field.
+
+3. **Find the force per length.**
+
+   $$F/L=\mu_0 I_1I_2/(2\pi d)$$
+
+4. **Check symmetry.** The forces point toward the opposite wires and have equal magnitudes per equal length.
+
+**Answer:** They attract each other.
+
+**Why the other answers do not work:**
+
+- **They repel because the electrons move opposite conventional current.** — The standard wire-force law already uses conventional current consistently.
+- **Only the larger-current wire feels a force.** — Both wires exert equal-magnitude, opposite forces per equal length.
+- **They have zero force because their currents are parallel.** — The force uses the field made by the other wire, not that wire’s current direction as the field direction.
+
+#### Situation 6: Radius of a proton helix
+
+A proton of mass $1.673\times10^{-27}$ kg and charge $1.602\times10^{-19}$ C enters a uniform 0.010 T magnetic field at $1.00\times10^{5}$ m/s. Its velocity makes 30° with the field. Find the helix radius. Use nonrelativistic motion.
+
+1. **Resolve perpendicular speed.**
+
+   $$v_\perp=v\sin30^\circ=5.00\times10^4\,\mathrm{m\,s^{-1}}$$
+
+2. **Balance perpendicular magnetic and centripetal forces.**
+
+   $$|q|v_\perp B=mv_\perp^2/r$$
+
+3. **Rearrange for the radius.**
+
+   $$r=mv_\perp/(|q|B)$$
+
+4. **Substitute SI values.**
+
+   $$r=\frac{(1.673\times10^{-27})(5.00\times10^4)}{(1.602\times10^{-19})(0.010)}$$
+
+5. **Check the other component.** The parallel component controls travel along the helix axis, not its radius.
+
+6. **State the result.**
+
+   $$0.052216\,\mathrm m$$
+
+**Answer:** $0.052216\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.104432\,\mathrm m$** — This uses total speed instead of perpendicular speed.
+- **$0.0904407\,\mathrm m$** — This uses the parallel component.
+- **$0.026108\,\mathrm m$** — This doubles the magnetic field without justification.
+
+#### Situation 7: Torque when the angle is to the plane
+
+A 20-turn rectangular loop measures 0.10 m by 0.20 m and carries 0.50 A in a 0.30 T uniform field. The field makes 30° with the loop plane. Find the torque magnitude.
+
+1. **Calculate one-turn area.**
+
+   $$A=(0.10)(0.20)=0.020\,\mathrm{m^2}$$
+
+2. **Convert plane angle to normal angle.**
+
+   $$\theta_n=90^\circ-30^\circ=60^\circ$$
+
+3. **Use the normal-angle torque law.**
+
+   $$\tau=NIAB\sin\theta_n$$
+
+4. **Substitute.**
+
+   $$\tau=(20)(0.50)(0.020)(0.30)\sin60^\circ$$
+
+5. **Check the bound.** The result is below $NIAB=0.060\,\mathrm{N\,m}$, as required.
+
+6. **State the result.**
+
+   $$0.0519615\,\mathrm{N\,m}$$
+
+**Answer:** $0.0519615\,\mathrm{N\,m}$
+
+**Why the other answers do not work:**
+
+- **$0.03\,\mathrm{N\,m}$** — This puts the plane angle directly into the sine.
+- **$0.06\,\mathrm{N\,m}$** — This assumes maximum torque.
+- **$0.003\,\mathrm{N\,m}$** — This omits the number of turns while also using the maximum-angle value.
+
+#### Situation 8: Zero field between unequal wire currents
+
+Two long straight wires lie parallel to the z axis at $x=0$ and $x=0.30\,\mathrm m$. They carry 2.0 A and 8.0 A in the same +z direction. Find the x coordinate between them where their net magnetic field vanishes.
+
+1. **Determine the field directions.** Between same-direction wires, their fields point oppositely.
+
+2. **Equate their magnitudes.**
+
+   $$\frac{\mu_0(2)}{2\pi x}=\frac{\mu_0(8)}{2\pi(0.30-x)}$$
+
+3. **Cancel constants and solve.**
+
+   $$2(0.30-x)=8x\ \Rightarrow\ x=0.060\,\mathrm m$$
+
+4. **Check the location.** The cancellation point is closer to the weaker-current wire.
+
+5. **State the result.**
+
+   $$0.06\,\mathrm m$$
+
+**Answer:** $0.06\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.1\,\mathrm m$** — This uses an inverse-square field instead of the straight-wire inverse-distance law.
+- **$0.15\,\mathrm m$** — The midpoint cancels only for equal currents.
+- **$0.24\,\mathrm m$** — This measures from the stronger-current wire while the question measures from $x=0$.
+
+#### Situation 9: Signed magnetic-force component
+
+A particle has charge −2.0 μC and velocity (300, 400, 0) m/s. The magnetic field is (0, 0, 0.50) T. Find the x component of its magnetic force in this right-handed coordinate system.
+
+1. **Expand the cross product.**
+
+   $$\vec v\times\vec B=(v_yB_z,-v_xB_z,0)=(200,-150,0)$$
+
+2. **Multiply by the signed charge.**
+
+   $$\vec F=(-2.0\times10^{-6})(200,-150,0)\,\mathrm N$$
+
+3. **Read the requested component.**
+
+   $$F_x=-4.00\times10^{-4}\,\mathrm N$$
+
+4. **Check perpendicularity.**
+
+   $$\vec F\cdot\vec v=(-0.0004)(300)+(0.0003)(400)=0$$
+
+5. **State the result.**
+
+   $$-4\times10^{-4}\,\mathrm N$$
+
+**Answer:** $-4\times10^{-4}\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$4\times10^{-4}\,\mathrm N$** — This misses the negative charge sign.
+- **$-3\times10^{-4}\,\mathrm N$** — This uses the x velocity in the x force component.
+- **$5\times10^{-4}\,\mathrm N$** — This is the total force magnitude, not its signed x component.
+
+#### Situation 10: Opposing coaxial solenoid fields
+
+Two ideal long coaxial air-core solenoids overlap. Their uniform internal fields oppose. Solenoid 1 has 400 turns over 0.20 m and carries 1.5 A. Solenoid 2 has 200 turns over 0.20 m and carries 1.0 A. Find the net field magnitude in their common interior. Use $\mu_0=4\pi\times10^{-7}\,\mathrm{T\,m\,A^{-1}}$.
+
+1. **Calculate turn densities.**
+
+   $$n_1=400/0.20=2000\,\mathrm{m^{-1}},\quad n_2=200/0.20=1000\,\mathrm{m^{-1}}$$
+
+2. **Choose the first field as positive.**
+
+   $$B_{\mathrm{net}}=\mu_0(n_1I_1-n_2I_2)$$
+
+3. **Substitute.**
+
+   $$B_{\mathrm{net}}=(4\pi\times10^{-7})[2000(1.5)-1000(1.0)]$$
+
+4. **Interpret the sign.** The positive result points along the first solenoid field. End effects and magnetic materials are excluded.
+
+5. **State the result.**
+
+   $$0.00251327\,\mathrm T$$
+
+**Answer:** $0.00251327\,\mathrm T$
+
+**Why the other answers do not work:**
+
+- **$0.00502655\,\mathrm T$** — This adds fields that the question states oppose.
+- **$0.00125664\,\mathrm T$** — This gives the second solenoid field alone.
+- **$0.00376991\,\mathrm T$** — This gives the first solenoid field alone.
+

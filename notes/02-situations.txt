@@ -1,0 +1,282 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: A hole in an expanding plate
+
+An unconstrained isotropic metal plate contains a circular hole. It is heated uniformly and remains solid. What happens to the hole to first order?
+
+1. **Identify the geometry.** Uniform isotropic free expansion scales every coordinate separation.
+
+2. **Apply the length factor to the opening.**
+
+   $$D_f=D_0(1+\alpha\Delta T)$$
+
+3. **Separate the measures.** A hole’s area changes by approximately 2αΔT, while its diameter changes by αΔT.
+
+4. **Respect the assumptions.** Constraints, nonuniform heating, or anisotropy need additional modeling.
+
+**Answer:** Its diameter increases by the same fractional linear expansion as the plate.
+
+**Why the other answers do not work:**
+
+- **Its diameter decreases because surrounding metal expands inward.** — Unconstrained uniform expansion scales the hole as part of the geometry.
+- **Its diameter stays fixed because the hole contains no metal.** — The boundary positions move with the expanding solid.
+- **Its diameter follows the volume coefficient rather than the linear coefficient.** — Diameter is a length, so its first-order change uses the linear coefficient.
+
+#### Situation 2: Not enough heat to melt all the ice
+
+Ice and water exchange heat in an insulated container. The warm water can reach 0°C but cannot supply enough heat to melt all the ice. Assume ordinary pressure and equilibrium. Which result is possible?
+
+1. **Test the phase-change budget first.** Calculate the energy that cooling the warm part to 0°C can release.
+
+2. **Compare with the melting requirement.**
+
+   $$Q_{\mathrm{available}}<m_iL_f$$
+
+3. **Choose the physical regime.** Only part of the ice melts. Both phases remain at 0°C under the stated conditions.
+
+4. **Avoid an invalid algebraic answer.** Do not assume complete melting and accept a final temperature inconsistent with the assumed phase.
+
+**Answer:** A mixture of ice and water at 0°C.
+
+**Why the other answers do not work:**
+
+- **All the ice must become water at a negative final temperature.** — That violates the stated equilibrium phase condition for the mixture.
+- **Both components stay at their initial temperatures.** — Thermal exchange continues until an allowed equilibrium is reached.
+- **The final temperature is always the arithmetic mean.** — A phase change and unequal heat capacities invalidate that shortcut.
+
+#### Situation 3: Heat is not internal energy
+
+A gas is compressed adiabatically by an external agent. The agent does positive work on the gas. Which conclusion follows from the first law?
+
+1. **Define the work convention.** Use positive Wby for work done by the gas.
+
+2. **Translate compression into signs.**
+
+   $$Q=0,\qquad W_{\mathrm{by}}<0$$
+
+3. **Apply the first law.**
+
+   $$\Delta U=Q-W_{\mathrm{by}}=-W_{\mathrm{by}}>0$$
+
+4. **Interpret the transfer.** Adiabatic means no heat transfer; it does not mean no energy transfer.
+
+**Answer:** Its internal energy increases, although no heat enters.
+
+**Why the other answers do not work:**
+
+- **Its internal energy must stay fixed because $Q=0$.** — Work also transfers energy.
+- **Its internal energy decreases because compression is always cooling.** — That reverses the work-on-system sign.
+- **The gas must undergo a phase change.** — The first law does not imply that phase change from the stated information.
+
+#### Situation 4: Container and liquid both expand
+
+A vessel is initially full of liquid. Both are heated uniformly. The liquid’s volume-expansion coefficient equals the vessel’s internal volume-expansion coefficient. Under the small-expansion model, what happens?
+
+1. **Write the competing volume changes.**
+
+   $$\Delta V_l=\beta_lV_0\Delta T,\qquad\Delta V_c=\beta_cV_0\Delta T$$
+
+2. **Subtract capacity growth.**
+
+   $$V_{\mathrm{overflow}}\approx V_0(\beta_l-\beta_c)\Delta T$$
+
+3. **Use the stated equality.** The first-order difference is zero.
+
+4. **State the approximation.** This result does not assert that every higher-order effect vanishes.
+
+**Answer:** No first-order overflow occurs.
+
+**Why the other answers do not work:**
+
+- **The liquid necessarily overflows because all liquids expand.** — The vessel’s capacity also changes.
+- **The liquid level necessarily falls because the vessel expands.** — The liquid’s equal expansion must also be counted.
+- **The linear coefficient should be used directly as the volume coefficient.** — For an isotropic solid, the first-order volume coefficient is approximately 3α.
+
+#### Situation 5: A completed thermodynamic cycle
+
+A system returns to exactly its initial thermodynamic state after several processes. Which relation must hold for the complete cycle using work by the system?
+
+1. **Use the returned state.** Internal energy has the same final and initial values.
+
+2. **Apply the first law to the complete cycle.**
+
+   $$0=\Delta U_{\mathrm{cycle}}=Q_{\mathrm{net}}-W_{\mathrm{by,net}}$$
+
+3. **Rearrange.**
+
+   $$Q_{\mathrm{net}}=W_{\mathrm{by,net}}$$
+
+4. **Keep net and individual quantities separate.** A nonzero heat or work transfer on one leg is compatible with the final state returning.
+
+**Answer:** $Q_{\mathrm{net}}=W_{\mathrm{by,net}}$
+
+**Why the other answers do not work:**
+
+- **$Q=0$ on every individual leg.** — Only the net internal-energy change is forced to zero.
+- **$W=0$ on every individual leg.** — A cycle can have nonzero net work and heat transfer.
+- **$\Delta U=Q_{\mathrm{net}}+W_{\mathrm{by,net}}$** — That uses the wrong sign for work by the system.
+
+#### Situation 6: Ice mixing: choose the regime first
+
+In an insulated container of negligible heat capacity, 0.050 kg of ice at 0°C is added to 0.200 kg of water at 40°C. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$ and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Find the final equilibrium temperature in °C.
+
+1. **Check available cooling energy.**
+
+   $$Q_{w\to0}=0.200(4186)(40)=33488\,\mathrm J$$
+
+2. **Check full-melting energy.**
+
+   $$Q_{\mathrm{melt}}=0.050(334000)=16700\,\mathrm J$$
+
+3. **Choose the regime.** The available heat exceeds the melting requirement, so all ice melts and the final temperature is above 0°C.
+
+4. **Write the full energy balance.**
+
+   $$0.200(4186)(40-T_f)=16700+0.050(4186)T_f$$
+
+5. **Solve after collecting both water heat capacities.** The result lies between 0°C and the initial warm-water temperature.
+
+   $$T_f=\frac{33488-16700}{(0.200+0.050)(4186)}$$
+
+6. **State the result.**
+
+   $$16.042\,{}^\circ\mathrm C$$
+
+**Answer:** $16.042\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$32\,{}^\circ\mathrm C$** — This mass-weighted temperature ignores the melting energy.
+- **$0\,{}^\circ\mathrm C$** — There is enough energy to melt all the ice and still warm the resulting water.
+- **$40\,{}^\circ\mathrm C$** — Some energy is used to melt and warm the ice.
+
+#### Situation 7: Several thermal stages
+
+Find the heat needed to turn 0.050 kg of ice at −10°C into water at 20°C. Use $c_i=2100\,\mathrm{J\,kg^{-1}\,K^{-1}}$, $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, and $L_f=334000\,\mathrm{J\,kg^{-1}}$. Ignore losses.
+
+1. **Warm the ice to its melting point.**
+
+   $$Q_1=0.050(2100)[0-(-10)]=1050\,\mathrm J$$
+
+2. **Melt the ice at fixed temperature.**
+
+   $$Q_2=0.050(334000)=16700\,\mathrm J$$
+
+3. **Warm the resulting water.**
+
+   $$Q_3=0.050(4186)(20-0)=4186\,\mathrm J$$
+
+4. **Add the successive required inputs.** Use sensible-heat terms for temperature changes and a latent-heat term for melting.
+
+   $$Q=Q_1+Q_2+Q_3=1050+16700+4186$$
+
+5. **State the result.**
+
+   $$21936\,\mathrm J$$
+
+**Answer:** $21936\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$16700\,\mathrm J$** — This includes melting but omits heating both phases.
+- **$4186\,\mathrm J$** — This includes only warming the melted water.
+- **$20886\,\mathrm J$** — This omits the initial ice warming.
+
+#### Situation 8: Overflow from a warming vessel
+
+A vessel is full with 2.00 L of liquid. Its isotropic solid has linear expansion coefficient $1.0\times10^{-5}$ K⁻¹. The liquid’s volume coefficient is $7.0\times10^{-4}$ K⁻¹. Both warm by 50 K. Find first-order overflow in litres.
+
+1. **Convert the solid coefficient to a volume coefficient.**
+
+   $$\beta_c\approx3\alpha_c=3.0\times10^{-5}\,\mathrm{K^{-1}}$$
+
+2. **Calculate liquid expansion.**
+
+   $$\Delta V_l=2.00(7.0\times10^{-4})(50)=0.0700\,\mathrm L$$
+
+3. **Calculate capacity expansion.**
+
+   $$\Delta V_c=2.00(3.0\times10^{-5})(50)=0.0030\,\mathrm L$$
+
+4. **Subtract the extra capacity.** The positive difference is liquid that the expanded vessel cannot hold.
+
+   $$V_{\mathrm{overflow}}=0.0700-0.0030$$
+
+5. **State the result.**
+
+   $$0.067\,\mathrm L$$
+
+**Answer:** $0.067\,\mathrm L$
+
+**Why the other answers do not work:**
+
+- **$0.07\,\mathrm L$** — This ignores growth of the vessel’s capacity.
+- **$0.069\,\mathrm L$** — This incorrectly uses the solid’s linear coefficient as its volume coefficient.
+- **$0.003\,\mathrm L$** — This is only the vessel capacity increase.
+
+#### Situation 9: Mixing with a calorimeter
+
+Water of mass 0.200 kg at 80°C is mixed with 0.300 kg at 20°C in a calorimeter initially at 20°C. The calorimeter heat capacity is 40 J/K. Use $c_w=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$, no losses, and no phase change. Find the final temperature.
+
+1. **Write heat gains and losses with one final temperature.**
+
+   $$0.200c(T_f-80)+0.300c(T_f-20)+40(T_f-20)=0$$
+
+2. **Collect the coefficients of the final temperature.**
+
+   $$T_f=\frac{0.200c(80)+0.300c(20)+40(20)}{0.500c+40}$$
+
+3. **Substitute the specific heat.**
+
+   $$c=4186\,\mathrm{J\,kg^{-1}\,K^{-1}}$$
+
+4. **Check the physical result.** The calorimeter also warms, so the final temperature is slightly lower than the 44°C water-only result.
+
+5. **State the result.**
+
+   $$43.5499\,{}^\circ\mathrm C$$
+
+**Answer:** $43.5499\,{}^\circ\mathrm C$
+
+**Why the other answers do not work:**
+
+- **$44\,{}^\circ\mathrm C$** — This ignores the calorimeter’s heat capacity.
+- **$50\,{}^\circ\mathrm C$** — An arithmetic mean does not weight the heat capacities.
+- **$20\,{}^\circ\mathrm C$** — The hot water supplies enough heat to raise the other components.
+
+#### Situation 10: First-law bookkeeping over two legs
+
+During leg A, a system absorbs 300 J and does 100 J of work. During leg B, it loses 80 J of heat and has 50 J of work done on it. Find the total internal-energy change.
+
+1. **Choose one work convention.** Use positive work by the system throughout.
+
+2. **Evaluate leg A.**
+
+   $$\Delta U_A=300-100=200\,\mathrm J$$
+
+3. **Translate both signs in leg B.**
+
+   $$Q_B=-80\,\mathrm J,\quad W_{\mathrm{by},B}=-50\,\mathrm J$$
+
+4. **Evaluate leg B.**
+
+   $$\Delta U_B=-80-(-50)=-30\,\mathrm J$$
+
+5. **Add the changes.** Use signs from the chosen convention, rather than changing conventions between legs.
+
+   $$\Delta U_{\mathrm{total}}=200-30$$
+
+6. **State the result.**
+
+   $$170\,\mathrm J$$
+
+**Answer:** $170\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$70\,\mathrm J$** — This treats the 50 J of work on the system as work by it.
+- **$330\,\mathrm J$** — This changes the sign of the heat lost in leg B.
+- **$270\,\mathrm J$** — This omits the 100 J of work output in leg A.
+

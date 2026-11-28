@@ -6,7 +6,7 @@ from markdown_it import MarkdownIt
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='20261127-study4'
+VERSION='20261127-challenge1'
 SOURCES=json.loads((ROOT/'sources.js').read_text(encoding='utf-8').split('=',1)[1].rstrip(';'))
 BY_ID={s['id']:s for s in SOURCES}
 AUDIT=json.loads((ROOT/'audit/source-map.json').read_text(encoding='utf-8'))
@@ -86,9 +86,11 @@ def build():
         s=next(s for s in SOURCES if s['module']==n and s['variant']=='main')
         core=(ROOT/'notes'/f'{n:02}.txt').read_text(encoding='utf-8')
         more=(ROOT/'notes'/f'{n:02}-worked.txt').read_text(encoding='utf-8')
-        STATS['words']+=len((core+'\n'+more).split())
+        situations=(ROOT/'notes'/f'{n:02}-situations.txt').read_text(encoding='utf-8')
+        STATS['words']+=len((core+'\n'+more+'\n'+situations).split())
+        STATS['situational_examples']=STATS.get('situational_examples',0)+10
         page,caption=core_figures[n]
-        text=core+f'\n\n{{{{figure:{s["id"]}:{page}|{caption}}}}}\n\n<p class="chapter-divider">Source problems · full working</p>\n\n'+more
+        text=core+f'\n\n{{{{figure:{s["id"]}:{page}|{caption}}}}}\n\n<p class="chapter-divider">Source problems · full working</p>\n\n'+more+'\n\n'+situations
         rendered,headings=render_note(text,n)
         rendered=re.sub(r'<h2>(.*?)</h2>',f'<header class="chapter-heading"><span class="eyebrow">Module {n:02} / Physics 2</span><h2>\\1</h2><p>{summaries[n]}</p></header>',rendered,count=1)
         outline='<details class="chapter-outline"><summary>Topics in this module</summary><div>'+''.join(f'<a href="#{id}">{escape(title)}</a>' for id,title in headings)+'</div></details>'
@@ -149,7 +151,7 @@ def build():
         filename=f'lessons/{n:02}.html'
         (ROOT/filename).write_text(fragment,encoding='utf-8')
         sections=[]
-        raw=(ROOT/'notes'/f'{n:02}.txt').read_text(encoding='utf-8')+'\n'+(ROOT/'notes'/f'{n:02}-worked.txt').read_text(encoding='utf-8')
+        raw=(ROOT/'notes'/f'{n:02}.txt').read_text(encoding='utf-8')+'\n'+(ROOT/'notes'/f'{n:02}-worked.txt').read_text(encoding='utf-8')+'\n'+(ROOT/'notes'/f'{n:02}-situations.txt').read_text(encoding='utf-8')
         chunks=re.split(r'^### ',raw,flags=re.M)[1:]
         for i,h in enumerate(re.finditer(r'<h3 id="([^"]+)">([\s\S]*?)</h3>',fragment)):
             title=unescape(re.sub('<[^>]+>','',h[2]))

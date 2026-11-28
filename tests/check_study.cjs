@@ -44,5 +44,5 @@ target.import({app:'field-notes',version:1,progress:{records:{m3q1:{correct:true
 const broken=new C.Store({getItem(){throw Error('disabled');},setItem(){throw Error('disabled');}},Q,now);assert.equal(broken.storageError,true);assert.equal(broken.save(),false);
 let solutionCount=0,derivations=0,equations=0;
 for(const m of index){const html=fs.readFileSync(m.file,'utf8');solutionCount+=(html.match(/class="solution example"/g)||[]).length;derivations+=(html.match(/class="solution derivation"/g)||[]).length;equations+=(html.match(/class="katex"/g)||[]).length;assert.ok(html.includes(`id="module-${m.module}"`));}
-assert.equal(solutionCount,69);assert.equal(derivations,34);assert.equal(equations,1945);
+assert.equal(solutionCount,69);assert.equal(derivations,34);assert.ok(equations>=1945);const noteStats=JSON.parse(fs.readFileSync('note-stats.json','utf8'));assert.equal(equations,noteStats.derivation_blocks+noteStats.inline_equations);
 console.log(`PASS: 660 questions, ${math} concept/prompt equations, source anchors, original lesson content, scheduling, smart selection, confidence, old progress, persistence, balanced exams, expiry, and backup restoration.`);

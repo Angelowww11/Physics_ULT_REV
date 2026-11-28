@@ -1,0 +1,296 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: Zero flux does not mean zero emf
+
+A rigid loop rotates at constant angular speed in a uniform magnetic field. At one instant its magnetic flux is zero. Can the induced emf magnitude be nonzero at that instant?
+
+1. **Write the flux.**
+
+   $$\Phi=BA\cos(\omega t)$$
+
+2. **Differentiate it.**
+
+   $$\mathcal E=-N\frac{d\Phi}{dt}=NBA\omega\sin(\omega t)$$
+
+3. **Check the zero-flux orientation.**
+
+   $$\cos(\omega t)=0\ \Rightarrow\ |\sin(\omega t)|=1$$
+
+4. **Keep the distinction.** The field, area, or orientation can change the flux.
+
+**Answer:** Yes. For sinusoidal flux, its magnitude is maximum when flux crosses zero.
+
+**Why the other answers do not work:**
+
+- **No. Zero flux always gives zero emf.** — This confuses a value with its derivative.
+- **Only if the magnetic field magnitude increases.** — Changing loop orientation can change flux even when the field magnitude is constant.
+- **No. A rigid loop cannot have changing flux.** — The loop area can stay fixed while its angle changes.
+
+#### Situation 2: Lenz direction for a weakening field
+
+A conducting loop lies in the page. A uniform external magnetic field points out of the page and decreases in magnitude. Viewed from the front, which way does the induced conventional current flow?
+
+1. **Identify the change.** Outward flux is decreasing.
+
+2. **Oppose that change.** The induced field must point outward.
+
+3. **Apply the loop right-hand rule.** An outward thumb gives counterclockwise curled fingers.
+
+4. **Check the wording.** The induced field opposes the change, rather than always opposing the external field.
+
+**Answer:** Counterclockwise.
+
+**Why the other answers do not work:**
+
+- **Clockwise.** — That produces an inward field and reinforces the loss of outward flux.
+- **There is no current because the field does not reverse.** — A changing magnitude is enough to induce emf.
+- **The direction cannot be found without the resistance.** — Positive resistance affects magnitude, not the Lenz-law direction.
+
+#### Situation 3: The same initial and final flux
+
+The magnetic flux through a fixed N-turn coil changes and later returns to its initial value. What follows for the time integral of its induced emf over the entire interval?
+
+1. **Start from Faraday’s law.**
+
+   $$\mathcal E=-N\,d\Phi/dt$$
+
+2. **Integrate with a fixed orientation.**
+
+   $$\int_{t_i}^{t_f}\mathcal E\,dt=-N(\Phi_f-\Phi_i)$$
+
+3. **Use the equal endpoint values.**
+
+   $$\Phi_f=\Phi_i\ \Rightarrow\ \int\mathcal E\,dt=0$$
+
+4. **Avoid an extra conclusion.** The emf can be nonzero during parts of the interval.
+
+**Answer:** It is zero: $\int\mathcal E\,dt=0$.
+
+**Why the other answers do not work:**
+
+- **The emf is zero at every instant.** — A zero integral does not require a zero integrand at every instant.
+- **The integral must be positive.** — Positive and negative contributions can cancel.
+- **The coil cannot exchange energy during the interval.** — A zero emf integral alone does not determine electrical energy transfer.
+
+#### Situation 4: A transformer after the DC transient
+
+A transformer primary has nonzero winding resistance. A DC source has been connected long enough for its current and core flux to become constant. Ignore leakage and saturation. What is the secondary induced emf now?
+
+1. **Identify the stated steady condition.** After the transient, the current and flux are constant.
+
+2. **Apply Faraday’s law to the secondary.**
+
+   $$\mathcal E_s=-N_s\,d\Phi/dt$$
+
+3. **Use the zero derivative.**
+
+   $$d\Phi/dt=0\ \Rightarrow\ \mathcal E_s=0$$
+
+4. **Separate switching from steady operation.** Connection and disconnection can produce transient secondary emf.
+
+**Answer:** Zero.
+
+**Why the other answers do not work:**
+
+- **It follows the ordinary AC turns ratio with the DC source voltage.** — The AC turns-ratio calculation requires changing linked flux.
+- **It increases continuously with time.** — The question states the flux is constant.
+- **It is nonzero because the core flux itself is nonzero.** — Flux magnitude alone does not determine induced emf.
+
+#### Situation 5: An inductor starts to discharge
+
+An inductor carrying current is disconnected from its source and connected into a closed loop with a finite resistor. Which statement is correct immediately after switching in the ideal RL model?
+
+1. **Use the inductor relation.**
+
+   $$V_L=L\,di/dt$$
+
+2. **Write the source-free loop equation.**
+
+   $$L\,di/dt+Ri=0$$
+
+3. **Use current continuity.**
+
+   $$i(t)=I_0e^{-Rt/L},\quad i(0^+)=I_0$$
+
+4. **Check energy transfer.** The resistor dissipates the magnetic energy initially stored in the inductor.
+
+**Answer:** Current starts from its previous value and then decays continuously.
+
+**Why the other answers do not work:**
+
+- **Current instantly becomes zero.** — That would require an impulse of voltage across the ideal inductor.
+- **Current reverses instantly to oppose the old current.** — Lenz’s law opposes the decrease of current, not the preexisting current itself.
+- **The inductor creates energy to keep the current constant forever.** — The initial magnetic energy becomes resistor heat.
+
+#### Situation 6: Both field and area change
+
+A 100-turn coil has a uniform perpendicular field $B(t)=(0.20+0.10t)\,\mathrm T$ and area $A(t)=(0.030-0.002t)\,\mathrm{m^2}$, with t in seconds. Choose positive flux along the field and positive emf around its right-hand-rule contour. Find the signed induced emf at $t=2.0\,\mathrm s$.
+
+1. **Use flux per turn.**
+
+   $$\Phi(t)=B(t)A(t)$$
+
+2. **Differentiate both changing factors.**
+
+   $$\mathcal E=-N[A\,dB/dt+B\,dA/dt]$$
+
+3. **Evaluate the instantaneous quantities.**
+
+   $$B(2)=0.40\,\mathrm T,\quad A(2)=0.026\,\mathrm{m^2}$$
+
+4. **Substitute both contributions.**
+
+   $$\mathcal E=-100[(0.026)(0.10)+(0.40)(-0.002)]=-0.180\,\mathrm V$$
+
+5. **Interpret the sign.** Field growth dominates area shrinkage, so positive flux increases and the emf acts in the negative contour direction.
+
+6. **State the result.**
+
+   $$-0.18\,\mathrm V$$
+
+**Answer:** $-0.18\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$-0.26\,\mathrm V$** — This differentiates only the field and holds the changing area fixed.
+- **$0.08\,\mathrm V$** — This uses only the area-change contribution and its sign.
+- **$0.18\,\mathrm V$** — This misses Faraday’s minus sign for the chosen contour.
+
+#### Situation 7: Emf of a rotating coil
+
+A 100-turn coil of area 0.010 m² rotates in a uniform 0.20 T field at 50 rad/s. Its normal makes an increasing angle of 30° with the field. Find the instantaneous induced emf magnitude.
+
+1. **Write the angle-dependent flux.**
+
+   $$\Phi=BA\cos\theta$$
+
+2. **Differentiate using angular speed.**
+
+   $$|\mathcal E|=NBA\omega|\sin\theta|$$
+
+3. **Substitute.**
+
+   $$|\mathcal E|=(100)(0.20)(0.010)(50)\sin30^\circ=5.00\,\mathrm V$$
+
+4. **Check the angle.** Use the angle to the normal. The maximum occurs at a normal angle of 90°.
+
+5. **State the result.**
+
+   $$5\,\mathrm V$$
+
+**Answer:** $5\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$10\,\mathrm V$** — This gives the peak emf, not the value at 30°.
+- **$8.66025\,\mathrm V$** — This uses cosine for the derivative of the flux.
+- **$0.1\,\mathrm V$** — This omits the angular speed factor.
+
+#### Situation 8: Mechanical power in a sliding rod
+
+A 0.40 m conducting rod slides at constant 3.0 m/s on ideal rails in a uniform 0.50 T field. The rod, velocity, and field are mutually perpendicular. The closed circuit has total resistance 2.0 Ω. Ignore friction and self-inductance. Find the external mechanical power needed.
+
+1. **Find motional emf.**
+
+   $$\mathcal E=BLv=(0.50)(0.40)(3.0)=0.60\,\mathrm V$$
+
+2. **Find the current.**
+
+   $$I=\mathcal E/R=0.60/2.0=0.30\,\mathrm A$$
+
+3. **Find magnetic drag and balance it.**
+
+   $$F_{\mathrm{ext}}=BIL=(0.50)(0.30)(0.40)=0.060\,\mathrm N$$
+
+4. **Calculate mechanical power.**
+
+   $$P=F_{\mathrm{ext}}v=(0.060)(3.0)=0.180\,\mathrm W$$
+
+5. **Check electrical heating.**
+
+   $$I^2R=(0.30)^2(2.0)=0.180\,\mathrm W$$
+
+6. **State the result.**
+
+   $$0.18\,\mathrm W$$
+
+**Answer:** $0.18\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$0.6\,\mathrm W$** — This is the numerical emf, not the mechanical power.
+- **$0.06\,\mathrm W$** — This is the numerical drag-force magnitude, not power.
+- **$0.36\,\mathrm W$** — This misses the resistance when calculating power.
+
+#### Situation 9: An RL circuit reaches a chosen current
+
+A 12 V ideal source is connected to a series 6.0 Ω resistor and 3.0 H ideal inductor. The initial current is zero. Find the time when current first reaches 75% of its final value.
+
+1. **Calculate the final current and time constant.**
+
+   $$I_\infty=12/6=2.0\,\mathrm A,\quad\tau=L/R=3/6=0.50\,\mathrm s$$
+
+2. **Use the growth solution.**
+
+   $$i/I_\infty=1-e^{-t/\tau}$$
+
+3. **Isolate the remaining fraction.**
+
+   $$e^{-t/\tau}=1-0.75=0.25$$
+
+4. **Take logarithms.**
+
+   $$t=-0.50\ln0.25=0.50\ln4$$
+
+5. **Check the time.** Reaching 75% takes more than one time constant.
+
+6. **State the result.**
+
+   $$0.693147\,\mathrm s$$
+
+**Answer:** $0.693147\,\mathrm s$
+
+**Why the other answers do not work:**
+
+- **$0.5\,\mathrm s$** — One time constant gives about 63.2% of the final current.
+- **$0.143841\,\mathrm s$** — This confuses the remaining fraction with the reached fraction.
+- **$1.5\,\mathrm s$** — A linear current-rise model does not apply.
+
+#### Situation 10: Transformer input current under load
+
+An ideal transformer receives 24 V rms at its 100-turn primary. Its 500-turn secondary supplies a 240 Ω resistor. Use sinusoidal steady operation. Find the primary rms current.
+
+1. **Find the secondary rms voltage.**
+
+   $$V_s=V_pN_s/N_p=24(500/100)=120\,\mathrm V$$
+
+2. **Find secondary current.**
+
+   $$I_s=V_s/R=120/240=0.50\,\mathrm A$$
+
+3. **Use ideal power conservation.**
+
+   $$V_pI_p=V_sI_s$$
+
+4. **Solve the primary current.**
+
+   $$I_p=(120)(0.50)/24=2.50\,\mathrm A$$
+
+5. **Check power.**
+
+   $$P_{\mathrm{in}}=24(2.50)=60\,\mathrm W=P_{\mathrm{load}}$$
+
+6. **State the result.**
+
+   $$2.5\,\mathrm A$$
+
+**Answer:** $2.5\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.5\,\mathrm A$** — This is the secondary current.
+- **$0.1\,\mathrm A$** — This applies the load directly to the primary voltage.
+- **$12.5\,\mathrm A$** — This applies the turns ratio twice to the primary current.
+

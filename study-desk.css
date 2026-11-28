@@ -23,3 +23,8 @@
 
 /* Keep section types available to assistive technology without redundant visible kickers. */
 .desk-reading .solution-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.desk-reading .source-links>.eyebrow{display:none}
+
+/* Open solution steps use the existing notebook rhythm in every feedback view. */
+.desk-solution-steps{padding-inline-start:1.5rem;margin:1.75rem 0;list-style:decimal}.desk-solution-steps>li{padding-inline-start:.4rem;margin-block:1.5rem}.desk-solution-steps>li::marker{font-weight:700;color:var(--ink)}.desk-solution-steps h3{font-family:inherit;font-size:1rem;line-height:1.5;margin:0 0 .5rem;letter-spacing:normal}.desk-solution-steps p{margin:.5rem 0}.desk-solution-steps .katex-display{max-width:100%;overflow-x:auto;padding-block:.3rem;text-align:left}.desk-solution-steps .katex-display>.katex{text-align:left}
+
+.desk .desk-choice:disabled{opacity:1}

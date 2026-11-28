@@ -1,0 +1,296 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: Stretching a wire
+
+A uniform wire is stretched to twice its length. Its volume and resistivity remain constant. The same ideal voltage is applied before and after stretching. How does the current change?
+
+1. **Conserve volume.**
+
+   $$A_f(2L)=A_iL\ \Rightarrow\ A_f=A_i/2$$
+
+2. **Compare resistances.**
+
+   $$R_f=\rho\frac{2L}{A_i/2}=4R_i$$
+
+3. **Use fixed voltage.**
+
+   $$I_f=V/R_f=I_i/4$$
+
+4. **Check the assumption.** The result assumes that temperature and resistivity do not change.
+
+**Answer:** It becomes one quarter of its original value.
+
+**Why the other answers do not work:**
+
+- **It becomes one half.** — This ignores the reduction in cross-sectional area.
+- **It stays constant.** — The resistance changes even though the material volume stays constant.
+- **It doubles.** — At fixed voltage, increasing resistance decreases current.
+
+#### Situation 2: Loaded battery voltage
+
+A battery has fixed emf and positive internal resistance. Its external load resistance increases. Use the steady DC model. What happens to its delivered current and terminal voltage?
+
+1. **Write the loop current.**
+
+   $$I=\mathcal E/(R+r)$$
+
+2. **Relate terminal voltage to internal drop.**
+
+   $$V_{\mathrm{term}}=\mathcal E-Ir$$
+
+3. **Increase the load resistance.** The denominator increases, so current and internal drop decrease.
+
+4. **Check the open-circuit limit.** As load resistance approaches infinity, current approaches zero and terminal voltage approaches the emf.
+
+**Answer:** Current decreases; terminal voltage increases toward the emf.
+
+**Why the other answers do not work:**
+
+- **Both decrease.** — The internal voltage drop decreases as current decreases.
+- **Current increases; terminal voltage decreases.** — Increasing total series resistance decreases the current.
+- **Both remain constant.** — Internal resistance makes terminal voltage depend on load current.
+
+#### Situation 3: A capacitor at a switching instant
+
+An ideal capacitor initially has a nonzero voltage. A switch connects it through a finite resistor to a different constant voltage source. Which statement applies immediately after switching?
+
+1. **Start from the capacitor relation.**
+
+   $$i=C\,dV_C/dt$$
+
+2. **Apply finite-current behavior.** Finite current changes the charge continuously.
+
+3. **Apply the loop equation at the instant.**
+
+   $$i(0^+)=\frac{V_s-V_C(0^-)}{R}$$
+
+4. **Separate the two quantities.** Continuity of capacitor voltage does not require continuity of resistor current.
+
+**Answer:** Capacitor voltage stays continuous; resistor current can change immediately.
+
+**Why the other answers do not work:**
+
+- **Capacitor voltage instantly equals the source voltage.** — The finite resistor limits current and prevents an instantaneous change in stored charge.
+- **Capacitor current must be zero because the initial voltage is fixed.** — The voltage is continuous at the instant, but its time derivative can be nonzero.
+- **Capacitor voltage and resistor current must both be continuous.** — The resistor has no energy-storage requirement that forces current continuity.
+
+#### Situation 4: A negative Kirchhoff result
+
+You choose clockwise current for one branch and solve consistent Kirchhoff equations. The branch current is negative. What does that result mean?
+
+1. **Keep the original arrows.** Use the same current arrows throughout the equations.
+
+2. **Read the solved sign.** A negative value reverses the physical direction relative to its reference arrow.
+
+3. **Check resistor power.**
+
+   $$P_R=I^2R\ge0\quad(R>0)$$
+
+4. **Verify the equations.** Substitute the signed result into the original node and loop equations.
+
+**Answer:** The actual current flows opposite to the chosen arrow.
+
+**Why the other answers do not work:**
+
+- **The circuit violates charge conservation.** — A negative signed current can satisfy charge conservation.
+- **The resistor has negative resistance.** — A negative current alone does not imply negative resistance.
+- **Replace the current with its magnitude in every equation without changing signs.** — The signed solution must remain consistent with the original reference directions.
+
+#### Situation 5: Removing one parallel branch
+
+Two resistors connect in parallel across an ideal constant-voltage source. One branch is removed. What happens to current in the remaining resistor and total source current?
+
+1. **Use the maintained voltage.**
+
+   $$I_{\mathrm{remaining}}=V/R$$
+
+2. **Add the original branch currents.**
+
+   $$I_{\mathrm{total,i}}=V/R_1+V/R_2$$
+
+3. **Remove the disconnected branch.**
+
+   $$I_{\mathrm{total,f}}=V/R_1$$
+
+4. **Check the source assumption.** A real battery with internal resistance can also change its terminal voltage.
+
+**Answer:** Remaining-branch current stays the same; total current decreases.
+
+**Why the other answers do not work:**
+
+- **Both currents increase.** — Removing a parallel path increases equivalent resistance.
+- **Remaining-branch current doubles because it receives the removed current.** — An ideal voltage source does not maintain fixed total current.
+- **Both become zero.** — The remaining branch still forms a closed circuit.
+
+#### Situation 6: Load power with internal resistance
+
+A 12 V battery with 1.0 Ω internal resistance supplies a 5.0 Ω load. Find the steady power delivered to the load.
+
+1. **Include both series resistances.**
+
+   $$R_{\mathrm{total}}=5+1=6\,\Omega$$
+
+2. **Find the current.**
+
+   $$I=12/6=2\,\mathrm A$$
+
+3. **Find the load voltage.**
+
+   $$V_L=IR_L=2(5)=10\,\mathrm V$$
+
+4. **Calculate only the load power.**
+
+   $$P_L=I^2R_L=2^2(5)=20\,\mathrm W$$
+
+5. **Check energy per second.**
+
+   $$\mathcal EI=24\,\mathrm W=P_L+I^2r=20+4$$
+
+6. **State the result.**
+
+   $$20\,\mathrm W$$
+
+**Answer:** $20\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$24\,\mathrm W$** — This is total source power, including internal heating.
+- **$28.8\,\mathrm W$** — This treats the full emf as the load voltage.
+- **$4\,\mathrm W$** — This is power dissipated in the internal resistance.
+
+#### Situation 7: Stretching changes wire power
+
+A uniform 3.0 Ω wire is stretched to twice its length at constant volume and resistivity. It is then connected across an ideal 12 V source. Find its new electrical power.
+
+1. **Conserve material volume.**
+
+   $$A_f=A_i/2$$
+
+2. **Use both geometric changes.**
+
+   $$R_f=\rho\frac{2L}{A_i/2}=4(3)=12\,\Omega$$
+
+3. **Use fixed-voltage power.**
+
+   $$P_f=V^2/R_f=12^2/12=12\,\mathrm W$$
+
+4. **Check the trend.** The larger resistance reduces power at fixed voltage. Fixed-current operation would give a different trend.
+
+5. **State the result.**
+
+   $$12\,\mathrm W$$
+
+**Answer:** $12\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$24\,\mathrm W$** — This accounts for length but misses the area change.
+- **$48\,\mathrm W$** — This uses the original resistance.
+- **$192\,\mathrm W$** — This reverses the resistance ratio at fixed voltage.
+
+#### Situation 8: Find a charging time from voltage
+
+An initially uncharged 100 μF capacitor charges through 2.0 kΩ from an ideal 9.0 V source. Find the time when capacitor voltage first reaches 6.0 V.
+
+1. **Convert and calculate the time constant.**
+
+   $$\tau=RC=(2000)(100\times10^{-6})=0.200\,\mathrm s$$
+
+2. **Choose charging from zero.**
+
+   $$V_C=V_s(1-e^{-t/\tau})$$
+
+3. **Isolate the exponential.**
+
+   $$e^{-t/\tau}=1-6/9=1/3$$
+
+4. **Take logarithms.**
+
+   $$t=-\tau\ln(1/3)=0.200\ln3$$
+
+5. **Check the current at this instant.**
+
+   $$I=(9-6)/2000=1.50\,\mathrm{mA}$$
+
+6. **State the result.**
+
+   $$0.219722\,\mathrm s$$
+
+**Answer:** $0.219722\,\mathrm s$
+
+**Why the other answers do not work:**
+
+- **$0.2\,\mathrm s$** — One time constant gives about 63.2% of the final voltage, not 6/9.
+- **$0.081093\,\mathrm s$** — This uses the wrong logarithm argument.
+- **$0.6\,\mathrm s$** — The voltage does not rise linearly with time.
+
+#### Situation 9: Power in a mixed network
+
+A 4.0 Ω resistor is in series with a parallel pair of 6.0 Ω and 3.0 Ω resistors. An ideal 12 V source supplies the network. Find power in the 3.0 Ω resistor.
+
+1. **Reduce the parallel pair.**
+
+   $$R_p=(1/6+1/3)^{-1}=2\,\Omega$$
+
+2. **Find source current.**
+
+   $$I=12/(4+2)=2\,\mathrm A$$
+
+3. **Find voltage across the pair.**
+
+   $$V_p=IR_p=4\,\mathrm V$$
+
+4. **Use the requested branch voltage.**
+
+   $$P_3=V_p^2/3=16/3\,\mathrm W$$
+
+5. **Check branch currents.**
+
+   $$I_3=4/3\,\mathrm A,\quad I_6=4/6\,\mathrm A,\quad I_3+I_6=2\,\mathrm A$$
+
+6. **State the result.**
+
+   $$5.33333\,\mathrm W$$
+
+**Answer:** $5.33333\,\mathrm W$
+
+**Why the other answers do not work:**
+
+- **$48\,\mathrm W$** — This applies the full source voltage to the parallel branch.
+- **$12\,\mathrm W$** — This uses the total current as the 3 Ω branch current.
+- **$1.33333\,\mathrm W$** — This uses the 6 Ω branch current in the 3 Ω resistor.
+
+#### Situation 10: A source receives current
+
+Three branches connect the same upper node to ground. Branch 1 has a 12 V ideal source in series with 3 Ω. Branch 2 has a 3 V ideal source in series with 6 Ω. Both source positive terminals point toward the upper node. Branch 3 is a 2 Ω load. Find the signed current delivered by the 3 V source toward the upper node.
+
+1. **Define the reference.** Let V be upper-node voltage. Positive source current flows toward that node.
+
+2. **Apply node conservation.**
+
+   $$\frac{12-V}{3}+\frac{3-V}{6}=\frac V2$$
+
+3. **Solve the node voltage.**
+
+   $$2(12-V)+(3-V)=3V\ \Rightarrow\ V=4.5\,\mathrm V$$
+
+4. **Calculate the requested signed branch current.**
+
+   $$I_2=(3-4.5)/6=-0.250\,\mathrm A$$
+
+5. **Interpret the sign.** Current enters the positive terminal of the 3 V source. The ideal source absorbs electrical energy in this model.
+
+6. **State the result.**
+
+   $$-0.25\,\mathrm A$$
+
+**Answer:** $-0.25\,\mathrm A$
+
+**Why the other answers do not work:**
+
+- **$0.25\,\mathrm A$** — This removes the sign that identifies current entering the source.
+- **$0.5\,\mathrm A$** — This ignores the shared node voltage and the other source.
+- **$1.5\,\mathrm A$** — This is the current delivered by the 12 V branch, not the requested branch.
+

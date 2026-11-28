@@ -1,0 +1,300 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: What stays constant during refraction?
+
+Monochromatic light crosses a stationary boundary from air into ordinary transparent glass. Which quantities remain unchanged across the boundary?
+
+1. **Use the wave relation.**
+
+   $$v=f\lambda$$
+
+2. **Use the refractive-index definition.**
+
+   $$v=c/n$$
+
+3. **Keep frequency fixed at the stationary boundary.**
+
+   $$\lambda_2/\lambda_1=v_2/v_1=n_1/n_2$$
+
+4. **Check photon energy.**
+
+   $$E_\gamma=hf$$
+
+**Answer:** Frequency and photon energy.
+
+**Why the other answers do not work:**
+
+- **Speed and wavelength.** — Both usually decrease when light enters a higher-index medium.
+- **Wavelength and photon energy.** — Wavelength changes because speed changes while frequency stays fixed.
+- **Frequency and speed.** — The phase speed depends on the medium.
+
+#### Situation 2: Which angle belongs in Snell’s law?
+
+A ray in air makes an angle of 20° with a flat glass surface. Which incident angle belongs in Snell’s law?
+
+1. **Draw the normal.** Draw a line perpendicular to the interface.
+
+2. **Convert the angle.**
+
+   $$\theta_i=90^\circ-20^\circ=70^\circ$$
+
+3. **Use the normal-based law.**
+
+   $$n_1\sin\theta_i=n_2\sin\theta_t$$
+
+4. **Keep a consistent convention.** Measure reflected and transmitted angles from their interface normals too.
+
+**Answer:** $70^\circ$
+
+**Why the other answers do not work:**
+
+- **$20^\circ$** — This is the angle to the surface, not its normal.
+- **$40^\circ$** — Doubling the surface angle does not give the incident angle.
+- **$110^\circ$** — The incident angle is the acute angle to the appropriate normal.
+
+#### Situation 3: At and above the critical angle
+
+A ray travels from a higher-index medium into a lower-index medium. What happens at the critical angle, in the usual ideal ray model?
+
+1. **Start from Snell’s law.**
+
+   $$n_1\sin\theta_i=n_2\sin\theta_t$$
+
+2. **Set the limiting transmitted angle.**
+
+   $$\theta_t=90^\circ$$
+
+3. **Solve the critical angle.**
+
+   $$\sin\theta_c=n_2/n_1\quad(n_1>n_2)$$
+
+4. **Check the boundary case.** Above this incident angle, Snell’s law gives no propagating transmitted ray.
+
+**Answer:** The refracted ray runs along the boundary at 90° to the normal.
+
+**Why the other answers do not work:**
+
+- **The incident angle is 90°.** — The transmitted angle is 90° at the critical condition.
+- **The ray bends to the normal.** — High-to-low refraction bends away from the normal.
+- **The same critical angle applies from low index to high index.** — The high-to-low condition is necessary for this critical-angle relation.
+
+#### Situation 4: Parallel layers and a missing exit ray
+
+Light crosses parallel transparent layers. You calculate the final angle using $n_i\sin\theta_i=n_f\sin\theta_f$ and obtain $\sin\theta_f>1$. What is the correct interpretation?
+
+1. **Keep the parallel-boundary invariant.**
+
+   $$n\sin\theta=\text{constant}$$
+
+2. **Check each interface.** A real transmitted angle requires the sine magnitude to be at most one.
+
+3. **Test the high-to-low limit.**
+
+   $$\theta_i>\sin^{-1}(n_2/n_1)\ \Rightarrow\ \text{total internal reflection}$$
+
+4. **State the limitation.** The direct initial-to-final formula does not guarantee that an exit ray exists.
+
+**Answer:** There is no transmitted exit ray through that limiting interface; check total internal reflection.
+
+**Why the other answers do not work:**
+
+- **Round the sine to one and report 90°.** — Clamping changes the physical conditions and hides total internal reflection.
+- **Ignore the intermediate layers and always report an angle.** — The telescoped relation is conditional on transmission at each boundary.
+- **Use the absolute value of the inverse-sine argument.** — The argument already exceeds its allowed magnitude.
+
+#### Situation 5: Intensity below the photoelectric threshold
+
+In the ordinary one-photon photoelectric model, monochromatic light has photon energy below a metal’s work function. Its intensity doubles while frequency stays fixed. What happens?
+
+1. **Calculate energy per photon.**
+
+   $$E_\gamma=hf$$
+
+2. **Apply the threshold condition.**
+
+   $$hf<\phi$$
+
+3. **Separate intensity and frequency.** At fixed frequency, increased intensity increases photon arrival rate.
+
+4. **Apply the stated model.** The photons still lack the energy needed to release an electron. Multiphoton processes are outside this question.
+
+**Answer:** No photoemission occurs in this model.
+
+**Why the other answers do not work:**
+
+- **The maximum electron kinetic energy doubles.** — Maximum kinetic energy depends on photon frequency and work function.
+- **Emission starts because total incident energy per second doubles.** — The one-photon threshold concerns the energy of an individual absorbed photon.
+- **The work function becomes half as large.** — Intensity does not change the specified work function in this model.
+
+#### Situation 6: Wavelength inside water
+
+Light with vacuum wavelength 400 nm enters water with refractive index 4/3. The boundary is stationary. Find its wavelength in water.
+
+1. **Keep the frequency fixed.**
+
+   $$f=c/\lambda_0$$
+
+2. **Use phase speed in the medium.**
+
+   $$v=c/n$$
+
+3. **Combine the relations.**
+
+   $$\lambda=v/f=\lambda_0/n$$
+
+4. **Substitute.**
+
+   $$\lambda=400/(4/3)=300\,\mathrm{nm}$$
+
+5. **Check energy.** The frequency and photon energy stay the same across this stationary boundary.
+
+6. **State the result.**
+
+   $$300\,\mathrm{nm}$$
+
+**Answer:** $300\,\mathrm{nm}$
+
+**Why the other answers do not work:**
+
+- **$400\,\mathrm{nm}$** — This keeps wavelength fixed although phase speed changes.
+- **$533.333\,\mathrm{nm}$** — This multiplies by the refractive index instead of dividing.
+- **$225\,\mathrm{nm}$** — This applies the index reduction twice.
+
+#### Situation 7: Refraction from a surface angle
+
+A ray in air ($n=1.00$) strikes glass ($n=1.50$) at 30° to the surface. Find the transmitted angle to the normal.
+
+1. **Convert the incident angle.**
+
+   $$\theta_1=90^\circ-30^\circ=60^\circ$$
+
+2. **Apply Snell’s law.**
+
+   $$(1.00)\sin60^\circ=(1.50)\sin\theta_2$$
+
+3. **Solve the sine first.**
+
+   $$\sin\theta_2=\sin60^\circ/1.50=0.577350$$
+
+4. **Take the inverse sine.**
+
+   $$\theta_2=\sin^{-1}(0.577350)$$
+
+5. **Check the direction.** The transmitted angle is less than 60°, so the ray bends toward the normal in glass.
+
+6. **State the result.**
+
+   $$35.2644\,{}^\circ$$
+
+**Answer:** $35.2644\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$19.4712\,{}^\circ$** — This treats the surface angle as the incident normal angle.
+- **$60\,{}^\circ$** — This ignores refraction.
+- **$54.7356\,{}^\circ$** — This gives the transmitted surface angle, not the requested normal angle.
+
+#### Situation 8: An exit ray through three media
+
+A ray in water ($n=4/3$) crosses glass ($n=1.50$) and then air ($n=1.00$). Both boundaries are parallel. The water angle is 40° to the normal. Find the final air angle to the normal. Check that transmission is possible.
+
+1. **Find the parallel-layer invariant.**
+
+   $$n_w\sin\theta_w=\frac43\sin40^\circ=0.857050$$
+
+2. **Check the glass angle.**
+
+   $$\sin\theta_g=0.857050/1.50=0.571367$$
+
+3. **Check the final interface.**
+
+   $$\sin\theta_a=0.857050/1.00<1$$
+
+4. **Calculate the exit angle.**
+
+   $$\theta_a=\sin^{-1}(0.857050)$$
+
+5. **Check total internal reflection.** The glass-to-air interface transmits here. A larger starting angle can prevent an exit ray.
+
+6. **State the result.**
+
+   $$58.987\,{}^\circ$$
+
+**Answer:** $58.987\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$40\,{}^\circ$** — This assumes equal starting and ending indices.
+- **$34.8456\,{}^\circ$** — This is the intermediate glass angle.
+- **$25.374\,{}^\circ$** — This ignores the initial water index and reports a glass-like angle.
+
+#### Situation 9: Photoelectric stopping potential
+
+Light of wavelength 350 nm strikes a metal with work function 2.20 eV. Find the stopping-potential magnitude in the ordinary one-photon model. Use $h=6.626\times10^{-34}\,\mathrm{J\,s}$, $c=3.00\times10^8\,\mathrm{m\,s^{-1}}$, and $e=1.602\times10^{-19}\,\mathrm C$.
+
+1. **Convert wavelength.**
+
+   $$\lambda=350\times10^{-9}\,\mathrm m$$
+
+2. **Calculate photon energy in electronvolts.**
+
+   $$E_\gamma(\mathrm{eV})=\frac{hc}{\lambda e}=3.54521\,\mathrm{eV}$$
+
+3. **Check threshold and subtract the work function.**
+
+   $$K_{\max}=3.54521-2.20=1.34521\,\mathrm{eV}>0$$
+
+4. **Use the stopping relation.**
+
+   $$eV_{\mathrm{stop}}=K_{\max}$$
+
+5. **Check the units.** An electron kinetic energy of 1.34521 eV corresponds to a stopping-potential magnitude of 1.34521 V.
+
+6. **State the result.**
+
+   $$1.34521\,\mathrm V$$
+
+**Answer:** $1.34521\,\mathrm V$
+
+**Why the other answers do not work:**
+
+- **$3.54521\,\mathrm V$** — This is photon energy in eV before subtracting the work function.
+- **$2.2\,\mathrm V$** — This uses the work function alone.
+- **$5.74521\,\mathrm V$** — This adds the work function instead of subtracting it.
+
+#### Situation 10: Find the critical angle from wave speed
+
+Light travels at $2.00\times10^{8}$ m/s inside a transparent medium. It approaches a boundary with air ($n=1.00$) from inside. Use vacuum $c=3.00\times10^8\,\mathrm{m\,s^{-1}}$. Find the critical angle to the normal.
+
+1. **Infer the refractive index.**
+
+   $$n_1=c/v=(3.00\times10^8)/(2.00\times10^8)=1.50$$
+
+2. **Check the high-to-low condition.**
+
+   $$n_1=1.50>n_2=1.00$$
+
+3. **Use the critical-angle relation.**
+
+   $$\sin\theta_c=n_2/n_1=2/3$$
+
+4. **Calculate the normal angle.**
+
+   $$\theta_c=\sin^{-1}(2/3)$$
+
+5. **Check the limiting ray.** At this angle, the transmitted ray is along the boundary. Larger incident angles give total internal reflection in the ideal ray model.
+
+6. **State the result.**
+
+   $$41.8103\,{}^\circ$$
+
+**Answer:** $41.8103\,{}^\circ$
+
+**Why the other answers do not work:**
+
+- **$48.1897\,{}^\circ$** — This is the complementary angle to the surface.
+- **$26.3878\,{}^\circ$** — This squares the refractive index without justification.
+- **$90\,{}^\circ$** — The transmitted angle, not the critical incident angle, is 90°.
+

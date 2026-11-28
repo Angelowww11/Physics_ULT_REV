@@ -1,0 +1,274 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: Zero potential with a nonzero field
+
+At the midpoint of an equal positive–negative charge pair, choose zero potential at infinity. Which statement is correct?
+
+1. **Add signed scalar potentials.**
+
+   $$V=\frac{kq}{r}+\frac{k(-q)}r=0$$
+
+2. **Add the vector fields.** Both midpoint fields point from the positive source toward the negative source.
+
+3. **Relate field to a spatial change, not a value.**
+
+   $$\vec E=-\nabla V$$
+
+4. **State the distinction.** A zero potential value is compatible with a nonzero local slope and field.
+
+**Answer:** $V=0$, but $\vec E\ne0$.
+
+**Why the other answers do not work:**
+
+- **$V=0$ forces $\vec E=0$.** — A function’s value at one point does not fix its spatial derivative.
+- **$\vec E=0$, but $V>0$.** — This confuses the opposite-sign pair with an equal like-charge arrangement.
+- **Both source contributions vanish individually.** — The contributions are nonzero; their scalar or vector combinations differ.
+
+#### Situation 2: A negative charge moves to higher potential
+
+A negative charge moves from lower to higher electric potential with only the electrostatic force doing work. What happens to its kinetic energy?
+
+1. **Keep the charge sign.**
+
+   $$q<0,\quad\Delta V>0$$
+
+2. **Find potential-energy change.**
+
+   $$\Delta U=q\Delta V<0$$
+
+3. **Use energy conservation.**
+
+   $$\Delta K=-\Delta U>0$$
+
+4. **Check the force model.** This conclusion uses the statement that no other force does work.
+
+**Answer:** It increases.
+
+**Why the other answers do not work:**
+
+- **It decreases because higher potential always means higher potential energy.** — Potential energy also depends on the charge sign.
+- **It remains constant because potential is a scalar.** — A scalar potential difference can still produce work.
+- **The direction cannot be determined even when ΔV is positive.** — The charge sign and potential-change sign determine the energy change.
+
+#### Situation 3: Quasistatic external work
+
+An external agent moves a charge slowly between two points in an electrostatic field, with negligible kinetic-energy change. Which relation correctly describes the work?
+
+1. **Write the work–energy relation.**
+
+   $$\Delta K=W_{\mathrm{ext}}+W_{\mathrm{field}}\approx0$$
+
+2. **Use the conservative-field relation.**
+
+   $$W_{\mathrm{field}}=-\Delta U$$
+
+3. **Combine.**
+
+   $$W_{\mathrm{ext}}=\Delta U$$
+
+4. **Check the sign.** The external agent can extract energy when the required external work is negative.
+
+**Answer:** $W_{\mathrm{ext}}=\Delta U=-W_{\mathrm{field}}$.
+
+**Why the other answers do not work:**
+
+- **$W_{\mathrm{ext}}=W_{\mathrm{field}}$ in general.** — They oppose in the stated quasistatic energy balance.
+- **$W_{\mathrm{ext}}=0$ for every electrostatic move.** — A nonzero potential-energy change requires external work in this model.
+- **$\Delta U$ depends on the path length even for fixed endpoints.** — Electrostatic potential-energy change depends on endpoints.
+
+#### Situation 4: Changing the potential reference
+
+The same constant is added to every electric-potential value in a region. Which measurable prediction remains unchanged?
+
+1. **Compare endpoint differences.**
+
+   $$(V_b+C)-(V_a+C)=V_b-V_a$$
+
+2. **Compare fields.**
+
+   $$-\nabla(V+C)=-\nabla V$$
+
+3. **Interpret the reference.** Individual energy or potential zero choices can shift without changing endpoint work or the field.
+
+4. **Check the physical result.** Changing the zero of potential does not change any measured potential difference.
+
+**Answer:** Electric fields and work for moves between fixed endpoints.
+
+**Why the other answers do not work:**
+
+- **Every absolute numerical potential value.** — The reference change explicitly shifts those values.
+- **Only the work on positive charges.** — The cancellation is independent of test-charge sign.
+- **The field must increase by that constant.** — A constant potential shift has zero spatial gradient.
+
+#### Situation 5: Assembling three source charges
+
+A system contains three distinct point charges. A student adds a pair-energy contribution for both ordered pairs (1,2) and (2,1). What is the correction?
+
+1. **List the distinct pairs.**
+
+   $$U=k\left(\frac{q_1q_2}{r_{12}}+\frac{q_1q_3}{r_{13}}+\frac{q_2q_3}{r_{23}}\right)$$
+
+2. **Retain signs.** Opposite-sign pairs contribute negative terms with the usual infinity reference.
+
+3. **Check the count.** Three charges have three distinct pairs, not six.
+
+4. **Check the count.** A three-charge system has three unordered pairs, not six.
+
+**Answer:** Count each distinct unordered pair once.
+
+**Why the other answers do not work:**
+
+- **Multiply every pair energy by two.** — That doubles an already double-counted interaction.
+- **Ignore negative pair energies.** — Attractive interactions can make signed negative contributions.
+- **Add the magnitudes of all pair energies.** — Assembly energy retains signs, unlike a sum of force magnitudes.
+
+#### Situation 6: Electron energy from a voltage rise
+
+An electron starts from rest and moves to a point 400 V higher in potential, with only the electrostatic force doing work. Use a nonrelativistic model, $|e|=1.602\times10^{-19}\,\mathrm C$, and $m_e=9.11\times10^{-31}\,\mathrm{kg}$. Find its final speed.
+
+1. **Find the signed potential-energy change.**
+
+   $$\Delta U=q\Delta V=(-e)(400)<0$$
+
+2. **Convert the energy decrease to kinetic energy.**
+
+   $$\frac12m_ev^2=e(400)$$
+
+3. **Solve for speed.**
+
+   $$v=\sqrt{\frac{2e(400)}{m_e}}$$
+
+4. **Check the approximation.** The result is much smaller than c, so the stated nonrelativistic model is consistent.
+
+5. **State the result.**
+
+   $$1.18609\times10^{7}\,\mathrm{m\,s^{-1}}$$
+
+**Answer:** $1.18609\times10^{7}\,\mathrm{m\,s^{-1}}$
+
+**Why the other answers do not work:**
+
+- **$8.38691\times10^{6}\,\mathrm{m\,s^{-1}}$** — This omits the factor of two when solving the kinetic-energy equation.
+- **$1.40681\times10^{14}\,\mathrm{m\,s^{-1}}$** — This is speed squared, not speed.
+- **$0\,\mathrm{m\,s^{-1}}$** — The negative charge lowers its potential energy during the positive voltage change.
+
+#### Situation 7: Potential and a negative test charge
+
+Fixed sources +3.0 nC and −2.0 nC are respectively 0.20 m and 0.10 m from a point. Place a −4.0 μC test charge there without changing the sources. With zero potential at infinity, find its potential energy. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$.
+
+1. **Add signed source potentials.**
+
+   $$V=k\left(\frac{3.0\times10^{-9}}{0.20}-\frac{2.0\times10^{-9}}{0.10}\right)=-44.95\,\mathrm V$$
+
+2. **Multiply by the signed test charge.**
+
+   $$U=qV=(-4.0\times10^{-6})(-44.95)$$
+
+3. **Interpret the positive result.** Both the potential and test charge are negative, so their product is positive under the chosen reference.
+
+4. **State the result.**
+
+   $$1.798\times10^{-4}\,\mathrm J$$
+
+**Answer:** $1.798\times10^{-4}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-1.798\times10^{-4}\,\mathrm J$** — This discards the negative sign of the test charge.
+- **$-0.0012586\,\mathrm J$** — This adds source-potential magnitudes rather than signed values.
+- **$-44.95\,\mathrm J$** — This is potential in volts, not potential energy in joules.
+
+#### Situation 8: Signed energy of a triangular assembly
+
+Three charges +2.0 nC, +2.0 nC, and −2.0 nC occupy the vertices of an equilateral triangle of side 0.10 m. Find their total interaction potential energy relative to infinite separation. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$.
+
+1. **Write the three distinct pairs.**
+
+   $$U=\frac ka(q^2-q^2-q^2)$$
+
+2. **Combine the signs.**
+
+   $$U=-\frac{kq^2}{a}$$
+
+3. **Convert nanocoulombs before evaluating.**
+
+   $$U=-\frac{(8.99\times10^9)(2.0\times10^{-9})^2}{0.10}$$
+
+4. **Interpret the sign.** The assembly has lower interaction energy than the separated charges under this reference.
+
+5. **State the result.**
+
+   $$-3.596\times10^{-7}\,\mathrm J$$
+
+**Answer:** $-3.596\times10^{-7}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$3.596\times10^{-7}\,\mathrm J$** — The attractive pair contributions outweigh the repulsive pair.
+- **$-1.0788\times10^{-6}\,\mathrm J$** — There are two attractive pairs and one repulsive pair, not three attractive pairs.
+- **$-7.192\times10^{-7}\,\mathrm J$** — This duplicates the net unordered-pair contribution.
+
+#### Situation 9: Field work during radial motion
+
+A +2.0 μC test charge moves from 0.40 m to 0.20 m from a fixed −3.0 nC source. Find the work done by the electric field. Use $k=8.99\times10^9\,\mathrm{N\,m^2\,C^{-2}}$ and ignore changes to the source.
+
+1. **Write the two potentials.**
+
+   $$V_a=kQ/r_a,\qquad V_b=kQ/r_b$$
+
+2. **Use the field-work sign.**
+
+   $$W_{\mathrm{field}}=q(V_a-V_b)=qkQ\left(\frac1{r_a}-\frac1{r_b}\right)$$
+
+3. **Substitute all signed quantities.**
+
+   $$W_{\mathrm{field}}=(2.0\times10^{-6})(8.99\times10^9)(-3.0\times10^{-9})\left(\frac1{0.40}-\frac1{0.20}\right)$$
+
+4. **Check the physics.** Attraction assists the positive charge moving closer, so field work is positive.
+
+5. **State the result.**
+
+   $$1.3485\times10^{-4}\,\mathrm J$$
+
+**Answer:** $1.3485\times10^{-4}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-1.3485\times10^{-4}\,\mathrm J$** — This gives the potential-energy change rather than field work.
+- **$2.697\times10^{-4}\,\mathrm J$** — This uses a single endpoint and omits the initial energy.
+- **$0\,\mathrm J$** — The endpoints have different potentials.
+
+#### Situation 10: External work with a two-dimensional displacement
+
+A uniform electrostatic field has $E_x=300\,\mathrm{N\,C^{-1}}$ and $E_y=400\,\mathrm{N\,C^{-1}}$. A −2.0 μC charge is moved quasistatically by $\Delta x=+0.20\,\mathrm m$ and $\Delta y=-0.10\,\mathrm m$. Find external work, with negligible kinetic-energy change.
+
+1. **Calculate the field dot displacement.**
+
+   $$\vec E\cdot\Delta\vec r=300(0.20)+400(-0.10)=20\,\mathrm V$$
+
+2. **Find potential difference.**
+
+   $$\Delta V=-\vec E\cdot\Delta\vec r=-20\,\mathrm V$$
+
+3. **Find potential-energy change.**
+
+   $$\Delta U=q\Delta V=(-2.0\times10^{-6})(-20)$$
+
+4. **Use the quasistatic external-work relation.** The external agent adds energy while opposing the field’s negative work.
+
+   $$W_{\mathrm{ext}}=\Delta U$$
+
+5. **State the result.**
+
+   $$4\times10^{-5}\,\mathrm J$$
+
+**Answer:** $4\times10^{-5}\,\mathrm J$
+
+**Why the other answers do not work:**
+
+- **$-4\times10^{-5}\,\mathrm J$** — This is the work done by the field, with the opposite sign.
+- **$2.23607\times10^{-4}\,\mathrm J$** — Field magnitude times path length is not the general dot product.
+- **$0\,\mathrm J$** — The displacement is not perpendicular to the field.
+

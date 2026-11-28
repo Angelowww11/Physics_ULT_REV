@@ -1,0 +1,286 @@
+### Situational problems: choose the law, then solve
+
+These added practice problems apply the module concepts. They are not copied examination questions. Keep the stated assumptions when you use each result.
+
+#### Situation 1: A tether below a buoyant body
+
+A sealed rigid body is completely submerged. Buoyancy exceeds its weight. A string attached to the bottom holds it at rest. Which statement gives the tension magnitude?
+
+1. **Identify all forces.** The bottom tether pulls downward. Weight is downward; buoyancy is upward.
+
+2. **Choose upward positive.**
+
+   $$\sum F_y=F_B-mg-T=0$$
+
+3. **Rearrange.**
+
+   $$T=F_B-mg>0$$
+
+4. **Check the geometry.** An upper string could not provide this required downward force. Attachment location is part of the problem.
+
+**Answer:** $T=F_B-mg$
+
+**Why the other answers do not work:**
+
+- **$T=mg-F_B$** — This becomes negative; it is the wrong assumed direction for this bottom tether.
+- **$T=F_B+mg$** — Weight already acts downward, so it does not add to the required downward tether force.
+- **$T=mg$** — This ignores the buoyant force.
+
+#### Situation 2: A stone leaves a floating boat
+
+A dense stone is carried in a boat floating on a still-water tank. The stone is then placed on the tank bottom. The boat stays afloat. Ignore absorption and volume changes. What happens to the water level?
+
+1. **Count the stone’s contribution while carried.**
+
+   $$V_{\mathrm{before}}=\frac{m_s}{\rho_w}$$
+
+2. **Count it after sinking.**
+
+   $$V_{\mathrm{after}}=\frac{m_s}{\rho_s}$$
+
+3. **Use the density condition.**
+
+   $$\rho_s>\rho_w\ \Longrightarrow\ V_{\mathrm{after}}<V_{\mathrm{before}}$$
+
+4. **Interpret the tank.** The boat’s own weight contribution remains. The reduced total displacement lowers the level.
+
+**Answer:** It decreases.
+
+**Why the other answers do not work:**
+
+- **It increases.** — For a stone denser than water, its material volume is smaller than the water volume previously displaced to support its weight.
+- **It stays the same.** — That would require equal before-and-after displaced volumes.
+- **Its direction cannot be inferred even when the stone is denser than water.** — The density inequality determines which displacement is larger.
+
+#### Situation 3: Depth and buoyancy
+
+The same rigid sealed block is moved deeper while remaining fully submerged in an incompressible liquid of constant density. Its volume does not change. What happens to buoyancy?
+
+1. **Compare top and bottom pressures.**
+
+   $$P_b-P_t=\rho g(h_b-h_t)$$
+
+2. **Hold the relevant quantities fixed.** The block’s height, volume, and fluid density do not change.
+
+3. **Use displaced volume.**
+
+   $$F_B=\rho gV_{\mathrm{disp}}$$
+
+4. **State the limit.** A compressible body or a liquid whose density changes with depth needs a different analysis.
+
+**Answer:** It remains unchanged.
+
+**Why the other answers do not work:**
+
+- **It increases in proportion to absolute depth.** — Absolute pressure is not the buoyant force.
+- **It decreases because less atmosphere is above the block.** — The displaced volume and fluid density stay fixed.
+- **It vanishes when no surface is nearby.** — A pressure gradient persists in the liquid.
+
+#### Situation 4: Pressure across a hatch
+
+A small flat hatch is horizontal, so all its points have the same depth. Water is on one side and a pressurized gas is on the other. Which pressure determines its net force?
+
+1. **Choose a force direction.** Take the water-to-gas direction as positive.
+
+2. **Add both signed forces.**
+
+   $$F_{\mathrm{net}}=+P_wA-P_gA$$
+
+3. **Check the sign.** A negative result means the net force points from the gas side toward the water.
+
+4. **Check the pressure model.** For a tall vertical hatch, pressure varies with depth; a single-depth value cannot be applied to the whole hatch without justification.
+
+**Answer:** The pressure difference across the hatch: $F_{\mathrm{net}}=(P_w-P_g)A$.
+
+**Why the other answers do not work:**
+
+- **Only the water’s absolute pressure: $P_wA$.** — The gas also exerts a force.
+- **Always the water gauge pressure $\rho gh$, regardless of the gas pressure.** — Atmospheric cancellation applies only when the reference pressures really match.
+- **The sum $(P_w+P_g)A$ in one direction.** — The pressures act on opposite sides, giving opposing forces.
+
+#### Situation 5: Hydraulics: diameter is not area
+
+An ideal incompressible hydraulic lift has an output piston with three times the input piston’s diameter. Ignore piston weights and height differences. Which pair describes output force and travel relative to the input?
+
+1. **Convert diameter ratio to area ratio.**
+
+   $$\frac{A_2}{A_1}=\left(\frac{D_2}{D_1}\right)^2=9$$
+
+2. **Apply equal pressure.**
+
+   $$\frac{F_1}{A_1}=\frac{F_2}{A_2}$$
+
+3. **Apply volume conservation.**
+
+   $$A_1d_1=A_2d_2$$
+
+4. **Check ideal work.**
+
+   $$F_1d_1=F_2d_2$$
+
+**Answer:** Force ×9; travel ÷9.
+
+**Why the other answers do not work:**
+
+- **Force ×3; travel ÷3.** — This uses the diameter ratio as an area ratio.
+- **Force ×9; travel ×9.** — That violates equal displaced volumes and ideal work balance.
+- **Force unchanged; travel ÷9.** — Equal pressure does not mean equal force on unequal areas.
+
+#### Situation 6: Two fluid layers and a hatch
+
+An open tank has a 0.30 m-thick oil layer above water. A small horizontal hatch is 0.40 m below the oil–water interface. Both the top liquid surface and the outside of the hatch are at the same atmospheric pressure. Oil density is 800 kg/m³; water density is 1000 kg/m³; hatch area is 0.020 m². Find the net water-side force magnitude. Use $g=9.81\,\mathrm{m\,s^{-2}}$.
+
+1. **Choose the pressure reference.** The matching atmospheric terms cancel across the hatch.
+
+2. **Add the two hydrostatic contributions.**
+
+   $$\Delta P=\rho_o gh_o+\rho_w gh_w$$
+
+3. **Substitute layer by layer.**
+
+   $$\Delta P=800(9.81)(0.30)+1000(9.81)(0.40)=6278.4\,\mathrm{Pa}$$
+
+4. **Convert pressure difference into force.** Both layers contribute to the pressure at the hatch.
+
+   $$F=\Delta PA=6278.4(0.020)$$
+
+5. **State the result.**
+
+   $$125.568\,\mathrm N$$
+
+**Answer:** $125.568\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$137.34\,\mathrm N$** — Treating all 0.70 m as water overestimates the oil layer.
+- **$109.872\,\mathrm N$** — Treating both layers as oil underestimates the water layer.
+- **$78.48\,\mathrm N$** — This omits the oil pressure contribution.
+
+#### Situation 7: A floating block with cargo
+
+A rigid block has volume 0.010 m³ and average density 600 kg/m³. It floats in freshwater of density 1000 kg/m³. A 2.0 kg load is placed on top without touching the water. What fraction of the block’s volume is now submerged?
+
+1. **Find the block mass.**
+
+   $$m_b=\rho_bV=600(0.010)=6.0\,\mathrm{kg}$$
+
+2. **Balance the full supported weight.**
+
+   $$\rho_wgV_{\mathrm{sub}}=(m_b+m_L)g$$
+
+3. **Find displaced volume.**
+
+   $$V_{\mathrm{sub}}=\frac{6.0+2.0}{1000}=0.0080\,\mathrm{m^3}$$
+
+4. **Divide by the block volume.** The result is below one, so the stated floating state is possible.
+
+   $$f=\frac{0.0080}{0.010}=0.80$$
+
+5. **State the result.**
+
+   $$0.8$$
+
+**Answer:** $0.8$
+
+**Why the other answers do not work:**
+
+- **$0.6$** — This is the unloaded fraction and omits the cargo.
+- **$0.2$** — This counts only the added cargo.
+- **$1.25$** — A fraction above one would not describe this floating equilibrium.
+
+#### Situation 8: A bottom-tether force
+
+A sealed 0.0040 m³ body has mass 2.0 kg and is fully submerged in freshwater. A tether to the bottom holds it at rest. Water density is 1000 kg/m³. Find the tether tension magnitude using $g=9.81\,\mathrm{m\,s^{-2}}$.
+
+1. **Find buoyancy.**
+
+   $$F_B=1000(9.81)(0.0040)=39.24\,\mathrm N$$
+
+2. **Find weight.**
+
+   $$mg=2.0(9.81)=19.62\,\mathrm N$$
+
+3. **Apply upward-positive equilibrium.**
+
+   $$F_B-mg-T=0$$
+
+4. **Isolate the downward tether magnitude.** A positive downward tension is consistent with a body that would otherwise rise.
+
+   $$T=39.24-19.62$$
+
+5. **State the result.**
+
+   $$19.62\,\mathrm N$$
+
+**Answer:** $19.62\,\mathrm N$
+
+**Why the other answers do not work:**
+
+- **$58.86\,\mathrm N$** — Adding buoyancy and weight ignores that both weight and the tether oppose buoyancy.
+- **$-19.62\,\mathrm N$** — This sign would correspond to an incorrectly assumed upward tether force.
+- **$39.24\,\mathrm N$** — This gives buoyancy alone, not the additional downward tether force.
+
+#### Situation 9: Hydraulic force and displacement
+
+An ideal lift uses piston diameters 2.0 cm and 10.0 cm. An input force of 120 N moves the small piston down 0.25 m. Ignore weights and elevation differences. How far does the large piston rise?
+
+1. **Find the area ratio.**
+
+   $$\frac{A_2}{A_1}=\left(\frac{10.0}{2.0}\right)^2=25$$
+
+2. **Use displaced-volume equality.**
+
+   $$A_1d_1=A_2d_2\quad\Longrightarrow\quad d_2=\frac{d_1}{25}$$
+
+3. **Substitute the input travel.** The force is multiplied by 25, but the travel is divided by 25.
+
+   $$d_2=\frac{0.25}{25}$$
+
+4. **Check work consistency.**
+
+   $$F_2=3000\,\mathrm N,\quad 120(0.25)=3000(0.010)=30\,\mathrm J$$
+
+5. **State the result.**
+
+   $$0.01\,\mathrm m$$
+
+**Answer:** $0.01\,\mathrm m$
+
+**Why the other answers do not work:**
+
+- **$0.05\,\mathrm m$** — This uses the diameter ratio instead of its square.
+- **$6.25\,\mathrm m$** — This multiplies travel by the area ratio rather than dividing.
+- **$0.25\,\mathrm m$** — Equal displaced volumes do not mean equal piston travel.
+
+#### Situation 10: Apparent weight identifies density
+
+A uniform object weighs 30 N in air and has an apparent weight of 18 N while fully submerged in water. Ignore air buoyancy. Water density is 1000 kg/m³. Find the object’s density.
+
+1. **Identify the buoyant force.**
+
+   $$F_B=W-T=30-18=12\,\mathrm N$$
+
+2. **Write weight and buoyancy for the same volume.**
+
+   $$W=\rho_oVg,\qquad F_B=\rho_wVg$$
+
+3. **Eliminate volume and gravity.**
+
+   $$\rho_o=\rho_w\frac{W}{W-T}$$
+
+4. **Substitute.** The density exceeds water’s density, consistent with needing an upward support string.
+
+   $$\rho_o=1000\frac{30}{12}$$
+
+5. **State the result.**
+
+   $$2500\,\mathrm{kg\,m^{-3}}$$
+
+**Answer:** $2500\,\mathrm{kg\,m^{-3}}$
+
+**Why the other answers do not work:**
+
+- **$1500\,\mathrm{kg\,m^{-3}}$** — Using the submerged tension as the actual weight gives the wrong mass.
+- **$600\,\mathrm{kg\,m^{-3}}$** — This confuses an apparent-weight fraction with a density ratio.
+- **$1666.67\,\mathrm{kg\,m^{-3}}$** — The required ratio uses the loss of weight, not the remaining apparent weight.
+
